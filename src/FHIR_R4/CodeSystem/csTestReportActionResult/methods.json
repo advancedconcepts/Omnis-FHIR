@@ -1,0 +1,61 @@
+[
+	{
+		"name": "$pass",
+		"ident": 0,
+		"order": 1,
+		"desc": "The action was skipped.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$skip",
+		"ident": 1,
+		"order": 2,
+		"desc": "The action failed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$fail",
+		"ident": 2,
+		"order": 3,
+		"desc": "The action passed but with warnings.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$warning",
+		"ident": 3,
+		"order": 4,
+		"desc": "The action encountered a fatal error and the engine was unable to process.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$error",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

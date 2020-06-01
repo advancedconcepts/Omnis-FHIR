@@ -1,0 +1,6 @@
+Do inherited
+Calculate variantType as pValue.$variantType()
+Calculate exact as pValue.$exact()
+Calculate length as pValue.$length()
+Calculate outer as pValue.$outer()
+Calculate inner as pValue.$inner()

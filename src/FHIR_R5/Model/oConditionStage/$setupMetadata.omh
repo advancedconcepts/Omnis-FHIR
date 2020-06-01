@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("summary","summary",0,"1",38,"CodeableConcept")
+Do pElements.$add("assessment","assessment",0,"-1",38,"Reference")
+Do pElements.$add("type","::type",0,"1",38,"CodeableConcept")

@@ -1,0 +1,61 @@
+[
+	{
+		"name": "$advstorage",
+		"ident": 0,
+		"order": 1,
+		"desc": "The product was stored at a temperature inconsistent with manufacturer guidelines potentially reducing the effectiveness of the product.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$coldchbrk",
+		"ident": 1,
+		"order": 2,
+		"desc": "The product was administered after the expiration date associated with lot of vaccine.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$explot",
+		"ident": 2,
+		"order": 3,
+		"desc": "The product was administered at a time inconsistent with the documented schedule.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$outsidesched",
+		"ident": 3,
+		"order": 4,
+		"desc": "The product administered has been recalled by the manufacturer.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$prodrecall",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,4 @@
+If subunit.$validref()=kFalse
+	Calculate subunit as $clib.$classes.oSubstanceNucleicAcidSubunit.$newref()
+End If
+Quit method subunit

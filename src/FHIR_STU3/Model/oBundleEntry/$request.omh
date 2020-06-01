@@ -1,0 +1,4 @@
+If request.$validref()=kFalse
+	Calculate request as $clib.$classes.oBundleEntryRequest.$newref()
+End If
+Quit method request

@@ -1,0 +1,283 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$::type",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: Code to indicate the nature of the payment, adjustment, funds advance, etc.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Code to indicate the nature of the payment, adjustment, funds advance, etc."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$request",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: The claim or financial resource.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$request.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The claim or financial resource."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$response",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: The claim response resource.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$response.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The claim response resource."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$submitter",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: The Organization which submitted the claim or financial transaction.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$submitter.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The Organization which submitted the claim or financial transaction."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$payee",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: The organization which is receiving the payment.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$payee.$assign",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The organization which is receiving the payment."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$date",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: The date of the invoice or financial resource.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$date.$assign",
+		"ident": 15,
+		"order": 16,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kDate",
+				"subtype": "kDate2000",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The date of the invoice or financial resource."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$amount",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: Amount paid for this detail.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$amount.$assign",
+		"ident": 17,
+		"order": 18,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMoney",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Amount paid for this detail."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

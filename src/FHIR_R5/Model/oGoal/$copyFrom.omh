@@ -1,0 +1,45 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate lifecycleStatus as pValue.$lifecycleStatus()
+Calculate achievementStatus as pValue.$achievementStatus()
+Do category.$clear()
+Calculate list as pValue.$category()
+Do category.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate continuous as pValue.$continuous()
+Calculate priority as pValue.$priority()
+Calculate description as pValue.$description()
+Calculate subject as pValue.$subject()
+Do target.$clear()
+Calculate list as pValue.$target()
+Do target.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate statusDate as pValue.$statusDate()
+Calculate statusReason as pValue.$statusReason()
+Calculate expressedBy as pValue.$expressedBy()
+Do addresses.$clear()
+Calculate list as pValue.$addresses()
+Do addresses.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do note.$clear()
+Calculate list as pValue.$note()
+Do note.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do outcomeCode.$clear()
+Calculate list as pValue.$outcomeCode()
+Do outcomeCode.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do outcomeReference.$clear()
+Calculate list as pValue.$outcomeReference()
+Do outcomeReference.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

@@ -1,0 +1,6 @@
+Do inherited
+Do pElements.$add("type","::type",1,"1",21,"code")
+Do pElements.$add("value","value",1,"1",21,"string")
+Do pElements.$add("preferred","preferred",0,"1",22,"boolean")
+Do pElements.$add("comment","comment",0,"1",21,"string")
+Do pElements.$add("period","period",0,"1",38,"Period")

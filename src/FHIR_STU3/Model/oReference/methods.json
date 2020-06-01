@@ -1,0 +1,171 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$reference",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: A reference to a location at which the other resource is found. The reference may be a relative reference, in which case it is relative to the service base URL, or an absolute URL that resolves to the location where the resource is found. The reference may be version specific or not. If the reference is not to a FHIR RESTful server, then it should be assumed to be version specific. Internal fragment references (start with '#') refer to contained resources.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$reference.$assign",
+		"ident": 6,
+		"order": 7,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A reference to a location at which the other resource is found. The reference may be a relative reference, in which case it is relative to the service base URL, or an absolute URL that resolves to the location where the resource is found. The reference ma"
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$identifier",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: An identifier for the other resource. This is used when there is no way to reference the other resource directly, either because the entity is not available through a FHIR server, or because there is no way for the author of the resource to convert a known identifier to an actual location. There is no requirement that a Reference.identifier point to something that is actually exposed as a FHIR instance, but it SHALL point to a business concept that would be expected to be exposed as a FHIR instance, and that instance would need to be of a FHIR resource type allowed by the reference.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$identifier.$assign",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1,
+				"desc": "An identifier for the other resource. This is used when there is no way to reference the other resource directly, either because the entity is not available through a FHIR server, or because there is no way for the author of the resource to convert a know"
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$display",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: Plain text narrative that identifies the resource in addition to the resource reference.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$display.$assign",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Plain text narrative that identifies the resource in addition to the resource reference."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

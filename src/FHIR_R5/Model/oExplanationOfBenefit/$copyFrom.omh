@@ -1,0 +1,99 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate status as pValue.$status()
+Calculate type as pValue.$type()
+Calculate subType as pValue.$subtype()
+Calculate use as pValue.$use()
+Calculate patient as pValue.$patient()
+Calculate billablePeriod as pValue.$billablePeriod()
+Calculate created as pValue.$created()
+Calculate enterer as pValue.$enterer()
+Calculate insurer as pValue.$insurer()
+Calculate provider as pValue.$provider()
+Calculate priority as pValue.$priority()
+Calculate fundsReserveRequested as pValue.$fundsReserveRequested()
+Calculate fundsReserve as pValue.$fundsReserve()
+Do related.$clear()
+Calculate list as pValue.$related()
+Do related.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate prescription as pValue.$prescription()
+Calculate originalPrescription as pValue.$originalPrescription()
+Calculate payee as pValue.$payee()
+Calculate referral as pValue.$referral()
+Calculate facility as pValue.$facility()
+Calculate claim as pValue.$claim()
+Calculate claimResponse as pValue.$claimResponse()
+Calculate outcome as pValue.$outcome()
+Calculate disposition as pValue.$disposition()
+Do preAuthRef.$clear()
+Calculate list as pValue.$preAuthRef()
+Do preAuthRef.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do preAuthRefPeriod.$clear()
+Calculate list as pValue.$preAuthRefPeriod()
+Do preAuthRefPeriod.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do careTeam.$clear()
+Calculate list as pValue.$careTeam()
+Do careTeam.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do supportingInfo.$clear()
+Calculate list as pValue.$supportingInfo()
+Do supportingInfo.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do diagnosis.$clear()
+Calculate list as pValue.$diagnosis()
+Do diagnosis.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do procedure.$clear()
+Calculate list as pValue.$procedure()
+Do procedure.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate precedence as pValue.$precedence()
+Do insurance.$clear()
+Calculate list as pValue.$insurance()
+Do insurance.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate accident as pValue.$accident()
+Do item.$clear()
+Calculate list as pValue.$item()
+Do item.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do addItem.$clear()
+Calculate list as pValue.$addItem()
+Do addItem.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do total.$clear()
+Calculate list as pValue.$total()
+Do total.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate payment as pValue.$payment()
+Calculate formCode as pValue.$formCode()
+Calculate form as pValue.$form()
+Do processNote.$clear()
+Calculate list as pValue.$processNote()
+Do processNote.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate benefitPeriod as pValue.$benefitPeriod()
+Do benefitBalance.$clear()
+Calculate list as pValue.$benefitBalance()
+Do benefitBalance.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

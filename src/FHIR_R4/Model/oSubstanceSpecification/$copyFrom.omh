@@ -1,0 +1,43 @@
+Do inherited
+Calculate identifier as pValue.$identifier()
+Calculate type as pValue.$type()
+Calculate status as pValue.$status()
+Calculate domain as pValue.$domain()
+Calculate description as pValue.$description()
+Do source.$clear()
+Calculate list as pValue.$source()
+Do source.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate comment as pValue.$comment()
+Do moiety.$clear()
+Calculate list as pValue.$moiety()
+Do moiety.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do property.$clear()
+Calculate list as pValue.$property()
+Do property.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate referenceInformation as pValue.$referenceInformation()
+Calculate structure as pValue.$structure()
+Do code.$clear()
+Calculate list as pValue.$code()
+Do code.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do name.$clear()
+Calculate list as pValue.$name()
+Do name.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do relationship.$clear()
+Calculate list as pValue.$relationship()
+Do relationship.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate nucleicAcid as pValue.$nucleicAcid()
+Calculate polymer as pValue.$polymer()
+Calculate protein as pValue.$protein()
+Calculate sourceMaterial as pValue.$sourceMaterial()

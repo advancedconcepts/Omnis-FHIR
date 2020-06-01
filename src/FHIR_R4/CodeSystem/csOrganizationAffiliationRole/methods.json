@@ -1,0 +1,97 @@
+[
+	{
+		"name": "$provider",
+		"ident": 0,
+		"order": 1,
+		"desc": "An organization such as a public health agency, community/social services provider, etc.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$agency",
+		"ident": 1,
+		"order": 2,
+		"desc": "An organization providing research-related services such as conducting research, recruiting research participants, analyzing data, etc.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$research",
+		"ident": 2,
+		"order": 3,
+		"desc": "An organization providing reimbursement, payment, or related services",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$payer",
+		"ident": 3,
+		"order": 4,
+		"desc": "An organization providing diagnostic testing/laboratory services",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$diagnostics",
+		"ident": 4,
+		"order": 5,
+		"desc": "An organization that provides medical supplies (e.g. medical devices, equipment, pharmaceutical products, etc.)",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$supplier",
+		"ident": 5,
+		"order": 6,
+		"desc": "An organization that facilitates electronic clinical data exchange between entities",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$HIE/HIO",
+		"ident": 6,
+		"order": 7,
+		"desc": "A type of non-ownership relationship between entities (encompasses partnerships, collaboration, joint ventures, etc.)",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$member",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

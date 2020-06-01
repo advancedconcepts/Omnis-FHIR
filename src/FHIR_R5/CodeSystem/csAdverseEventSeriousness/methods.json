@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$non-serious",
+		"ident": 0,
+		"order": 1,
+		"desc": "This event is considered to have the potential for persistent or costly injury or consequence.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$serious",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

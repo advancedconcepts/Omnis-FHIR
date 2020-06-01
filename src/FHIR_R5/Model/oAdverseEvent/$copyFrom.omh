@@ -1,0 +1,62 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate status as pValue.$status()
+Calculate actuality as pValue.$actuality()
+Do category.$clear()
+Calculate list as pValue.$category()
+Do category.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate code as pValue.$code()
+Calculate subject as pValue.$subject()
+Calculate encounter as pValue.$encounter()
+Calculate detected as pValue.$detected()
+Calculate recordedDate as pValue.$recordedDate()
+Do resultingCondition.$clear()
+Calculate list as pValue.$resultingCondition()
+Do resultingCondition.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate location as pValue.$location()
+Calculate seriousness as pValue.$seriousness()
+Calculate outcome as pValue.$outcome()
+Calculate recorder as pValue.$recorder()
+Do participant.$clear()
+Calculate list as pValue.$participant()
+Do participant.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do suspectEntity.$clear()
+Calculate list as pValue.$suspectEntity()
+Do suspectEntity.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do contributingFactor.$clear()
+Calculate list as pValue.$contributingFactor()
+Do contributingFactor.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do preventiveAction.$clear()
+Calculate list as pValue.$preventiveAction()
+Do preventiveAction.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do mitigatingAction.$clear()
+Calculate list as pValue.$mitigatingAction()
+Do mitigatingAction.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do supportingInfo.$clear()
+Calculate list as pValue.$supportingInfo()
+Do supportingInfo.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do study.$clear()
+Calculate list as pValue.$study()
+Do study.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

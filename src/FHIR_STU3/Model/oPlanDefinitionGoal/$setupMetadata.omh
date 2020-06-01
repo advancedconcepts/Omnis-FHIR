@@ -1,0 +1,8 @@
+Do inherited
+Do pElements.$add("category","category",0,"1",38,"CodeableConcept")
+Do pElements.$add("description","description",1,"1",38,"CodeableConcept")
+Do pElements.$add("priority","priority",0,"1",38,"CodeableConcept")
+Do pElements.$add("start","start",0,"1",38,"CodeableConcept")
+Do pElements.$add("addresses","addresses",0,"-1",38,"CodeableConcept")
+Do pElements.$add("documentation","documentation",0,"-1",38,"RelatedArtifact")
+Do pElements.$add("target","target",0,"-1",38,"")

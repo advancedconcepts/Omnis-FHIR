@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$action-a",
+		"ident": 0,
+		"order": 1,
+		"desc": "Definition for Action B",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$action-b",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

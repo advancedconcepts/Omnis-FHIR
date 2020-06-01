@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$not-supported",
+		"ident": 0,
+		"order": 1,
+		"desc": "Conditional deletes are supported, but only single resources at a time.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$single",
+		"ident": 1,
+		"order": 2,
+		"desc": "Conditional deletes are supported, and multiple resources can be deleted in a single interaction.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$multiple",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

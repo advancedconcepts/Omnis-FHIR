@@ -1,0 +1,7 @@
+Do inherited
+Do contact.$define(contact_)
+Do useContext.$define(useContext_)
+Do jurisdiction.$define(jurisdiction_)
+Do fhirVersion.$define(fhirVersion_)
+Do dependsOn.$define(dependsOn_)
+Do global.$define(global_)

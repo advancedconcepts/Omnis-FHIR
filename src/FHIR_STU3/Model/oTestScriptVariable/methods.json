@@ -1,0 +1,314 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$::name",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: Descriptive name for this variable.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::name.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Descriptive name for this variable."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$defaultValue",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: A default, hard-coded, or user-defined value for this variable.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$defaultValue.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A default, hard-coded, or user-defined value for this variable."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$description",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: A free text natural language description of the variable and its purpose.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$description.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A free text natural language description of the variable and its purpose."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$expression",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: The fluentpath expression to evaluate against the fixture body. When variables are defined, only one of either expression, headerField or path must be specified.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$expression.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The fluentpath expression to evaluate against the fixture body. When variables are defined, only one of either expression, headerField or path must be specified."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$headerField",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: Will be used to grab the HTTP header field value from the headers that sourceId is pointing to.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$headerField.$assign",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Will be used to grab the HTTP header field value from the headers that sourceId is pointing to."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$hint",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: Displayable text string with hint help information to the user when entering a default value.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$hint.$assign",
+		"ident": 15,
+		"order": 16,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Displayable text string with hint help information to the user when entering a default value."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$path",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: XPath or JSONPath to evaluate against the fixture body.  When variables are defined, only one of either expression, headerField or path must be specified.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$path.$assign",
+		"ident": 17,
+		"order": 18,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "XPath or JSONPath to evaluate against the fixture body.  When variables are defined, only one of either expression, headerField or path must be specified."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sourceId",
+		"ident": 18,
+		"order": 19,
+		"desc": "Returns: Fixture to evaluate the XPath/JSONPath expression or the headerField  against within this variable.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sourceId.$assign",
+		"ident": 19,
+		"order": 20,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Fixture to evaluate the XPath/JSONPath expression or the headerField  against within this variable."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

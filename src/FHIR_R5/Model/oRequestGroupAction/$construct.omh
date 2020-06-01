@@ -1,0 +1,6 @@
+Do inherited
+Do code.$define(code_)
+Do documentation.$define(documentation_)
+Do condition.$define(condition_)
+Do relatedAction.$define(relatedAction_)
+Do participant.$define(participant_)

@@ -1,0 +1,233 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$description",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: A brief, natural language description of the condition that effectively communicates the intended semantics.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$description.$assign",
+		"ident": 6,
+		"order": 7,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A brief, natural language description of the condition that effectively communicates the intended semantics."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::name",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: A short name assigned to the expression to allow for multiple reuse of the expression in the context where it is defined.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::name.$assign",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A short name assigned to the expression to allow for multiple reuse of the expression in the context where it is defined."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$language",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: The media type of the language for the expression.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$language.$assign",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The media type of the language for the expression."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$expression",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: An expression in the specified language that returns a value.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$expression.$assign",
+		"ident": 12,
+		"order": 13,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "An expression in the specified language that returns a value."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$reference",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: A URI that defines where the expression is found.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$reference.$assign",
+		"ident": 14,
+		"order": 15,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A URI that defines where the expression is found."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

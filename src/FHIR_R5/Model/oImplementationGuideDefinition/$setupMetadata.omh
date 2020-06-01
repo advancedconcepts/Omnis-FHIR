@@ -1,0 +1,6 @@
+Do inherited
+Do pElements.$add("grouping","grouping",0,"-1",38,"")
+Do pElements.$add("resource","resource",1,"-1",38,"")
+Do pElements.$add("page","page",0,"1",38,"")
+Do pElements.$add("parameter","parameter",0,"-1",38,"")
+Do pElements.$add("template","template",0,"-1",38,"")

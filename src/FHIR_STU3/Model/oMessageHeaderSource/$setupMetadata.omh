@@ -1,0 +1,6 @@
+Do inherited
+Do pElements.$add("name","::name",0,"1",21,"string")
+Do pElements.$add("software","software",0,"1",21,"string")
+Do pElements.$add("version","::version",0,"1",21,"string")
+Do pElements.$add("contact","contact",0,"1",38,"ContactPoint")
+Do pElements.$add("endpoint","endpoint",1,"1",21,"uri")

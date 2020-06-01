@@ -1,0 +1,54 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do instantiatesCanonical.$clear()
+Calculate list as pValue.$instantiatesCanonical()
+Do instantiatesCanonical.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do instantiatesUri.$clear()
+Calculate list as pValue.$instantiatesUri()
+Do instantiatesUri.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do instantiates.$clear()
+Calculate list as pValue.$instantiates()
+Do instantiates.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate status as pValue.$status()
+Calculate intent as pValue.$intent()
+Calculate patient as pValue.$patient()
+Calculate encounter as pValue.$encounter()
+Calculate dateTime as pValue.$dateTime()
+Calculate orderer as pValue.$orderer()
+Do allergyIntolerance.$clear()
+Calculate list as pValue.$allergyIntolerance()
+Do allergyIntolerance.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do foodPreferenceModifier.$clear()
+Calculate list as pValue.$foodPreferenceModifier()
+Do foodPreferenceModifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do excludeFoodModifier.$clear()
+Calculate list as pValue.$excludeFoodModifier()
+Do excludeFoodModifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate oralDiet as pValue.$oralDiet()
+Do supplement.$clear()
+Calculate list as pValue.$supplement()
+Do supplement.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate enteralFormula as pValue.$enteralFormula()
+Do note.$clear()
+Calculate list as pValue.$note()
+Do note.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

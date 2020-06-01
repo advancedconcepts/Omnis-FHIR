@@ -1,0 +1,12 @@
+Do inherited
+Calculate target as pValue.$target()
+Calculate type as pValue.$type()
+Calculate interaction as pValue.$interaction()
+Calculate organism as pValue.$organism()
+Calculate organismType as pValue.$organismType()
+Calculate amountType as pValue.$amountType()
+Do source.$clear()
+Calculate list as pValue.$source()
+Do source.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

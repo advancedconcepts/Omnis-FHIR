@@ -1,0 +1,179 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "category",
+			"order": 3,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Code to identify the general type of benefits under which products and services are provided."
+		},
+		{
+			"name": "factor",
+			"order": 11,
+			"type": "kNumber",
+			"subtype": "kFloatdp",
+			"sublen": 0,
+			"desc": "A real number that represents a multiplier used in determining the overall value of services delivered and/or goods received. The concept of a Factor allows for a discount or surcharge multiplier to be applied to a monetary amount."
+		},
+		{
+			"name": "modifier",
+			"order": 5,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "modifier_",
+			"order": 6,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Item typification or modifiers codes to convey additional context for the product or service."
+		},
+		{
+			"name": "net",
+			"order": 12,
+			"type": "kObjectref",
+			"subtype": "oMoney",
+			"sublen": 0,
+			"desc": "The quantity times the unit price for an additional service or product or charge."
+		},
+		{
+			"name": "noteNumber",
+			"order": 15,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "noteNumber_",
+			"order": 16,
+			"type": "kInteger",
+			"subtype": "k32bitint",
+			"sublen": 0,
+			"desc": "The numbers associated with notes below which apply to the adjudication of this item."
+		},
+		{
+			"name": "productOrService",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "When the value is a group code then this item collects a set of related claim details, otherwise this contains the product, service, drug or other billing code for the item."
+		},
+		{
+			"name": "programCode",
+			"order": 7,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "programCode_",
+			"order": 8,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Identifies the program under which this may be recovered."
+		},
+		{
+			"name": "quantity",
+			"order": 9,
+			"type": "kObjectref",
+			"subtype": "oQuantity",
+			"sublen": 0,
+			"desc": "The number of repetitions of a service or product."
+		},
+		{
+			"name": "revenue",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The type of revenue or cost center providing the product and/or service."
+		},
+		{
+			"name": "sequence",
+			"order": 1,
+			"type": "kInteger",
+			"subtype": "k32bitint",
+			"sublen": 0,
+			"desc": "A claim detail line. Either a simple (a product or service) or a 'group' of sub-details which are simple items."
+		},
+		{
+			"name": "subDetail",
+			"order": 17,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "subDetail_",
+			"order": 18,
+			"type": "kObjectref",
+			"subtype": "oExplanationOfBenefitItemDetailSubDetail",
+			"sublen": 0,
+			"desc": "Third-tier of goods and services."
+		},
+		{
+			"name": "udi",
+			"order": 13,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "udi_",
+			"order": 14,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Unique Device Identifiers associated with this line item."
+		},
+		{
+			"name": "unitPrice",
+			"order": 10,
+			"type": "kObjectref",
+			"subtype": "oMoney",
+			"sublen": 0,
+			"desc": "If the item is not a group then this is the fee for the product or service, otherwise this is the total of the fees for the details of the group."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:41:41",
+		"desc": "Second-tier of goods and services.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:24",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

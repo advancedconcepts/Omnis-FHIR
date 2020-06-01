@@ -1,0 +1,4 @@
+If editor.$validref()=kFalse
+	Calculate editor as $clib.$classes.oContactDetail.$newref()
+End If
+Quit method editor

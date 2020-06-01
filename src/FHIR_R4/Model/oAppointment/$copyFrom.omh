@@ -1,0 +1,67 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate status as pValue.$status()
+Calculate cancelationReason as pValue.$cancelationReason()
+Do serviceCategory.$clear()
+Calculate list as pValue.$serviceCategory()
+Do serviceCategory.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do serviceType.$clear()
+Calculate list as pValue.$serviceType()
+Do serviceType.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do specialty.$clear()
+Calculate list as pValue.$specialty()
+Do specialty.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate appointmentType as pValue.$appointmentType()
+Do reasonCode.$clear()
+Calculate list as pValue.$reasonCode()
+Do reasonCode.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do reasonReference.$clear()
+Calculate list as pValue.$reasonReference()
+Do reasonReference.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate priority as pValue.$priority()
+Calculate description as pValue.$description()
+Do supportingInformation.$clear()
+Calculate list as pValue.$supportingInformation()
+Do supportingInformation.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate start as pValue.$start()
+Calculate end as pValue.$end()
+Calculate minutesDuration as pValue.$minutesDuration()
+Do slot.$clear()
+Calculate list as pValue.$slot()
+Do slot.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate created as pValue.$created()
+Calculate comment as pValue.$comment()
+Calculate patientInstruction as pValue.$patientInstruction()
+Do basedOn.$clear()
+Calculate list as pValue.$basedOn()
+Do basedOn.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do participant.$clear()
+Calculate list as pValue.$participant()
+Do participant.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do requestedPeriod.$clear()
+Calculate list as pValue.$requestedPeriod()
+Do requestedPeriod.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

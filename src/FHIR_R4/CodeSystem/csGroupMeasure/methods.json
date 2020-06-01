@@ -1,0 +1,73 @@
+[
+	{
+		"name": "$mean",
+		"ident": 0,
+		"order": 1,
+		"desc": "Aggregated using Median of participant values.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$median",
+		"ident": 1,
+		"order": 2,
+		"desc": "Aggregated using Mean of study mean values.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$mean-of-mean",
+		"ident": 2,
+		"order": 3,
+		"desc": "Aggregated using Mean of study median values.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$mean-of-median",
+		"ident": 3,
+		"order": 4,
+		"desc": "Aggregated using Median of study mean values.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$median-of-mean",
+		"ident": 4,
+		"order": 5,
+		"desc": "Aggregated using Median of study median values.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$median-of-median",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

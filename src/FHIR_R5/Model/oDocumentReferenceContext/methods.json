@@ -1,0 +1,342 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$encounter",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: Describes the clinical encounter or type of care that the document content is associated with.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addencounter",
+		"ident": 5,
+		"order": 6,
+		"desc": "Describes the clinical encounter or type of care that the document content is associated with.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Describes the clinical encounter or type of care that the document content is associated with."
+			}
+		]
+	},
+	{
+		"name": "$event",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: This list of codes represents the main clinical acts, such as a colonoscopy or an appendectomy, being documented. In some cases, the event is inherent in the type Code, such as a \"History and Physical Report\" in which the procedure being documented is necessarily a \"History and Physical\" act.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addevent",
+		"ident": 7,
+		"order": 8,
+		"desc": "This list of codes represents the main clinical acts, such as a colonoscopy or an appendectomy, being documented. In some cases, the event is inherent in the type Code, such as a \"History and Physical Report\" in which the procedure being documented is necessarily a \"History and Physical\" act.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "This list of codes represents the main clinical acts, such as a colonoscopy or an appendectomy, being documented. In some cases, the event is inherent in the type Code, such as a \"History and Physical Report\" in which the procedure being documented is nec"
+			}
+		]
+	},
+	{
+		"name": "$period",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: The time period over which the service that is described by the document was provided.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$period.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oPeriod",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The time period over which the service that is described by the document was provided."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$facilityType",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: The kind of facility where the patient was seen.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$facilityType.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The kind of facility where the patient was seen."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$practiceSetting",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: This property may convey specifics about the practice setting where the content was created, often reflecting the clinical specialty.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$practiceSetting.$assign",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "This property may convey specifics about the practice setting where the content was created, often reflecting the clinical specialty."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sourcePatientInfo",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: The Patient Information as known when the document was published. May be a reference to a version specific, or contained.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sourcePatientInfo.$assign",
+		"ident": 15,
+		"order": 16,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The Patient Information as known when the document was published. May be a reference to a version specific, or contained."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$related",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: Related identifiers or resources associated with the DocumentReference.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addrelated",
+		"ident": 17,
+		"order": 18,
+		"desc": "Related identifiers or resources associated with the DocumentReference.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Related identifiers or resources associated with the DocumentReference."
+			}
+		]
+	},
+	{
+		"name": "$basedOn",
+		"ident": 18,
+		"order": 19,
+		"desc": "Returns: A procedure that is fulfilled in whole or in part by the creation of this media.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addbasedOn",
+		"ident": 19,
+		"order": 20,
+		"desc": "A procedure that is fulfilled in whole or in part by the creation of this media.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "A procedure that is fulfilled in whole or in part by the creation of this media."
+			}
+		]
+	}
+]

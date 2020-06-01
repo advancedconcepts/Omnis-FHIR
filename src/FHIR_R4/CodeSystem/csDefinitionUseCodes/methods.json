@@ -1,0 +1,73 @@
+[
+	{
+		"name": "$fhir-structure",
+		"ident": 0,
+		"order": 1,
+		"desc": "This structure is intended to be treated like a FHIR resource (e.g. on the FHIR API)",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$custom-resource",
+		"ident": 1,
+		"order": 2,
+		"desc": "This structure captures an analysis of a domain",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$dam",
+		"ident": 2,
+		"order": 3,
+		"desc": "This structure represents and existing structure (e.g. CDA, HL7 v2)",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$wire-format",
+		"ident": 3,
+		"order": 4,
+		"desc": "This structure captures an analysis of a domain",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$archetype",
+		"ident": 4,
+		"order": 5,
+		"desc": "This structure is a template (n.b: 'template' has many meanings)",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$template",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,4 @@
+Do inherited
+Calculate location as pValue.$location()
+Calculate status as pValue.$status()
+Calculate period as pValue.$period()

@@ -1,0 +1,4 @@
+If protein.$validref()=kFalse
+	Calculate protein as $clib.$classes.oReference.$newref()
+End If
+Quit method protein

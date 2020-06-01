@@ -1,0 +1,25 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate status as pValue.$status()
+Calculate type as pValue.$type()
+Calculate name as pValue.$name()
+Calculate subject as pValue.$subject()
+Calculate period as pValue.$period()
+Calculate active as pValue.$active()
+Calculate balance as pValue.$balance()
+Do coverage.$clear()
+Calculate list as pValue.$coverage()
+Do coverage.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate owner as pValue.$owner()
+Calculate description as pValue.$description()
+Do guarantor.$clear()
+Calculate list as pValue.$guarantor()
+Do guarantor.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

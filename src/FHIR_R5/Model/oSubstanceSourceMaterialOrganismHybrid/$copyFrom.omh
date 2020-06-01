@@ -1,0 +1,6 @@
+Do inherited
+Calculate maternalOrganismId as pValue.$maternalOrganismId()
+Calculate maternalOrganismName as pValue.$maternalOrganismName()
+Calculate paternalOrganismId as pValue.$paternalOrganismId()
+Calculate paternalOrganismName as pValue.$paternalOrganismName()
+Calculate hybridType as pValue.$hybridType()

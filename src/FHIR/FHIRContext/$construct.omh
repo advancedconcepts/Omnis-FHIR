@@ -1,0 +1,20 @@
+If isnumber(left(pVersion,1))
+	If left(pVersion,3)<1.0
+		OK message Error {Unsupported FHIRVersion [pVersion] }
+		Quit method
+	Else If left(pVersion,3)<1.1
+		;  # DSTU2
+		Set reference iFHIRVersionLib to $libs.fhir_dstu2.$ref
+	Else If left(pVersion,3)<3.2
+		;  # STU3
+		Set reference iFHIRVersionLib to $libs.fhir_stu3.$ref
+	Else If left(pVersion,3)<4.1
+		;  # R4
+		Set reference iFHIRVersionLib to $libs.fhir_r4.$ref
+	Else
+		;  # R5
+		Set reference iFHIRVersionLib to $libs.fhir_r5.$ref
+	End If
+Else
+	Set reference iFHIRVersionLib to $libs.fhir_[low(pVersion)].$ref
+End If

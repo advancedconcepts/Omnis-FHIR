@@ -1,0 +1,4 @@
+If address.$validref()=kFalse
+	Calculate address as $clib.$classes.oAddress.$newref()
+End If
+Quit method address

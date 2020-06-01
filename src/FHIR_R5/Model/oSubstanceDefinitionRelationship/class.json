@@ -1,0 +1,87 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "amountRatioHighLimit",
+			"order": 3,
+			"type": "kObjectref",
+			"subtype": "oRatio",
+			"sublen": 0,
+			"desc": "For use when the numeric has an uncertain range."
+		},
+		{
+			"name": "amountType",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "An operator for the amount, for example \"average\", \"approximately\", \"less than\"."
+		},
+		{
+			"name": "isDefining",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "For example where an enzyme strongly bonds with a particular substance, this is a defining relationship for that enzyme, out of several possible substance relationships."
+		},
+		{
+			"name": "source",
+			"order": 5,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "source_",
+			"order": 6,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Supporting literature."
+		},
+		{
+			"name": "type",
+			"order": 1,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "For example \"salt to parent\", \"active moiety\", \"starting material\", \"polymorph\"."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:45:03",
+		"desc": "A link between this substance and another, with details of the relationship.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:28",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

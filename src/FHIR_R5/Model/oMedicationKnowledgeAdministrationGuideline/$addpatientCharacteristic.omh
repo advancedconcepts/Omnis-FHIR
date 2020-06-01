@@ -1,0 +1,6 @@
+Calculate objRef as $clib.$classes.oMedicationKnowledgeAdministrationGuidelinePatientCharacteristic.$newref()
+Do patientCharacteristic.$add(objRef)
+If pValue.$validref()
+	Do objRef.$copyFrom(pValue)
+End If
+Quit method objRef

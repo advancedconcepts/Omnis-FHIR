@@ -1,0 +1,4 @@
+If baseFormulaType.$validref()=kFalse
+	Calculate baseFormulaType as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method baseFormulaType

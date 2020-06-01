@@ -1,0 +1,136 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "class",
+			"order": 9,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Identifies a style or collective of coverage issues by the underwriter, for example may be used to identify a class of coverage such as a level of deductables or co-payment."
+		},
+		{
+			"name": "classDisplay",
+			"order": 10,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A short description for the class."
+		},
+		{
+			"name": "group",
+			"order": 1,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Identifies a style or collective of coverage issued by the underwriter, for example may be used to identify an employer group. May also be referred to as a Policy or Group ID."
+		},
+		{
+			"name": "groupDisplay",
+			"order": 2,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A short description for the group."
+		},
+		{
+			"name": "plan",
+			"order": 5,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Identifies a style or collective of coverage issued by the underwriter, for example may be used to identify a collection of benefits provided to employees. May be referred to as a Section or Division ID."
+		},
+		{
+			"name": "planDisplay",
+			"order": 6,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A short description for the plan."
+		},
+		{
+			"name": "subClass",
+			"order": 11,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Identifies a sub-style or sub-collective of coverage issues by the underwriter, for example may be used to identify a subclass of coverage such as a sub-level of deductables or co-payment."
+		},
+		{
+			"name": "subClassDisplay",
+			"order": 12,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A short description for the subclass."
+		},
+		{
+			"name": "subGroup",
+			"order": 3,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Identifies a style or collective of coverage issued by the underwriter, for example may be used to identify a subset of an employer group."
+		},
+		{
+			"name": "subGroupDisplay",
+			"order": 4,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A short description for the subgroup."
+		},
+		{
+			"name": "subPlan",
+			"order": 7,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Identifies a sub-style or sub-collective of coverage issued by the underwriter, for example may be used to identify a subset of a collection of benefits provided to employees."
+		},
+		{
+			"name": "subPlanDisplay",
+			"order": 8,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A short description for the subplan."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:40:00",
+		"desc": "A suite of underwrite specific classifiers, for example may be used to identify a class of coverage or employer group, Policy, Plan.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:27",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

@@ -1,0 +1,154 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "activity",
+			"order": 9,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "An activity is something that occurs over a period of time and acts upon or with entities; it may include consuming, processing, transforming, modifying, relocating, using, or generating entities."
+		},
+		{
+			"name": "agent",
+			"order": 10,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "agent_",
+			"order": 11,
+			"type": "kObjectref",
+			"subtype": "oProvenanceAgent",
+			"sublen": 0,
+			"desc": "An actor taking a role in an activity  for which it can be assigned some degree of responsibility for the activity taking place."
+		},
+		{
+			"name": "entity",
+			"order": 12,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "entity_",
+			"order": 13,
+			"type": "kObjectref",
+			"subtype": "oProvenanceEntity",
+			"sublen": 0,
+			"desc": "An entity used in this activity."
+		},
+		{
+			"name": "location",
+			"order": 6,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Where the activity occurred, if relevant."
+		},
+		{
+			"name": "policy",
+			"order": 4,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "policy_",
+			"order": 5,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Policy or plan the activity was defined by. Typically, a single activity may have multiple applicable policy documents, such as patient consent, guarantor funding, etc."
+		},
+		{
+			"name": "reason",
+			"order": 7,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "reason_",
+			"order": 8,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The reason that the activity was taking place."
+		},
+		{
+			"name": "recorded",
+			"order": 3,
+			"type": "kDate",
+			"subtype": "kDatetime",
+			"sublen": 0,
+			"desc": "The instant of time at which the activity was recorded."
+		},
+		{
+			"name": "signature",
+			"order": 14,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "signature_",
+			"order": 15,
+			"type": "kObjectref",
+			"subtype": "oSignature",
+			"sublen": 0,
+			"desc": "A digital signature on the target Reference(s). The signer should match a Provenance.agent. The purpose of the signature is indicated."
+		},
+		{
+			"name": "target",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "target_",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The Reference(s) that were generated or updated by  the activity described in this resource. A provenance can point to more than one target if multiple resources were created/updated by the same activity."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:44:59",
+		"desc": "Provenance of a resource is a record that describes entities and processes involved in producing and delivering or otherwise influencing that resource. Provenance provides a critical foundation for assessing authenticity, enabling trust, and allowing repr",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:27",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

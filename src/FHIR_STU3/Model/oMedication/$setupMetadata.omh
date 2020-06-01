@@ -1,0 +1,10 @@
+Do inherited
+Do pElements.$add("code","code",0,"1",38,"CodeableConcept")
+Do pElements.$add("status","status",0,"1",21,"code")
+Do pElements.$add("isBrand","isBrand",0,"1",22,"boolean")
+Do pElements.$add("isOverTheCounter","isOverTheCounter",0,"1",22,"boolean")
+Do pElements.$add("manufacturer","manufacturer",0,"1",38,"Reference")
+Do pElements.$add("form","form",0,"1",38,"CodeableConcept")
+Do pElements.$add("ingredient","ingredient",0,"-1",38,"")
+Do pElements.$add("package","package",0,"1",38,"")
+Do pElements.$add("image","image",0,"-1",38,"Attachment")

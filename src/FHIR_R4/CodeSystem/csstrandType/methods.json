@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$watson",
+		"ident": 0,
+		"order": 1,
+		"desc": "Crick strand of reference sequence.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$crick",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

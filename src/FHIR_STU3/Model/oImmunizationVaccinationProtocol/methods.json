@@ -1,0 +1,321 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$doseSequence",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: Nominal position in a series.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$doseSequence.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Nominal position in a series."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$description",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: Contains the description about the protocol under which the vaccine was administered.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$description.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Contains the description about the protocol under which the vaccine was administered."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$authority",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: Indicates the authority who published the protocol.  E.g. ACIP.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$authority.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Indicates the authority who published the protocol.  E.g. ACIP."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$series",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: One possible path to achieve presumed immunity against a disease - within the context of an authority.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$series.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "One possible path to achieve presumed immunity against a disease - within the context of an authority."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$seriesDoses",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: The recommended number of doses to achieve immunity.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$seriesDoses.$assign",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The recommended number of doses to achieve immunity."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$targetDisease",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: The targeted disease.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addtargetDisease",
+		"ident": 15,
+		"order": 16,
+		"desc": "The targeted disease.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "The targeted disease."
+			}
+		]
+	},
+	{
+		"name": "$doseStatus",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: Indicates if the immunization event should \"count\" against  the protocol.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$doseStatus.$assign",
+		"ident": 17,
+		"order": 18,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Indicates if the immunization event should \"count\" against  the protocol."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$doseStatusReason",
+		"ident": 18,
+		"order": 19,
+		"desc": "Returns: Provides an explanation as to why an immunization event should or should not count against the protocol.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$doseStatusReason.$assign",
+		"ident": 19,
+		"order": 20,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Provides an explanation as to why an immunization event should or should not count against the protocol."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

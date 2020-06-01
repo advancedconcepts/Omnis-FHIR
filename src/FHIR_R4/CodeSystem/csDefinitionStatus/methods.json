@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$draft",
+		"ident": 0,
+		"order": 1,
+		"desc": "The definition is considered ready for use.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$active",
+		"ident": 1,
+		"order": 2,
+		"desc": "The definition should no longer be used.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$withdrawn",
+		"ident": 2,
+		"order": 3,
+		"desc": "The authoring/source system does not know which of the status values currently applies for this resource.  Note: This concept is not to be used for \"other\" - one of the listed statuses is presumed to apply,  but the authoring/source system does not know which.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unknown",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

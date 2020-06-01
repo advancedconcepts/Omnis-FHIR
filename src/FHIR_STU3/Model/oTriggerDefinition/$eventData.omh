@@ -1,0 +1,4 @@
+If eventData.$validref()=kFalse
+	Calculate eventData as $clib.$classes.oDataRequirement.$newref()
+End If
+Quit method eventData

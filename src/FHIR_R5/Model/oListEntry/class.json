@@ -1,0 +1,72 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "date",
+			"order": 3,
+			"type": "kDate",
+			"subtype": "kDatetime",
+			"sublen": 0,
+			"desc": "When this item was added to the list."
+		},
+		{
+			"name": "deleted",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "True if this item is marked as deleted in the list."
+		},
+		{
+			"name": "flag",
+			"order": 1,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The flag allows the system constructing the list to indicate the role and significance of the item in the list."
+		},
+		{
+			"name": "item",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "A reference to the actual resource from which data was derived."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:44:52",
+		"desc": "Entries in this list.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:29",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

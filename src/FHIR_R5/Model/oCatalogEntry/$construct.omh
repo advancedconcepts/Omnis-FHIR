@@ -1,0 +1,5 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do relatedEntry.$define(relatedEntry_)
+Do note.$define(note_)
+Do billingCode.$define(billingCode_)

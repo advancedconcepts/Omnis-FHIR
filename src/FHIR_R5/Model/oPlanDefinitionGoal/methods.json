@@ -1,0 +1,304 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$category",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: Indicates a category the goal falls within.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$category.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Indicates a category the goal falls within."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$description",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: Human-readable and/or coded description of a specific desired objective of care, such as \"control blood pressure\" or \"negotiate an obstacle course\" or \"dance with child at wedding\".",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$description.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Human-readable and/or coded description of a specific desired objective of care, such as \"control blood pressure\" or \"negotiate an obstacle course\" or \"dance with child at wedding\"."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$priority",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: Identifies the expected level of importance associated with reaching/sustaining the defined goal.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$priority.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Identifies the expected level of importance associated with reaching/sustaining the defined goal."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$start",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: The event after which the goal should begin being pursued.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$start.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The event after which the goal should begin being pursued."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addresses",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: Identifies problems, conditions, issues, or concerns the goal is intended to address.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addaddresses",
+		"ident": 13,
+		"order": 14,
+		"desc": "Identifies problems, conditions, issues, or concerns the goal is intended to address.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Identifies problems, conditions, issues, or concerns the goal is intended to address."
+			}
+		]
+	},
+	{
+		"name": "$documentation",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: Didactic or other informational resources associated with the goal that provide further supporting information about the goal. Information resources can include inline text commentary and links to web resources.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$adddocumentation",
+		"ident": 15,
+		"order": 16,
+		"desc": "Didactic or other informational resources associated with the goal that provide further supporting information about the goal. Information resources can include inline text commentary and links to web resources.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oRelatedArtifact",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oRelatedArtifact",
+				"sublen": 0,
+				"desc": "Didactic or other informational resources associated with the goal that provide further supporting information about the goal. Information resources can include inline text commentary and links to web resources."
+			}
+		]
+	},
+	{
+		"name": "$target",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: Indicates what should be done and within what timeframe.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addtarget",
+		"ident": 17,
+		"order": 18,
+		"desc": "Indicates what should be done and within what timeframe.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oPlanDefinitionGoalTarget",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oPlanDefinitionGoalTarget",
+				"sublen": 0,
+				"desc": "Indicates what should be done and within what timeframe."
+			}
+		]
+	}
+]

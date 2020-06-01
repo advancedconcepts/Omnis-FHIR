@@ -1,0 +1,263 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "category",
+			"order": 3,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "High level categorization, e.g. polymer or nucleic acid, or food, chemical, biological."
+		},
+		{
+			"name": "code",
+			"order": 20,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "code_",
+			"order": 21,
+			"type": "kObjectref",
+			"subtype": "oSubstanceDefinitionCode",
+			"sublen": 0,
+			"desc": "Codes associated with the substance."
+		},
+		{
+			"name": "description",
+			"order": 5,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Textual description of the substance."
+		},
+		{
+			"name": "domain",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "If the substance applies to only human or veterinary use."
+		},
+		{
+			"name": "identifier",
+			"order": 1,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "Identifier by which this substance is known."
+		},
+		{
+			"name": "manufacturer",
+			"order": 10,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "manufacturer_",
+			"order": 11,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "A company that makes this substance."
+		},
+		{
+			"name": "moiety",
+			"order": 14,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "moiety_",
+			"order": 15,
+			"type": "kObjectref",
+			"subtype": "oSubstanceDefinitionMoiety",
+			"sublen": 0,
+			"desc": "Moiety, for structural modifications."
+		},
+		{
+			"name": "name",
+			"order": 22,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "name_",
+			"order": 23,
+			"type": "kObjectref",
+			"subtype": "oSubstanceDefinitionName",
+			"sublen": 0,
+			"desc": "Names applicable to this substance."
+		},
+		{
+			"name": "note",
+			"order": 8,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "note_",
+			"order": 9,
+			"type": "kObjectref",
+			"subtype": "oAnnotation",
+			"sublen": 0,
+			"desc": "Textual comment about this record of a substance."
+		},
+		{
+			"name": "nucleicAcid",
+			"order": 26,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Data items specific to nucleic acids."
+		},
+		{
+			"name": "polymer",
+			"order": 27,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Data items specific to polymers."
+		},
+		{
+			"name": "property",
+			"order": 16,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "property_",
+			"order": 17,
+			"type": "kObjectref",
+			"subtype": "oSubstanceDefinitionProperty",
+			"sublen": 0,
+			"desc": "General specifications for this substance, including how it is related to other substances."
+		},
+		{
+			"name": "protein",
+			"order": 28,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Data items specific to proteins."
+		},
+		{
+			"name": "referenceInformation",
+			"order": 18,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "General information detailing this substance."
+		},
+		{
+			"name": "relationship",
+			"order": 24,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "relationship_",
+			"order": 25,
+			"type": "kObjectref",
+			"subtype": "oSubstanceDefinitionRelationship",
+			"sublen": 0,
+			"desc": "A link between this substance and another, with details of the relationship."
+		},
+		{
+			"name": "source",
+			"order": 6,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "sourceMaterial",
+			"order": 29,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Material or taxonomic/anatomical source for the substance."
+		},
+		{
+			"name": "source_",
+			"order": 7,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Supporting literature."
+		},
+		{
+			"name": "status",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Status of substance within the catalogue e.g. approved."
+		},
+		{
+			"name": "structure",
+			"order": 19,
+			"type": "kObjectref",
+			"subtype": "oSubstanceDefinitionStructure",
+			"sublen": 0,
+			"desc": "Structural information."
+		},
+		{
+			"name": "supplier",
+			"order": 12,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "supplier_",
+			"order": 13,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "A company that supplies this substance."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:45:02",
+		"desc": "The detailed description of a substance, typically at a level beyond what is used for prescribing.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:28",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

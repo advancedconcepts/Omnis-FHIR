@@ -1,0 +1,8 @@
+Do inherited
+Do pElements.$add("score","score",0,"-1",26,"integer")
+Do pElements.$add("numTP","numTP",0,"-1",26,"integer")
+Do pElements.$add("numFP","numFP",0,"-1",26,"integer")
+Do pElements.$add("numFN","numFN",0,"-1",26,"integer")
+Do pElements.$add("precision","precision",0,"-1",25,"decimal")
+Do pElements.$add("sensitivity","sensitivity",0,"-1",25,"decimal")
+Do pElements.$add("fMeasure","fMeasure",0,"-1",25,"decimal")

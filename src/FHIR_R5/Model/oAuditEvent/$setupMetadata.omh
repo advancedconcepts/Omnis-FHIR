@@ -1,0 +1,13 @@
+Do inherited
+Do pElements.$add("type","::type",1,"1",38,"Coding")
+Do pElements.$add("subtype","subtype",0,"-1",38,"Coding")
+Do pElements.$add("action","action",0,"1",21,"code")
+Do pElements.$add("severity","severity",0,"1",21,"code")
+Do pElements.$add("period","period",0,"1",38,"Period")
+Do pElements.$add("recorded","recorded",1,"1",23,"instant")
+Do pElements.$add("outcome","outcome",0,"1",21,"code")
+Do pElements.$add("outcomeDesc","outcomeDesc",0,"1",21,"string")
+Do pElements.$add("purposeOfEvent","purposeOfEvent",0,"-1",38,"CodeableConcept")
+Do pElements.$add("agent","agent",1,"-1",38,"")
+Do pElements.$add("source","source",1,"1",38,"")
+Do pElements.$add("entity","entity",0,"-1",38,"")

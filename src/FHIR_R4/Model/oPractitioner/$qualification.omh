@@ -1,0 +1,4 @@
+If qualification.$validref()=kFalse
+	Calculate qualification as $clib.$classes.oPractitionerQualification.$newref()
+End If
+Quit method qualification

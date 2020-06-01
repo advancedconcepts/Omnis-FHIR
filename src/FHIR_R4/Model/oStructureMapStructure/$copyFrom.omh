@@ -1,0 +1,5 @@
+Do inherited
+Calculate url as pValue.$url()
+Calculate mode as pValue.$mode()
+Calculate alias as pValue.$alias()
+Calculate documentation as pValue.$documentation()

@@ -1,0 +1,8 @@
+Do inherited
+Do supportedProfile.$define(supportedProfile_)
+Do interaction.$define(interaction_)
+Do referencePolicy.$define(referencePolicy_)
+Do searchInclude.$define(searchInclude_)
+Do searchRevInclude.$define(searchRevInclude_)
+Do searchParam.$define(searchParam_)
+Do operation.$define(operation_)

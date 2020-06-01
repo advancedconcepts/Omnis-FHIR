@@ -1,0 +1,4 @@
+If interactant.$validref()=kFalse
+	Calculate interactant as $clib.$classes.oMedicinalProductInteractionInteractant.$newref()
+End If
+Quit method interactant

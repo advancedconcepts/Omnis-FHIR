@@ -1,0 +1,4 @@
+If appointmentType.$validref()=kFalse
+	Calculate appointmentType as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method appointmentType

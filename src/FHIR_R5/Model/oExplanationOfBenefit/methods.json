@@ -1,0 +1,1460 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$identifier",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: A unique identifier assigned to this explanation of benefit.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addidentifier",
+		"ident": 6,
+		"order": 7,
+		"desc": "A unique identifier assigned to this explanation of benefit.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"desc": "A unique identifier assigned to this explanation of benefit."
+			}
+		]
+	},
+	{
+		"name": "$status",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: The status of the resource instance.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$status.$assign",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The status of the resource instance."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: The category of claim, e.g. oral, pharmacy, vision, institutional, professional.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type.$assign",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The category of claim, e.g. oral, pharmacy, vision, institutional, professional."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subType",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: A finer grained suite of claim type codes which may convey additional information such as Inpatient vs Outpatient and/or a specialty service.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subType.$assign",
+		"ident": 12,
+		"order": 13,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "A finer grained suite of claim type codes which may convey additional information such as Inpatient vs Outpatient and/or a specialty service."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$use",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: A code to indicate whether the nature of the request is: to request adjudication of products and services previously rendered; or requesting authorization and adjudication for provision in the future; or requesting the non-binding adjudication of the listed products and services which could be provided in the future.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$use.$assign",
+		"ident": 14,
+		"order": 15,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A code to indicate whether the nature of the request is: to request adjudication of products and services previously rendered; or requesting authorization and adjudication for provision in the future; or requesting the non-binding adjudication of the list"
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$patient",
+		"ident": 15,
+		"order": 16,
+		"desc": "Returns: The party to whom the professional services and/or products have been supplied or are being considered and for whom actual for forecast reimbursement is sought.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$patient.$assign",
+		"ident": 16,
+		"order": 17,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The party to whom the professional services and/or products have been supplied or are being considered and for whom actual for forecast reimbursement is sought."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$billablePeriod",
+		"ident": 17,
+		"order": 18,
+		"desc": "Returns: The period for which charges are being submitted.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$billablePeriod.$assign",
+		"ident": 18,
+		"order": 19,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oPeriod",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The period for which charges are being submitted."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$created",
+		"ident": 19,
+		"order": 20,
+		"desc": "Returns: The date this resource was created.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$created.$assign",
+		"ident": 20,
+		"order": 21,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kDate",
+				"subtype": "kDatetime",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The date this resource was created."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$enterer",
+		"ident": 21,
+		"order": 22,
+		"desc": "Returns: Individual who created the claim, predetermination or preauthorization.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$enterer.$assign",
+		"ident": 22,
+		"order": 23,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Individual who created the claim, predetermination or preauthorization."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$insurer",
+		"ident": 23,
+		"order": 24,
+		"desc": "Returns: The party responsible for authorization, adjudication and reimbursement.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$insurer.$assign",
+		"ident": 24,
+		"order": 25,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The party responsible for authorization, adjudication and reimbursement."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$provider",
+		"ident": 25,
+		"order": 26,
+		"desc": "Returns: The provider which is responsible for the claim, predetermination or preauthorization.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$provider.$assign",
+		"ident": 26,
+		"order": 27,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The provider which is responsible for the claim, predetermination or preauthorization."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$priority",
+		"ident": 27,
+		"order": 28,
+		"desc": "Returns: The provider-required urgency of processing the request. Typical values include: stat, routine deferred.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$priority.$assign",
+		"ident": 28,
+		"order": 29,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The provider-required urgency of processing the request. Typical values include: stat, routine deferred."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$fundsReserveRequested",
+		"ident": 29,
+		"order": 30,
+		"desc": "Returns: A code to indicate whether and for whom funds are to be reserved for future claims.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$fundsReserveRequested.$assign",
+		"ident": 30,
+		"order": 31,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "A code to indicate whether and for whom funds are to be reserved for future claims."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$fundsReserve",
+		"ident": 31,
+		"order": 32,
+		"desc": "Returns: A code, used only on a response to a preauthorization, to indicate whether the benefits payable have been reserved and for whom.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$fundsReserve.$assign",
+		"ident": 32,
+		"order": 33,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "A code, used only on a response to a preauthorization, to indicate whether the benefits payable have been reserved and for whom."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$related",
+		"ident": 33,
+		"order": 34,
+		"desc": "Returns: Other claims which are related to this claim such as prior submissions or claims for related services or for the same event.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addrelated",
+		"ident": 34,
+		"order": 35,
+		"desc": "Other claims which are related to this claim such as prior submissions or claims for related services or for the same event.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oExplanationOfBenefitRelated",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oExplanationOfBenefitRelated",
+				"sublen": 0,
+				"desc": "Other claims which are related to this claim such as prior submissions or claims for related services or for the same event."
+			}
+		]
+	},
+	{
+		"name": "$prescription",
+		"ident": 35,
+		"order": 36,
+		"desc": "Returns: Prescription to support the dispensing of pharmacy, device or vision products.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$prescription.$assign",
+		"ident": 36,
+		"order": 37,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Prescription to support the dispensing of pharmacy, device or vision products."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$originalPrescription",
+		"ident": 37,
+		"order": 38,
+		"desc": "Returns: Original prescription which has been superseded by this prescription to support the dispensing of pharmacy services, medications or products.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$originalPrescription.$assign",
+		"ident": 38,
+		"order": 39,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Original prescription which has been superseded by this prescription to support the dispensing of pharmacy services, medications or products."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$payee",
+		"ident": 39,
+		"order": 40,
+		"desc": "Returns: The party to be reimbursed for cost of the products and services according to the terms of the policy.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$payee.$assign",
+		"ident": 40,
+		"order": 41,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oExplanationOfBenefitPayee",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The party to be reimbursed for cost of the products and services according to the terms of the policy."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$referral",
+		"ident": 41,
+		"order": 42,
+		"desc": "Returns: A reference to a referral resource.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$referral.$assign",
+		"ident": 42,
+		"order": 43,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "A reference to a referral resource."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$facility",
+		"ident": 43,
+		"order": 44,
+		"desc": "Returns: Facility where the services were provided.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$facility.$assign",
+		"ident": 44,
+		"order": 45,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Facility where the services were provided."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$claim",
+		"ident": 45,
+		"order": 46,
+		"desc": "Returns: The business identifier for the instance of the adjudication request: claim predetermination or preauthorization.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$claim.$assign",
+		"ident": 46,
+		"order": 47,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The business identifier for the instance of the adjudication request: claim predetermination or preauthorization."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$claimResponse",
+		"ident": 47,
+		"order": 48,
+		"desc": "Returns: The business identifier for the instance of the adjudication response: claim, predetermination or preauthorization response.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$claimResponse.$assign",
+		"ident": 48,
+		"order": 49,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The business identifier for the instance of the adjudication response: claim, predetermination or preauthorization response."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$outcome",
+		"ident": 49,
+		"order": 50,
+		"desc": "Returns: The outcome of the claim, predetermination, or preauthorization processing.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$outcome.$assign",
+		"ident": 50,
+		"order": 51,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The outcome of the claim, predetermination, or preauthorization processing."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$disposition",
+		"ident": 51,
+		"order": 52,
+		"desc": "Returns: A human readable description of the status of the adjudication.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$disposition.$assign",
+		"ident": 52,
+		"order": 53,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A human readable description of the status of the adjudication."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$preAuthRef",
+		"ident": 53,
+		"order": 54,
+		"desc": "Returns: Reference from the Insurer which is used in later communications which refers to this adjudication.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addpreAuthRef",
+		"ident": 54,
+		"order": 55,
+		"desc": "Reference from the Insurer which is used in later communications which refers to this adjudication.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Reference from the Insurer which is used in later communications which refers to this adjudication."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$preAuthRefPeriod",
+		"ident": 55,
+		"order": 56,
+		"desc": "Returns: The timeframe during which the supplied preauthorization reference may be quoted on claims to obtain the adjudication as provided.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addpreAuthRefPeriod",
+		"ident": 56,
+		"order": 57,
+		"desc": "The timeframe during which the supplied preauthorization reference may be quoted on claims to obtain the adjudication as provided.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oPeriod",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oPeriod",
+				"sublen": 0,
+				"desc": "The timeframe during which the supplied preauthorization reference may be quoted on claims to obtain the adjudication as provided."
+			}
+		]
+	},
+	{
+		"name": "$careTeam",
+		"ident": 57,
+		"order": 58,
+		"desc": "Returns: The members of the team who provided the products and services.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcareTeam",
+		"ident": 58,
+		"order": 59,
+		"desc": "The members of the team who provided the products and services.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oExplanationOfBenefitCareTeam",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oExplanationOfBenefitCareTeam",
+				"sublen": 0,
+				"desc": "The members of the team who provided the products and services."
+			}
+		]
+	},
+	{
+		"name": "$supportingInfo",
+		"ident": 59,
+		"order": 60,
+		"desc": "Returns: Additional information codes regarding exceptions, special considerations, the condition, situation, prior or concurrent issues.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addsupportingInfo",
+		"ident": 60,
+		"order": 61,
+		"desc": "Additional information codes regarding exceptions, special considerations, the condition, situation, prior or concurrent issues.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oExplanationOfBenefitSupportingInfo",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oExplanationOfBenefitSupportingInfo",
+				"sublen": 0,
+				"desc": "Additional information codes regarding exceptions, special considerations, the condition, situation, prior or concurrent issues."
+			}
+		]
+	},
+	{
+		"name": "$diagnosis",
+		"ident": 61,
+		"order": 62,
+		"desc": "Returns: Information about diagnoses relevant to the claim items.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$adddiagnosis",
+		"ident": 62,
+		"order": 63,
+		"desc": "Information about diagnoses relevant to the claim items.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oExplanationOfBenefitDiagnosis",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oExplanationOfBenefitDiagnosis",
+				"sublen": 0,
+				"desc": "Information about diagnoses relevant to the claim items."
+			}
+		]
+	},
+	{
+		"name": "$procedure",
+		"ident": 63,
+		"order": 64,
+		"desc": "Returns: Procedures performed on the patient relevant to the billing items with the claim.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addprocedure",
+		"ident": 64,
+		"order": 65,
+		"desc": "Procedures performed on the patient relevant to the billing items with the claim.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oExplanationOfBenefitProcedure",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oExplanationOfBenefitProcedure",
+				"sublen": 0,
+				"desc": "Procedures performed on the patient relevant to the billing items with the claim."
+			}
+		]
+	},
+	{
+		"name": "$precedence",
+		"ident": 65,
+		"order": 66,
+		"desc": "Returns: This indicates the relative order of a series of EOBs related to different coverages for the same suite of services.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$precedence.$assign",
+		"ident": 66,
+		"order": 67,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "This indicates the relative order of a series of EOBs related to different coverages for the same suite of services."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$insurance",
+		"ident": 67,
+		"order": 68,
+		"desc": "Returns: Financial instruments for reimbursement for the health care products and services specified on the claim.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addinsurance",
+		"ident": 68,
+		"order": 69,
+		"desc": "Financial instruments for reimbursement for the health care products and services specified on the claim.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oExplanationOfBenefitInsurance",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oExplanationOfBenefitInsurance",
+				"sublen": 0,
+				"desc": "Financial instruments for reimbursement for the health care products and services specified on the claim."
+			}
+		]
+	},
+	{
+		"name": "$accident",
+		"ident": 69,
+		"order": 70,
+		"desc": "Returns: Details of a accident which resulted in injuries which required the products and services listed in the claim.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$accident.$assign",
+		"ident": 70,
+		"order": 71,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oExplanationOfBenefitAccident",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Details of a accident which resulted in injuries which required the products and services listed in the claim."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$item",
+		"ident": 71,
+		"order": 72,
+		"desc": "Returns: A claim line. Either a simple (a product or service) or a 'group' of details which can also be a simple items or groups of sub-details.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$additem",
+		"ident": 72,
+		"order": 73,
+		"desc": "A claim line. Either a simple (a product or service) or a 'group' of details which can also be a simple items or groups of sub-details.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oExplanationOfBenefitItem",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oExplanationOfBenefitItem",
+				"sublen": 0,
+				"desc": "A claim line. Either a simple (a product or service) or a 'group' of details which can also be a simple items or groups of sub-details."
+			}
+		]
+	},
+	{
+		"name": "$addaddItem",
+		"ident": 73,
+		"order": 74,
+		"desc": "The first-tier service adjudications for payor added product or service lines.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oExplanationOfBenefitAddItem",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oExplanationOfBenefitAddItem",
+				"sublen": 0,
+				"desc": "The first-tier service adjudications for payor added product or service lines."
+			}
+		]
+	},
+	{
+		"name": "$total",
+		"ident": 74,
+		"order": 75,
+		"desc": "Returns: Categorized monetary totals for the adjudication.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addtotal",
+		"ident": 75,
+		"order": 76,
+		"desc": "Categorized monetary totals for the adjudication.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oExplanationOfBenefitTotal",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oExplanationOfBenefitTotal",
+				"sublen": 0,
+				"desc": "Categorized monetary totals for the adjudication."
+			}
+		]
+	},
+	{
+		"name": "$payment",
+		"ident": 76,
+		"order": 77,
+		"desc": "Returns: Payment details for the adjudication of the claim.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$payment.$assign",
+		"ident": 77,
+		"order": 78,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oExplanationOfBenefitPayment",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Payment details for the adjudication of the claim."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$formCode",
+		"ident": 78,
+		"order": 79,
+		"desc": "Returns: A code for the form to be used for printing the content.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$formCode.$assign",
+		"ident": 79,
+		"order": 80,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "A code for the form to be used for printing the content."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$form",
+		"ident": 80,
+		"order": 81,
+		"desc": "Returns: The actual form, by reference or inclusion, for printing the content or an EOB.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$form.$assign",
+		"ident": 81,
+		"order": 82,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oAttachment",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The actual form, by reference or inclusion, for printing the content or an EOB."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$processNote",
+		"ident": 82,
+		"order": 83,
+		"desc": "Returns: A note that describes or explains adjudication results in a human readable form.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addprocessNote",
+		"ident": 83,
+		"order": 84,
+		"desc": "A note that describes or explains adjudication results in a human readable form.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oExplanationOfBenefitProcessNote",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oExplanationOfBenefitProcessNote",
+				"sublen": 0,
+				"desc": "A note that describes or explains adjudication results in a human readable form."
+			}
+		]
+	},
+	{
+		"name": "$benefitPeriod",
+		"ident": 84,
+		"order": 85,
+		"desc": "Returns: The term of the benefits documented in this response.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$benefitPeriod.$assign",
+		"ident": 85,
+		"order": 86,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oPeriod",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The term of the benefits documented in this response."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$benefitBalance",
+		"ident": 86,
+		"order": 87,
+		"desc": "Returns: Balance by Benefit Category.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addbenefitBalance",
+		"ident": 87,
+		"order": 88,
+		"desc": "Balance by Benefit Category.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oExplanationOfBenefitBenefitBalance",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oExplanationOfBenefitBenefitBalance",
+				"sublen": 0,
+				"desc": "Balance by Benefit Category."
+			}
+		]
+	}
+]

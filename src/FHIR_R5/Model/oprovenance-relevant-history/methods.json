@@ -1,0 +1,14 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

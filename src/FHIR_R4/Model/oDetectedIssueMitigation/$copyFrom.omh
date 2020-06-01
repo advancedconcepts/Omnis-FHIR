@@ -1,0 +1,4 @@
+Do inherited
+Calculate action as pValue.$action()
+Calculate date as pValue.$date()
+Calculate author as pValue.$author()

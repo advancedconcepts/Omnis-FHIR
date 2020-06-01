@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("specType","specType",0,"1",38,"CodeableConcept")
+Do pElements.$add("componentId","componentId",0,"1",38,"Identifier")
+Do pElements.$add("productionSpec","productionSpec",0,"1",21,"string")

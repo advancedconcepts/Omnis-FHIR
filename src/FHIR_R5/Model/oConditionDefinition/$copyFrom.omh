@@ -1,0 +1,73 @@
+Do inherited
+Calculate url as pValue.$url()
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate version as pValue.$version()
+Calculate name as pValue.$name()
+Calculate title as pValue.$title()
+Calculate subtitle as pValue.$subtitle()
+Calculate status as pValue.$status()
+Calculate experimental as pValue.$experimental()
+Calculate date as pValue.$date()
+Calculate publisher as pValue.$publisher()
+Do contact.$clear()
+Calculate list as pValue.$contact()
+Do contact.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate description as pValue.$description()
+Do useContext.$clear()
+Calculate list as pValue.$useContext()
+Do useContext.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do jurisdiction.$clear()
+Calculate list as pValue.$jurisdiction()
+Do jurisdiction.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate code as pValue.$code()
+Calculate severity as pValue.$severity()
+Calculate bodySite as pValue.$bodySite()
+Calculate stage as pValue.$stage()
+Calculate hasSeverity as pValue.$hasSeverity()
+Calculate hasBodySite as pValue.$hasBodySite()
+Calculate hasStage as pValue.$hasStage()
+Do definition.$clear()
+Calculate list as pValue.$definition()
+Do definition.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do observation.$clear()
+Calculate list as pValue.$observation()
+Do observation.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do medication.$clear()
+Calculate list as pValue.$medication()
+Do medication.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do precondition.$clear()
+Calculate list as pValue.$precondition()
+Do precondition.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do team.$clear()
+Calculate list as pValue.$team()
+Do team.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do questionnaire.$clear()
+Calculate list as pValue.$questionnaire()
+Do questionnaire.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do plan.$clear()
+Calculate list as pValue.$plan()
+Do plan.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

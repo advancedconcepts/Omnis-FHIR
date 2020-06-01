@@ -1,0 +1,3 @@
+Do inherited
+Calculate authorType as pValue.$authorType()
+Calculate authorDescription as pValue.$authorDescription()

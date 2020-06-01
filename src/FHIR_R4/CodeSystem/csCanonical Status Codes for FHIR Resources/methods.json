@@ -1,0 +1,372 @@
+[
+	{
+		"name": "$error",
+		"ident": 0,
+		"order": 1,
+		"desc": "The resource describes an action or plan that is proposed, and not yet approved by the participants",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$proposed",
+		"ident": 1,
+		"order": 2,
+		"desc": "The resource describes a course of action that is planned and agreed/approved, but at the time of recording was still future",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$planned",
+		"ident": 2,
+		"order": 3,
+		"desc": "The information in the resource is still being prepared and edited",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$draft",
+		"ident": 3,
+		"order": 4,
+		"desc": "A fulfiller has been asked to perform this action, but it has not yet occurred",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$requested",
+		"ident": 4,
+		"order": 5,
+		"desc": "The fulfiller has received the request, but not yet agreed to carry out the action",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$received",
+		"ident": 5,
+		"order": 6,
+		"desc": "The fulfiller chose not to perform the action",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$declined",
+		"ident": 6,
+		"order": 7,
+		"desc": "The fulfiller has decided to perform the action, and plans are in train to do this in the future",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$accepted",
+		"ident": 7,
+		"order": 8,
+		"desc": "The pre-conditions for the action are all fulfilled, and it is imminent",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$arrived",
+		"ident": 8,
+		"order": 9,
+		"desc": "The resource describes information that is currently valid or a process that is presently occuring",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$active",
+		"ident": 9,
+		"order": 10,
+		"desc": "The process described/requested in this resource has been halted for some reason",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$suspended",
+		"ident": 10,
+		"order": 11,
+		"desc": "The process described/requested in the resource could not be completed, and no further action is planned",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$failed",
+		"ident": 11,
+		"order": 12,
+		"desc": "The information in this resource has been replaced by information in another resource",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$replaced",
+		"ident": 12,
+		"order": 13,
+		"desc": "The process described/requested in the resource has been completed, and no further action is planned",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$complete",
+		"ident": 13,
+		"order": 14,
+		"desc": "The resource describes information that is no longer valid or a process that is stopped occurring",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$inactive",
+		"ident": 14,
+		"order": 15,
+		"desc": "The process described/requested in the resource did not complete - usually due to some workflow error, and no further action is planned",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$abandoned",
+		"ident": 15,
+		"order": 16,
+		"desc": "Authoring system does not know the status",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unknown",
+		"ident": 16,
+		"order": 17,
+		"desc": "The information in this resource is not yet approved",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unconfirmed",
+		"ident": 17,
+		"order": 18,
+		"desc": "The information in this resource is approved",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$confirmed",
+		"ident": 18,
+		"order": 19,
+		"desc": "The issue identified by this resource is no longer of concern",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$resolved",
+		"ident": 19,
+		"order": 20,
+		"desc": "This information has been ruled out by testing and evaluation",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$refuted",
+		"ident": 20,
+		"order": 21,
+		"desc": "Potentially true?",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$differential",
+		"ident": 21,
+		"order": 22,
+		"desc": "This information is still being assembled",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$partial",
+		"ident": 22,
+		"order": 23,
+		"desc": "not available at this time/location",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$busy-unavailable",
+		"ident": 23,
+		"order": 24,
+		"desc": "Free for scheduling",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$free",
+		"ident": 24,
+		"order": 25,
+		"desc": "Ready to act",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$on-target",
+		"ident": 25,
+		"order": 26,
+		"desc": "Ahead of the planned timelines",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ahead-of-target",
+		"ident": 26,
+		"order": 27,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$behind-target",
+		"ident": 27,
+		"order": 28,
+		"desc": "Behind the planned timelines",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$not-ready",
+		"ident": 28,
+		"order": 29,
+		"desc": "The device transducer is disconnected",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$transduc-discon",
+		"ident": 29,
+		"order": 30,
+		"desc": "The hardware is disconnected",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$hw-discon",
+		"ident": 30,
+		"order": 31,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

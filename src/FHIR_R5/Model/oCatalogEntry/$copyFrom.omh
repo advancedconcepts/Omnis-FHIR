@@ -1,0 +1,33 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate name as pValue.$name()
+Calculate type as pValue.$type()
+Calculate status as pValue.$status()
+Calculate effectivePeriod as pValue.$effectivePeriod()
+Calculate orderable as pValue.$orderable()
+Calculate referencedItem as pValue.$referencedItem()
+Do relatedEntry.$clear()
+Calculate list as pValue.$relatedEntry()
+Do relatedEntry.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate updatedBy as pValue.$updatedBy()
+Do note.$clear()
+Calculate list as pValue.$note()
+Do note.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate estimatedDuration as pValue.$estimatedDuration()
+Do billingCode.$clear()
+Calculate list as pValue.$billingCode()
+Do billingCode.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate billingSummary as pValue.$billingSummary()
+Calculate scheduleSummary as pValue.$scheduleSummary()
+Calculate limitationSummary as pValue.$limitationSummary()
+Calculate regulatorySummary as pValue.$regulatorySummary()

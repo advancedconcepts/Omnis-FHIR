@@ -1,0 +1,3 @@
+Do inherited
+Do pElements.$add("date","date",1,"1",23,"date")
+Do pElements.$add("type","::type",0,"1",38,"CodeableConcept")

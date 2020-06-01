@@ -1,0 +1,165 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "created",
+			"order": 4,
+			"type": "kDate",
+			"subtype": "kDatetime",
+			"sublen": 0,
+			"desc": "The date when the enclosed suite of services were performed or completed."
+		},
+		{
+			"name": "disposition",
+			"order": 9,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A description of the status of the adjudication."
+		},
+		{
+			"name": "error",
+			"order": 15,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "error_",
+			"order": 16,
+			"type": "kObjectref",
+			"subtype": "oEligibilityResponseError",
+			"sublen": 0,
+			"desc": "Mutually exclusive with Services Provided (Item)."
+		},
+		{
+			"name": "form",
+			"order": 14,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The form to be used for printing the content."
+		},
+		{
+			"name": "identifier",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "identifier_",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "The Response business identifier."
+		},
+		{
+			"name": "inforce",
+			"order": 11,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "Flag indicating if the coverage provided is inforce currently  if no service date(s) specified or for the whole duration of the service dates."
+		},
+		{
+			"name": "insurance",
+			"order": 12,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "insurance_",
+			"order": 13,
+			"type": "kObjectref",
+			"subtype": "oEligibilityResponseInsurance",
+			"sublen": 0,
+			"desc": "The insurer may provide both the details for the requested coverage as well as details for additional coverages known to the insurer."
+		},
+		{
+			"name": "insurer",
+			"order": 10,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The Insurer who produced this adjudicated response."
+		},
+		{
+			"name": "outcome",
+			"order": 8,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Transaction status: error, complete."
+		},
+		{
+			"name": "request",
+			"order": 7,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Original request resource reference."
+		},
+		{
+			"name": "requestOrganization",
+			"order": 6,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The organization which is responsible for the services rendered to the patient."
+		},
+		{
+			"name": "requestProvider",
+			"order": 5,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The practitioner who is responsible for the services rendered to the patient."
+		},
+		{
+			"name": "status",
+			"order": 3,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The status of the resource instance."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:40:01",
+		"desc": "Base StructureDefinition for EligibilityResponse Resource",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:27",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

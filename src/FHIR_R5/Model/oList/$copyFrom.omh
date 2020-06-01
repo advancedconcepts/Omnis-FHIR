@@ -1,0 +1,26 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate status as pValue.$status()
+Calculate mode as pValue.$mode()
+Calculate title as pValue.$title()
+Calculate code as pValue.$code()
+Calculate subject as pValue.$subject()
+Calculate encounter as pValue.$encounter()
+Calculate date as pValue.$date()
+Calculate source as pValue.$source()
+Calculate orderedBy as pValue.$orderedBy()
+Do note.$clear()
+Calculate list as pValue.$note()
+Do note.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do entry.$clear()
+Calculate list as pValue.$entry()
+Do entry.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate emptyReason as pValue.$emptyReason()

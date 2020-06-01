@@ -1,0 +1,4 @@
+If parameterGroup.$validref()=kFalse
+	Calculate parameterGroup as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method parameterGroup

@@ -1,0 +1,14 @@
+Do inherited
+Calculate description as pValue.$description()
+Do resourceType.$clear()
+Calculate list as pValue.$resourceType()
+Do resourceType.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do methodCriteria.$clear()
+Calculate list as pValue.$methodCriteria()
+Do methodCriteria.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate queryCriteria as pValue.$queryCriteria()
+Calculate fhirPathCriteria as pValue.$fhirPathCriteria()

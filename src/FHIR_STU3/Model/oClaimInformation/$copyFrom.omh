@@ -1,0 +1,5 @@
+Do inherited
+Calculate sequence as pValue.$sequence()
+Calculate category as pValue.$category()
+Calculate code as pValue.$code()
+Calculate reason as pValue.$reason()

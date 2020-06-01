@@ -1,0 +1,6 @@
+Calculate objRef as $clib.$classes.oSubstanceNucleicAcidSubunitLinkage.$newref()
+Do linkage.$add(objRef)
+If pValue.$validref()
+	Do objRef.$copyFrom(pValue)
+End If
+Quit method objRef

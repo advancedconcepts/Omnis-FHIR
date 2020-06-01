@@ -1,0 +1,85 @@
+[
+	{
+		"name": "$imprintcd",
+		"ident": 0,
+		"order": 1,
+		"desc": "Description of size of the product",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$size",
+		"ident": 1,
+		"order": 2,
+		"desc": "Description of the shape of the product",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$shape",
+		"ident": 2,
+		"order": 3,
+		"desc": "Description of the color of the product",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$color",
+		"ident": 3,
+		"order": 4,
+		"desc": "Description of the coating of the product",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$coating",
+		"ident": 4,
+		"order": 5,
+		"desc": "Description of the scoring of the product",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$scoring",
+		"ident": 5,
+		"order": 6,
+		"desc": "Description of the Logo of the product",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$logo",
+		"ident": 6,
+		"order": 7,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

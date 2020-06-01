@@ -1,0 +1,216 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "compareToSourceExpression",
+			"order": 5,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The FHIRPath expression to evaluate against the source fixture. When compareToSourceId is defined, either compareToSourceExpression or compareToSourcePath must be defined, but not both."
+		},
+		{
+			"name": "compareToSourceId",
+			"order": 4,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Id of the source fixture used as the contents to be evaluated by either the \"source/expression\" or \"sourceId/path\" definition."
+		},
+		{
+			"name": "compareToSourcePath",
+			"order": 6,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "XPath or JSONPath expression to evaluate against the source fixture. When compareToSourceId is defined, either compareToSourceExpression or compareToSourcePath must be defined, but not both."
+		},
+		{
+			"name": "contentType",
+			"order": 7,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The mime-type contents to compare against the request or response message 'Content-Type' header."
+		},
+		{
+			"name": "description",
+			"order": 2,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The description would be used by test engines for tracking and reporting purposes."
+		},
+		{
+			"name": "direction",
+			"order": 3,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The direction to use for the assertion."
+		},
+		{
+			"name": "expression",
+			"order": 8,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The FHIRPath expression to be evaluated against the request or response message contents - HTTP headers and payload."
+		},
+		{
+			"name": "headerField",
+			"order": 9,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The HTTP header field name e.g. 'Location'."
+		},
+		{
+			"name": "label",
+			"order": 1,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The label would be used for tracking/logging purposes by test engines."
+		},
+		{
+			"name": "minimumId",
+			"order": 10,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The ID of a fixture.  Asserts that the response contains at a minimum the fixture specified by minimumId."
+		},
+		{
+			"name": "navigationLinks",
+			"order": 11,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "Whether or not the test execution performs validation on the bundle navigation links."
+		},
+		{
+			"name": "operator",
+			"order": 12,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The operator type defines the conditional behavior of the assert. If not defined, the default is equals."
+		},
+		{
+			"name": "path",
+			"order": 13,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The XPath or JSONPath expression to be evaluated against the fixture representing the response received from server."
+		},
+		{
+			"name": "requestMethod",
+			"order": 14,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The request method or HTTP operation code to compare against that used by the client system under test."
+		},
+		{
+			"name": "requestURL",
+			"order": 15,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The value to use in a comparison against the request URL path string."
+		},
+		{
+			"name": "resource",
+			"order": 16,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The type of the resource.  See http://build.fhir.org/resourcelist.html."
+		},
+		{
+			"name": "response",
+			"order": 17,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "okay | created | noContent | notModified | bad | forbidden | notFound | methodNotAllowed | conflict | gone | preconditionFailed | unprocessable."
+		},
+		{
+			"name": "responseCode",
+			"order": 18,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The value of the HTTP response code to be tested."
+		},
+		{
+			"name": "sourceId",
+			"order": 19,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Fixture to evaluate the XPath/JSONPath expression or the headerField  against."
+		},
+		{
+			"name": "validateProfileId",
+			"order": 20,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The ID of the Profile to validate against."
+		},
+		{
+			"name": "value",
+			"order": 21,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The value to compare to."
+		},
+		{
+			"name": "warningOnly",
+			"order": 22,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "Whether or not the test execution will produce a warning only on error for this assert."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:45:07",
+		"desc": "Evaluates the results of previous operations to determine if the server under test behaves appropriately.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:29",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

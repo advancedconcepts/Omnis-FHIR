@@ -1,0 +1,271 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "approvalDate",
+			"order": 10,
+			"type": "kDate",
+			"subtype": "kDate2000",
+			"sublen": 0,
+			"desc": "The date on which the resource content was approved by the publisher. Approval happens once when the content is officially approved for usage."
+		},
+		{
+			"name": "assertion",
+			"order": 17,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Declarative description of the Evidence."
+		},
+		{
+			"name": "certainty",
+			"order": 29,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "certainty_",
+			"order": 30,
+			"type": "kObjectref",
+			"subtype": "oEvidenceCertainty",
+			"sublen": 0,
+			"desc": "Level of certainty."
+		},
+		{
+			"name": "contributor",
+			"order": 12,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "contributor_",
+			"order": 13,
+			"type": "kObjectref",
+			"subtype": "oContributor",
+			"sublen": 0,
+			"desc": "Contact detail and role for contributor to summary."
+		},
+		{
+			"name": "date",
+			"order": 9,
+			"type": "kDate",
+			"subtype": "kDatetime",
+			"sublen": 0,
+			"desc": "The date  (and optionally time) when the summary was published. The date must change when the business version changes and it must change if the status code changes. In addition, it should change when the substantive content of the summary changes."
+		},
+		{
+			"name": "description",
+			"order": 16,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A free text natural language description of the evidence from a consumer's perspective."
+		},
+		{
+			"name": "distribution",
+			"order": 27,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "distribution_",
+			"order": 28,
+			"type": "kObjectref",
+			"subtype": "oOrderedDistribution",
+			"sublen": 0,
+			"desc": "Ordered distribution."
+		},
+		{
+			"name": "identifier",
+			"order": 2,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "identifier_",
+			"order": 3,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "A formal identifier that is used to identify this summary when it is represented in other formats, or referenced in a specification, model, design or an instance."
+		},
+		{
+			"name": "lastReviewDate",
+			"order": 11,
+			"type": "kDate",
+			"subtype": "kDate2000",
+			"sublen": 0,
+			"desc": "The date on which the resource content was last reviewed. Review happens periodically after approval but does not change the original approval date."
+		},
+		{
+			"name": "note",
+			"order": 18,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "note_",
+			"order": 19,
+			"type": "kObjectref",
+			"subtype": "oAnnotation",
+			"sublen": 0,
+			"desc": "Footnotes and/or explanatory notes."
+		},
+		{
+			"name": "referentGroup",
+			"order": 20,
+			"type": "kObjectref",
+			"subtype": "oEvidenceReferentGroup",
+			"sublen": 0,
+			"desc": "Group being referenced."
+		},
+		{
+			"name": "relatedArtifact",
+			"order": 14,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "relatedArtifact_",
+			"order": 15,
+			"type": "kObjectref",
+			"subtype": "oRelatedArtifact",
+			"sublen": 0,
+			"desc": "Link or citation to artifact associated with the summary."
+		},
+		{
+			"name": "statistic",
+			"order": 25,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "statistic_",
+			"order": 26,
+			"type": "kObjectref",
+			"subtype": "oStatistic",
+			"sublen": 0,
+			"desc": "The statistic value(s)."
+		},
+		{
+			"name": "status",
+			"order": 6,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The status of this summary. Enables tracking the life-cycle of the content."
+		},
+		{
+			"name": "studyType",
+			"order": 24,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The type of study that produced this summary."
+		},
+		{
+			"name": "synthesisType",
+			"order": 23,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The particular type of synthesis if this is a synthesis summary."
+		},
+		{
+			"name": "title",
+			"order": 5,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A short, descriptive, user-friendly title for the summary."
+		},
+		{
+			"name": "url",
+			"order": 1,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "An absolute URI that is used to identify this evidence when it is referenced in a specification, model, design or an instance; also called its canonical identifier. This SHOULD be globally unique and SHOULD be a literal address at which at which an author"
+		},
+		{
+			"name": "useContext",
+			"order": 7,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "useContext_",
+			"order": 8,
+			"type": "kObjectref",
+			"subtype": "oUsageContext",
+			"sublen": 0,
+			"desc": "The content was developed with a focus and intent of supporting the contexts that are listed. These contexts may be general categories (gender, age, ...) or may be references to specific programs (insurance plans, studies, ...) and may be used to assist w"
+		},
+		{
+			"name": "variableDefinition",
+			"order": 21,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "variableDefinition_",
+			"order": 22,
+			"type": "kObjectref",
+			"subtype": "oEvidenceVariableDefinition",
+			"sublen": 0,
+			"desc": "Evidence variable."
+		},
+		{
+			"name": "version",
+			"order": 4,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The identifier that is used to identify this version of the summary when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the summary author and is not expected to be globally unique. For example, it mi"
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:44:47",
+		"desc": "This represents statistics, certainty, both the intended and actual population, and evidence variables.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:27",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

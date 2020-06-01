@@ -1,0 +1,11 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"-1",38,"Identifier")
+Do pElements.$add("type","::type",1,"1",21,"code")
+Do pElements.$add("subject","subject",0,"-1",38,"Reference")
+Do pElements.$add("status","status",0,"1",38,"CodeableConcept")
+Do pElements.$add("description","description",0,"1",21,"markdown")
+Do pElements.$add("contraindication","contraindication",0,"1",38,"")
+Do pElements.$add("indication","indication",0,"1",38,"")
+Do pElements.$add("interaction","interaction",0,"1",38,"")
+Do pElements.$add("population","population",0,"-1",38,"Population")
+Do pElements.$add("undesirableEffect","undesirableEffect",0,"1",38,"")

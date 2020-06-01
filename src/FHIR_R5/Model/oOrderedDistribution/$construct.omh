@@ -1,0 +1,4 @@
+Do inherited
+Do note.$define(note_)
+Do interval.$define(interval_)
+Do interval.intervalStatistic.$define(interval.intervalStatistic_)

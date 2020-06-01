@@ -1,0 +1,10 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do useContext.$define(useContext_)
+Do contributor.$define(contributor_)
+Do relatedArtifact.$define(relatedArtifact_)
+Do note.$define(note_)
+Do variableDefinition.$define(variableDefinition_)
+Do statistic.$define(statistic_)
+Do distribution.$define(distribution_)
+Do certainty.$define(certainty_)

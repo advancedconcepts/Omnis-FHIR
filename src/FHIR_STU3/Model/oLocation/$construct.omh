@@ -1,0 +1,5 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do alias.$define(alias_)
+Do telecom.$define(telecom_)
+Do endpoint.$define(endpoint_)

@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$positive",
+		"ident": 0,
+		"order": 1,
+		"desc": "no variant is detected",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$negative",
+		"ident": 1,
+		"order": 2,
+		"desc": "result of the variant is missing",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$absent",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

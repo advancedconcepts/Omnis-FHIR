@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$resource",
+		"ident": 0,
+		"order": 1,
+		"desc": "The context is all nodes matching a particular data type element path (root or repeating element) or all elements referencing a particular primitive data type (expressed as the datatype name).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$datatype",
+		"ident": 1,
+		"order": 2,
+		"desc": "The context is a particular extension from a particular profile, a uri that identifies the extension definition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$extension",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

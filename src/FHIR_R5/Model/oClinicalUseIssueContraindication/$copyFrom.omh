@@ -1,0 +1,18 @@
+Do inherited
+Calculate diseaseSymptomProcedure as pValue.$diseaseSymptomProcedure()
+Calculate diseaseStatus as pValue.$diseaseStatus()
+Do comorbidity.$clear()
+Calculate list as pValue.$comorbidity()
+Do comorbidity.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do indication.$clear()
+Calculate list as pValue.$indication()
+Do indication.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do otherTherapy.$clear()
+Calculate list as pValue.$otherTherapy()
+Do otherTherapy.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

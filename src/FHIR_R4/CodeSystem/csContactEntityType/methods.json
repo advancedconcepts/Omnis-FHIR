@@ -1,0 +1,73 @@
+[
+	{
+		"name": "$BILL",
+		"ident": 0,
+		"order": 1,
+		"desc": "Contact details for administrative enquiries.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ADMIN",
+		"ident": 1,
+		"order": 2,
+		"desc": "Contact details for issues related to Human Resources, such as staff matters, OH&S etc.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$HR",
+		"ident": 2,
+		"order": 3,
+		"desc": "Contact details for dealing with issues related to insurance claims/adjudication/payment.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$PAYOR",
+		"ident": 3,
+		"order": 4,
+		"desc": "Generic information contact for patients.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$PATINF",
+		"ident": 4,
+		"order": 5,
+		"desc": "Dedicated contact point for matters relating to press enquiries.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$PRESS",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

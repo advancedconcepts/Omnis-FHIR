@@ -1,0 +1,4 @@
+If verificationType.$validref()=kFalse
+	Calculate verificationType as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method verificationType

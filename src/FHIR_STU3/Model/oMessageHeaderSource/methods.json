@@ -1,0 +1,221 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$::name",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: Human-readable name for the source system.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::name.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Human-readable name for the source system."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$software",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: May include configuration or other information useful in debugging.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$software.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "May include configuration or other information useful in debugging."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::version",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: Can convey versions of multiple systems in situations where a message passes through multiple hands.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::version.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Can convey versions of multiple systems in situations where a message passes through multiple hands."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$contact",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: An e-mail, phone, website or other contact point to use to resolve issues with message communications.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$contact.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oContactPoint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "An e-mail, phone, website or other contact point to use to resolve issues with message communications."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$endpoint",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: Identifies the routing target to send acknowledgements to.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$endpoint.$assign",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Identifies the routing target to send acknowledgements to."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

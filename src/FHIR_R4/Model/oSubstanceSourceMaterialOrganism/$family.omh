@@ -1,0 +1,4 @@
+If family.$validref()=kFalse
+	Calculate family as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method family

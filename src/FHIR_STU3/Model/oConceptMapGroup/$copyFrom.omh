@@ -1,0 +1,11 @@
+Do inherited
+Calculate source as pValue.$source()
+Calculate sourceVersion as pValue.$sourceVersion()
+Calculate target as pValue.$target()
+Calculate targetVersion as pValue.$targetVersion()
+Do element.$clear()
+Calculate list as pValue.$element()
+Do element.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate unmapped as pValue.$unmapped()

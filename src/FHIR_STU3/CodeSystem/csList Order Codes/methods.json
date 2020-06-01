@@ -1,0 +1,97 @@
+[
+	{
+		"name": "$user",
+		"ident": 0,
+		"order": 1,
+		"desc": "The list was sorted by the system. The criteria the user used are not specified; define additional codes to specify a particular order (or use other defined codes).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$system",
+		"ident": 1,
+		"order": 2,
+		"desc": "The list is sorted by the data of the event. This can be used when the list has items which are dates with past or future events.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$event-date",
+		"ident": 2,
+		"order": 3,
+		"desc": "The list is sorted by the date the item was added to the list. Note that the date added to the list is not explicit in the list itself.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$entry-date",
+		"ident": 3,
+		"order": 4,
+		"desc": "The list is sorted by priority. The exact method in which priority has been determined is not specified.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$priority",
+		"ident": 4,
+		"order": 5,
+		"desc": "The list is sorted alphabetically by an unspecified property of the items in the list.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$alphabetic",
+		"ident": 5,
+		"order": 6,
+		"desc": "The list is sorted categorically by an unspecified property of the items in the list.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$category",
+		"ident": 6,
+		"order": 7,
+		"desc": "The list is sorted by patient, with items for each patient grouped together.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$patient",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

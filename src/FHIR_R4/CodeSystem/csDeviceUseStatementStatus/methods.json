@@ -1,0 +1,73 @@
+[
+	{
+		"name": "$active",
+		"ident": 0,
+		"order": 1,
+		"desc": "The device is no longer being used.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$completed",
+		"ident": 1,
+		"order": 2,
+		"desc": "The statement was recorded incorrectly.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$entered-in-error",
+		"ident": 2,
+		"order": 3,
+		"desc": "The device may be used at some time in the future.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$intended",
+		"ident": 3,
+		"order": 4,
+		"desc": "Actions implied by the statement have been permanently halted, before all of them occurred.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$stopped",
+		"ident": 4,
+		"order": 5,
+		"desc": "Actions implied by the statement have been temporarily halted, but are expected to continue later. May also be called \"suspended\".",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$on-hold",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$closed",
+		"ident": 0,
+		"order": 1,
+		"desc": "Additional content is allowed anywhere in the list.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$open",
+		"ident": 1,
+		"order": 2,
+		"desc": "Additional content is allowed, but only at the end of the list. Note that using this requires that the slices be ordered, which makes it hard to share uses. This should only be done where absolutely required.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$openAtEnd",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

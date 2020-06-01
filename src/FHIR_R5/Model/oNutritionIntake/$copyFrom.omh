@@ -1,0 +1,61 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do basedOn.$clear()
+Calculate list as pValue.$basedOn()
+Do basedOn.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do partOf.$clear()
+Calculate list as pValue.$partOf()
+Do partOf.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate status as pValue.$status()
+Do statusReason.$clear()
+Calculate list as pValue.$statusReason()
+Do statusReason.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do category.$clear()
+Calculate list as pValue.$category()
+Do category.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do consumedItem.$clear()
+Calculate list as pValue.$consumedItem()
+Do consumedItem.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do ingredientLabel.$clear()
+Calculate list as pValue.$ingredientLabel()
+Do ingredientLabel.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate subject as pValue.$subject()
+Calculate encounter as pValue.$encounter()
+Calculate dateAsserted as pValue.$dateAsserted()
+Calculate informationSource as pValue.$informationSource()
+Do derivedFrom.$clear()
+Calculate list as pValue.$derivedFrom()
+Do derivedFrom.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do reasonCode.$clear()
+Calculate list as pValue.$reasonCode()
+Do reasonCode.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do reasonReference.$clear()
+Calculate list as pValue.$reasonReference()
+Do reasonReference.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do note.$clear()
+Calculate list as pValue.$note()
+Do note.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

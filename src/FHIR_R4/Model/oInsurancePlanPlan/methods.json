@@ -1,0 +1,287 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$identifier",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: Business identifiers assigned to this health insurance plan which remain constant as the resource is updated and propagates from server to server.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addidentifier",
+		"ident": 5,
+		"order": 6,
+		"desc": "Business identifiers assigned to this health insurance plan which remain constant as the resource is updated and propagates from server to server.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"desc": "Business identifiers assigned to this health insurance plan which remain constant as the resource is updated and propagates from server to server."
+			}
+		]
+	},
+	{
+		"name": "$::type",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: Type of plan. For example, \"Platinum\" or \"High Deductable\".",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Type of plan. For example, \"Platinum\" or \"High Deductable\"."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$coverageArea",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: The geographic region in which a health insurance plan's benefits apply.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcoverageArea",
+		"ident": 9,
+		"order": 10,
+		"desc": "The geographic region in which a health insurance plan's benefits apply.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "The geographic region in which a health insurance plan's benefits apply."
+			}
+		]
+	},
+	{
+		"name": "$network",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: Reference to the network that providing the type of coverage.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addnetwork",
+		"ident": 11,
+		"order": 12,
+		"desc": "Reference to the network that providing the type of coverage.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Reference to the network that providing the type of coverage."
+			}
+		]
+	},
+	{
+		"name": "$generalCost",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: Overall costs associated with the plan.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addgeneralCost",
+		"ident": 13,
+		"order": 14,
+		"desc": "Overall costs associated with the plan.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oInsurancePlanPlanGeneralCost",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oInsurancePlanPlanGeneralCost",
+				"sublen": 0,
+				"desc": "Overall costs associated with the plan."
+			}
+		]
+	},
+	{
+		"name": "$specificCost",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: Costs associated with the coverage provided by the product.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addspecificCost",
+		"ident": 15,
+		"order": 16,
+		"desc": "Costs associated with the coverage provided by the product.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oInsurancePlanPlanSpecificCost",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oInsurancePlanPlanSpecificCost",
+				"sublen": 0,
+				"desc": "Costs associated with the coverage provided by the product."
+			}
+		]
+	}
+]

@@ -1,0 +1,162 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "answer",
+			"order": 10,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "answer_",
+			"order": 11,
+			"type": "kObjectref",
+			"subtype": "oContractTermOfferAnswer",
+			"sublen": 0,
+			"desc": "Response to offer text."
+		},
+		{
+			"name": "decision",
+			"order": 7,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Type of choice made by accepting party with respect to an offer made by an offeror/ grantee."
+		},
+		{
+			"name": "decisionMode",
+			"order": 8,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "decisionMode_",
+			"order": 9,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "How the decision about a Contract was conveyed."
+		},
+		{
+			"name": "identifier",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "identifier_",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "Unique identifier for this particular Contract Provision."
+		},
+		{
+			"name": "linkId",
+			"order": 13,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "linkId_",
+			"order": 14,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The id of the clause or question text of the offer in the referenced questionnaire/response."
+		},
+		{
+			"name": "party",
+			"order": 3,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "party_",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oContractTermOfferParty",
+			"sublen": 0,
+			"desc": "Offer Recipient."
+		},
+		{
+			"name": "securityLabelNumber",
+			"order": 15,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "securityLabelNumber_",
+			"order": 16,
+			"type": "kInteger",
+			"subtype": "k32bitint",
+			"sublen": 0,
+			"desc": "Security labels that protects the offer."
+		},
+		{
+			"name": "text",
+			"order": 12,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Human readable form of this Contract Offer."
+		},
+		{
+			"name": "topic",
+			"order": 5,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The owner of an asset has the residual control rights over the asset: the right to decide all usages of the asset in any way not inconsistent with a prior contract, custom, or law (Hart, 1995, p. 30)."
+		},
+		{
+			"name": "type",
+			"order": 6,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Type of Contract Provision such as specific requirements, purposes for actions, obligations, prohibitions, e.g. life time maximum benefit."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:44:44",
+		"desc": "The matter of concern in the context of this provision of the agrement.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:29",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

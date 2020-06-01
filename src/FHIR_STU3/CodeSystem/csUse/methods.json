@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$complete",
+		"ident": 0,
+		"order": 1,
+		"desc": "The treatment is proposed and this represents a Pre-authorization for the services.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$proposed",
+		"ident": 1,
+		"order": 2,
+		"desc": "The treatment is proposed and this represents a Pre-determination for the services.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$exploratory",
+		"ident": 2,
+		"order": 3,
+		"desc": "A locally defined or otherwise resolved status.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$other",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

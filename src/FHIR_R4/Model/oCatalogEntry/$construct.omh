@@ -1,0 +1,7 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do additionalIdentifier.$define(additionalIdentifier_)
+Do classification.$define(classification_)
+Do additionalCharacteristic.$define(additionalCharacteristic_)
+Do additionalClassification.$define(additionalClassification_)
+Do relatedEntry.$define(relatedEntry_)

@@ -1,0 +1,7 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"-1",38,"Identifier")
+Do pElements.$add("type","::type",0,"1",38,"CodeableConcept")
+Do pElements.$add("coverageArea","coverageArea",0,"-1",38,"Reference")
+Do pElements.$add("network","network",0,"-1",38,"Reference")
+Do pElements.$add("generalCost","generalCost",0,"-1",38,"")
+Do pElements.$add("specificCost","specificCost",0,"-1",38,"")

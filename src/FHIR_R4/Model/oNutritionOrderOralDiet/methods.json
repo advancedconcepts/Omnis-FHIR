@@ -1,0 +1,287 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$::type",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: The kind of diet or dietary restriction such as fiber restricted diet or diabetic diet.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addtype",
+		"ident": 5,
+		"order": 6,
+		"desc": "The kind of diet or dietary restriction such as fiber restricted diet or diabetic diet.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "The kind of diet or dietary restriction such as fiber restricted diet or diabetic diet."
+			}
+		]
+	},
+	{
+		"name": "$schedule",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: The time period and frequency at which the diet should be given.  The diet should be given for the combination of all schedules if more than one schedule is present.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addschedule",
+		"ident": 7,
+		"order": 8,
+		"desc": "The time period and frequency at which the diet should be given.  The diet should be given for the combination of all schedules if more than one schedule is present.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oTiming",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oTiming",
+				"sublen": 0,
+				"desc": "The time period and frequency at which the diet should be given.  The diet should be given for the combination of all schedules if more than one schedule is present."
+			}
+		]
+	},
+	{
+		"name": "$nutrient",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: Class that defines the quantity and type of nutrient modifications (for example carbohydrate, fiber or sodium) required for the oral diet.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addnutrient",
+		"ident": 9,
+		"order": 10,
+		"desc": "Class that defines the quantity and type of nutrient modifications (for example carbohydrate, fiber or sodium) required for the oral diet.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oNutritionOrderOralDietNutrient",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oNutritionOrderOralDietNutrient",
+				"sublen": 0,
+				"desc": "Class that defines the quantity and type of nutrient modifications (for example carbohydrate, fiber or sodium) required for the oral diet."
+			}
+		]
+	},
+	{
+		"name": "$texture",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: Class that describes any texture modifications required for the patient to safely consume various types of solid foods.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addtexture",
+		"ident": 11,
+		"order": 12,
+		"desc": "Class that describes any texture modifications required for the patient to safely consume various types of solid foods.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oNutritionOrderOralDietTexture",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oNutritionOrderOralDietTexture",
+				"sublen": 0,
+				"desc": "Class that describes any texture modifications required for the patient to safely consume various types of solid foods."
+			}
+		]
+	},
+	{
+		"name": "$fluidConsistencyType",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: The required consistency (e.g. honey-thick, nectar-thick, thin, thickened.) of liquids or fluids served to the patient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addfluidConsistencyType",
+		"ident": 13,
+		"order": 14,
+		"desc": "The required consistency (e.g. honey-thick, nectar-thick, thin, thickened.) of liquids or fluids served to the patient.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "The required consistency (e.g. honey-thick, nectar-thick, thin, thickened.) of liquids or fluids served to the patient."
+			}
+		]
+	},
+	{
+		"name": "$instruction",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: Free text or additional instructions or information pertaining to the oral diet.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$instruction.$assign",
+		"ident": 15,
+		"order": 16,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Free text or additional instructions or information pertaining to the oral diet."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

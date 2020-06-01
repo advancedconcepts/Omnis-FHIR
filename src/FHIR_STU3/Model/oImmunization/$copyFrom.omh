@@ -1,0 +1,42 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate status as pValue.$status()
+Calculate notGiven as pValue.$notGiven()
+Calculate vaccineCode as pValue.$vaccineCode()
+Calculate patient as pValue.$patient()
+Calculate encounter as pValue.$encounter()
+Calculate date as pValue.$date()
+Calculate primarySource as pValue.$primarySource()
+Calculate reportOrigin as pValue.$reportOrigin()
+Calculate location as pValue.$location()
+Calculate manufacturer as pValue.$manufacturer()
+Calculate lotNumber as pValue.$lotNumber()
+Calculate expirationDate as pValue.$expirationDate()
+Calculate site as pValue.$site()
+Calculate route as pValue.$route()
+Calculate doseQuantity as pValue.$doseQuantity()
+Do practitioner.$clear()
+Calculate list as pValue.$practitioner()
+Do practitioner.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do note.$clear()
+Calculate list as pValue.$note()
+Do note.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate explanation as pValue.$explanation()
+Do reaction.$clear()
+Calculate list as pValue.$reaction()
+Do reaction.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do vaccinationProtocol.$clear()
+Calculate list as pValue.$vaccinationProtocol()
+Do vaccinationProtocol.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

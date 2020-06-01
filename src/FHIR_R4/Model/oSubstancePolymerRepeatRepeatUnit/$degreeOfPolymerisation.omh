@@ -1,0 +1,4 @@
+If degreeOfPolymerisation.$validref()=kFalse
+	Calculate degreeOfPolymerisation as $clib.$classes.oSubstancePolymerRepeatRepeatUnitDegreeOfPolymerisation.$newref()
+End If
+Quit method degreeOfPolymerisation

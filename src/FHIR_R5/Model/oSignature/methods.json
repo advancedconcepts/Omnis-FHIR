@@ -1,0 +1,302 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$::type",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: An indication of the reason that the entity signed this document. This may be explicitly included as part of the signature information and can be used when determining accountability for various actions concerning the document.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addtype",
+		"ident": 6,
+		"order": 7,
+		"desc": "An indication of the reason that the entity signed this document. This may be explicitly included as part of the signature information and can be used when determining accountability for various actions concerning the document.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCoding",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCoding",
+				"sublen": 0,
+				"desc": "An indication of the reason that the entity signed this document. This may be explicitly included as part of the signature information and can be used when determining accountability for various actions concerning the document."
+			}
+		]
+	},
+	{
+		"name": "$when",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: When the digital signature was signed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$when.$assign",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kDate",
+				"subtype": "kDatetime",
+				"sublen": 0,
+				"param": 1,
+				"desc": "When the digital signature was signed."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$who",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: A reference to an application-usable description of the identity that signed  (e.g. the signature used their private key).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$who.$assign",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "A reference to an application-usable description of the identity that signed  (e.g. the signature used their private key)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$onBehalfOf",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: A reference to an application-usable description of the identity that is represented by the signature.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$onBehalfOf.$assign",
+		"ident": 12,
+		"order": 13,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "A reference to an application-usable description of the identity that is represented by the signature."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$targetFormat",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: A mime type that indicates the technical format of the target resources signed by the signature.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$targetFormat.$assign",
+		"ident": 14,
+		"order": 15,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A mime type that indicates the technical format of the target resources signed by the signature."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sigFormat",
+		"ident": 15,
+		"order": 16,
+		"desc": "Returns: A mime type that indicates the technical format of the signature. Important mime types are application/signature+xml for X ML DigSig, application/jose for JWS, and image/* for a graphical image of a signature, etc.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sigFormat.$assign",
+		"ident": 16,
+		"order": 17,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A mime type that indicates the technical format of the signature. Important mime types are application/signature+xml for X ML DigSig, application/jose for JWS, and image/* for a graphical image of a signature, etc."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$data",
+		"ident": 17,
+		"order": 18,
+		"desc": "Returns: The base64 encoding of the Signature content. When signature is not recorded electronically this element would be empty.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$data.$assign",
+		"ident": 18,
+		"order": 19,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBinary",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "The base64 encoding of the Signature content. When signature is not recorded electronically this element would be empty."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

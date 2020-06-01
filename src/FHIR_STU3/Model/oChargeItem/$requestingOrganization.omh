@@ -1,0 +1,4 @@
+If requestingOrganization.$validref()=kFalse
+	Calculate requestingOrganization as $clib.$classes.oReference.$newref()
+End If
+Quit method requestingOrganization

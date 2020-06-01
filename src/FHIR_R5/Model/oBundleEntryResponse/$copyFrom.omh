@@ -1,0 +1,6 @@
+Do inherited
+Calculate status as pValue.$status()
+Calculate location as pValue.$location()
+Calculate etag as pValue.$etag()
+Calculate lastModified as pValue.$lastModified()
+Calculate outcome as pValue.$outcome()

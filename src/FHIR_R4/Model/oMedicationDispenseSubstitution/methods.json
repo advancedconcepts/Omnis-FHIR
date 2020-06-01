@@ -1,0 +1,204 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$wasSubstituted",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: True if the dispenser dispensed a different drug or product from what was prescribed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$wasSubstituted.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "True if the dispenser dispensed a different drug or product from what was prescribed."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: A code signifying whether a different drug was dispensed from what was prescribed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "A code signifying whether a different drug was dispensed from what was prescribed."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$reason",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: Indicates the reason for the substitution (or lack of substitution) from what was prescribed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addreason",
+		"ident": 9,
+		"order": 10,
+		"desc": "Indicates the reason for the substitution (or lack of substitution) from what was prescribed.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Indicates the reason for the substitution (or lack of substitution) from what was prescribed."
+			}
+		]
+	},
+	{
+		"name": "$responsibleParty",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: The person or organization that has primary responsibility for the substitution.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addresponsibleParty",
+		"ident": 11,
+		"order": 12,
+		"desc": "The person or organization that has primary responsibility for the substitution.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "The person or organization that has primary responsibility for the substitution."
+			}
+		]
+	}
+]

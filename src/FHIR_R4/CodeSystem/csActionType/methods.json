@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$create",
+		"ident": 0,
+		"order": 1,
+		"desc": "The action is to update an existing resource.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$update",
+		"ident": 1,
+		"order": 2,
+		"desc": "The action is to remove an existing resource.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$remove",
+		"ident": 2,
+		"order": 3,
+		"desc": "The action is to fire a specific event.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$fire-event",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

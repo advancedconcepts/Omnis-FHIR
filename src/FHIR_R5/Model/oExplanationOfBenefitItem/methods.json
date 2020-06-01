@@ -1,0 +1,771 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$sequence",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: A number to uniquely identify item entries.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sequence.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "A number to uniquely identify item entries."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$careTeamSequence",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: Care team members related to this service or product.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcareTeamSequence",
+		"ident": 7,
+		"order": 8,
+		"desc": "Care team members related to this service or product.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Care team members related to this service or product."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$diagnosisSequence",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: Diagnoses applicable for this service or product.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$adddiagnosisSequence",
+		"ident": 9,
+		"order": 10,
+		"desc": "Diagnoses applicable for this service or product.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Diagnoses applicable for this service or product."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$procedureSequence",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: Procedures applicable for this service or product.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addprocedureSequence",
+		"ident": 11,
+		"order": 12,
+		"desc": "Procedures applicable for this service or product.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Procedures applicable for this service or product."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$informationSequence",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: Exceptions, special conditions and supporting information applicable for this service or product.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addinformationSequence",
+		"ident": 13,
+		"order": 14,
+		"desc": "Exceptions, special conditions and supporting information applicable for this service or product.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Exceptions, special conditions and supporting information applicable for this service or product."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$revenue",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: The type of revenue or cost center providing the product and/or service.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$revenue.$assign",
+		"ident": 15,
+		"order": 16,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The type of revenue or cost center providing the product and/or service."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$category",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: Code to identify the general type of benefits under which products and services are provided.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$category.$assign",
+		"ident": 17,
+		"order": 18,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Code to identify the general type of benefits under which products and services are provided."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$productOrService",
+		"ident": 18,
+		"order": 19,
+		"desc": "Returns: When the value is a group code then this item collects a set of related claim details, otherwise this contains the product, service, drug or other billing code for the item.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$productOrService.$assign",
+		"ident": 19,
+		"order": 20,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "When the value is a group code then this item collects a set of related claim details, otherwise this contains the product, service, drug or other billing code for the item."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$modifier",
+		"ident": 20,
+		"order": 21,
+		"desc": "Returns: Item typification or modifiers codes to convey additional context for the product or service.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addmodifier",
+		"ident": 21,
+		"order": 22,
+		"desc": "Item typification or modifiers codes to convey additional context for the product or service.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Item typification or modifiers codes to convey additional context for the product or service."
+			}
+		]
+	},
+	{
+		"name": "$programCode",
+		"ident": 22,
+		"order": 23,
+		"desc": "Returns: Identifies the program under which this may be recovered.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addprogramCode",
+		"ident": 23,
+		"order": 24,
+		"desc": "Identifies the program under which this may be recovered.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Identifies the program under which this may be recovered."
+			}
+		]
+	},
+	{
+		"name": "$quantity",
+		"ident": 24,
+		"order": 25,
+		"desc": "Returns: The number of repetitions of a service or product.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$quantity.$assign",
+		"ident": 25,
+		"order": 26,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oQuantity",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The number of repetitions of a service or product."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unitPrice",
+		"ident": 26,
+		"order": 27,
+		"desc": "Returns: If the item is not a group then this is the fee for the product or service, otherwise this is the total of the fees for the details of the group.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unitPrice.$assign",
+		"ident": 27,
+		"order": 28,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMoney",
+				"sublen": 0,
+				"param": 1,
+				"desc": "If the item is not a group then this is the fee for the product or service, otherwise this is the total of the fees for the details of the group."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$factor",
+		"ident": 28,
+		"order": 29,
+		"desc": "Returns: A real number that represents a multiplier used in determining the overall value of services delivered and/or goods received. The concept of a Factor allows for a discount or surcharge multiplier to be applied to a monetary amount.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$factor.$assign",
+		"ident": 29,
+		"order": 30,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kNumber",
+				"subtype": "kFloatdp",
+				"sublen": 0,
+				"param": 1,
+				"desc": "A real number that represents a multiplier used in determining the overall value of services delivered and/or goods received. The concept of a Factor allows for a discount or surcharge multiplier to be applied to a monetary amount."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$net",
+		"ident": 30,
+		"order": 31,
+		"desc": "Returns: The quantity times the unit price for an additional service or product or charge.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$net.$assign",
+		"ident": 31,
+		"order": 32,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMoney",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The quantity times the unit price for an additional service or product or charge."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$udi",
+		"ident": 32,
+		"order": 33,
+		"desc": "Returns: Unique Device Identifiers associated with this line item.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addudi",
+		"ident": 33,
+		"order": 34,
+		"desc": "Unique Device Identifiers associated with this line item.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Unique Device Identifiers associated with this line item."
+			}
+		]
+	},
+	{
+		"name": "$bodySite",
+		"ident": 34,
+		"order": 35,
+		"desc": "Returns: Physical service site on the patient (limb, tooth, etc.).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$bodySite.$assign",
+		"ident": 35,
+		"order": 36,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Physical service site on the patient (limb, tooth, etc.)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subSite",
+		"ident": 36,
+		"order": 37,
+		"desc": "Returns: A region or surface of the bodySite, e.g. limb region or tooth surface(s).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addsubSite",
+		"ident": 37,
+		"order": 38,
+		"desc": "A region or surface of the bodySite, e.g. limb region or tooth surface(s).",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "A region or surface of the bodySite, e.g. limb region or tooth surface(s)."
+			}
+		]
+	},
+	{
+		"name": "$encounter",
+		"ident": 38,
+		"order": 39,
+		"desc": "Returns: A billed item may include goods or services provided in multiple encounters.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addencounter",
+		"ident": 39,
+		"order": 40,
+		"desc": "A billed item may include goods or services provided in multiple encounters.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "A billed item may include goods or services provided in multiple encounters."
+			}
+		]
+	},
+	{
+		"name": "$noteNumber",
+		"ident": 40,
+		"order": 41,
+		"desc": "Returns: The numbers associated with notes below which apply to the adjudication of this item.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addnoteNumber",
+		"ident": 41,
+		"order": 42,
+		"desc": "The numbers associated with notes below which apply to the adjudication of this item.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The numbers associated with notes below which apply to the adjudication of this item."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$adjudication",
+		"ident": 42,
+		"order": 43,
+		"desc": "Returns: If this item is a group then the values here are a summary of the adjudication of the detail items. If this item is a simple product or service then this is the result of the adjudication of this item.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addadjudication",
+		"ident": 43,
+		"order": 44,
+		"desc": "If this item is a group then the values here are a summary of the adjudication of the detail items. If this item is a simple product or service then this is the result of the adjudication of this item.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oExplanationOfBenefitItemAdjudication",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oExplanationOfBenefitItemAdjudication",
+				"sublen": 0,
+				"desc": "If this item is a group then the values here are a summary of the adjudication of the detail items. If this item is a simple product or service then this is the result of the adjudication of this item."
+			}
+		]
+	},
+	{
+		"name": "$detail",
+		"ident": 44,
+		"order": 45,
+		"desc": "Returns: Second-tier of goods and services.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$adddetail",
+		"ident": 45,
+		"order": 46,
+		"desc": "Second-tier of goods and services.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oExplanationOfBenefitItemDetail",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oExplanationOfBenefitItemDetail",
+				"sublen": 0,
+				"desc": "Second-tier of goods and services."
+			}
+		]
+	}
+]

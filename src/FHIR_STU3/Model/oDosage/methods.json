@@ -1,0 +1,426 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$sequence",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: Indicates the order in which the dosage instructions should be applied or interpreted.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sequence.$assign",
+		"ident": 6,
+		"order": 7,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Indicates the order in which the dosage instructions should be applied or interpreted."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$text",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: Free text dosage instructions e.g. SIG.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$text.$assign",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Free text dosage instructions e.g. SIG."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$additionalInstruction",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: Supplemental instruction - e.g. \"with meals\".",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addadditionalInstruction",
+		"ident": 10,
+		"order": 11,
+		"desc": "Supplemental instruction - e.g. \"with meals\".",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Supplemental instruction - e.g. \"with meals\"."
+			}
+		]
+	},
+	{
+		"name": "$patientInstruction",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: Instructions in terms that are understood by the patient or consumer.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$patientInstruction.$assign",
+		"ident": 12,
+		"order": 13,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Instructions in terms that are understood by the patient or consumer."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$timing",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: When medication should be administered.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$timing.$assign",
+		"ident": 14,
+		"order": 15,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oTiming",
+				"sublen": 0,
+				"param": 1,
+				"desc": "When medication should be administered."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$site",
+		"ident": 15,
+		"order": 16,
+		"desc": "Returns: Body site to administer to.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$site.$assign",
+		"ident": 16,
+		"order": 17,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Body site to administer to."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$route",
+		"ident": 17,
+		"order": 18,
+		"desc": "Returns: How drug should enter body.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$route.$assign",
+		"ident": 18,
+		"order": 19,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "How drug should enter body."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$method",
+		"ident": 19,
+		"order": 20,
+		"desc": "Returns: Technique for administering medication.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$method.$assign",
+		"ident": 20,
+		"order": 21,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Technique for administering medication."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$maxDosePerPeriod",
+		"ident": 21,
+		"order": 22,
+		"desc": "Returns: Upper limit on medication per unit of time.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$maxDosePerPeriod.$assign",
+		"ident": 22,
+		"order": 23,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oRatio",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Upper limit on medication per unit of time."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$maxDosePerAdministration",
+		"ident": 23,
+		"order": 24,
+		"desc": "Returns: Upper limit on medication per administration.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$maxDosePerAdministration.$assign",
+		"ident": 24,
+		"order": 25,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oQuantity",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Upper limit on medication per administration."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$maxDosePerLifetime",
+		"ident": 25,
+		"order": 26,
+		"desc": "Returns: Upper limit on medication per lifetime of the patient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$maxDosePerLifetime.$assign",
+		"ident": 26,
+		"order": 27,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oQuantity",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Upper limit on medication per lifetime of the patient."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

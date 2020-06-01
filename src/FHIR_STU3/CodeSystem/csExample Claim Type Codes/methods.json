@@ -1,0 +1,61 @@
+[
+	{
+		"name": "$institutional",
+		"ident": 0,
+		"order": 1,
+		"desc": "Dental, Denture and Hygiene claims.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$oral",
+		"ident": 1,
+		"order": 2,
+		"desc": "Pharmacy claims for goods and services.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$pharmacy",
+		"ident": 2,
+		"order": 3,
+		"desc": "Typically outpatient claims from Physician, Psychological, Chiropractor, Physiotherapy, Speach Pathology, rehabilitative, consulting.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$professional",
+		"ident": 3,
+		"order": 4,
+		"desc": "Vision claims for professional services and products such as glasses and contact lenses.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$vision",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

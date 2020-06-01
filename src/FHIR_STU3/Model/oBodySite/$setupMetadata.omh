@@ -1,0 +1,8 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"-1",38,"Identifier")
+Do pElements.$add("active","active",0,"1",22,"boolean")
+Do pElements.$add("code","code",0,"1",38,"CodeableConcept")
+Do pElements.$add("qualifier","qualifier",0,"-1",38,"CodeableConcept")
+Do pElements.$add("description","description",0,"1",21,"string")
+Do pElements.$add("image","image",0,"-1",38,"Attachment")
+Do pElements.$add("patient","patient",1,"1",38,"Reference")

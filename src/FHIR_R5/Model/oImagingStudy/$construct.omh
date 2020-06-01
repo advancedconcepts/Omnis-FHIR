@@ -1,0 +1,11 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do modality.$define(modality_)
+Do basedOn.$define(basedOn_)
+Do interpreter.$define(interpreter_)
+Do endpoint.$define(endpoint_)
+Do procedure.$define(procedure_)
+Do reasonCode.$define(reasonCode_)
+Do reasonReference.$define(reasonReference_)
+Do note.$define(note_)
+Do series.$define(series_)

@@ -1,0 +1,3 @@
+Do inherited
+Do pElements.$add("resource","resource",1,"1",38,"Reference")
+Do pElements.$add("rule","rule",1,"-1",38,"")

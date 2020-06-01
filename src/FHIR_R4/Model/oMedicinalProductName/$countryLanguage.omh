@@ -1,0 +1,4 @@
+If countryLanguage.$validref()=kFalse
+	Calculate countryLanguage as $clib.$classes.oMedicinalProductNameCountryLanguage.$newref()
+End If
+Quit method countryLanguage

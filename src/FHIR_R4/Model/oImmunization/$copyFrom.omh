@@ -1,0 +1,68 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate status as pValue.$status()
+Calculate statusReason as pValue.$statusReason()
+Calculate vaccineCode as pValue.$vaccineCode()
+Calculate patient as pValue.$patient()
+Calculate encounter as pValue.$encounter()
+Calculate recorded as pValue.$recorded()
+Calculate primarySource as pValue.$primarySource()
+Calculate reportOrigin as pValue.$reportOrigin()
+Calculate location as pValue.$location()
+Calculate manufacturer as pValue.$manufacturer()
+Calculate lotNumber as pValue.$lotNumber()
+Calculate expirationDate as pValue.$expirationDate()
+Calculate site as pValue.$site()
+Calculate route as pValue.$route()
+Calculate doseQuantity as pValue.$doseQuantity()
+Do performer.$clear()
+Calculate list as pValue.$performer()
+Do performer.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do note.$clear()
+Calculate list as pValue.$note()
+Do note.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do reasonCode.$clear()
+Calculate list as pValue.$reasonCode()
+Do reasonCode.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do reasonReference.$clear()
+Calculate list as pValue.$reasonReference()
+Do reasonReference.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate isSubpotent as pValue.$isSubpotent()
+Do subpotentReason.$clear()
+Calculate list as pValue.$subpotentReason()
+Do subpotentReason.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do education.$clear()
+Calculate list as pValue.$education()
+Do education.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do programEligibility.$clear()
+Calculate list as pValue.$programEligibility()
+Do programEligibility.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate fundingSource as pValue.$fundingSource()
+Do reaction.$clear()
+Calculate list as pValue.$reaction()
+Do reaction.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do protocolApplied.$clear()
+Calculate list as pValue.$protocolApplied()
+Do protocolApplied.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

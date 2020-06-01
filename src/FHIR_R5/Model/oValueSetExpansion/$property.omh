@@ -1,0 +1,4 @@
+If property.$validref()=kFalse
+	Calculate property as $clib.$classes.oValueSetExpansionProperty.$newref()
+End If
+Quit method property

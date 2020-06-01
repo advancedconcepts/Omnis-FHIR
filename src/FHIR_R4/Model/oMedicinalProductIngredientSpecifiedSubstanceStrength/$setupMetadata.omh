@@ -1,0 +1,8 @@
+Do inherited
+Do pElements.$add("presentation","presentation",1,"1",38,"Ratio")
+Do pElements.$add("presentationLowLimit","presentationLowLimit",0,"1",38,"Ratio")
+Do pElements.$add("concentration","concentration",0,"1",38,"Ratio")
+Do pElements.$add("concentrationLowLimit","concentrationLowLimit",0,"1",38,"Ratio")
+Do pElements.$add("measurementPoint","measurementPoint",0,"1",21,"string")
+Do pElements.$add("country","country",0,"-1",38,"CodeableConcept")
+Do pElements.$add("referenceStrength","referenceStrength",0,"-1",38,"")

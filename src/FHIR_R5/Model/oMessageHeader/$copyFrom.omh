@@ -1,0 +1,19 @@
+Do inherited
+Do destination.$clear()
+Calculate list as pValue.$destination()
+Do destination.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate sender as pValue.$sender()
+Calculate enterer as pValue.$enterer()
+Calculate author as pValue.$author()
+Calculate source as pValue.$source()
+Calculate responsible as pValue.$responsible()
+Calculate reason as pValue.$reason()
+Calculate response as pValue.$response()
+Do focus.$clear()
+Calculate list as pValue.$focus()
+Do focus.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate definition as pValue.$definition()

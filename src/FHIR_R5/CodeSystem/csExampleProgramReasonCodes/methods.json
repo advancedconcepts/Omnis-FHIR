@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$as",
+		"ident": 0,
+		"order": 1,
+		"desc": "Hemodialysis Program.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$hd",
+		"ident": 1,
+		"order": 2,
+		"desc": "Autism Screening Program.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$auscr",
+		"ident": 2,
+		"order": 3,
+		"desc": "No program code applies.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$none",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

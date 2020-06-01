@@ -1,0 +1,828 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$identifier",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: The Response business identifier.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addidentifier",
+		"ident": 6,
+		"order": 7,
+		"desc": "The Response business identifier.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"desc": "The Response business identifier."
+			}
+		]
+	},
+	{
+		"name": "$status",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: The status of the resource instance.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$status.$assign",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The status of the resource instance."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$patient",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: Patient Resource.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$patient.$assign",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Patient Resource."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$created",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: The date when the enclosed suite of services were performed or completed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$created.$assign",
+		"ident": 12,
+		"order": 13,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kDate",
+				"subtype": "kDatetime",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The date when the enclosed suite of services were performed or completed."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$insurer",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: The Insurer who produced this adjudicated response.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$insurer.$assign",
+		"ident": 14,
+		"order": 15,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The Insurer who produced this adjudicated response."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$requestProvider",
+		"ident": 15,
+		"order": 16,
+		"desc": "Returns: The practitioner who is responsible for the services rendered to the patient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$requestProvider.$assign",
+		"ident": 16,
+		"order": 17,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The practitioner who is responsible for the services rendered to the patient."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$requestOrganization",
+		"ident": 17,
+		"order": 18,
+		"desc": "Returns: The organization which is responsible for the services rendered to the patient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$requestOrganization.$assign",
+		"ident": 18,
+		"order": 19,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The organization which is responsible for the services rendered to the patient."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$request",
+		"ident": 19,
+		"order": 20,
+		"desc": "Returns: Original request resource referrence.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$request.$assign",
+		"ident": 20,
+		"order": 21,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Original request resource referrence."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$outcome",
+		"ident": 21,
+		"order": 22,
+		"desc": "Returns: Processing outcome errror, partial or complete processing.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$outcome.$assign",
+		"ident": 22,
+		"order": 23,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Processing outcome errror, partial or complete processing."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$disposition",
+		"ident": 23,
+		"order": 24,
+		"desc": "Returns: A description of the status of the adjudication.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$disposition.$assign",
+		"ident": 24,
+		"order": 25,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A description of the status of the adjudication."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$payeeType",
+		"ident": 25,
+		"order": 26,
+		"desc": "Returns: Party to be reimbursed: Subscriber, provider, other.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$payeeType.$assign",
+		"ident": 26,
+		"order": 27,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Party to be reimbursed: Subscriber, provider, other."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$item",
+		"ident": 27,
+		"order": 28,
+		"desc": "Returns: The first tier service adjudications for submitted services.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$additem",
+		"ident": 28,
+		"order": 29,
+		"desc": "The first tier service adjudications for submitted services.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oClaimResponseItem",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oClaimResponseItem",
+				"sublen": 0,
+				"desc": "The first tier service adjudications for submitted services."
+			}
+		]
+	},
+	{
+		"name": "$addaddItem",
+		"ident": 29,
+		"order": 30,
+		"desc": "The first tier service adjudications for payor added services.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oClaimResponseAddItem",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oClaimResponseAddItem",
+				"sublen": 0,
+				"desc": "The first tier service adjudications for payor added services."
+			}
+		]
+	},
+	{
+		"name": "$error",
+		"ident": 30,
+		"order": 31,
+		"desc": "Returns: Mutually exclusive with Services Provided (Item).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$adderror",
+		"ident": 31,
+		"order": 32,
+		"desc": "Mutually exclusive with Services Provided (Item).",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oClaimResponseError",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oClaimResponseError",
+				"sublen": 0,
+				"desc": "Mutually exclusive with Services Provided (Item)."
+			}
+		]
+	},
+	{
+		"name": "$totalCost",
+		"ident": 32,
+		"order": 33,
+		"desc": "Returns: The total cost of the services reported.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$totalCost.$assign",
+		"ident": 33,
+		"order": 34,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMoney",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The total cost of the services reported."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unallocDeductable",
+		"ident": 34,
+		"order": 35,
+		"desc": "Returns: The amount of deductible applied which was not allocated to any particular service line.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unallocDeductable.$assign",
+		"ident": 35,
+		"order": 36,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMoney",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The amount of deductible applied which was not allocated to any particular service line."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$totalBenefit",
+		"ident": 36,
+		"order": 37,
+		"desc": "Returns: Total amount of benefit payable (Equal to sum of the Benefit amounts from all detail lines and additions less the Unallocated Deductible).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$totalBenefit.$assign",
+		"ident": 37,
+		"order": 38,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMoney",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Total amount of benefit payable (Equal to sum of the Benefit amounts from all detail lines and additions less the Unallocated Deductible)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$payment",
+		"ident": 38,
+		"order": 39,
+		"desc": "Returns: Payment details for the claim if the claim has been paid.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$payment.$assign",
+		"ident": 39,
+		"order": 40,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oClaimResponsePayment",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Payment details for the claim if the claim has been paid."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$reserved",
+		"ident": 40,
+		"order": 41,
+		"desc": "Returns: Status of funds reservation (For provider, for Patient, None).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$reserved.$assign",
+		"ident": 41,
+		"order": 42,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCoding",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Status of funds reservation (For provider, for Patient, None)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$form",
+		"ident": 42,
+		"order": 43,
+		"desc": "Returns: The form to be used for printing the content.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$form.$assign",
+		"ident": 43,
+		"order": 44,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The form to be used for printing the content."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$processNote",
+		"ident": 44,
+		"order": 45,
+		"desc": "Returns: Note text.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addprocessNote",
+		"ident": 45,
+		"order": 46,
+		"desc": "Note text.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oClaimResponseProcessNote",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oClaimResponseProcessNote",
+				"sublen": 0,
+				"desc": "Note text."
+			}
+		]
+	},
+	{
+		"name": "$communicationRequest",
+		"ident": 46,
+		"order": 47,
+		"desc": "Returns: Request for additional supporting or authorizing information, such as: documents, images or resources.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcommunicationRequest",
+		"ident": 47,
+		"order": 48,
+		"desc": "Request for additional supporting or authorizing information, such as: documents, images or resources.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Request for additional supporting or authorizing information, such as: documents, images or resources."
+			}
+		]
+	},
+	{
+		"name": "$insurance",
+		"ident": 48,
+		"order": 49,
+		"desc": "Returns: Financial instrument by which payment information for health care.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addinsurance",
+		"ident": 49,
+		"order": 50,
+		"desc": "Financial instrument by which payment information for health care.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oClaimResponseInsurance",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oClaimResponseInsurance",
+				"sublen": 0,
+				"desc": "Financial instrument by which payment information for health care."
+			}
+		]
+	}
+]

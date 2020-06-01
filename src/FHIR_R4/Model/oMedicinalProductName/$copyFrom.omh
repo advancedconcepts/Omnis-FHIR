@@ -1,0 +1,12 @@
+Do inherited
+Calculate productName as pValue.$productName()
+Do namePart.$clear()
+Calculate list as pValue.$namePart()
+Do namePart.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do countryLanguage.$clear()
+Calculate list as pValue.$countryLanguage()
+Do countryLanguage.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

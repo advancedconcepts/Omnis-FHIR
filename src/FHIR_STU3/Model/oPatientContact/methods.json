@@ -1,0 +1,297 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$relationship",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: The nature of the relationship between the patient and the contact person.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addrelationship",
+		"ident": 5,
+		"order": 6,
+		"desc": "The nature of the relationship between the patient and the contact person.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "The nature of the relationship between the patient and the contact person."
+			}
+		]
+	},
+	{
+		"name": "$::name",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: A name associated with the contact person.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::name.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oHumanName",
+				"sublen": 0,
+				"param": 1,
+				"desc": "A name associated with the contact person."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$telecom",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: A contact detail for the person, e.g. a telephone number or an email address.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addtelecom",
+		"ident": 9,
+		"order": 10,
+		"desc": "A contact detail for the person, e.g. a telephone number or an email address.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oContactPoint",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oContactPoint",
+				"sublen": 0,
+				"desc": "A contact detail for the person, e.g. a telephone number or an email address."
+			}
+		]
+	},
+	{
+		"name": "$address",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: Address for the contact person.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$address.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oAddress",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Address for the contact person."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$gender",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: Administrative Gender - the gender that the contact person is considered to have for administration and record keeping purposes.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$gender.$assign",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Administrative Gender - the gender that the contact person is considered to have for administration and record keeping purposes."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$organization",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: Organization on behalf of which the contact is acting or for which the contact is working.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$organization.$assign",
+		"ident": 15,
+		"order": 16,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Organization on behalf of which the contact is acting or for which the contact is working."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$period",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: The period during which this contact person or organization is valid to be contacted relating to this patient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$period.$assign",
+		"ident": 17,
+		"order": 18,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oPeriod",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The period during which this contact person or organization is valid to be contacted relating to this patient."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

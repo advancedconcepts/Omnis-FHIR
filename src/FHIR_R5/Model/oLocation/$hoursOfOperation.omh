@@ -1,0 +1,4 @@
+If hoursOfOperation.$validref()=kFalse
+	Calculate hoursOfOperation as $clib.$classes.oLocationHoursOfOperation.$newref()
+End If
+Quit method hoursOfOperation

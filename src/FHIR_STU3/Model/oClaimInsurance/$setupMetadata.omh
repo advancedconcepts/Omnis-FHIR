@@ -1,0 +1,7 @@
+Do inherited
+Do pElements.$add("sequence","sequence",1,"1",26,"positiveInt")
+Do pElements.$add("focal","focal",1,"1",22,"boolean")
+Do pElements.$add("coverage","coverage",1,"1",38,"Reference")
+Do pElements.$add("businessArrangement","businessArrangement",0,"1",21,"string")
+Do pElements.$add("preAuthRef","preAuthRef",0,"-1",21,"string")
+Do pElements.$add("claimResponse","claimResponse",0,"1",38,"Reference")

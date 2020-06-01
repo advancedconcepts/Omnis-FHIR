@@ -1,0 +1,678 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$identifier",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: Identifier by which this substance is known.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$identifier.$assign",
+		"ident": 6,
+		"order": 7,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Identifier by which this substance is known."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: High level categorization, e.g. polymer or nucleic acid.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type.$assign",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "High level categorization, e.g. polymer or nucleic acid."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$status",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: Status of substance within the catalogue e.g. approved.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$status.$assign",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Status of substance within the catalogue e.g. approved."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$domain",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: If the substance applies to only human or veterinary use.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$domain.$assign",
+		"ident": 12,
+		"order": 13,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "If the substance applies to only human or veterinary use."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$description",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: Textual description of the substance.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$description.$assign",
+		"ident": 14,
+		"order": 15,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Textual description of the substance."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$source",
+		"ident": 15,
+		"order": 16,
+		"desc": "Returns: Supporting literature.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addsource",
+		"ident": 16,
+		"order": 17,
+		"desc": "Supporting literature.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Supporting literature."
+			}
+		]
+	},
+	{
+		"name": "$comment",
+		"ident": 17,
+		"order": 18,
+		"desc": "Returns: Textual comment about this record of a substance.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$comment.$assign",
+		"ident": 18,
+		"order": 19,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Textual comment about this record of a substance."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$moiety",
+		"ident": 19,
+		"order": 20,
+		"desc": "Returns: Moiety, for structural modifications.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addmoiety",
+		"ident": 20,
+		"order": 21,
+		"desc": "Moiety, for structural modifications.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oSubstanceSpecificationMoiety",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oSubstanceSpecificationMoiety",
+				"sublen": 0,
+				"desc": "Moiety, for structural modifications."
+			}
+		]
+	},
+	{
+		"name": "$property",
+		"ident": 21,
+		"order": 22,
+		"desc": "Returns: General specifications for this substance, including how it is related to other substances.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addproperty",
+		"ident": 22,
+		"order": 23,
+		"desc": "General specifications for this substance, including how it is related to other substances.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oSubstanceSpecificationProperty",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oSubstanceSpecificationProperty",
+				"sublen": 0,
+				"desc": "General specifications for this substance, including how it is related to other substances."
+			}
+		]
+	},
+	{
+		"name": "$referenceInformation",
+		"ident": 23,
+		"order": 24,
+		"desc": "Returns: General information detailing this substance.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$referenceInformation.$assign",
+		"ident": 24,
+		"order": 25,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "General information detailing this substance."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$structure",
+		"ident": 25,
+		"order": 26,
+		"desc": "Returns: Structural information.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$structure.$assign",
+		"ident": 26,
+		"order": 27,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oSubstanceSpecificationStructure",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Structural information."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$code",
+		"ident": 27,
+		"order": 28,
+		"desc": "Returns: Codes associated with the substance.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcode",
+		"ident": 28,
+		"order": 29,
+		"desc": "Codes associated with the substance.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oSubstanceSpecificationCode",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oSubstanceSpecificationCode",
+				"sublen": 0,
+				"desc": "Codes associated with the substance."
+			}
+		]
+	},
+	{
+		"name": "$::name",
+		"ident": 29,
+		"order": 30,
+		"desc": "Returns: Names applicable to this substance.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addname",
+		"ident": 30,
+		"order": 31,
+		"desc": "Names applicable to this substance.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oSubstanceSpecificationName",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oSubstanceSpecificationName",
+				"sublen": 0,
+				"desc": "Names applicable to this substance."
+			}
+		]
+	},
+	{
+		"name": "$relationship",
+		"ident": 31,
+		"order": 32,
+		"desc": "Returns: A link between this substance and another, with details of the relationship.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addrelationship",
+		"ident": 32,
+		"order": 33,
+		"desc": "A link between this substance and another, with details of the relationship.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oSubstanceSpecificationRelationship",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oSubstanceSpecificationRelationship",
+				"sublen": 0,
+				"desc": "A link between this substance and another, with details of the relationship."
+			}
+		]
+	},
+	{
+		"name": "$nucleicAcid",
+		"ident": 33,
+		"order": 34,
+		"desc": "Returns: Data items specific to nucleic acids.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$nucleicAcid.$assign",
+		"ident": 34,
+		"order": 35,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Data items specific to nucleic acids."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$polymer",
+		"ident": 35,
+		"order": 36,
+		"desc": "Returns: Data items specific to polymers.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$polymer.$assign",
+		"ident": 36,
+		"order": 37,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Data items specific to polymers."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$protein",
+		"ident": 37,
+		"order": 38,
+		"desc": "Returns: Data items specific to proteins.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$protein.$assign",
+		"ident": 38,
+		"order": 39,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Data items specific to proteins."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sourceMaterial",
+		"ident": 39,
+		"order": 40,
+		"desc": "Returns: Material or taxonomic/anatomical source for the substance.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sourceMaterial.$assign",
+		"ident": 40,
+		"order": 41,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Material or taxonomic/anatomical source for the substance."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

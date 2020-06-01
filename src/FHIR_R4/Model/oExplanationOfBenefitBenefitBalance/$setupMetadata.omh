@@ -1,0 +1,9 @@
+Do inherited
+Do pElements.$add("category","category",1,"1",38,"CodeableConcept")
+Do pElements.$add("excluded","excluded",0,"1",22,"boolean")
+Do pElements.$add("name","::name",0,"1",21,"string")
+Do pElements.$add("description","description",0,"1",21,"string")
+Do pElements.$add("network","network",0,"1",38,"CodeableConcept")
+Do pElements.$add("unit","unit",0,"1",38,"CodeableConcept")
+Do pElements.$add("term","term",0,"1",38,"CodeableConcept")
+Do pElements.$add("financial","financial",0,"-1",38,"")

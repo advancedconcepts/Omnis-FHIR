@@ -1,0 +1,94 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "code",
+			"order": 1,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The specific code."
+		},
+		{
+			"name": "note",
+			"order": 4,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "note_",
+			"order": 5,
+			"type": "kObjectref",
+			"subtype": "oAnnotation",
+			"sublen": 0,
+			"desc": "Any comment can be provided in this field, if necessary."
+		},
+		{
+			"name": "source",
+			"order": 6,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "source_",
+			"order": 7,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Supporting literature."
+		},
+		{
+			"name": "status",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Status of the code assignment, for example 'provisional', 'approved'."
+		},
+		{
+			"name": "statusDate",
+			"order": 3,
+			"type": "kDate",
+			"subtype": "kDatetime",
+			"sublen": 0,
+			"desc": "The date at which the code status is changed as part of the terminology maintenance."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:45:03",
+		"desc": "Codes associated with the substance.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:28",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

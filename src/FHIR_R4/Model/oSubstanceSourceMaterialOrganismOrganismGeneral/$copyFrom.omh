@@ -1,0 +1,5 @@
+Do inherited
+Calculate kingdom as pValue.$kingdom()
+Calculate phylum as pValue.$phylum()
+Calculate class as pValue.$class()
+Calculate order as pValue.$order()

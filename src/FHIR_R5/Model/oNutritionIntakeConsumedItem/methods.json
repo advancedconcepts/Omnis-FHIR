@@ -1,0 +1,283 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$::type",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: Indicates what a category of item that was consumed: eg., food, fluid, enteral, etc.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Indicates what a category of item that was consumed: eg., food, fluid, enteral, etc."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$nutritionProduct",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: Identifies the food or fluid product that was consumed. This is potentially a link to a resource representing the details of the food product (TBD) or a simple attribute carrying a code that identifies the food from a known list of foods.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$nutritionProduct.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Identifies the food or fluid product that was consumed. This is potentially a link to a resource representing the details of the food product (TBD) or a simple attribute carrying a code that identifies the food from a known list of foods."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$schedule",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: Scheduled frequency of consumption.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$schedule.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oTiming",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Scheduled frequency of consumption."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$amount",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: Quantity of the specified food.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$amount.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oQuantity",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Quantity of the specified food."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$rate",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: Rate at which enteral feeding was administered.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$rate.$assign",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oQuantity",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Rate at which enteral feeding was administered."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$notConsumed",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: Indicator when a patient is in a setting where it is helpful to know if food was not consumed, such as it was refused, held (as in tube feedings), or otherwise not provided. If a consumption is being recorded from an app, such as MyFitnessPal, this indicator will likely not be used.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$notConsumed.$assign",
+		"ident": 15,
+		"order": 16,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "Indicator when a patient is in a setting where it is helpful to know if food was not consumed, such as it was refused, held (as in tube feedings), or otherwise not provided. If a consumption is being recorded from an app, such as MyFitnessPal, this indica"
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$notConsumedReason",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: Document the reason the food or fluid was not consumed, such as refused, held, etc.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$notConsumedReason.$assign",
+		"ident": 17,
+		"order": 18,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Document the reason the food or fluid was not consumed, such as refused, held, etc."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

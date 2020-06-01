@@ -1,0 +1,4 @@
+If maxDispense.$validref()=kFalse
+	Calculate maxDispense as $clib.$classes.oMedicationKnowledgeRegulatoryMaxDispense.$newref()
+End If
+Quit method maxDispense

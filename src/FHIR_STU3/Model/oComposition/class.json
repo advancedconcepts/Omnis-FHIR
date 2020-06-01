@@ -1,0 +1,195 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "attester",
+			"order": 12,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "attester_",
+			"order": 13,
+			"type": "kObjectref",
+			"subtype": "oCompositionAttester",
+			"sublen": 0,
+			"desc": "A participant who has attested to the accuracy of the composition/document."
+		},
+		{
+			"name": "author",
+			"order": 8,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "author_",
+			"order": 9,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Identifies who is responsible for the information in the composition, not necessarily who typed it in."
+		},
+		{
+			"name": "class",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "A categorization for the type of the composition - helps for indexing and searching. This may be implied by or derived from the code specified in the Composition Type."
+		},
+		{
+			"name": "confidentiality",
+			"order": 11,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The code specifying the level of confidentiality of the Composition."
+		},
+		{
+			"name": "custodian",
+			"order": 14,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Identifies the organization or group who is responsible for ongoing maintenance of and access to the composition/document information."
+		},
+		{
+			"name": "date",
+			"order": 7,
+			"type": "kDate",
+			"subtype": "kDatetime",
+			"sublen": 0,
+			"desc": "The composition editing time, when the composition was last logically changed by the author."
+		},
+		{
+			"name": "encounter",
+			"order": 6,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Describes the clinical encounter or type of care this documentation is associated with."
+		},
+		{
+			"name": "event",
+			"order": 17,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "event_",
+			"order": 18,
+			"type": "kObjectref",
+			"subtype": "oCompositionEvent",
+			"sublen": 0,
+			"desc": "The clinical service, such as a colonoscopy or an appendectomy, being documented."
+		},
+		{
+			"name": "identifier",
+			"order": 1,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "Logical identifier for the composition, assigned when created. This identifier stays constant as the composition is changed over time."
+		},
+		{
+			"name": "relatesTo",
+			"order": 15,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "relatesTo_",
+			"order": 16,
+			"type": "kObjectref",
+			"subtype": "oCompositionRelatesTo",
+			"sublen": 0,
+			"desc": "Relationships that this composition has with other compositions or documents that already exist."
+		},
+		{
+			"name": "section",
+			"order": 19,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "section_",
+			"order": 20,
+			"type": "kObjectref",
+			"subtype": "oCompositionSection",
+			"sublen": 0,
+			"desc": "The root of the sections that make up the composition."
+		},
+		{
+			"name": "status",
+			"order": 2,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The workflow/clinical status of this composition. The status is a marker for the clinical standing of the document."
+		},
+		{
+			"name": "subject",
+			"order": 5,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Who or what the composition is about. The composition can be about a person, (patient or healthcare practitioner), a device (e.g. a machine) or even a group of subjects (such as a document about a herd of livestock, or a set of patients that share a commo"
+		},
+		{
+			"name": "title",
+			"order": 10,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Official human-readable label for the composition."
+		},
+		{
+			"name": "type",
+			"order": 3,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Specifies the particular kind of composition (e.g. History and Physical, Discharge Summary, Progress Note). This usually equates to the purpose of making the composition."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:39:59",
+		"desc": "Base StructureDefinition for Composition Resource",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:26",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$requested",
+		"ident": 0,
+		"order": 1,
+		"desc": "The subscription is active.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$active",
+		"ident": 1,
+		"order": 2,
+		"desc": "The server has an error executing the notification.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$error",
+		"ident": 2,
+		"order": 3,
+		"desc": "Too many errors have occurred or the subscription has expired.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$off",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

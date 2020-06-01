@@ -1,0 +1,4 @@
+If reasonCode.$validref()=kFalse
+	Calculate reasonCode as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method reasonCode

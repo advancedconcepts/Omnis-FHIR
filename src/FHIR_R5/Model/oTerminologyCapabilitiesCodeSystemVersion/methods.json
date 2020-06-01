@@ -1,0 +1,261 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$code",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: For version-less code systems, there should be a single version with no identifier.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$code.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "For version-less code systems, there should be a single version with no identifier."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$isDefault",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: If this is the default version for this code system.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$isDefault.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "If this is the default version for this code system."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$compositional",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: If the compositional grammar defined by the code system is supported.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$compositional.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "If the compositional grammar defined by the code system is supported."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$language",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: Language Displays supported.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addlanguage",
+		"ident": 11,
+		"order": 12,
+		"desc": "Language Displays supported.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Language Displays supported."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$filter",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: Filter Properties supported.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addfilter",
+		"ident": 13,
+		"order": 14,
+		"desc": "Filter Properties supported.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oTerminologyCapabilitiesCodeSystemVersionFilter",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oTerminologyCapabilitiesCodeSystemVersionFilter",
+				"sublen": 0,
+				"desc": "Filter Properties supported."
+			}
+		]
+	},
+	{
+		"name": "$property",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: Properties supported for $lookup.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addproperty",
+		"ident": 15,
+		"order": 16,
+		"desc": "Properties supported for $lookup.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Properties supported for $lookup."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

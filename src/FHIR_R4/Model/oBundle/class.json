@@ -1,0 +1,110 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "entry",
+			"order": 7,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "entry_",
+			"order": 8,
+			"type": "kObjectref",
+			"subtype": "oBundleEntry",
+			"sublen": 0,
+			"desc": "An entry in a bundle resource - will either contain a resource or information about a resource (transactions and history only)."
+		},
+		{
+			"name": "identifier",
+			"order": 1,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "A persistent identifier for the bundle that won't change as a bundle is copied from server to server."
+		},
+		{
+			"name": "link",
+			"order": 5,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "link_",
+			"order": 6,
+			"type": "kObjectref",
+			"subtype": "oBundleLink",
+			"sublen": 0,
+			"desc": "A series of links that provide context to this bundle."
+		},
+		{
+			"name": "signature",
+			"order": 9,
+			"type": "kObjectref",
+			"subtype": "oSignature",
+			"sublen": 0,
+			"desc": "Digital Signature - base64 encoded. XML-DSig or a JWT."
+		},
+		{
+			"name": "timestamp",
+			"order": 3,
+			"type": "kDate",
+			"subtype": "kDatetime",
+			"sublen": 0,
+			"desc": "The date/time that the bundle was assembled - i.e. when the resources were placed in the bundle."
+		},
+		{
+			"name": "total",
+			"order": 4,
+			"type": "kInteger",
+			"subtype": "k32bitint",
+			"sublen": 0,
+			"desc": "If a set of search matches, this is the total number of entries of type 'match' across all pages in the search.  It does not include search.mode = 'include' or 'outcome' entries and it does not provide a count of the number of entries in the Bundle."
+		},
+		{
+			"name": "type",
+			"order": 2,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Indicates the purpose of this bundle - how it is intended to be used."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:41:33",
+		"desc": "A container for a collection of resources.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:24",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

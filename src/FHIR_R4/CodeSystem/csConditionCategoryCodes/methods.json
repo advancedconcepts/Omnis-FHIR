@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$problem-list-item",
+		"ident": 0,
+		"order": 1,
+		"desc": "A point in time diagnosis (e.g. from a physician or nurse) in context of an encounter.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$encounter-diagnosis",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

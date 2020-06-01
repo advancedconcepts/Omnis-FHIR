@@ -1,0 +1,188 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "asserter",
+			"order": 14,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The source of the information about the allergy that is recorded."
+		},
+		{
+			"name": "category",
+			"order": 6,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "category_",
+			"order": 7,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Category of the identified substance."
+		},
+		{
+			"name": "clinicalStatus",
+			"order": 3,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The clinical status of the allergy or intolerance."
+		},
+		{
+			"name": "code",
+			"order": 9,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Code for an allergy or intolerance statement (either a positive or a negated/excluded statement).  This may be a code for a substance or pharmaceutical product that is considered to be responsible for the adverse reaction risk (e.g., \"Latex\"), an allergy "
+		},
+		{
+			"name": "criticality",
+			"order": 8,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Estimate of the potential clinical harm, or seriousness, of the reaction to the identified substance."
+		},
+		{
+			"name": "encounter",
+			"order": 11,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The encounter when the allergy or intolerance was asserted."
+		},
+		{
+			"name": "identifier",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "identifier_",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "Business identifiers assigned to this AllergyIntolerance by the performer or other systems which remain constant as the resource is updated and propagates from server to server."
+		},
+		{
+			"name": "lastOccurrence",
+			"order": 15,
+			"type": "kDate",
+			"subtype": "kDatetime",
+			"sublen": 0,
+			"desc": "Represents the date and/or time of the last known occurrence of a reaction event."
+		},
+		{
+			"name": "note",
+			"order": 16,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "note_",
+			"order": 17,
+			"type": "kObjectref",
+			"subtype": "oAnnotation",
+			"sublen": 0,
+			"desc": "Additional narrative about the propensity for the Adverse Reaction, not captured in other fields."
+		},
+		{
+			"name": "patient",
+			"order": 10,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The patient who has the allergy or intolerance."
+		},
+		{
+			"name": "reaction",
+			"order": 18,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "reaction_",
+			"order": 19,
+			"type": "kObjectref",
+			"subtype": "oAllergyIntoleranceReaction",
+			"sublen": 0,
+			"desc": "Details about each adverse reaction event linked to exposure to the identified substance."
+		},
+		{
+			"name": "recordedDate",
+			"order": 12,
+			"type": "kDate",
+			"subtype": "kDatetime",
+			"sublen": 0,
+			"desc": "The recordedDate represents when this particular AllergyIntolerance record was created in the system, which is often a system-generated date."
+		},
+		{
+			"name": "recorder",
+			"order": 13,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Individual who recorded the record and takes responsibility for its content."
+		},
+		{
+			"name": "type",
+			"order": 5,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Identification of the underlying physiological mechanism for the reaction risk."
+		},
+		{
+			"name": "verificationStatus",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Assertion about certainty associated with the propensity, or potential risk, of a reaction to the identified substance (including pharmaceutical product)."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:41:32",
+		"desc": "Risk of harmful or undesirable, physiological response which is unique to an individual and associated with exposure to a substance.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:24",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

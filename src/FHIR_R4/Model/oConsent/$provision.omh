@@ -1,0 +1,4 @@
+If provision.$validref()=kFalse
+	Calculate provision as $clib.$classes.oConsentProvision.$newref()
+End If
+Quit method provision

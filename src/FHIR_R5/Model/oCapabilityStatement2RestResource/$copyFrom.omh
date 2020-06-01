@@ -1,0 +1,24 @@
+Do inherited
+Calculate type as pValue.$type()
+Calculate profile as pValue.$profile()
+Do supportedProfile.$clear()
+Calculate list as pValue.$supportedProfile()
+Do supportedProfile.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate documentation as pValue.$documentation()
+Do interaction.$clear()
+Calculate list as pValue.$interaction()
+Do interaction.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do searchParam.$clear()
+Calculate list as pValue.$searchParam()
+Do searchParam.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do operation.$clear()
+Calculate list as pValue.$operation()
+Do operation.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

@@ -1,0 +1,223 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "bodySite",
+			"order": 18,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Physical service site on the patient (limb, tooth, etc.)."
+		},
+		{
+			"name": "detail",
+			"order": 23,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "detailSequence",
+			"order": 3,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "detailSequence_",
+			"order": 4,
+			"type": "kInteger",
+			"subtype": "k32bitint",
+			"sublen": 0,
+			"desc": "The sequence number of the details within the claim item which this line is intended to replace."
+		},
+		{
+			"name": "detail_",
+			"order": 24,
+			"type": "kObjectref",
+			"subtype": "oExplanationOfBenefitAddItemDetail",
+			"sublen": 0,
+			"desc": "The second-tier service adjudications for payor added services."
+		},
+		{
+			"name": "factor",
+			"order": 16,
+			"type": "kNumber",
+			"subtype": "kFloatdp",
+			"sublen": 0,
+			"desc": "A real number that represents a multiplier used in determining the overall value of services delivered and/or goods received. The concept of a Factor allows for a discount or surcharge multiplier to be applied to a monetary amount."
+		},
+		{
+			"name": "itemSequence",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "itemSequence_",
+			"order": 2,
+			"type": "kInteger",
+			"subtype": "k32bitint",
+			"sublen": 0,
+			"desc": "Claim items which this service line is intended to replace."
+		},
+		{
+			"name": "modifier",
+			"order": 10,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "modifier_",
+			"order": 11,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Item typification or modifiers codes to convey additional context for the product or service."
+		},
+		{
+			"name": "net",
+			"order": 17,
+			"type": "kObjectref",
+			"subtype": "oMoney",
+			"sublen": 0,
+			"desc": "The quantity times the unit price for an additional service or product or charge."
+		},
+		{
+			"name": "noteNumber",
+			"order": 21,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "noteNumber_",
+			"order": 22,
+			"type": "kInteger",
+			"subtype": "k32bitint",
+			"sublen": 0,
+			"desc": "The numbers associated with notes below which apply to the adjudication of this item."
+		},
+		{
+			"name": "productOrService",
+			"order": 9,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "When the value is a group code then this item collects a set of related claim details, otherwise this contains the product, service, drug or other billing code for the item."
+		},
+		{
+			"name": "programCode",
+			"order": 12,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "programCode_",
+			"order": 13,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Identifies the program under which this may be recovered."
+		},
+		{
+			"name": "provider",
+			"order": 7,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "provider_",
+			"order": 8,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The providers who are authorized for the services rendered to the patient."
+		},
+		{
+			"name": "quantity",
+			"order": 14,
+			"type": "kObjectref",
+			"subtype": "oQuantity",
+			"sublen": 0,
+			"desc": "The number of repetitions of a service or product."
+		},
+		{
+			"name": "subDetailSequence",
+			"order": 5,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "subDetailSequence_",
+			"order": 6,
+			"type": "kInteger",
+			"subtype": "k32bitint",
+			"sublen": 0,
+			"desc": "The sequence number of the sub-details woithin the details within the claim item which this line is intended to replace."
+		},
+		{
+			"name": "subSite",
+			"order": 19,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "subSite_",
+			"order": 20,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "A region or surface of the bodySite, e.g. limb region or tooth surface(s)."
+		},
+		{
+			"name": "unitPrice",
+			"order": 15,
+			"type": "kObjectref",
+			"subtype": "oMoney",
+			"sublen": 0,
+			"desc": "If the item is not a group then this is the fee for the product or service, otherwise this is the total of the fees for the details of the group."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:41:41",
+		"desc": "The first-tier service adjudications for payor added product or service lines.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:24",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

@@ -1,0 +1,6 @@
+Do inherited
+Do pElements.$add("variantType","variantType",0,"1",38,"CodeableConcept")
+Do pElements.$add("exact","exact",0,"1",22,"boolean")
+Do pElements.$add("length","length",0,"1",26,"integer")
+Do pElements.$add("outer","outer",0,"1",38,"")
+Do pElements.$add("inner","inner",0,"1",38,"")

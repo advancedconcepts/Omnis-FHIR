@@ -1,0 +1,4 @@
+Do inherited
+Do resource.$define(resource_)
+Do interaction.$define(interaction_)
+Do compartment.$define(compartment_)

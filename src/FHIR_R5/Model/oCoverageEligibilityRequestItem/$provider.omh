@@ -1,0 +1,4 @@
+If provider.$validref()=kFalse
+	Calculate provider as $clib.$classes.oReference.$newref()
+End If
+Quit method provider

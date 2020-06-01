@@ -1,0 +1,4 @@
+If position.$validref()=kFalse
+	Calculate position as $clib.$classes.oLocationPosition.$newref()
+End If
+Quit method position

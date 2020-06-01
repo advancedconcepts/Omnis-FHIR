@@ -1,0 +1,4 @@
+Do inherited
+Do contact.$define(contact_)
+Do useContext.$define(useContext_)
+Do resource.$define(resource_)

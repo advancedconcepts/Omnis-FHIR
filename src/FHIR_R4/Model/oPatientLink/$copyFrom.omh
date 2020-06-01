@@ -1,0 +1,3 @@
+Do inherited
+Calculate other as pValue.$other()
+Calculate type as pValue.$type()

@@ -1,0 +1,4 @@
+If containedItem.$validref()=kFalse
+	Calculate containedItem as $clib.$classes.oPackagedProductDefinitionPackageContainedItem.$newref()
+End If
+Quit method containedItem

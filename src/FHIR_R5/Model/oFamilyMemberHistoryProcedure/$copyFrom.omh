@@ -1,0 +1,9 @@
+Do inherited
+Calculate code as pValue.$code()
+Calculate outcome as pValue.$outcome()
+Calculate contributedToDeath as pValue.$contributedToDeath()
+Do note.$clear()
+Calculate list as pValue.$note()
+Do note.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

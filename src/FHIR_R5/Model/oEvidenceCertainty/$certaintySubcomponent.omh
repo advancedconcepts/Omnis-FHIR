@@ -1,0 +1,4 @@
+If certaintySubcomponent.$validref()=kFalse
+	Calculate certaintySubcomponent as $clib.$classes.oEvidenceCertaintyCertaintySubcomponent.$newref()
+End If
+Quit method certaintySubcomponent

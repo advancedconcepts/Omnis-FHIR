@@ -1,0 +1,4 @@
+Do inherited
+Do securityLabel.$define(securityLabel_)
+Do asset.$define(asset_)
+Do action.$define(action_)

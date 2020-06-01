@@ -1,0 +1,6 @@
+Calculate objRef as $clib.$classes.oProductShelfLife.$newref()
+Do shelfLifeStorage.$add(objRef)
+If pValue.$validref()
+	Do objRef.$copyFrom(pValue)
+End If
+Quit method objRef

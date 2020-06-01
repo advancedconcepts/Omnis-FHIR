@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$relatedto",
+		"ident": 0,
+		"order": 1,
+		"desc": "There is no match for this concept in the target code system.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unmatched",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

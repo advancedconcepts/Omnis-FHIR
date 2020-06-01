@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$GET",
+		"ident": 0,
+		"order": 1,
+		"desc": "HTTP POST",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$POST",
+		"ident": 1,
+		"order": 2,
+		"desc": "HTTP PUT",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$PUT",
+		"ident": 2,
+		"order": 3,
+		"desc": "HTTP DELETE",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$DELETE",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,4 @@
+Do inherited
+Calculate system as pValue.$system()
+Calculate version as pValue.$version()
+Calculate mode as pValue.$mode()

@@ -1,0 +1,4 @@
+If subunit.$validref()=kFalse
+	Calculate subunit as $clib.$classes.oSubstanceProteinSubunit.$newref()
+End If
+Quit method subunit

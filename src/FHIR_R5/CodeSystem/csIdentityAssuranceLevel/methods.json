@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$level1",
+		"ident": 0,
+		"order": 1,
+		"desc": "Some confidence in the asserted identity's accuracy.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$level2",
+		"ident": 1,
+		"order": 2,
+		"desc": "High confidence in the asserted identity's accuracy.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$level3",
+		"ident": 2,
+		"order": 3,
+		"desc": "Very high confidence in the asserted identity's accuracy.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$level4",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

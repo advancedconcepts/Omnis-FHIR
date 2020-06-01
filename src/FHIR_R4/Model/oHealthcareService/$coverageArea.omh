@@ -1,0 +1,4 @@
+If coverageArea.$validref()=kFalse
+	Calculate coverageArea as $clib.$classes.oReference.$newref()
+End If
+Quit method coverageArea

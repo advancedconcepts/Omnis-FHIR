@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$http",
+		"ident": 0,
+		"order": 1,
+		"desc": "The application sends or receives messages using File Transfer Protocol.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ftp",
+		"ident": 1,
+		"order": 2,
+		"desc": "The application sends or receives messages using HL7's Minimal Lower Level Protocol.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$mllp",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

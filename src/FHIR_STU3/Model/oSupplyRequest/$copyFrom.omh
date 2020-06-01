@@ -1,0 +1,15 @@
+Do inherited
+Calculate identifier as pValue.$identifier()
+Calculate status as pValue.$status()
+Calculate category as pValue.$category()
+Calculate priority as pValue.$priority()
+Calculate orderedItem as pValue.$orderedItem()
+Calculate authoredOn as pValue.$authoredOn()
+Calculate requester as pValue.$requester()
+Do supplier.$clear()
+Calculate list as pValue.$supplier()
+Do supplier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate deliverFrom as pValue.$deliverFrom()
+Calculate deliverTo as pValue.$deliverTo()

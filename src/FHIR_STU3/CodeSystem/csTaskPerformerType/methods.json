@@ -1,0 +1,85 @@
+[
+	{
+		"name": "$requester",
+		"ident": 0,
+		"order": 1,
+		"desc": "A workflow participant that dispatches services (assigns another task to a participant).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$dispatcher",
+		"ident": 1,
+		"order": 2,
+		"desc": "A workflow participant that performs services.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$performer",
+		"ident": 2,
+		"order": 3,
+		"desc": "A workflow participant that monitors task activity.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$monitor",
+		"ident": 3,
+		"order": 4,
+		"desc": "A workflow participant that manages task activity.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$manager",
+		"ident": 4,
+		"order": 5,
+		"desc": "A workflow participant that acquires resources (specimens, images, etc) necessary to perform the task.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$acquirer",
+		"ident": 5,
+		"order": 6,
+		"desc": "A workflow participant that reviews task inputs or outputs.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$reviewer",
+		"ident": 6,
+		"order": 7,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

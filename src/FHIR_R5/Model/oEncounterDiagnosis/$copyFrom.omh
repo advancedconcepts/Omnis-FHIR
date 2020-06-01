@@ -1,0 +1,4 @@
+Do inherited
+Calculate condition as pValue.$condition()
+Calculate use as pValue.$use()
+Calculate rank as pValue.$rank()

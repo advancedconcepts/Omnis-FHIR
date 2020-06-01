@@ -1,0 +1,32 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate productCategory as pValue.$productCategory()
+Calculate productCode as pValue.$productCode()
+Calculate status as pValue.$status()
+Do request.$clear()
+Calculate list as pValue.$request()
+Do request.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate quantity as pValue.$quantity()
+Do parent.$clear()
+Calculate list as pValue.$parent()
+Do parent.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate collection as pValue.$collection()
+Do processing.$clear()
+Calculate list as pValue.$processing()
+Do processing.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate manipulation as pValue.$manipulation()
+Do storage.$clear()
+Calculate list as pValue.$storage()
+Do storage.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

@@ -1,0 +1,228 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$category",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: A category for this property, e.g. Physical, Chemical, Enzymatic.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$category.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "A category for this property, e.g. Physical, Chemical, Enzymatic."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$code",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: Property type e.g. viscosity, pH, isoelectric point.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$code.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Property type e.g. viscosity, pH, isoelectric point."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$parameters",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: Parameters that were used in the measurement of a property (e.g. for viscosity: measured at 20C with a pH of 7.1).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$parameters.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Parameters that were used in the measurement of a property (e.g. for viscosity: measured at 20C with a pH of 7.1)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$referenceRange",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: Range of typical values.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$referenceRange.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oRange",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Range of typical values."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$source",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: Supporting literature.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addsource",
+		"ident": 13,
+		"order": 14,
+		"desc": "Supporting literature.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Supporting literature."
+			}
+		]
+	}
+]

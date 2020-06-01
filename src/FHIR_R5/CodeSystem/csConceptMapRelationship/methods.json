@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$related-to",
+		"ident": 0,
+		"order": 1,
+		"desc": "This is an explicit assertion that the target concept is not related to the source concept.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$not-related-to",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

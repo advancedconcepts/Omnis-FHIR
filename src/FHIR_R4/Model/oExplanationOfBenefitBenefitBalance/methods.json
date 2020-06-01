@@ -1,0 +1,321 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$category",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: Code to identify the general type of benefits under which products and services are provided.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$category.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Code to identify the general type of benefits under which products and services are provided."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$excluded",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: True if the indicated class of service is excluded from the plan, missing or False indicates the product or service is included in the coverage.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$excluded.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "True if the indicated class of service is excluded from the plan, missing or False indicates the product or service is included in the coverage."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::name",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: A short name or tag for the benefit.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::name.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A short name or tag for the benefit."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$description",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: A richer description of the benefit or services covered.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$description.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A richer description of the benefit or services covered."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$network",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: Is a flag to indicate whether the benefits refer to in-network providers or out-of-network providers.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$network.$assign",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Is a flag to indicate whether the benefits refer to in-network providers or out-of-network providers."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unit",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: Indicates if the benefits apply to an individual or to the family.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unit.$assign",
+		"ident": 15,
+		"order": 16,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Indicates if the benefits apply to an individual or to the family."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$term",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: The term or period of the values such as 'maximum lifetime benefit' or 'maximum annual visits'.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$term.$assign",
+		"ident": 17,
+		"order": 18,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The term or period of the values such as 'maximum lifetime benefit' or 'maximum annual visits'."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$financial",
+		"ident": 18,
+		"order": 19,
+		"desc": "Returns: Benefits Used to date.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addfinancial",
+		"ident": 19,
+		"order": 20,
+		"desc": "Benefits Used to date.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oExplanationOfBenefitBenefitBalanceFinancial",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oExplanationOfBenefitBenefitBalanceFinancial",
+				"sublen": 0,
+				"desc": "Benefits Used to date."
+			}
+		]
+	}
+]

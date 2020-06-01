@@ -1,0 +1,7 @@
+Do inherited
+Calculate rulesetId as pValue.$rulesetId()
+Do rule.$clear()
+Calculate list as pValue.$rule()
+Do rule.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

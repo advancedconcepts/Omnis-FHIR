@@ -1,0 +1,409 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$identifier",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: A unique business identifier for this group.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addidentifier",
+		"ident": 6,
+		"order": 7,
+		"desc": "A unique business identifier for this group.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"desc": "A unique business identifier for this group."
+			}
+		]
+	},
+	{
+		"name": "$active",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: Indicates whether the record for the group is available for use or is merely being retained for historical purposes.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$active.$assign",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "Indicates whether the record for the group is available for use or is merely being retained for historical purposes."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: Identifies the broad classification of the kind of resources the group includes.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type.$assign",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Identifies the broad classification of the kind of resources the group includes."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$actual",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: If true, indicates that the resource refers to a specific group of real individuals.  If false, the group defines a set of intended individuals.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$actual.$assign",
+		"ident": 12,
+		"order": 13,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "If true, indicates that the resource refers to a specific group of real individuals.  If false, the group defines a set of intended individuals."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$code",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: Provides a specific type of resource the group includes; e.g. \"cow\", \"syringe\", etc.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$code.$assign",
+		"ident": 14,
+		"order": 15,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Provides a specific type of resource the group includes; e.g. \"cow\", \"syringe\", etc."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::name",
+		"ident": 15,
+		"order": 16,
+		"desc": "Returns: A label assigned to the group for human identification and communication.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::name.$assign",
+		"ident": 16,
+		"order": 17,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A label assigned to the group for human identification and communication."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$quantity",
+		"ident": 17,
+		"order": 18,
+		"desc": "Returns: A count of the number of resource instances that are part of the group.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$quantity.$assign",
+		"ident": 18,
+		"order": 19,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "A count of the number of resource instances that are part of the group."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$managingEntity",
+		"ident": 19,
+		"order": 20,
+		"desc": "Returns: Entity responsible for defining and maintaining Group characteristics and/or registered members.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$managingEntity.$assign",
+		"ident": 20,
+		"order": 21,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Entity responsible for defining and maintaining Group characteristics and/or registered members."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$characteristic",
+		"ident": 21,
+		"order": 22,
+		"desc": "Returns: Identifies traits whose presence r absence is shared by members of the group.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcharacteristic",
+		"ident": 22,
+		"order": 23,
+		"desc": "Identifies traits whose presence r absence is shared by members of the group.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oGroupCharacteristic",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oGroupCharacteristic",
+				"sublen": 0,
+				"desc": "Identifies traits whose presence r absence is shared by members of the group."
+			}
+		]
+	},
+	{
+		"name": "$member",
+		"ident": 23,
+		"order": 24,
+		"desc": "Returns: Identifies the resource instances that are members of the group.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addmember",
+		"ident": 24,
+		"order": 25,
+		"desc": "Identifies the resource instances that are members of the group.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oGroupMember",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oGroupMember",
+				"sublen": 0,
+				"desc": "Identifies the resource instances that are members of the group."
+			}
+		]
+	}
+]

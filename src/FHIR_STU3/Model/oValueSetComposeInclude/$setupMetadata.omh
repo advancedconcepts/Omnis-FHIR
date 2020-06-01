@@ -1,0 +1,6 @@
+Do inherited
+Do pElements.$add("system","system",0,"1",21,"uri")
+Do pElements.$add("version","::version",0,"1",21,"string")
+Do pElements.$add("concept","concept",0,"-1",38,"")
+Do pElements.$add("filter","filter",0,"-1",38,"")
+Do pElements.$add("valueSet","valueSet",0,"-1",21,"uri")

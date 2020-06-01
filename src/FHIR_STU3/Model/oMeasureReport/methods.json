@@ -1,0 +1,395 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$identifier",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: A formal identifier that is used to identify this report when it is represented in other formats, or referenced in a specification, model, design or an instance.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$identifier.$assign",
+		"ident": 6,
+		"order": 7,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1,
+				"desc": "A formal identifier that is used to identify this report when it is represented in other formats, or referenced in a specification, model, design or an instance."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$status",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: The report status. No data will be available until the report status is complete.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$status.$assign",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The report status. No data will be available until the report status is complete."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: The type of measure report. This may be an individual report, which provides a single patient's score for the measure; a patient listing, which returns the list of patients that meet the various criteria in the measure; or a summary report, which returns a population count for each of the criteria in the measure.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type.$assign",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The type of measure report. This may be an individual report, which provides a single patient's score for the measure; a patient listing, which returns the list of patients that meet the various criteria in the measure; or a summary report, which returns "
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$measure",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: A reference to the Measure that was evaluated to produce this report.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$measure.$assign",
+		"ident": 12,
+		"order": 13,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "A reference to the Measure that was evaluated to produce this report."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$patient",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: Optional Patient if the report was requested for a single patient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$patient.$assign",
+		"ident": 14,
+		"order": 15,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Optional Patient if the report was requested for a single patient."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$date",
+		"ident": 15,
+		"order": 16,
+		"desc": "Returns: The date this measure report was generated.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$date.$assign",
+		"ident": 16,
+		"order": 17,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kDate",
+				"subtype": "kDatetime",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The date this measure report was generated."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$reportingOrganization",
+		"ident": 17,
+		"order": 18,
+		"desc": "Returns: Reporting Organization.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$reportingOrganization.$assign",
+		"ident": 18,
+		"order": 19,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Reporting Organization."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$period",
+		"ident": 19,
+		"order": 20,
+		"desc": "Returns: The reporting period for which the report was calculated.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$period.$assign",
+		"ident": 20,
+		"order": 21,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oPeriod",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The reporting period for which the report was calculated."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$group",
+		"ident": 21,
+		"order": 22,
+		"desc": "Returns: The results of the calculation, one for each population group in the measure.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addgroup",
+		"ident": 22,
+		"order": 23,
+		"desc": "The results of the calculation, one for each population group in the measure.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMeasureReportGroup",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oMeasureReportGroup",
+				"sublen": 0,
+				"desc": "The results of the calculation, one for each population group in the measure."
+			}
+		]
+	},
+	{
+		"name": "$evaluatedResources",
+		"ident": 23,
+		"order": 24,
+		"desc": "Returns: A reference to a Bundle containing the Resources that were used in the evaluation of this report.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$evaluatedResources.$assign",
+		"ident": 24,
+		"order": 25,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "A reference to a Bundle containing the Resources that were used in the evaluation of this report."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

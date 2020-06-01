@@ -1,0 +1,39 @@
+Do inherited
+Calculate type as pValue.$type()
+Calculate period as pValue.$period()
+Do actor.$clear()
+Calculate list as pValue.$actor()
+Do actor.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do action.$clear()
+Calculate list as pValue.$action()
+Do action.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do securityLabel.$clear()
+Calculate list as pValue.$securityLabel()
+Do securityLabel.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do purpose.$clear()
+Calculate list as pValue.$purpose()
+Do purpose.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do class.$clear()
+Calculate list as pValue.$class()
+Do class.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do code.$clear()
+Calculate list as pValue.$code()
+Do code.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate dataPeriod as pValue.$dataPeriod()
+Do data.$clear()
+Calculate list as pValue.$data()
+Do data.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

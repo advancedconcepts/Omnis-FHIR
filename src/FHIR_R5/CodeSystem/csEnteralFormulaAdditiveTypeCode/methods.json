@@ -1,0 +1,61 @@
+[
+	{
+		"name": "$lipid",
+		"ident": 0,
+		"order": 1,
+		"desc": "Modular protein enteral formula component",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$protein",
+		"ident": 1,
+		"order": 2,
+		"desc": "Modular carbohydrate enteral formula component",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$carbohydrate",
+		"ident": 2,
+		"order": 3,
+		"desc": "Modular fiber enteral formula component",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$fiber",
+		"ident": 3,
+		"order": 4,
+		"desc": "Added water",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$water",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

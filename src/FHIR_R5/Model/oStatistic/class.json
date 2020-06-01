@@ -1,0 +1,282 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "attributeEstimate",
+			"order": 14,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "attributeEstimate.description",
+			"order": 16,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Human-readable summary of the estimate."
+		},
+		{
+			"name": "attributeEstimate.estimateQualifier",
+			"order": 23,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "attributeEstimate.estimateQualifier.description",
+			"order": 25,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Human-readable summary of the estimate."
+		},
+		{
+			"name": "attributeEstimate.estimateQualifier.level",
+			"order": 30,
+			"type": "kNumber",
+			"subtype": "kFloatdp",
+			"sublen": 0,
+			"desc": "Use 95 for a 95% confidence interval."
+		},
+		{
+			"name": "attributeEstimate.estimateQualifier.note",
+			"order": 26,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "attributeEstimate.estimateQualifier.note_",
+			"order": 27,
+			"type": "kObjectref",
+			"subtype": "oAnnotation",
+			"sublen": 0,
+			"desc": "Footnote or explanatory note about the estimate."
+		},
+		{
+			"name": "attributeEstimate.estimateQualifier.quantity",
+			"order": 29,
+			"type": "kObjectref",
+			"subtype": "oQuantity",
+			"sublen": 0,
+			"desc": "The singular quantity of the attribute estimate, for attribute estimates represented as single values; also used to report unit of measure."
+		},
+		{
+			"name": "attributeEstimate.estimateQualifier.range",
+			"order": 31,
+			"type": "kObjectref",
+			"subtype": "oRange",
+			"sublen": 0,
+			"desc": "Lower bound of confidence interval."
+		},
+		{
+			"name": "attributeEstimate.estimateQualifier.type",
+			"order": 28,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The estimateType of attribute estimate, eg confidence interval or p value type."
+		},
+		{
+			"name": "attributeEstimate.estimateQualifier_",
+			"order": 24,
+			"type": "kObjectref",
+			"subtype": "oElement",
+			"sublen": 0,
+			"desc": "An estimate of the precision of the estimate."
+		},
+		{
+			"name": "attributeEstimate.level",
+			"order": 21,
+			"type": "kNumber",
+			"subtype": "kFloatdp",
+			"sublen": 0,
+			"desc": "Use 95 for a 95% confidence interval."
+		},
+		{
+			"name": "attributeEstimate.note",
+			"order": 17,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "attributeEstimate.note_",
+			"order": 18,
+			"type": "kObjectref",
+			"subtype": "oAnnotation",
+			"sublen": 0,
+			"desc": "Footnote or explanatory note about the estimate."
+		},
+		{
+			"name": "attributeEstimate.quantity",
+			"order": 20,
+			"type": "kObjectref",
+			"subtype": "oQuantity",
+			"sublen": 0,
+			"desc": "The singular quantity of the precision estimate, for precision estimates represented as single values; also used to report unit of measure."
+		},
+		{
+			"name": "attributeEstimate.range",
+			"order": 22,
+			"type": "kObjectref",
+			"subtype": "oRange",
+			"sublen": 0,
+			"desc": "Lower bound of confidence interval."
+		},
+		{
+			"name": "attributeEstimate.type",
+			"order": 19,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The estimateType of precision estimate, eg confidence interval or p value type."
+		},
+		{
+			"name": "attributeEstimate_",
+			"order": 15,
+			"type": "kObjectref",
+			"subtype": "oElement",
+			"sublen": 0,
+			"desc": "An estimate of the precision of the statistic."
+		},
+		{
+			"name": "description",
+			"order": 1,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A description of the content value of the statistic."
+		},
+		{
+			"name": "note",
+			"order": 2,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "note_",
+			"order": 3,
+			"type": "kObjectref",
+			"subtype": "oAnnotation",
+			"sublen": 0,
+			"desc": "Footnotes and/or explanatory notes."
+		},
+		{
+			"name": "quantity",
+			"order": 5,
+			"type": "kObjectref",
+			"subtype": "oQuantity",
+			"sublen": 0,
+			"desc": "Statistic value."
+		},
+		{
+			"name": "sampleSize",
+			"order": 6,
+			"type": "kObjectref",
+			"subtype": "oElement",
+			"sublen": 0,
+			"desc": "Number of samples in the statistic."
+		},
+		{
+			"name": "sampleSize.description",
+			"order": 7,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Human-readable summary of population sample size."
+		},
+		{
+			"name": "sampleSize.knownDataCount",
+			"order": 12,
+			"type": "kInteger",
+			"subtype": "k32bitint",
+			"sublen": 0,
+			"desc": "Number of participants with known results for measured variables."
+		},
+		{
+			"name": "sampleSize.note",
+			"order": 8,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "sampleSize.note_",
+			"order": 9,
+			"type": "kObjectref",
+			"subtype": "oAnnotation",
+			"sublen": 0,
+			"desc": "Footnote or explanatory note about the sample size."
+		},
+		{
+			"name": "sampleSize.numberOfParticipants",
+			"order": 11,
+			"type": "kInteger",
+			"subtype": "k32bitint",
+			"sublen": 0,
+			"desc": "A human-readable string to clarify or explain concepts about the sample size."
+		},
+		{
+			"name": "sampleSize.numberOfStudies",
+			"order": 10,
+			"type": "kInteger",
+			"subtype": "k32bitint",
+			"sublen": 0,
+			"desc": "Number of participants in the population."
+		},
+		{
+			"name": "sampleSize.numeratorCount",
+			"order": 13,
+			"type": "kInteger",
+			"subtype": "k32bitint",
+			"sublen": 0,
+			"desc": "Number of participants with “positive” results, only used to report actual numerator count for a proportion."
+		},
+		{
+			"name": "statisticType",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Type of statistic, eg relative risk."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:44:33",
+		"desc": "Base StructureDefinition for Statistic Type: A fact or piece of data from a  study of a large quantity of numerical data.  A mathematical or quantified characteristic of a group of observations.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:28",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

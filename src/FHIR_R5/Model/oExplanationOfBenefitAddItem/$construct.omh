@@ -1,0 +1,10 @@
+Do inherited
+Do itemSequence.$define(itemSequence_)
+Do detailSequence.$define(detailSequence_)
+Do subDetailSequence.$define(subDetailSequence_)
+Do provider.$define(provider_)
+Do modifier.$define(modifier_)
+Do programCode.$define(programCode_)
+Do subSite.$define(subSite_)
+Do noteNumber.$define(noteNumber_)
+Do detail.$define(detail_)

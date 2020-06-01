@@ -1,0 +1,55 @@
+Do inherited
+Calculate scope as pValue.$scope()
+Do type.$clear()
+Calculate list as pValue.$type()
+Do type.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do typeReference.$clear()
+Calculate list as pValue.$typeReference()
+Do typeReference.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do subtype.$clear()
+Calculate list as pValue.$subtype()
+Do subtype.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate relationship as pValue.$relationship()
+Do context.$clear()
+Calculate list as pValue.$context()
+Do context.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate condition as pValue.$condition()
+Do periodType.$clear()
+Calculate list as pValue.$periodType()
+Do periodType.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do period.$clear()
+Calculate list as pValue.$period()
+Do period.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do usePeriod.$clear()
+Calculate list as pValue.$usePeriod()
+Do usePeriod.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate text as pValue.$text()
+Do linkId.$clear()
+Calculate list as pValue.$linkId()
+Do linkId.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do securityLabelNumber.$clear()
+Calculate list as pValue.$securityLabelNumber()
+Do securityLabelNumber.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do valuedItem.$clear()
+Calculate list as pValue.$valuedItem()
+Do valuedItem.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

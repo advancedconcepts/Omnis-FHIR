@@ -1,0 +1,74 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do udiDeviceIdentifier.$clear()
+Calculate list as pValue.$udiDeviceIdentifier()
+Do udiDeviceIdentifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do deviceName.$clear()
+Calculate list as pValue.$deviceName()
+Do deviceName.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate modelNumber as pValue.$modelNumber()
+Calculate type as pValue.$type()
+Do specialization.$clear()
+Calculate list as pValue.$specialization()
+Do specialization.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do version.$clear()
+Calculate list as pValue.$version()
+Do version.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do safety.$clear()
+Calculate list as pValue.$safety()
+Do safety.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do shelfLifeStorage.$clear()
+Calculate list as pValue.$shelfLifeStorage()
+Do shelfLifeStorage.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate physicalCharacteristics as pValue.$physicalCharacteristics()
+Do languageCode.$clear()
+Calculate list as pValue.$languageCode()
+Do languageCode.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do capability.$clear()
+Calculate list as pValue.$capability()
+Do capability.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do property.$clear()
+Calculate list as pValue.$property()
+Do property.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate owner as pValue.$owner()
+Do contact.$clear()
+Calculate list as pValue.$contact()
+Do contact.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate url as pValue.$url()
+Calculate onlineInformation as pValue.$onlineInformation()
+Do note.$clear()
+Calculate list as pValue.$note()
+Do note.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate quantity as pValue.$quantity()
+Calculate parentDevice as pValue.$parentDevice()
+Do material.$clear()
+Calculate list as pValue.$material()
+Do material.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

@@ -1,0 +1,530 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$identifier",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: Id for specimen.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addidentifier",
+		"ident": 6,
+		"order": 7,
+		"desc": "Id for specimen.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"desc": "Id for specimen."
+			}
+		]
+	},
+	{
+		"name": "$accessionIdentifier",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: The identifier assigned by the lab when accessioning specimen(s). This is not necessarily the same as the specimen identifier, depending on local lab procedures.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$accessionIdentifier.$assign",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The identifier assigned by the lab when accessioning specimen(s). This is not necessarily the same as the specimen identifier, depending on local lab procedures."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$status",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: The availability of the specimen.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$status.$assign",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The availability of the specimen."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: The kind of material that forms the specimen.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type.$assign",
+		"ident": 12,
+		"order": 13,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The kind of material that forms the specimen."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subject",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: Where the specimen came from. This may be from patient(s), from a location (e.g., the source of an environmental sample), or a sampling of a substance or a device.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subject.$assign",
+		"ident": 14,
+		"order": 15,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Where the specimen came from. This may be from patient(s), from a location (e.g., the source of an environmental sample), or a sampling of a substance or a device."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$receivedTime",
+		"ident": 15,
+		"order": 16,
+		"desc": "Returns: Time when specimen was received for processing or testing.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$receivedTime.$assign",
+		"ident": 16,
+		"order": 17,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kDate",
+				"subtype": "kDatetime",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Time when specimen was received for processing or testing."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$parent",
+		"ident": 17,
+		"order": 18,
+		"desc": "Returns: Reference to the parent (source) specimen which is used when the specimen was either derived from or a component of another specimen.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addparent",
+		"ident": 18,
+		"order": 19,
+		"desc": "Reference to the parent (source) specimen which is used when the specimen was either derived from or a component of another specimen.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Reference to the parent (source) specimen which is used when the specimen was either derived from or a component of another specimen."
+			}
+		]
+	},
+	{
+		"name": "$request",
+		"ident": 19,
+		"order": 20,
+		"desc": "Returns: Details concerning a service request that required a specimen to be collected.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addrequest",
+		"ident": 20,
+		"order": 21,
+		"desc": "Details concerning a service request that required a specimen to be collected.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Details concerning a service request that required a specimen to be collected."
+			}
+		]
+	},
+	{
+		"name": "$collection",
+		"ident": 21,
+		"order": 22,
+		"desc": "Returns: Details concerning the specimen collection.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$collection.$assign",
+		"ident": 22,
+		"order": 23,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oSpecimenCollection",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Details concerning the specimen collection."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$processing",
+		"ident": 23,
+		"order": 24,
+		"desc": "Returns: Details concerning processing and processing steps for the specimen.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addprocessing",
+		"ident": 24,
+		"order": 25,
+		"desc": "Details concerning processing and processing steps for the specimen.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oSpecimenProcessing",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oSpecimenProcessing",
+				"sublen": 0,
+				"desc": "Details concerning processing and processing steps for the specimen."
+			}
+		]
+	},
+	{
+		"name": "$container",
+		"ident": 25,
+		"order": 26,
+		"desc": "Returns: The container holding the specimen.  The recursive nature of containers; i.e. blood in tube in tray in rack is not addressed here.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcontainer",
+		"ident": 26,
+		"order": 27,
+		"desc": "The container holding the specimen.  The recursive nature of containers; i.e. blood in tube in tray in rack is not addressed here.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oSpecimenContainer",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oSpecimenContainer",
+				"sublen": 0,
+				"desc": "The container holding the specimen.  The recursive nature of containers; i.e. blood in tube in tray in rack is not addressed here."
+			}
+		]
+	},
+	{
+		"name": "$condition",
+		"ident": 27,
+		"order": 28,
+		"desc": "Returns: A mode or state of being that describes the nature of the specimen.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcondition",
+		"ident": 28,
+		"order": 29,
+		"desc": "A mode or state of being that describes the nature of the specimen.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "A mode or state of being that describes the nature of the specimen."
+			}
+		]
+	},
+	{
+		"name": "$note",
+		"ident": 29,
+		"order": 30,
+		"desc": "Returns: To communicate any details or issues about the specimen or during the specimen collection. (for example: broken vial, sent with patient, frozen).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addnote",
+		"ident": 30,
+		"order": 31,
+		"desc": "To communicate any details or issues about the specimen or during the specimen collection. (for example: broken vial, sent with patient, frozen).",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oAnnotation",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oAnnotation",
+				"sublen": 0,
+				"desc": "To communicate any details or issues about the specimen or during the specimen collection. (for example: broken vial, sent with patient, frozen)."
+			}
+		]
+	}
+]

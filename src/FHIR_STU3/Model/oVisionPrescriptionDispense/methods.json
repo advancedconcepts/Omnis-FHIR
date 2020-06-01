@@ -1,0 +1,538 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$product",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: Identifies the type of vision correction product which is required for the patient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$product.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Identifies the type of vision correction product which is required for the patient."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$eye",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: The eye for which the lens applies.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$eye.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The eye for which the lens applies."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sphere",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: Lens power measured in diopters (0.25 units).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sphere.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kNumber",
+				"subtype": "kFloatdp",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Lens power measured in diopters (0.25 units)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$cylinder",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: Power adjustment for astigmatism measured in diopters (0.25 units).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$cylinder.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kNumber",
+				"subtype": "kFloatdp",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Power adjustment for astigmatism measured in diopters (0.25 units)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$axis",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: Adjustment for astigmatism measured in integer degrees.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$axis.$assign",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Adjustment for astigmatism measured in integer degrees."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$prism",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: Amount of prism to compensate for eye alignment in fractional units.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$prism.$assign",
+		"ident": 15,
+		"order": 16,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kNumber",
+				"subtype": "kFloatdp",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Amount of prism to compensate for eye alignment in fractional units."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$base",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: The relative base, or reference lens edge, for the prism.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$base.$assign",
+		"ident": 17,
+		"order": 18,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The relative base, or reference lens edge, for the prism."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$add",
+		"ident": 18,
+		"order": 19,
+		"desc": "Returns: Power adjustment for multifocal lenses measured in diopters (0.25 units).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$add.$assign",
+		"ident": 19,
+		"order": 20,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kNumber",
+				"subtype": "kFloatdp",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Power adjustment for multifocal lenses measured in diopters (0.25 units)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$power",
+		"ident": 20,
+		"order": 21,
+		"desc": "Returns: Contact lens power measured in diopters (0.25 units).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$power.$assign",
+		"ident": 21,
+		"order": 22,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kNumber",
+				"subtype": "kFloatdp",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Contact lens power measured in diopters (0.25 units)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$backCurve",
+		"ident": 22,
+		"order": 23,
+		"desc": "Returns: Back curvature measured in millimeters.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$backCurve.$assign",
+		"ident": 23,
+		"order": 24,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kNumber",
+				"subtype": "kFloatdp",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Back curvature measured in millimeters."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$diameter",
+		"ident": 24,
+		"order": 25,
+		"desc": "Returns: Contact lens diameter measured in millimeters.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$diameter.$assign",
+		"ident": 25,
+		"order": 26,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kNumber",
+				"subtype": "kFloatdp",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Contact lens diameter measured in millimeters."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$duration",
+		"ident": 26,
+		"order": 27,
+		"desc": "Returns: The recommended maximum wear period for the lens.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$duration.$assign",
+		"ident": 27,
+		"order": 28,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oQuantity",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The recommended maximum wear period for the lens."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$color",
+		"ident": 28,
+		"order": 29,
+		"desc": "Returns: Special color or pattern.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$color.$assign",
+		"ident": 29,
+		"order": 30,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Special color or pattern."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$brand",
+		"ident": 30,
+		"order": 31,
+		"desc": "Returns: Brand recommendations or restrictions.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$brand.$assign",
+		"ident": 31,
+		"order": 32,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Brand recommendations or restrictions."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$note",
+		"ident": 32,
+		"order": 33,
+		"desc": "Returns: Notes for special requirements such as coatings and lens materials.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addnote",
+		"ident": 33,
+		"order": 34,
+		"desc": "Notes for special requirements such as coatings and lens materials.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oAnnotation",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oAnnotation",
+				"sublen": 0,
+				"desc": "Notes for special requirements such as coatings and lens materials."
+			}
+		]
+	}
+]

@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$response",
+		"ident": 0,
+		"order": 1,
+		"desc": "The assertion is evaluated on the request.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$request",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

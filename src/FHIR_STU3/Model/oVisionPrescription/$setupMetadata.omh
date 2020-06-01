@@ -1,0 +1,8 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"-1",38,"Identifier")
+Do pElements.$add("status","status",0,"1",21,"code")
+Do pElements.$add("patient","patient",0,"1",38,"Reference")
+Do pElements.$add("encounter","encounter",0,"1",38,"Reference")
+Do pElements.$add("dateWritten","dateWritten",0,"1",23,"dateTime")
+Do pElements.$add("prescriber","prescriber",0,"1",38,"Reference")
+Do pElements.$add("dispense","dispense",0,"-1",38,"")

@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("result","result",1,"1",21,"code")
+Do pElements.$add("message","message",0,"1",21,"markdown")
+Do pElements.$add("detail","detail",0,"1",21,"uri")

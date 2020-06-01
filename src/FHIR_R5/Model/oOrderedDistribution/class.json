@@ -1,0 +1,125 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "bottomOfFirstInterval",
+			"order": 5,
+			"type": "kObjectref",
+			"subtype": "oQuantity",
+			"sublen": 0,
+			"desc": "Bottom of first interval."
+		},
+		{
+			"name": "description",
+			"order": 1,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A description of the content and value of the statistic."
+		},
+		{
+			"name": "interval",
+			"order": 6,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "interval.intervalStatistic",
+			"order": 9,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "interval.intervalStatistic_",
+			"order": 10,
+			"type": "kObjectref",
+			"subtype": "oStatistic",
+			"sublen": 0,
+			"desc": "Values and parameters for a single statistic related to the interval."
+		},
+		{
+			"name": "interval.rankOrder",
+			"order": 8,
+			"type": "kInteger",
+			"subtype": "k32bitint",
+			"sublen": 0,
+			"desc": "Relative order of interval."
+		},
+		{
+			"name": "interval_",
+			"order": 7,
+			"type": "kObjectref",
+			"subtype": "oElement",
+			"sublen": 0,
+			"desc": "Interval."
+		},
+		{
+			"name": "note",
+			"order": 2,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "note_",
+			"order": 3,
+			"type": "kObjectref",
+			"subtype": "oAnnotation",
+			"sublen": 0,
+			"desc": "Footnotes and/or explanatory notes."
+		},
+		{
+			"name": "numberOfIntervals",
+			"order": 4,
+			"type": "kInteger",
+			"subtype": "k32bitint",
+			"sublen": 0,
+			"desc": "Number of intervals in an array, eg 4 for quartiles."
+		},
+		{
+			"name": "topOfInterval",
+			"order": 11,
+			"type": "kObjectref",
+			"subtype": "oQuantity",
+			"sublen": 0,
+			"desc": "Singular value of the statistic at the upper bound of the interval."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:44:32",
+		"desc": "Base StructureDefinition for OrderedDistribution Type: An ordered list (distribution) of statistics.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:27",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

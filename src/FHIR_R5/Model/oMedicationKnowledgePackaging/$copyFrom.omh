@@ -1,0 +1,5 @@
+Do inherited
+Calculate type as pValue.$type()
+Calculate quantity as pValue.$quantity()
+Calculate device as pValue.$device()
+Calculate material as pValue.$material()

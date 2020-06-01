@@ -1,0 +1,4 @@
+If studyEffectiveTimeFromStart.$validref()=kFalse
+	Calculate studyEffectiveTimeFromStart as $clib.$classes.oDuration.$newref()
+End If
+Quit method studyEffectiveTimeFromStart

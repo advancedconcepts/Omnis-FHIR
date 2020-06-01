@@ -1,0 +1,637 @@
+[
+	{
+		"name": "$read",
+		"ident": 0,
+		"order": 1,
+		"desc": "Read the state of a specific version of the resource.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$vread",
+		"ident": 1,
+		"order": 2,
+		"desc": "Update an existing resource by its id.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$update",
+		"ident": 2,
+		"order": 3,
+		"desc": "Update an existing resource by its id (or create it if it is new).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$updateCreate",
+		"ident": 3,
+		"order": 4,
+		"desc": "Delete a resource.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$delete",
+		"ident": 4,
+		"order": 5,
+		"desc": "Conditionally delete a single resource based on search parameters.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$deleteCondSingle",
+		"ident": 5,
+		"order": 6,
+		"desc": "Conditionally delete one or more resources based on search parameters.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$deleteCondMultiple",
+		"ident": 6,
+		"order": 7,
+		"desc": "Retrieve the change history for a particular resource or resource type.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$history",
+		"ident": 7,
+		"order": 8,
+		"desc": "Create a new resource with a server assigned id.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$create",
+		"ident": 8,
+		"order": 9,
+		"desc": "Search based on some filter criteria.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$search",
+		"ident": 9,
+		"order": 10,
+		"desc": "Update, create or delete a set of resources as independent actions.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$batch",
+		"ident": 10,
+		"order": 11,
+		"desc": "Update, create or delete a set of resources as a single transaction.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$transaction",
+		"ident": 11,
+		"order": 12,
+		"desc": "Get a capability statement for the system.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$capabilities",
+		"ident": 12,
+		"order": 13,
+		"desc": "Realize a definition in a specific context",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$apply",
+		"ident": 13,
+		"order": 14,
+		"desc": "Cancel Task",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$cancel",
+		"ident": 14,
+		"order": 15,
+		"desc": "Closure Table Maintenance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$closure",
+		"ident": 15,
+		"order": 16,
+		"desc": "Code Composition based on supplied properties",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$compose",
+		"ident": 16,
+		"order": 17,
+		"desc": "Test if a server implements a client's required operations",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$conforms",
+		"ident": 17,
+		"order": 18,
+		"desc": "Aggregates and return the parameters and data requirements as a single module definition library",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$data-requirements",
+		"ident": 18,
+		"order": 19,
+		"desc": "Generate a Document",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$document",
+		"ident": 19,
+		"order": 20,
+		"desc": "Evaluate DecisionSupportRule / DecisionSupportServiceModule",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$evaluate",
+		"ident": 20,
+		"order": 21,
+		"desc": "Evaluate Measure",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$evaluate-measure",
+		"ident": 21,
+		"order": 22,
+		"desc": "Fetch Encounter/Patient Record",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$everything",
+		"ident": 22,
+		"order": 23,
+		"desc": "Value Set Expansion",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$expand",
+		"ident": 23,
+		"order": 24,
+		"desc": "Fail Task",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$fail",
+		"ident": 24,
+		"order": 25,
+		"desc": "Find a functional list",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$find",
+		"ident": 25,
+		"order": 26,
+		"desc": "Finish Task",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$finish",
+		"ident": 26,
+		"order": 27,
+		"desc": "Test if a server implements a client's required operations",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$implements",
+		"ident": 27,
+		"order": 28,
+		"desc": "Concept Look Up",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$lookup",
+		"ident": 28,
+		"order": 29,
+		"desc": "Find patient matches using MPI based logic",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$match",
+		"ident": 29,
+		"order": 30,
+		"desc": "Access a list of profiles, tags, and security labels",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$meta",
+		"ident": 30,
+		"order": 31,
+		"desc": "Add profiles, tags, and security labels to a resource",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$meta-add",
+		"ident": 31,
+		"order": 32,
+		"desc": "Delete profiles, tags, and security labels for a resource",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$meta-delete",
+		"ident": 32,
+		"order": 33,
+		"desc": "Populate Questionnaire",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$populate",
+		"ident": 33,
+		"order": 34,
+		"desc": "Generate HTML for Questionnaire",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$populatehtml",
+		"ident": 34,
+		"order": 35,
+		"desc": "Generate a link to a Questionnaire completion webpage",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$populatelink",
+		"ident": 35,
+		"order": 36,
+		"desc": "Process Message",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$process-message",
+		"ident": 36,
+		"order": 37,
+		"desc": "Build Questionnaire",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$questionnaire",
+		"ident": 37,
+		"order": 38,
+		"desc": "Release Task",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$release",
+		"ident": 38,
+		"order": 39,
+		"desc": "Reserve Task",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$reserve",
+		"ident": 39,
+		"order": 40,
+		"desc": "Resume Task",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$resume",
+		"ident": 40,
+		"order": 41,
+		"desc": "Set Task Input",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$set-input",
+		"ident": 41,
+		"order": 42,
+		"desc": "Set Task Output",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$set-output",
+		"ident": 42,
+		"order": 43,
+		"desc": "Start Task",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$start",
+		"ident": 43,
+		"order": 44,
+		"desc": "Observation Statistics",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$stats",
+		"ident": 44,
+		"order": 45,
+		"desc": "Stop Task",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$stop",
+		"ident": 45,
+		"order": 46,
+		"desc": "Fetch a subset of the CapabilityStatement resource",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subset",
+		"ident": 46,
+		"order": 47,
+		"desc": "Determine if code A is subsumed by code B",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subsumes",
+		"ident": 47,
+		"order": 48,
+		"desc": "Suspend Task",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$suspend",
+		"ident": 48,
+		"order": 49,
+		"desc": "Model Instance Transformation",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$transform",
+		"ident": 49,
+		"order": 50,
+		"desc": "Concept Translation",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$translate",
+		"ident": 50,
+		"order": 51,
+		"desc": "Validate a resource",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$validate",
+		"ident": 51,
+		"order": 52,
+		"desc": "Value Set based Validation",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$validate-code",
+		"ident": 52,
+		"order": 53,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

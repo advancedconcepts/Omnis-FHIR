@@ -1,0 +1,73 @@
+[
+	{
+		"name": "$unknown",
+		"ident": 0,
+		"order": 1,
+		"desc": "The communication was not done due to a system error.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$system-error",
+		"ident": 1,
+		"order": 2,
+		"desc": "The communication was not done due to an invalid phone number.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$invalid-phone-number",
+		"ident": 2,
+		"order": 3,
+		"desc": "The communication was not done due to the recipient being unavailable.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$recipient-unavailable",
+		"ident": 3,
+		"order": 4,
+		"desc": "The communication was not done due to a family objection.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$family-objection",
+		"ident": 4,
+		"order": 5,
+		"desc": "The communication was not done due to a patient objection.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$patient-objection",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,4 @@
+If synthesisType.$validref()=kFalse
+	Calculate synthesisType as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method synthesisType

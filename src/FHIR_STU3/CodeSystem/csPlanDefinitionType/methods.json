@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$order-set",
+		"ident": 0,
+		"order": 1,
+		"desc": "A set of activities that can be performed that have relationships in terms of order, pre-conditions, etc.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$protocol",
+		"ident": 1,
+		"order": 2,
+		"desc": "A decision support rule of the form [on Event] if Condition then Action. It is intended to be a shareable, computable definition of actions that should be taken whenever some condition is met in response to a particular event or events",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$eca-rule",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

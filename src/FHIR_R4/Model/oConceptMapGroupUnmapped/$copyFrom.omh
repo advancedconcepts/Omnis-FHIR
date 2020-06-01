@@ -1,0 +1,5 @@
+Do inherited
+Calculate mode as pValue.$mode()
+Calculate code as pValue.$code()
+Calculate display as pValue.$display()
+Calculate url as pValue.$url()

@@ -1,0 +1,13 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do basedOn.$define(basedOn_)
+Do partOf.$define(partOf_)
+Do category.$define(category_)
+Do supportingInformation.$define(supportingInformation_)
+Do performer.$define(performer_)
+Do authorizingPrescription.$define(authorizingPrescription_)
+Do receiver.$define(receiver_)
+Do note.$define(note_)
+Do dosageInstruction.$define(dosageInstruction_)
+Do detectedIssue.$define(detectedIssue_)
+Do eventHistory.$define(eventHistory_)

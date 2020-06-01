@@ -1,0 +1,4 @@
+If investigation.$validref()=kFalse
+	Calculate investigation as $clib.$classes.oClinicalImpressionInvestigation.$newref()
+End If
+Quit method investigation

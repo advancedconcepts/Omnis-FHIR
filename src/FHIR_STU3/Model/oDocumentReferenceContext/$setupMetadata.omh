@@ -1,0 +1,8 @@
+Do inherited
+Do pElements.$add("encounter","encounter",0,"1",38,"Reference")
+Do pElements.$add("event","event",0,"-1",38,"CodeableConcept")
+Do pElements.$add("period","period",0,"1",38,"Period")
+Do pElements.$add("facilityType","facilityType",0,"1",38,"CodeableConcept")
+Do pElements.$add("practiceSetting","practiceSetting",0,"1",38,"CodeableConcept")
+Do pElements.$add("sourcePatientInfo","sourcePatientInfo",0,"1",38,"Reference")
+Do pElements.$add("related","related",0,"-1",38,"")

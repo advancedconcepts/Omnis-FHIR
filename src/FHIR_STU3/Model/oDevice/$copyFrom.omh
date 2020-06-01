@@ -1,0 +1,34 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate udi as pValue.$udi()
+Calculate status as pValue.$status()
+Calculate type as pValue.$type()
+Calculate lotNumber as pValue.$lotNumber()
+Calculate manufacturer as pValue.$manufacturer()
+Calculate manufactureDate as pValue.$manufactureDate()
+Calculate expirationDate as pValue.$expirationDate()
+Calculate model as pValue.$model()
+Calculate version as pValue.$version()
+Calculate patient as pValue.$patient()
+Calculate owner as pValue.$owner()
+Do contact.$clear()
+Calculate list as pValue.$contact()
+Do contact.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate location as pValue.$location()
+Calculate url as pValue.$url()
+Do note.$clear()
+Calculate list as pValue.$note()
+Do note.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do safety.$clear()
+Calculate list as pValue.$safety()
+Do safety.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

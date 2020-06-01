@@ -1,0 +1,859 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$code",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: A code that specifies this medication, or a textual description if no code is available. Usage note: This could be a standard medication code such as a code from RxNorm, SNOMED CT, IDMP etc. It could also be a national or local formulary code, optionally with translations to other code systems.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$code.$assign",
+		"ident": 6,
+		"order": 7,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "A code that specifies this medication, or a textual description if no code is available. Usage note: This could be a standard medication code such as a code from RxNorm, SNOMED CT, IDMP etc. It could also be a national or local formulary code, optionally "
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$status",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: A code to indicate if the medication is in active use.  The status refers to the validity about the information of the medication and not to its medicinal properties.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$status.$assign",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A code to indicate if the medication is in active use.  The status refers to the validity about the information of the medication and not to its medicinal properties."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$manufacturer",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: Describes the details of the manufacturer of the medication product.  This is not intended to represent the distributor of a medication product.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$manufacturer.$assign",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Describes the details of the manufacturer of the medication product.  This is not intended to represent the distributor of a medication product."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$doseForm",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: Describes the form of the item.  Powder; tablets; capsule.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$doseForm.$assign",
+		"ident": 12,
+		"order": 13,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Describes the form of the item.  Powder; tablets; capsule."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$amount",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: Specific amount of the drug in the packaged product.  For example, when specifying a product that has the same strength (For example, Insulin glargine 100 unit per mL solution for injection), this attribute provides additional clarification of the package amount (For example, 3 mL, 10mL, etc.).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$amount.$assign",
+		"ident": 14,
+		"order": 15,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oQuantity",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Specific amount of the drug in the packaged product.  For example, when specifying a product that has the same strength (For example, Insulin glargine 100 unit per mL solution for injection), this attribute provides additional clarification of the package"
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$synonym",
+		"ident": 15,
+		"order": 16,
+		"desc": "Returns: Additional names for a medication, for example, the name(s) given to a medication in different countries.  For example, acetaminophen and paracetamol or salbutamol and albuterol.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addsynonym",
+		"ident": 16,
+		"order": 17,
+		"desc": "Additional names for a medication, for example, the name(s) given to a medication in different countries.  For example, acetaminophen and paracetamol or salbutamol and albuterol.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Additional names for a medication, for example, the name(s) given to a medication in different countries.  For example, acetaminophen and paracetamol or salbutamol and albuterol."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$relatedMedicationKnowledge",
+		"ident": 17,
+		"order": 18,
+		"desc": "Returns: Associated or related knowledge about a medication.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addrelatedMedicationKnowledge",
+		"ident": 18,
+		"order": 19,
+		"desc": "Associated or related knowledge about a medication.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMedicationKnowledgeRelatedMedicationKnowledge",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oMedicationKnowledgeRelatedMedicationKnowledge",
+				"sublen": 0,
+				"desc": "Associated or related knowledge about a medication."
+			}
+		]
+	},
+	{
+		"name": "$associatedMedication",
+		"ident": 19,
+		"order": 20,
+		"desc": "Returns: Associated or related medications.  For example, if the medication is a branded product (e.g. Crestor), this is the Therapeutic Moeity (e.g. Rosuvastatin) or if this is a generic medication (e.g. Rosuvastatin), this would link to a branded product (e.g. Crestor).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addassociatedMedication",
+		"ident": 20,
+		"order": 21,
+		"desc": "Associated or related medications.  For example, if the medication is a branded product (e.g. Crestor), this is the Therapeutic Moeity (e.g. Rosuvastatin) or if this is a generic medication (e.g. Rosuvastatin), this would link to a branded product (e.g. Crestor).",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Associated or related medications.  For example, if the medication is a branded product (e.g. Crestor), this is the Therapeutic Moeity (e.g. Rosuvastatin) or if this is a generic medication (e.g. Rosuvastatin), this would link to a branded product (e.g. C"
+			}
+		]
+	},
+	{
+		"name": "$productType",
+		"ident": 21,
+		"order": 22,
+		"desc": "Returns: Category of the medication or product (e.g. branded product, therapeutic moeity, generic product, innovator product, etc.).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addproductType",
+		"ident": 22,
+		"order": 23,
+		"desc": "Category of the medication or product (e.g. branded product, therapeutic moeity, generic product, innovator product, etc.).",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Category of the medication or product (e.g. branded product, therapeutic moeity, generic product, innovator product, etc.)."
+			}
+		]
+	},
+	{
+		"name": "$monograph",
+		"ident": 23,
+		"order": 24,
+		"desc": "Returns: Associated documentation about the medication.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addmonograph",
+		"ident": 24,
+		"order": 25,
+		"desc": "Associated documentation about the medication.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMedicationKnowledgeMonograph",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oMedicationKnowledgeMonograph",
+				"sublen": 0,
+				"desc": "Associated documentation about the medication."
+			}
+		]
+	},
+	{
+		"name": "$ingredient",
+		"ident": 25,
+		"order": 26,
+		"desc": "Returns: Identifies a particular constituent of interest in the product.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addingredient",
+		"ident": 26,
+		"order": 27,
+		"desc": "Identifies a particular constituent of interest in the product.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMedicationKnowledgeIngredient",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oMedicationKnowledgeIngredient",
+				"sublen": 0,
+				"desc": "Identifies a particular constituent of interest in the product."
+			}
+		]
+	},
+	{
+		"name": "$preparationInstruction",
+		"ident": 27,
+		"order": 28,
+		"desc": "Returns: The instructions for preparing the medication.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$preparationInstruction.$assign",
+		"ident": 28,
+		"order": 29,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The instructions for preparing the medication."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$intendedRoute",
+		"ident": 29,
+		"order": 30,
+		"desc": "Returns: The intended or approved route of administration.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addintendedRoute",
+		"ident": 30,
+		"order": 31,
+		"desc": "The intended or approved route of administration.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "The intended or approved route of administration."
+			}
+		]
+	},
+	{
+		"name": "$cost",
+		"ident": 31,
+		"order": 32,
+		"desc": "Returns: The price of the medication.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcost",
+		"ident": 32,
+		"order": 33,
+		"desc": "The price of the medication.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMedicationKnowledgeCost",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oMedicationKnowledgeCost",
+				"sublen": 0,
+				"desc": "The price of the medication."
+			}
+		]
+	},
+	{
+		"name": "$monitoringProgram",
+		"ident": 33,
+		"order": 34,
+		"desc": "Returns: The program under which the medication is reviewed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addmonitoringProgram",
+		"ident": 34,
+		"order": 35,
+		"desc": "The program under which the medication is reviewed.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMedicationKnowledgeMonitoringProgram",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oMedicationKnowledgeMonitoringProgram",
+				"sublen": 0,
+				"desc": "The program under which the medication is reviewed."
+			}
+		]
+	},
+	{
+		"name": "$administrationGuidelines",
+		"ident": 35,
+		"order": 36,
+		"desc": "Returns: Guidelines for the administration of the medication.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addadministrationGuidelines",
+		"ident": 36,
+		"order": 37,
+		"desc": "Guidelines for the administration of the medication.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMedicationKnowledgeAdministrationGuidelines",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oMedicationKnowledgeAdministrationGuidelines",
+				"sublen": 0,
+				"desc": "Guidelines for the administration of the medication."
+			}
+		]
+	},
+	{
+		"name": "$medicineClassification",
+		"ident": 37,
+		"order": 38,
+		"desc": "Returns: Categorization of the medication within a formulary or classification system.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addmedicineClassification",
+		"ident": 38,
+		"order": 39,
+		"desc": "Categorization of the medication within a formulary or classification system.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMedicationKnowledgeMedicineClassification",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oMedicationKnowledgeMedicineClassification",
+				"sublen": 0,
+				"desc": "Categorization of the medication within a formulary or classification system."
+			}
+		]
+	},
+	{
+		"name": "$packaging",
+		"ident": 39,
+		"order": 40,
+		"desc": "Returns: Information that only applies to packages (not products).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$packaging.$assign",
+		"ident": 40,
+		"order": 41,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMedicationKnowledgePackaging",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Information that only applies to packages (not products)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$drugCharacteristic",
+		"ident": 41,
+		"order": 42,
+		"desc": "Returns: Specifies descriptive properties of the medicine, such as color, shape, imprints, etc.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$adddrugCharacteristic",
+		"ident": 42,
+		"order": 43,
+		"desc": "Specifies descriptive properties of the medicine, such as color, shape, imprints, etc.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMedicationKnowledgeDrugCharacteristic",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oMedicationKnowledgeDrugCharacteristic",
+				"sublen": 0,
+				"desc": "Specifies descriptive properties of the medicine, such as color, shape, imprints, etc."
+			}
+		]
+	},
+	{
+		"name": "$contraindication",
+		"ident": 43,
+		"order": 44,
+		"desc": "Returns: Potential clinical issue with or between medication(s) (for example, drug-drug interaction, drug-disease contraindication, drug-allergy interaction, etc.).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcontraindication",
+		"ident": 44,
+		"order": 45,
+		"desc": "Potential clinical issue with or between medication(s) (for example, drug-drug interaction, drug-disease contraindication, drug-allergy interaction, etc.).",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Potential clinical issue with or between medication(s) (for example, drug-drug interaction, drug-disease contraindication, drug-allergy interaction, etc.)."
+			}
+		]
+	},
+	{
+		"name": "$regulatory",
+		"ident": 45,
+		"order": 46,
+		"desc": "Returns: Regulatory information about a medication.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addregulatory",
+		"ident": 46,
+		"order": 47,
+		"desc": "Regulatory information about a medication.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMedicationKnowledgeRegulatory",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oMedicationKnowledgeRegulatory",
+				"sublen": 0,
+				"desc": "Regulatory information about a medication."
+			}
+		]
+	},
+	{
+		"name": "$kinetics",
+		"ident": 47,
+		"order": 48,
+		"desc": "Returns: The time course of drug absorption, distribution, metabolism and excretion of a medication from the body.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addkinetics",
+		"ident": 48,
+		"order": 49,
+		"desc": "The time course of drug absorption, distribution, metabolism and excretion of a medication from the body.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMedicationKnowledgeKinetics",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oMedicationKnowledgeKinetics",
+				"sublen": 0,
+				"desc": "The time course of drug absorption, distribution, metabolism and excretion of a medication from the body."
+			}
+		]
+	}
+]

@@ -1,0 +1,616 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$identifier",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: A unique identifier for this particular sequence instance. This is a FHIR-defined id.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addidentifier",
+		"ident": 6,
+		"order": 7,
+		"desc": "A unique identifier for this particular sequence instance. This is a FHIR-defined id.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"desc": "A unique identifier for this particular sequence instance. This is a FHIR-defined id."
+			}
+		]
+	},
+	{
+		"name": "$::type",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: Amino Acid Sequence/ DNA Sequence / RNA Sequence.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type.$assign",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Amino Acid Sequence/ DNA Sequence / RNA Sequence."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$coordinateSystem",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: Whether the sequence is numbered starting at 0 (0-based numbering or coordinates, inclusive start, exclusive end) or starting at 1 (1-based numbering, inclusive start and inclusive end).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$coordinateSystem.$assign",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Whether the sequence is numbered starting at 0 (0-based numbering or coordinates, inclusive start, exclusive end) or starting at 1 (1-based numbering, inclusive start and inclusive end)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$patient",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: The patient whose sequencing results are described by this resource.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$patient.$assign",
+		"ident": 12,
+		"order": 13,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The patient whose sequencing results are described by this resource."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$specimen",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: Specimen used for sequencing.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$specimen.$assign",
+		"ident": 14,
+		"order": 15,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Specimen used for sequencing."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$device",
+		"ident": 15,
+		"order": 16,
+		"desc": "Returns: The method for sequencing, for example, chip information.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$device.$assign",
+		"ident": 16,
+		"order": 17,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The method for sequencing, for example, chip information."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$performer",
+		"ident": 17,
+		"order": 18,
+		"desc": "Returns: The organization or lab that should be responsible for this result.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$performer.$assign",
+		"ident": 18,
+		"order": 19,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The organization or lab that should be responsible for this result."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$quantity",
+		"ident": 19,
+		"order": 20,
+		"desc": "Returns: The number of copies of the sequence of interest. (RNASeq).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$quantity.$assign",
+		"ident": 20,
+		"order": 21,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oQuantity",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The number of copies of the sequence of interest. (RNASeq)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$referenceSeq",
+		"ident": 21,
+		"order": 22,
+		"desc": "Returns: A sequence that is used as a reference to describe variants that are present in a sequence analyzed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$referenceSeq.$assign",
+		"ident": 22,
+		"order": 23,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMolecularSequenceReferenceSeq",
+				"sublen": 0,
+				"param": 1,
+				"desc": "A sequence that is used as a reference to describe variants that are present in a sequence analyzed."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$variant",
+		"ident": 23,
+		"order": 24,
+		"desc": "Returns: The definition of variant here originates from Sequence ontology ([variant_of](http://www.sequenceontology.org/browser/current_svn/term/variant_of)). This element can represent amino acid or nucleic sequence change(including insertion,deletion,SNP,etc.)  It can represent some complex mutation or segment variation with the assist of CIGAR string.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addvariant",
+		"ident": 24,
+		"order": 25,
+		"desc": "The definition of variant here originates from Sequence ontology ([variant_of](http://www.sequenceontology.org/browser/current_svn/term/variant_of)). This element can represent amino acid or nucleic sequence change(including insertion,deletion,SNP,etc.)  It can represent some complex mutation or segment variation with the assist of CIGAR string.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMolecularSequenceVariant",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oMolecularSequenceVariant",
+				"sublen": 0,
+				"desc": "The definition of variant here originates from Sequence ontology ([variant_of](http://www.sequenceontology.org/browser/current_svn/term/variant_of)). This element can represent amino acid or nucleic sequence change(including insertion,deletion,SNP,etc.)  "
+			}
+		]
+	},
+	{
+		"name": "$observedSeq",
+		"ident": 25,
+		"order": 26,
+		"desc": "Returns: Sequence that was observed. It is the result marked by referenceSeq along with variant records on referenceSeq. This shall start from referenceSeq.windowStart and end by referenceSeq.windowEnd.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$observedSeq.$assign",
+		"ident": 26,
+		"order": 27,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Sequence that was observed. It is the result marked by referenceSeq along with variant records on referenceSeq. This shall start from referenceSeq.windowStart and end by referenceSeq.windowEnd."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$quality",
+		"ident": 27,
+		"order": 28,
+		"desc": "Returns: An experimental feature attribute that defines the quality of the feature in a quantitative way, such as a phred quality score ([SO:0001686](http://www.sequenceontology.org/browser/current_svn/term/SO:0001686)).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addquality",
+		"ident": 28,
+		"order": 29,
+		"desc": "An experimental feature attribute that defines the quality of the feature in a quantitative way, such as a phred quality score ([SO:0001686](http://www.sequenceontology.org/browser/current_svn/term/SO:0001686)).",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMolecularSequenceQuality",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oMolecularSequenceQuality",
+				"sublen": 0,
+				"desc": "An experimental feature attribute that defines the quality of the feature in a quantitative way, such as a phred quality score ([SO:0001686](http://www.sequenceontology.org/browser/current_svn/term/SO:0001686))."
+			}
+		]
+	},
+	{
+		"name": "$readCoverage",
+		"ident": 29,
+		"order": 30,
+		"desc": "Returns: Coverage (read depth or depth) is the average number of reads representing a given nucleotide in the reconstructed sequence.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$readCoverage.$assign",
+		"ident": 30,
+		"order": 31,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Coverage (read depth or depth) is the average number of reads representing a given nucleotide in the reconstructed sequence."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$repository",
+		"ident": 31,
+		"order": 32,
+		"desc": "Returns: Configurations of the external repository. The repository shall store target's observedSeq or records related with target's observedSeq.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addrepository",
+		"ident": 32,
+		"order": 33,
+		"desc": "Configurations of the external repository. The repository shall store target's observedSeq or records related with target's observedSeq.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMolecularSequenceRepository",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oMolecularSequenceRepository",
+				"sublen": 0,
+				"desc": "Configurations of the external repository. The repository shall store target's observedSeq or records related with target's observedSeq."
+			}
+		]
+	},
+	{
+		"name": "$pointer",
+		"ident": 33,
+		"order": 34,
+		"desc": "Returns: Pointer to next atomic sequence which at most contains one variant.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addpointer",
+		"ident": 34,
+		"order": 35,
+		"desc": "Pointer to next atomic sequence which at most contains one variant.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Pointer to next atomic sequence which at most contains one variant."
+			}
+		]
+	},
+	{
+		"name": "$structureVariant",
+		"ident": 35,
+		"order": 36,
+		"desc": "Returns: Information about chromosome structure variation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addstructureVariant",
+		"ident": 36,
+		"order": 37,
+		"desc": "Information about chromosome structure variation.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMolecularSequenceStructureVariant",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oMolecularSequenceStructureVariant",
+				"sublen": 0,
+				"desc": "Information about chromosome structure variation."
+			}
+		]
+	}
+]

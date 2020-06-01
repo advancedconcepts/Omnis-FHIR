@@ -1,0 +1,344 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "active",
+			"order": 3,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "This flag is used to mark the record to not be used. This is not used when a center is closed for maintenance, or for holidays, the notAvailable period is to be used for this."
+		},
+		{
+			"name": "appointmentRequired",
+			"order": 33,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "Indicates whether or not a prospective consumer will require an appointment for a particular service at a site to be provided by the Organization. Indicates if an appointment is required for access to this service."
+		},
+		{
+			"name": "availabilityExceptions",
+			"order": 38,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A description of site availability exceptions, e.g. public holiday availability. Succinctly describing all possible exceptions to normal site availability as details in the available Times and not available Times."
+		},
+		{
+			"name": "availableTime",
+			"order": 34,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "availableTime_",
+			"order": 35,
+			"type": "kObjectref",
+			"subtype": "oHealthcareServiceAvailableTime",
+			"sublen": 0,
+			"desc": "A collection of times that the Service Site is available."
+		},
+		{
+			"name": "category",
+			"order": 5,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "category_",
+			"order": 6,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Identifies the broad category of service being performed or delivered."
+		},
+		{
+			"name": "characteristic",
+			"order": 27,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "characteristic_",
+			"order": 28,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Collection of characteristics (attributes)."
+		},
+		{
+			"name": "comment",
+			"order": 14,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Any additional description of the service and/or any specific issues not covered by the other attributes, which can be displayed as further detail under the serviceName."
+		},
+		{
+			"name": "communication",
+			"order": 29,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "communication_",
+			"order": 30,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Some services are specifically made available in multiple languages, this property permits a directory to declare the languages this is offered in. Typically this is only provided where a service operates in communities with mixed languages used."
+		},
+		{
+			"name": "coverageArea",
+			"order": 19,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "coverageArea_",
+			"order": 20,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The location(s) that this service is available to (not where the service is provided)."
+		},
+		{
+			"name": "eligibility",
+			"order": 23,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "eligibility_",
+			"order": 24,
+			"type": "kObjectref",
+			"subtype": "oHealthcareServiceEligibility",
+			"sublen": 0,
+			"desc": "Does this service have specific eligibility requirements that need to be met in order to use the service?"
+		},
+		{
+			"name": "endpoint",
+			"order": 39,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "endpoint_",
+			"order": 40,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Technical endpoints providing access to services operated for the specific healthcare services defined at this resource."
+		},
+		{
+			"name": "extraDetails",
+			"order": 15,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Extra details about the service that can't be placed in the other fields."
+		},
+		{
+			"name": "identifier",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "identifier_",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "External identifiers for this item."
+		},
+		{
+			"name": "location",
+			"order": 11,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "location_",
+			"order": 12,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The location(s) where this healthcare service may be provided."
+		},
+		{
+			"name": "name",
+			"order": 13,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Further description of the service as it would be presented to a consumer while searching."
+		},
+		{
+			"name": "notAvailable",
+			"order": 36,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "notAvailable_",
+			"order": 37,
+			"type": "kObjectref",
+			"subtype": "oHealthcareServiceNotAvailable",
+			"sublen": 0,
+			"desc": "The HealthcareService is not available during this period of time due to the provided reason."
+		},
+		{
+			"name": "photo",
+			"order": 16,
+			"type": "kObjectref",
+			"subtype": "oAttachment",
+			"sublen": 0,
+			"desc": "If there is a photo/symbol associated with this HealthcareService, it may be included here to facilitate quick identification of the service in a list."
+		},
+		{
+			"name": "program",
+			"order": 25,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "program_",
+			"order": 26,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Programs that this service is applicable to."
+		},
+		{
+			"name": "providedBy",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The organization that provides this healthcare service."
+		},
+		{
+			"name": "referralMethod",
+			"order": 31,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "referralMethod_",
+			"order": 32,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Ways that the service accepts referrals, if this is not provided then it is implied that no referral is required."
+		},
+		{
+			"name": "serviceProvisionCode",
+			"order": 21,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "serviceProvisionCode_",
+			"order": 22,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The code(s) that detail the conditions under which the healthcare service is available/offered."
+		},
+		{
+			"name": "specialty",
+			"order": 9,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "specialty_",
+			"order": 10,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Collection of specialties handled by the service site. This is more of a medical term."
+		},
+		{
+			"name": "telecom",
+			"order": 17,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "telecom_",
+			"order": 18,
+			"type": "kObjectref",
+			"subtype": "oContactPoint",
+			"sublen": 0,
+			"desc": "List of contacts related to this specific healthcare service."
+		},
+		{
+			"name": "type",
+			"order": 7,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "type_",
+			"order": 8,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The specific type of service that may be delivered or performed."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:44:50",
+		"desc": "The details of a healthcare service available at a location.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:28",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

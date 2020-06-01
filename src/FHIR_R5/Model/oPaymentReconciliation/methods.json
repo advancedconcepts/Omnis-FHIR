@@ -1,0 +1,564 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$identifier",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: A unique identifier assigned to this payment reconciliation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addidentifier",
+		"ident": 6,
+		"order": 7,
+		"desc": "A unique identifier assigned to this payment reconciliation.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"desc": "A unique identifier assigned to this payment reconciliation."
+			}
+		]
+	},
+	{
+		"name": "$status",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: The status of the resource instance.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$status.$assign",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The status of the resource instance."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$period",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: The period of time for which payments have been gathered into this bulk payment for settlement.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$period.$assign",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oPeriod",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The period of time for which payments have been gathered into this bulk payment for settlement."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$created",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: The date when the resource was created.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$created.$assign",
+		"ident": 12,
+		"order": 13,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kDate",
+				"subtype": "kDatetime",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The date when the resource was created."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$paymentIssuer",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: The party who generated the payment.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$paymentIssuer.$assign",
+		"ident": 14,
+		"order": 15,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The party who generated the payment."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$request",
+		"ident": 15,
+		"order": 16,
+		"desc": "Returns: Original request resource reference.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$request.$assign",
+		"ident": 16,
+		"order": 17,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Original request resource reference."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$requestor",
+		"ident": 17,
+		"order": 18,
+		"desc": "Returns: The practitioner who is responsible for the services rendered to the patient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$requestor.$assign",
+		"ident": 18,
+		"order": 19,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The practitioner who is responsible for the services rendered to the patient."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$outcome",
+		"ident": 19,
+		"order": 20,
+		"desc": "Returns: The outcome of a request for a reconciliation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$outcome.$assign",
+		"ident": 20,
+		"order": 21,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The outcome of a request for a reconciliation."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$disposition",
+		"ident": 21,
+		"order": 22,
+		"desc": "Returns: A human readable description of the status of the request for the reconciliation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$disposition.$assign",
+		"ident": 22,
+		"order": 23,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A human readable description of the status of the request for the reconciliation."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$paymentDate",
+		"ident": 23,
+		"order": 24,
+		"desc": "Returns: The date of payment as indicated on the financial instrument.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$paymentDate.$assign",
+		"ident": 24,
+		"order": 25,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kDate",
+				"subtype": "kDate2000",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The date of payment as indicated on the financial instrument."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$paymentAmount",
+		"ident": 25,
+		"order": 26,
+		"desc": "Returns: Total payment amount as indicated on the financial instrument.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$paymentAmount.$assign",
+		"ident": 26,
+		"order": 27,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMoney",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Total payment amount as indicated on the financial instrument."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$paymentIdentifier",
+		"ident": 27,
+		"order": 28,
+		"desc": "Returns: Issuer's unique identifier for the payment instrument.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$paymentIdentifier.$assign",
+		"ident": 28,
+		"order": 29,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Issuer's unique identifier for the payment instrument."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$detail",
+		"ident": 29,
+		"order": 30,
+		"desc": "Returns: Distribution of the payment amount for a previously acknowledged payable.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$adddetail",
+		"ident": 30,
+		"order": 31,
+		"desc": "Distribution of the payment amount for a previously acknowledged payable.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oPaymentReconciliationDetail",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oPaymentReconciliationDetail",
+				"sublen": 0,
+				"desc": "Distribution of the payment amount for a previously acknowledged payable."
+			}
+		]
+	},
+	{
+		"name": "$formCode",
+		"ident": 31,
+		"order": 32,
+		"desc": "Returns: A code for the form to be used for printing the content.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$formCode.$assign",
+		"ident": 32,
+		"order": 33,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "A code for the form to be used for printing the content."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$processNote",
+		"ident": 33,
+		"order": 34,
+		"desc": "Returns: A note that describes or explains the processing in a human readable form.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addprocessNote",
+		"ident": 34,
+		"order": 35,
+		"desc": "A note that describes or explains the processing in a human readable form.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oPaymentReconciliationProcessNote",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oPaymentReconciliationProcessNote",
+				"sublen": 0,
+				"desc": "A note that describes or explains the processing in a human readable form."
+			}
+		]
+	}
+]

@@ -1,0 +1,4 @@
+If organism.$validref()=kFalse
+	Calculate organism as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method organism

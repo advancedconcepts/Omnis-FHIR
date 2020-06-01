@@ -1,0 +1,10 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do instantiatesCanonical.$define(instantiatesCanonical_)
+Do instantiatesUri.$define(instantiatesUri_)
+Do basedOn.$define(basedOn_)
+Do replaces.$define(replaces_)
+Do reasonCode.$define(reasonCode_)
+Do reasonReference.$define(reasonReference_)
+Do note.$define(note_)
+Do action.$define(action_)

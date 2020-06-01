@@ -1,0 +1,134 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "author",
+			"order": 5,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The logical author of the message - the person or device that decided the described event should happen. When there is more than one candidate, pick the most proximal to the MessageHeader. Can provide other authors in extensions."
+		},
+		{
+			"name": "definition",
+			"order": 12,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Permanent link to the MessageDefinition for this message."
+		},
+		{
+			"name": "destination",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "destination_",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oMessageHeaderDestination",
+			"sublen": 0,
+			"desc": "The destination application which the message is intended for."
+		},
+		{
+			"name": "enterer",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The person or device that performed the data entry leading to this message. When there is more than one candidate, pick the most proximal to the message. Can provide other enterers in extensions."
+		},
+		{
+			"name": "focus",
+			"order": 10,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "focus_",
+			"order": 11,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The actual data of the message - a reference to the root/focus class of the event."
+		},
+		{
+			"name": "reason",
+			"order": 8,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Coded indication of the cause for the event - indicates  a reason for the occurrence of the event that is a focus of this message."
+		},
+		{
+			"name": "response",
+			"order": 9,
+			"type": "kObjectref",
+			"subtype": "oMessageHeaderResponse",
+			"sublen": 0,
+			"desc": "Information about the message that this message is a response to.  Only present if this message is a response."
+		},
+		{
+			"name": "responsible",
+			"order": 7,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The person or organization that accepts overall responsibility for the contents of the message. The implication is that the message event happened under the policies of the responsible party."
+		},
+		{
+			"name": "sender",
+			"order": 3,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Identifies the sending system to allow the use of a trust relationship."
+		},
+		{
+			"name": "source",
+			"order": 6,
+			"type": "kObjectref",
+			"subtype": "oMessageHeaderSource",
+			"sublen": 0,
+			"desc": "The source application from which this message originated."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:44:55",
+		"desc": "The header for a message exchange that is either requesting or responding to an action.  The reference(s) that are the subject of the action as well as other information related to the action are typically transmitted in a bundle in which the MessageHeade",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:29",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

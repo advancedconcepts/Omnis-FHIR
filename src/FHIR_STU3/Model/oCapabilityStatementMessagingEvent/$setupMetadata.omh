@@ -1,0 +1,8 @@
+Do inherited
+Do pElements.$add("code","code",1,"1",38,"Coding")
+Do pElements.$add("category","category",0,"1",21,"code")
+Do pElements.$add("mode","mode",1,"1",21,"code")
+Do pElements.$add("focus","focus",1,"1",21,"code")
+Do pElements.$add("request","request",1,"1",38,"Reference")
+Do pElements.$add("response","response",1,"1",38,"Reference")
+Do pElements.$add("documentation","documentation",0,"1",21,"string")

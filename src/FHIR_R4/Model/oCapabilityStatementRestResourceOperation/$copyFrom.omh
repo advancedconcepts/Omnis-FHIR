@@ -1,0 +1,4 @@
+Do inherited
+Calculate name as pValue.$name()
+Calculate definition as pValue.$definition()
+Calculate documentation as pValue.$documentation()

@@ -1,0 +1,4 @@
+If length.$validref()=kFalse
+	Calculate length as $clib.$classes.oDuration.$newref()
+End If
+Quit method length

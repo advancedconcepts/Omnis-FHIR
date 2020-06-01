@@ -1,0 +1,6 @@
+Do inherited
+Do pElements.$add("hierarchical","hierarchical",0,"1",22,"boolean")
+Do pElements.$add("paging","paging",0,"1",22,"boolean")
+Do pElements.$add("incomplete","incomplete",0,"1",22,"boolean")
+Do pElements.$add("parameter","parameter",0,"-1",38,"")
+Do pElements.$add("textFilter","textFilter",0,"1",21,"markdown")

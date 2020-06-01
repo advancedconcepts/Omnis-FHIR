@@ -1,0 +1,19 @@
+Do inherited
+Calculate code as pValue.$code()
+Calculate isDefault as pValue.$isDefault()
+Calculate compositional as pValue.$compositional()
+Do language.$clear()
+Calculate list as pValue.$language()
+Do language.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do filter.$clear()
+Calculate list as pValue.$filter()
+Do filter.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do property.$clear()
+Calculate list as pValue.$property()
+Do property.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

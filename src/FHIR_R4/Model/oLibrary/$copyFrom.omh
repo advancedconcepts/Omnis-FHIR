@@ -1,0 +1,83 @@
+Do inherited
+Calculate url as pValue.$url()
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate version as pValue.$version()
+Calculate name as pValue.$name()
+Calculate title as pValue.$title()
+Calculate subtitle as pValue.$subtitle()
+Calculate status as pValue.$status()
+Calculate experimental as pValue.$experimental()
+Calculate type as pValue.$type()
+Calculate date as pValue.$date()
+Calculate publisher as pValue.$publisher()
+Do contact.$clear()
+Calculate list as pValue.$contact()
+Do contact.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate description as pValue.$description()
+Do useContext.$clear()
+Calculate list as pValue.$useContext()
+Do useContext.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do jurisdiction.$clear()
+Calculate list as pValue.$jurisdiction()
+Do jurisdiction.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate purpose as pValue.$purpose()
+Calculate usage as pValue.$usage()
+Calculate copyright as pValue.$copyright()
+Calculate approvalDate as pValue.$approvalDate()
+Calculate lastReviewDate as pValue.$lastReviewDate()
+Calculate effectivePeriod as pValue.$effectivePeriod()
+Do topic.$clear()
+Calculate list as pValue.$topic()
+Do topic.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do author.$clear()
+Calculate list as pValue.$author()
+Do author.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do editor.$clear()
+Calculate list as pValue.$editor()
+Do editor.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do reviewer.$clear()
+Calculate list as pValue.$reviewer()
+Do reviewer.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do endorser.$clear()
+Calculate list as pValue.$endorser()
+Do endorser.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do relatedArtifact.$clear()
+Calculate list as pValue.$relatedArtifact()
+Do relatedArtifact.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do parameter.$clear()
+Calculate list as pValue.$parameter()
+Do parameter.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do dataRequirement.$clear()
+Calculate list as pValue.$dataRequirement()
+Do dataRequirement.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do content.$clear()
+Calculate list as pValue.$content()
+Do content.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

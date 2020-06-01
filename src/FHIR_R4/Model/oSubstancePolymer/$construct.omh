@@ -1,0 +1,5 @@
+Do inherited
+Do copolymerConnectivity.$define(copolymerConnectivity_)
+Do modification.$define(modification_)
+Do monomerSet.$define(monomerSet_)
+Do repeat.$define(repeat_)

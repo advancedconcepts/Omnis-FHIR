@@ -1,0 +1,406 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$identifier",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: Unique identifier for this particular Contract Provision.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addidentifier",
+		"ident": 5,
+		"order": 6,
+		"desc": "Unique identifier for this particular Contract Provision.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"desc": "Unique identifier for this particular Contract Provision."
+			}
+		]
+	},
+	{
+		"name": "$party",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: Offer Recipient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addparty",
+		"ident": 7,
+		"order": 8,
+		"desc": "Offer Recipient.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oContractTermOfferParty",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oContractTermOfferParty",
+				"sublen": 0,
+				"desc": "Offer Recipient."
+			}
+		]
+	},
+	{
+		"name": "$topic",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: The owner of an asset has the residual control rights over the asset: the right to decide all usages of the asset in any way not inconsistent with a prior contract, custom, or law (Hart, 1995, p. 30).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$topic.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The owner of an asset has the residual control rights over the asset: the right to decide all usages of the asset in any way not inconsistent with a prior contract, custom, or law (Hart, 1995, p. 30)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: Type of Contract Provision such as specific requirements, purposes for actions, obligations, prohibitions, e.g. life time maximum benefit.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Type of Contract Provision such as specific requirements, purposes for actions, obligations, prohibitions, e.g. life time maximum benefit."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$decision",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: Type of choice made by accepting party with respect to an offer made by an offeror/ grantee.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$decision.$assign",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Type of choice made by accepting party with respect to an offer made by an offeror/ grantee."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$decisionMode",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: How the decision about a Contract was conveyed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$adddecisionMode",
+		"ident": 15,
+		"order": 16,
+		"desc": "How the decision about a Contract was conveyed.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "How the decision about a Contract was conveyed."
+			}
+		]
+	},
+	{
+		"name": "$answer",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: Response to offer text.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addanswer",
+		"ident": 17,
+		"order": 18,
+		"desc": "Response to offer text.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oContractTermOfferAnswer",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oContractTermOfferAnswer",
+				"sublen": 0,
+				"desc": "Response to offer text."
+			}
+		]
+	},
+	{
+		"name": "$text",
+		"ident": 18,
+		"order": 19,
+		"desc": "Returns: Human readable form of this Contract Offer.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$text.$assign",
+		"ident": 19,
+		"order": 20,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Human readable form of this Contract Offer."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$linkId",
+		"ident": 20,
+		"order": 21,
+		"desc": "Returns: The id of the clause or question text of the offer in the referenced questionnaire/response.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addlinkId",
+		"ident": 21,
+		"order": 22,
+		"desc": "The id of the clause or question text of the offer in the referenced questionnaire/response.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The id of the clause or question text of the offer in the referenced questionnaire/response."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$securityLabelNumber",
+		"ident": 22,
+		"order": 23,
+		"desc": "Returns: Security labels that protects the offer.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addsecurityLabelNumber",
+		"ident": 23,
+		"order": 24,
+		"desc": "Security labels that protects the offer.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Security labels that protects the offer."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

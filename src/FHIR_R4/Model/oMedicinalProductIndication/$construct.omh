@@ -1,0 +1,6 @@
+Do inherited
+Do subject.$define(subject_)
+Do comorbidity.$define(comorbidity_)
+Do otherTherapy.$define(otherTherapy_)
+Do undesirableEffect.$define(undesirableEffect_)
+Do population.$define(population_)

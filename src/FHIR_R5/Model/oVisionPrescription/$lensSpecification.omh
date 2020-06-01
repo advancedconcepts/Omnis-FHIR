@@ -1,0 +1,4 @@
+If lensSpecification.$validref()=kFalse
+	Calculate lensSpecification as $clib.$classes.oVisionPrescriptionLensSpecification.$newref()
+End If
+Quit method lensSpecification

@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$type",
+		"ident": 0,
+		"order": 1,
+		"desc": "The context specifies a variable.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$variable",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

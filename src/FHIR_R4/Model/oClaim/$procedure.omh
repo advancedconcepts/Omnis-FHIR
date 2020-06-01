@@ -1,0 +1,4 @@
+If procedure.$validref()=kFalse
+	Calculate procedure as $clib.$classes.oClaimProcedure.$newref()
+End If
+Quit method procedure

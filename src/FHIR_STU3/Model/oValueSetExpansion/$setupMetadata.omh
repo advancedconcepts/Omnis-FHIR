@@ -1,0 +1,7 @@
+Do inherited
+Do pElements.$add("identifier","identifier",1,"1",21,"uri")
+Do pElements.$add("timestamp","timestamp",1,"1",23,"dateTime")
+Do pElements.$add("total","total",0,"1",26,"integer")
+Do pElements.$add("offset","offset",0,"1",26,"integer")
+Do pElements.$add("parameter","parameter",0,"-1",38,"")
+Do pElements.$add("contains","contains",0,"-1",38,"")

@@ -1,0 +1,46 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate status as pValue.$status()
+Do category.$clear()
+Calculate list as pValue.$category()
+Do category.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate name as pValue.$name()
+Calculate subject as pValue.$subject()
+Calculate encounter as pValue.$encounter()
+Calculate period as pValue.$period()
+Do participant.$clear()
+Calculate list as pValue.$participant()
+Do participant.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do reasonCode.$clear()
+Calculate list as pValue.$reasonCode()
+Do reasonCode.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do reasonReference.$clear()
+Calculate list as pValue.$reasonReference()
+Do reasonReference.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do managingOrganization.$clear()
+Calculate list as pValue.$managingOrganization()
+Do managingOrganization.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do telecom.$clear()
+Calculate list as pValue.$telecom()
+Do telecom.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do note.$clear()
+Calculate list as pValue.$note()
+Do note.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

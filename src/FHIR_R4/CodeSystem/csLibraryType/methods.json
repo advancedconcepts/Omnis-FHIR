@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$logic-library",
+		"ident": 0,
+		"order": 1,
+		"desc": "The resource is a definition of an information model.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$model-definition",
+		"ident": 1,
+		"order": 2,
+		"desc": "The resource is a collection of knowledge assets.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$asset-collection",
+		"ident": 2,
+		"order": 3,
+		"desc": "The resource defines the dependencies, parameters, and data requirements for a particular module or evaluation context.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$module-definition",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

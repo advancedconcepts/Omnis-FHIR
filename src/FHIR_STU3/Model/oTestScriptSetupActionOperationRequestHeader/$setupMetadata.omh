@@ -1,0 +1,3 @@
+Do inherited
+Do pElements.$add("field","field",1,"1",21,"string")
+Do pElements.$add("value","value",1,"1",21,"string")

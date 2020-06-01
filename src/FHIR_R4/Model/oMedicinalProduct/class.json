@@ -1,0 +1,298 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "additionalMonitoringIndicator",
+			"order": 7,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Whether the Medicinal Product is subject to additional monitoring for regulatory reasons."
+		},
+		{
+			"name": "attachedDocument",
+			"order": 19,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "attachedDocument_",
+			"order": 20,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Supporting documentation, typically for regulatory submission."
+		},
+		{
+			"name": "clinicalTrial",
+			"order": 25,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "clinicalTrial_",
+			"order": 26,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Clinical trials or studies that this product is involved in."
+		},
+		{
+			"name": "combinedPharmaceuticalDoseForm",
+			"order": 5,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The dose form for a single part product, or combined form of a multiple part product."
+		},
+		{
+			"name": "contact",
+			"order": 23,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "contact_",
+			"order": 24,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "A product specific contact, person (in a role), or an organization."
+		},
+		{
+			"name": "crossReference",
+			"order": 29,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "crossReference_",
+			"order": 30,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "Reference to another product, e.g. for linking authorised to investigational product."
+		},
+		{
+			"name": "domain",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oCoding",
+			"sublen": 0,
+			"desc": "If this medicine applies to human or veterinary uses."
+		},
+		{
+			"name": "identifier",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "identifier_",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "Business identifier for this product. Could be an MPID."
+		},
+		{
+			"name": "legalStatusOfSupply",
+			"order": 6,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The legal status of supply of the medicinal product as classified by the regulator."
+		},
+		{
+			"name": "manufacturingBusinessOperation",
+			"order": 31,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "manufacturingBusinessOperation_",
+			"order": 32,
+			"type": "kObjectref",
+			"subtype": "oMedicinalProductManufacturingBusinessOperation",
+			"sublen": 0,
+			"desc": "An operation applied to the product, for manufacturing or adminsitrative purpose."
+		},
+		{
+			"name": "marketingStatus",
+			"order": 13,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "marketingStatus_",
+			"order": 14,
+			"type": "kObjectref",
+			"subtype": "oMarketingStatus",
+			"sublen": 0,
+			"desc": "Marketing status of the medicinal product, in contrast to marketing authorizaton."
+		},
+		{
+			"name": "masterFile",
+			"order": 21,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "masterFile_",
+			"order": 22,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "A master file for to the medicinal product (e.g. Pharmacovigilance System Master File)."
+		},
+		{
+			"name": "name",
+			"order": 27,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "name_",
+			"order": 28,
+			"type": "kObjectref",
+			"subtype": "oMedicinalProductName",
+			"sublen": 0,
+			"desc": "The product's name, including full name and possibly coded parts."
+		},
+		{
+			"name": "packagedMedicinalProduct",
+			"order": 17,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "packagedMedicinalProduct_",
+			"order": 18,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Package representation for the product."
+		},
+		{
+			"name": "paediatricUseIndicator",
+			"order": 10,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "If authorised for use in children."
+		},
+		{
+			"name": "pharmaceuticalProduct",
+			"order": 15,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "pharmaceuticalProduct_",
+			"order": 16,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Pharmaceutical aspects of product."
+		},
+		{
+			"name": "productClassification",
+			"order": 11,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "productClassification_",
+			"order": 12,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Allows the product to be classified by various systems."
+		},
+		{
+			"name": "specialDesignation",
+			"order": 33,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "specialDesignation_",
+			"order": 34,
+			"type": "kObjectref",
+			"subtype": "oMedicinalProductSpecialDesignation",
+			"sublen": 0,
+			"desc": "Indicates if the medicinal product has an orphan designation for the treatment of a rare disease."
+		},
+		{
+			"name": "specialMeasures",
+			"order": 8,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "specialMeasures_",
+			"order": 9,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Whether the Medicinal Product is subject to special measures for regulatory reasons."
+		},
+		{
+			"name": "type",
+			"order": 3,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Regulatory type, e.g. Investigational or Authorized."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:41:47",
+		"desc": "Detailed definition of a medicinal product, typically for uses other than direct patient care (e.g. regulatory use).",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:25",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

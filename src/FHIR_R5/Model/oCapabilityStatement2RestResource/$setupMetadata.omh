@@ -1,0 +1,8 @@
+Do inherited
+Do pElements.$add("type","::type",1,"1",21,"code")
+Do pElements.$add("profile","profile",0,"1",21,"canonical")
+Do pElements.$add("supportedProfile","supportedProfile",0,"-1",21,"canonical")
+Do pElements.$add("documentation","documentation",0,"1",21,"markdown")
+Do pElements.$add("interaction","interaction",0,"-1",38,"")
+Do pElements.$add("searchParam","searchParam",0,"-1",38,"")
+Do pElements.$add("operation","operation",0,"-1",38,"")

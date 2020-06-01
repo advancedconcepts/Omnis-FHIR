@@ -1,0 +1,4 @@
+If serviceCategory.$validref()=kFalse
+	Calculate serviceCategory as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method serviceCategory

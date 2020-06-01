@@ -1,0 +1,4 @@
+Do inherited
+Calculate description as pValue.$description()
+Calculate numberOfStudies as pValue.$numberOfStudies()
+Calculate numberOfParticipants as pValue.$numberOfParticipants()

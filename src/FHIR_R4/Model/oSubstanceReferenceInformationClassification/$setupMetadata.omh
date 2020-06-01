@@ -1,0 +1,5 @@
+Do inherited
+Do pElements.$add("domain","domain",0,"1",38,"CodeableConcept")
+Do pElements.$add("classification","classification",0,"1",38,"CodeableConcept")
+Do pElements.$add("subtype","subtype",0,"-1",38,"CodeableConcept")
+Do pElements.$add("source","source",0,"-1",38,"Reference")

@@ -1,0 +1,548 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$::type",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: A type of resource exposed via the restful interface.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A type of resource exposed via the restful interface."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$profile",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: A specification of the profile that describes the solution's overall support for the resource, including any constraints on cardinality, bindings, lengths or other limitations. See further discussion in [Using Profiles](profiling.html#profile-uses).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$profile.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "A specification of the profile that describes the solution's overall support for the resource, including any constraints on cardinality, bindings, lengths or other limitations. See further discussion in [Using Profiles](profiling.html#profile-uses)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$documentation",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: Additional information about the resource type used by the system.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$documentation.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Additional information about the resource type used by the system."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$interaction",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: Identifies a restful operation supported by the solution.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addinteraction",
+		"ident": 11,
+		"order": 12,
+		"desc": "Identifies a restful operation supported by the solution.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCapabilityStatementRestResourceInteraction",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCapabilityStatementRestResourceInteraction",
+				"sublen": 0,
+				"desc": "Identifies a restful operation supported by the solution."
+			}
+		]
+	},
+	{
+		"name": "$versioning",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: This field is set to no-version to specify that the system does not support (server) or use (client) versioning for this resource type. If this has some other value, the server must at least correctly track and populate the versionId meta-property on resources. If the value is 'versioned-update', then the server supports all the versioning features, including using e-tags for version integrity in the API.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$versioning.$assign",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "This field is set to no-version to specify that the system does not support (server) or use (client) versioning for this resource type. If this has some other value, the server must at least correctly track and populate the versionId meta-property on reso"
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$readHistory",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: A flag for whether the server is able to return past versions as part of the vRead operation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$readHistory.$assign",
+		"ident": 15,
+		"order": 16,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "A flag for whether the server is able to return past versions as part of the vRead operation."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$updateCreate",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: A flag to indicate that the server allows or needs to allow the client to create new identities on the server (e.g. that is, the client PUTs to a location where there is no existing resource). Allowing this operation means that the server allows the client to create new identities on the server.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$updateCreate.$assign",
+		"ident": 17,
+		"order": 18,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "A flag to indicate that the server allows or needs to allow the client to create new identities on the server (e.g. that is, the client PUTs to a location where there is no existing resource). Allowing this operation means that the server allows the clien"
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$conditionalCreate",
+		"ident": 18,
+		"order": 19,
+		"desc": "Returns: A flag that indicates that the server supports conditional create.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$conditionalCreate.$assign",
+		"ident": 19,
+		"order": 20,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "A flag that indicates that the server supports conditional create."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$conditionalRead",
+		"ident": 20,
+		"order": 21,
+		"desc": "Returns: A code that indicates how the server supports conditional read.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$conditionalRead.$assign",
+		"ident": 21,
+		"order": 22,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A code that indicates how the server supports conditional read."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$conditionalUpdate",
+		"ident": 22,
+		"order": 23,
+		"desc": "Returns: A flag that indicates that the server supports conditional update.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$conditionalUpdate.$assign",
+		"ident": 23,
+		"order": 24,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "A flag that indicates that the server supports conditional update."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$conditionalDelete",
+		"ident": 24,
+		"order": 25,
+		"desc": "Returns: A code that indicates how the server supports conditional delete.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$conditionalDelete.$assign",
+		"ident": 25,
+		"order": 26,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A code that indicates how the server supports conditional delete."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$referencePolicy",
+		"ident": 26,
+		"order": 27,
+		"desc": "Returns: A set of flags that defines how references are supported.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addreferencePolicy",
+		"ident": 27,
+		"order": 28,
+		"desc": "A set of flags that defines how references are supported.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A set of flags that defines how references are supported."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$searchInclude",
+		"ident": 28,
+		"order": 29,
+		"desc": "Returns: A list of _include values supported by the server.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addsearchInclude",
+		"ident": 29,
+		"order": 30,
+		"desc": "A list of _include values supported by the server.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A list of _include values supported by the server."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$searchRevInclude",
+		"ident": 30,
+		"order": 31,
+		"desc": "Returns: A list of _revinclude (reverse include) values supported by the server.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addsearchRevInclude",
+		"ident": 31,
+		"order": 32,
+		"desc": "A list of _revinclude (reverse include) values supported by the server.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A list of _revinclude (reverse include) values supported by the server."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$searchParam",
+		"ident": 32,
+		"order": 33,
+		"desc": "Returns: Search parameters for implementations to support and/or make use of - either references to ones defined in the specification, or additional ones defined for/by the implementation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addsearchParam",
+		"ident": 33,
+		"order": 34,
+		"desc": "Search parameters for implementations to support and/or make use of - either references to ones defined in the specification, or additional ones defined for/by the implementation.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCapabilityStatementRestResourceSearchParam",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCapabilityStatementRestResourceSearchParam",
+				"sublen": 0,
+				"desc": "Search parameters for implementations to support and/or make use of - either references to ones defined in the specification, or additional ones defined for/by the implementation."
+			}
+		]
+	}
+]

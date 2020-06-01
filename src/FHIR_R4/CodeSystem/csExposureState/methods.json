@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$exposure",
+		"ident": 0,
+		"order": 1,
+		"desc": "used when the results by exposure is describing the results for the alternative exposure state, control state or comparator state.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$exposure-alternative",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

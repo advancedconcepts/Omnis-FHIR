@@ -1,0 +1,4 @@
+If attributeEstimate.estimateQualifier.range.$validref()=kFalse
+	Calculate attributeEstimate.estimateQualifier.range as $clib.$classes.oRange.$newref()
+End If
+Quit method attributeEstimate.estimateQualifier.range

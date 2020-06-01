@@ -1,0 +1,7 @@
+Do inherited
+Do vaccineCode.$define(vaccineCode_)
+Do contraindicatedVaccineCode.$define(contraindicatedVaccineCode_)
+Do forecastReason.$define(forecastReason_)
+Do dateCriterion.$define(dateCriterion_)
+Do supportingImmunization.$define(supportingImmunization_)
+Do supportingPatientInformation.$define(supportingPatientInformation_)

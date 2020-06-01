@@ -1,0 +1,9 @@
+Do inherited
+Do pElements.$add("isDerived","isDerived",0,"1",22,"boolean")
+Do pElements.$add("type","::type",0,"1",38,"CodeableConcept")
+Do pElements.$add("preference","preference",1,"1",21,"code")
+Do pElements.$add("container","container",0,"1",38,"")
+Do pElements.$add("requirement","requirement",0,"1",21,"string")
+Do pElements.$add("retentionTime","retentionTime",0,"1",38,"Duration")
+Do pElements.$add("rejectionCriterion","rejectionCriterion",0,"-1",38,"CodeableConcept")
+Do pElements.$add("handling","handling",0,"-1",38,"")

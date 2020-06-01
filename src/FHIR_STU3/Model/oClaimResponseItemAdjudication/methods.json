@@ -1,0 +1,190 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$category",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: Code indicating: Co-Pay, deductible, eligible, benefit, tax, etc.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$category.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Code indicating: Co-Pay, deductible, eligible, benefit, tax, etc."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$reason",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: Adjudication reason such as limit reached.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$reason.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Adjudication reason such as limit reached."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$amount",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: Monetary amount associated with the code.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$amount.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMoney",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Monetary amount associated with the code."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$value",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: A non-monetary value for example a percentage. Mutually exclusive to the amount element above.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$value.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kNumber",
+				"subtype": "kFloatdp",
+				"sublen": 0,
+				"param": 1,
+				"desc": "A non-monetary value for example a percentage. Mutually exclusive to the amount element above."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

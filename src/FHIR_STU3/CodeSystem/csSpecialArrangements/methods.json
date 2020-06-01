@@ -1,0 +1,61 @@
+[
+	{
+		"name": "$wheel",
+		"ident": 0,
+		"order": 1,
+		"desc": "An additional bed made available for a person accompanying the patient, for example a parent accompanying a child.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$add-bed",
+		"ident": 1,
+		"order": 2,
+		"desc": "The patient is not fluent in the local language and requires an interpreter to be available. Refer to the Patient.Language property for the type of interpreter required.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$int",
+		"ident": 2,
+		"order": 3,
+		"desc": "A person who accompanies a patient to provide assistive services necessary for the patient's care during the encounter.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$att",
+		"ident": 3,
+		"order": 4,
+		"desc": "The patient has a guide-dog and the location used for the encounter should be able to support the presence of the service animal.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$dog",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

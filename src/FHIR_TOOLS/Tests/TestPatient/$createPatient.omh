@@ -1,0 +1,7 @@
+Calculate patient as $libs.fhir_r4.$classes.oPatient.$newref()
+Calculate name as patient.$addname()
+Do name.$family.$assign('Csomor')
+Do name.$addgiven('Stefan')
+Do code method fhir_r4.csGenderIdentity/$male Returns patient.$gender
+Quit method patient
+;

@@ -1,0 +1,11 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"-1",38,"Identifier")
+Do pElements.$add("party","party",0,"-1",38,"")
+Do pElements.$add("topic","topic",0,"1",38,"Reference")
+Do pElements.$add("type","::type",0,"1",38,"CodeableConcept")
+Do pElements.$add("decision","decision",0,"1",38,"CodeableConcept")
+Do pElements.$add("decisionMode","decisionMode",0,"-1",38,"CodeableConcept")
+Do pElements.$add("answer","answer",0,"-1",38,"")
+Do pElements.$add("text","text",0,"1",21,"string")
+Do pElements.$add("linkId","linkId",0,"-1",21,"string")
+Do pElements.$add("securityLabelNumber","securityLabelNumber",0,"-1",26,"unsignedInt")

@@ -1,0 +1,8 @@
+Do inherited
+Calculate identifier as pValue.$identifier()
+Calculate effectiveTime as pValue.$effectiveTime()
+Calculate quantity as pValue.$quantity()
+Calculate unitPrice as pValue.$unitPrice()
+Calculate factor as pValue.$factor()
+Calculate points as pValue.$points()
+Calculate net as pValue.$net()

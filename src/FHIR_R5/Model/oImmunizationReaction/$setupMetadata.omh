@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("date","date",0,"1",23,"dateTime")
+Do pElements.$add("detail","detail",0,"1",38,"Reference")
+Do pElements.$add("reported","reported",0,"1",22,"boolean")

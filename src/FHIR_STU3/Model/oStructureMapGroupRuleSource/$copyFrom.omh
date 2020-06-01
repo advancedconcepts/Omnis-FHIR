@@ -1,0 +1,10 @@
+Do inherited
+Calculate context as pValue.$context()
+Calculate min as pValue.$min()
+Calculate max as pValue.$max()
+Calculate type as pValue.$type()
+Calculate element as pValue.$element()
+Calculate listMode as pValue.$listMode()
+Calculate variable as pValue.$variable()
+Calculate condition as pValue.$condition()
+Calculate check as pValue.$check()

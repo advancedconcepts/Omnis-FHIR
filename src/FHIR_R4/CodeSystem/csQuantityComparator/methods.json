@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$<",
+		"ident": 0,
+		"order": 1,
+		"desc": "The actual value is less than or equal to the given value.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$<=",
+		"ident": 1,
+		"order": 2,
+		"desc": "The actual value is greater than or equal to the given value.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$>=",
+		"ident": 2,
+		"order": 3,
+		"desc": "The actual value is greater than the given value.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$>",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

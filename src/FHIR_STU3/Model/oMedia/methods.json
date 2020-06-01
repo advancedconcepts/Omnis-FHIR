@@ -1,0 +1,633 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$identifier",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: Identifiers associated with the image - these may include identifiers for the image itself, identifiers for the context of its collection (e.g. series ids) and context ids such as accession numbers or other workflow identifiers.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addidentifier",
+		"ident": 6,
+		"order": 7,
+		"desc": "Identifiers associated with the image - these may include identifiers for the image itself, identifiers for the context of its collection (e.g. series ids) and context ids such as accession numbers or other workflow identifiers.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"desc": "Identifiers associated with the image - these may include identifiers for the image itself, identifiers for the context of its collection (e.g. series ids) and context ids such as accession numbers or other workflow identifiers."
+			}
+		]
+	},
+	{
+		"name": "$basedOn",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: A procedure that is fulfilled in whole or in part by the creation of this media.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addbasedOn",
+		"ident": 8,
+		"order": 9,
+		"desc": "A procedure that is fulfilled in whole or in part by the creation of this media.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "A procedure that is fulfilled in whole or in part by the creation of this media."
+			}
+		]
+	},
+	{
+		"name": "$::type",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: Whether the media is a photo (still image), an audio recording, or a video recording.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type.$assign",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Whether the media is a photo (still image), an audio recording, or a video recording."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subtype",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: Details of the type of the media - usually, how it was acquired (what type of device). If images sourced from a DICOM system, are wrapped in a Media resource, then this is the modality.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subtype.$assign",
+		"ident": 12,
+		"order": 13,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Details of the type of the media - usually, how it was acquired (what type of device). If images sourced from a DICOM system, are wrapped in a Media resource, then this is the modality."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$view",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: The name of the imaging view e.g. Lateral or Antero-posterior (AP).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$view.$assign",
+		"ident": 14,
+		"order": 15,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The name of the imaging view e.g. Lateral or Antero-posterior (AP)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subject",
+		"ident": 15,
+		"order": 16,
+		"desc": "Returns: Who/What this Media is a record of.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subject.$assign",
+		"ident": 16,
+		"order": 17,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Who/What this Media is a record of."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$context",
+		"ident": 17,
+		"order": 18,
+		"desc": "Returns: The encounter or episode of care that establishes the context for this media.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$context.$assign",
+		"ident": 18,
+		"order": 19,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The encounter or episode of care that establishes the context for this media."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$operator",
+		"ident": 19,
+		"order": 20,
+		"desc": "Returns: The person who administered the collection of the image.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$operator.$assign",
+		"ident": 20,
+		"order": 21,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The person who administered the collection of the image."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$reasonCode",
+		"ident": 21,
+		"order": 22,
+		"desc": "Returns: Describes why the event occurred in coded or textual form.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addreasonCode",
+		"ident": 22,
+		"order": 23,
+		"desc": "Describes why the event occurred in coded or textual form.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Describes why the event occurred in coded or textual form."
+			}
+		]
+	},
+	{
+		"name": "$bodySite",
+		"ident": 23,
+		"order": 24,
+		"desc": "Returns: Indicates the site on the subject's body where the media was collected (i.e. the target site).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$bodySite.$assign",
+		"ident": 24,
+		"order": 25,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Indicates the site on the subject's body where the media was collected (i.e. the target site)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$device",
+		"ident": 25,
+		"order": 26,
+		"desc": "Returns: The device used to collect the media.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$device.$assign",
+		"ident": 26,
+		"order": 27,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The device used to collect the media."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$height",
+		"ident": 27,
+		"order": 28,
+		"desc": "Returns: Height of the image in pixels (photo/video).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$height.$assign",
+		"ident": 28,
+		"order": 29,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Height of the image in pixels (photo/video)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$width",
+		"ident": 29,
+		"order": 30,
+		"desc": "Returns: Width of the image in pixels (photo/video).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$width.$assign",
+		"ident": 30,
+		"order": 31,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Width of the image in pixels (photo/video)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$frames",
+		"ident": 31,
+		"order": 32,
+		"desc": "Returns: The number of frames in a photo. This is used with a multi-page fax, or an imaging acquisition context that takes multiple slices in a single image, or an animated gif. If there is more than one frame, this SHALL have a value in order to alert interface software that a multi-frame capable rendering widget is required.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$frames.$assign",
+		"ident": 32,
+		"order": 33,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The number of frames in a photo. This is used with a multi-page fax, or an imaging acquisition context that takes multiple slices in a single image, or an animated gif. If there is more than one frame, this SHALL have a value in order to alert interface s"
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$duration",
+		"ident": 33,
+		"order": 34,
+		"desc": "Returns: The duration of the recording in seconds - for audio and video.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$duration.$assign",
+		"ident": 34,
+		"order": 35,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The duration of the recording in seconds - for audio and video."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$content",
+		"ident": 35,
+		"order": 36,
+		"desc": "Returns: The actual content of the media - inline or by direct reference to the media source file.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$content.$assign",
+		"ident": 36,
+		"order": 37,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oAttachment",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The actual content of the media - inline or by direct reference to the media source file."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$note",
+		"ident": 37,
+		"order": 38,
+		"desc": "Returns: Comments made about the media by the performer, subject or other participants.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addnote",
+		"ident": 38,
+		"order": 39,
+		"desc": "Comments made about the media by the performer, subject or other participants.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oAnnotation",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oAnnotation",
+				"sublen": 0,
+				"desc": "Comments made about the media by the performer, subject or other participants."
+			}
+		]
+	}
+]

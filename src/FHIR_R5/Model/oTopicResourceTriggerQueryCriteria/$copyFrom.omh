@@ -1,0 +1,4 @@
+Do inherited
+Calculate previous as pValue.$previous()
+Calculate current as pValue.$current()
+Calculate requireBoth as pValue.$requireBoth()

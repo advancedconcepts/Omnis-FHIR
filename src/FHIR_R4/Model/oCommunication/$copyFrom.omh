@@ -1,0 +1,80 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do instantiatesCanonical.$clear()
+Calculate list as pValue.$instantiatesCanonical()
+Do instantiatesCanonical.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do instantiatesUri.$clear()
+Calculate list as pValue.$instantiatesUri()
+Do instantiatesUri.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do basedOn.$clear()
+Calculate list as pValue.$basedOn()
+Do basedOn.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do partOf.$clear()
+Calculate list as pValue.$partOf()
+Do partOf.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do inResponseTo.$clear()
+Calculate list as pValue.$inResponseTo()
+Do inResponseTo.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate status as pValue.$status()
+Calculate statusReason as pValue.$statusReason()
+Do category.$clear()
+Calculate list as pValue.$category()
+Do category.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate priority as pValue.$priority()
+Do medium.$clear()
+Calculate list as pValue.$medium()
+Do medium.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate subject as pValue.$subject()
+Calculate topic as pValue.$topic()
+Do about.$clear()
+Calculate list as pValue.$about()
+Do about.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate encounter as pValue.$encounter()
+Calculate sent as pValue.$sent()
+Calculate received as pValue.$received()
+Do recipient.$clear()
+Calculate list as pValue.$recipient()
+Do recipient.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate sender as pValue.$sender()
+Do reasonCode.$clear()
+Calculate list as pValue.$reasonCode()
+Do reasonCode.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do reasonReference.$clear()
+Calculate list as pValue.$reasonReference()
+Do reasonReference.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do payload.$clear()
+Calculate list as pValue.$payload()
+Do payload.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do note.$clear()
+Calculate list as pValue.$note()
+Do note.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

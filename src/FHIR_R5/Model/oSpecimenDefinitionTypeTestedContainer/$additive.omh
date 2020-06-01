@@ -1,0 +1,4 @@
+If additive.$validref()=kFalse
+	Calculate additive as $clib.$classes.oSpecimenDefinitionTypeTestedContainerAdditive.$newref()
+End If
+Quit method additive

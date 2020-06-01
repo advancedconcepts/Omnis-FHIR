@@ -1,0 +1,4 @@
+If serviceRequested.$validref()=kFalse
+	Calculate serviceRequested as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method serviceRequested

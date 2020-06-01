@@ -1,0 +1,259 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$source",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: An absolute URI that identifies the source system where the concepts to be mapped are defined.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$source.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "An absolute URI that identifies the source system where the concepts to be mapped are defined."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sourceVersion",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: The specific version of the code system, as determined by the code system authority.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sourceVersion.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The specific version of the code system, as determined by the code system authority."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$target",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: An absolute URI that identifies the target system that the concepts will be mapped to.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$target.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "An absolute URI that identifies the target system that the concepts will be mapped to."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$targetVersion",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: The specific version of the code system, as determined by the code system authority.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$targetVersion.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The specific version of the code system, as determined by the code system authority."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$element",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: Mappings for an individual concept in the source to one or more concepts in the target.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addelement",
+		"ident": 13,
+		"order": 14,
+		"desc": "Mappings for an individual concept in the source to one or more concepts in the target.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oConceptMapGroupElement",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oConceptMapGroupElement",
+				"sublen": 0,
+				"desc": "Mappings for an individual concept in the source to one or more concepts in the target."
+			}
+		]
+	},
+	{
+		"name": "$unmapped",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: What to do when there is no mapping for the source concept. \"Unmapped\" does not include codes that are unmatched, and the unmapped element is ignored in a code is specified to have equivalence = unmatched.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unmapped.$assign",
+		"ident": 15,
+		"order": 16,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oConceptMapGroupUnmapped",
+				"sublen": 0,
+				"param": 1,
+				"desc": "What to do when there is no mapping for the source concept. \"Unmapped\" does not include codes that are unmatched, and the unmapped element is ignored in a code is specified to have equivalence = unmatched."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

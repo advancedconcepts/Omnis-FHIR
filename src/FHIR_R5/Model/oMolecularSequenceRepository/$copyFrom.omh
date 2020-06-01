@@ -1,0 +1,7 @@
+Do inherited
+Calculate type as pValue.$type()
+Calculate url as pValue.$url()
+Calculate name as pValue.$name()
+Calculate datasetId as pValue.$datasetId()
+Calculate variantsetId as pValue.$variantsetId()
+Calculate readsetId as pValue.$readsetId()

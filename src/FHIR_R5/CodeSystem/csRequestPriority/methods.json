@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$routine",
+		"ident": 0,
+		"order": 1,
+		"desc": "The request should be actioned promptly - higher priority than routine.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$urgent",
+		"ident": 1,
+		"order": 2,
+		"desc": "The request should be actioned as soon as possible - higher priority than urgent.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$asap",
+		"ident": 2,
+		"order": 3,
+		"desc": "The request should be actioned immediately - highest possible priority.  E.g. an emergency.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$stat",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

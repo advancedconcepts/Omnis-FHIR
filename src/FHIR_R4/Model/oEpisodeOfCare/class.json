@@ -1,0 +1,185 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "account",
+			"order": 18,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "account_",
+			"order": 19,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The set of accounts that may be used for billing for this EpisodeOfCare."
+		},
+		{
+			"name": "careManager",
+			"order": 15,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The practitioner that is the care manager/care coordinator for this patient."
+		},
+		{
+			"name": "diagnosis",
+			"order": 8,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "diagnosis_",
+			"order": 9,
+			"type": "kObjectref",
+			"subtype": "oEpisodeOfCareDiagnosis",
+			"sublen": 0,
+			"desc": "The list of diagnosis relevant to this episode of care."
+		},
+		{
+			"name": "identifier",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "identifier_",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "The EpisodeOfCare may be known by different identifiers for different contexts of use, such as when an external agency is tracking the Episode for funding purposes."
+		},
+		{
+			"name": "managingOrganization",
+			"order": 11,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The organization that has assumed the specific responsibilities for the specified duration."
+		},
+		{
+			"name": "patient",
+			"order": 10,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The patient who is the focus of this episode of care."
+		},
+		{
+			"name": "period",
+			"order": 12,
+			"type": "kObjectref",
+			"subtype": "oPeriod",
+			"sublen": 0,
+			"desc": "The interval during which the managing organization assumes the defined responsibility."
+		},
+		{
+			"name": "referralRequest",
+			"order": 13,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "referralRequest_",
+			"order": 14,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Referral Request(s) that are fulfilled by this EpisodeOfCare, incoming referrals."
+		},
+		{
+			"name": "status",
+			"order": 3,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "planned | waitlist | active | onhold | finished | cancelled."
+		},
+		{
+			"name": "statusHistory",
+			"order": 4,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "statusHistory_",
+			"order": 5,
+			"type": "kObjectref",
+			"subtype": "oEpisodeOfCareStatusHistory",
+			"sublen": 0,
+			"desc": "The history of statuses that the EpisodeOfCare has been through (without requiring processing the history of the resource)."
+		},
+		{
+			"name": "team",
+			"order": 16,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "team_",
+			"order": 17,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The list of practitioners that may be facilitating this episode of care for specific purposes."
+		},
+		{
+			"name": "type",
+			"order": 6,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "type_",
+			"order": 7,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "A classification of the type of episode of care; e.g. specialist referral, disease management, type of funded care."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:41:40",
+		"desc": "An association between a patient and an organization / healthcare provider(s) during which time encounters may occur. The managing organization assumes a level of responsibility for the patient during this time.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:24",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

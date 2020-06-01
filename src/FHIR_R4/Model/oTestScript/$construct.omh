@@ -1,0 +1,10 @@
+Do inherited
+Do contact.$define(contact_)
+Do useContext.$define(useContext_)
+Do jurisdiction.$define(jurisdiction_)
+Do origin.$define(origin_)
+Do destination.$define(destination_)
+Do fixture.$define(fixture_)
+Do profile.$define(profile_)
+Do variable.$define(variable_)
+Do test.$define(test_)

@@ -1,0 +1,55 @@
+Do inherited
+Calculate url as pValue.$url()
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate version as pValue.$version()
+Calculate name as pValue.$name()
+Calculate title as pValue.$title()
+Do derivedFrom.$clear()
+Calculate list as pValue.$derivedFrom()
+Do derivedFrom.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate status as pValue.$status()
+Calculate experimental as pValue.$experimental()
+Do subjectType.$clear()
+Calculate list as pValue.$subjectType()
+Do subjectType.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate date as pValue.$date()
+Calculate publisher as pValue.$publisher()
+Do contact.$clear()
+Calculate list as pValue.$contact()
+Do contact.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate description as pValue.$description()
+Do useContext.$clear()
+Calculate list as pValue.$useContext()
+Do useContext.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do jurisdiction.$clear()
+Calculate list as pValue.$jurisdiction()
+Do jurisdiction.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate purpose as pValue.$purpose()
+Calculate copyright as pValue.$copyright()
+Calculate approvalDate as pValue.$approvalDate()
+Calculate lastReviewDate as pValue.$lastReviewDate()
+Calculate effectivePeriod as pValue.$effectivePeriod()
+Do code.$clear()
+Calculate list as pValue.$code()
+Do code.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do item.$clear()
+Calculate list as pValue.$item()
+Do item.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

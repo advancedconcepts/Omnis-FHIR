@@ -1,0 +1,4 @@
+If submitter.$validref()=kFalse
+	Calculate submitter as $clib.$classes.oReference.$newref()
+End If
+Quit method submitter

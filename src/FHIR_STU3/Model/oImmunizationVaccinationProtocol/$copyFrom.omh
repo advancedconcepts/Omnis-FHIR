@@ -1,0 +1,13 @@
+Do inherited
+Calculate doseSequence as pValue.$doseSequence()
+Calculate description as pValue.$description()
+Calculate authority as pValue.$authority()
+Calculate series as pValue.$series()
+Calculate seriesDoses as pValue.$seriesDoses()
+Do targetDisease.$clear()
+Calculate list as pValue.$targetDisease()
+Do targetDisease.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate doseStatus as pValue.$doseStatus()
+Calculate doseStatusReason as pValue.$doseStatusReason()

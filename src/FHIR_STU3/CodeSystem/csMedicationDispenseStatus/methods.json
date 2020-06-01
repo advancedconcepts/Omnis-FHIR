@@ -1,0 +1,73 @@
+[
+	{
+		"name": "$preparation",
+		"ident": 0,
+		"order": 1,
+		"desc": "The dispense has started but has not yet completed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$in-progress",
+		"ident": 1,
+		"order": 2,
+		"desc": "Actions implied by the administration have been temporarily halted, but are expected to continue later. May also be called \"suspended\"",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$on-hold",
+		"ident": 2,
+		"order": 3,
+		"desc": "All actions that are implied by the dispense have occurred.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$completed",
+		"ident": 3,
+		"order": 4,
+		"desc": "The dispense was entered in error and therefore nullified.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$entered-in-error",
+		"ident": 4,
+		"order": 5,
+		"desc": "Actions implied by the dispense have been permanently halted, before all of them occurred.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$stopped",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

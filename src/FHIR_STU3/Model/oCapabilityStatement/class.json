@@ -1,0 +1,333 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "acceptUnknown",
+			"order": 24,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A code that indicates whether the application accepts unknown elements or extensions when reading resources."
+		},
+		{
+			"name": "contact",
+			"order": 9,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "contact_",
+			"order": 10,
+			"type": "kObjectref",
+			"subtype": "oContactDetail",
+			"sublen": 0,
+			"desc": "Contact details to assist a user in finding and communicating with the publisher."
+		},
+		{
+			"name": "copyright",
+			"order": 17,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A copyright statement relating to the capability statement and/or its contents. Copyright statements are generally legal restrictions on the use and publishing of the capability statement."
+		},
+		{
+			"name": "date",
+			"order": 7,
+			"type": "kDate",
+			"subtype": "kDatetime",
+			"sublen": 0,
+			"desc": "The date  (and optionally time) when the capability statement was published. The date must change if and when the business version changes and it must change if the status code changes. In addition, it should change when the substantive content of the cap"
+		},
+		{
+			"name": "description",
+			"order": 11,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A free text natural language description of the capability statement from a consumer's perspective. Typically, this is used when the capability statement describes a desired rather than an actual solution, for example as a formal expression of requirement"
+		},
+		{
+			"name": "document",
+			"order": 37,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "document_",
+			"order": 38,
+			"type": "kObjectref",
+			"subtype": "oCapabilityStatementDocument",
+			"sublen": 0,
+			"desc": "A document definition."
+		},
+		{
+			"name": "experimental",
+			"order": 6,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "A boolean value to indicate that this capability statement is authored for testing purposes (or education/evaluation/marketing), and is not intended to be used for genuine usage."
+		},
+		{
+			"name": "fhirVersion",
+			"order": 23,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The version of the FHIR specification on which this capability statement is based."
+		},
+		{
+			"name": "format",
+			"order": 25,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "format_",
+			"order": 26,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A list of the formats supported by this implementation using their content types."
+		},
+		{
+			"name": "implementation",
+			"order": 22,
+			"type": "kObjectref",
+			"subtype": "oCapabilityStatementImplementation",
+			"sublen": 0,
+			"desc": "Identifies a specific implementation instance that is described by the capability statement - i.e. a particular installation, rather than the capabilities of a software program."
+		},
+		{
+			"name": "implementationGuide",
+			"order": 29,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "implementationGuide_",
+			"order": 30,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A list of implementation guides that the server does (or should) support in their entirety."
+		},
+		{
+			"name": "instantiates",
+			"order": 19,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "instantiates_",
+			"order": 20,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Reference to a canonical URL of another CapabilityStatement that this software implements or uses. This capability statement is a published API description that corresponds to a business service. The rest of the capability statement does not need to repea"
+		},
+		{
+			"name": "jurisdiction",
+			"order": 14,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "jurisdiction_",
+			"order": 15,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "A legal or geographic region in which the capability statement is intended to be used."
+		},
+		{
+			"name": "kind",
+			"order": 18,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The way that this statement is intended to be used, to describe an actual running instance of software, a particular product (kind not instance of software) or a class of implementation (e.g. a desired purchase)."
+		},
+		{
+			"name": "messaging",
+			"order": 35,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "messaging_",
+			"order": 36,
+			"type": "kObjectref",
+			"subtype": "oCapabilityStatementMessaging",
+			"sublen": 0,
+			"desc": "A description of the messaging capabilities of the solution."
+		},
+		{
+			"name": "name",
+			"order": 3,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A natural language name identifying the capability statement. This name should be usable as an identifier for the module by machine processing applications such as code generation."
+		},
+		{
+			"name": "patchFormat",
+			"order": 27,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "patchFormat_",
+			"order": 28,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A list of the patch formats supported by this implementation using their content types."
+		},
+		{
+			"name": "profile",
+			"order": 31,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "profile_",
+			"order": 32,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "A list of profiles that represent different use cases supported by the system. For a server, \"supported by the system\" means the system hosts/produces a set of resources that are conformant to a particular profile, and allows clients that use its services"
+		},
+		{
+			"name": "publisher",
+			"order": 8,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The name of the individual or organization that published the capability statement."
+		},
+		{
+			"name": "purpose",
+			"order": 16,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Explaination of why this capability statement is needed and why it has been designed as it has."
+		},
+		{
+			"name": "rest",
+			"order": 33,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "rest_",
+			"order": 34,
+			"type": "kObjectref",
+			"subtype": "oCapabilityStatementRest",
+			"sublen": 0,
+			"desc": "A definition of the restful capabilities of the solution, if any."
+		},
+		{
+			"name": "software",
+			"order": 21,
+			"type": "kObjectref",
+			"subtype": "oCapabilityStatementSoftware",
+			"sublen": 0,
+			"desc": "Software that is covered by this capability statement.  It is used when the capability statement describes the capabilities of a particular software version, independent of an installation."
+		},
+		{
+			"name": "status",
+			"order": 5,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The status of this capability statement. Enables tracking the life-cycle of the content."
+		},
+		{
+			"name": "title",
+			"order": 4,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A short, descriptive, user-friendly title for the capability statement."
+		},
+		{
+			"name": "url",
+			"order": 1,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "An absolute URI that is used to identify this capability statement when it is referenced in a specification, model, design or an instance. This SHALL be a URL, SHOULD be globally unique, and SHOULD be an address at which this capability statement is (or w"
+		},
+		{
+			"name": "useContext",
+			"order": 12,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "useContext_",
+			"order": 13,
+			"type": "kObjectref",
+			"subtype": "oUsageContext",
+			"sublen": 0,
+			"desc": "The content was developed with a focus and intent of supporting the contexts that are listed. These terms may be used to assist with indexing and searching for appropriate capability statement instances."
+		},
+		{
+			"name": "version",
+			"order": 2,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The identifier that is used to identify this version of the capability statement when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the capability statement author and is not expected to be globally "
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:39:57",
+		"desc": "Base StructureDefinition for CapabilityStatement Resource",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:26",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

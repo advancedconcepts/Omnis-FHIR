@@ -1,0 +1,9 @@
+Do inherited
+Calculate code as pValue.$code()
+Calculate group as pValue.$group()
+Calculate confidentiality as pValue.$confidentiality()
+Do strength.$clear()
+Calculate list as pValue.$strength()
+Do strength.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

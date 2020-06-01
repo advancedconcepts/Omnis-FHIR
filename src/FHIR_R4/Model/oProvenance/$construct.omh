@@ -1,0 +1,7 @@
+Do inherited
+Do target.$define(target_)
+Do policy.$define(policy_)
+Do reason.$define(reason_)
+Do agent.$define(agent_)
+Do entity.$define(entity_)
+Do signature.$define(signature_)

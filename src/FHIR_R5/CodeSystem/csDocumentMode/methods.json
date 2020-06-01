@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$producer",
+		"ident": 0,
+		"order": 1,
+		"desc": "The application consumes documents of the specified type.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$consumer",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

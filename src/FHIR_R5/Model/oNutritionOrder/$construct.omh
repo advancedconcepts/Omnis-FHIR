@@ -1,0 +1,10 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do instantiatesCanonical.$define(instantiatesCanonical_)
+Do instantiatesUri.$define(instantiatesUri_)
+Do instantiates.$define(instantiates_)
+Do allergyIntolerance.$define(allergyIntolerance_)
+Do foodPreferenceModifier.$define(foodPreferenceModifier_)
+Do excludeFoodModifier.$define(excludeFoodModifier_)
+Do supplement.$define(supplement_)
+Do note.$define(note_)

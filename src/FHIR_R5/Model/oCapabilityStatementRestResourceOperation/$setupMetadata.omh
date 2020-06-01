@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("name","::name",1,"1",21,"string")
+Do pElements.$add("definition","definition",1,"1",21,"canonical")
+Do pElements.$add("documentation","documentation",0,"1",21,"markdown")

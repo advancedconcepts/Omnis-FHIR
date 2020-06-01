@@ -1,0 +1,4 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do serviceType.$define(serviceType_)
+Do specialty.$define(specialty_)

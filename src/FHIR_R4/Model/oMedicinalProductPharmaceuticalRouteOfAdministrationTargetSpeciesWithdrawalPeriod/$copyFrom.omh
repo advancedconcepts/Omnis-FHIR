@@ -1,0 +1,4 @@
+Do inherited
+Calculate tissue as pValue.$tissue()
+Calculate value as pValue.$value()
+Calculate supportingInformation as pValue.$supportingInformation()

@@ -1,0 +1,188 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "answerOption",
+			"order": 16,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "answerOption_",
+			"order": 17,
+			"type": "kObjectref",
+			"subtype": "oQuestionnaireItemAnswerOption",
+			"sublen": 0,
+			"desc": "One of the permitted answers for a \"choice\" or \"open-choice\" question."
+		},
+		{
+			"name": "answerValueSet",
+			"order": 15,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A reference to a value set containing a list of codes representing permitted answers for a \"choice\" or \"open-choice\" question."
+		},
+		{
+			"name": "code",
+			"order": 3,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "code_",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oCoding",
+			"sublen": 0,
+			"desc": "A terminology code that corresponds to this group or question (e.g. a code from LOINC, which defines many questions and answers)."
+		},
+		{
+			"name": "definition",
+			"order": 2,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "This element is a URI that refers to an [ElementDefinition](elementdefinition.html) that provides information about this item, including information that might otherwise be included in the instance of the Questionnaire resource. A detailed description of "
+		},
+		{
+			"name": "enableBehavior",
+			"order": 10,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Controls how multiple enableWhen values are interpreted -  whether all or any must be true."
+		},
+		{
+			"name": "enableWhen",
+			"order": 8,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "enableWhen_",
+			"order": 9,
+			"type": "kObjectref",
+			"subtype": "oQuestionnaireItemEnableWhen",
+			"sublen": 0,
+			"desc": "A constraint indicating that this item should only be enabled (displayed/allow answers to be captured) when the specified condition is true."
+		},
+		{
+			"name": "initial",
+			"order": 18,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "initial_",
+			"order": 19,
+			"type": "kObjectref",
+			"subtype": "oQuestionnaireItemInitial",
+			"sublen": 0,
+			"desc": "One or more values that should be pre-populated in the answer when initially rendering the questionnaire for user input."
+		},
+		{
+			"name": "linkId",
+			"order": 1,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "An identifier that is unique within the Questionnaire allowing linkage to the equivalent item in a QuestionnaireResponse resource."
+		},
+		{
+			"name": "maxLength",
+			"order": 14,
+			"type": "kInteger",
+			"subtype": "k32bitint",
+			"sublen": 0,
+			"desc": "The maximum number of characters that are permitted in the answer to be considered a \"valid\" QuestionnaireResponse."
+		},
+		{
+			"name": "prefix",
+			"order": 5,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A short label for a particular group, question or set of display text within the questionnaire used for reference by the individual completing the questionnaire."
+		},
+		{
+			"name": "readOnly",
+			"order": 13,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "An indication, when true, that the value cannot be changed by a human respondent to the Questionnaire."
+		},
+		{
+			"name": "repeats",
+			"order": 12,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "An indication, if true, that the item may occur multiple times in the response, collecting multiple answers for questions or multiple sets of answers for groups."
+		},
+		{
+			"name": "required",
+			"order": 11,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "An indication, if true, that the item must be present in a \"completed\" QuestionnaireResponse.  If false, the item may be skipped when answering the questionnaire."
+		},
+		{
+			"name": "text",
+			"order": 6,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The name of a section, the text of a question or text content for a display item."
+		},
+		{
+			"name": "type",
+			"order": 7,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The type of questionnaire item this is - whether text for display, a grouping of other items or a particular type of data to be captured (string, integer, coded choice, etc.)."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:44:59",
+		"desc": "A particular question, question grouping or display text that is part of the questionnaire.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:27",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

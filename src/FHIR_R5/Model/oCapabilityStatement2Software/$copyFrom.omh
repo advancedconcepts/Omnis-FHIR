@@ -1,0 +1,4 @@
+Do inherited
+Calculate name as pValue.$name()
+Calculate version as pValue.$version()
+Calculate releaseDate as pValue.$releaseDate()

@@ -1,0 +1,6 @@
+Calculate objRef as $clib.$classes.oQuestionnaireItemEnableWhen.$newref()
+Do enableWhen.$add(objRef)
+If pValue.$validref()
+	Do objRef.$copyFrom(pValue)
+End If
+Quit method objRef

@@ -1,0 +1,6 @@
+Do inherited
+Do pElements.$add("versionId","versionId",0,"1",21,"id")
+Do pElements.$add("lastUpdated","lastUpdated",0,"1",23,"instant")
+Do pElements.$add("profile","profile",0,"-1",21,"uri")
+Do pElements.$add("security","security",0,"-1",38,"Coding")
+Do pElements.$add("tag","tag",0,"-1",38,"Coding")

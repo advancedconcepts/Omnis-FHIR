@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$primary",
+		"ident": 0,
+		"order": 1,
+		"desc": "Assisting care provider.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$assist",
+		"ident": 1,
+		"order": 2,
+		"desc": "Supervising care provider.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$supervisor",
+		"ident": 2,
+		"order": 3,
+		"desc": "Other role on the care team.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$other",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

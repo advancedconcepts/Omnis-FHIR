@@ -1,0 +1,4 @@
+If view.$validref()=kFalse
+	Calculate view as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method view

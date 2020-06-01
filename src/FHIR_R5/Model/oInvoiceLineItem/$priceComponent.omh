@@ -1,0 +1,4 @@
+If priceComponent.$validref()=kFalse
+	Calculate priceComponent as $clib.$classes.oInvoiceLineItemPriceComponent.$newref()
+End If
+Quit method priceComponent

@@ -1,0 +1,5 @@
+Do inherited
+Do pElements.$add("type","::type",0,"-1",38,"CodeableConcept")
+Do pElements.$add("actor","actor",0,"1",38,"Reference")
+Do pElements.$add("required","required",0,"1",21,"code")
+Do pElements.$add("status","status",1,"1",21,"code")

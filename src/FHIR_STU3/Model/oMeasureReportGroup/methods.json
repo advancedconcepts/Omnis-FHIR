@@ -1,0 +1,204 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$identifier",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: The identifier of the population group as defined in the measure definition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$identifier.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The identifier of the population group as defined in the measure definition."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$population",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: The populations that make up the population group, one for each type of population appropriate for the measure.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addpopulation",
+		"ident": 7,
+		"order": 8,
+		"desc": "The populations that make up the population group, one for each type of population appropriate for the measure.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMeasureReportGroupPopulation",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oMeasureReportGroupPopulation",
+				"sublen": 0,
+				"desc": "The populations that make up the population group, one for each type of population appropriate for the measure."
+			}
+		]
+	},
+	{
+		"name": "$measureScore",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: The measure score for this population group, calculated as appropriate for the measure type and scoring method, and based on the contents of the populations defined in the group.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$measureScore.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kNumber",
+				"subtype": "kFloatdp",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The measure score for this population group, calculated as appropriate for the measure type and scoring method, and based on the contents of the populations defined in the group."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$stratifier",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: When a measure includes multiple stratifiers, there will be a stratifier group for each stratifier defined by the measure.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addstratifier",
+		"ident": 11,
+		"order": 12,
+		"desc": "When a measure includes multiple stratifiers, there will be a stratifier group for each stratifier defined by the measure.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMeasureReportGroupStratifier",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oMeasureReportGroupStratifier",
+				"sublen": 0,
+				"desc": "When a measure includes multiple stratifiers, there will be a stratifier group for each stratifier defined by the measure."
+			}
+		]
+	}
+]

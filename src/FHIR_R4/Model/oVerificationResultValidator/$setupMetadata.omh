@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("organization","organization",1,"1",38,"Reference")
+Do pElements.$add("identityCertificate","identityCertificate",0,"1",21,"string")
+Do pElements.$add("attestationSignature","attestationSignature",0,"1",38,"Signature")

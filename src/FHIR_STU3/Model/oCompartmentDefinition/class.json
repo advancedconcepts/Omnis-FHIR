@@ -1,0 +1,188 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "code",
+			"order": 16,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Which compartment this definition describes."
+		},
+		{
+			"name": "contact",
+			"order": 8,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "contact_",
+			"order": 9,
+			"type": "kObjectref",
+			"subtype": "oContactDetail",
+			"sublen": 0,
+			"desc": "Contact details to assist a user in finding and communicating with the publisher."
+		},
+		{
+			"name": "date",
+			"order": 6,
+			"type": "kDate",
+			"subtype": "kDatetime",
+			"sublen": 0,
+			"desc": "The date  (and optionally time) when the compartment definition was published. The date must change if and when the business version changes and it must change if the status code changes. In addition, it should change when the substantive content of the c"
+		},
+		{
+			"name": "description",
+			"order": 10,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A free text natural language description of the compartment definition from a consumer's perspective."
+		},
+		{
+			"name": "experimental",
+			"order": 5,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "A boolean value to indicate that this compartment definition is authored for testing purposes (or education/evaluation/marketing), and is not intended to be used for genuine usage."
+		},
+		{
+			"name": "jurisdiction",
+			"order": 14,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "jurisdiction_",
+			"order": 15,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "A legal or geographic region in which the compartment definition is intended to be used."
+		},
+		{
+			"name": "name",
+			"order": 2,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A natural language name identifying the compartment definition. This name should be usable as an identifier for the module by machine processing applications such as code generation."
+		},
+		{
+			"name": "publisher",
+			"order": 7,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The name of the individual or organization that published the compartment definition."
+		},
+		{
+			"name": "purpose",
+			"order": 11,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Explaination of why this compartment definition is needed and why it has been designed as it has."
+		},
+		{
+			"name": "resource",
+			"order": 18,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "resource_",
+			"order": 19,
+			"type": "kObjectref",
+			"subtype": "oCompartmentDefinitionResource",
+			"sublen": 0,
+			"desc": "Information about how a resource is related to the compartment."
+		},
+		{
+			"name": "search",
+			"order": 17,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "Whether the search syntax is supported,."
+		},
+		{
+			"name": "status",
+			"order": 4,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The status of this compartment definition. Enables tracking the life-cycle of the content."
+		},
+		{
+			"name": "title",
+			"order": 3,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A short, descriptive, user-friendly title for the compartment definition."
+		},
+		{
+			"name": "url",
+			"order": 1,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "An absolute URI that is used to identify this compartment definition when it is referenced in a specification, model, design or an instance. This SHALL be a URL, SHOULD be globally unique, and SHOULD be an address at which this compartment definition is ("
+		},
+		{
+			"name": "useContext",
+			"order": 12,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "useContext_",
+			"order": 13,
+			"type": "kObjectref",
+			"subtype": "oUsageContext",
+			"sublen": 0,
+			"desc": "The content was developed with a focus and intent of supporting the contexts that are listed. These terms may be used to assist with indexing and searching for appropriate compartment definition instances."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:39:59",
+		"desc": "Base StructureDefinition for CompartmentDefinition Resource",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:26",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

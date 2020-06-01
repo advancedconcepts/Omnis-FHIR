@@ -1,0 +1,5 @@
+Do inherited
+Do pElements.$add("number","number",0,"-1",26,"unsignedInt")
+Do pElements.$add("classification","classification",1,"1",38,"Coding")
+Do pElements.$add("category","category",0,"-1",38,"Coding")
+Do pElements.$add("control","control",0,"-1",38,"Coding")

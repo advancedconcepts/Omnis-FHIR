@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$functional",
+		"ident": 0,
+		"order": 1,
+		"desc": "The implanted device is not working",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$non-functional",
+		"ident": 1,
+		"order": 2,
+		"desc": "The implanted device has been turned off",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$disabled",
+		"ident": 2,
+		"order": 3,
+		"desc": "the functional status of the implant has not been determined",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unknown",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

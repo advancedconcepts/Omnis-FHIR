@@ -1,0 +1,4 @@
+If strengthLowLimit.$validref()=kFalse
+	Calculate strengthLowLimit as $clib.$classes.oRatio.$newref()
+End If
+Quit method strengthLowLimit

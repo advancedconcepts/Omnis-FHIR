@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$auth-requirements",
+		"ident": 0,
+		"order": 1,
+		"desc": "The plan benefits and optionally benefits consumed  for the listed, or discovered if specified, converages are requested.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$benefits",
+		"ident": 1,
+		"order": 2,
+		"desc": "The insurer is requested to report on any coverages which they are aware of in addition to any specifed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$discovery",
+		"ident": 2,
+		"order": 3,
+		"desc": "A check that the specified coverages are in-force is requested.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$validation",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

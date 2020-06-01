@@ -1,0 +1,558 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$scope",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: Differentiates the kind of the asset .",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$scope.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Differentiates the kind of the asset ."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: Target entity type about which the term may be concerned.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addtype",
+		"ident": 7,
+		"order": 8,
+		"desc": "Target entity type about which the term may be concerned.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Target entity type about which the term may be concerned."
+			}
+		]
+	},
+	{
+		"name": "$typeReference",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: Associated entities.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addtypeReference",
+		"ident": 9,
+		"order": 10,
+		"desc": "Associated entities.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Associated entities."
+			}
+		]
+	},
+	{
+		"name": "$subtype",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: May be a subtype or part of an offered asset.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addsubtype",
+		"ident": 11,
+		"order": 12,
+		"desc": "May be a subtype or part of an offered asset.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "May be a subtype or part of an offered asset."
+			}
+		]
+	},
+	{
+		"name": "$relationship",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: Specifies the applicability of the term to an asset resource instance, and instances it refers to orinstances that refer to it, and/or are owned by the offeree.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$relationship.$assign",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCoding",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Specifies the applicability of the term to an asset resource instance, and instances it refers to orinstances that refer to it, and/or are owned by the offeree."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$context",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: Circumstance of the asset.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcontext",
+		"ident": 15,
+		"order": 16,
+		"desc": "Circumstance of the asset.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oContractTermAssetContext",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oContractTermAssetContext",
+				"sublen": 0,
+				"desc": "Circumstance of the asset."
+			}
+		]
+	},
+	{
+		"name": "$condition",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: Description of the quality and completeness of the asset that imay be a factor in its valuation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$condition.$assign",
+		"ident": 17,
+		"order": 18,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Description of the quality and completeness of the asset that imay be a factor in its valuation."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$periodType",
+		"ident": 18,
+		"order": 19,
+		"desc": "Returns: Type of Asset availability for use or ownership.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addperiodType",
+		"ident": 19,
+		"order": 20,
+		"desc": "Type of Asset availability for use or ownership.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Type of Asset availability for use or ownership."
+			}
+		]
+	},
+	{
+		"name": "$period",
+		"ident": 20,
+		"order": 21,
+		"desc": "Returns: Asset relevant contractual time period.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addperiod",
+		"ident": 21,
+		"order": 22,
+		"desc": "Asset relevant contractual time period.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oPeriod",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oPeriod",
+				"sublen": 0,
+				"desc": "Asset relevant contractual time period."
+			}
+		]
+	},
+	{
+		"name": "$usePeriod",
+		"ident": 22,
+		"order": 23,
+		"desc": "Returns: Time period of asset use.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addusePeriod",
+		"ident": 23,
+		"order": 24,
+		"desc": "Time period of asset use.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oPeriod",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oPeriod",
+				"sublen": 0,
+				"desc": "Time period of asset use."
+			}
+		]
+	},
+	{
+		"name": "$text",
+		"ident": 24,
+		"order": 25,
+		"desc": "Returns: Clause or question text (Prose Object) concerning the asset in a linked form, such as a QuestionnaireResponse used in the formation of the contract.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$text.$assign",
+		"ident": 25,
+		"order": 26,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Clause or question text (Prose Object) concerning the asset in a linked form, such as a QuestionnaireResponse used in the formation of the contract."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$linkId",
+		"ident": 26,
+		"order": 27,
+		"desc": "Returns: Id [identifier??] of the clause or question text about the asset in the referenced form or QuestionnaireResponse.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addlinkId",
+		"ident": 27,
+		"order": 28,
+		"desc": "Id [identifier??] of the clause or question text about the asset in the referenced form or QuestionnaireResponse.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Id [identifier??] of the clause or question text about the asset in the referenced form or QuestionnaireResponse."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$securityLabelNumber",
+		"ident": 28,
+		"order": 29,
+		"desc": "Returns: Security labels that protects the asset.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addsecurityLabelNumber",
+		"ident": 29,
+		"order": 30,
+		"desc": "Security labels that protects the asset.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Security labels that protects the asset."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$valuedItem",
+		"ident": 30,
+		"order": 31,
+		"desc": "Returns: Contract Valued Item List.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addvaluedItem",
+		"ident": 31,
+		"order": 32,
+		"desc": "Contract Valued Item List.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oContractTermAssetValuedItem",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oContractTermAssetValuedItem",
+				"sublen": 0,
+				"desc": "Contract Valued Item List."
+			}
+		]
+	}
+]

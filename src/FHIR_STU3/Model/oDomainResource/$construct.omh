@@ -1,0 +1,4 @@
+Do inherited
+Do contained.$define(contained_)
+Do extension.$define(extension_)
+Do modifierExtension.$define(modifierExtension_)

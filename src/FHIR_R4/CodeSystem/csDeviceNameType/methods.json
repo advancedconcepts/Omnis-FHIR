@@ -1,0 +1,73 @@
+[
+	{
+		"name": "$udi-label-name",
+		"ident": 0,
+		"order": 1,
+		"desc": "User Friendly name.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$user-friendly-name",
+		"ident": 1,
+		"order": 2,
+		"desc": "Patient Reported name.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$patient-reported-name",
+		"ident": 2,
+		"order": 3,
+		"desc": "Manufacturer name.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$manufacturer-name",
+		"ident": 3,
+		"order": 4,
+		"desc": "Model name.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$model-name",
+		"ident": 4,
+		"order": 5,
+		"desc": "other.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$other",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

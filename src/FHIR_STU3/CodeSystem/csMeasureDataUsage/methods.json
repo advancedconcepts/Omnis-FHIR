@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$supplemental-data",
+		"ident": 0,
+		"order": 1,
+		"desc": "The data is intended to be used to calculate and apply a risk adjustment model for the measure",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$risk-adjustment-factor",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

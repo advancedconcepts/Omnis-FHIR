@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$due",
+		"ident": 0,
+		"order": 1,
+		"desc": "The patient is considered overdue for their next vaccination.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$overdue",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

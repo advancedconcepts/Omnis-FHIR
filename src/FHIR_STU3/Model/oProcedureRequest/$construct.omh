@@ -1,0 +1,13 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do definition.$define(definition_)
+Do basedOn.$define(basedOn_)
+Do replaces.$define(replaces_)
+Do category.$define(category_)
+Do reasonCode.$define(reasonCode_)
+Do reasonReference.$define(reasonReference_)
+Do supportingInfo.$define(supportingInfo_)
+Do specimen.$define(specimen_)
+Do bodySite.$define(bodySite_)
+Do note.$define(note_)
+Do relevantHistory.$define(relevantHistory_)

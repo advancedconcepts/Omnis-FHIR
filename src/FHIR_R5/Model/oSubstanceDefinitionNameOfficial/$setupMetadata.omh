@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("authority","authority",0,"1",38,"CodeableConcept")
+Do pElements.$add("status","status",0,"1",38,"CodeableConcept")
+Do pElements.$add("date","date",0,"1",23,"dateTime")

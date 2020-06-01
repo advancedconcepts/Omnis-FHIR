@@ -1,0 +1,6 @@
+Do inherited
+Do interaction.$define(interaction_)
+Do referencePolicy.$define(referencePolicy_)
+Do searchInclude.$define(searchInclude_)
+Do searchRevInclude.$define(searchRevInclude_)
+Do searchParam.$define(searchParam_)

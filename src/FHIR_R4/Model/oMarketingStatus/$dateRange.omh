@@ -1,0 +1,4 @@
+If dateRange.$validref()=kFalse
+	Calculate dateRange as $clib.$classes.oPeriod.$newref()
+End If
+Quit method dateRange

@@ -1,0 +1,7 @@
+Do inherited
+Do pElements.$add("type","::type",0,"1",38,"CodeableConcept")
+Do pElements.$add("adjustment","adjustment",0,"1",38,"Money")
+Do pElements.$add("adjustmentReason","adjustmentReason",0,"1",38,"CodeableConcept")
+Do pElements.$add("date","date",0,"1",23,"date")
+Do pElements.$add("amount","amount",0,"1",38,"Money")
+Do pElements.$add("identifier","identifier",0,"1",38,"Identifier")

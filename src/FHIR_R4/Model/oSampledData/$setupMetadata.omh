@@ -1,0 +1,8 @@
+Do inherited
+Do pElements.$add("origin","origin",1,"1",38,"Quantity")
+Do pElements.$add("period","period",1,"1",25,"decimal")
+Do pElements.$add("factor","factor",0,"1",25,"decimal")
+Do pElements.$add("lowerLimit","lowerLimit",0,"1",25,"decimal")
+Do pElements.$add("upperLimit","upperLimit",0,"1",25,"decimal")
+Do pElements.$add("dimensions","dimensions",1,"1",26,"positiveInt")
+Do pElements.$add("data","data",0,"1",21,"string")

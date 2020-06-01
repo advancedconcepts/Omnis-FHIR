@@ -1,0 +1,8 @@
+Do inherited
+Calculate code as pValue.$code()
+Calculate category as pValue.$category()
+Calculate mode as pValue.$mode()
+Calculate focus as pValue.$focus()
+Calculate request as pValue.$request()
+Calculate response as pValue.$response()
+Calculate documentation as pValue.$documentation()

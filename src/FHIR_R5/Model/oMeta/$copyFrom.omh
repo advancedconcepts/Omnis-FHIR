@@ -1,0 +1,19 @@
+Do inherited
+Calculate versionId as pValue.$versionId()
+Calculate lastUpdated as pValue.$lastUpdated()
+Calculate source as pValue.$source()
+Do profile.$clear()
+Calculate list as pValue.$profile()
+Do profile.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do security.$clear()
+Calculate list as pValue.$security()
+Do security.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do tag.$clear()
+Calculate list as pValue.$tag()
+Do tag.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

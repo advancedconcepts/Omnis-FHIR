@@ -1,0 +1,194 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "addresses",
+			"order": 13,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "addresses_",
+			"order": 14,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The identified conditions and other health record elements that are intended to be addressed by the goal."
+		},
+		{
+			"name": "category",
+			"order": 4,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "category_",
+			"order": 5,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Indicates a category the goal falls within."
+		},
+		{
+			"name": "description",
+			"order": 7,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Human-readable and/or coded description of a specific desired objective of care, such as \"control blood pressure\" or \"negotiate an obstacle course\" or \"dance with child at wedding\"."
+		},
+		{
+			"name": "expressedBy",
+			"order": 12,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Indicates whose goal this is - patient goal, practitioner goal, etc."
+		},
+		{
+			"name": "identifier",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "identifier_",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "This records identifiers associated with this care plan that are defined by business processes and/or used to refer to it when a direct URL reference to the resource itself is not appropriate (e.g. in CDA documents, or in written / printed documentation)."
+		},
+		{
+			"name": "note",
+			"order": 15,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "note_",
+			"order": 16,
+			"type": "kObjectref",
+			"subtype": "oAnnotation",
+			"sublen": 0,
+			"desc": "Any comments related to the goal."
+		},
+		{
+			"name": "outcomeCode",
+			"order": 17,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "outcomeCode_",
+			"order": 18,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Identifies the change (or lack of change) at the point when the status of the goal is assessed."
+		},
+		{
+			"name": "outcomeReference",
+			"order": 19,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "outcomeReference_",
+			"order": 20,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Details of what's changed (or not changed)."
+		},
+		{
+			"name": "priority",
+			"order": 6,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Identifies the mutually agreed level of importance associated with reaching/sustaining the goal."
+		},
+		{
+			"name": "status",
+			"order": 3,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Indicates whether the goal has been reached and is still considered relevant."
+		},
+		{
+			"name": "statusDate",
+			"order": 10,
+			"type": "kDate",
+			"subtype": "kDate2000",
+			"sublen": 0,
+			"desc": "Identifies when the current status.  I.e. When initially created, when achieved, when cancelled, etc."
+		},
+		{
+			"name": "statusReason",
+			"order": 11,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Captures the reason for the current status."
+		},
+		{
+			"name": "subject",
+			"order": 8,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Identifies the patient, group or organization for whom the goal is being established."
+		},
+		{
+			"name": "target",
+			"order": 9,
+			"type": "kObjectref",
+			"subtype": "oGoalTarget",
+			"sublen": 0,
+			"desc": "Indicates what should be done by when."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:40:03",
+		"desc": "Base StructureDefinition for Goal Resource",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:26",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

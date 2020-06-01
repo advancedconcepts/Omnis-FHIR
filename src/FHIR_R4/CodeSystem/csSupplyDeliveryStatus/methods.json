@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$in-progress",
+		"ident": 0,
+		"order": 1,
+		"desc": "Supply has been delivered (\"completed\").",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$completed",
+		"ident": 1,
+		"order": 2,
+		"desc": "Delivery was not completed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$abandoned",
+		"ident": 2,
+		"order": 3,
+		"desc": "This electronic record should never have existed, though it is possible that real-world decisions were based on it. (If real-world activity has occurred, the status should be \"abandoned\" rather than \"entered-in-error\".).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$entered-in-error",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

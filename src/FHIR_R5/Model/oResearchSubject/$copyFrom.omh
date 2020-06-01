@@ -1,0 +1,18 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate status as pValue.$status()
+Do progress.$clear()
+Calculate list as pValue.$progress()
+Do progress.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate period as pValue.$period()
+Calculate study as pValue.$study()
+Calculate individual as pValue.$individual()
+Calculate assignedArm as pValue.$assignedArm()
+Calculate actualArm as pValue.$actualArm()
+Calculate consent as pValue.$consent()

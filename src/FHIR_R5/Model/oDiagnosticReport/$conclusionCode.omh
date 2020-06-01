@@ -1,0 +1,4 @@
+If conclusionCode.$validref()=kFalse
+	Calculate conclusionCode as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method conclusionCode

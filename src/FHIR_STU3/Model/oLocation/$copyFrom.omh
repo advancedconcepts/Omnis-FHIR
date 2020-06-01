@@ -1,0 +1,32 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate status as pValue.$status()
+Calculate operationalStatus as pValue.$operationalStatus()
+Calculate name as pValue.$name()
+Do alias.$clear()
+Calculate list as pValue.$alias()
+Do alias.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate description as pValue.$description()
+Calculate mode as pValue.$mode()
+Calculate type as pValue.$type()
+Do telecom.$clear()
+Calculate list as pValue.$telecom()
+Do telecom.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate address as pValue.$address()
+Calculate physicalType as pValue.$physicalType()
+Calculate position as pValue.$position()
+Calculate managingOrganization as pValue.$managingOrganization()
+Calculate partOf as pValue.$partOf()
+Do endpoint.$clear()
+Calculate list as pValue.$endpoint()
+Do endpoint.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

@@ -1,0 +1,8 @@
+Do inherited
+Calculate type as pValue.$type()
+Calculate party as pValue.$party()
+Do signature.$clear()
+Calculate list as pValue.$signature()
+Do signature.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

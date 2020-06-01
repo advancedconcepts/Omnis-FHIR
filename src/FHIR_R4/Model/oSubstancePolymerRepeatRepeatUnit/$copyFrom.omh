@@ -1,0 +1,14 @@
+Do inherited
+Calculate orientationOfPolymerisation as pValue.$orientationOfPolymerisation()
+Calculate repeatUnit as pValue.$repeatUnit()
+Calculate amount as pValue.$amount()
+Do degreeOfPolymerisation.$clear()
+Calculate list as pValue.$degreeOfPolymerisation()
+Do degreeOfPolymerisation.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do structuralRepresentation.$clear()
+Calculate list as pValue.$structuralRepresentation()
+Do structuralRepresentation.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

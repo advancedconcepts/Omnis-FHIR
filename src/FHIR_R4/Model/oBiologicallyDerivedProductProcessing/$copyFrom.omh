@@ -1,0 +1,4 @@
+Do inherited
+Calculate description as pValue.$description()
+Calculate procedure as pValue.$procedure()
+Calculate additive as pValue.$additive()

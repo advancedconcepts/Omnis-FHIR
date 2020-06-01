@@ -1,0 +1,1071 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$identifier",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: The business identifier for the instance: claim number, pre-determination or pre-authorization number.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addidentifier",
+		"ident": 6,
+		"order": 7,
+		"desc": "The business identifier for the instance: claim number, pre-determination or pre-authorization number.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"desc": "The business identifier for the instance: claim number, pre-determination or pre-authorization number."
+			}
+		]
+	},
+	{
+		"name": "$status",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: The status of the resource instance.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$status.$assign",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The status of the resource instance."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: The category of claim, eg, oral, pharmacy, vision, insitutional, professional.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type.$assign",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The category of claim, eg, oral, pharmacy, vision, insitutional, professional."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subType",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: A finer grained suite of claim subtype codes which may convey Inpatient vs Outpatient and/or a specialty service. In the US the BillType.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addsubType",
+		"ident": 12,
+		"order": 13,
+		"desc": "A finer grained suite of claim subtype codes which may convey Inpatient vs Outpatient and/or a specialty service. In the US the BillType.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "A finer grained suite of claim subtype codes which may convey Inpatient vs Outpatient and/or a specialty service. In the US the BillType."
+			}
+		]
+	},
+	{
+		"name": "$use",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: Complete (Bill or Claim), Proposed (Pre-Authorization), Exploratory (Pre-determination).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$use.$assign",
+		"ident": 14,
+		"order": 15,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Complete (Bill or Claim), Proposed (Pre-Authorization), Exploratory (Pre-determination)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$patient",
+		"ident": 15,
+		"order": 16,
+		"desc": "Returns: Patient Resource.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$patient.$assign",
+		"ident": 16,
+		"order": 17,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Patient Resource."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$billablePeriod",
+		"ident": 17,
+		"order": 18,
+		"desc": "Returns: The billable period for which charges are being submitted.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$billablePeriod.$assign",
+		"ident": 18,
+		"order": 19,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oPeriod",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The billable period for which charges are being submitted."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$created",
+		"ident": 19,
+		"order": 20,
+		"desc": "Returns: The date when the enclosed suite of services were performed or completed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$created.$assign",
+		"ident": 20,
+		"order": 21,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kDate",
+				"subtype": "kDatetime",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The date when the enclosed suite of services were performed or completed."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$enterer",
+		"ident": 21,
+		"order": 22,
+		"desc": "Returns: Person who created the invoice/claim/pre-determination or pre-authorization.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$enterer.$assign",
+		"ident": 22,
+		"order": 23,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Person who created the invoice/claim/pre-determination or pre-authorization."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$insurer",
+		"ident": 23,
+		"order": 24,
+		"desc": "Returns: The Insurer who is target of the request.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$insurer.$assign",
+		"ident": 24,
+		"order": 25,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The Insurer who is target of the request."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$provider",
+		"ident": 25,
+		"order": 26,
+		"desc": "Returns: The provider which is responsible for the bill, claim pre-determination, pre-authorization.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$provider.$assign",
+		"ident": 26,
+		"order": 27,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The provider which is responsible for the bill, claim pre-determination, pre-authorization."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$organization",
+		"ident": 27,
+		"order": 28,
+		"desc": "Returns: The organization which is responsible for the bill, claim pre-determination, pre-authorization.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$organization.$assign",
+		"ident": 28,
+		"order": 29,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The organization which is responsible for the bill, claim pre-determination, pre-authorization."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$priority",
+		"ident": 29,
+		"order": 30,
+		"desc": "Returns: Immediate (STAT), best effort (NORMAL), deferred (DEFER).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$priority.$assign",
+		"ident": 30,
+		"order": 31,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Immediate (STAT), best effort (NORMAL), deferred (DEFER)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$fundsReserve",
+		"ident": 31,
+		"order": 32,
+		"desc": "Returns: In the case of a Pre-Determination/Pre-Authorization the provider may request that funds in the amount of the expected Benefit be reserved ('Patient' or 'Provider') to pay for the Benefits determined on the subsequent claim(s). 'None' explicitly indicates no funds reserving is requested.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$fundsReserve.$assign",
+		"ident": 32,
+		"order": 33,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "In the case of a Pre-Determination/Pre-Authorization the provider may request that funds in the amount of the expected Benefit be reserved ('Patient' or 'Provider') to pay for the Benefits determined on the subsequent claim(s). 'None' explicitly indicates"
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$related",
+		"ident": 33,
+		"order": 34,
+		"desc": "Returns: Other claims which are related to this claim such as prior claim versions or for related services.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addrelated",
+		"ident": 34,
+		"order": 35,
+		"desc": "Other claims which are related to this claim such as prior claim versions or for related services.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oClaimRelated",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oClaimRelated",
+				"sublen": 0,
+				"desc": "Other claims which are related to this claim such as prior claim versions or for related services."
+			}
+		]
+	},
+	{
+		"name": "$prescription",
+		"ident": 35,
+		"order": 36,
+		"desc": "Returns: Prescription to support the dispensing of Pharmacy or Vision products.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$prescription.$assign",
+		"ident": 36,
+		"order": 37,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Prescription to support the dispensing of Pharmacy or Vision products."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$originalPrescription",
+		"ident": 37,
+		"order": 38,
+		"desc": "Returns: Original prescription which has been superceded by this prescription to support the dispensing of pharmacy services, medications or products. For example, a physician may prescribe a medication which the pharmacy determines is contraindicated, or for which the patient has an intolerance, and therefor issues a new precription for an alternate medication which has the same theraputic intent. The prescription from the pharmacy becomes the 'prescription' and that from the physician becomes the 'original prescription'.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$originalPrescription.$assign",
+		"ident": 38,
+		"order": 39,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Original prescription which has been superceded by this prescription to support the dispensing of pharmacy services, medications or products. For example, a physician may prescribe a medication which the pharmacy determines is contraindicated, or for whic"
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$payee",
+		"ident": 39,
+		"order": 40,
+		"desc": "Returns: The party to be reimbursed for the services.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$payee.$assign",
+		"ident": 40,
+		"order": 41,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oClaimPayee",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The party to be reimbursed for the services."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$referral",
+		"ident": 41,
+		"order": 42,
+		"desc": "Returns: The referral resource which lists the date, practitioner, reason and other supporting information.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$referral.$assign",
+		"ident": 42,
+		"order": 43,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The referral resource which lists the date, practitioner, reason and other supporting information."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$facility",
+		"ident": 43,
+		"order": 44,
+		"desc": "Returns: Facility where the services were provided.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$facility.$assign",
+		"ident": 44,
+		"order": 45,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Facility where the services were provided."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$careTeam",
+		"ident": 45,
+		"order": 46,
+		"desc": "Returns: The members of the team who provided the overall service as well as their role and whether responsible and qualifications.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcareTeam",
+		"ident": 46,
+		"order": 47,
+		"desc": "The members of the team who provided the overall service as well as their role and whether responsible and qualifications.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oClaimCareTeam",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oClaimCareTeam",
+				"sublen": 0,
+				"desc": "The members of the team who provided the overall service as well as their role and whether responsible and qualifications."
+			}
+		]
+	},
+	{
+		"name": "$information",
+		"ident": 47,
+		"order": 48,
+		"desc": "Returns: Additional information codes regarding exceptions, special considerations, the condition, situation, prior or concurrent issues. Often there are mutiple jurisdiction specific valuesets which are required.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addinformation",
+		"ident": 48,
+		"order": 49,
+		"desc": "Additional information codes regarding exceptions, special considerations, the condition, situation, prior or concurrent issues. Often there are mutiple jurisdiction specific valuesets which are required.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oClaimInformation",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oClaimInformation",
+				"sublen": 0,
+				"desc": "Additional information codes regarding exceptions, special considerations, the condition, situation, prior or concurrent issues. Often there are mutiple jurisdiction specific valuesets which are required."
+			}
+		]
+	},
+	{
+		"name": "$diagnosis",
+		"ident": 49,
+		"order": 50,
+		"desc": "Returns: List of patient diagnosis for which care is sought.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$adddiagnosis",
+		"ident": 50,
+		"order": 51,
+		"desc": "List of patient diagnosis for which care is sought.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oClaimDiagnosis",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oClaimDiagnosis",
+				"sublen": 0,
+				"desc": "List of patient diagnosis for which care is sought."
+			}
+		]
+	},
+	{
+		"name": "$procedure",
+		"ident": 51,
+		"order": 52,
+		"desc": "Returns: Ordered list of patient procedures performed to support the adjudication.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addprocedure",
+		"ident": 52,
+		"order": 53,
+		"desc": "Ordered list of patient procedures performed to support the adjudication.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oClaimProcedure",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oClaimProcedure",
+				"sublen": 0,
+				"desc": "Ordered list of patient procedures performed to support the adjudication."
+			}
+		]
+	},
+	{
+		"name": "$insurance",
+		"ident": 53,
+		"order": 54,
+		"desc": "Returns: Financial instrument by which payment information for health care.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addinsurance",
+		"ident": 54,
+		"order": 55,
+		"desc": "Financial instrument by which payment information for health care.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oClaimInsurance",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oClaimInsurance",
+				"sublen": 0,
+				"desc": "Financial instrument by which payment information for health care."
+			}
+		]
+	},
+	{
+		"name": "$accident",
+		"ident": 55,
+		"order": 56,
+		"desc": "Returns: An accident which resulted in the need for healthcare services.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$accident.$assign",
+		"ident": 56,
+		"order": 57,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oClaimAccident",
+				"sublen": 0,
+				"param": 1,
+				"desc": "An accident which resulted in the need for healthcare services."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$employmentImpacted",
+		"ident": 57,
+		"order": 58,
+		"desc": "Returns: The start and optional end dates of when the patient was precluded from working due to the treatable condition(s).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$employmentImpacted.$assign",
+		"ident": 58,
+		"order": 59,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oPeriod",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The start and optional end dates of when the patient was precluded from working due to the treatable condition(s)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$hospitalization",
+		"ident": 59,
+		"order": 60,
+		"desc": "Returns: The start and optional end dates of when the patient was confined to a treatment center.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$hospitalization.$assign",
+		"ident": 60,
+		"order": 61,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oPeriod",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The start and optional end dates of when the patient was confined to a treatment center."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$item",
+		"ident": 61,
+		"order": 62,
+		"desc": "Returns: First tier of goods and services.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$additem",
+		"ident": 62,
+		"order": 63,
+		"desc": "First tier of goods and services.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oClaimItem",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oClaimItem",
+				"sublen": 0,
+				"desc": "First tier of goods and services."
+			}
+		]
+	},
+	{
+		"name": "$total",
+		"ident": 63,
+		"order": 64,
+		"desc": "Returns: The total value of the claim.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$total.$assign",
+		"ident": 64,
+		"order": 65,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMoney",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The total value of the claim."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,188 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "account",
+			"order": 12,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Account which is supposed to be balanced with this Invoice."
+		},
+		{
+			"name": "cancelledReason",
+			"order": 4,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "In case of Invoice cancellation a reason must be given (entered in error, superseded by corrected invoice etc.)."
+		},
+		{
+			"name": "date",
+			"order": 8,
+			"type": "kDate",
+			"subtype": "kDatetime",
+			"sublen": 0,
+			"desc": "Date/time(s) of when this Invoice was posted."
+		},
+		{
+			"name": "identifier",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "identifier_",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "Identifier of this Invoice, often used for reference in correspondence about this invoice or for tracking of payments."
+		},
+		{
+			"name": "issuer",
+			"order": 11,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The organizationissuing the Invoice."
+		},
+		{
+			"name": "lineItem",
+			"order": 13,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "lineItem_",
+			"order": 14,
+			"type": "kObjectref",
+			"subtype": "oInvoiceLineItem",
+			"sublen": 0,
+			"desc": "Each line item represents one charge for goods and services rendered. Details such as date, code and amount are found in the referenced ChargeItem resource."
+		},
+		{
+			"name": "note",
+			"order": 18,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "note_",
+			"order": 19,
+			"type": "kObjectref",
+			"subtype": "oAnnotation",
+			"sublen": 0,
+			"desc": "Comments made about the invoice by the issuer, subject, or other participants."
+		},
+		{
+			"name": "participant",
+			"order": 9,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "participant_",
+			"order": 10,
+			"type": "kObjectref",
+			"subtype": "oInvoiceParticipant",
+			"sublen": 0,
+			"desc": "Indicates who or what performed or participated in the charged service."
+		},
+		{
+			"name": "paymentTerms",
+			"order": 17,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Payment details such as banking details, period of payment, deductibles, methods of payment."
+		},
+		{
+			"name": "recipient",
+			"order": 7,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The individual or Organization responsible for balancing of this invoice."
+		},
+		{
+			"name": "status",
+			"order": 3,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The current state of the Invoice."
+		},
+		{
+			"name": "subject",
+			"order": 6,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The individual or set of individuals receiving the goods and services billed in this invoice."
+		},
+		{
+			"name": "totalGross",
+			"order": 16,
+			"type": "kObjectref",
+			"subtype": "oMoney",
+			"sublen": 0,
+			"desc": "Invoice total, tax included."
+		},
+		{
+			"name": "totalNet",
+			"order": 15,
+			"type": "kObjectref",
+			"subtype": "oMoney",
+			"sublen": 0,
+			"desc": "Invoice total , taxes excluded."
+		},
+		{
+			"name": "type",
+			"order": 5,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Type of Invoice depending on domain, realm an usage (e.g. internal/external, dental, preliminary)."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:41:44",
+		"desc": "Invoice containing collected ChargeItems from an Account with calculated individual and total price for Billing purpose.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:24",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

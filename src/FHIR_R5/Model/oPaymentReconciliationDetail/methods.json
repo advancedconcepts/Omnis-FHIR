@@ -1,0 +1,376 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$identifier",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: Unique identifier for the current payment item for the referenced payable.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$identifier.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Unique identifier for the current payment item for the referenced payable."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$predecessor",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: Unique identifier for the prior payment item for the referenced payable.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$predecessor.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Unique identifier for the prior payment item for the referenced payable."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: Code to indicate the nature of the payment.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Code to indicate the nature of the payment."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$request",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: A resource, such as a Claim, the evaluation of which could lead to payment.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$request.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "A resource, such as a Claim, the evaluation of which could lead to payment."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$submitter",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: The party which submitted the claim or financial transaction.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$submitter.$assign",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The party which submitted the claim or financial transaction."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$response",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: A resource, such as a ClaimResponse, which contains a commitment to payment.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$response.$assign",
+		"ident": 15,
+		"order": 16,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "A resource, such as a ClaimResponse, which contains a commitment to payment."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$date",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: The date from the response resource containing a commitment to pay.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$date.$assign",
+		"ident": 17,
+		"order": 18,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kDate",
+				"subtype": "kDate2000",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The date from the response resource containing a commitment to pay."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$responsible",
+		"ident": 18,
+		"order": 19,
+		"desc": "Returns: A reference to the individual who is responsible for inquiries regarding the response and its payment.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$responsible.$assign",
+		"ident": 19,
+		"order": 20,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "A reference to the individual who is responsible for inquiries regarding the response and its payment."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$payee",
+		"ident": 20,
+		"order": 21,
+		"desc": "Returns: The party which is receiving the payment.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$payee.$assign",
+		"ident": 21,
+		"order": 22,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The party which is receiving the payment."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$amount",
+		"ident": 22,
+		"order": 23,
+		"desc": "Returns: The monetary amount allocated from the total payment to the payable.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$amount.$assign",
+		"ident": 23,
+		"order": 24,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMoney",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The monetary amount allocated from the total payment to the payable."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

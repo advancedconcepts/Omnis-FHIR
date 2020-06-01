@@ -1,0 +1,13 @@
+Do inherited
+Do representation.$define(representation_)
+Do code.$define(code_)
+Do slicing.discriminator.$define(slicing.discriminator_)
+Do alias.$define(alias_)
+Do type.$define(type_)
+Do type.profile.$define(type.profile_)
+Do type.targetProfile.$define(type.targetProfile_)
+Do type.aggregation.$define(type.aggregation_)
+Do example.$define(example_)
+Do condition.$define(condition_)
+Do constraint.$define(constraint_)
+Do mapping.$define(mapping_)

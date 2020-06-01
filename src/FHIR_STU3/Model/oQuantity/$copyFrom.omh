@@ -1,0 +1,6 @@
+Do inherited
+Calculate value as pValue.$value()
+Calculate comparator as pValue.$comparator()
+Calculate unit as pValue.$unit()
+Calculate system as pValue.$system()
+Calculate code as pValue.$code()

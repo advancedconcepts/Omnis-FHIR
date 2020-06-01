@@ -1,0 +1,5 @@
+Do inherited
+Do pElements.$add("strength","strength",1,"1",38,"Ratio")
+Do pElements.$add("strengthHighLimit","strengthHighLimit",0,"1",38,"Ratio")
+Do pElements.$add("measurementPoint","measurementPoint",0,"1",21,"string")
+Do pElements.$add("country","country",0,"-1",38,"CodeableConcept")

@@ -1,0 +1,141 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "contraindication",
+			"order": 8,
+			"type": "kObjectref",
+			"subtype": "oClinicalUseIssueContraindication",
+			"sublen": 0,
+			"desc": "Specifics for when this is a contraindication."
+		},
+		{
+			"name": "description",
+			"order": 7,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "General description."
+		},
+		{
+			"name": "identifier",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "identifier_",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "Business identifier for this issue."
+		},
+		{
+			"name": "indication",
+			"order": 9,
+			"type": "kObjectref",
+			"subtype": "oClinicalUseIssueIndication",
+			"sublen": 0,
+			"desc": "Specifics for when this is an indication."
+		},
+		{
+			"name": "interaction",
+			"order": 10,
+			"type": "kObjectref",
+			"subtype": "oClinicalUseIssueInteraction",
+			"sublen": 0,
+			"desc": "Specifics for when this is an interaction."
+		},
+		{
+			"name": "population",
+			"order": 11,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "population_",
+			"order": 12,
+			"type": "kObjectref",
+			"subtype": "oPopulation",
+			"sublen": 0,
+			"desc": "The population group to which this applies."
+		},
+		{
+			"name": "status",
+			"order": 6,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "General description."
+		},
+		{
+			"name": "subject",
+			"order": 4,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "subject_",
+			"order": 5,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The medication or procedure for which this is an indication."
+		},
+		{
+			"name": "type",
+			"order": 3,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "indication | contraindication | interaction | undesirable-effect | other."
+		},
+		{
+			"name": "undesirableEffect",
+			"order": 13,
+			"type": "kObjectref",
+			"subtype": "oClinicalUseIssueUndesirableEffect",
+			"sublen": 0,
+			"desc": "Describe the undesirable effects of the medicinal product."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:44:41",
+		"desc": "A single usage issue - either an indication, contraindication, interaction or an undesirable effect for a medicinal product, medication, device or procedure.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:29",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

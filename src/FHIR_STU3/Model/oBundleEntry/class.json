@@ -1,0 +1,80 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "fullUrl",
+			"order": 1,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The Absolute URL for the resource.  The fullUrl SHALL not disagree with the id in the resource. The fullUrl is a version independent reference to the resource. The fullUrl element SHALL have a value except that: \n* fullUrl can be empty on a POST (although"
+		},
+		{
+			"name": "request",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oBundleEntryRequest",
+			"sublen": 0,
+			"desc": "Additional information about how this entry should be processed as part of a transaction."
+		},
+		{
+			"name": "resource",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oResource",
+			"sublen": 0,
+			"desc": "The Resources for the entry."
+		},
+		{
+			"name": "response",
+			"order": 5,
+			"type": "kObjectref",
+			"subtype": "oBundleEntryResponse",
+			"sublen": 0,
+			"desc": "Additional information about how this entry should be processed as part of a transaction."
+		},
+		{
+			"name": "search",
+			"order": 3,
+			"type": "kObjectref",
+			"subtype": "oBundleEntrySearch",
+			"sublen": 0,
+			"desc": "Information about the search process that lead to the creation of this entry."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:39:57",
+		"desc": "An entry in a bundle resource - will either contain a resource, or information about a resource (transactions and history only).",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:26",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

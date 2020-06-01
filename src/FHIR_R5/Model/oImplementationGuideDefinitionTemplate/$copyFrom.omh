@@ -1,0 +1,4 @@
+Do inherited
+Calculate code as pValue.$code()
+Calculate source as pValue.$source()
+Calculate scope as pValue.$scope()

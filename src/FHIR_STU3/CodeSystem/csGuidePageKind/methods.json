@@ -1,0 +1,85 @@
+[
+	{
+		"name": "$page",
+		"ident": 0,
+		"order": 1,
+		"desc": "This is a page that represents a human readable rendering of an example.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$example",
+		"ident": 1,
+		"order": 2,
+		"desc": "This is a page that represents a list of resources of one or more types.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$list",
+		"ident": 2,
+		"order": 3,
+		"desc": "This is a page showing where an included guide is injected.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$include",
+		"ident": 3,
+		"order": 4,
+		"desc": "This is a page that lists the resources of a given type, and also creates pages for all the listed types as other pages in the section.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$directory",
+		"ident": 4,
+		"order": 5,
+		"desc": "This is a generated page that contains the table of contents.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$toc",
+		"ident": 5,
+		"order": 6,
+		"desc": "This is a page that represents a presented resource. This is typically used for generated conformance resource presentations.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$resource",
+		"ident": 6,
+		"order": 7,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

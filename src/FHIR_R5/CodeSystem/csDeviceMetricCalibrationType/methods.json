@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$unspecified",
+		"ident": 0,
+		"order": 1,
+		"desc": "Offset metric calibration method.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$offset",
+		"ident": 1,
+		"order": 2,
+		"desc": "Gain metric calibration method.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$gain",
+		"ident": 2,
+		"order": 3,
+		"desc": "Two-point metric calibration method.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$two-point",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,14 @@
+Do inherited
+Calculate category as pValue.$category()
+Calculate subCategory as pValue.$subCategory()
+Calculate excluded as pValue.$excluded()
+Calculate name as pValue.$name()
+Calculate description as pValue.$description()
+Calculate network as pValue.$network()
+Calculate unit as pValue.$unit()
+Calculate term as pValue.$term()
+Do financial.$clear()
+Calculate list as pValue.$financial()
+Do financial.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

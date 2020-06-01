@@ -1,0 +1,61 @@
+[
+	{
+		"name": "$capture-display",
+		"ident": 0,
+		"order": 1,
+		"desc": "Render the item only when capturing data",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$capture",
+		"ident": 1,
+		"order": 2,
+		"desc": "Render the item only when displaying a completed form",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$display",
+		"ident": 2,
+		"order": 3,
+		"desc": "Render the item only when displaying a completed form and the item has been answered (or has child items that have been answered)",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$display-non-empty",
+		"ident": 3,
+		"order": 4,
+		"desc": "Render the item when capturing data or when displaying a completed form and the item has been answered (or has child items that have been answered)",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$capture-display-non-empty",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

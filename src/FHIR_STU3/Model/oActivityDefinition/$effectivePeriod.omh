@@ -1,0 +1,4 @@
+If effectivePeriod.$validref()=kFalse
+	Calculate effectivePeriod as $clib.$classes.oPeriod.$newref()
+End If
+Quit method effectivePeriod

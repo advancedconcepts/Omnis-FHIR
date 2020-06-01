@@ -1,0 +1,60 @@
+Do inherited
+Calculate sequence as pValue.$sequence()
+Do careTeamSequence.$clear()
+Calculate list as pValue.$careTeamSequence()
+Do careTeamSequence.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do diagnosisSequence.$clear()
+Calculate list as pValue.$diagnosisSequence()
+Do diagnosisSequence.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do procedureSequence.$clear()
+Calculate list as pValue.$procedureSequence()
+Do procedureSequence.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do informationSequence.$clear()
+Calculate list as pValue.$informationSequence()
+Do informationSequence.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate revenue as pValue.$revenue()
+Calculate category as pValue.$category()
+Calculate productOrService as pValue.$productOrService()
+Do modifier.$clear()
+Calculate list as pValue.$modifier()
+Do modifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do programCode.$clear()
+Calculate list as pValue.$programCode()
+Do programCode.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate quantity as pValue.$quantity()
+Calculate unitPrice as pValue.$unitPrice()
+Calculate factor as pValue.$factor()
+Calculate net as pValue.$net()
+Do udi.$clear()
+Calculate list as pValue.$udi()
+Do udi.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate bodySite as pValue.$bodySite()
+Do subSite.$clear()
+Calculate list as pValue.$subSite()
+Do subSite.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do encounter.$clear()
+Calculate list as pValue.$encounter()
+Do encounter.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do detail.$clear()
+Calculate list as pValue.$detail()
+Do detail.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

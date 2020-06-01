@@ -1,0 +1,97 @@
+[
+	{
+		"name": "$unspecified",
+		"ident": 0,
+		"order": 1,
+		"desc": "Serial Number - MDC_ID_PROD_SPEC_SERIAL",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$serial-number",
+		"ident": 1,
+		"order": 2,
+		"desc": "Part Number - MDC_ID_PROD_SPEC_PART",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$part-number",
+		"ident": 2,
+		"order": 3,
+		"desc": "Hardware Revision - MDC_ID_PROD_SPEC_HW",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$hardware-revision",
+		"ident": 3,
+		"order": 4,
+		"desc": "Software Revision - MDC_ID_PROD_SPEC_SW",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$software-revision",
+		"ident": 4,
+		"order": 5,
+		"desc": "Firmware Revision - MDC_ID_PROD_SPEC_FW",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$firmware-revision",
+		"ident": 5,
+		"order": 6,
+		"desc": "Protocol Revision - MDC_ID_PROD_SPEC_PROTOCOL",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$protocol-revision",
+		"ident": 6,
+		"order": 7,
+		"desc": "GMDN - MDC_ID_PROD_SPEC_GMDN",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$gmdn",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

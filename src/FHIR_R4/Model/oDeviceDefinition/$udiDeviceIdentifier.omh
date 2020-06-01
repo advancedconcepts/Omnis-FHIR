@@ -1,0 +1,4 @@
+If udiDeviceIdentifier.$validref()=kFalse
+	Calculate udiDeviceIdentifier as $clib.$classes.oDeviceDefinitionUdiDeviceIdentifier.$newref()
+End If
+Quit method udiDeviceIdentifier

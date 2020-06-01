@@ -1,0 +1,7 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do subject.$define(subject_)
+Do marketingStatus.$define(marketingStatus_)
+Do manufacturer.$define(manufacturer_)
+Do batchIdentifier.$define(batchIdentifier_)
+Do package.$define(package_)

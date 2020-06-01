@@ -1,0 +1,6 @@
+Do inherited
+Do author.$define(author_)
+Do attester.$define(attester_)
+Do relatesTo.$define(relatesTo_)
+Do event.$define(event_)
+Do section.$define(section_)

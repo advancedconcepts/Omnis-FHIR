@@ -1,0 +1,196 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "billingCode",
+			"order": 15,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "billingCode_",
+			"order": 16,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Billing code associated to the  item in the context of this  entry of the catalog."
+		},
+		{
+			"name": "billingSummary",
+			"order": 17,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Billing summary attached to the  item in the context of this  entry of the catalog."
+		},
+		{
+			"name": "effectivePeriod",
+			"order": 6,
+			"type": "kObjectref",
+			"subtype": "oPeriod",
+			"sublen": 0,
+			"desc": "Period of usability of the catalog entry."
+		},
+		{
+			"name": "estimatedDuration",
+			"order": 14,
+			"type": "kObjectref",
+			"subtype": "oDuration",
+			"sublen": 0,
+			"desc": "Estimated duration of the orderable item of this  entry of the catalog."
+		},
+		{
+			"name": "identifier",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "identifier_",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "Business identifier uniquely assigned to the catalog entry."
+		},
+		{
+			"name": "limitationSummary",
+			"order": 19,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Summary of limitations for the  item in the context of this  entry of the catalog."
+		},
+		{
+			"name": "name",
+			"order": 3,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The name of this catalog entry announces the item that is represented by the entry."
+		},
+		{
+			"name": "note",
+			"order": 12,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "note_",
+			"order": 13,
+			"type": "kObjectref",
+			"subtype": "oAnnotation",
+			"sublen": 0,
+			"desc": "Notes and comments about this catalog entry."
+		},
+		{
+			"name": "orderable",
+			"order": 7,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "Indicates whether or not the entry represents an item that is orderable."
+		},
+		{
+			"name": "referencedItem",
+			"order": 8,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The item (resource) that this entry of the catalog represents."
+		},
+		{
+			"name": "regulatorySummary",
+			"order": 20,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Regulatory summary for the  item in the context of this  entry of the catalog."
+		},
+		{
+			"name": "relatedEntry",
+			"order": 9,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "relatedEntry_",
+			"order": 10,
+			"type": "kObjectref",
+			"subtype": "oCatalogEntryRelatedEntry",
+			"sublen": 0,
+			"desc": "Used for example, to point to a substance, or to a device used to administer a medication."
+		},
+		{
+			"name": "scheduleSummary",
+			"order": 18,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Schedule summary for the  item in the context of this  entry of the catalog."
+		},
+		{
+			"name": "status",
+			"order": 5,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Indicates whether this catalog entry is open to public usage (active) or not (draft or retired)."
+		},
+		{
+			"name": "type",
+			"order": 4,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The type of resource that is represented by this catalog entry."
+		},
+		{
+			"name": "updatedBy",
+			"order": 11,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Last actor who recorded (created or updated) this catalog entry."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:44:40",
+		"desc": "Catalog entries are wrappers that contextualize items included in a catalog.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:29",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

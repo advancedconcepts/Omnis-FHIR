@@ -1,0 +1,8 @@
+Do inherited
+Do category.$define(category_)
+Do resultingCondition.$define(resultingCondition_)
+Do contributor.$define(contributor_)
+Do suspectEntity.$define(suspectEntity_)
+Do subjectMedicalHistory.$define(subjectMedicalHistory_)
+Do referenceDocument.$define(referenceDocument_)
+Do study.$define(study_)

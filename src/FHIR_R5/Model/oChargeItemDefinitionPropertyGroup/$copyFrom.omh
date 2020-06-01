@@ -1,0 +1,6 @@
+Do inherited
+Do priceComponent.$clear()
+Calculate list as pValue.$priceComponent()
+Do priceComponent.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

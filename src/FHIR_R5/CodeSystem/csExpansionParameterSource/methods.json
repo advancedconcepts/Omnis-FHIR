@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$input",
+		"ident": 0,
+		"order": 1,
+		"desc": "The parameter was added by the expansion engine on the server.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$server",
+		"ident": 1,
+		"order": 2,
+		"desc": "The parameter was added from one the code systems used in the $expand operation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$codesystem",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

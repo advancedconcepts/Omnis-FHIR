@@ -1,0 +1,155 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "active",
+			"order": 13,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "Whether this person's record is in active use."
+		},
+		{
+			"name": "address",
+			"order": 9,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "address_",
+			"order": 10,
+			"type": "kObjectref",
+			"subtype": "oAddress",
+			"sublen": 0,
+			"desc": "One or more addresses for the person."
+		},
+		{
+			"name": "birthDate",
+			"order": 8,
+			"type": "kDate",
+			"subtype": "kDate2000",
+			"sublen": 0,
+			"desc": "The birth date for the person."
+		},
+		{
+			"name": "gender",
+			"order": 7,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Administrative Gender."
+		},
+		{
+			"name": "identifier",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "identifier_",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "Identifier for a person within a particular scope."
+		},
+		{
+			"name": "link",
+			"order": 14,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "link_",
+			"order": 15,
+			"type": "kObjectref",
+			"subtype": "oPersonLink",
+			"sublen": 0,
+			"desc": "Link to a resource that concerns the same actual person."
+		},
+		{
+			"name": "managingOrganization",
+			"order": 12,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The organization that is the custodian of the person record."
+		},
+		{
+			"name": "name",
+			"order": 3,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "name_",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oHumanName",
+			"sublen": 0,
+			"desc": "A name associated with the person."
+		},
+		{
+			"name": "photo",
+			"order": 11,
+			"type": "kObjectref",
+			"subtype": "oAttachment",
+			"sublen": 0,
+			"desc": "An image that can be displayed as a thumbnail of the person to enhance the identification of the individual."
+		},
+		{
+			"name": "telecom",
+			"order": 5,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "telecom_",
+			"order": 6,
+			"type": "kObjectref",
+			"subtype": "oContactPoint",
+			"sublen": 0,
+			"desc": "A contact detail for the person, e.g. a telephone number or an email address."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:44:58",
+		"desc": "Demographics and administrative information about a person independent of a specific health-related context.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:27",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

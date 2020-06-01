@@ -1,0 +1,77 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate type as pValue.$type()
+Calculate domain as pValue.$domain()
+Calculate combinedPharmaceuticalDoseForm as pValue.$combinedPharmaceuticalDoseForm()
+Calculate legalStatusOfSupply as pValue.$legalStatusOfSupply()
+Calculate additionalMonitoringIndicator as pValue.$additionalMonitoringIndicator()
+Do specialMeasures.$clear()
+Calculate list as pValue.$specialMeasures()
+Do specialMeasures.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate paediatricUseIndicator as pValue.$paediatricUseIndicator()
+Do productClassification.$clear()
+Calculate list as pValue.$productClassification()
+Do productClassification.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do marketingStatus.$clear()
+Calculate list as pValue.$marketingStatus()
+Do marketingStatus.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do pharmaceuticalProduct.$clear()
+Calculate list as pValue.$pharmaceuticalProduct()
+Do pharmaceuticalProduct.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do packagedMedicinalProduct.$clear()
+Calculate list as pValue.$packagedMedicinalProduct()
+Do packagedMedicinalProduct.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do attachedDocument.$clear()
+Calculate list as pValue.$attachedDocument()
+Do attachedDocument.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do masterFile.$clear()
+Calculate list as pValue.$masterFile()
+Do masterFile.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do contact.$clear()
+Calculate list as pValue.$contact()
+Do contact.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do clinicalTrial.$clear()
+Calculate list as pValue.$clinicalTrial()
+Do clinicalTrial.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do name.$clear()
+Calculate list as pValue.$name()
+Do name.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do crossReference.$clear()
+Calculate list as pValue.$crossReference()
+Do crossReference.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do manufacturingBusinessOperation.$clear()
+Calculate list as pValue.$manufacturingBusinessOperation()
+Do manufacturingBusinessOperation.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do specialDesignation.$clear()
+Calculate list as pValue.$specialDesignation()
+Do specialDesignation.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

@@ -1,0 +1,19 @@
+Do inherited
+Calculate identifier as pValue.$identifier()
+Calculate type as pValue.$type()
+Calculate lastSystemChange as pValue.$lastSystemChange()
+Calculate source as pValue.$source()
+Calculate parent as pValue.$parent()
+Do operationalStatus.$clear()
+Calculate list as pValue.$operationalStatus()
+Do operationalStatus.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate parameterGroup as pValue.$parameterGroup()
+Calculate measurementPrinciple as pValue.$measurementPrinciple()
+Do productionSpecification.$clear()
+Calculate list as pValue.$productionSpecification()
+Do productionSpecification.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate languageCode as pValue.$languageCode()

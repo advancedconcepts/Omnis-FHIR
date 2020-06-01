@@ -1,0 +1,6 @@
+Do inherited
+Calculate system as pValue.$system()
+Calculate version as pValue.$version()
+Calculate code as pValue.$code()
+Calculate display as pValue.$display()
+Calculate userSelected as pValue.$userSelected()

@@ -1,0 +1,61 @@
+[
+	{
+		"name": "$busy",
+		"ident": 0,
+		"order": 1,
+		"desc": "Indicates that the time interval is free for scheduling.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$free",
+		"ident": 1,
+		"order": 2,
+		"desc": "Indicates that the time interval is busy and that the interval cannot be scheduled.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$busy-unavailable",
+		"ident": 2,
+		"order": 3,
+		"desc": "Indicates that the time interval is busy because one or more events have been tentatively scheduled for that interval.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$busy-tentative",
+		"ident": 3,
+		"order": 4,
+		"desc": "This instance should not have been part of this patient's medical record.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$entered-in-error",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,345 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$::name",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: The name of used to identify the parameter.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::name.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The name of used to identify the parameter."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$use",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: Whether this is an input or an output parameter.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$use.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Whether this is an input or an output parameter."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$min",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: The minimum number of times this parameter SHALL appear in the request or response.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$min.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The minimum number of times this parameter SHALL appear in the request or response."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$max",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: The maximum number of times this element is permitted to appear in the request or response.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$max.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The maximum number of times this element is permitted to appear in the request or response."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$documentation",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: Describes the meaning or use of this parameter.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$documentation.$assign",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Describes the meaning or use of this parameter."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: The type for this parameter.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type.$assign",
+		"ident": 15,
+		"order": 16,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The type for this parameter."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$searchType",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: How the parameter is understood as a search parameter. This is only used if the parameter type is 'string'.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$searchType.$assign",
+		"ident": 17,
+		"order": 18,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "How the parameter is understood as a search parameter. This is only used if the parameter type is 'string'."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$profile",
+		"ident": 18,
+		"order": 19,
+		"desc": "Returns: A profile the specifies the rules that this parameter must conform to.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$profile.$assign",
+		"ident": 19,
+		"order": 20,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "A profile the specifies the rules that this parameter must conform to."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$binding",
+		"ident": 20,
+		"order": 21,
+		"desc": "Returns: Binds to a value set if this parameter is coded (code, Coding, CodeableConcept).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$binding.$assign",
+		"ident": 21,
+		"order": 22,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oOperationDefinitionParameterBinding",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Binds to a value set if this parameter is coded (code, Coding, CodeableConcept)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

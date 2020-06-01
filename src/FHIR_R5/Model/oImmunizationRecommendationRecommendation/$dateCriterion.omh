@@ -1,0 +1,4 @@
+If dateCriterion.$validref()=kFalse
+	Calculate dateCriterion as $clib.$classes.oImmunizationRecommendationRecommendationDateCriterion.$newref()
+End If
+Quit method dateCriterion

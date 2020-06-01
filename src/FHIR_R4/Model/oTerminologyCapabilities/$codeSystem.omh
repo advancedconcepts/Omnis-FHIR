@@ -1,0 +1,4 @@
+If codeSystem.$validref()=kFalse
+	Calculate codeSystem as $clib.$classes.oTerminologyCapabilitiesCodeSystem.$newref()
+End If
+Quit method codeSystem

@@ -1,0 +1,120 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "amount",
+			"order": 10,
+			"type": "kObjectref",
+			"subtype": "oMoney",
+			"sublen": 0,
+			"desc": "The monetary amount allocated from the total payment to the payable."
+		},
+		{
+			"name": "date",
+			"order": 7,
+			"type": "kDate",
+			"subtype": "kDate2000",
+			"sublen": 0,
+			"desc": "The date from the response resource containing a commitment to pay."
+		},
+		{
+			"name": "identifier",
+			"order": 1,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "Unique identifier for the current payment item for the referenced payable."
+		},
+		{
+			"name": "payee",
+			"order": 9,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The party which is receiving the payment."
+		},
+		{
+			"name": "predecessor",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "Unique identifier for the prior payment item for the referenced payable."
+		},
+		{
+			"name": "request",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "A resource, such as a Claim, the evaluation of which could lead to payment."
+		},
+		{
+			"name": "response",
+			"order": 6,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "A resource, such as a ClaimResponse, which contains a commitment to payment."
+		},
+		{
+			"name": "responsible",
+			"order": 8,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "A reference to the individual who is responsible for inquiries regarding the response and its payment."
+		},
+		{
+			"name": "submitter",
+			"order": 5,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The party which submitted the claim or financial transaction."
+		},
+		{
+			"name": "type",
+			"order": 3,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Code to indicate the nature of the payment."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:44:58",
+		"desc": "Distribution of the payment amount for a previously acknowledged payable.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:27",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

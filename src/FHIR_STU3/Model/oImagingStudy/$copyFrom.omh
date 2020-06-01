@@ -1,0 +1,52 @@
+Do inherited
+Calculate uid as pValue.$uid()
+Calculate accession as pValue.$accession()
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate availability as pValue.$availability()
+Do modalityList.$clear()
+Calculate list as pValue.$modalityList()
+Do modalityList.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate patient as pValue.$patient()
+Calculate context as pValue.$context()
+Calculate started as pValue.$started()
+Do basedOn.$clear()
+Calculate list as pValue.$basedOn()
+Do basedOn.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate referrer as pValue.$referrer()
+Do interpreter.$clear()
+Calculate list as pValue.$interpreter()
+Do interpreter.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do endpoint.$clear()
+Calculate list as pValue.$endpoint()
+Do endpoint.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate numberOfSeries as pValue.$numberOfSeries()
+Calculate numberOfInstances as pValue.$numberOfInstances()
+Do procedureReference.$clear()
+Calculate list as pValue.$procedureReference()
+Do procedureReference.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do procedureCode.$clear()
+Calculate list as pValue.$procedureCode()
+Do procedureCode.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate reason as pValue.$reason()
+Calculate description as pValue.$description()
+Do series.$clear()
+Calculate list as pValue.$series()
+Do series.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

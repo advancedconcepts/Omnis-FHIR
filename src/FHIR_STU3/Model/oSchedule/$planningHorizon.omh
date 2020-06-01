@@ -1,0 +1,4 @@
+If planningHorizon.$validref()=kFalse
+	Calculate planningHorizon as $clib.$classes.oPeriod.$newref()
+End If
+Quit method planningHorizon

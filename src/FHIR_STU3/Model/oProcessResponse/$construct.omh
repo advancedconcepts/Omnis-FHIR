@@ -1,0 +1,5 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do processNote.$define(processNote_)
+Do error.$define(error_)
+Do communicationRequest.$define(communicationRequest_)

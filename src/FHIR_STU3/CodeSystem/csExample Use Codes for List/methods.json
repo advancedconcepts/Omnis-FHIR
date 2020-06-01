@@ -1,0 +1,109 @@
+[
+	{
+		"name": "$alerts",
+		"ident": 0,
+		"order": 1,
+		"desc": "A list of part adverse reactions.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$adverserxns",
+		"ident": 1,
+		"order": 2,
+		"desc": "A list of Allergies for the patient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$allergies",
+		"ident": 2,
+		"order": 3,
+		"desc": "A list of medication statements for the patient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$medications",
+		"ident": 3,
+		"order": 4,
+		"desc": "A list of problems that the patient is known of have (or have had in the past).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$problems",
+		"ident": 4,
+		"order": 5,
+		"desc": "A list of items that constitute a set of work to be performed (typically this code would be specialized for more specific uses, such as a ward round list).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$worklist",
+		"ident": 5,
+		"order": 6,
+		"desc": "A list of items waiting for an event (perhaps a surgical patient waiting list).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$waiting",
+		"ident": 6,
+		"order": 7,
+		"desc": "A set of protocols to be followed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$protocols",
+		"ident": 7,
+		"order": 8,
+		"desc": "A set of care plans that apply in a particular context of care.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$plans",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

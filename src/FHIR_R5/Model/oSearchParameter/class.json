@@ -1,0 +1,311 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "base",
+			"order": 18,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "base_",
+			"order": 19,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The base resource type(s) that this search parameter can be used against."
+		},
+		{
+			"name": "chain",
+			"order": 32,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "chain_",
+			"order": 33,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Contains the names of any search parameters which may be chained to the containing search parameter. Chained parameters may be added to search parameters of type reference and specify that resources will only be returned if they contain a reference to a r"
+		},
+		{
+			"name": "code",
+			"order": 17,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The code used in the URL or the parameter name in a parameters resource for this search parameter."
+		},
+		{
+			"name": "comparator",
+			"order": 28,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "comparator_",
+			"order": 29,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Comparators supported for the search parameter."
+		},
+		{
+			"name": "component",
+			"order": 34,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "component_",
+			"order": 35,
+			"type": "kObjectref",
+			"subtype": "oSearchParameterComponent",
+			"sublen": 0,
+			"desc": "Used to define the parts of a composite search parameter."
+		},
+		{
+			"name": "contact",
+			"order": 9,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "contact_",
+			"order": 10,
+			"type": "kObjectref",
+			"subtype": "oContactDetail",
+			"sublen": 0,
+			"desc": "Contact details to assist a user in finding and communicating with the publisher."
+		},
+		{
+			"name": "date",
+			"order": 7,
+			"type": "kDate",
+			"subtype": "kDatetime",
+			"sublen": 0,
+			"desc": "The date  (and optionally time) when the search parameter was published. The date must change when the business version changes and it must change if the status code changes. In addition, it should change when the substantive content of the search paramet"
+		},
+		{
+			"name": "derivedFrom",
+			"order": 4,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Where this search parameter is originally defined. If a derivedFrom is provided, then the details in the search parameter must be consistent with the definition from which it is defined. i.e. the parameter should have the same meaning, and (usually) the f"
+		},
+		{
+			"name": "description",
+			"order": 11,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "And how it used."
+		},
+		{
+			"name": "experimental",
+			"order": 6,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "A Boolean value to indicate that this search parameter is authored for testing purposes (or education/evaluation/marketing) and is not intended to be used for genuine usage."
+		},
+		{
+			"name": "expression",
+			"order": 21,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A FHIRPath expression that returns a set of elements for the search parameter."
+		},
+		{
+			"name": "jurisdiction",
+			"order": 14,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "jurisdiction_",
+			"order": 15,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "A legal or geographic region in which the search parameter is intended to be used."
+		},
+		{
+			"name": "modifier",
+			"order": 30,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "modifier_",
+			"order": 31,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A modifier supported for the search parameter."
+		},
+		{
+			"name": "multipleAnd",
+			"order": 27,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "Whether multiple parameters are allowed - e.g. more than one parameter with the same name. The search matches if all the parameters match."
+		},
+		{
+			"name": "multipleOr",
+			"order": 26,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "Whether multiple values are allowed for each time the parameter exists. Values are separated by commas, and the parameter matches if any of the values match."
+		},
+		{
+			"name": "name",
+			"order": 3,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A natural language name identifying the search parameter. This name should be usable as an identifier for the module by machine processing applications such as code generation."
+		},
+		{
+			"name": "publisher",
+			"order": 8,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The name of the organization or individual that published the search parameter."
+		},
+		{
+			"name": "purpose",
+			"order": 16,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Explanation of why this search parameter is needed and why it has been designed as it has."
+		},
+		{
+			"name": "status",
+			"order": 5,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The status of this search parameter. Enables tracking the life-cycle of the content."
+		},
+		{
+			"name": "target",
+			"order": 24,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "target_",
+			"order": 25,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Types of resource (if a resource is referenced)."
+		},
+		{
+			"name": "type",
+			"order": 20,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The type of value that a search parameter may contain, and how the content is interpreted."
+		},
+		{
+			"name": "url",
+			"order": 1,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "An absolute URI that is used to identify this search parameter when it is referenced in a specification, model, design or an instance; also called its canonical identifier. This SHOULD be globally unique and SHOULD be a literal address at which at which a"
+		},
+		{
+			"name": "useContext",
+			"order": 12,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "useContext_",
+			"order": 13,
+			"type": "kObjectref",
+			"subtype": "oUsageContext",
+			"sublen": 0,
+			"desc": "The content was developed with a focus and intent of supporting the contexts that are listed. These contexts may be general categories (gender, age, ...) or may be references to specific programs (insurance plans, studies, ...) and may be used to assist w"
+		},
+		{
+			"name": "version",
+			"order": 2,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The identifier that is used to identify this version of the search parameter when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the search parameter author and is not expected to be globally unique. "
+		},
+		{
+			"name": "xpath",
+			"order": 22,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "An XPath expression that returns a set of elements for the search parameter."
+		},
+		{
+			"name": "xpathUsage",
+			"order": 23,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "How the search parameter relates to the set of elements returned by evaluating the xpath query."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:45:00",
+		"desc": "A search parameter that defines a named search item that can be used to search/filter on a resource.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:28",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

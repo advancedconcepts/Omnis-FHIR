@@ -1,0 +1,4 @@
+If entity.$validref()=kFalse
+	Calculate entity as $clib.$classes.oProvenanceEntity.$newref()
+End If
+Quit method entity

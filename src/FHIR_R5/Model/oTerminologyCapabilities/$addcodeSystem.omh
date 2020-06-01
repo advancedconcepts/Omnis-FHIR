@@ -1,0 +1,6 @@
+Calculate objRef as $clib.$classes.oTerminologyCapabilitiesCodeSystem.$newref()
+Do codeSystem.$add(objRef)
+If pValue.$validref()
+	Do objRef.$copyFrom(pValue)
+End If
+Quit method objRef

@@ -1,0 +1,8 @@
+Do inherited
+Do pElements.$add("description","description",0,"1",21,"string")
+Do pElements.$add("type","::type",0,"1",38,"CodeableConcept")
+Do pElements.$add("value","value",0,"1",25,"decimal")
+Do pElements.$add("unitOfMeasure","unitOfMeasure",0,"1",38,"CodeableConcept")
+Do pElements.$add("denominatorCount","denominatorCount",0,"1",26,"integer")
+Do pElements.$add("numeratorCount","numeratorCount",0,"1",26,"integer")
+Do pElements.$add("precisionEstimate","precisionEstimate",0,"-1",38,"")

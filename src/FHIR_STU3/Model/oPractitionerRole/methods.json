@@ -1,0 +1,575 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$identifier",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: Business Identifiers that are specific to a role/location.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addidentifier",
+		"ident": 6,
+		"order": 7,
+		"desc": "Business Identifiers that are specific to a role/location.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"desc": "Business Identifiers that are specific to a role/location."
+			}
+		]
+	},
+	{
+		"name": "$active",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: Whether this practitioner's record is in active use.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$active.$assign",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "Whether this practitioner's record is in active use."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$period",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: The period during which the person is authorized to act as a practitioner in these role(s) for the organization.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$period.$assign",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oPeriod",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The period during which the person is authorized to act as a practitioner in these role(s) for the organization."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$practitioner",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: Practitioner that is able to provide the defined services for the organation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$practitioner.$assign",
+		"ident": 12,
+		"order": 13,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Practitioner that is able to provide the defined services for the organation."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$organization",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: The organization where the Practitioner performs the roles associated.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$organization.$assign",
+		"ident": 14,
+		"order": 15,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The organization where the Practitioner performs the roles associated."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$code",
+		"ident": 15,
+		"order": 16,
+		"desc": "Returns: Roles which this practitioner is authorized to perform for the organization.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcode",
+		"ident": 16,
+		"order": 17,
+		"desc": "Roles which this practitioner is authorized to perform for the organization.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Roles which this practitioner is authorized to perform for the organization."
+			}
+		]
+	},
+	{
+		"name": "$specialty",
+		"ident": 17,
+		"order": 18,
+		"desc": "Returns: Specific specialty of the practitioner.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addspecialty",
+		"ident": 18,
+		"order": 19,
+		"desc": "Specific specialty of the practitioner.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Specific specialty of the practitioner."
+			}
+		]
+	},
+	{
+		"name": "$location",
+		"ident": 19,
+		"order": 20,
+		"desc": "Returns: The location(s) at which this practitioner provides care.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addlocation",
+		"ident": 20,
+		"order": 21,
+		"desc": "The location(s) at which this practitioner provides care.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "The location(s) at which this practitioner provides care."
+			}
+		]
+	},
+	{
+		"name": "$healthcareService",
+		"ident": 21,
+		"order": 22,
+		"desc": "Returns: The list of healthcare services that this worker provides for this role's Organization/Location(s).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addhealthcareService",
+		"ident": 22,
+		"order": 23,
+		"desc": "The list of healthcare services that this worker provides for this role's Organization/Location(s).",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "The list of healthcare services that this worker provides for this role's Organization/Location(s)."
+			}
+		]
+	},
+	{
+		"name": "$telecom",
+		"ident": 23,
+		"order": 24,
+		"desc": "Returns: Contact details that are specific to the role/location/service.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addtelecom",
+		"ident": 24,
+		"order": 25,
+		"desc": "Contact details that are specific to the role/location/service.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oContactPoint",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oContactPoint",
+				"sublen": 0,
+				"desc": "Contact details that are specific to the role/location/service."
+			}
+		]
+	},
+	{
+		"name": "$availableTime",
+		"ident": 25,
+		"order": 26,
+		"desc": "Returns: A collection of times that the Service Site is available.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addavailableTime",
+		"ident": 26,
+		"order": 27,
+		"desc": "A collection of times that the Service Site is available.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oPractitionerRoleAvailableTime",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oPractitionerRoleAvailableTime",
+				"sublen": 0,
+				"desc": "A collection of times that the Service Site is available."
+			}
+		]
+	},
+	{
+		"name": "$notAvailable",
+		"ident": 27,
+		"order": 28,
+		"desc": "Returns: The HealthcareService is not available during this period of time due to the provided reason.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addnotAvailable",
+		"ident": 28,
+		"order": 29,
+		"desc": "The HealthcareService is not available during this period of time due to the provided reason.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oPractitionerRoleNotAvailable",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oPractitionerRoleNotAvailable",
+				"sublen": 0,
+				"desc": "The HealthcareService is not available during this period of time due to the provided reason."
+			}
+		]
+	},
+	{
+		"name": "$availabilityExceptions",
+		"ident": 29,
+		"order": 30,
+		"desc": "Returns: A description of site availability exceptions, e.g. public holiday availability. Succinctly describing all possible exceptions to normal site availability as details in the available Times and not available Times.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$availabilityExceptions.$assign",
+		"ident": 30,
+		"order": 31,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A description of site availability exceptions, e.g. public holiday availability. Succinctly describing all possible exceptions to normal site availability as details in the available Times and not available Times."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$endpoint",
+		"ident": 31,
+		"order": 32,
+		"desc": "Returns: Technical endpoints providing access to services operated for the practitioner with this role.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addendpoint",
+		"ident": 32,
+		"order": 33,
+		"desc": "Technical endpoints providing access to services operated for the practitioner with this role.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Technical endpoints providing access to services operated for the practitioner with this role."
+			}
+		]
+	}
+]

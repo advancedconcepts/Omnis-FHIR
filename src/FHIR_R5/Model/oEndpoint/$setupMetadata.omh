@@ -1,0 +1,12 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"-1",38,"Identifier")
+Do pElements.$add("status","status",1,"1",21,"code")
+Do pElements.$add("connectionType","connectionType",1,"1",38,"Coding")
+Do pElements.$add("name","::name",0,"1",21,"string")
+Do pElements.$add("managingOrganization","managingOrganization",0,"1",38,"Reference")
+Do pElements.$add("contact","contact",0,"-1",38,"ContactPoint")
+Do pElements.$add("period","period",0,"1",38,"Period")
+Do pElements.$add("payloadType","payloadType",1,"-1",38,"CodeableConcept")
+Do pElements.$add("payloadMimeType","payloadMimeType",0,"-1",21,"code")
+Do pElements.$add("address","address",1,"1",21,"url")
+Do pElements.$add("header","header",0,"-1",21,"string")

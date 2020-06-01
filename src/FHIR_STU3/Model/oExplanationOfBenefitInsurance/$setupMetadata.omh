@@ -1,0 +1,3 @@
+Do inherited
+Do pElements.$add("coverage","coverage",0,"1",38,"Reference")
+Do pElements.$add("preAuthRef","preAuthRef",0,"-1",21,"string")

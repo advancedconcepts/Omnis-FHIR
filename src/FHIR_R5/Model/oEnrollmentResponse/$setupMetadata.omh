@@ -1,0 +1,9 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"-1",38,"Identifier")
+Do pElements.$add("status","status",0,"1",21,"code")
+Do pElements.$add("request","request",0,"1",38,"Reference")
+Do pElements.$add("outcome","outcome",0,"1",21,"code")
+Do pElements.$add("disposition","disposition",0,"1",21,"string")
+Do pElements.$add("created","created",0,"1",23,"dateTime")
+Do pElements.$add("organization","organization",0,"1",38,"Reference")
+Do pElements.$add("requestProvider","requestProvider",0,"1",38,"Reference")

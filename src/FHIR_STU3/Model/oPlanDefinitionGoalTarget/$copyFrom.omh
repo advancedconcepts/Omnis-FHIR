@@ -1,0 +1,3 @@
+Do inherited
+Calculate measure as pValue.$measure()
+Calculate due as pValue.$due()

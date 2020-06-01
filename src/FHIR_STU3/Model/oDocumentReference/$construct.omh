@@ -1,0 +1,6 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do author.$define(author_)
+Do relatesTo.$define(relatesTo_)
+Do securityLabel.$define(securityLabel_)
+Do content.$define(content_)

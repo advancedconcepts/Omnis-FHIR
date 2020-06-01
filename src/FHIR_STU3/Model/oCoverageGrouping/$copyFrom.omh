@@ -1,0 +1,13 @@
+Do inherited
+Calculate group as pValue.$group()
+Calculate groupDisplay as pValue.$groupDisplay()
+Calculate subGroup as pValue.$subGroup()
+Calculate subGroupDisplay as pValue.$subGroupDisplay()
+Calculate plan as pValue.$plan()
+Calculate planDisplay as pValue.$planDisplay()
+Calculate subPlan as pValue.$subPlan()
+Calculate subPlanDisplay as pValue.$subPlanDisplay()
+Calculate class as pValue.$class()
+Calculate classDisplay as pValue.$classDisplay()
+Calculate subClass as pValue.$subclass()
+Calculate subClassDisplay as pValue.$subClassDisplay()

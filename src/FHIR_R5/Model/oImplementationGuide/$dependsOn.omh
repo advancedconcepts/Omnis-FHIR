@@ -1,0 +1,4 @@
+If dependsOn.$validref()=kFalse
+	Calculate dependsOn as $clib.$classes.oImplementationGuideDependsOn.$newref()
+End If
+Quit method dependsOn

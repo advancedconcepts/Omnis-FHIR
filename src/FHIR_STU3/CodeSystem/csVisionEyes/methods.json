@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$right",
+		"ident": 0,
+		"order": 1,
+		"desc": "Left Eye",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$left",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

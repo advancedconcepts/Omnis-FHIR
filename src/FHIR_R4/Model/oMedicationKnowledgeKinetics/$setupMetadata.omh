@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("areaUnderCurve","areaUnderCurve",0,"-1",38,"Quantity")
+Do pElements.$add("lethalDose50","lethalDose50",0,"-1",38,"Quantity")
+Do pElements.$add("halfLifePeriod","halfLifePeriod",0,"1",38,"Duration")

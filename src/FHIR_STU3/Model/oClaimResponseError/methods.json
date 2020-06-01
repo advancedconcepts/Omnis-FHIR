@@ -1,0 +1,190 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$sequenceLinkId",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: The sequence number of the line item submitted which contains the error. This value is omitted when the error is elsewhere.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sequenceLinkId.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The sequence number of the line item submitted which contains the error. This value is omitted when the error is elsewhere."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$detailSequenceLinkId",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: The sequence number of the addition within the line item submitted which contains the error. This value is omitted when the error is not related to an Addition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$detailSequenceLinkId.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The sequence number of the addition within the line item submitted which contains the error. This value is omitted when the error is not related to an Addition."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subdetailSequenceLinkId",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: The sequence number of the addition within the line item submitted which contains the error. This value is omitted when the error is not related to an Addition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subdetailSequenceLinkId.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The sequence number of the addition within the line item submitted which contains the error. This value is omitted when the error is not related to an Addition."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$code",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: An error code,from a specified code system, which details why the claim could not be adjudicated.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$code.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "An error code,from a specified code system, which details why the claim could not be adjudicated."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

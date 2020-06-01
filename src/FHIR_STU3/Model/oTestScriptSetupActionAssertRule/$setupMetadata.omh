@@ -1,0 +1,3 @@
+Do inherited
+Do pElements.$add("ruleId","ruleId",1,"1",21,"id")
+Do pElements.$add("param","param",0,"-1",38,"")

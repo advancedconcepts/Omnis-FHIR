@@ -1,0 +1,4 @@
+If implicated.$validref()=kFalse
+	Calculate implicated as $clib.$classes.oReference.$newref()
+End If
+Quit method implicated

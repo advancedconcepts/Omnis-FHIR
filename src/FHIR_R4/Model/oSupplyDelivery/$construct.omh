@@ -1,0 +1,5 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do basedOn.$define(basedOn_)
+Do partOf.$define(partOf_)
+Do receiver.$define(receiver_)

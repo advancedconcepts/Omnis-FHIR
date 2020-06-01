@@ -1,0 +1,4 @@
+If differential.$validref()=kFalse
+	Calculate differential as $clib.$classes.oStructureDefinitionDifferential.$newref()
+End If
+Quit method differential

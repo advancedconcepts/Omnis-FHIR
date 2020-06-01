@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$match",
+		"ident": 0,
+		"order": 1,
+		"desc": "This resource is returned because it is referred to from another resource in the search set.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$include",
+		"ident": 1,
+		"order": 2,
+		"desc": "An OperationOutcome that provides additional information about the processing of a search.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$outcome",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

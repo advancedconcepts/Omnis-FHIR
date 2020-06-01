@@ -1,0 +1,11 @@
+Do inherited
+Do careTeamLinkId.$define(careTeamLinkId_)
+Do diagnosisLinkId.$define(diagnosisLinkId_)
+Do procedureLinkId.$define(procedureLinkId_)
+Do informationLinkId.$define(informationLinkId_)
+Do modifier.$define(modifier_)
+Do programCode.$define(programCode_)
+Do udi.$define(udi_)
+Do subSite.$define(subSite_)
+Do encounter.$define(encounter_)
+Do detail.$define(detail_)

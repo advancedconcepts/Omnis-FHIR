@@ -1,0 +1,4 @@
+If quantitativeDetails.$validref()=kFalse
+	Calculate quantitativeDetails as $clib.$classes.oObservationDefinitionQuantitativeDetails.$newref()
+End If
+Quit method quantitativeDetails

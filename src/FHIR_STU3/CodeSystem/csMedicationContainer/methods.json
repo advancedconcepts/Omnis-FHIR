@@ -1,0 +1,97 @@
+[
+	{
+		"name": "$ampoule",
+		"ident": 0,
+		"order": 1,
+		"desc": "A container, typically made of glass or plastic and with a narrow neck, used for storing liquids.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$bottle",
+		"ident": 1,
+		"order": 2,
+		"desc": "A container with a flat base and sides, typically square or rectangular and having a lid.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$box",
+		"ident": 2,
+		"order": 3,
+		"desc": "A device of various configuration and composition used with a syringe for the application of anesthetic or other materials to a patient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$cartridge",
+		"ident": 3,
+		"order": 4,
+		"desc": "A package intended to store pharmaceuticals.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$container",
+		"ident": 4,
+		"order": 5,
+		"desc": "A long, hollow cylinder of metal, plastic, glass, etc., for holding medications, typically creams or ointments",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$tube",
+		"ident": 5,
+		"order": 6,
+		"desc": "A dose of medicine prepared in an individual package for convenience, safety or monitoring.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unitdose",
+		"ident": 6,
+		"order": 7,
+		"desc": "A small container, typically cylindrical and made of glass, used especially for holding liquid medications.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$vial",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

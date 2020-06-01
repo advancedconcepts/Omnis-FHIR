@@ -1,0 +1,61 @@
+[
+	{
+		"name": "$image",
+		"ident": 0,
+		"order": 1,
+		"desc": "The media consists of a series of frames that capture a moving image",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$video",
+		"ident": 1,
+		"order": 2,
+		"desc": "The media consists of a sound recording",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$audio",
+		"ident": 2,
+		"order": 3,
+		"desc": "The stylesheet for use",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$STYLESHEET",
+		"ident": 3,
+		"order": 4,
+		"desc": "The workflow definition",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$WORKFLOW_DEFINITION",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

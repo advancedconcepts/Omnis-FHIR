@@ -1,0 +1,80 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "exact",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "Used to indicate if the outer and inner start-end values have the same meaning."
+		},
+		{
+			"name": "inner",
+			"order": 5,
+			"type": "kObjectref",
+			"subtype": "oMolecularSequenceStructureVariantInner",
+			"sublen": 0,
+			"desc": "Structural variant inner."
+		},
+		{
+			"name": "length",
+			"order": 3,
+			"type": "kInteger",
+			"subtype": "k32bitint",
+			"sublen": 0,
+			"desc": "Length of the variant chromosome."
+		},
+		{
+			"name": "outer",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oMolecularSequenceStructureVariantOuter",
+			"sublen": 0,
+			"desc": "Structural variant outer."
+		},
+		{
+			"name": "variantType",
+			"order": 1,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Information about chromosome structure variation DNA change type."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:41:49",
+		"desc": "Information about chromosome structure variation.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:25",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

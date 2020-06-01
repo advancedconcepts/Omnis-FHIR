@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$oid",
+		"ident": 0,
+		"order": 1,
+		"desc": "A universally unique identifier of the form a5afddf4-e880-459b-876e-e4591b0acc11.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$uuid",
+		"ident": 1,
+		"order": 2,
+		"desc": "A uniform resource identifier (ideally a URL - uniform resource locator); e.g. http://unitsofmeasure.org.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$uri",
+		"ident": 2,
+		"order": 3,
+		"desc": "Some other type of unique identifier; e.g. HL7-assigned reserved string such as LN for LOINC.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$other",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

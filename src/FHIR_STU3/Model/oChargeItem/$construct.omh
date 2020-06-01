@@ -1,0 +1,10 @@
+Do inherited
+Do definition.$define(definition_)
+Do partOf.$define(partOf_)
+Do participant.$define(participant_)
+Do bodysite.$define(bodysite_)
+Do reason.$define(reason_)
+Do service.$define(service_)
+Do account.$define(account_)
+Do note.$define(note_)
+Do supportingInformation.$define(supportingInformation_)

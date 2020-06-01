@@ -1,0 +1,8 @@
+Do inherited
+Do pElements.$add("substance","substance",0,"1",38,"CodeableConcept")
+Do pElements.$add("manifestation","manifestation",1,"-1",38,"CodeableConcept")
+Do pElements.$add("description","description",0,"1",21,"string")
+Do pElements.$add("onset","onset",0,"1",23,"dateTime")
+Do pElements.$add("severity","severity",0,"1",21,"code")
+Do pElements.$add("exposureRoute","exposureRoute",0,"1",38,"CodeableConcept")
+Do pElements.$add("note","note",0,"-1",38,"Annotation")

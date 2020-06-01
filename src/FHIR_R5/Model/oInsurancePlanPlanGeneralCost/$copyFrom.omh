@@ -1,0 +1,5 @@
+Do inherited
+Calculate type as pValue.$type()
+Calculate groupSize as pValue.$groupSize()
+Calculate cost as pValue.$cost()
+Calculate comment as pValue.$comment()

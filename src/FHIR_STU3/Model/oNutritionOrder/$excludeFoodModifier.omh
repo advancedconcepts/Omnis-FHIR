@@ -1,0 +1,4 @@
+If excludeFoodModifier.$validref()=kFalse
+	Calculate excludeFoodModifier as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method excludeFoodModifier

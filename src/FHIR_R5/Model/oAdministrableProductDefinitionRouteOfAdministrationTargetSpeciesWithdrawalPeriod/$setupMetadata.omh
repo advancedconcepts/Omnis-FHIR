@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("tissue","tissue",1,"1",38,"CodeableConcept")
+Do pElements.$add("value","value",1,"1",38,"Quantity")
+Do pElements.$add("supportingInformation","supportingInformation",0,"1",21,"string")

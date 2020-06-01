@@ -1,0 +1,4 @@
+If codedDiagnosis.$validref()=kFalse
+	Calculate codedDiagnosis as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method codedDiagnosis

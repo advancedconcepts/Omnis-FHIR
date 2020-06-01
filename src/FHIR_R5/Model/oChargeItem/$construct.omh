@@ -1,0 +1,12 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do definitionUri.$define(definitionUri_)
+Do definitionCanonical.$define(definitionCanonical_)
+Do partOf.$define(partOf_)
+Do performer.$define(performer_)
+Do bodysite.$define(bodysite_)
+Do reason.$define(reason_)
+Do service.$define(service_)
+Do account.$define(account_)
+Do note.$define(note_)
+Do supportingInformation.$define(supportingInformation_)

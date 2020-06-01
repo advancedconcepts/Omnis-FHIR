@@ -1,0 +1,61 @@
+[
+	{
+		"name": "$negligible",
+		"ident": 0,
+		"order": 1,
+		"desc": "The specified outcome is possible but unlikely.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$low",
+		"ident": 1,
+		"order": 2,
+		"desc": "The specified outcome has a reasonable likelihood of occurrence.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$moderate",
+		"ident": 2,
+		"order": 3,
+		"desc": "The specified outcome is more likely to occur than not.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$high",
+		"ident": 3,
+		"order": 4,
+		"desc": "The specified outcome is effectively guaranteed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$certain",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

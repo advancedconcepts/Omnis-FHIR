@@ -1,0 +1,29 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate status as pValue.$status()
+Calculate type as pValue.$type()
+Calculate policyHolder as pValue.$policyHolder()
+Calculate subscriber as pValue.$subscriber()
+Calculate subscriberId as pValue.$subscriberId()
+Calculate beneficiary as pValue.$beneficiary()
+Calculate relationship as pValue.$relationship()
+Calculate period as pValue.$period()
+Do payor.$clear()
+Calculate list as pValue.$payor()
+Do payor.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate grouping as pValue.$grouping()
+Calculate dependent as pValue.$dependent()
+Calculate sequence as pValue.$sequence()
+Calculate order as pValue.$order()
+Calculate network as pValue.$network()
+Do contract.$clear()
+Calculate list as pValue.$contract()
+Do contract.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

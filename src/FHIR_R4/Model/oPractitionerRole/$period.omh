@@ -1,0 +1,4 @@
+If period.$validref()=kFalse
+	Calculate period as $clib.$classes.oPeriod.$newref()
+End If
+Quit method period

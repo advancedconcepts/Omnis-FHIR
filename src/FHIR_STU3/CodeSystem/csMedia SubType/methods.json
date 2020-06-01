@@ -1,0 +1,97 @@
+[
+	{
+		"name": "$diagram",
+		"ident": 0,
+		"order": 1,
+		"desc": "A digital record of a fax document",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$fax",
+		"ident": 1,
+		"order": 2,
+		"desc": "A digital scan of a document. This is reserved for when there is not enough metadata to create a document reference",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$scan",
+		"ident": 2,
+		"order": 3,
+		"desc": "A retinal image used for identification purposes",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$retina",
+		"ident": 3,
+		"order": 4,
+		"desc": "A finger print scan used for identification purposes",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$fingerprint",
+		"ident": 4,
+		"order": 5,
+		"desc": "An iris scan used for identification purposes",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$iris",
+		"ident": 5,
+		"order": 6,
+		"desc": "A palm scan used for identification purposes",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$palm",
+		"ident": 6,
+		"order": 7,
+		"desc": "A face scan used for identification purposes",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$face",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

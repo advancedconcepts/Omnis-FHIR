@@ -1,0 +1,312 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "abstract",
+			"order": 26,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "Whether structure this definition describes is abstract or not  - that is, whether the structure is not intended to be instantiated. For Resources and Data types, abstract types will never be exchanged  between systems."
+		},
+		{
+			"name": "baseDefinition",
+			"order": 32,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "An absolute URI that is the base structure from which this type is derived, either by specialization or constraint."
+		},
+		{
+			"name": "contact",
+			"order": 11,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "contact_",
+			"order": 12,
+			"type": "kObjectref",
+			"subtype": "oContactDetail",
+			"sublen": 0,
+			"desc": "Contact details to assist a user in finding and communicating with the publisher."
+		},
+		{
+			"name": "context",
+			"order": 27,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "contextInvariant",
+			"order": 29,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "contextInvariant_",
+			"order": 30,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A set of rules as FHIRPath Invariants about when the extension can be used (e.g. co-occurrence variants for the extension). All the rules must be true."
+		},
+		{
+			"name": "context_",
+			"order": 28,
+			"type": "kObjectref",
+			"subtype": "oStructureDefinitionContext",
+			"sublen": 0,
+			"desc": "Identifies the types of resource or data type elements to which the extension can be applied."
+		},
+		{
+			"name": "copyright",
+			"order": 19,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A copyright statement relating to the structure definition and/or its contents. Copyright statements are generally legal restrictions on the use and publishing of the structure definition."
+		},
+		{
+			"name": "date",
+			"order": 9,
+			"type": "kDate",
+			"subtype": "kDatetime",
+			"sublen": 0,
+			"desc": "The date  (and optionally time) when the structure definition was published. The date must change when the business version changes and it must change if the status code changes. In addition, it should change when the substantive content of the structure "
+		},
+		{
+			"name": "derivation",
+			"order": 33,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "How the type relates to the baseDefinition."
+		},
+		{
+			"name": "description",
+			"order": 13,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A free text natural language description of the structure definition from a consumer's perspective."
+		},
+		{
+			"name": "differential",
+			"order": 35,
+			"type": "kObjectref",
+			"subtype": "oStructureDefinitionDifferential",
+			"sublen": 0,
+			"desc": "A differential view is expressed relative to the base StructureDefinition - a statement of differences that it applies."
+		},
+		{
+			"name": "experimental",
+			"order": 8,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "A Boolean value to indicate that this structure definition is authored for testing purposes (or education/evaluation/marketing) and is not intended to be used for genuine usage."
+		},
+		{
+			"name": "fhirVersion",
+			"order": 22,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The version of the FHIR specification on which this StructureDefinition is based - this is the formal version of the specification, without the revision number, e.g. [publication].[major].[minor], which is 4.0.1. for this version."
+		},
+		{
+			"name": "identifier",
+			"order": 2,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "identifier_",
+			"order": 3,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "A formal identifier that is used to identify this structure definition when it is represented in other formats, or referenced in a specification, model, design or an instance."
+		},
+		{
+			"name": "jurisdiction",
+			"order": 16,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "jurisdiction_",
+			"order": 17,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "A legal or geographic region in which the structure definition is intended to be used."
+		},
+		{
+			"name": "keyword",
+			"order": 20,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "keyword_",
+			"order": 21,
+			"type": "kObjectref",
+			"subtype": "oCoding",
+			"sublen": 0,
+			"desc": "A set of key words or terms from external terminologies that may be used to assist with indexing and searching of templates nby describing the use of this structure definition, or the content it describes."
+		},
+		{
+			"name": "kind",
+			"order": 25,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Defines the kind of structure that this definition is describing."
+		},
+		{
+			"name": "mapping",
+			"order": 23,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "mapping_",
+			"order": 24,
+			"type": "kObjectref",
+			"subtype": "oStructureDefinitionMapping",
+			"sublen": 0,
+			"desc": "An external specification that the content is mapped to."
+		},
+		{
+			"name": "name",
+			"order": 5,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A natural language name identifying the structure definition. This name should be usable as an identifier for the module by machine processing applications such as code generation."
+		},
+		{
+			"name": "publisher",
+			"order": 10,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The name of the organization or individual that published the structure definition."
+		},
+		{
+			"name": "purpose",
+			"order": 18,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Explanation of why this structure definition is needed and why it has been designed as it has."
+		},
+		{
+			"name": "snapshot",
+			"order": 34,
+			"type": "kObjectref",
+			"subtype": "oStructureDefinitionSnapshot",
+			"sublen": 0,
+			"desc": "A snapshot view is expressed in a standalone form that can be used and interpreted without considering the base StructureDefinition."
+		},
+		{
+			"name": "status",
+			"order": 7,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The status of this structure definition. Enables tracking the life-cycle of the content."
+		},
+		{
+			"name": "title",
+			"order": 6,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A short, descriptive, user-friendly title for the structure definition."
+		},
+		{
+			"name": "type",
+			"order": 31,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The type this structure describes. If the derivation kind is 'specialization' then this is the master definition for a type, and there is always one of these (a data type, an extension, a resource, including abstract ones). Otherwise the structure definit"
+		},
+		{
+			"name": "url",
+			"order": 1,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "An absolute URI that is used to identify this structure definition when it is referenced in a specification, model, design or an instance; also called its canonical identifier. This SHOULD be globally unique and SHOULD be a literal address at which at whi"
+		},
+		{
+			"name": "useContext",
+			"order": 14,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "useContext_",
+			"order": 15,
+			"type": "kObjectref",
+			"subtype": "oUsageContext",
+			"sublen": 0,
+			"desc": "The content was developed with a focus and intent of supporting the contexts that are listed. These contexts may be general categories (gender, age, ...) or may be references to specific programs (insurance plans, studies, ...) and may be used to assist w"
+		},
+		{
+			"name": "version",
+			"order": 4,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The identifier that is used to identify this version of the structure definition when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the structure definition author and is not expected to be globally "
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:41:55",
+		"desc": "A definition of a FHIR structure. This resource is used to describe the underlying resources, data types defined in FHIR, and also for describing extensions and constraints on resources and data types.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:24",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

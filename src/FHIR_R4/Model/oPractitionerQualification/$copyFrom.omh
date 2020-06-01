@@ -1,0 +1,9 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate code as pValue.$code()
+Calculate period as pValue.$period()
+Calculate issuer as pValue.$issuer()

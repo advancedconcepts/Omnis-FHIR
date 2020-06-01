@@ -1,0 +1,9 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do problem.$define(problem_)
+Do protocol.$define(protocol_)
+Do finding.$define(finding_)
+Do prognosisCodeableConcept.$define(prognosisCodeableConcept_)
+Do prognosisReference.$define(prognosisReference_)
+Do supportingInfo.$define(supportingInfo_)
+Do note.$define(note_)

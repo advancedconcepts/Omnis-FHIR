@@ -1,0 +1,22 @@
+Do inherited
+Calculate rendering as pValue.$rendering()
+Do resource.$clear()
+Calculate list as pValue.$resource()
+Do resource.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do page.$clear()
+Calculate list as pValue.$page()
+Do page.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do image.$clear()
+Calculate list as pValue.$image()
+Do image.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do other.$clear()
+Calculate list as pValue.$other()
+Do other.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

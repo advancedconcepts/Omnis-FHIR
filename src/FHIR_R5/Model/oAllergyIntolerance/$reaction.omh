@@ -1,0 +1,4 @@
+If reaction.$validref()=kFalse
+	Calculate reaction as $clib.$classes.oAllergyIntoleranceReaction.$newref()
+End If
+Quit method reaction

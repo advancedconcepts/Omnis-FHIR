@@ -1,0 +1,4 @@
+If referenceStrength.$validref()=kFalse
+	Calculate referenceStrength as $clib.$classes.oMedicinalProductIngredientSpecifiedSubstanceStrengthReferenceStrength.$newref()
+End If
+Quit method referenceStrength

@@ -1,0 +1,4 @@
+Do inherited
+Calculate code as pValue.$code()
+Calculate dataAbsentReason as pValue.$dataAbsentReason()
+Calculate interpretation as pValue.$interpretation()

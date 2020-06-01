@@ -1,0 +1,10 @@
+Do inherited
+Do pElements.$add("usageContext","usageContext",0,"-1",38,"UsageContext")
+Do pElements.$add("exclude","exclude",0,"1",22,"boolean")
+Do pElements.$add("unitOfMeasure","unitOfMeasure",0,"1",38,"CodeableConcept")
+Do pElements.$add("studyEffectiveDescription","studyEffectiveDescription",0,"1",21,"string")
+Do pElements.$add("studyEffectiveTimeFromStart","studyEffectiveTimeFromStart",0,"1",38,"Duration")
+Do pElements.$add("studyEffectiveGroupMeasure","studyEffectiveGroupMeasure",0,"1",21,"code")
+Do pElements.$add("participantEffectiveDescription","participantEffectiveDescription",0,"1",21,"string")
+Do pElements.$add("participantEffectiveTimeFromStart","participantEffectiveTimeFromStart",0,"1",38,"Duration")
+Do pElements.$add("participantEffectiveGroupMeasure","participantEffectiveGroupMeasure",0,"1",21,"code")

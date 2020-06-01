@@ -1,0 +1,3 @@
+Do inherited
+Do pElements.$add("protocol","protocol",1,"1",38,"Coding")
+Do pElements.$add("address","address",1,"1",21,"uri")

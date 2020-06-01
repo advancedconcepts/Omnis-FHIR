@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$payment",
+		"ident": 0,
+		"order": 1,
+		"desc": "The amount is an adjustment regarding claims already paid.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$adjustment",
+		"ident": 1,
+		"order": 2,
+		"desc": "The amount is an advance against future claims.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$advance",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

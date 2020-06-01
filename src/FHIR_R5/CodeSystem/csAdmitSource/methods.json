@@ -1,0 +1,121 @@
+[
+	{
+		"name": "$hosp-trans",
+		"ident": 0,
+		"order": 1,
+		"desc": "The patient has been transferred from the emergency department within the hospital. This is typically used in the transition to an inpatient encounter",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$emd",
+		"ident": 1,
+		"order": 2,
+		"desc": "The patient has been transferred from an outpatient department within the hospital.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$outp",
+		"ident": 2,
+		"order": 3,
+		"desc": "The patient is a newborn and the encounter will track the baby related activities (as opposed to the Mothers encounter - that may be associated using the newborn encounters partof property)",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$born",
+		"ident": 3,
+		"order": 4,
+		"desc": "The patient has been admitted due to a referred from a General Practitioner.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$gp",
+		"ident": 4,
+		"order": 5,
+		"desc": "The patient has been admitted due to a referred from a Specialist (as opposed to a General Practitioner).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$mp",
+		"ident": 5,
+		"order": 6,
+		"desc": "The patient has been transferred from a nursing home.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$nursing",
+		"ident": 6,
+		"order": 7,
+		"desc": "The patient has been transferred from a psychiatric facility.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$psych",
+		"ident": 7,
+		"order": 8,
+		"desc": "The patient has been transferred from a rehabilitation facility or clinic.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$rehab",
+		"ident": 8,
+		"order": 9,
+		"desc": "The patient has been admitted from a source otherwise not specified here.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$other",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

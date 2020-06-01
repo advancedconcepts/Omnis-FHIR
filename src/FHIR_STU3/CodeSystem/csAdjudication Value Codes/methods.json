@@ -1,0 +1,85 @@
+[
+	{
+		"name": "$total",
+		"ident": 0,
+		"order": 1,
+		"desc": "Patient Co-Payment",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copay",
+		"ident": 1,
+		"order": 2,
+		"desc": "Amount of the change which is considered for adjudication",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$eligible",
+		"ident": 2,
+		"order": 3,
+		"desc": "Amount deducted from the eligible amount prior to adjudication",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$deductible",
+		"ident": 3,
+		"order": 4,
+		"desc": "Eligible Percentage",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$eligpercent",
+		"ident": 4,
+		"order": 5,
+		"desc": "Emergency Department",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$tax",
+		"ident": 5,
+		"order": 6,
+		"desc": "Amount payable under the coverage",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$benefit",
+		"ident": 6,
+		"order": 7,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

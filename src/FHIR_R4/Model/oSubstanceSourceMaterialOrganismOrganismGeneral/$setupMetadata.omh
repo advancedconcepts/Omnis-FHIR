@@ -1,0 +1,5 @@
+Do inherited
+Do pElements.$add("kingdom","kingdom",0,"1",38,"CodeableConcept")
+Do pElements.$add("phylum","phylum",0,"1",38,"CodeableConcept")
+Do pElements.$add("class","class",0,"1",38,"CodeableConcept")
+Do pElements.$add("order","order",0,"1",38,"CodeableConcept")

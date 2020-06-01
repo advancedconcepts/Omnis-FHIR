@@ -1,0 +1,6 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do serviceCategory.$define(serviceCategory_)
+Do serviceType.$define(serviceType_)
+Do specialty.$define(specialty_)
+Do actor.$define(actor_)

@@ -1,0 +1,11 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do category.$define(category_)
+Do resultingCondition.$define(resultingCondition_)
+Do participant.$define(participant_)
+Do suspectEntity.$define(suspectEntity_)
+Do contributingFactor.$define(contributingFactor_)
+Do preventiveAction.$define(preventiveAction_)
+Do mitigatingAction.$define(mitigatingAction_)
+Do supportingInfo.$define(supportingInfo_)
+Do study.$define(study_)

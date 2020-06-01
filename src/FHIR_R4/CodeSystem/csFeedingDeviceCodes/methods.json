@@ -1,0 +1,265 @@
+[
+	{
+		"name": "$standard-nipple",
+		"ident": 0,
+		"order": 1,
+		"desc": "Preemie nipple definition:",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$preemie-nipple",
+		"ident": 1,
+		"order": 2,
+		"desc": "Orthodontic nipple definition:",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ortho-nipple",
+		"ident": 2,
+		"order": 3,
+		"desc": "Slow flow nipple definition:",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sloflo-nipple",
+		"ident": 3,
+		"order": 4,
+		"desc": "Middle flow nipple definition:",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$midflo-nipple",
+		"ident": 4,
+		"order": 5,
+		"desc": "Enlarged, cross-cut nipple definition:",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$bigcut-nipple",
+		"ident": 5,
+		"order": 6,
+		"desc": "Haberman bottle definition:",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$haberman-bottle",
+		"ident": 6,
+		"order": 7,
+		"desc": "Sippy cup with valve definition:",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sippy-valve",
+		"ident": 7,
+		"order": 8,
+		"desc": "Sippy cup without valve definition:",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sippy-no-valve",
+		"ident": 8,
+		"order": 9,
+		"desc": "Provale Cup definition:",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$provale-cup",
+		"ident": 9,
+		"order": 10,
+		"desc": "Glass with lid/sippy cup definition:",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$glass-lid",
+		"ident": 10,
+		"order": 11,
+		"desc": "Double handhold on glass/cup definition:",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$handhold-cup",
+		"ident": 11,
+		"order": 12,
+		"desc": "Rubber matting under tray definition:",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$rubber-mat",
+		"ident": 12,
+		"order": 13,
+		"desc": "Straw definition:",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$straw",
+		"ident": 13,
+		"order": 14,
+		"desc": "Nose cup definition:",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$nose-cup",
+		"ident": 14,
+		"order": 15,
+		"desc": "Scoop plate definition:",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$scoop-plate",
+		"ident": 15,
+		"order": 16,
+		"desc": "Hand wrap utensil holder definition:",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$utensil-holder",
+		"ident": 16,
+		"order": 17,
+		"desc": "Foam handle utensils definition:",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$foam-handle",
+		"ident": 17,
+		"order": 18,
+		"desc": "Angled utensils definition:",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$angled-utensil",
+		"ident": 18,
+		"order": 19,
+		"desc": "Spout cup definition:",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$spout-cup",
+		"ident": 19,
+		"order": 20,
+		"desc": "Automated feeding devices definition:",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$autofeeding-device",
+		"ident": 20,
+		"order": 21,
+		"desc": "Rocker knife definition:",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$rocker-knife",
+		"ident": 21,
+		"order": 22,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

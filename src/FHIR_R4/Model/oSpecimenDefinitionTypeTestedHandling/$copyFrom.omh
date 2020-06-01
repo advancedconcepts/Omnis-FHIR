@@ -1,0 +1,5 @@
+Do inherited
+Calculate temperatureQualifier as pValue.$temperatureQualifier()
+Calculate temperatureRange as pValue.$temperatureRange()
+Calculate maxDuration as pValue.$maxDuration()
+Calculate instruction as pValue.$instruction()

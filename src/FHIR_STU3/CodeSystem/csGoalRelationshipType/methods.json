@@ -1,0 +1,61 @@
+[
+	{
+		"name": "$predecessor",
+		"ident": 0,
+		"order": 1,
+		"desc": "Indicates that the target goal is a desired objective once the current goal is met",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$successor",
+		"ident": 1,
+		"order": 2,
+		"desc": "Indicates that this goal has been replaced by the target goal",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$replacement",
+		"ident": 2,
+		"order": 3,
+		"desc": "Indicates that the target goal is considered to be a \"piece\" of attaining this goal.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$milestone",
+		"ident": 3,
+		"order": 4,
+		"desc": "Indicates that the relationship is not covered by one of the pre-defined codes.  (An extension may convey more information about the meaning of the relationship.)",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$other",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

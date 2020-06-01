@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$central",
+		"ident": 0,
+		"order": 1,
+		"desc": "Supply is not onsite and must be requested from an outside vendor using a non-stock requisition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$nonstock",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

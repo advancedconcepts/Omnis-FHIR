@@ -1,0 +1,61 @@
+[
+	{
+		"name": "$=",
+		"ident": 0,
+		"order": 1,
+		"desc": "The key value in the topic stream is an active members of the reference set identified by the concept provided as the filter value.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$in",
+		"ident": 1,
+		"order": 2,
+		"desc": "The key value in the topic stream is NOT an active members of the reference set identified by the concept provided as the filter value.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$not-in",
+		"ident": 2,
+		"order": 3,
+		"desc": "The key value is subsumes the value in the filter value.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$above",
+		"ident": 3,
+		"order": 4,
+		"desc": "The key value is subsumed by the value in the filter value.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$below",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,85 @@
+[
+	{
+		"name": "$RCT",
+		"ident": 0,
+		"order": 1,
+		"desc": "controlled (but not randomized) trial.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CCT",
+		"ident": 1,
+		"order": 2,
+		"desc": "observational study comparing cohorts.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$cohort",
+		"ident": 2,
+		"order": 3,
+		"desc": "case-control study.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$case-control",
+		"ident": 3,
+		"order": 4,
+		"desc": "uncontrolled cohort or case series.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$series",
+		"ident": 4,
+		"order": 5,
+		"desc": "a single case report.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$case-report",
+		"ident": 5,
+		"order": 6,
+		"desc": "a combination of 1 or more types of studies.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$mixed",
+		"ident": 6,
+		"order": 7,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,6 @@
+Do inherited
+Do pElements.$add("type","::type",0,"1",38,"CodeableConcept")
+Do pElements.$add("state","state",0,"1",38,"CodeableConcept")
+Do pElements.$add("milestone","milestone",0,"1",38,"CodeableConcept")
+Do pElements.$add("reason","reason",0,"1",38,"CodeableConcept")
+Do pElements.$add("startDate","startDate",1,"1",23,"dateTime")

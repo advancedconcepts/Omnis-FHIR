@@ -1,0 +1,18 @@
+Do inherited
+Calculate system as pValue.$system()
+Calculate version as pValue.$version()
+Do concept.$clear()
+Calculate list as pValue.$concept()
+Do concept.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do filter.$clear()
+Calculate list as pValue.$filter()
+Do filter.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do valueSet.$clear()
+Calculate list as pValue.$valueSet()
+Do valueSet.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

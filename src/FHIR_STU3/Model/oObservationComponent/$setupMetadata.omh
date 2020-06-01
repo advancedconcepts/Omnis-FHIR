@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("code","code",1,"1",38,"CodeableConcept")
+Do pElements.$add("dataAbsentReason","dataAbsentReason",0,"1",38,"CodeableConcept")
+Do pElements.$add("interpretation","interpretation",0,"1",38,"CodeableConcept")

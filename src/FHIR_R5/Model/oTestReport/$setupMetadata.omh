@@ -1,0 +1,13 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"1",38,"Identifier")
+Do pElements.$add("name","::name",0,"1",21,"string")
+Do pElements.$add("status","status",1,"1",21,"code")
+Do pElements.$add("testScript","testScript",1,"1",38,"Reference")
+Do pElements.$add("result","result",1,"1",21,"code")
+Do pElements.$add("score","score",0,"1",25,"decimal")
+Do pElements.$add("tester","tester",0,"1",21,"string")
+Do pElements.$add("issued","issued",0,"1",23,"dateTime")
+Do pElements.$add("participant","participant",0,"-1",38,"")
+Do pElements.$add("setup","setup",0,"1",38,"")
+Do pElements.$add("test","test",0,"-1",38,"")
+Do pElements.$add("teardown","teardown",0,"1",38,"")

@@ -1,0 +1,321 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "action",
+			"order": 16,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "actionReason",
+			"order": 18,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "actionReason_",
+			"order": 19,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Reason for action stipulated by this Contract."
+		},
+		{
+			"name": "action_",
+			"order": 17,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Action stipulated by this Contract."
+		},
+		{
+			"name": "agent",
+			"order": 24,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "agent_",
+			"order": 25,
+			"type": "kObjectref",
+			"subtype": "oContractAgent",
+			"sublen": 0,
+			"desc": "An actor taking a role in an activity for which it can be assigned some degree of responsibility for the activity taking place."
+		},
+		{
+			"name": "applies",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oPeriod",
+			"sublen": 0,
+			"desc": "Relevant time or time-period when this Contract is applicable."
+		},
+		{
+			"name": "authority",
+			"order": 9,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "authority_",
+			"order": 10,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "A formally or informally recognized grouping of people, principals, organizations, or jurisdictions formed for the purpose of achieving some form of collective action such as the promulgation, administration and enforcement of contracts and policies."
+		},
+		{
+			"name": "contentDerivative",
+			"order": 21,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The minimal content derived from the basal information source at a specific stage in its lifecycle."
+		},
+		{
+			"name": "decisionType",
+			"order": 20,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The type of decision made by a grantor with respect to an offer made by a grantee."
+		},
+		{
+			"name": "domain",
+			"order": 11,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "domain_",
+			"order": 12,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Recognized governance framework or system operating with a circumscribed scope in accordance with specified principles, policies, processes or procedures for managing rights, actions, or behaviors of parties or principals relative to resources."
+		},
+		{
+			"name": "friendly",
+			"order": 32,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "friendly_",
+			"order": 33,
+			"type": "kObjectref",
+			"subtype": "oContractFriendly",
+			"sublen": 0,
+			"desc": "The \"patient friendly language\" versionof the Contract in whole or in parts. \"Patient friendly language\" means the representation of the Contract and Contract Provisions in a manner that is readily accessible and understandable by a layperson in accordanc"
+		},
+		{
+			"name": "identifier",
+			"order": 1,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "Unique identifier for this Contract."
+		},
+		{
+			"name": "issued",
+			"order": 3,
+			"type": "kDate",
+			"subtype": "kDatetime",
+			"sublen": 0,
+			"desc": "When this  Contract was issued."
+		},
+		{
+			"name": "legal",
+			"order": 34,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "legal_",
+			"order": 35,
+			"type": "kObjectref",
+			"subtype": "oContractLegal",
+			"sublen": 0,
+			"desc": "List of Legal expressions or representations of this Contract."
+		},
+		{
+			"name": "rule",
+			"order": 36,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "rule_",
+			"order": 37,
+			"type": "kObjectref",
+			"subtype": "oContractRule",
+			"sublen": 0,
+			"desc": "List of Computable Policy Rule Language Representations of this Contract."
+		},
+		{
+			"name": "securityLabel",
+			"order": 22,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "securityLabel_",
+			"order": 23,
+			"type": "kObjectref",
+			"subtype": "oCoding",
+			"sublen": 0,
+			"desc": "A set of security labels that define which resources are controlled by this consent. If more than one label is specified, all resources must have all the specified labels."
+		},
+		{
+			"name": "signer",
+			"order": 26,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "signer_",
+			"order": 27,
+			"type": "kObjectref",
+			"subtype": "oContractSigner",
+			"sublen": 0,
+			"desc": "Parties with legal standing in the Contract, including the principal parties, the grantor(s) and grantee(s), which are any person or organization bound by the contract, and any ancillary parties, which facilitate the execution of the contract such as a no"
+		},
+		{
+			"name": "status",
+			"order": 2,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The status of the resource instance."
+		},
+		{
+			"name": "subject",
+			"order": 5,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "subject_",
+			"order": 6,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The target entity impacted by or of interest to parties to the agreement."
+		},
+		{
+			"name": "subType",
+			"order": 14,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "subType_",
+			"order": 15,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "More specific type or specialization of an overarching or more general contract such as auto insurance, home owner  insurance, prenupial agreement, Advanced-Directive, or privacy consent."
+		},
+		{
+			"name": "term",
+			"order": 30,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "term_",
+			"order": 31,
+			"type": "kObjectref",
+			"subtype": "oContractTerm",
+			"sublen": 0,
+			"desc": "One or more Contract Provisions, which may be related and conveyed as a group, and may contain nested groups."
+		},
+		{
+			"name": "topic",
+			"order": 7,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "topic_",
+			"order": 8,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The matter of concern in the context of this agreement."
+		},
+		{
+			"name": "type",
+			"order": 13,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Type of Contract such as an insurance policy, real estate contract, a will, power of attorny, Privacy or Security policy , trust framework agreement, etc."
+		},
+		{
+			"name": "valuedItem",
+			"order": 28,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "valuedItem_",
+			"order": 29,
+			"type": "kObjectref",
+			"subtype": "oContractValuedItem",
+			"sublen": 0,
+			"desc": "Contract Valued Item List."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:39:59",
+		"desc": "Base StructureDefinition for Contract Resource",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:26",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

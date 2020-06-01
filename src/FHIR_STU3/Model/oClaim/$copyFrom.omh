@@ -1,0 +1,67 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate status as pValue.$status()
+Calculate type as pValue.$type()
+Do subType.$clear()
+Calculate list as pValue.$subtype()
+Do subType.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate use as pValue.$use()
+Calculate patient as pValue.$patient()
+Calculate billablePeriod as pValue.$billablePeriod()
+Calculate created as pValue.$created()
+Calculate enterer as pValue.$enterer()
+Calculate insurer as pValue.$insurer()
+Calculate provider as pValue.$provider()
+Calculate organization as pValue.$organization()
+Calculate priority as pValue.$priority()
+Calculate fundsReserve as pValue.$fundsReserve()
+Do related.$clear()
+Calculate list as pValue.$related()
+Do related.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate prescription as pValue.$prescription()
+Calculate originalPrescription as pValue.$originalPrescription()
+Calculate payee as pValue.$payee()
+Calculate referral as pValue.$referral()
+Calculate facility as pValue.$facility()
+Do careTeam.$clear()
+Calculate list as pValue.$careTeam()
+Do careTeam.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do information.$clear()
+Calculate list as pValue.$information()
+Do information.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do diagnosis.$clear()
+Calculate list as pValue.$diagnosis()
+Do diagnosis.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do procedure.$clear()
+Calculate list as pValue.$procedure()
+Do procedure.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do insurance.$clear()
+Calculate list as pValue.$insurance()
+Do insurance.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate accident as pValue.$accident()
+Calculate employmentImpacted as pValue.$employmentImpacted()
+Calculate hospitalization as pValue.$hospitalization()
+Do item.$clear()
+Calculate list as pValue.$item()
+Do item.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate total as pValue.$total()

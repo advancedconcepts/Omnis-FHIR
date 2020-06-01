@@ -1,0 +1,145 @@
+[
+	{
+		"name": "$okay",
+		"ident": 0,
+		"order": 1,
+		"desc": "Response code is 201.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$created",
+		"ident": 1,
+		"order": 2,
+		"desc": "Response code is 204.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$noContent",
+		"ident": 2,
+		"order": 3,
+		"desc": "Response code is 304.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$notModified",
+		"ident": 3,
+		"order": 4,
+		"desc": "Response code is 400.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$bad",
+		"ident": 4,
+		"order": 5,
+		"desc": "Response code is 403.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$forbidden",
+		"ident": 5,
+		"order": 6,
+		"desc": "Response code is 404.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$notFound",
+		"ident": 6,
+		"order": 7,
+		"desc": "Response code is 405.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$methodNotAllowed",
+		"ident": 7,
+		"order": 8,
+		"desc": "Response code is 409.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$conflict",
+		"ident": 8,
+		"order": 9,
+		"desc": "Response code is 410.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$gone",
+		"ident": 9,
+		"order": 10,
+		"desc": "Response code is 412.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$preconditionFailed",
+		"ident": 10,
+		"order": 11,
+		"desc": "Response code is 422.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unprocessable",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

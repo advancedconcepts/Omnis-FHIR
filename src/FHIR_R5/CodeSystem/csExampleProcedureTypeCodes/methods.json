@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$primary",
+		"ident": 0,
+		"order": 1,
+		"desc": "The second procedure in a series required to produce and overall patient outcome.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$secondary",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

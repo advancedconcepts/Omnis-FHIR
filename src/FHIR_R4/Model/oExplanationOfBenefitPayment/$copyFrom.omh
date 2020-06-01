@@ -1,0 +1,7 @@
+Do inherited
+Calculate type as pValue.$type()
+Calculate adjustment as pValue.$adjustment()
+Calculate adjustmentReason as pValue.$adjustmentReason()
+Calculate date as pValue.$date()
+Calculate amount as pValue.$amount()
+Calculate identifier as pValue.$identifier()

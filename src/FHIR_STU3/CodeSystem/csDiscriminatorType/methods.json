@@ -1,0 +1,61 @@
+[
+	{
+		"name": "$value",
+		"ident": 0,
+		"order": 1,
+		"desc": "The slices are differentiated by the presence or absence of the nominated element",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$exists",
+		"ident": 1,
+		"order": 2,
+		"desc": "The slices have different values in the nominated element, as determined by testing them against the applicable ElementDefinition.pattern[x]",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$pattern",
+		"ident": 2,
+		"order": 3,
+		"desc": "The slices are differentiated by type of the nominated element to a specifed profile",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$type",
+		"ident": 3,
+		"order": 4,
+		"desc": "The slices are differentiated by conformance of the nominated element to a specifed profile",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$profile",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

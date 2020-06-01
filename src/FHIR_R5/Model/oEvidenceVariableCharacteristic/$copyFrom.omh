@@ -1,0 +1,12 @@
+Do inherited
+Calculate description as pValue.$description()
+Calculate method as pValue.$method()
+Calculate device as pValue.$device()
+Do booleanSet.$clear()
+Calculate list as pValue.$booleanSet()
+Do booleanSet.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate exclude as pValue.$exclude()
+Calculate timeFromStart as pValue.$timeFromStart()
+Calculate groupMeasure as pValue.$groupMeasure()

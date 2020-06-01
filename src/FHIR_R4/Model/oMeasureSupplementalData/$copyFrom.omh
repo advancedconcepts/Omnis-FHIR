@@ -1,0 +1,9 @@
+Do inherited
+Calculate code as pValue.$code()
+Do usage.$clear()
+Calculate list as pValue.$usage()
+Do usage.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate description as pValue.$description()
+Calculate criteria as pValue.$criteria()

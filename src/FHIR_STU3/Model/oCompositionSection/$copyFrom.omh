@@ -1,0 +1,12 @@
+Do inherited
+Calculate title as pValue.$title()
+Calculate code as pValue.$code()
+Calculate text as pValue.$text()
+Calculate mode as pValue.$mode()
+Calculate orderedBy as pValue.$orderedBy()
+Do entry.$clear()
+Calculate list as pValue.$entry()
+Do entry.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate emptyReason as pValue.$emptyReason()

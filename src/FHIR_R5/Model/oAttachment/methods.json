@@ -1,0 +1,481 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$contentType",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: Identifies the type of the data in the attachment and allows a method to be chosen to interpret or render the data. Includes mime type parameters such as charset where appropriate.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$contentType.$assign",
+		"ident": 6,
+		"order": 7,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Identifies the type of the data in the attachment and allows a method to be chosen to interpret or render the data. Includes mime type parameters such as charset where appropriate."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$language",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: The human language of the content. The value can be any valid value according to BCP 47.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$language.$assign",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The human language of the content. The value can be any valid value according to BCP 47."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$data",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: The actual data of the attachment - a sequence of bytes, base64 encoded.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$data.$assign",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBinary",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "The actual data of the attachment - a sequence of bytes, base64 encoded."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$url",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: A location where the data can be accessed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$url.$assign",
+		"ident": 12,
+		"order": 13,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A location where the data can be accessed."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$size",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: The number of bytes of data that make up this attachment (before base64 encoding, if that is done).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$size.$assign",
+		"ident": 14,
+		"order": 15,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The number of bytes of data that make up this attachment (before base64 encoding, if that is done)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$hash",
+		"ident": 15,
+		"order": 16,
+		"desc": "Returns: The calculated hash of the data using SHA-1. Represented using base64.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$hash.$assign",
+		"ident": 16,
+		"order": 17,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBinary",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "The calculated hash of the data using SHA-1. Represented using base64."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$title",
+		"ident": 17,
+		"order": 18,
+		"desc": "Returns: A label or set of text to display in place of the data.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$title.$assign",
+		"ident": 18,
+		"order": 19,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A label or set of text to display in place of the data."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$creation",
+		"ident": 19,
+		"order": 20,
+		"desc": "Returns: The date that the attachment was first created.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$creation.$assign",
+		"ident": 20,
+		"order": 21,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kDate",
+				"subtype": "kDatetime",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The date that the attachment was first created."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$height",
+		"ident": 21,
+		"order": 22,
+		"desc": "Returns: Height of the image in pixels (photo/video).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$height.$assign",
+		"ident": 22,
+		"order": 23,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Height of the image in pixels (photo/video)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$width",
+		"ident": 23,
+		"order": 24,
+		"desc": "Returns: Width of the image in pixels (photo/video).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$width.$assign",
+		"ident": 24,
+		"order": 25,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Width of the image in pixels (photo/video)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$frames",
+		"ident": 25,
+		"order": 26,
+		"desc": "Returns: The number of frames in a photo. This is used with a multi-page fax, or an imaging acquisition context that takes multiple slices in a single image, or an animated gif. If there is more than one frame, this SHALL have a value in order to alert interface software that a multi-frame capable rendering widget is required.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$frames.$assign",
+		"ident": 26,
+		"order": 27,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The number of frames in a photo. This is used with a multi-page fax, or an imaging acquisition context that takes multiple slices in a single image, or an animated gif. If there is more than one frame, this SHALL have a value in order to alert interface s"
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$duration",
+		"ident": 27,
+		"order": 28,
+		"desc": "Returns: The duration of the recording in seconds - for audio and video.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$duration.$assign",
+		"ident": 28,
+		"order": 29,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kNumber",
+				"subtype": "kFloatdp",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The duration of the recording in seconds - for audio and video."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$pages",
+		"ident": 29,
+		"order": 30,
+		"desc": "Returns: The number of pages when printed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$pages.$assign",
+		"ident": 30,
+		"order": 31,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The number of pages when printed."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

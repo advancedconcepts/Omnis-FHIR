@@ -1,0 +1,4 @@
+If dosageInstruction.$validref()=kFalse
+	Calculate dosageInstruction as $clib.$classes.oDosage.$newref()
+End If
+Quit method dosageInstruction

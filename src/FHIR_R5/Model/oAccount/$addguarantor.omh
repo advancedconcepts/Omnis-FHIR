@@ -1,0 +1,6 @@
+Calculate objRef as $clib.$classes.oAccountGuarantor.$newref()
+Do guarantor.$add(objRef)
+If pValue.$validref()
+	Do objRef.$copyFrom(pValue)
+End If
+Quit method objRef

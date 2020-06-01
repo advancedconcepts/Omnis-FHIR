@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$claim",
+		"ident": 0,
+		"order": 1,
+		"desc": "The treatment is proposed and this represents a Pre-authorization for the services.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$preauthorization",
+		"ident": 1,
+		"order": 2,
+		"desc": "The treatment is proposed and this represents a Pre-determination for the services.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$predetermination",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

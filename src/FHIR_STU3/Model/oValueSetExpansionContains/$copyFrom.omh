@@ -1,0 +1,7 @@
+Do inherited
+Calculate system as pValue.$system()
+Calculate abstract as pValue.$abstract()
+Calculate inactive as pValue.$inactive()
+Calculate version as pValue.$version()
+Calculate code as pValue.$code()
+Calculate display as pValue.$display()

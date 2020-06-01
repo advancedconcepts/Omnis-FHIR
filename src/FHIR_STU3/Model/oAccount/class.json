@@ -1,0 +1,157 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "active",
+			"order": 8,
+			"type": "kObjectref",
+			"subtype": "oPeriod",
+			"sublen": 0,
+			"desc": "Indicates the period of time over which the account is allowed to have transactions posted to it.\nThis period may be different to the coveragePeriod which is the duration of time that services may occur."
+		},
+		{
+			"name": "balance",
+			"order": 9,
+			"type": "kObjectref",
+			"subtype": "oMoney",
+			"sublen": 0,
+			"desc": "Represents the sum of all credits less all debits associated with the account.  Might be positive, zero or negative."
+		},
+		{
+			"name": "coverage",
+			"order": 10,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "coverage_",
+			"order": 11,
+			"type": "kObjectref",
+			"subtype": "oAccountCoverage",
+			"sublen": 0,
+			"desc": "The party(s) that are responsible for covering the payment of this account, and what order should they be applied to the account."
+		},
+		{
+			"name": "description",
+			"order": 13,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Provides additional information about what the account tracks and how it is used."
+		},
+		{
+			"name": "guarantor",
+			"order": 14,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "guarantor_",
+			"order": 15,
+			"type": "kObjectref",
+			"subtype": "oAccountGuarantor",
+			"sublen": 0,
+			"desc": "Parties financially responsible for the account."
+		},
+		{
+			"name": "identifier",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "identifier_",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "Unique identifier used to reference the account.  May or may not be intended for human use (e.g. credit card number)."
+		},
+		{
+			"name": "name",
+			"order": 5,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Name used for the account when displaying it to humans in reports, etc."
+		},
+		{
+			"name": "owner",
+			"order": 12,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Indicates the organization, department, etc. with responsibility for the account."
+		},
+		{
+			"name": "period",
+			"order": 7,
+			"type": "kObjectref",
+			"subtype": "oPeriod",
+			"sublen": 0,
+			"desc": "Identifies the period of time the account applies to; e.g. accounts created per fiscal year, quarter, etc."
+		},
+		{
+			"name": "status",
+			"order": 3,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Indicates whether the account is presently used/usable or not."
+		},
+		{
+			"name": "subject",
+			"order": 6,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Identifies the patient, device, practitioner, location or other object the account is associated with."
+		},
+		{
+			"name": "type",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Categorizes the account for reporting and searching purposes."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:39:56",
+		"desc": "Base StructureDefinition for Account Resource",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:26",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

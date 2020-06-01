@@ -1,0 +1,10 @@
+Do inherited
+Calculate verified as pValue.$verified()
+Calculate verificationType as pValue.$verificationType()
+Calculate verifiedBy as pValue.$verifiedBy()
+Calculate verifiedWith as pValue.$verifiedWith()
+Do verificationDate.$clear()
+Calculate list as pValue.$verificationDate()
+Do verificationDate.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

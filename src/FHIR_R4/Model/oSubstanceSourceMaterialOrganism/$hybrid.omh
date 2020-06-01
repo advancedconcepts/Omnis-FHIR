@@ -1,0 +1,4 @@
+If hybrid.$validref()=kFalse
+	Calculate hybrid as $clib.$classes.oSubstanceSourceMaterialOrganismHybrid.$newref()
+End If
+Quit method hybrid

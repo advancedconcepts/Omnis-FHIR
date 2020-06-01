@@ -1,0 +1,8 @@
+Do inherited
+Calculate origin as pValue.$origin()
+Calculate period as pValue.$period()
+Calculate factor as pValue.$factor()
+Calculate lowerLimit as pValue.$lowerLimit()
+Calculate upperLimit as pValue.$upperLimit()
+Calculate dimensions as pValue.$dimensions()
+Calculate data as pValue.$data()

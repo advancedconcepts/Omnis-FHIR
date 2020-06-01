@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$SHALL",
+		"ident": 0,
+		"order": 1,
+		"desc": "Support for the specified capability is strongly encouraged, and failure to support it should only occur after careful consideration.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$SHOULD",
+		"ident": 1,
+		"order": 2,
+		"desc": "Support for the specified capability is not necessary to be considered conformant, and the requirement should be considered strictly optional.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MAY",
+		"ident": 2,
+		"order": 3,
+		"desc": "Support for the specified capability is strongly discouraged and should occur only after careful consideration.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$SHOULD-NOT",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

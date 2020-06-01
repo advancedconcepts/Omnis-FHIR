@@ -1,0 +1,197 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$coverage",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: Reference to the insurance card level information contained in the Coverage resource. The coverage issuing insurer will use these details to locate the patient's actual coverage within the insurer's information system.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$coverage.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Reference to the insurance card level information contained in the Coverage resource. The coverage issuing insurer will use these details to locate the patient's actual coverage within the insurer's information system."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$inforce",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: Flag indicating if the coverage provided is inforce currently if no service date(s) specified or for the whole duration of the service dates.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$inforce.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "Flag indicating if the coverage provided is inforce currently if no service date(s) specified or for the whole duration of the service dates."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$benefitPeriod",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: The term of the benefits documented in this response.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$benefitPeriod.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oPeriod",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The term of the benefits documented in this response."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$item",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: Benefits and optionally current balances, and authorization details by category or service.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$additem",
+		"ident": 11,
+		"order": 12,
+		"desc": "Benefits and optionally current balances, and authorization details by category or service.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCoverageEligibilityResponseInsuranceItem",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCoverageEligibilityResponseInsuranceItem",
+				"sublen": 0,
+				"desc": "Benefits and optionally current balances, and authorization details by category or service."
+			}
+		]
+	}
+]

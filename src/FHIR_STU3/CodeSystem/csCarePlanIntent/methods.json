@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$proposal",
+		"ident": 0,
+		"order": 1,
+		"desc": "The care plan represents an intention to ensure something occurs without providing an authorization for others to act",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$plan",
+		"ident": 1,
+		"order": 2,
+		"desc": "The care plan represents a request/demand and authorization for action",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$order",
+		"ident": 2,
+		"order": 3,
+		"desc": "The care plan represents a component or option for a RequestGroup that establishes timing, conditionality and/or other constraints among a set of requests.\n\nRefer to [[[RequestGroup]]] for additional information on how this status is used",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$option",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

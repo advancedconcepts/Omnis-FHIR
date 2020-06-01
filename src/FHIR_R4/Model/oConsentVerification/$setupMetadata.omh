@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("verified","verified",1,"1",22,"boolean")
+Do pElements.$add("verifiedWith","verifiedWith",0,"1",38,"Reference")
+Do pElements.$add("verificationDate","verificationDate",0,"1",23,"dateTime")

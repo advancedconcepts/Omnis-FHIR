@@ -1,0 +1,569 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$::type",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: Server interaction or operation type.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCoding",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Server interaction or operation type."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$resource",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: The type of the resource.  See http://hl7.org/fhir/STU3/resourcelist.html.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$resource.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The type of the resource.  See http://hl7.org/fhir/STU3/resourcelist.html."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$label",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: The label would be used for tracking/logging purposes by test engines.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$label.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The label would be used for tracking/logging purposes by test engines."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$description",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: The description would be used by test engines for tracking and reporting purposes.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$description.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The description would be used by test engines for tracking and reporting purposes."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$accept",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: The content-type or mime-type to use for RESTful operation in the 'Accept' header.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$accept.$assign",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The content-type or mime-type to use for RESTful operation in the 'Accept' header."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$contentType",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: The content-type or mime-type to use for RESTful operation in the 'Content-Type' header.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$contentType.$assign",
+		"ident": 15,
+		"order": 16,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The content-type or mime-type to use for RESTful operation in the 'Content-Type' header."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$destination",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: The server where the request message is destined for.  Must be one of the server numbers listed in TestScript.destination section.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$destination.$assign",
+		"ident": 17,
+		"order": 18,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The server where the request message is destined for.  Must be one of the server numbers listed in TestScript.destination section."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$encodeRequestUrl",
+		"ident": 18,
+		"order": 19,
+		"desc": "Returns: Whether or not to implicitly send the request url in encoded format. The default is true to match the standard RESTful client behavior. Set to false when communicating with a server that does not support encoded url paths.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$encodeRequestUrl.$assign",
+		"ident": 19,
+		"order": 20,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "Whether or not to implicitly send the request url in encoded format. The default is true to match the standard RESTful client behavior. Set to false when communicating with a server that does not support encoded url paths."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$origin",
+		"ident": 20,
+		"order": 21,
+		"desc": "Returns: The server where the request message originates from.  Must be one of the server numbers listed in TestScript.origin section.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$origin.$assign",
+		"ident": 21,
+		"order": 22,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The server where the request message originates from.  Must be one of the server numbers listed in TestScript.origin section."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$params",
+		"ident": 22,
+		"order": 23,
+		"desc": "Returns: Path plus parameters after [type].  Used to set parts of the request URL explicitly.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$params.$assign",
+		"ident": 23,
+		"order": 24,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Path plus parameters after [type].  Used to set parts of the request URL explicitly."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$requestHeader",
+		"ident": 24,
+		"order": 25,
+		"desc": "Returns: Header elements would be used to set HTTP headers.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addrequestHeader",
+		"ident": 25,
+		"order": 26,
+		"desc": "Header elements would be used to set HTTP headers.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oTestScriptSetupActionOperationRequestHeader",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oTestScriptSetupActionOperationRequestHeader",
+				"sublen": 0,
+				"desc": "Header elements would be used to set HTTP headers."
+			}
+		]
+	},
+	{
+		"name": "$requestId",
+		"ident": 26,
+		"order": 27,
+		"desc": "Returns: The fixture id (maybe new) to map to the request.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$requestId.$assign",
+		"ident": 27,
+		"order": 28,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The fixture id (maybe new) to map to the request."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$responseId",
+		"ident": 28,
+		"order": 29,
+		"desc": "Returns: The fixture id (maybe new) to map to the response.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$responseId.$assign",
+		"ident": 29,
+		"order": 30,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The fixture id (maybe new) to map to the response."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sourceId",
+		"ident": 30,
+		"order": 31,
+		"desc": "Returns: The id of the fixture used as the body of a PUT or POST request.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sourceId.$assign",
+		"ident": 31,
+		"order": 32,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The id of the fixture used as the body of a PUT or POST request."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$targetId",
+		"ident": 32,
+		"order": 33,
+		"desc": "Returns: Id of fixture used for extracting the [id],  [type], and [vid] for GET requests.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$targetId.$assign",
+		"ident": 33,
+		"order": 34,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Id of fixture used for extracting the [id],  [type], and [vid] for GET requests."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$url",
+		"ident": 34,
+		"order": 35,
+		"desc": "Returns: Complete request URL.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$url.$assign",
+		"ident": 35,
+		"order": 36,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Complete request URL."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,6 @@
+Do inherited
+Calculate fullUrl as pValue.$fullUrl()
+Calculate resource as pValue.$resource()
+Calculate search as pValue.$search()
+Calculate request as pValue.$request()
+Calculate response as pValue.$response()

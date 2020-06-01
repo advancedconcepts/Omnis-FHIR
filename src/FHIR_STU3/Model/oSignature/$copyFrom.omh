@@ -1,0 +1,9 @@
+Do inherited
+Do type.$clear()
+Calculate list as pValue.$type()
+Do type.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate when as pValue.$when()
+Calculate contentType as pValue.$contentType()
+Calculate blob as pValue.$blob()

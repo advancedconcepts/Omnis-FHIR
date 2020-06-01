@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$CI",
+		"ident": 0,
+		"order": 1,
+		"desc": "interquartile range.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$IQR",
+		"ident": 1,
+		"order": 2,
+		"desc": "standard deviation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$SD",
+		"ident": 2,
+		"order": 3,
+		"desc": "standard error.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$SE",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

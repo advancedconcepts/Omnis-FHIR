@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$type",
+		"ident": 0,
+		"order": 1,
+		"desc": "Endocrine related states that change the expected value.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$endocrine",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

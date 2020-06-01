@@ -1,0 +1,180 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "category",
+			"order": 1,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "High-level categorization of the type of activity in a care plan."
+		},
+		{
+			"name": "code",
+			"order": 3,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Detailed description of the type of planned activity; e.g. What lab test, what procedure, what kind of encounter."
+		},
+		{
+			"name": "dailyAmount",
+			"order": 16,
+			"type": "kObjectref",
+			"subtype": "oQuantity",
+			"sublen": 0,
+			"desc": "Identifies the quantity expected to be consumed in a given day."
+		},
+		{
+			"name": "definition",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Identifies the protocol, questionnaire, guideline or other specification the planned activity should be conducted in accordance with."
+		},
+		{
+			"name": "description",
+			"order": 18,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "This provides a textual description of constraints on the intended activity occurrence, including relation to other activities.  It may also include objectives, pre-conditions and end-conditions.  Finally, it may convey specifics about the activity such a"
+		},
+		{
+			"name": "goal",
+			"order": 8,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "goal_",
+			"order": 9,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Internal reference that identifies the goals that this activity is intended to contribute towards meeting."
+		},
+		{
+			"name": "location",
+			"order": 13,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Identifies the facility where the activity will occur; e.g. home, hospital, specific clinic, etc."
+		},
+		{
+			"name": "performer",
+			"order": 14,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "performer_",
+			"order": 15,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Identifies who's expected to be involved in the activity."
+		},
+		{
+			"name": "prohibited",
+			"order": 12,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "If true, indicates that the described activity is one that must NOT be engaged in when following the plan.  If false, indicates that the described activity is one that should be engaged in when following the plan."
+		},
+		{
+			"name": "quantity",
+			"order": 17,
+			"type": "kObjectref",
+			"subtype": "oQuantity",
+			"sublen": 0,
+			"desc": "Identifies the quantity expected to be supplied, administered or consumed by the subject."
+		},
+		{
+			"name": "reasonCode",
+			"order": 4,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "reasonCode_",
+			"order": 5,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Provides the rationale that drove the inclusion of this particular activity as part of the plan or the reason why the activity was prohibited."
+		},
+		{
+			"name": "reasonReference",
+			"order": 6,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "reasonReference_",
+			"order": 7,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Provides the health condition(s) that drove the inclusion of this particular activity as part of the plan."
+		},
+		{
+			"name": "status",
+			"order": 10,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Identifies what progress is being made for the specific activity."
+		},
+		{
+			"name": "statusReason",
+			"order": 11,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Provides reason why the activity isn't yet started, is on hold, was cancelled, etc."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:39:57",
+		"desc": "A simple summary of a planned activity suitable for a general care plan system (e.g. form driven) that doesn't know about specific resources such as procedure etc.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:26",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

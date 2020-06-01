@@ -1,0 +1,16 @@
+Do inherited
+Do rating.$clear()
+Calculate list as pValue.$rating()
+Do rating.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do note.$clear()
+Calculate list as pValue.$note()
+Do note.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do certaintySubcomponent.$clear()
+Calculate list as pValue.$certaintySubcomponent()
+Do certaintySubcomponent.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$instructions",
+		"ident": 0,
+		"order": 1,
+		"desc": "The text provides guidance on how the information should be or will be handled from a security/confidentiality/access control perspective when completed",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$security",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

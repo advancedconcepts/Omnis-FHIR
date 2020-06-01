@@ -1,0 +1,4 @@
+If standardSequence.$validref()=kFalse
+	Calculate standardSequence as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method standardSequence

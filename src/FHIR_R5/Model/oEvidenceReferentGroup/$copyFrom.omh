@@ -1,0 +1,10 @@
+Do inherited
+Calculate description as pValue.$description()
+Do note.$clear()
+Calculate list as pValue.$note()
+Do note.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate evidenceSource as pValue.$evidenceSource()
+Calculate intendedGroup as pValue.$intendedGroup()
+Calculate directnessMatch as pValue.$directnessMatch()

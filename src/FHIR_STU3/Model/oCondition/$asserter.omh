@@ -1,0 +1,4 @@
+If asserter.$validref()=kFalse
+	Calculate asserter as $clib.$classes.oReference.$newref()
+End If
+Quit method asserter

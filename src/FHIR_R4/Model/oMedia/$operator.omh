@@ -1,0 +1,4 @@
+If operator.$validref()=kFalse
+	Calculate operator as $clib.$classes.oReference.$newref()
+End If
+Quit method operator

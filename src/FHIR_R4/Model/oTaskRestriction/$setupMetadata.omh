@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("repetitions","repetitions",0,"1",26,"positiveInt")
+Do pElements.$add("period","period",0,"1",38,"Period")
+Do pElements.$add("recipient","recipient",0,"-1",38,"Reference")

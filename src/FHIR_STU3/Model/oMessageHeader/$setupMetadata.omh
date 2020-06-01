@@ -1,0 +1,13 @@
+Do inherited
+Do pElements.$add("event","event",1,"1",38,"Coding")
+Do pElements.$add("destination","destination",0,"-1",38,"")
+Do pElements.$add("receiver","receiver",0,"1",38,"Reference")
+Do pElements.$add("sender","sender",0,"1",38,"Reference")
+Do pElements.$add("timestamp","timestamp",1,"1",23,"instant")
+Do pElements.$add("enterer","enterer",0,"1",38,"Reference")
+Do pElements.$add("author","author",0,"1",38,"Reference")
+Do pElements.$add("source","source",1,"1",38,"")
+Do pElements.$add("responsible","responsible",0,"1",38,"Reference")
+Do pElements.$add("reason","reason",0,"1",38,"CodeableConcept")
+Do pElements.$add("response","response",0,"1",38,"")
+Do pElements.$add("focus","focus",0,"-1",38,"Reference")

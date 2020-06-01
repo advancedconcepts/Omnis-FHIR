@@ -1,0 +1,73 @@
+[
+	{
+		"name": "$base",
+		"ident": 0,
+		"order": 1,
+		"desc": "the amount is a surcharge applied on the base price.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$surcharge",
+		"ident": 1,
+		"order": 2,
+		"desc": "the amount is a deduction applied on the base price.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$deduction",
+		"ident": 2,
+		"order": 3,
+		"desc": "the amount is a discount applied on the base price.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$discount",
+		"ident": 3,
+		"order": 4,
+		"desc": "the amount is the tax component of the total price.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$tax",
+		"ident": 4,
+		"order": 5,
+		"desc": "the amount is of informational character, it has not been applied in the calculation of the total price.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$informational",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

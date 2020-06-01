@@ -1,0 +1,322 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "about",
+			"order": 22,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "about_",
+			"order": 23,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Other resources that pertain to this communication and to which this communication should be associated."
+		},
+		{
+			"name": "basedOn",
+			"order": 7,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "basedOn_",
+			"order": 8,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "An order, proposal or plan fulfilled in whole or in part by this Communication."
+		},
+		{
+			"name": "category",
+			"order": 15,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "category_",
+			"order": 16,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The type of message conveyed such as alert, notification, reminder, instruction, etc."
+		},
+		{
+			"name": "encounter",
+			"order": 24,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The Encounter during which this Communication was created or to which the creation of this record is tightly associated."
+		},
+		{
+			"name": "identifier",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "identifier_",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "Business identifiers assigned to this communication by the performer or other systems which remain constant as the resource is updated and propagates from server to server."
+		},
+		{
+			"name": "inResponseTo",
+			"order": 11,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "inResponseTo_",
+			"order": 12,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Prior communication that this communication is in response to."
+		},
+		{
+			"name": "instantiatesCanonical",
+			"order": 3,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "instantiatesCanonical_",
+			"order": 4,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The URL pointing to a FHIR-defined protocol, guideline, orderset or other definition that is adhered to in whole or in part by this Communication."
+		},
+		{
+			"name": "instantiatesUri",
+			"order": 5,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "instantiatesUri_",
+			"order": 6,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The URL pointing to an externally maintained protocol, guideline, orderset or other definition that is adhered to in whole or in part by this Communication."
+		},
+		{
+			"name": "medium",
+			"order": 18,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "medium_",
+			"order": 19,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "A channel that was used for this communication (e.g. email, fax)."
+		},
+		{
+			"name": "note",
+			"order": 36,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "note_",
+			"order": 37,
+			"type": "kObjectref",
+			"subtype": "oAnnotation",
+			"sublen": 0,
+			"desc": "Additional notes or commentary about the communication by the sender, receiver or other interested parties."
+		},
+		{
+			"name": "partOf",
+			"order": 9,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "partOf_",
+			"order": 10,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "A larger event (e.g. Communication, Procedure) of which this particular communication is a component or step."
+		},
+		{
+			"name": "payload",
+			"order": 34,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "payload_",
+			"order": 35,
+			"type": "kObjectref",
+			"subtype": "oCommunicationPayload",
+			"sublen": 0,
+			"desc": "Text, attachment(s), or resource(s) that was communicated to the recipient."
+		},
+		{
+			"name": "priority",
+			"order": 17,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Characterizes how quickly the planned or in progress communication must be addressed. Includes concepts such as stat, urgent, routine."
+		},
+		{
+			"name": "reasonCode",
+			"order": 30,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "reasonCode_",
+			"order": 31,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The reason or justification for the communication."
+		},
+		{
+			"name": "reasonReference",
+			"order": 32,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "reasonReference_",
+			"order": 33,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Indicates another resource whose existence justifies this communication."
+		},
+		{
+			"name": "received",
+			"order": 26,
+			"type": "kDate",
+			"subtype": "kDatetime",
+			"sublen": 0,
+			"desc": "The time when this communication arrived at the destination."
+		},
+		{
+			"name": "recipient",
+			"order": 27,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "recipient_",
+			"order": 28,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The entity (e.g. person, organization, clinical information system, care team or device) which is the target of the communication."
+		},
+		{
+			"name": "sender",
+			"order": 29,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The entity (e.g. person, organization, clinical information system, or device) which is the source of the communication."
+		},
+		{
+			"name": "sent",
+			"order": 25,
+			"type": "kDate",
+			"subtype": "kDatetime",
+			"sublen": 0,
+			"desc": "The time when this communication was sent."
+		},
+		{
+			"name": "status",
+			"order": 13,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The status of the transmission."
+		},
+		{
+			"name": "statusReason",
+			"order": 14,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Captures the reason for the current state of the Communication."
+		},
+		{
+			"name": "subject",
+			"order": 20,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The patient or group that was the focus of this communication."
+		},
+		{
+			"name": "topic",
+			"order": 21,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Description of the purpose/content, similar to a subject line in an email."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:44:42",
+		"desc": "An occurrence of information being transmitted; e.g. an alert that was sent to a responsible provider, a public health agency communication to a provider/reporter in response to a case report for a reportable condition.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:29",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

@@ -1,0 +1,5 @@
+Do inherited
+Do pElements.$add("itemSequence","itemSequence",1,"1",26,"positiveInt")
+Do pElements.$add("noteNumber","noteNumber",0,"-1",26,"positiveInt")
+Do pElements.$add("adjudication","adjudication",1,"-1",38,"")
+Do pElements.$add("detail","detail",0,"-1",38,"")

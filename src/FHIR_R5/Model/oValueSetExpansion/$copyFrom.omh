@@ -1,0 +1,20 @@
+Do inherited
+Calculate identifier as pValue.$identifier()
+Calculate timestamp as pValue.$timestamp()
+Calculate total as pValue.$total()
+Calculate offset as pValue.$offset()
+Do parameter.$clear()
+Calculate list as pValue.$parameter()
+Do parameter.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do property.$clear()
+Calculate list as pValue.$property()
+Do property.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do contains.$clear()
+Calculate list as pValue.$contains()
+Do contains.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

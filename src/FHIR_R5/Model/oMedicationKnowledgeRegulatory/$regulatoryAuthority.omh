@@ -1,0 +1,4 @@
+If regulatoryAuthority.$validref()=kFalse
+	Calculate regulatoryAuthority as $clib.$classes.oReference.$newref()
+End If
+Quit method regulatoryAuthority

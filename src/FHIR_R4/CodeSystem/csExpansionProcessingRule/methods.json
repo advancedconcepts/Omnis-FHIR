@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$all-codes",
+		"ident": 0,
+		"order": 1,
+		"desc": "The expanion (when in UI mode) lists the groups, and then any codes that have not been included in a group.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ungrouped",
+		"ident": 1,
+		"order": 2,
+		"desc": "The expansion (when in UI mode) only includes the defined groups.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$groups-only",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

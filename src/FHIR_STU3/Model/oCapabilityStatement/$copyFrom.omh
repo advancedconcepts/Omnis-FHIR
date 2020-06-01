@@ -1,0 +1,72 @@
+Do inherited
+Calculate url as pValue.$url()
+Calculate version as pValue.$version()
+Calculate name as pValue.$name()
+Calculate title as pValue.$title()
+Calculate status as pValue.$status()
+Calculate experimental as pValue.$experimental()
+Calculate date as pValue.$date()
+Calculate publisher as pValue.$publisher()
+Do contact.$clear()
+Calculate list as pValue.$contact()
+Do contact.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate description as pValue.$description()
+Do useContext.$clear()
+Calculate list as pValue.$useContext()
+Do useContext.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do jurisdiction.$clear()
+Calculate list as pValue.$jurisdiction()
+Do jurisdiction.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate purpose as pValue.$purpose()
+Calculate copyright as pValue.$copyright()
+Calculate kind as pValue.$kind()
+Do instantiates.$clear()
+Calculate list as pValue.$instantiates()
+Do instantiates.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate software as pValue.$software()
+Calculate implementation as pValue.$implementation()
+Calculate fhirVersion as pValue.$fhirVersion()
+Calculate acceptUnknown as pValue.$acceptUnknown()
+Do format.$clear()
+Calculate list as pValue.$format()
+Do format.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do patchFormat.$clear()
+Calculate list as pValue.$patchFormat()
+Do patchFormat.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do implementationGuide.$clear()
+Calculate list as pValue.$implementationGuide()
+Do implementationGuide.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do profile.$clear()
+Calculate list as pValue.$profile()
+Do profile.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do rest.$clear()
+Calculate list as pValue.$rest()
+Do rest.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do messaging.$clear()
+Calculate list as pValue.$messaging()
+Do messaging.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do document.$clear()
+Calculate list as pValue.$document()
+Do document.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

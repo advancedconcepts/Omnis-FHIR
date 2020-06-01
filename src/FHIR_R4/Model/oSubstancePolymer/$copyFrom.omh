@@ -1,0 +1,23 @@
+Do inherited
+Calculate class as pValue.$class()
+Calculate geometry as pValue.$geometry()
+Do copolymerConnectivity.$clear()
+Calculate list as pValue.$copolymerConnectivity()
+Do copolymerConnectivity.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do modification.$clear()
+Calculate list as pValue.$modification()
+Do modification.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do monomerSet.$clear()
+Calculate list as pValue.$monomerSet()
+Do monomerSet.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do repeat.$clear()
+Calculate list as pValue.$repeat()
+Do repeat.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

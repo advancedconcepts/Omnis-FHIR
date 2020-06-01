@@ -1,0 +1,7 @@
+Do inherited
+Do pElements.$add("class","class",0,"1",38,"CodeableConcept")
+Do pElements.$add("geometry","geometry",0,"1",38,"CodeableConcept")
+Do pElements.$add("copolymerConnectivity","copolymerConnectivity",0,"-1",38,"CodeableConcept")
+Do pElements.$add("modification","modification",0,"-1",21,"string")
+Do pElements.$add("monomerSet","monomerSet",0,"-1",38,"")
+Do pElements.$add("repeat","repeat",0,"-1",38,"")

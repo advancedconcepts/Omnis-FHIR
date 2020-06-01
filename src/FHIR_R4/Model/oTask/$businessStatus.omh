@@ -1,0 +1,4 @@
+If businessStatus.$validref()=kFalse
+	Calculate businessStatus as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method businessStatus

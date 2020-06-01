@@ -1,0 +1,59 @@
+Do inherited
+Calculate identifier as pValue.$identifier()
+Do definition.$clear()
+Calculate list as pValue.$definition()
+Do definition.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate status as pValue.$status()
+Do partOf.$clear()
+Calculate list as pValue.$partOf()
+Do partOf.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate code as pValue.$code()
+Calculate subject as pValue.$subject()
+Calculate context as pValue.$context()
+Do participant.$clear()
+Calculate list as pValue.$participant()
+Do participant.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate performingOrganization as pValue.$performingOrganization()
+Calculate requestingOrganization as pValue.$requestingOrganization()
+Calculate quantity as pValue.$quantity()
+Do bodysite.$clear()
+Calculate list as pValue.$bodysite()
+Do bodysite.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate factorOverride as pValue.$factorOverride()
+Calculate priceOverride as pValue.$priceOverride()
+Calculate overrideReason as pValue.$overrideReason()
+Calculate enterer as pValue.$enterer()
+Calculate enteredDate as pValue.$enteredDate()
+Do reason.$clear()
+Calculate list as pValue.$reason()
+Do reason.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do service.$clear()
+Calculate list as pValue.$service()
+Do service.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do account.$clear()
+Calculate list as pValue.$account()
+Do account.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do note.$clear()
+Calculate list as pValue.$note()
+Do note.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do supportingInformation.$clear()
+Calculate list as pValue.$supportingInformation()
+Do supportingInformation.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

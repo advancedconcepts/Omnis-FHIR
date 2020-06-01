@@ -1,0 +1,7 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"1",38,"Identifier")
+Do pElements.$add("typeCollected","typeCollected",0,"1",38,"CodeableConcept")
+Do pElements.$add("patientPreparation","patientPreparation",0,"-1",38,"CodeableConcept")
+Do pElements.$add("timeAspect","timeAspect",0,"1",21,"string")
+Do pElements.$add("collection","collection",0,"-1",38,"CodeableConcept")
+Do pElements.$add("typeTested","typeTested",0,"-1",38,"")

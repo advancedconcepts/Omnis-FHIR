@@ -1,0 +1,6 @@
+Do inherited
+Do pElements.$add("collector","collector",0,"1",38,"Reference")
+Do pElements.$add("duration","duration",0,"1",38,"Duration")
+Do pElements.$add("quantity","quantity",0,"1",38,"Quantity")
+Do pElements.$add("method","method",0,"1",38,"CodeableConcept")
+Do pElements.$add("bodySite","bodySite",0,"1",38,"CodeableConcept")

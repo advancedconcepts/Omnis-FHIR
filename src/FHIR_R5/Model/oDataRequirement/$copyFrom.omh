@@ -1,0 +1,40 @@
+Do inherited
+Calculate type as pValue.$type()
+Do profile.$clear()
+Calculate list as pValue.$profile()
+Do profile.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do mustSupport.$clear()
+Calculate list as pValue.$mustSupport()
+Do mustSupport.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do codeFilter.$clear()
+Calculate list as pValue.$codeFilter()
+Do codeFilter.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate codeFilter.path as pValue.$codeFilter.path()
+Calculate codeFilter.searchParam as pValue.$codeFilter.searchParam()
+Calculate codeFilter.valueSet as pValue.$codeFilter.valueSet()
+Do codeFilter.code.$clear()
+Calculate list as pValue.$codeFilter.code()
+Do codeFilter.code.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do dateFilter.$clear()
+Calculate list as pValue.$dateFilter()
+Do dateFilter.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate dateFilter.path as pValue.$dateFilter.path()
+Calculate dateFilter.searchParam as pValue.$dateFilter.searchParam()
+Calculate limit as pValue.$limit()
+Do sort.$clear()
+Calculate list as pValue.$sort()
+Do sort.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate sort.path as pValue.$sort.path()
+Calculate sort.direction as pValue.$sort.direction()

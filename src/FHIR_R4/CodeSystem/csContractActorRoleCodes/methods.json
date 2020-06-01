@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$practitioner",
+		"ident": 0,
+		"order": 1,
+		"desc": "A receiver, human or animal, of health care related goods and services.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$patient",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

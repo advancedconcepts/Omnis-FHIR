@@ -1,0 +1,145 @@
+[
+	{
+		"name": "$admitting",
+		"ident": 0,
+		"order": 1,
+		"desc": "A diagnosis made on the basis of medical signs and patient-reported symptoms, rather than diagnostic tests.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$clinical",
+		"ident": 1,
+		"order": 2,
+		"desc": "One of a set of the possible diagnoses that could be connected to the signs, symptoms, and lab findings.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$differential",
+		"ident": 2,
+		"order": 3,
+		"desc": "The diagnosis given when the patient is discharged from the hospital.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$discharge",
+		"ident": 3,
+		"order": 4,
+		"desc": "A diagnosis based significantly on laboratory reports or test results, rather than the physical examination of the patient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$laboratory",
+		"ident": 4,
+		"order": 5,
+		"desc": "A diagnosis which identifies people's responses to situations in their lives, such as a readiness to change or a willingness to accept assistance.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$nursing",
+		"ident": 5,
+		"order": 6,
+		"desc": "A diagnosis determined prior to birth.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$prenatal",
+		"ident": 6,
+		"order": 7,
+		"desc": "The single medical diagnosis that is most relevant to the patient's chief complaint or need for treatment.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$principal",
+		"ident": 7,
+		"order": 8,
+		"desc": "A diagnosis based primarily on the results from medical imaging studies.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$radiology",
+		"ident": 8,
+		"order": 9,
+		"desc": "A diagnosis determined using telemedicine techniques.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$remote",
+		"ident": 9,
+		"order": 10,
+		"desc": "The labeling of an illness in a specific historical event using modern knowledge, methods and disease classifications.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$retrospective",
+		"ident": 10,
+		"order": 11,
+		"desc": "A diagnosis determined by the patient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$self",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,11 @@
+Do inherited
+Calculate description as pValue.$description()
+Calculate type as pValue.$type()
+Calculate variantState as pValue.$variantState()
+Calculate value as pValue.$value()
+Calculate unitOfMeasure as pValue.$unitOfMeasure()
+Do precisionEstimate.$clear()
+Calculate list as pValue.$precisionEstimate()
+Do precisionEstimate.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

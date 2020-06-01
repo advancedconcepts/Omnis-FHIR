@@ -1,0 +1,4 @@
+If group.$validref()=kFalse
+	Calculate group as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method group

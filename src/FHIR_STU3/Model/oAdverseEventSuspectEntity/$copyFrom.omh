@@ -1,0 +1,8 @@
+Do inherited
+Calculate instance as pValue.$instance()
+Calculate causality as pValue.$causality()
+Calculate causalityAssessment as pValue.$causalityAssessment()
+Calculate causalityProductRelatedness as pValue.$causalityProductRelatedness()
+Calculate causalityMethod as pValue.$causalityMethod()
+Calculate causalityAuthor as pValue.$causalityAuthor()
+Calculate causalityResult as pValue.$causalityResult()

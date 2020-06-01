@@ -1,0 +1,4 @@
+If patientCharacteristics.$validref()=kFalse
+	Calculate patientCharacteristics as $clib.$classes.oMedicationKnowledgeAdministrationGuidelinesPatientCharacteristics.$newref()
+End If
+Quit method patientCharacteristics

@@ -1,0 +1,547 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$identifier",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: This records identifiers associated with this condition that are defined by business processes and/or used to refer to it when a direct URL reference to the resource itself is not appropriate (e.g. in CDA documents, or in written / printed documentation).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addidentifier",
+		"ident": 6,
+		"order": 7,
+		"desc": "This records identifiers associated with this condition that are defined by business processes and/or used to refer to it when a direct URL reference to the resource itself is not appropriate (e.g. in CDA documents, or in written / printed documentation).",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"desc": "This records identifiers associated with this condition that are defined by business processes and/or used to refer to it when a direct URL reference to the resource itself is not appropriate (e.g. in CDA documents, or in written / printed documentation)."
+			}
+		]
+	},
+	{
+		"name": "$clinicalStatus",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: The clinical status of the condition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$clinicalStatus.$assign",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The clinical status of the condition."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$verificationStatus",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: The verification status to support the clinical status of the condition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$verificationStatus.$assign",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The verification status to support the clinical status of the condition."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$category",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: A category assigned to the condition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcategory",
+		"ident": 12,
+		"order": 13,
+		"desc": "A category assigned to the condition.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "A category assigned to the condition."
+			}
+		]
+	},
+	{
+		"name": "$severity",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: A subjective assessment of the severity of the condition as evaluated by the clinician.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$severity.$assign",
+		"ident": 14,
+		"order": 15,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "A subjective assessment of the severity of the condition as evaluated by the clinician."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$code",
+		"ident": 15,
+		"order": 16,
+		"desc": "Returns: Identification of the condition, problem or diagnosis.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$code.$assign",
+		"ident": 16,
+		"order": 17,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Identification of the condition, problem or diagnosis."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$bodySite",
+		"ident": 17,
+		"order": 18,
+		"desc": "Returns: The anatomical location where this condition manifests itself.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addbodySite",
+		"ident": 18,
+		"order": 19,
+		"desc": "The anatomical location where this condition manifests itself.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "The anatomical location where this condition manifests itself."
+			}
+		]
+	},
+	{
+		"name": "$subject",
+		"ident": 19,
+		"order": 20,
+		"desc": "Returns: Indicates the patient or group who the condition record is associated with.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subject.$assign",
+		"ident": 20,
+		"order": 21,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Indicates the patient or group who the condition record is associated with."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$context",
+		"ident": 21,
+		"order": 22,
+		"desc": "Returns: Encounter during which the condition was first asserted.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$context.$assign",
+		"ident": 22,
+		"order": 23,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Encounter during which the condition was first asserted."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$assertedDate",
+		"ident": 23,
+		"order": 24,
+		"desc": "Returns: The date on which the existance of the Condition was first asserted or acknowledged.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$assertedDate.$assign",
+		"ident": 24,
+		"order": 25,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kDate",
+				"subtype": "kDatetime",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The date on which the existance of the Condition was first asserted or acknowledged."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$asserter",
+		"ident": 25,
+		"order": 26,
+		"desc": "Returns: Individual who is making the condition statement.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$asserter.$assign",
+		"ident": 26,
+		"order": 27,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Individual who is making the condition statement."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$stage",
+		"ident": 27,
+		"order": 28,
+		"desc": "Returns: Clinical stage or grade of a condition. May include formal severity assessments.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$stage.$assign",
+		"ident": 28,
+		"order": 29,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oConditionStage",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Clinical stage or grade of a condition. May include formal severity assessments."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$evidence",
+		"ident": 29,
+		"order": 30,
+		"desc": "Returns: Supporting Evidence / manifestations that are the basis on which this condition is suspected or confirmed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addevidence",
+		"ident": 30,
+		"order": 31,
+		"desc": "Supporting Evidence / manifestations that are the basis on which this condition is suspected or confirmed.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oConditionEvidence",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oConditionEvidence",
+				"sublen": 0,
+				"desc": "Supporting Evidence / manifestations that are the basis on which this condition is suspected or confirmed."
+			}
+		]
+	},
+	{
+		"name": "$note",
+		"ident": 31,
+		"order": 32,
+		"desc": "Returns: Additional information about the Condition. This is a general notes/comments entry  for description of the Condition, its diagnosis and prognosis.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addnote",
+		"ident": 32,
+		"order": 33,
+		"desc": "Additional information about the Condition. This is a general notes/comments entry  for description of the Condition, its diagnosis and prognosis.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oAnnotation",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oAnnotation",
+				"sublen": 0,
+				"desc": "Additional information about the Condition. This is a general notes/comments entry  for description of the Condition, its diagnosis and prognosis."
+			}
+		]
+	}
+]

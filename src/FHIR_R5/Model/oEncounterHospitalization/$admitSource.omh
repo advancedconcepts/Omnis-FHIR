@@ -1,0 +1,4 @@
+If admitSource.$validref()=kFalse
+	Calculate admitSource as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method admitSource

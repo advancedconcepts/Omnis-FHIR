@@ -1,0 +1,474 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "accident",
+			"order": 42,
+			"type": "kObjectref",
+			"subtype": "oExplanationOfBenefitAccident",
+			"sublen": 0,
+			"desc": "Details of a accident which resulted in injuries which required the products and services listed in the claim."
+		},
+		{
+			"name": "addItem",
+			"order": 45,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "addItem_",
+			"order": 46,
+			"type": "kObjectref",
+			"subtype": "oExplanationOfBenefitAddItem",
+			"sublen": 0,
+			"desc": "The first-tier service adjudications for payor added product or service lines."
+		},
+		{
+			"name": "benefitBalance",
+			"order": 55,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "benefitBalance_",
+			"order": 56,
+			"type": "kObjectref",
+			"subtype": "oExplanationOfBenefitBenefitBalance",
+			"sublen": 0,
+			"desc": "Balance by Benefit Category."
+		},
+		{
+			"name": "benefitPeriod",
+			"order": 54,
+			"type": "kObjectref",
+			"subtype": "oPeriod",
+			"sublen": 0,
+			"desc": "The term of the benefits documented in this response."
+		},
+		{
+			"name": "billablePeriod",
+			"order": 8,
+			"type": "kObjectref",
+			"subtype": "oPeriod",
+			"sublen": 0,
+			"desc": "The period for which charges are being submitted."
+		},
+		{
+			"name": "careTeam",
+			"order": 31,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "careTeam_",
+			"order": 32,
+			"type": "kObjectref",
+			"subtype": "oExplanationOfBenefitCareTeam",
+			"sublen": 0,
+			"desc": "The members of the team who provided the products and services."
+		},
+		{
+			"name": "claim",
+			"order": 23,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The business identifier for the instance of the adjudication request: claim predetermination or preauthorization."
+		},
+		{
+			"name": "claimResponse",
+			"order": 24,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The business identifier for the instance of the adjudication response: claim, predetermination or preauthorization response."
+		},
+		{
+			"name": "created",
+			"order": 9,
+			"type": "kDate",
+			"subtype": "kDatetime",
+			"sublen": 0,
+			"desc": "The date this resource was created."
+		},
+		{
+			"name": "diagnosis",
+			"order": 35,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "diagnosis_",
+			"order": 36,
+			"type": "kObjectref",
+			"subtype": "oExplanationOfBenefitDiagnosis",
+			"sublen": 0,
+			"desc": "Information about diagnoses relevant to the claim items."
+		},
+		{
+			"name": "disposition",
+			"order": 26,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A human readable description of the status of the adjudication."
+		},
+		{
+			"name": "enterer",
+			"order": 10,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Individual who created the claim, predetermination or preauthorization."
+		},
+		{
+			"name": "facility",
+			"order": 22,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Facility where the services were provided."
+		},
+		{
+			"name": "form",
+			"order": 51,
+			"type": "kObjectref",
+			"subtype": "oAttachment",
+			"sublen": 0,
+			"desc": "The actual form, by reference or inclusion, for printing the content or an EOB."
+		},
+		{
+			"name": "formCode",
+			"order": 50,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "A code for the form to be used for printing the content."
+		},
+		{
+			"name": "fundsReserve",
+			"order": 15,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "A code, used only on a response to a preauthorization, to indicate whether the benefits payable have been reserved and for whom."
+		},
+		{
+			"name": "fundsReserveRequested",
+			"order": 14,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "A code to indicate whether and for whom funds are to be reserved for future claims."
+		},
+		{
+			"name": "identifier",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "identifier_",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "A unique identifier assigned to this explanation of benefit."
+		},
+		{
+			"name": "insurance",
+			"order": 40,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "insurance_",
+			"order": 41,
+			"type": "kObjectref",
+			"subtype": "oExplanationOfBenefitInsurance",
+			"sublen": 0,
+			"desc": "Financial instruments for reimbursement for the health care products and services specified on the claim."
+		},
+		{
+			"name": "insurer",
+			"order": 11,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The party responsible for authorization, adjudication and reimbursement."
+		},
+		{
+			"name": "item",
+			"order": 43,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "item_",
+			"order": 44,
+			"type": "kObjectref",
+			"subtype": "oExplanationOfBenefitItem",
+			"sublen": 0,
+			"desc": "A claim line. Either a simple (a product or service) or a 'group' of details which can also be a simple items or groups of sub-details."
+		},
+		{
+			"name": "originalPrescription",
+			"order": 19,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Original prescription which has been superseded by this prescription to support the dispensing of pharmacy services, medications or products."
+		},
+		{
+			"name": "outcome",
+			"order": 25,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The outcome of the claim, predetermination, or preauthorization processing."
+		},
+		{
+			"name": "patient",
+			"order": 7,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The party to whom the professional services and/or products have been supplied or are being considered and for whom actual for forecast reimbursement is sought."
+		},
+		{
+			"name": "payee",
+			"order": 20,
+			"type": "kObjectref",
+			"subtype": "oExplanationOfBenefitPayee",
+			"sublen": 0,
+			"desc": "The party to be reimbursed for cost of the products and services according to the terms of the policy."
+		},
+		{
+			"name": "payment",
+			"order": 49,
+			"type": "kObjectref",
+			"subtype": "oExplanationOfBenefitPayment",
+			"sublen": 0,
+			"desc": "Payment details for the adjudication of the claim."
+		},
+		{
+			"name": "preAuthRef",
+			"order": 27,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "preAuthRefPeriod",
+			"order": 29,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "preAuthRefPeriod_",
+			"order": 30,
+			"type": "kObjectref",
+			"subtype": "oPeriod",
+			"sublen": 0,
+			"desc": "The timeframe during which the supplied preauthorization reference may be quoted on claims to obtain the adjudication as provided."
+		},
+		{
+			"name": "preAuthRef_",
+			"order": 28,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Reference from the Insurer which is used in later communications which refers to this adjudication."
+		},
+		{
+			"name": "precedence",
+			"order": 39,
+			"type": "kInteger",
+			"subtype": "k32bitint",
+			"sublen": 0,
+			"desc": "This indicates the relative order of a series of EOBs related to different coverages for the same suite of services."
+		},
+		{
+			"name": "prescription",
+			"order": 18,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Prescription to support the dispensing of pharmacy, device or vision products."
+		},
+		{
+			"name": "priority",
+			"order": 13,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The provider-required urgency of processing the request. Typical values include: stat, routine deferred."
+		},
+		{
+			"name": "procedure",
+			"order": 37,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "procedure_",
+			"order": 38,
+			"type": "kObjectref",
+			"subtype": "oExplanationOfBenefitProcedure",
+			"sublen": 0,
+			"desc": "Procedures performed on the patient relevant to the billing items with the claim."
+		},
+		{
+			"name": "processNote",
+			"order": 52,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "processNote_",
+			"order": 53,
+			"type": "kObjectref",
+			"subtype": "oExplanationOfBenefitProcessNote",
+			"sublen": 0,
+			"desc": "A note that describes or explains adjudication results in a human readable form."
+		},
+		{
+			"name": "provider",
+			"order": 12,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The provider which is responsible for the claim, predetermination or preauthorization."
+		},
+		{
+			"name": "referral",
+			"order": 21,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "A reference to a referral resource."
+		},
+		{
+			"name": "related",
+			"order": 16,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "related_",
+			"order": 17,
+			"type": "kObjectref",
+			"subtype": "oExplanationOfBenefitRelated",
+			"sublen": 0,
+			"desc": "Other claims which are related to this claim such as prior submissions or claims for related services or for the same event."
+		},
+		{
+			"name": "status",
+			"order": 3,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The status of the resource instance."
+		},
+		{
+			"name": "subType",
+			"order": 5,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "A finer grained suite of claim type codes which may convey additional information such as Inpatient vs Outpatient and/or a specialty service."
+		},
+		{
+			"name": "supportingInfo",
+			"order": 33,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "supportingInfo_",
+			"order": 34,
+			"type": "kObjectref",
+			"subtype": "oExplanationOfBenefitSupportingInfo",
+			"sublen": 0,
+			"desc": "Additional information codes regarding exceptions, special considerations, the condition, situation, prior or concurrent issues."
+		},
+		{
+			"name": "total",
+			"order": 47,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "total_",
+			"order": 48,
+			"type": "kObjectref",
+			"subtype": "oExplanationOfBenefitTotal",
+			"sublen": 0,
+			"desc": "Categorized monetary totals for the adjudication."
+		},
+		{
+			"name": "type",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The category of claim, e.g. oral, pharmacy, vision, institutional, professional."
+		},
+		{
+			"name": "use",
+			"order": 6,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A code to indicate whether the nature of the request is: to request adjudication of products and services previously rendered; or requesting authorization and adjudication for provision in the future; or requesting the non-binding adjudication of the list"
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:44:48",
+		"desc": "This resource provides: the claim details; adjudication details from the processing of a Claim; and optionally account balance information, for informing the subscriber of the benefits provided.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:28",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

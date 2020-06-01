@@ -1,0 +1,531 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$::type",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: INDEL / SNP / Undefined variant.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "INDEL / SNP / Undefined variant."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$standardSequence",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: Gold standard sequence used for comparing against.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$standardSequence.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Gold standard sequence used for comparing against."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$start",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: Start position of the sequence. If the coordinate system is either 0-based or 1-based, then start position is inclusive.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$start.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Start position of the sequence. If the coordinate system is either 0-based or 1-based, then start position is inclusive."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$end",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: End position of the sequence. If the coordinate system is 0-based then end is exclusive and does not include the last position. If the coordinate system is 1-base, then end is inclusive and includes the last position.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$end.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "End position of the sequence. If the coordinate system is 0-based then end is exclusive and does not include the last position. If the coordinate system is 1-base, then end is inclusive and includes the last position."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$score",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: The score of an experimentally derived feature such as a p-value ([SO:0001685](http://www.sequenceontology.org/browser/current_svn/term/SO:0001685)).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$score.$assign",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oQuantity",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The score of an experimentally derived feature such as a p-value ([SO:0001685](http://www.sequenceontology.org/browser/current_svn/term/SO:0001685))."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$method",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: Which method is used to get sequence quality.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$method.$assign",
+		"ident": 15,
+		"order": 16,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Which method is used to get sequence quality."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$truthTP",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: True positives, from the perspective of the truth data, i.e. the number of sites in the Truth Call Set for which there are paths through the Query Call Set that are consistent with all of the alleles at this site, and for which there is an accurate genotype call for the event.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$truthTP.$assign",
+		"ident": 17,
+		"order": 18,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kNumber",
+				"subtype": "kFloatdp",
+				"sublen": 0,
+				"param": 1,
+				"desc": "True positives, from the perspective of the truth data, i.e. the number of sites in the Truth Call Set for which there are paths through the Query Call Set that are consistent with all of the alleles at this site, and for which there is an accurate genoty"
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$queryTP",
+		"ident": 18,
+		"order": 19,
+		"desc": "Returns: True positives, from the perspective of the query data, i.e. the number of sites in the Query Call Set for which there are paths through the Truth Call Set that are consistent with all of the alleles at this site, and for which there is an accurate genotype call for the event.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$queryTP.$assign",
+		"ident": 19,
+		"order": 20,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kNumber",
+				"subtype": "kFloatdp",
+				"sublen": 0,
+				"param": 1,
+				"desc": "True positives, from the perspective of the query data, i.e. the number of sites in the Query Call Set for which there are paths through the Truth Call Set that are consistent with all of the alleles at this site, and for which there is an accurate genoty"
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$truthFN",
+		"ident": 20,
+		"order": 21,
+		"desc": "Returns: False negatives, i.e. the number of sites in the Truth Call Set for which there is no path through the Query Call Set that is consistent with all of the alleles at this site, or sites for which there is an inaccurate genotype call for the event. Sites with correct variant but incorrect genotype are counted here.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$truthFN.$assign",
+		"ident": 21,
+		"order": 22,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kNumber",
+				"subtype": "kFloatdp",
+				"sublen": 0,
+				"param": 1,
+				"desc": "False negatives, i.e. the number of sites in the Truth Call Set for which there is no path through the Query Call Set that is consistent with all of the alleles at this site, or sites for which there is an inaccurate genotype call for the event. Sites wit"
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$queryFP",
+		"ident": 22,
+		"order": 23,
+		"desc": "Returns: False positives, i.e. the number of sites in the Query Call Set for which there is no path through the Truth Call Set that is consistent with this site. Sites with correct variant but incorrect genotype are counted here.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$queryFP.$assign",
+		"ident": 23,
+		"order": 24,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kNumber",
+				"subtype": "kFloatdp",
+				"sublen": 0,
+				"param": 1,
+				"desc": "False positives, i.e. the number of sites in the Query Call Set for which there is no path through the Truth Call Set that is consistent with this site. Sites with correct variant but incorrect genotype are counted here."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$gtFP",
+		"ident": 24,
+		"order": 25,
+		"desc": "Returns: The number of false positives where the non-REF alleles in the Truth and Query Call Sets match (i.e. cases where the truth is 1/1 and the query is 0/1 or similar).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$gtFP.$assign",
+		"ident": 25,
+		"order": 26,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kNumber",
+				"subtype": "kFloatdp",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The number of false positives where the non-REF alleles in the Truth and Query Call Sets match (i.e. cases where the truth is 1/1 and the query is 0/1 or similar)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$precision",
+		"ident": 26,
+		"order": 27,
+		"desc": "Returns: QUERY.TP / (QUERY.TP + QUERY.FP).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$precision.$assign",
+		"ident": 27,
+		"order": 28,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kNumber",
+				"subtype": "kFloatdp",
+				"sublen": 0,
+				"param": 1,
+				"desc": "QUERY.TP / (QUERY.TP + QUERY.FP)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$recall",
+		"ident": 28,
+		"order": 29,
+		"desc": "Returns: TRUTH.TP / (TRUTH.TP + TRUTH.FN).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$recall.$assign",
+		"ident": 29,
+		"order": 30,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kNumber",
+				"subtype": "kFloatdp",
+				"sublen": 0,
+				"param": 1,
+				"desc": "TRUTH.TP / (TRUTH.TP + TRUTH.FN)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$fScore",
+		"ident": 30,
+		"order": 31,
+		"desc": "Returns: Harmonic mean of Recall and Precision, computed as: 2 * precision * recall / (precision + recall).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$fScore.$assign",
+		"ident": 31,
+		"order": 32,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kNumber",
+				"subtype": "kFloatdp",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Harmonic mean of Recall and Precision, computed as: 2 * precision * recall / (precision + recall)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$roc",
+		"ident": 32,
+		"order": 33,
+		"desc": "Returns: Receiver Operator Characteristic (ROC) Curve  to give sensitivity/specificity tradeoff.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$roc.$assign",
+		"ident": 33,
+		"order": 34,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMolecularSequenceQualityRoc",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Receiver Operator Characteristic (ROC) Curve  to give sensitivity/specificity tradeoff."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,109 @@
+[
+	{
+		"name": "$haemodynamic",
+		"ident": 0,
+		"order": 1,
+		"desc": "ECG Parameter Group - MDC_PGRP_ECG.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ecg",
+		"ident": 1,
+		"order": 2,
+		"desc": "Respiratory Parameter Group - MDC_PGRP_RESP.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$respiratory",
+		"ident": 2,
+		"order": 3,
+		"desc": "Ventilation Parameter Group - MDC_PGRP_VENT.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ventilation",
+		"ident": 3,
+		"order": 4,
+		"desc": "Neurological Parameter Group - MDC_PGRP_NEURO.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$neurological",
+		"ident": 4,
+		"order": 5,
+		"desc": "Drug Delivery Parameter Group - MDC_PGRP_DRUG.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$drug-delivery",
+		"ident": 5,
+		"order": 6,
+		"desc": "Fluid Chemistry Parameter Group - MDC_PGRP_FLUID.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$fluid-chemistry",
+		"ident": 6,
+		"order": 7,
+		"desc": "Blood Chemistry Parameter Group - MDC_PGRP_BLOOD_CHEM.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$blood-chemistry",
+		"ident": 7,
+		"order": 8,
+		"desc": "Miscellaneous Parameter Group - MDC_PGRP_MISC.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$miscellaneous",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

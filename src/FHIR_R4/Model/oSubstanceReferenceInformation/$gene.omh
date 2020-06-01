@@ -1,0 +1,4 @@
+If gene.$validref()=kFalse
+	Calculate gene as $clib.$classes.oSubstanceReferenceInformationGene.$newref()
+End If
+Quit method gene

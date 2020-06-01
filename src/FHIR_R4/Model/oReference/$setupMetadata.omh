@@ -1,0 +1,5 @@
+Do inherited
+Do pElements.$add("reference","reference",0,"1",21,"string")
+Do pElements.$add("type","::type",0,"1",21,"uri")
+Do pElements.$add("identifier","identifier",0,"1",38,"Identifier")
+Do pElements.$add("display","display",0,"1",21,"string")

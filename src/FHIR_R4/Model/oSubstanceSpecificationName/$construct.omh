@@ -1,0 +1,6 @@
+Do inherited
+Do language.$define(language_)
+Do domain.$define(domain_)
+Do jurisdiction.$define(jurisdiction_)
+Do official.$define(official_)
+Do source.$define(source_)

@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$y",
+		"ident": 0,
+		"order": 1,
+		"desc": "Diagnosis was not present at time of inpatient admission.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$n",
+		"ident": 1,
+		"order": 2,
+		"desc": "Documentation insufficient to determine if condition was present at the time of inpatient admission.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$u",
+		"ident": 2,
+		"order": 3,
+		"desc": "Clinically undetermined. Provider unable to clinically determine whether the condition was present at the time of inpatient admission.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$w",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

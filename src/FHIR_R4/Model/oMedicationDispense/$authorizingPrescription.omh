@@ -1,0 +1,4 @@
+If authorizingPrescription.$validref()=kFalse
+	Calculate authorizingPrescription as $clib.$classes.oReference.$newref()
+End If
+Quit method authorizingPrescription

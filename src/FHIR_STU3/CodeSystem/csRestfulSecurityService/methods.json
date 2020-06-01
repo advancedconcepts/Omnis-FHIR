@@ -1,0 +1,73 @@
+[
+	{
+		"name": "$OAuth",
+		"ident": 0,
+		"order": 1,
+		"desc": "OAuth2 using SMART-on-FHIR profile (see http://docs.smarthealthit.org/).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$SMART-on-FHIR",
+		"ident": 1,
+		"order": 2,
+		"desc": "Microsoft NTLM Authentication.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$NTLM",
+		"ident": 2,
+		"order": 3,
+		"desc": "Basic authentication defined in HTTP specification.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Basic",
+		"ident": 3,
+		"order": 4,
+		"desc": "see http://www.ietf.org/rfc/rfc4120.txt.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Kerberos",
+		"ident": 4,
+		"order": 5,
+		"desc": "SSL where client must have a certificate registered with the server.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Certificates",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

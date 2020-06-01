@@ -1,0 +1,4 @@
+If structuralRepresentation.$validref()=kFalse
+	Calculate structuralRepresentation as $clib.$classes.oSubstancePolymerRepeatRepeatUnitStructuralRepresentation.$newref()
+End If
+Quit method structuralRepresentation

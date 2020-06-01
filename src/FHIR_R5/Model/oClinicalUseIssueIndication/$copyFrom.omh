@@ -1,0 +1,15 @@
+Do inherited
+Calculate diseaseSymptomProcedure as pValue.$diseaseSymptomProcedure()
+Calculate diseaseStatus as pValue.$diseaseStatus()
+Do comorbidity.$clear()
+Calculate list as pValue.$comorbidity()
+Do comorbidity.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate intendedEffect as pValue.$intendedEffect()
+Calculate duration as pValue.$duration()
+Do undesirableEffect.$clear()
+Calculate list as pValue.$undesirableEffect()
+Do undesirableEffect.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

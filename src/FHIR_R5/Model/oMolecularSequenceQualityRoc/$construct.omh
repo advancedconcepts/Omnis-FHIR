@@ -1,0 +1,8 @@
+Do inherited
+Do score.$define(score_)
+Do numTP.$define(numTP_)
+Do numFP.$define(numFP_)
+Do numFN.$define(numFN_)
+Do precision.$define(precision_)
+Do sensitivity.$define(sensitivity_)
+Do fMeasure.$define(fMeasure_)

@@ -1,0 +1,6 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"-1",38,"Identifier")
+Do pElements.$add("patient","patient",1,"1",38,"Reference")
+Do pElements.$add("date","date",1,"1",23,"dateTime")
+Do pElements.$add("authority","authority",0,"1",38,"Reference")
+Do pElements.$add("recommendation","recommendation",1,"-1",38,"")

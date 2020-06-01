@@ -1,0 +1,163 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "collection",
+			"order": 11,
+			"type": "kObjectref",
+			"subtype": "oBiologicallyDerivedProductCollection",
+			"sublen": 0,
+			"desc": "How this product was collected."
+		},
+		{
+			"name": "identifier",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "identifier_",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "This records identifiers associated with this biologically derived product instance that are defined by business processes and/or used to refer to it when a direct URL reference to the resource itself is not appropriate (e.g. in CDA documents, or in writt"
+		},
+		{
+			"name": "manipulation",
+			"order": 14,
+			"type": "kObjectref",
+			"subtype": "oBiologicallyDerivedProductManipulation",
+			"sublen": 0,
+			"desc": "Any manipulation of product post-collection that is intended to alter the product.  For example a buffy-coat enrichment or CD8 reduction of Peripheral Blood Stem Cells to make it more suitable for infusion."
+		},
+		{
+			"name": "parent",
+			"order": 9,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "parent_",
+			"order": 10,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Parent product (if any)."
+		},
+		{
+			"name": "processing",
+			"order": 12,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "processing_",
+			"order": 13,
+			"type": "kObjectref",
+			"subtype": "oBiologicallyDerivedProductProcessing",
+			"sublen": 0,
+			"desc": "Any processing of the product during collection that does not change the fundamental nature of the product. For example adding anti-coagulants during the collection of Peripheral Blood Stem Cells."
+		},
+		{
+			"name": "productCategory",
+			"order": 3,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Broad category of this product."
+		},
+		{
+			"name": "productCode",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "A code that identifies the kind of this biologically derived product (SNOMED Ctcode)."
+		},
+		{
+			"name": "quantity",
+			"order": 8,
+			"type": "kInteger",
+			"subtype": "k32bitint",
+			"sublen": 0,
+			"desc": "Number of discrete units within this product."
+		},
+		{
+			"name": "request",
+			"order": 6,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "request_",
+			"order": 7,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Procedure request to obtain this biologically derived product."
+		},
+		{
+			"name": "status",
+			"order": 5,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Whether the product is currently available."
+		},
+		{
+			"name": "storage",
+			"order": 15,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "storage_",
+			"order": 16,
+			"type": "kObjectref",
+			"subtype": "oBiologicallyDerivedProductStorage",
+			"sublen": 0,
+			"desc": "Product storage."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:41:33",
+		"desc": "A material substance originating from a biological entity intended to be transplanted or infused\ninto another (possibly the same) biological entity.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:24",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

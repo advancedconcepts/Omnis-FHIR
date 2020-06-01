@@ -1,0 +1,133 @@
+[
+	{
+		"name": "$M",
+		"ident": 0,
+		"order": 1,
+		"desc": "The chewing surface of posterior teeth.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$O",
+		"ident": 1,
+		"order": 2,
+		"desc": "The biting edge of anterior teeth.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$I",
+		"ident": 2,
+		"order": 3,
+		"desc": "The surface of a tooth that faces away from the midline of the face.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$D",
+		"ident": 3,
+		"order": 4,
+		"desc": "The surface of a posterior tooth facing the cheeks.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$B",
+		"ident": 4,
+		"order": 5,
+		"desc": "The surface of a tooth facing the lips.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$V",
+		"ident": 5,
+		"order": 6,
+		"desc": "The surface of a tooth facing the tongue.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$L",
+		"ident": 6,
+		"order": 7,
+		"desc": "The Mesioclusal surfaces of a tooth.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MO",
+		"ident": 7,
+		"order": 8,
+		"desc": "The Distoclusal surfaces of a tooth.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$DO",
+		"ident": 8,
+		"order": 9,
+		"desc": "The Distoincisal surfaces of a tooth.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$DI",
+		"ident": 9,
+		"order": 10,
+		"desc": "The Mesioclusodistal surfaces of a tooth.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MOD",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,4 @@
+Do inherited
+Calculate sequence as pValue.$sequence()
+Calculate information as pValue.$information()
+Calculate appliesToAll as pValue.$appliesToAll()

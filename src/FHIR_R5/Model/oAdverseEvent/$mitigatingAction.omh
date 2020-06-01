@@ -1,0 +1,4 @@
+If mitigatingAction.$validref()=kFalse
+	Calculate mitigatingAction as $clib.$classes.oAdverseEventMitigatingAction.$newref()
+End If
+Quit method mitigatingAction

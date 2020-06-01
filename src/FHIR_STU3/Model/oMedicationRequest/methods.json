@@ -1,0 +1,861 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$identifier",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: This records identifiers associated with this medication request that are defined by business processes and/or used to refer to it when a direct URL reference to the resource itself is not appropriate. For example a re-imbursement system might issue its own id for each prescription that is created.  This is particularly important where FHIR only provides part of an entire workflow process where records must be tracked through an entire system.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addidentifier",
+		"ident": 6,
+		"order": 7,
+		"desc": "This records identifiers associated with this medication request that are defined by business processes and/or used to refer to it when a direct URL reference to the resource itself is not appropriate. For example a re-imbursement system might issue its own id for each prescription that is created.  This is particularly important where FHIR only provides part of an entire workflow process where records must be tracked through an entire system.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"desc": "This records identifiers associated with this medication request that are defined by business processes and/or used to refer to it when a direct URL reference to the resource itself is not appropriate. For example a re-imbursement system might issue its o"
+			}
+		]
+	},
+	{
+		"name": "$definition",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: Protocol or definition followed by this request.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$adddefinition",
+		"ident": 8,
+		"order": 9,
+		"desc": "Protocol or definition followed by this request.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Protocol or definition followed by this request."
+			}
+		]
+	},
+	{
+		"name": "$basedOn",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: A plan or request that is fulfilled in whole or in part by this medication request.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addbasedOn",
+		"ident": 10,
+		"order": 11,
+		"desc": "A plan or request that is fulfilled in whole or in part by this medication request.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "A plan or request that is fulfilled in whole or in part by this medication request."
+			}
+		]
+	},
+	{
+		"name": "$groupIdentifier",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: A shared identifier common to all requests that were authorized more or less simultaneously by a single author, representing the identifier of the requisition or prescription.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$groupIdentifier.$assign",
+		"ident": 12,
+		"order": 13,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1,
+				"desc": "A shared identifier common to all requests that were authorized more or less simultaneously by a single author, representing the identifier of the requisition or prescription."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$status",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: A code specifying the current state of the order.  Generally this will be active or completed state.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$status.$assign",
+		"ident": 14,
+		"order": 15,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A code specifying the current state of the order.  Generally this will be active or completed state."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$intent",
+		"ident": 15,
+		"order": 16,
+		"desc": "Returns: Whether the request is a proposal, plan, or an original order.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$intent.$assign",
+		"ident": 16,
+		"order": 17,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Whether the request is a proposal, plan, or an original order."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$category",
+		"ident": 17,
+		"order": 18,
+		"desc": "Returns: Indicates the type of medication order and where the medication is expected to be consumed or administered.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$category.$assign",
+		"ident": 18,
+		"order": 19,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Indicates the type of medication order and where the medication is expected to be consumed or administered."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$priority",
+		"ident": 19,
+		"order": 20,
+		"desc": "Returns: Indicates how quickly the Medication Request should be addressed with respect to other requests.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$priority.$assign",
+		"ident": 20,
+		"order": 21,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Indicates how quickly the Medication Request should be addressed with respect to other requests."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subject",
+		"ident": 21,
+		"order": 22,
+		"desc": "Returns: A link to a resource representing the person or set of individuals to whom the medication will be given.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subject.$assign",
+		"ident": 22,
+		"order": 23,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "A link to a resource representing the person or set of individuals to whom the medication will be given."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$context",
+		"ident": 23,
+		"order": 24,
+		"desc": "Returns: A link to an encounter, or episode of care, that identifies the particular occurrence or set occurrences of contact between patient and health care provider.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$context.$assign",
+		"ident": 24,
+		"order": 25,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "A link to an encounter, or episode of care, that identifies the particular occurrence or set occurrences of contact between patient and health care provider."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$supportingInformation",
+		"ident": 25,
+		"order": 26,
+		"desc": "Returns: Include additional information (for example, patient height and weight) that supports the ordering of the medication.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addsupportingInformation",
+		"ident": 26,
+		"order": 27,
+		"desc": "Include additional information (for example, patient height and weight) that supports the ordering of the medication.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Include additional information (for example, patient height and weight) that supports the ordering of the medication."
+			}
+		]
+	},
+	{
+		"name": "$authoredOn",
+		"ident": 27,
+		"order": 28,
+		"desc": "Returns: The date (and perhaps time) when the prescription was initially written or authored on.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$authoredOn.$assign",
+		"ident": 28,
+		"order": 29,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kDate",
+				"subtype": "kDatetime",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The date (and perhaps time) when the prescription was initially written or authored on."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$requester",
+		"ident": 29,
+		"order": 30,
+		"desc": "Returns: The individual, organization or device that initiated the request and has responsibility for its activation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$requester.$assign",
+		"ident": 30,
+		"order": 31,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMedicationRequestRequester",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The individual, organization or device that initiated the request and has responsibility for its activation."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$recorder",
+		"ident": 31,
+		"order": 32,
+		"desc": "Returns: The person who entered the order on behalf of another individual for example in the case of a verbal or a telephone order.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$recorder.$assign",
+		"ident": 32,
+		"order": 33,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The person who entered the order on behalf of another individual for example in the case of a verbal or a telephone order."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$reasonCode",
+		"ident": 33,
+		"order": 34,
+		"desc": "Returns: The reason or the indication for ordering the medication.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addreasonCode",
+		"ident": 34,
+		"order": 35,
+		"desc": "The reason or the indication for ordering the medication.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "The reason or the indication for ordering the medication."
+			}
+		]
+	},
+	{
+		"name": "$reasonReference",
+		"ident": 35,
+		"order": 36,
+		"desc": "Returns: Condition or observation that supports why the medication was ordered.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addreasonReference",
+		"ident": 36,
+		"order": 37,
+		"desc": "Condition or observation that supports why the medication was ordered.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Condition or observation that supports why the medication was ordered."
+			}
+		]
+	},
+	{
+		"name": "$note",
+		"ident": 37,
+		"order": 38,
+		"desc": "Returns: Extra information about the prescription that could not be conveyed by the other attributes.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addnote",
+		"ident": 38,
+		"order": 39,
+		"desc": "Extra information about the prescription that could not be conveyed by the other attributes.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oAnnotation",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oAnnotation",
+				"sublen": 0,
+				"desc": "Extra information about the prescription that could not be conveyed by the other attributes."
+			}
+		]
+	},
+	{
+		"name": "$dosageInstruction",
+		"ident": 39,
+		"order": 40,
+		"desc": "Returns: Indicates how the medication is to be used by the patient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$adddosageInstruction",
+		"ident": 40,
+		"order": 41,
+		"desc": "Indicates how the medication is to be used by the patient.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oDosage",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oDosage",
+				"sublen": 0,
+				"desc": "Indicates how the medication is to be used by the patient."
+			}
+		]
+	},
+	{
+		"name": "$dispenseRequest",
+		"ident": 41,
+		"order": 42,
+		"desc": "Returns: Indicates the specific details for the dispense or medication supply part of a medication request (also known as a Medication Prescription or Medication Order).  Note that this information is not always sent with the order.  There may be in some settings (e.g. hospitals) institutional or system support for completing the dispense details in the pharmacy department.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$dispenseRequest.$assign",
+		"ident": 42,
+		"order": 43,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMedicationRequestDispenseRequest",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Indicates the specific details for the dispense or medication supply part of a medication request (also known as a Medication Prescription or Medication Order).  Note that this information is not always sent with the order.  There may be in some settings "
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$substitution",
+		"ident": 43,
+		"order": 44,
+		"desc": "Returns: Indicates whether or not substitution can or should be part of the dispense. In some cases substitution must happen, in other cases substitution must not happen. This block explains the prescriber's intent. If nothing is specified substitution may be done.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$substitution.$assign",
+		"ident": 44,
+		"order": 45,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMedicationRequestSubstitution",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Indicates whether or not substitution can or should be part of the dispense. In some cases substitution must happen, in other cases substitution must not happen. This block explains the prescriber's intent. If nothing is specified substitution may be done"
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$priorPrescription",
+		"ident": 45,
+		"order": 46,
+		"desc": "Returns: A link to a resource representing an earlier order related order or prescription.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$priorPrescription.$assign",
+		"ident": 46,
+		"order": 47,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "A link to a resource representing an earlier order related order or prescription."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$detectedIssue",
+		"ident": 47,
+		"order": 48,
+		"desc": "Returns: Indicates an actual or potential clinical issue with or between one or more active or proposed clinical actions for a patient; e.g. Drug-drug interaction, duplicate therapy, dosage alert etc.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$adddetectedIssue",
+		"ident": 48,
+		"order": 49,
+		"desc": "Indicates an actual or potential clinical issue with or between one or more active or proposed clinical actions for a patient; e.g. Drug-drug interaction, duplicate therapy, dosage alert etc.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Indicates an actual or potential clinical issue with or between one or more active or proposed clinical actions for a patient; e.g. Drug-drug interaction, duplicate therapy, dosage alert etc."
+			}
+		]
+	},
+	{
+		"name": "$eventHistory",
+		"ident": 49,
+		"order": 50,
+		"desc": "Returns: Links to Provenance records for past versions of this resource or fulfilling request or event resources that identify key state transitions or updates that are likely to be relevant to a user looking at the current version of the resource.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addeventHistory",
+		"ident": 50,
+		"order": 51,
+		"desc": "Links to Provenance records for past versions of this resource or fulfilling request or event resources that identify key state transitions or updates that are likely to be relevant to a user looking at the current version of the resource.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Links to Provenance records for past versions of this resource or fulfilling request or event resources that identify key state transitions or updates that are likely to be relevant to a user looking at the current version of the resource."
+			}
+		]
+	}
+]

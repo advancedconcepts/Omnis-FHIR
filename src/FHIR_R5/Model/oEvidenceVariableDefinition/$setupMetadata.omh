@@ -1,0 +1,7 @@
+Do inherited
+Do pElements.$add("description","description",0,"1",21,"markdown")
+Do pElements.$add("note","note",0,"-1",38,"Annotation")
+Do pElements.$add("variableRole","variableRole",0,"1",38,"CodeableConcept")
+Do pElements.$add("actualDefinition","actualDefinition",0,"1",38,"Reference")
+Do pElements.$add("intendedDefinition","intendedDefinition",0,"1",38,"Reference")
+Do pElements.$add("directnessMatch","directnessMatch",0,"1",38,"CodeableConcept")

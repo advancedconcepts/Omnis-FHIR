@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$group",
+		"ident": 0,
+		"order": 1,
+		"desc": "UI controls relevant to rendering questionnaire text items",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$text",
+		"ident": 1,
+		"order": 2,
+		"desc": "UI controls relevant to capturing question data",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$question",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

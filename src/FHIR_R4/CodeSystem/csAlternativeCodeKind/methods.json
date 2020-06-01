@@ -1,0 +1,61 @@
+[
+	{
+		"name": "$alternate",
+		"ident": 0,
+		"order": 1,
+		"desc": "The code should no longer be used, but was used in the past.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$deprecated",
+		"ident": 1,
+		"order": 2,
+		"desc": "The code is an alternative to be used when a case insensitive code is required (when the primary codes are case sensitive).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$case-insensitive",
+		"ident": 2,
+		"order": 3,
+		"desc": "The code is an alternative to be used when a case sensitive code is required (when the primary codes are case insensitive).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$case-sensitive",
+		"ident": 3,
+		"order": 4,
+		"desc": "The code is an alternative for the primary code that is built using the expression grammar defined by the code system.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$expression",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

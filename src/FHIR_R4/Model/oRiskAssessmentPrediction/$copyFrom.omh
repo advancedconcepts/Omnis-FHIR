@@ -1,0 +1,5 @@
+Do inherited
+Calculate outcome as pValue.$outcome()
+Calculate qualitativeRisk as pValue.$qualitativeRisk()
+Calculate relativeRisk as pValue.$relativeRisk()
+Calculate rationale as pValue.$rationale()

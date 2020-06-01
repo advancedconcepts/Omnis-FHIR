@@ -1,0 +1,7 @@
+Do inherited
+Do pElements.$add("type","::type",1,"1",38,"CodeableConcept")
+Do pElements.$add("subType","subType",0,"1",38,"CodeableConcept")
+Do pElements.$add("publisher","publisher",0,"1",38,"Reference")
+Do pElements.$add("publicationDate","publicationDate",0,"1",23,"dateTime")
+Do pElements.$add("publicationStatus","publicationStatus",1,"1",21,"code")
+Do pElements.$add("copyright","copyright",0,"1",21,"markdown")

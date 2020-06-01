@@ -1,0 +1,4 @@
+If recorder.$validref()=kFalse
+	Calculate recorder as $clib.$classes.oReference.$newref()
+End If
+Quit method recorder

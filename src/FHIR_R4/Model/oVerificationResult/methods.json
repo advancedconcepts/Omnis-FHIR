@@ -1,0 +1,541 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$target",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: A resource that was validated.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addtarget",
+		"ident": 6,
+		"order": 7,
+		"desc": "A resource that was validated.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "A resource that was validated."
+			}
+		]
+	},
+	{
+		"name": "$targetLocation",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: The fhirpath location(s) within the resource that was validated.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addtargetLocation",
+		"ident": 8,
+		"order": 9,
+		"desc": "The fhirpath location(s) within the resource that was validated.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The fhirpath location(s) within the resource that was validated."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$need",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: The frequency with which the target must be validated (none; initial; periodic).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$need.$assign",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The frequency with which the target must be validated (none; initial; periodic)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$status",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: The validation status of the target (attested; validated; in process; requires revalidation; validation failed; revalidation failed).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$status.$assign",
+		"ident": 12,
+		"order": 13,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The validation status of the target (attested; validated; in process; requires revalidation; validation failed; revalidation failed)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$statusDate",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: When the validation status was updated.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$statusDate.$assign",
+		"ident": 14,
+		"order": 15,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kDate",
+				"subtype": "kDatetime",
+				"sublen": 0,
+				"param": 1,
+				"desc": "When the validation status was updated."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$validationType",
+		"ident": 15,
+		"order": 16,
+		"desc": "Returns: What the target is validated against (nothing; primary source; multiple sources).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$validationType.$assign",
+		"ident": 16,
+		"order": 17,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "What the target is validated against (nothing; primary source; multiple sources)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$validationProcess",
+		"ident": 17,
+		"order": 18,
+		"desc": "Returns: The primary process by which the target is validated (edit check; value set; primary source; multiple sources; standalone; in context).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addvalidationProcess",
+		"ident": 18,
+		"order": 19,
+		"desc": "The primary process by which the target is validated (edit check; value set; primary source; multiple sources; standalone; in context).",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "The primary process by which the target is validated (edit check; value set; primary source; multiple sources; standalone; in context)."
+			}
+		]
+	},
+	{
+		"name": "$frequency",
+		"ident": 19,
+		"order": 20,
+		"desc": "Returns: Frequency of revalidation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$frequency.$assign",
+		"ident": 20,
+		"order": 21,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oTiming",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Frequency of revalidation."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$lastPerformed",
+		"ident": 21,
+		"order": 22,
+		"desc": "Returns: The date/time validation was last completed (including failed validations).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$lastPerformed.$assign",
+		"ident": 22,
+		"order": 23,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kDate",
+				"subtype": "kDatetime",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The date/time validation was last completed (including failed validations)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$nextScheduled",
+		"ident": 23,
+		"order": 24,
+		"desc": "Returns: The date when target is next validated, if appropriate.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$nextScheduled.$assign",
+		"ident": 24,
+		"order": 25,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kDate",
+				"subtype": "kDate2000",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The date when target is next validated, if appropriate."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$failureAction",
+		"ident": 25,
+		"order": 26,
+		"desc": "Returns: The result if validation fails (fatal; warning; record only; none).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$failureAction.$assign",
+		"ident": 26,
+		"order": 27,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The result if validation fails (fatal; warning; record only; none)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$primarySource",
+		"ident": 27,
+		"order": 28,
+		"desc": "Returns: Information about the primary source(s) involved in validation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addprimarySource",
+		"ident": 28,
+		"order": 29,
+		"desc": "Information about the primary source(s) involved in validation.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oVerificationResultPrimarySource",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oVerificationResultPrimarySource",
+				"sublen": 0,
+				"desc": "Information about the primary source(s) involved in validation."
+			}
+		]
+	},
+	{
+		"name": "$attestation",
+		"ident": 29,
+		"order": 30,
+		"desc": "Returns: Information about the entity attesting to information.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$attestation.$assign",
+		"ident": 30,
+		"order": 31,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oVerificationResultAttestation",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Information about the entity attesting to information."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$validator",
+		"ident": 31,
+		"order": 32,
+		"desc": "Returns: Information about the entity validating information.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addvalidator",
+		"ident": 32,
+		"order": 33,
+		"desc": "Information about the entity validating information.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oVerificationResultValidator",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oVerificationResultValidator",
+				"sublen": 0,
+				"desc": "Information about the entity validating information."
+			}
+		]
+	}
+]

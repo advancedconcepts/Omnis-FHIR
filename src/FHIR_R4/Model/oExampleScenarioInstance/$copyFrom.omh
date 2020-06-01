@@ -1,0 +1,15 @@
+Do inherited
+Calculate resourceId as pValue.$resourceId()
+Calculate resourceType as pValue.$resourceType()
+Calculate name as pValue.$name()
+Calculate description as pValue.$description()
+Do version.$clear()
+Calculate list as pValue.$version()
+Do version.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do containedInstance.$clear()
+Calculate list as pValue.$containedInstance()
+Do containedInstance.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

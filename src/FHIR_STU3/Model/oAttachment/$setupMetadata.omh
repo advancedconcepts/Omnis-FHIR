@@ -1,0 +1,9 @@
+Do inherited
+Do pElements.$add("contentType","contentType",0,"1",21,"code")
+Do pElements.$add("language","language",0,"1",21,"code")
+Do pElements.$add("data","data",0,"1",28,"base64Binary")
+Do pElements.$add("url","url",0,"1",21,"uri")
+Do pElements.$add("size","size",0,"1",26,"unsignedInt")
+Do pElements.$add("hash","hash",0,"1",28,"base64Binary")
+Do pElements.$add("title","title",0,"1",21,"string")
+Do pElements.$add("creation","creation",0,"1",23,"dateTime")

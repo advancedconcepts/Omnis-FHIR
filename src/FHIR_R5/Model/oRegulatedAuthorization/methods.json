@@ -1,0 +1,547 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$identifier",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: Business identifier for the marketing authorization, as assigned by a regulator.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addidentifier",
+		"ident": 6,
+		"order": 7,
+		"desc": "Business identifier for the marketing authorization, as assigned by a regulator.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"desc": "Business identifier for the marketing authorization, as assigned by a regulator."
+			}
+		]
+	},
+	{
+		"name": "$subject",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: The product that is being authorized.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subject.$assign",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The product that is being authorized."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: Type of this authorization, for example drug marketing approval, orphan drug designation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type.$assign",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Type of this authorization, for example drug marketing approval, orphan drug designation."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$description",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: General textual supporting information.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$description.$assign",
+		"ident": 12,
+		"order": 13,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "General textual supporting information."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$region",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: The region (country, jurisdiction etc.) in which the marketing authorization has been granted.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addregion",
+		"ident": 14,
+		"order": 15,
+		"desc": "The region (country, jurisdiction etc.) in which the marketing authorization has been granted.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "The region (country, jurisdiction etc.) in which the marketing authorization has been granted."
+			}
+		]
+	},
+	{
+		"name": "$status",
+		"ident": 15,
+		"order": 16,
+		"desc": "Returns: The status of the marketing authorization.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$status.$assign",
+		"ident": 16,
+		"order": 17,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The status of the marketing authorization."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$statusDate",
+		"ident": 17,
+		"order": 18,
+		"desc": "Returns: The date at which the given status has become applicable.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$statusDate.$assign",
+		"ident": 18,
+		"order": 19,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kDate",
+				"subtype": "kDatetime",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The date at which the given status has become applicable."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$validityPeriod",
+		"ident": 19,
+		"order": 20,
+		"desc": "Returns: The beginning of the time period in which the marketing authorization is in the specific status shall be specified A complete date consisting of day, month and year shall be specified using the ISO 8601 date format.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$validityPeriod.$assign",
+		"ident": 20,
+		"order": 21,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oPeriod",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The beginning of the time period in which the marketing authorization is in the specific status shall be specified A complete date consisting of day, month and year shall be specified using the ISO 8601 date format."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$basis",
+		"ident": 21,
+		"order": 22,
+		"desc": "Returns: The legal framework against which this authorization is granted, or other reasons for it.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addbasis",
+		"ident": 22,
+		"order": 23,
+		"desc": "The legal framework against which this authorization is granted, or other reasons for it.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "The legal framework against which this authorization is granted, or other reasons for it."
+			}
+		]
+	},
+	{
+		"name": "$relatedDate",
+		"ident": 23,
+		"order": 24,
+		"desc": "Returns: Other dates associated with the authorization. It is common for an authorization to have renewal dates, initial time limited phases and so on.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addrelatedDate",
+		"ident": 24,
+		"order": 25,
+		"desc": "Other dates associated with the authorization. It is common for an authorization to have renewal dates, initial time limited phases and so on.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oRegulatedAuthorizationRelatedDate",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oRegulatedAuthorizationRelatedDate",
+				"sublen": 0,
+				"desc": "Other dates associated with the authorization. It is common for an authorization to have renewal dates, initial time limited phases and so on."
+			}
+		]
+	},
+	{
+		"name": "$jurisdictionalAuthorization",
+		"ident": 25,
+		"order": 26,
+		"desc": "Returns: Authorization in areas within a country.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addjurisdictionalAuthorization",
+		"ident": 26,
+		"order": 27,
+		"desc": "Authorization in areas within a country.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Authorization in areas within a country."
+			}
+		]
+	},
+	{
+		"name": "$holder",
+		"ident": 27,
+		"order": 28,
+		"desc": "Returns: Marketing Authorization Holder.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$holder.$assign",
+		"ident": 28,
+		"order": 29,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Marketing Authorization Holder."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$regulator",
+		"ident": 29,
+		"order": 30,
+		"desc": "Returns: Medicines Regulatory Agency.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$regulator.$assign",
+		"ident": 30,
+		"order": 31,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Medicines Regulatory Agency."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$case",
+		"ident": 31,
+		"order": 32,
+		"desc": "Returns: The case or regulatory procedure for granting or amending a marketing authorization.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$case.$assign",
+		"ident": 32,
+		"order": 33,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oRegulatedAuthorizationCase",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The case or regulatory procedure for granting or amending a marketing authorization."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

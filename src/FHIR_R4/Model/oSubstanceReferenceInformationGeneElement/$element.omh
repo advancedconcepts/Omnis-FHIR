@@ -1,0 +1,4 @@
+If element.$validref()=kFalse
+	Calculate element as $clib.$classes.oIdentifier.$newref()
+End If
+Quit method element

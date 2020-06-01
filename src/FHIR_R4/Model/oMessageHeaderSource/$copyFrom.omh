@@ -1,0 +1,6 @@
+Do inherited
+Calculate name as pValue.$name()
+Calculate software as pValue.$software()
+Calculate version as pValue.$version()
+Calculate contact as pValue.$contact()
+Calculate endpoint as pValue.$endpoint()

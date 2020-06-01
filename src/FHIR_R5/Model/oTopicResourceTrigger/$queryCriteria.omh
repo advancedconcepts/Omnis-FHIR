@@ -1,0 +1,4 @@
+If queryCriteria.$validref()=kFalse
+	Calculate queryCriteria as $clib.$classes.oTopicResourceTriggerQueryCriteria.$newref()
+End If
+Quit method queryCriteria

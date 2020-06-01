@@ -1,0 +1,12 @@
+Do inherited
+Do type.$clear()
+Calculate list as pValue.$type()
+Do type.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate when as pValue.$when()
+Calculate who as pValue.$who()
+Calculate onBehalfOf as pValue.$onBehalfOf()
+Calculate targetFormat as pValue.$targetFormat()
+Calculate sigFormat as pValue.$sigFormat()
+Calculate data as pValue.$data()

@@ -1,0 +1,5 @@
+Do inherited
+Calculate flag as pValue.$flag()
+Calculate deleted as pValue.$deleted()
+Calculate date as pValue.$date()
+Calculate item as pValue.$item()

@@ -1,0 +1,4 @@
+Do inherited
+Calculate identifier as pValue.$identifier()
+Calculate expiry as pValue.$expiry()
+Calculate quantity as pValue.$quantity()

@@ -1,0 +1,278 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$identifier",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: A persistent identifier for the batch that won't change as a batch is copied from server to server.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$identifier.$assign",
+		"ident": 6,
+		"order": 7,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1,
+				"desc": "A persistent identifier for the batch that won't change as a batch is copied from server to server."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: Indicates the purpose of this bundle - how it was intended to be used.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type.$assign",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Indicates the purpose of this bundle - how it was intended to be used."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$total",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: If a set of search matches, this is the total number of matches for the search (as opposed to the number of results in this bundle).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$total.$assign",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "If a set of search matches, this is the total number of matches for the search (as opposed to the number of results in this bundle)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$link",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: A series of links that provide context to this bundle.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addlink",
+		"ident": 12,
+		"order": 13,
+		"desc": "A series of links that provide context to this bundle.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oBundleLink",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oBundleLink",
+				"sublen": 0,
+				"desc": "A series of links that provide context to this bundle."
+			}
+		]
+	},
+	{
+		"name": "$entry",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: An entry in a bundle resource - will either contain a resource, or information about a resource (transactions and history only).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addentry",
+		"ident": 14,
+		"order": 15,
+		"desc": "An entry in a bundle resource - will either contain a resource, or information about a resource (transactions and history only).",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oBundleEntry",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oBundleEntry",
+				"sublen": 0,
+				"desc": "An entry in a bundle resource - will either contain a resource, or information about a resource (transactions and history only)."
+			}
+		]
+	},
+	{
+		"name": "$signature",
+		"ident": 15,
+		"order": 16,
+		"desc": "Returns: Digital Signature - base64 encoded. XML-DSIg or a JWT.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$signature.$assign",
+		"ident": 16,
+		"order": 17,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oSignature",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Digital Signature - base64 encoded. XML-DSIg or a JWT."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

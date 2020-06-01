@@ -1,0 +1,5 @@
+Do inherited
+Calculate code as pValue.$code()
+Calculate uri as pValue.$uri()
+Calculate description as pValue.$description()
+Calculate type as pValue.$type()

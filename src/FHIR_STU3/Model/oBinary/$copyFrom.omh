@@ -1,0 +1,4 @@
+Do inherited
+Calculate contentType as pValue.$contentType()
+Calculate securityContext as pValue.$securityContext()
+Calculate content as pValue.$content()

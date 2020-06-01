@@ -1,0 +1,6 @@
+Calculate objRef as $clib.$classes.oTestScriptVariable.$newref()
+Do variable.$add(objRef)
+If pValue.$validref()
+	Do objRef.$copyFrom(pValue)
+End If
+Quit method objRef

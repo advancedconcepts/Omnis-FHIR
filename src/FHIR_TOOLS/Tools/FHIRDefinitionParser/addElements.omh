@@ -1,0 +1,150 @@
+Do pClass.$cvardefs.$add('cElements',kList,'',0,kFalse)
+Do pClass.$cvardefs.$add('cElementsInited',kBoolean,'',0,kFalse)
+
+Do pClass.$methods.$add('$metadata') Returns metamethodref
+Do metamethodref.$methodlines.$add('If cElements.$linecount=0')
+Do metamethodref.$methodlines.$add('Do cElements.$define(cElementName,cElementOmnisName,cElementsMin,cElementsMax,cElementType,cElementFHIRType)')
+Do metamethodref.$methodlines.$add('Do $cinst.$setupMetadata(cElements)')
+Do metamethodref.$methodlines.$add('End If')
+Do metamethodref.$methodlines.$add('Quit method cElements.$ref')
+
+Do pClass.$methods.$add('$setupMetadata') Returns metamethodref
+Do metamethodref.$lvardefs.$add('pElements',kFieldreference,'',0,kTrue) Returns param
+Do metamethodref.$methodlines.$add('Do inherited')
+
+Do pClass.$methods.$add('$construct') Returns constructref
+Do constructref.$methodlines.$add('Do inherited')
+
+Do pClass.$methods.$add('$copyFrom') Returns copyref
+Do copyref.$lvardefs.$add('pValue',kObject,pClassName,0,kTrue) Returns param
+Do copyref.$lvardefs.$add('list',kList,'',0,kTrue) Returns param
+Do copyref.$lvardefs.$add('itemRef',kItemref,'',0,kTrue) Returns param
+Do copyref.$methodlines.$add('Do inherited')
+
+For pStartElement from pStartElement to pElements.$colcount step 1
+	Calculate entry as pElements.C[pStartElement]
+	Calculate elementId as entry.id
+	If elementId=pPrefix
+		Jump to start of loop
+	End If
+	If isnull(entry.type)
+		Jump to start of loop
+	End If
+	If left(elementId,len(pPrefix)+1)=con(pPrefix,'.')
+		Calculate elementId as mid(elementId,len(pPrefix)+2)
+	Else
+		Calculate pStartElement as pStartElement-1
+		Quit method
+	End If
+	Calculate capelementid as con(upp(left(elementId,1)),mid(elementId,2))
+	If (right(elementId,3)='[x]')
+	Else
+		Calculate description as entry.definition
+		;  # test for complex child
+		If (entry.type.___1.code='BackboneElement')
+			Calculate bbname as con(cFHIRTypePrefix,pClassName,capelementid)
+			Do method createClass (bbname,'http://hl7.org/fhir/StructureDefinition/BackboneElement',description) Returns childclass
+			Do method addElements (childclass,entry.id,pElements,pStartElement,con(pClassName,capelementid))
+			;  # process
+			Calculate datatype as kObjectref
+			Calculate datasubtype as bbname
+			Calculate maxlen as 0
+			Calculate elementIsBase as kFalse
+			Calculate elementFHIRType as ''
+		Else
+			Calculate elementIsBase as kTrue
+			Calculate elementFHIRType as ''
+			If (isnull(entry.type.___1.code))
+				For j from 1 to entry.type.___1._code.extension.$colcount step 1
+					If entry.type.___1._code.extension.C[j].url='http://hl7.org/fhir/StructureDefinition/structuredefinition-xml-type'
+						Calculate elementFHIRType as entry.type.___1._code.extension.C[j].valueString
+						Break to end of loop
+					End If
+				End For
+			Else
+				Calculate elementFHIRType as entry.type.___1.code
+			End If
+			Do method mapToPrimitive (elementFHIRType,datatype,datasubtype,maxlen)
+		End If
+		
+		;  # deal with overridden properties
+		If (elementId='name')|(elementId='version')|(elementId='type')
+			Calculate omniselementid as con('::',elementId)
+		Else
+			Calculate omniselementid as elementId
+		End If
+		
+		If (entry.max<>1)
+			Do pClass.$ivardefs.$add(elementId,kList,'',0,kFalse) Returns classivar
+			Do pClass.$ivardefs.$add(con(elementId,'_'),datatype,datasubtype,maxlen,kFalse) Returns classivar
+			Do constructref.$methodlines.$add(con('Do ',elementId,'.$define(',elementId,'_)'))
+		Else
+			Do pClass.$ivardefs.$add(elementId,datatype,datasubtype,maxlen,elementId='id') Returns classivar
+		End If
+		
+		Calculate classivar.$desc as description
+		Do pClass.$methods.$add(con('$',omniselementid)) Returns methodref
+		Calculate methodref.$desc as con('Returns: ',description)
+		If (datatype=kObjectref)
+			Do methodref.$methodlines.$add(con('If ',elementId,'.$validref()=kFalse'))
+			Do methodref.$methodlines.$add(con('Calculate ',elementId,' as $clib.$classes.',datasubtype,'.$newref()'))
+			Do methodref.$methodlines.$add('End If')
+		End If
+		Do methodref.$methodlines.$add(con('Quit method ',elementId))
+		
+		Do metamethodref.$methodlines.$add(con('Do pElements.$add("',elementId,'","',omniselementid,'",',entry.min,',"',pick(entry.max='*',entry.max,-1),'",',datatype,',"',elementFHIRType,'")'))
+		
+		If (entry.max=1)
+			Do pClass.$methods.$add(con('$',omniselementid,'.$assign')) Returns methodref
+			
+			Do methodref.$lvardefs.$add('pValue',datatype,datasubtype,maxlen,kTrue) Returns param
+			Calculate param.$desc as description
+			If (datatype=kObjectref)
+				Do methodref.$methodlines.$add(con('Do ',elementId,'.$copyFrom(pValue)'))
+			Else
+				Do methodref.$methodlines.$add(con('Calculate ',elementId,' as pValue'))
+			End If
+		Else
+			If (datatype=kObjectref)
+				Do pClass.$methods.$add(con('$add',elementId)) Returns methodref
+				Calculate methodref.$desc as description
+				
+				Do methodref.$lvardefs.$add('pValue',datatype,datasubtype,maxlen,kTrue) Returns param
+				Do methodref.$lvardefs.$add('objRef',datatype,datasubtype,maxlen,kFalse) Returns param
+				Calculate param.$desc as description
+				
+				Do methodref.$methodlines.$add(con('Calculate objRef as $clib.$classes.',datasubtype,'.$newref()'))
+				Do methodref.$methodlines.$add(con('Do ',elementId,'.$add(objRef)'))
+				Do methodref.$methodlines.$add(con('If pValue.$validref()'))
+				Do methodref.$methodlines.$add(con('Do objRef.$copyFrom(pValue)'))
+				Do methodref.$methodlines.$add(con('End If'))
+				
+				Do methodref.$methodlines.$add(con('Quit method objRef'))
+			Else
+				Do pClass.$methods.$add(con('$add',elementId)) Returns methodref
+				Calculate methodref.$desc as description
+				
+				Do methodref.$lvardefs.$add('pValue',datatype,datasubtype,maxlen,kTrue) Returns param
+				Calculate param.$desc as description
+				Do methodref.$methodlines.$add(con('Quit method ',elementId,'.$add(pValue)'))
+			End If
+		End If
+		
+		If (entry.max<>1)
+			Do copyref.$methodlines.$add(con('Do ',elementId,'.$clear()'))
+			Do copyref.$methodlines.$add(con('Calculate list as pValue.$',elementId,'()'))
+			
+			Do copyref.$methodlines.$add('For list.$line from 1 to list.$linecount')
+			Do copyref.$methodlines.$add(con('Do ',elementId,'.$add() returns itemRef'))
+			Do copyref.$methodlines.$add(con('Do itemRef.$copyFrom(list.C1)'))
+			Do copyref.$methodlines.$add('End For')
+		Else
+			If (datatype=kObject)
+				Do copyref.$methodlines.$add(con('Do ',elementId,'.$copyFrom(pValue.$',elementId,'())'))
+			Else
+				Do copyref.$methodlines.$add(con('Calculate ',elementId,' as pValue.$',elementId,'()'))
+			End If
+		End If
+		
+	End If
+End For

@@ -1,0 +1,145 @@
+[
+	{
+		"name": "$read",
+		"ident": 0,
+		"order": 1,
+		"desc": "Read the state of a specific version of the resource.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$vread",
+		"ident": 1,
+		"order": 2,
+		"desc": "Update an existing resource by its id (or create it if it is new).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$update",
+		"ident": 2,
+		"order": 3,
+		"desc": "Update an existing resource by posting a set of changes to it.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$patch",
+		"ident": 3,
+		"order": 4,
+		"desc": "Delete a resource.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$delete",
+		"ident": 4,
+		"order": 5,
+		"desc": "Retrieve the change history for a particular resource, type of resource, or the entire system.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$history",
+		"ident": 5,
+		"order": 6,
+		"desc": "Create a new resource with a server assigned id.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$create",
+		"ident": 6,
+		"order": 7,
+		"desc": "Search a resource type or all resources based on some filter criteria.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$search",
+		"ident": 7,
+		"order": 8,
+		"desc": "Get a Capability Statement for the system.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$capabilities",
+		"ident": 8,
+		"order": 9,
+		"desc": "Update, create or delete a set of resources as a single transaction.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$transaction",
+		"ident": 9,
+		"order": 10,
+		"desc": "perform a set of a separate interactions in a single http operation",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$batch",
+		"ident": 10,
+		"order": 11,
+		"desc": "Perform an operation as defined by an OperationDefinition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$operation",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

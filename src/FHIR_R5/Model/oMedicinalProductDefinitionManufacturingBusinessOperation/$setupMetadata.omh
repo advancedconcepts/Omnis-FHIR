@@ -1,0 +1,7 @@
+Do inherited
+Do pElements.$add("operationType","operationType",0,"1",38,"CodeableConcept")
+Do pElements.$add("authorisationReferenceNumber","authorisationReferenceNumber",0,"1",38,"Identifier")
+Do pElements.$add("effectiveDate","effectiveDate",0,"1",38,"Period")
+Do pElements.$add("confidentialityIndicator","confidentialityIndicator",0,"1",38,"CodeableConcept")
+Do pElements.$add("manufacturer","manufacturer",0,"-1",38,"Reference")
+Do pElements.$add("regulator","regulator",0,"1",38,"Reference")

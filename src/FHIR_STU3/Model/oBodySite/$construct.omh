@@ -1,0 +1,4 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do qualifier.$define(qualifier_)
+Do image.$define(image_)

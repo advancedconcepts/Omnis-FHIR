@@ -1,0 +1,109 @@
+[
+	{
+		"name": "$before-start",
+		"ident": 0,
+		"order": 1,
+		"desc": "The action must be performed before the related action.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$before",
+		"ident": 1,
+		"order": 2,
+		"desc": "The action must be performed before the end of the related action.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$before-end",
+		"ident": 2,
+		"order": 3,
+		"desc": "The action must be performed concurrent with the start of the related action.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$concurrent-with-start",
+		"ident": 3,
+		"order": 4,
+		"desc": "The action must be performed concurrent with the related action.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$concurrent",
+		"ident": 4,
+		"order": 5,
+		"desc": "The action must be performed concurrent with the end of the related action.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$concurrent-with-end",
+		"ident": 5,
+		"order": 6,
+		"desc": "The action must be performed after the start of the related action.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$after-start",
+		"ident": 6,
+		"order": 7,
+		"desc": "The action must be performed after the related action.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$after",
+		"ident": 7,
+		"order": 8,
+		"desc": "The action must be performed after the end of the related action.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$after-end",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

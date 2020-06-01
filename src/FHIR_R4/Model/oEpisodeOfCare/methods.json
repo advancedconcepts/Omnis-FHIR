@@ -1,0 +1,499 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$identifier",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: The EpisodeOfCare may be known by different identifiers for different contexts of use, such as when an external agency is tracking the Episode for funding purposes.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addidentifier",
+		"ident": 6,
+		"order": 7,
+		"desc": "The EpisodeOfCare may be known by different identifiers for different contexts of use, such as when an external agency is tracking the Episode for funding purposes.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"desc": "The EpisodeOfCare may be known by different identifiers for different contexts of use, such as when an external agency is tracking the Episode for funding purposes."
+			}
+		]
+	},
+	{
+		"name": "$status",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: planned | waitlist | active | onhold | finished | cancelled.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$status.$assign",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "planned | waitlist | active | onhold | finished | cancelled."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$statusHistory",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: The history of statuses that the EpisodeOfCare has been through (without requiring processing the history of the resource).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addstatusHistory",
+		"ident": 10,
+		"order": 11,
+		"desc": "The history of statuses that the EpisodeOfCare has been through (without requiring processing the history of the resource).",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oEpisodeOfCareStatusHistory",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oEpisodeOfCareStatusHistory",
+				"sublen": 0,
+				"desc": "The history of statuses that the EpisodeOfCare has been through (without requiring processing the history of the resource)."
+			}
+		]
+	},
+	{
+		"name": "$::type",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: A classification of the type of episode of care; e.g. specialist referral, disease management, type of funded care.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addtype",
+		"ident": 12,
+		"order": 13,
+		"desc": "A classification of the type of episode of care; e.g. specialist referral, disease management, type of funded care.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "A classification of the type of episode of care; e.g. specialist referral, disease management, type of funded care."
+			}
+		]
+	},
+	{
+		"name": "$diagnosis",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: The list of diagnosis relevant to this episode of care.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$adddiagnosis",
+		"ident": 14,
+		"order": 15,
+		"desc": "The list of diagnosis relevant to this episode of care.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oEpisodeOfCareDiagnosis",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oEpisodeOfCareDiagnosis",
+				"sublen": 0,
+				"desc": "The list of diagnosis relevant to this episode of care."
+			}
+		]
+	},
+	{
+		"name": "$patient",
+		"ident": 15,
+		"order": 16,
+		"desc": "Returns: The patient who is the focus of this episode of care.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$patient.$assign",
+		"ident": 16,
+		"order": 17,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The patient who is the focus of this episode of care."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$managingOrganization",
+		"ident": 17,
+		"order": 18,
+		"desc": "Returns: The organization that has assumed the specific responsibilities for the specified duration.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$managingOrganization.$assign",
+		"ident": 18,
+		"order": 19,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The organization that has assumed the specific responsibilities for the specified duration."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$period",
+		"ident": 19,
+		"order": 20,
+		"desc": "Returns: The interval during which the managing organization assumes the defined responsibility.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$period.$assign",
+		"ident": 20,
+		"order": 21,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oPeriod",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The interval during which the managing organization assumes the defined responsibility."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$referralRequest",
+		"ident": 21,
+		"order": 22,
+		"desc": "Returns: Referral Request(s) that are fulfilled by this EpisodeOfCare, incoming referrals.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addreferralRequest",
+		"ident": 22,
+		"order": 23,
+		"desc": "Referral Request(s) that are fulfilled by this EpisodeOfCare, incoming referrals.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Referral Request(s) that are fulfilled by this EpisodeOfCare, incoming referrals."
+			}
+		]
+	},
+	{
+		"name": "$careManager",
+		"ident": 23,
+		"order": 24,
+		"desc": "Returns: The practitioner that is the care manager/care coordinator for this patient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$careManager.$assign",
+		"ident": 24,
+		"order": 25,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The practitioner that is the care manager/care coordinator for this patient."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$team",
+		"ident": 25,
+		"order": 26,
+		"desc": "Returns: The list of practitioners that may be facilitating this episode of care for specific purposes.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addteam",
+		"ident": 26,
+		"order": 27,
+		"desc": "The list of practitioners that may be facilitating this episode of care for specific purposes.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "The list of practitioners that may be facilitating this episode of care for specific purposes."
+			}
+		]
+	},
+	{
+		"name": "$account",
+		"ident": 27,
+		"order": 28,
+		"desc": "Returns: The set of accounts that may be used for billing for this EpisodeOfCare.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addaccount",
+		"ident": 28,
+		"order": 29,
+		"desc": "The set of accounts that may be used for billing for this EpisodeOfCare.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "The set of accounts that may be used for billing for this EpisodeOfCare."
+			}
+		]
+	}
+]

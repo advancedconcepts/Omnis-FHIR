@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$prior",
+		"ident": 0,
+		"order": 1,
+		"desc": "A claim for a different suite of services which is related the suite claimed here.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$associated",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

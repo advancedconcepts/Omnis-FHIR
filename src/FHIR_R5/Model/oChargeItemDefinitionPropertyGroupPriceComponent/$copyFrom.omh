@@ -1,0 +1,5 @@
+Do inherited
+Calculate type as pValue.$type()
+Calculate code as pValue.$code()
+Calculate factor as pValue.$factor()
+Calculate amount as pValue.$amount()

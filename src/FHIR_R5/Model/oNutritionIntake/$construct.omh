@@ -1,0 +1,12 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do basedOn.$define(basedOn_)
+Do partOf.$define(partOf_)
+Do statusReason.$define(statusReason_)
+Do category.$define(category_)
+Do consumedItem.$define(consumedItem_)
+Do ingredientLabel.$define(ingredientLabel_)
+Do derivedFrom.$define(derivedFrom_)
+Do reasonCode.$define(reasonCode_)
+Do reasonReference.$define(reasonReference_)
+Do note.$define(note_)

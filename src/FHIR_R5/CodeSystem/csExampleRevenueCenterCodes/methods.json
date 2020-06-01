@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$0010",
+		"ident": 0,
+		"order": 1,
+		"desc": "Dental Office or Clinic.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$0011",
+		"ident": 1,
+		"order": 2,
+		"desc": "Emergency Department.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$1001",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

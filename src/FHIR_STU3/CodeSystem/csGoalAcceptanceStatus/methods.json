@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$agree",
+		"ident": 0,
+		"order": 1,
+		"desc": "Stakeholder is not in support of the pursuit of the goal",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$disagree",
+		"ident": 1,
+		"order": 2,
+		"desc": "Stakeholder has not yet made a decision on whether they support the goal",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$pending",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,97 @@
+[
+	{
+		"name": "$Emergency",
+		"ident": 0,
+		"order": 1,
+		"desc": "Action must be taken immediately.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Alert",
+		"ident": 1,
+		"order": 2,
+		"desc": "Critical conditions.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Critical",
+		"ident": 2,
+		"order": 3,
+		"desc": "Error conditions.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Error",
+		"ident": 3,
+		"order": 4,
+		"desc": "Warning conditions.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Warning",
+		"ident": 4,
+		"order": 5,
+		"desc": "Normal but significant condition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Notice",
+		"ident": 5,
+		"order": 6,
+		"desc": "Informational messages.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Informational",
+		"ident": 6,
+		"order": 7,
+		"desc": "Debug-level messages.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Debug",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

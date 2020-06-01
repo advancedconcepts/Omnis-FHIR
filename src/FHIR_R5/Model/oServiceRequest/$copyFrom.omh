@@ -1,0 +1,103 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do instantiatesCanonical.$clear()
+Calculate list as pValue.$instantiatesCanonical()
+Do instantiatesCanonical.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do instantiatesUri.$clear()
+Calculate list as pValue.$instantiatesUri()
+Do instantiatesUri.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do basedOn.$clear()
+Calculate list as pValue.$basedOn()
+Do basedOn.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do replaces.$clear()
+Calculate list as pValue.$replaces()
+Do replaces.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate requisition as pValue.$requisition()
+Calculate status as pValue.$status()
+Calculate intent as pValue.$intent()
+Do category.$clear()
+Calculate list as pValue.$category()
+Do category.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate priority as pValue.$priority()
+Calculate doNotPerform as pValue.$doNotPerform()
+Calculate code as pValue.$code()
+Do orderDetail.$clear()
+Calculate list as pValue.$orderDetail()
+Do orderDetail.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate subject as pValue.$subject()
+Calculate encounter as pValue.$encounter()
+Calculate authoredOn as pValue.$authoredOn()
+Calculate requester as pValue.$requester()
+Calculate performerType as pValue.$performerType()
+Do performer.$clear()
+Calculate list as pValue.$performer()
+Do performer.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do locationCode.$clear()
+Calculate list as pValue.$locationCode()
+Do locationCode.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do locationReference.$clear()
+Calculate list as pValue.$locationReference()
+Do locationReference.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do reasonCode.$clear()
+Calculate list as pValue.$reasonCode()
+Do reasonCode.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do reasonReference.$clear()
+Calculate list as pValue.$reasonReference()
+Do reasonReference.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do insurance.$clear()
+Calculate list as pValue.$insurance()
+Do insurance.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do supportingInfo.$clear()
+Calculate list as pValue.$supportingInfo()
+Do supportingInfo.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do specimen.$clear()
+Calculate list as pValue.$specimen()
+Do specimen.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do bodySite.$clear()
+Calculate list as pValue.$bodySite()
+Do bodySite.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do note.$clear()
+Calculate list as pValue.$note()
+Do note.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate patientInstruction as pValue.$patientInstruction()
+Do relevantHistory.$clear()
+Calculate list as pValue.$relevantHistory()
+Do relevantHistory.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

@@ -1,0 +1,4 @@
+Do inherited
+Calculate party as pValue.$party()
+Calculate onHold as pValue.$onHold()
+Calculate period as pValue.$period()

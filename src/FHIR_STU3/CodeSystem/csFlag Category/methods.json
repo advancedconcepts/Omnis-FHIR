@@ -1,0 +1,61 @@
+[
+	{
+		"name": "$diet",
+		"ident": 0,
+		"order": 1,
+		"desc": "Flags related to the patient's medications.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$drug",
+		"ident": 1,
+		"order": 2,
+		"desc": "Flags related to performing laboratory tests and related processes (e.g. phlebotomy).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$lab",
+		"ident": 2,
+		"order": 3,
+		"desc": "Flags related to administrative and financial processes.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$admin",
+		"ident": 3,
+		"order": 4,
+		"desc": "Flags related to coming into contact with the patient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$contact",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

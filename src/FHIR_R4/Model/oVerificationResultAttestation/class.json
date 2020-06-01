@@ -1,0 +1,104 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "communicationMethod",
+			"order": 3,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The method by which attested information was submitted/retrieved (manual; API; Push)."
+		},
+		{
+			"name": "date",
+			"order": 4,
+			"type": "kDate",
+			"subtype": "kDate2000",
+			"sublen": 0,
+			"desc": "The date the information was attested to."
+		},
+		{
+			"name": "onBehalfOf",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "When the who is asserting on behalf of another (organization or individual)."
+		},
+		{
+			"name": "proxyIdentityCertificate",
+			"order": 6,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A digital identity certificate associated with the proxy entity submitting attested information on behalf of the attestation source."
+		},
+		{
+			"name": "proxySignature",
+			"order": 7,
+			"type": "kObjectref",
+			"subtype": "oSignature",
+			"sublen": 0,
+			"desc": "Signed assertion by the proxy entity indicating that they have the right to submit attested information on behalf of the attestation source."
+		},
+		{
+			"name": "sourceIdentityCertificate",
+			"order": 5,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A digital identity certificate associated with the attestation source."
+		},
+		{
+			"name": "sourceSignature",
+			"order": 8,
+			"type": "kObjectref",
+			"subtype": "oSignature",
+			"sublen": 0,
+			"desc": "Signed assertion by the attestation source that they have attested to the information."
+		},
+		{
+			"name": "who",
+			"order": 1,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The individual or organization attesting to information."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:42:00",
+		"desc": "Information about the entity attesting to information.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:25",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

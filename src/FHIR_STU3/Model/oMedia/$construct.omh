@@ -1,0 +1,5 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do basedOn.$define(basedOn_)
+Do reasonCode.$define(reasonCode_)
+Do note.$define(note_)

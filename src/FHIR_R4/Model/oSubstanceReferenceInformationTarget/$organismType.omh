@@ -1,0 +1,4 @@
+If organismType.$validref()=kFalse
+	Calculate organismType as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method organismType

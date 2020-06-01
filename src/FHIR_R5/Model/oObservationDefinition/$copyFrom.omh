@@ -1,0 +1,78 @@
+Do inherited
+Calculate url as pValue.$url()
+Calculate identifier as pValue.$identifier()
+Calculate version as pValue.$version()
+Calculate title as pValue.$title()
+Do derivedFromCanonical.$clear()
+Calculate list as pValue.$derivedFromCanonical()
+Do derivedFromCanonical.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do derivedFromUri.$clear()
+Calculate list as pValue.$derivedFromUri()
+Do derivedFromUri.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate status as pValue.$status()
+Calculate experimental as pValue.$experimental()
+Calculate date as pValue.$date()
+Calculate publisher as pValue.$publisher()
+Do contact.$clear()
+Calculate list as pValue.$contact()
+Do contact.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate description as pValue.$description()
+Do useContext.$clear()
+Calculate list as pValue.$useContext()
+Do useContext.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do jurisdiction.$clear()
+Calculate list as pValue.$jurisdiction()
+Do jurisdiction.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate purpose as pValue.$purpose()
+Calculate copyright as pValue.$copyright()
+Calculate approvalDate as pValue.$approvalDate()
+Calculate lastReviewDate as pValue.$lastReviewDate()
+Calculate effectivePeriod as pValue.$effectivePeriod()
+Calculate performerType as pValue.$performerType()
+Do category.$clear()
+Calculate list as pValue.$category()
+Do category.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate code as pValue.$code()
+Do permittedDataType.$clear()
+Calculate list as pValue.$permittedDataType()
+Do permittedDataType.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate multipleResultsAllowed as pValue.$multipleResultsAllowed()
+Calculate bodySite as pValue.$bodySite()
+Calculate method as pValue.$method()
+Calculate specimen as pValue.$specimen()
+Calculate device as pValue.$device()
+Calculate preferredReportName as pValue.$preferredReportName()
+Calculate quantitativeDetails as pValue.$quantitativeDetails()
+Do qualifiedInterval.$clear()
+Calculate list as pValue.$qualifiedInterval()
+Do qualifiedInterval.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate validCodedValueSet as pValue.$validCodedValueSet()
+Calculate normalCodedValueSet as pValue.$normalCodedValueSet()
+Calculate abnormalCodedValueSet as pValue.$abnormalCodedValueSet()
+Calculate criticalCodedValueSet as pValue.$criticalCodedValueSet()
+Do hasMember.$clear()
+Calculate list as pValue.$hasMember()
+Do hasMember.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do component.$clear()
+Calculate list as pValue.$component()
+Do component.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

@@ -1,0 +1,12 @@
+Do inherited
+Calculate container as pValue.$container()
+Do content.$clear()
+Calculate list as pValue.$content()
+Do content.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do batch.$clear()
+Calculate list as pValue.$batch()
+Do batch.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

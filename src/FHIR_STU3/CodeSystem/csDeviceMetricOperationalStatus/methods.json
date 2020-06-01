@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$on",
+		"ident": 0,
+		"order": 1,
+		"desc": "The DeviceMetric is not operating.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$off",
+		"ident": 1,
+		"order": 2,
+		"desc": "The DeviceMetric is operating, but will not generate any DeviceObservations.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$standby",
+		"ident": 2,
+		"order": 3,
+		"desc": "The DeviceMetric was entered in error.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$entered-in-error",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

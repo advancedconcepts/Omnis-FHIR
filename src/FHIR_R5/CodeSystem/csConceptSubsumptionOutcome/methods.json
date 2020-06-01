@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$equivalent",
+		"ident": 0,
+		"order": 1,
+		"desc": "Coding/code \"A\" subsumes Coding/code \"B\" (e.g. B has all the properties A has, and some of it's own).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subsumes",
+		"ident": 1,
+		"order": 2,
+		"desc": "Coding/code \"A\" is subsumed by Coding/code \"B\" (e.g. A has all the properties B has, and some of it's own).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subsumed-by",
+		"ident": 2,
+		"order": 3,
+		"desc": "Coding/code \"A\" and Coding/code \"B\" are disjoint (e.g. each has propeties that the other doesn't have).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$not-subsumed",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

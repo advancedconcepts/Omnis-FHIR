@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$not-present",
+		"ident": 0,
+		"order": 1,
+		"desc": "A few representative concepts are included in the code system resource",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$example",
+		"ident": 1,
+		"order": 2,
+		"desc": "A subset of the code system concepts are included in the code system resource",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$fragment",
+		"ident": 2,
+		"order": 3,
+		"desc": "All the concepts defined by the code system are included in the code system resource",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$complete",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

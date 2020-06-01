@@ -1,0 +1,22 @@
+Do inherited
+Calculate sequence as pValue.$sequence()
+Calculate text as pValue.$text()
+Do additionalInstruction.$clear()
+Calculate list as pValue.$additionalInstruction()
+Do additionalInstruction.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate patientInstruction as pValue.$patientInstruction()
+Calculate timing as pValue.$timing()
+Calculate site as pValue.$site()
+Calculate route as pValue.$route()
+Calculate method as pValue.$method()
+Do doseAndRate.$clear()
+Calculate list as pValue.$doseAndRate()
+Do doseAndRate.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate doseAndRate.type as pValue.$doseAndRate.type()
+Calculate maxDosePerPeriod as pValue.$maxDosePerPeriod()
+Calculate maxDosePerAdministration as pValue.$maxDosePerAdministration()
+Calculate maxDosePerLifetime as pValue.$maxDosePerLifetime()

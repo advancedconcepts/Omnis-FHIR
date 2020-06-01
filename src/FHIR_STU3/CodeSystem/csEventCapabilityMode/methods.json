@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$sender",
+		"ident": 0,
+		"order": 1,
+		"desc": "The application receives requests and sends responses.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$receiver",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

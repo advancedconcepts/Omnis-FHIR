@@ -1,0 +1,5 @@
+Do inherited
+Calculate category as pValue.$category()
+Calculate reason as pValue.$reason()
+Calculate amount as pValue.$amount()
+Calculate value as pValue.$value()

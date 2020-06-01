@@ -1,0 +1,15 @@
+Do inherited
+Calculate source as pValue.$source()
+Calculate title as pValue.$title()
+Calculate kind as pValue.$kind()
+Do type.$clear()
+Calculate list as pValue.$type()
+Do type.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do package.$clear()
+Calculate list as pValue.$package()
+Do package.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate format as pValue.$format()

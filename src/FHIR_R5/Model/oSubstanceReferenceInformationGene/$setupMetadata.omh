@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("geneSequenceOrigin","geneSequenceOrigin",0,"1",38,"CodeableConcept")
+Do pElements.$add("gene","gene",0,"1",38,"CodeableConcept")
+Do pElements.$add("source","source",0,"-1",38,"Reference")

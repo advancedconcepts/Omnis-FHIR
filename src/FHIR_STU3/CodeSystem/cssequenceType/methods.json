@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$aa",
+		"ident": 0,
+		"order": 1,
+		"desc": "DNA Sequence",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$dna",
+		"ident": 1,
+		"order": 2,
+		"desc": "RNA Sequence",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$rna",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

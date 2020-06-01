@@ -1,0 +1,8 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do derivedFromCanonical.$define(derivedFromCanonical_)
+Do derivedFromUri.$define(derivedFromUri_)
+Do contact.$define(contact_)
+Do useContext.$define(useContext_)
+Do jurisdiction.$define(jurisdiction_)
+Do canFilterBy.$define(canFilterBy_)

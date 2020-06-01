@@ -1,0 +1,85 @@
+[
+	{
+		"name": "$diet",
+		"ident": 0,
+		"order": 1,
+		"desc": "Plan for the patient to consume/receive a drug, vaccine or other product",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$drug",
+		"ident": 1,
+		"order": 2,
+		"desc": "Plan to meet or communicate with the patient (in-patient, out-patient, phone call, etc.)",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$encounter",
+		"ident": 2,
+		"order": 3,
+		"desc": "Plan to capture information about a patient (vitals, labs, diagnostic images, etc.)",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$observation",
+		"ident": 3,
+		"order": 4,
+		"desc": "Plan to modify the patient in some way (surgery, physiotherapy, education, counseling, etc.)",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$procedure",
+		"ident": 4,
+		"order": 5,
+		"desc": "Plan to provide something to the patient (medication, medical supply, etc.)",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$supply",
+		"ident": 5,
+		"order": 6,
+		"desc": "Some other form of action",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$other",
+		"ident": 6,
+		"order": 7,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,5 @@
+Do inherited
+Do pElements.$add("numberOfUnits","numberOfUnits",0,"1",26,"integer")
+Do pElements.$add("averageMolecularFormula","averageMolecularFormula",0,"1",21,"string")
+Do pElements.$add("repeatUnitAmountType","repeatUnitAmountType",0,"1",38,"CodeableConcept")
+Do pElements.$add("repeatUnit","repeatUnit",0,"-1",38,"")

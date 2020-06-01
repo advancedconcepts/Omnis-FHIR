@@ -1,0 +1,3 @@
+Do inherited
+Do pElements.$add("numerator","numerator",0,"1",38,"Quantity")
+Do pElements.$add("denominator","denominator",0,"1",38,"Quantity")

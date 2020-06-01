@@ -1,0 +1,61 @@
+[
+	{
+		"name": "$cancel",
+		"ident": 0,
+		"order": 1,
+		"desc": "Retrieve selected or all queued resources or messages.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$poll",
+		"ident": 1,
+		"order": 2,
+		"desc": "Release any reserved funds or material obligations associated with a resource. For example, any unused but reserved funds or treatment allowance associated with a preauthorization once treatment is complete.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$release",
+		"ident": 2,
+		"order": 3,
+		"desc": "Indication that the processing of a resource, such as a claim, for some or all of the required work is now being requested.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$reprocess",
+		"ident": 3,
+		"order": 4,
+		"desc": "Check on the processing status of a resource such as the adjudication of a claim.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$status",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

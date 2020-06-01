@@ -1,0 +1,4 @@
+Do inherited
+Calculate substance as pValue.$substance()
+Calculate alternate as pValue.$alternate()
+Calculate allergenicIndicator as pValue.$allergenicIndicator()

@@ -1,0 +1,109 @@
+[
+	{
+		"name": "$proposed",
+		"ident": 0,
+		"order": 1,
+		"desc": "The request is in preliminary form prior to being sent.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$draft",
+		"ident": 1,
+		"order": 2,
+		"desc": "The request has been planned.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$planned",
+		"ident": 2,
+		"order": 3,
+		"desc": "The request has been placed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$requested",
+		"ident": 3,
+		"order": 4,
+		"desc": "The request is 'actionable', but not all actions that are implied by it have occurred yet.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$active",
+		"ident": 4,
+		"order": 5,
+		"desc": "Actions implied by the request have been temporarily halted, but are expected to continue later. May also be called \"suspended\".",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$on-hold",
+		"ident": 5,
+		"order": 6,
+		"desc": "All actions that are implied by the order have occurred and no continuation is planned (this will rarely be made explicit).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$completed",
+		"ident": 6,
+		"order": 7,
+		"desc": "The request has been withdrawn and is no longer actionable.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$cancelled",
+		"ident": 7,
+		"order": 8,
+		"desc": "The request was entered in error and voided.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$entered-in-error",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

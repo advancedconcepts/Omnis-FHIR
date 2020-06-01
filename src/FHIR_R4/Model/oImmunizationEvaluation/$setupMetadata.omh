@@ -1,0 +1,12 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"-1",38,"Identifier")
+Do pElements.$add("status","status",1,"1",21,"code")
+Do pElements.$add("patient","patient",1,"1",38,"Reference")
+Do pElements.$add("date","date",0,"1",23,"dateTime")
+Do pElements.$add("authority","authority",0,"1",38,"Reference")
+Do pElements.$add("targetDisease","targetDisease",1,"1",38,"CodeableConcept")
+Do pElements.$add("immunizationEvent","immunizationEvent",1,"1",38,"Reference")
+Do pElements.$add("doseStatus","doseStatus",1,"1",38,"CodeableConcept")
+Do pElements.$add("doseStatusReason","doseStatusReason",0,"-1",38,"CodeableConcept")
+Do pElements.$add("description","description",0,"1",21,"string")
+Do pElements.$add("series","series",0,"1",21,"string")

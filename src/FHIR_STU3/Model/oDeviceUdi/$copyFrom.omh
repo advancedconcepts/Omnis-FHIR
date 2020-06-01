@@ -1,0 +1,8 @@
+Do inherited
+Calculate deviceIdentifier as pValue.$deviceIdentifier()
+Calculate name as pValue.$name()
+Calculate jurisdiction as pValue.$jurisdiction()
+Calculate carrierHRF as pValue.$carrierHRF()
+Calculate carrierAIDC as pValue.$carrierAIDC()
+Calculate issuer as pValue.$issuer()
+Calculate entryType as pValue.$entryType()

@@ -1,0 +1,5 @@
+Do inherited
+Do pElements.$add("code","code",1,"1",38,"CodeableConcept")
+Do pElements.$add("group","group",1,"1",38,"CodeableConcept")
+Do pElements.$add("confidentiality","confidentiality",0,"1",38,"CodeableConcept")
+Do pElements.$add("strength","strength",0,"-1",38,"")

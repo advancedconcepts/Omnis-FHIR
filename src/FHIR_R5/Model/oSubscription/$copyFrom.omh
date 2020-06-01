@@ -1,0 +1,28 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate name as pValue.$name()
+Calculate status as pValue.$status()
+Calculate topic as pValue.$topic()
+Do contact.$clear()
+Calculate list as pValue.$contact()
+Do contact.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate end as pValue.$end()
+Calculate reason as pValue.$reason()
+Do filterBy.$clear()
+Calculate list as pValue.$filterBy()
+Do filterBy.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do error.$clear()
+Calculate list as pValue.$error()
+Do error.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate eventCount as pValue.$eventCount()
+Calculate channel as pValue.$channel()

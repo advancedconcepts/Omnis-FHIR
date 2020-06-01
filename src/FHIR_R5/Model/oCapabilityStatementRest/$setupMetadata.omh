@@ -1,0 +1,7 @@
+Do inherited
+Do pElements.$add("mode","mode",1,"1",21,"code")
+Do pElements.$add("documentation","documentation",0,"1",21,"markdown")
+Do pElements.$add("security","security",0,"1",38,"")
+Do pElements.$add("resource","resource",0,"-1",38,"")
+Do pElements.$add("interaction","interaction",0,"-1",38,"")
+Do pElements.$add("compartment","compartment",0,"-1",21,"canonical")

@@ -1,0 +1,11 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do performer.$define(performer_)
+Do note.$define(note_)
+Do reasonCode.$define(reasonCode_)
+Do reasonReference.$define(reasonReference_)
+Do subpotentReason.$define(subpotentReason_)
+Do education.$define(education_)
+Do programEligibility.$define(programEligibility_)
+Do reaction.$define(reaction_)
+Do protocolApplied.$define(protocolApplied_)

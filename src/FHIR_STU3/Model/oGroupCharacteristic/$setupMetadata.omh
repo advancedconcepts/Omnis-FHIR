@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("code","code",1,"1",38,"CodeableConcept")
+Do pElements.$add("exclude","exclude",1,"1",22,"boolean")
+Do pElements.$add("period","period",0,"1",38,"Period")

@@ -1,0 +1,40 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do definition.$clear()
+Calculate list as pValue.$definition()
+Do definition.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate status as pValue.$status()
+Calculate notDone as pValue.$notDone()
+Calculate notDoneReason as pValue.$notDoneReason()
+Calculate patient as pValue.$patient()
+Calculate date as pValue.$date()
+Calculate name as pValue.$name()
+Calculate relationship as pValue.$relationship()
+Calculate gender as pValue.$gender()
+Calculate estimatedAge as pValue.$estimatedAge()
+Do reasonCode.$clear()
+Calculate list as pValue.$reasonCode()
+Do reasonCode.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do reasonReference.$clear()
+Calculate list as pValue.$reasonReference()
+Do reasonReference.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do note.$clear()
+Calculate list as pValue.$note()
+Do note.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do condition.$clear()
+Calculate list as pValue.$condition()
+Do condition.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

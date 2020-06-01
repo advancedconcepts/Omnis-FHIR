@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$complete",
+		"ident": 0,
+		"order": 1,
+		"desc": "Partial payment of the benefit under the Claim less any adjustments.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$partial",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

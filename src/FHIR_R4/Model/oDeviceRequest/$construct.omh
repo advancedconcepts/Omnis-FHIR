@@ -1,0 +1,13 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do instantiatesCanonical.$define(instantiatesCanonical_)
+Do instantiatesUri.$define(instantiatesUri_)
+Do basedOn.$define(basedOn_)
+Do priorRequest.$define(priorRequest_)
+Do parameter.$define(parameter_)
+Do reasonCode.$define(reasonCode_)
+Do reasonReference.$define(reasonReference_)
+Do insurance.$define(insurance_)
+Do supportingInfo.$define(supportingInfo_)
+Do note.$define(note_)
+Do relevantHistory.$define(relevantHistory_)

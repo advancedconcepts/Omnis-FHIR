@@ -1,0 +1,325 @@
+[
+	{
+		"name": "$TREATMENT",
+		"ident": 0,
+		"order": 1,
+		"desc": "Payment",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$PAYMENT",
+		"ident": 1,
+		"order": 2,
+		"desc": "Healthcare Operations",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$OPERATIONS",
+		"ident": 2,
+		"order": 3,
+		"desc": "System Administration",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$SYSADMIN",
+		"ident": 3,
+		"order": 4,
+		"desc": "Fraud detection",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$FRAUD",
+		"ident": 4,
+		"order": 5,
+		"desc": "Use or disclosure of Psychotherapy Notes",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$PSYCHOTHERAPY",
+		"ident": 5,
+		"order": 6,
+		"desc": "Use or disclosure by the covered entity for its own training programs",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$TRAINING",
+		"ident": 6,
+		"order": 7,
+		"desc": "Use or disclosure by the covered entity to defend itself in a legal action",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$LEGAL",
+		"ident": 7,
+		"order": 8,
+		"desc": "Marketing",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MARKETING",
+		"ident": 8,
+		"order": 9,
+		"desc": "Use and disclosure for facility directories",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$DIRECTORY",
+		"ident": 9,
+		"order": 10,
+		"desc": "Disclose to a family member, other relative, or a close personal friend of the individual",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$FAMILY",
+		"ident": 10,
+		"order": 11,
+		"desc": "Uses and disclosures with the individual present.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$PRESENT",
+		"ident": 11,
+		"order": 12,
+		"desc": "Permission cannot practicably be provided because of the individual's incapacity or an emergency.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$EMERGENCY",
+		"ident": 12,
+		"order": 13,
+		"desc": "Use and disclosures for disaster relief purposes.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$DISASTER",
+		"ident": 13,
+		"order": 14,
+		"desc": "Uses and disclosures for public health activities.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$PUBLICHEALTH",
+		"ident": 14,
+		"order": 15,
+		"desc": "Disclosures about victims of abuse, neglect or domestic violence.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ABUSE",
+		"ident": 15,
+		"order": 16,
+		"desc": "Uses and disclosures for health oversight activities.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$OVERSIGHT",
+		"ident": 16,
+		"order": 17,
+		"desc": "Disclosures for judicial and administrative proceedings.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$JUDICIAL",
+		"ident": 17,
+		"order": 18,
+		"desc": "Disclosures for law enforcement purposes.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$LAW",
+		"ident": 18,
+		"order": 19,
+		"desc": "Uses and disclosures about decedents.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$DECEASED",
+		"ident": 19,
+		"order": 20,
+		"desc": "Uses and disclosures for cadaveric organ,  eye or tissue donation purposes",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$DONATION",
+		"ident": 20,
+		"order": 21,
+		"desc": "Uses and disclosures for research purposes.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$RESEARCH",
+		"ident": 21,
+		"order": 22,
+		"desc": "Uses and disclosures to avert a serious threat to health or safety.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$THREAT",
+		"ident": 22,
+		"order": 23,
+		"desc": "Uses and disclosures for specialized government functions.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$GOVERNMENT",
+		"ident": 23,
+		"order": 24,
+		"desc": "Disclosures for workers' compensation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$WORKERSCOMP",
+		"ident": 24,
+		"order": 25,
+		"desc": "Disclosures for insurance or disability coverage determination",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$COVERAGE",
+		"ident": 25,
+		"order": 26,
+		"desc": "Request of the Individual",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$REQUEST",
+		"ident": 26,
+		"order": 27,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

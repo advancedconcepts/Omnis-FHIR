@@ -1,0 +1,5 @@
+Do inherited
+Calculate description as pValue.$description()
+Calculate path as pValue.$path()
+Calculate language as pValue.$language()
+Calculate expression as pValue.$expression()

@@ -1,0 +1,4 @@
+If drugCharacteristic.$validref()=kFalse
+	Calculate drugCharacteristic as $clib.$classes.oMedicationKnowledgeDrugCharacteristic.$newref()
+End If
+Quit method drugCharacteristic

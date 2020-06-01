@@ -1,0 +1,73 @@
+[
+	{
+		"name": "$draft",
+		"ident": 0,
+		"order": 1,
+		"desc": "The consent has been proposed but not yet agreed to by all parties. The negotiation stage.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$proposed",
+		"ident": 1,
+		"order": 2,
+		"desc": "The consent is to be followed and enforced.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$active",
+		"ident": 2,
+		"order": 3,
+		"desc": "The consent has been rejected by one or more of the parties.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$rejected",
+		"ident": 3,
+		"order": 4,
+		"desc": "The consent is terminated or replaced.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$inactive",
+		"ident": 4,
+		"order": 5,
+		"desc": "The consent was created wrongly (e.g. wrong patient) and should be ignored.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$entered-in-error",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

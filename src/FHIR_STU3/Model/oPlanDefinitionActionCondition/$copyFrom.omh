@@ -1,0 +1,5 @@
+Do inherited
+Calculate kind as pValue.$kind()
+Calculate description as pValue.$description()
+Calculate language as pValue.$language()
+Calculate expression as pValue.$expression()

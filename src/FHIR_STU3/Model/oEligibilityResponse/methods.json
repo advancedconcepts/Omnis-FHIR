@@ -1,0 +1,502 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$identifier",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: The Response business identifier.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addidentifier",
+		"ident": 6,
+		"order": 7,
+		"desc": "The Response business identifier.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"desc": "The Response business identifier."
+			}
+		]
+	},
+	{
+		"name": "$status",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: The status of the resource instance.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$status.$assign",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The status of the resource instance."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$created",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: The date when the enclosed suite of services were performed or completed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$created.$assign",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kDate",
+				"subtype": "kDatetime",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The date when the enclosed suite of services were performed or completed."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$requestProvider",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: The practitioner who is responsible for the services rendered to the patient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$requestProvider.$assign",
+		"ident": 12,
+		"order": 13,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The practitioner who is responsible for the services rendered to the patient."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$requestOrganization",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: The organization which is responsible for the services rendered to the patient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$requestOrganization.$assign",
+		"ident": 14,
+		"order": 15,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The organization which is responsible for the services rendered to the patient."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$request",
+		"ident": 15,
+		"order": 16,
+		"desc": "Returns: Original request resource reference.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$request.$assign",
+		"ident": 16,
+		"order": 17,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Original request resource reference."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$outcome",
+		"ident": 17,
+		"order": 18,
+		"desc": "Returns: Transaction status: error, complete.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$outcome.$assign",
+		"ident": 18,
+		"order": 19,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Transaction status: error, complete."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$disposition",
+		"ident": 19,
+		"order": 20,
+		"desc": "Returns: A description of the status of the adjudication.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$disposition.$assign",
+		"ident": 20,
+		"order": 21,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A description of the status of the adjudication."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$insurer",
+		"ident": 21,
+		"order": 22,
+		"desc": "Returns: The Insurer who produced this adjudicated response.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$insurer.$assign",
+		"ident": 22,
+		"order": 23,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The Insurer who produced this adjudicated response."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$inforce",
+		"ident": 23,
+		"order": 24,
+		"desc": "Returns: Flag indicating if the coverage provided is inforce currently  if no service date(s) specified or for the whole duration of the service dates.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$inforce.$assign",
+		"ident": 24,
+		"order": 25,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "Flag indicating if the coverage provided is inforce currently  if no service date(s) specified or for the whole duration of the service dates."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$insurance",
+		"ident": 25,
+		"order": 26,
+		"desc": "Returns: The insurer may provide both the details for the requested coverage as well as details for additional coverages known to the insurer.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addinsurance",
+		"ident": 26,
+		"order": 27,
+		"desc": "The insurer may provide both the details for the requested coverage as well as details for additional coverages known to the insurer.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oEligibilityResponseInsurance",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oEligibilityResponseInsurance",
+				"sublen": 0,
+				"desc": "The insurer may provide both the details for the requested coverage as well as details for additional coverages known to the insurer."
+			}
+		]
+	},
+	{
+		"name": "$form",
+		"ident": 27,
+		"order": 28,
+		"desc": "Returns: The form to be used for printing the content.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$form.$assign",
+		"ident": 28,
+		"order": 29,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The form to be used for printing the content."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$error",
+		"ident": 29,
+		"order": 30,
+		"desc": "Returns: Mutually exclusive with Services Provided (Item).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$adderror",
+		"ident": 30,
+		"order": 31,
+		"desc": "Mutually exclusive with Services Provided (Item).",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oEligibilityResponseError",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oEligibilityResponseError",
+				"sublen": 0,
+				"desc": "Mutually exclusive with Services Provided (Item)."
+			}
+		]
+	}
+]

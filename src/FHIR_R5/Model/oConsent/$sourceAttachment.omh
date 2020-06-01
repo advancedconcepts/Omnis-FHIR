@@ -1,0 +1,4 @@
+If sourceAttachment.$validref()=kFalse
+	Calculate sourceAttachment as $clib.$classes.oAttachment.$newref()
+End If
+Quit method sourceAttachment

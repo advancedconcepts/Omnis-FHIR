@@ -1,0 +1,290 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$code",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: Coded expression for the route.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$code.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Coded expression for the route."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$firstDose",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: The first dose (dose quantity) administered in humans can be specified, for a product under investigation, using a numerical value and its unit of measurement.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$firstDose.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oQuantity",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The first dose (dose quantity) administered in humans can be specified, for a product under investigation, using a numerical value and its unit of measurement."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$maxSingleDose",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: The maximum single dose that can be administered as per the protocol of a clinical trial can be specified using a numerical value and its unit of measurement.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$maxSingleDose.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oQuantity",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The maximum single dose that can be administered as per the protocol of a clinical trial can be specified using a numerical value and its unit of measurement."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$maxDosePerDay",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: The maximum dose per day (maximum dose quantity to be administered in any one 24-h period) that can be administered as per the protocol referenced in the clinical trial authorisation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$maxDosePerDay.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oQuantity",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The maximum dose per day (maximum dose quantity to be administered in any one 24-h period) that can be administered as per the protocol referenced in the clinical trial authorisation."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$maxDosePerTreatmentPeriod",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: The maximum dose per treatment period that can be administered as per the protocol referenced in the clinical trial authorisation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$maxDosePerTreatmentPeriod.$assign",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oRatio",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The maximum dose per treatment period that can be administered as per the protocol referenced in the clinical trial authorisation."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$maxTreatmentPeriod",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: The maximum treatment period during which an Investigational Medicinal Product can be administered as per the protocol referenced in the clinical trial authorisation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$maxTreatmentPeriod.$assign",
+		"ident": 15,
+		"order": 16,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oDuration",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The maximum treatment period during which an Investigational Medicinal Product can be administered as per the protocol referenced in the clinical trial authorisation."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$targetSpecies",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: A species for which this route applies.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addtargetSpecies",
+		"ident": 17,
+		"order": 18,
+		"desc": "A species for which this route applies.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oAdministrableProductDefinitionRouteOfAdministrationTargetSpecies",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oAdministrableProductDefinitionRouteOfAdministrationTargetSpecies",
+				"sublen": 0,
+				"desc": "A species for which this route applies."
+			}
+		]
+	}
+]

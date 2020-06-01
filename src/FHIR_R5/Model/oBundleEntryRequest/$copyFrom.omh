@@ -1,0 +1,7 @@
+Do inherited
+Calculate method as pValue.$method()
+Calculate url as pValue.$url()
+Calculate ifNoneMatch as pValue.$ifNoneMatch()
+Calculate ifModifiedSince as pValue.$ifModifiedSince()
+Calculate ifMatch as pValue.$ifMatch()
+Calculate ifNoneExist as pValue.$ifNoneExist()

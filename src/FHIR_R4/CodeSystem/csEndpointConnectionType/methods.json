@@ -1,0 +1,169 @@
+[
+	{
+		"name": "$ihe-xcpd",
+		"ident": 0,
+		"order": 1,
+		"desc": "IHE Cross Community Access Profile (XCA) - http://wiki.ihe.net/index.php/Cross-Community_Access",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ihe-xca",
+		"ident": 1,
+		"order": 2,
+		"desc": "IHE Cross-Enterprise Document Reliable Exchange (XDR) - http://wiki.ihe.net/index.php/Cross-enterprise_Document_Reliable_Interchange",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ihe-xdr",
+		"ident": 2,
+		"order": 3,
+		"desc": "IHE Cross-Enterprise Document Sharing (XDS) - http://wiki.ihe.net/index.php/Cross-Enterprise_Document_Sharing",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ihe-xds",
+		"ident": 3,
+		"order": 4,
+		"desc": "IHE Invoke Image Display (IID) - http://wiki.ihe.net/index.php/Invoke_Image_Display",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ihe-iid",
+		"ident": 4,
+		"order": 5,
+		"desc": "DICOMweb RESTful Image Retrieve - http://dicom.nema.org/medical/dicom/current/output/chtml/part18/sect_6.5.html",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$dicom-wado-rs",
+		"ident": 5,
+		"order": 6,
+		"desc": "DICOMweb RESTful Image query - http://dicom.nema.org/medical/dicom/current/output/chtml/part18/sect_6.7.html",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$dicom-qido-rs",
+		"ident": 6,
+		"order": 7,
+		"desc": "DICOMweb RESTful image sending and storage - http://dicom.nema.org/medical/dicom/current/output/chtml/part18/sect_6.6.html",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$dicom-stow-rs",
+		"ident": 7,
+		"order": 8,
+		"desc": "DICOMweb Image Retrieve - http://dicom.nema.org/dicom/2013/output/chtml/part18/sect_6.3.html",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$dicom-wado-uri",
+		"ident": 8,
+		"order": 9,
+		"desc": "Interact with the server interface using FHIR's RESTful interface. For details on its version/capabilities you should connect the value in Endpoint.address and retrieve the FHIR CapabilityStatement.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$hl7-fhir-rest",
+		"ident": 9,
+		"order": 10,
+		"desc": "Use the servers FHIR Messaging interface. Details can be found on the messaging.html page in the FHIR Specification. The FHIR server's base address is specified in the Endpoint.address property.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$hl7-fhir-msg",
+		"ident": 10,
+		"order": 11,
+		"desc": "HL7v2 messages over an LLP TCP connection",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$hl7v2-mllp",
+		"ident": 11,
+		"order": 12,
+		"desc": "Email delivery using a digital certificate to encrypt the content using the public key, receiver must have the private key to decrypt the content",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$secure-email",
+		"ident": 12,
+		"order": 13,
+		"desc": "Direct Project information - http://wiki.directproject.org/",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$direct-project",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

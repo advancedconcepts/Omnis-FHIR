@@ -1,0 +1,352 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$category",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: Dental, Vision, Medical, Pharmacy, Rehab etc.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$category.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Dental, Vision, Medical, Pharmacy, Rehab etc."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subCategory",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: Dental: basic, major, ortho; Vision exam, glasses, contacts; etc.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subCategory.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Dental: basic, major, ortho; Vision exam, glasses, contacts; etc."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$excluded",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: True if the indicated class of service is excluded from the plan, missing or False indicated the service is included in the coverage.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$excluded.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "True if the indicated class of service is excluded from the plan, missing or False indicated the service is included in the coverage."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::name",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: A short name or tag for the benefit, for example MED01, or DENT2.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::name.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A short name or tag for the benefit, for example MED01, or DENT2."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$description",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: A richer description of the benefit, for example 'DENT2 covers 100% of basic, 50% of major but exclused Ortho, Implants and Costmetic services'.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$description.$assign",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A richer description of the benefit, for example 'DENT2 covers 100% of basic, 50% of major but exclused Ortho, Implants and Costmetic services'."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$network",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: Network designation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$network.$assign",
+		"ident": 15,
+		"order": 16,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Network designation."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unit",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: Unit designation: individual or family.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unit.$assign",
+		"ident": 17,
+		"order": 18,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Unit designation: individual or family."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$term",
+		"ident": 18,
+		"order": 19,
+		"desc": "Returns: The term or period of the values such as 'maximum lifetime benefit' or 'maximum annual vistis'.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$term.$assign",
+		"ident": 19,
+		"order": 20,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The term or period of the values such as 'maximum lifetime benefit' or 'maximum annual vistis'."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$financial",
+		"ident": 20,
+		"order": 21,
+		"desc": "Returns: Benefits Used to date.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addfinancial",
+		"ident": 21,
+		"order": 22,
+		"desc": "Benefits Used to date.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oExplanationOfBenefitBenefitBalanceFinancial",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oExplanationOfBenefitBenefitBalanceFinancial",
+				"sublen": 0,
+				"desc": "Benefits Used to date."
+			}
+		]
+	}
+]

@@ -1,0 +1,330 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$identifier",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: An identifier for the pharmaceutical medicinal product.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addidentifier",
+		"ident": 6,
+		"order": 7,
+		"desc": "An identifier for the pharmaceutical medicinal product.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"desc": "An identifier for the pharmaceutical medicinal product."
+			}
+		]
+	},
+	{
+		"name": "$administrableDoseForm",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: The administrable dose form, after necessary reconstitution.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$administrableDoseForm.$assign",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The administrable dose form, after necessary reconstitution."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unitOfPresentation",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: Todo.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unitOfPresentation.$assign",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Todo."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ingredient",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: Ingredient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addingredient",
+		"ident": 12,
+		"order": 13,
+		"desc": "Ingredient.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Ingredient."
+			}
+		]
+	},
+	{
+		"name": "$device",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: Accompanying device.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$adddevice",
+		"ident": 14,
+		"order": 15,
+		"desc": "Accompanying device.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Accompanying device."
+			}
+		]
+	},
+	{
+		"name": "$characteristics",
+		"ident": 15,
+		"order": 16,
+		"desc": "Returns: Characteristics e.g. a products onset of action.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcharacteristics",
+		"ident": 16,
+		"order": 17,
+		"desc": "Characteristics e.g. a products onset of action.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMedicinalProductPharmaceuticalCharacteristics",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oMedicinalProductPharmaceuticalCharacteristics",
+				"sublen": 0,
+				"desc": "Characteristics e.g. a products onset of action."
+			}
+		]
+	},
+	{
+		"name": "$routeOfAdministration",
+		"ident": 17,
+		"order": 18,
+		"desc": "Returns: The path by which the pharmaceutical product is taken into or makes contact with the body.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addrouteOfAdministration",
+		"ident": 18,
+		"order": 19,
+		"desc": "The path by which the pharmaceutical product is taken into or makes contact with the body.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMedicinalProductPharmaceuticalRouteOfAdministration",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oMedicinalProductPharmaceuticalRouteOfAdministration",
+				"sublen": 0,
+				"desc": "The path by which the pharmaceutical product is taken into or makes contact with the body."
+			}
+		]
+	}
+]

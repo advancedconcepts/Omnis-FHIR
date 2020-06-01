@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$verbal",
+		"ident": 0,
+		"order": 1,
+		"desc": "The patient prefers to communicate in writing with the associated language.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$written",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

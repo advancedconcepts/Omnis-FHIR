@@ -1,0 +1,128 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$contentType",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: The mime type to send the payload in - either application/fhir+xml, or application/fhir+json. The MIME types \"text/plain\" and \"text/html\" may also be used for Email subscriptions.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$contentType.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The mime type to send the payload in - either application/fhir+xml, or application/fhir+json. The MIME types \"text/plain\" and \"text/html\" may also be used for Email subscriptions."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$content",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: How much of the resource content to deliver in the notification payload. The choices are an empty payload, only the resource id, or the full resource content.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$content.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "How much of the resource content to deliver in the notification payload. The choices are an empty payload, only the resource id, or the full resource content."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

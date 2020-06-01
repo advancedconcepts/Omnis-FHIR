@@ -1,0 +1,799 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$identifier",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: Business identifiers assigned to this adverse event by the performer or other systems which remain constant as the resource is updated and propagates from server to server.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addidentifier",
+		"ident": 6,
+		"order": 7,
+		"desc": "Business identifiers assigned to this adverse event by the performer or other systems which remain constant as the resource is updated and propagates from server to server.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"desc": "Business identifiers assigned to this adverse event by the performer or other systems which remain constant as the resource is updated and propagates from server to server."
+			}
+		]
+	},
+	{
+		"name": "$status",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: The current state of the data entry of the adverse event or potential adverse event.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$status.$assign",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The current state of the data entry of the adverse event or potential adverse event."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$actuality",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: Whether the event actually happened, or just had the potential to. Note that this is independent of whether anyone was affected or harmed or how severely.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$actuality.$assign",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Whether the event actually happened, or just had the potential to. Note that this is independent of whether anyone was affected or harmed or how severely."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$category",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: The overall type of event, intended for search and filtering purposes.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcategory",
+		"ident": 12,
+		"order": 13,
+		"desc": "The overall type of event, intended for search and filtering purposes.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "The overall type of event, intended for search and filtering purposes."
+			}
+		]
+	},
+	{
+		"name": "$code",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: Specific event that occurred or that was averted, such as patient fall, wrong organ removed, or wrong blood transfused.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$code.$assign",
+		"ident": 14,
+		"order": 15,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Specific event that occurred or that was averted, such as patient fall, wrong organ removed, or wrong blood transfused."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subject",
+		"ident": 15,
+		"order": 16,
+		"desc": "Returns: This subject or group impacted by the event.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subject.$assign",
+		"ident": 16,
+		"order": 17,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "This subject or group impacted by the event."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$encounter",
+		"ident": 17,
+		"order": 18,
+		"desc": "Returns: The Encounter during which AdverseEvent was created or to which the creation of this record is tightly associated.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$encounter.$assign",
+		"ident": 18,
+		"order": 19,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The Encounter during which AdverseEvent was created or to which the creation of this record is tightly associated."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$detected",
+		"ident": 19,
+		"order": 20,
+		"desc": "Returns: Estimated or actual date the AdverseEvent began, in the opinion of the reporter.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$detected.$assign",
+		"ident": 20,
+		"order": 21,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kDate",
+				"subtype": "kDatetime",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Estimated or actual date the AdverseEvent began, in the opinion of the reporter."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$recordedDate",
+		"ident": 21,
+		"order": 22,
+		"desc": "Returns: The date on which the existence of the AdverseEvent was first recorded.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$recordedDate.$assign",
+		"ident": 22,
+		"order": 23,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kDate",
+				"subtype": "kDatetime",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The date on which the existence of the AdverseEvent was first recorded."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$resultingCondition",
+		"ident": 23,
+		"order": 24,
+		"desc": "Returns: Includes information about the reaction that occurred as a result of exposure to a substance (for example, a drug or a chemical).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addresultingCondition",
+		"ident": 24,
+		"order": 25,
+		"desc": "Includes information about the reaction that occurred as a result of exposure to a substance (for example, a drug or a chemical).",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Includes information about the reaction that occurred as a result of exposure to a substance (for example, a drug or a chemical)."
+			}
+		]
+	},
+	{
+		"name": "$location",
+		"ident": 25,
+		"order": 26,
+		"desc": "Returns: The information about where the adverse event occurred.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$location.$assign",
+		"ident": 26,
+		"order": 27,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The information about where the adverse event occurred."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$seriousness",
+		"ident": 27,
+		"order": 28,
+		"desc": "Returns: Assessment whether this event, or averted event, was of clinical importance.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$seriousness.$assign",
+		"ident": 28,
+		"order": 29,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Assessment whether this event, or averted event, was of clinical importance."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$outcome",
+		"ident": 29,
+		"order": 30,
+		"desc": "Returns: Describes the type of outcome from the adverse event, such as resolved, recovering, ongoing, resolved-with-sequelae, or fatal.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$outcome.$assign",
+		"ident": 30,
+		"order": 31,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Describes the type of outcome from the adverse event, such as resolved, recovering, ongoing, resolved-with-sequelae, or fatal."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$recorder",
+		"ident": 31,
+		"order": 32,
+		"desc": "Returns: Information on who recorded the adverse event.  May be the patient or a practitioner.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$recorder.$assign",
+		"ident": 32,
+		"order": 33,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Information on who recorded the adverse event.  May be the patient or a practitioner."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$participant",
+		"ident": 33,
+		"order": 34,
+		"desc": "Returns: Indicates who or what participated in the adverse event and how they were involved.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addparticipant",
+		"ident": 34,
+		"order": 35,
+		"desc": "Indicates who or what participated in the adverse event and how they were involved.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oAdverseEventParticipant",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oAdverseEventParticipant",
+				"sublen": 0,
+				"desc": "Indicates who or what participated in the adverse event and how they were involved."
+			}
+		]
+	},
+	{
+		"name": "$suspectEntity",
+		"ident": 35,
+		"order": 36,
+		"desc": "Returns: Describes the entity that is suspected to have caused the adverse event.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addsuspectEntity",
+		"ident": 36,
+		"order": 37,
+		"desc": "Describes the entity that is suspected to have caused the adverse event.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oAdverseEventSuspectEntity",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oAdverseEventSuspectEntity",
+				"sublen": 0,
+				"desc": "Describes the entity that is suspected to have caused the adverse event."
+			}
+		]
+	},
+	{
+		"name": "$contributingFactor",
+		"ident": 37,
+		"order": 38,
+		"desc": "Returns: The contributing factors suspected to have increased the probability or severity of the adverse event.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcontributingFactor",
+		"ident": 38,
+		"order": 39,
+		"desc": "The contributing factors suspected to have increased the probability or severity of the adverse event.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oAdverseEventContributingFactor",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oAdverseEventContributingFactor",
+				"sublen": 0,
+				"desc": "The contributing factors suspected to have increased the probability or severity of the adverse event."
+			}
+		]
+	},
+	{
+		"name": "$preventiveAction",
+		"ident": 39,
+		"order": 40,
+		"desc": "Returns: Preventive actions that contributed to avoiding the adverse event.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addpreventiveAction",
+		"ident": 40,
+		"order": 41,
+		"desc": "Preventive actions that contributed to avoiding the adverse event.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oAdverseEventPreventiveAction",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oAdverseEventPreventiveAction",
+				"sublen": 0,
+				"desc": "Preventive actions that contributed to avoiding the adverse event."
+			}
+		]
+	},
+	{
+		"name": "$mitigatingAction",
+		"ident": 41,
+		"order": 42,
+		"desc": "Returns: The ameliorating action taken after the adverse event occured in order to reduce the extent of harm.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addmitigatingAction",
+		"ident": 42,
+		"order": 43,
+		"desc": "The ameliorating action taken after the adverse event occured in order to reduce the extent of harm.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oAdverseEventMitigatingAction",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oAdverseEventMitigatingAction",
+				"sublen": 0,
+				"desc": "The ameliorating action taken after the adverse event occured in order to reduce the extent of harm."
+			}
+		]
+	},
+	{
+		"name": "$supportingInfo",
+		"ident": 43,
+		"order": 44,
+		"desc": "Returns: Supporting information relevant to the event.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addsupportingInfo",
+		"ident": 44,
+		"order": 45,
+		"desc": "Supporting information relevant to the event.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oAdverseEventSupportingInfo",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oAdverseEventSupportingInfo",
+				"sublen": 0,
+				"desc": "Supporting information relevant to the event."
+			}
+		]
+	},
+	{
+		"name": "$study",
+		"ident": 45,
+		"order": 46,
+		"desc": "Returns: The research study that the subject is enrolled in.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addstudy",
+		"ident": 46,
+		"order": 47,
+		"desc": "The research study that the subject is enrolled in.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "The research study that the subject is enrolled in."
+			}
+		]
+	}
+]

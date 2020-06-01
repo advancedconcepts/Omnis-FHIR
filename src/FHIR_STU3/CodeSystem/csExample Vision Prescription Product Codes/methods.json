@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$lens",
+		"ident": 0,
+		"order": 1,
+		"desc": "A lens to be fitted for wearing directly on an eye.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$contact",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

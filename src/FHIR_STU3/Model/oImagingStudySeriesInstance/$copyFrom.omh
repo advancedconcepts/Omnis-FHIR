@@ -1,0 +1,5 @@
+Do inherited
+Calculate uid as pValue.$uid()
+Calculate number as pValue.$number()
+Calculate sopClass as pValue.$sopClass()
+Calculate title as pValue.$title()

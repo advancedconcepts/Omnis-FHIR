@@ -1,0 +1,4 @@
+Do inherited
+Calculate name as pValue.$name()
+Calculate target as pValue.$target()
+Calculate endpoint as pValue.$endpoint()

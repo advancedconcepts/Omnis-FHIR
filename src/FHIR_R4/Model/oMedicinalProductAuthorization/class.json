@@ -1,0 +1,196 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "country",
+			"order": 4,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "country_",
+			"order": 5,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The country in which the marketing authorization has been granted."
+		},
+		{
+			"name": "dataExclusivityPeriod",
+			"order": 12,
+			"type": "kObjectref",
+			"subtype": "oPeriod",
+			"sublen": 0,
+			"desc": "A period of time after authorization before generic product applicatiosn can be submitted."
+		},
+		{
+			"name": "dateOfFirstAuthorization",
+			"order": 13,
+			"type": "kDate",
+			"subtype": "kDatetime",
+			"sublen": 0,
+			"desc": "The date when the first authorization was granted by a Medicines Regulatory Agency."
+		},
+		{
+			"name": "holder",
+			"order": 18,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Marketing Authorization Holder."
+		},
+		{
+			"name": "identifier",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "identifier_",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "Business identifier for the marketing authorization, as assigned by a regulator."
+		},
+		{
+			"name": "internationalBirthDate",
+			"order": 14,
+			"type": "kDate",
+			"subtype": "kDatetime",
+			"sublen": 0,
+			"desc": "Date of first marketing authorization for a company's new medicinal product in any country in the World."
+		},
+		{
+			"name": "jurisdiction",
+			"order": 6,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "jurisdictionalAuthorization",
+			"order": 16,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "jurisdictionalAuthorization_",
+			"order": 17,
+			"type": "kObjectref",
+			"subtype": "oMedicinalProductAuthorizationJurisdictionalAuthorization",
+			"sublen": 0,
+			"desc": "Authorization in areas within a country."
+		},
+		{
+			"name": "jurisdiction_",
+			"order": 7,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Jurisdiction within a country."
+		},
+		{
+			"name": "legalBasis",
+			"order": 15,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The legal framework against which this authorization is granted."
+		},
+		{
+			"name": "procedure",
+			"order": 20,
+			"type": "kObjectref",
+			"subtype": "oMedicinalProductAuthorizationProcedure",
+			"sublen": 0,
+			"desc": "The regulatory procedure for granting or amending a marketing authorization."
+		},
+		{
+			"name": "regulator",
+			"order": 19,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Medicines Regulatory Agency."
+		},
+		{
+			"name": "restoreDate",
+			"order": 10,
+			"type": "kDate",
+			"subtype": "kDatetime",
+			"sublen": 0,
+			"desc": "The date when a suspended the marketing or the marketing authorization of the product is anticipated to be restored."
+		},
+		{
+			"name": "status",
+			"order": 8,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The status of the marketing authorization."
+		},
+		{
+			"name": "statusDate",
+			"order": 9,
+			"type": "kDate",
+			"subtype": "kDatetime",
+			"sublen": 0,
+			"desc": "The date at which the given status has become applicable."
+		},
+		{
+			"name": "subject",
+			"order": 3,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The medicinal product that is being authorized."
+		},
+		{
+			"name": "validityPeriod",
+			"order": 11,
+			"type": "kObjectref",
+			"subtype": "oPeriod",
+			"sublen": 0,
+			"desc": "The beginning of the time period in which the marketing authorization is in the specific status shall be specified A complete date consisting of day, month and year shall be specified using the ISO 8601 date format."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:41:47",
+		"desc": "The regulatory authorization of a medicinal product.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:25",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

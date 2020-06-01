@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$exam",
+		"ident": 0,
+		"order": 1,
+		"desc": "Flu shot",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$flushot",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

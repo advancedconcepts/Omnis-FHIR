@@ -1,0 +1,4 @@
+Do inherited
+Calculate entity as pValue.$entity()
+Calculate period as pValue.$period()
+Calculate inactive as pValue.$inactive()

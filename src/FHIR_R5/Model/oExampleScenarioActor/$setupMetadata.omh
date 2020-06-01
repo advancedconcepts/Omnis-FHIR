@@ -1,0 +1,5 @@
+Do inherited
+Do pElements.$add("actorId","actorId",1,"1",21,"string")
+Do pElements.$add("type","::type",1,"1",21,"code")
+Do pElements.$add("name","::name",0,"1",21,"string")
+Do pElements.$add("description","description",0,"1",21,"markdown")

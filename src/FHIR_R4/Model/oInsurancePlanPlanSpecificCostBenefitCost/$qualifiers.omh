@@ -1,0 +1,4 @@
+If qualifiers.$validref()=kFalse
+	Calculate qualifiers as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method qualifiers

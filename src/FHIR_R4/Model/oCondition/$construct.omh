@@ -1,0 +1,7 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do category.$define(category_)
+Do bodySite.$define(bodySite_)
+Do stage.$define(stage_)
+Do evidence.$define(evidence_)
+Do note.$define(note_)

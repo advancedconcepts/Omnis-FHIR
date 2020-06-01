@@ -1,0 +1,5 @@
+Do inherited
+Do pElements.$add("code","code",0,"1",21,"code")
+Do pElements.$add("display","display",0,"1",21,"string")
+Do pElements.$add("noMap","noMap",0,"1",22,"boolean")
+Do pElements.$add("target","target",0,"-1",38,"")

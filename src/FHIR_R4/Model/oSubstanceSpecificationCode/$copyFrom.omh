@@ -1,0 +1,10 @@
+Do inherited
+Calculate code as pValue.$code()
+Calculate status as pValue.$status()
+Calculate statusDate as pValue.$statusDate()
+Calculate comment as pValue.$comment()
+Do source.$clear()
+Calculate list as pValue.$source()
+Do source.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

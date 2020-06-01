@@ -1,0 +1,3 @@
+Do inherited
+Do pElements.$add("isActive","isActive",0,"1",22,"boolean")
+Do pElements.$add("amount","amount",0,"1",38,"Ratio")

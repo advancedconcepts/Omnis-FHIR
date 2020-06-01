@@ -1,0 +1,22 @@
+Do inherited
+Do grouping.$clear()
+Calculate list as pValue.$grouping()
+Do grouping.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do resource.$clear()
+Calculate list as pValue.$resource()
+Do resource.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate page as pValue.$page()
+Do parameter.$clear()
+Calculate list as pValue.$parameter()
+Do parameter.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do template.$clear()
+Calculate list as pValue.$template()
+Do template.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

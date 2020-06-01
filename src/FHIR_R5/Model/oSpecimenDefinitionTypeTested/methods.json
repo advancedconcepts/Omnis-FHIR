@@ -1,0 +1,397 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$isDerived",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: Primary of secondary specimen.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$isDerived.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "Primary of secondary specimen."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: The kind of specimen conditioned for testing expected by lab.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The kind of specimen conditioned for testing expected by lab."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$preference",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: The preference for this type of conditioned specimen.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$preference.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The preference for this type of conditioned specimen."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$container",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: The specimen's container.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$container.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oSpecimenDefinitionTypeTestedContainer",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The specimen's container."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$requirement",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: Requirements for delivery and special handling of this kind of conditioned specimen.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$requirement.$assign",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Requirements for delivery and special handling of this kind of conditioned specimen."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$retentionTime",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: The usual time that a specimen of this kind is retained after the ordered tests are completed, for the purpose of additional testing.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$retentionTime.$assign",
+		"ident": 15,
+		"order": 16,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oDuration",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The usual time that a specimen of this kind is retained after the ordered tests are completed, for the purpose of additional testing."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$singleUse",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: Specimen can be used by only one test or panel if the value is \"true\".",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$singleUse.$assign",
+		"ident": 17,
+		"order": 18,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "Specimen can be used by only one test or panel if the value is \"true\"."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$rejectionCriterion",
+		"ident": 18,
+		"order": 19,
+		"desc": "Returns: Criterion for rejection of the specimen in its container by the laboratory.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addrejectionCriterion",
+		"ident": 19,
+		"order": 20,
+		"desc": "Criterion for rejection of the specimen in its container by the laboratory.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Criterion for rejection of the specimen in its container by the laboratory."
+			}
+		]
+	},
+	{
+		"name": "$handling",
+		"ident": 20,
+		"order": 21,
+		"desc": "Returns: Set of instructions for preservation/transport of the specimen at a defined temperature interval, prior the testing process.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addhandling",
+		"ident": 21,
+		"order": 22,
+		"desc": "Set of instructions for preservation/transport of the specimen at a defined temperature interval, prior the testing process.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oSpecimenDefinitionTypeTestedHandling",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oSpecimenDefinitionTypeTestedHandling",
+				"sublen": 0,
+				"desc": "Set of instructions for preservation/transport of the specimen at a defined temperature interval, prior the testing process."
+			}
+		]
+	},
+	{
+		"name": "$testingDestination",
+		"ident": 22,
+		"order": 23,
+		"desc": "Returns: Where the specimen will be tested: e.g., lab, sector, device or any combination of these.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addtestingDestination",
+		"ident": 23,
+		"order": 24,
+		"desc": "Where the specimen will be tested: e.g., lab, sector, device or any combination of these.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Where the specimen will be tested: e.g., lab, sector, device or any combination of these."
+			}
+		]
+	}
+]

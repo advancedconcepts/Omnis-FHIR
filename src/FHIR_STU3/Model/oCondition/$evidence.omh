@@ -1,0 +1,4 @@
+If evidence.$validref()=kFalse
+	Calculate evidence as $clib.$classes.oConditionEvidence.$newref()
+End If
+Quit method evidence

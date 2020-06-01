@@ -1,0 +1,13 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"-1",38,"Identifier")
+Do pElements.$add("status","status",1,"1",21,"code")
+Do pElements.$add("statusHistory","statusHistory",0,"-1",38,"")
+Do pElements.$add("type","::type",0,"-1",38,"CodeableConcept")
+Do pElements.$add("diagnosis","diagnosis",0,"-1",38,"")
+Do pElements.$add("patient","patient",1,"1",38,"Reference")
+Do pElements.$add("managingOrganization","managingOrganization",0,"1",38,"Reference")
+Do pElements.$add("period","period",0,"1",38,"Period")
+Do pElements.$add("referralRequest","referralRequest",0,"-1",38,"Reference")
+Do pElements.$add("careManager","careManager",0,"1",38,"Reference")
+Do pElements.$add("team","team",0,"-1",38,"Reference")
+Do pElements.$add("account","account",0,"-1",38,"Reference")

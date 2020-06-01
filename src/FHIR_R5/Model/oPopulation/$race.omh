@@ -1,0 +1,4 @@
+If race.$validref()=kFalse
+	Calculate race as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method race

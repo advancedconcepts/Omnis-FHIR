@@ -1,0 +1,30 @@
+Do inherited
+Do subject.$clear()
+Calculate list as pValue.$subject()
+Do subject.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate diseaseSymptomProcedure as pValue.$diseaseSymptomProcedure()
+Calculate diseaseStatus as pValue.$diseaseStatus()
+Do comorbidity.$clear()
+Calculate list as pValue.$comorbidity()
+Do comorbidity.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate intendedEffect as pValue.$intendedEffect()
+Calculate duration as pValue.$duration()
+Do otherTherapy.$clear()
+Calculate list as pValue.$otherTherapy()
+Do otherTherapy.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do undesirableEffect.$clear()
+Calculate list as pValue.$undesirableEffect()
+Do undesirableEffect.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do population.$clear()
+Calculate list as pValue.$population()
+Do population.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

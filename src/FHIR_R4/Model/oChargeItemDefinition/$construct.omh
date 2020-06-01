@@ -1,0 +1,11 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do derivedFromUri.$define(derivedFromUri_)
+Do partOf.$define(partOf_)
+Do replaces.$define(replaces_)
+Do contact.$define(contact_)
+Do useContext.$define(useContext_)
+Do jurisdiction.$define(jurisdiction_)
+Do instance.$define(instance_)
+Do applicability.$define(applicability_)
+Do propertyGroup.$define(propertyGroup_)

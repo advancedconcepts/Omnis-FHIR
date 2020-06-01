@@ -1,0 +1,73 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do definition.$clear()
+Calculate list as pValue.$definition()
+Do definition.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do basedOn.$clear()
+Calculate list as pValue.$basedOn()
+Do basedOn.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do replaces.$clear()
+Calculate list as pValue.$replaces()
+Do replaces.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do partOf.$clear()
+Calculate list as pValue.$partOf()
+Do partOf.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate status as pValue.$status()
+Calculate intent as pValue.$intent()
+Do category.$clear()
+Calculate list as pValue.$category()
+Do category.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate title as pValue.$title()
+Calculate description as pValue.$description()
+Calculate subject as pValue.$subject()
+Calculate context as pValue.$context()
+Calculate period as pValue.$period()
+Do author.$clear()
+Calculate list as pValue.$author()
+Do author.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do careTeam.$clear()
+Calculate list as pValue.$careTeam()
+Do careTeam.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do addresses.$clear()
+Calculate list as pValue.$addresses()
+Do addresses.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do supportingInfo.$clear()
+Calculate list as pValue.$supportingInfo()
+Do supportingInfo.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do goal.$clear()
+Calculate list as pValue.$goal()
+Do goal.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do activity.$clear()
+Calculate list as pValue.$activity()
+Do activity.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do note.$clear()
+Calculate list as pValue.$note()
+Do note.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

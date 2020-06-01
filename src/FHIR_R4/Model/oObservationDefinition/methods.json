@@ -1,0 +1,503 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$category",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: A code that classifies the general type of observation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcategory",
+		"ident": 6,
+		"order": 7,
+		"desc": "A code that classifies the general type of observation.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "A code that classifies the general type of observation."
+			}
+		]
+	},
+	{
+		"name": "$code",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: Describes what will be observed. Sometimes this is called the observation \"name\".",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$code.$assign",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Describes what will be observed. Sometimes this is called the observation \"name\"."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$identifier",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: A unique identifier assigned to this ObservationDefinition artifact.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addidentifier",
+		"ident": 10,
+		"order": 11,
+		"desc": "A unique identifier assigned to this ObservationDefinition artifact.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"desc": "A unique identifier assigned to this ObservationDefinition artifact."
+			}
+		]
+	},
+	{
+		"name": "$permittedDataType",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: The data types allowed for the value element of the instance observations conforming to this ObservationDefinition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addpermittedDataType",
+		"ident": 12,
+		"order": 13,
+		"desc": "The data types allowed for the value element of the instance observations conforming to this ObservationDefinition.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The data types allowed for the value element of the instance observations conforming to this ObservationDefinition."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$multipleResultsAllowed",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: Multiple results allowed for observations conforming to this ObservationDefinition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$multipleResultsAllowed.$assign",
+		"ident": 14,
+		"order": 15,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "Multiple results allowed for observations conforming to this ObservationDefinition."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$method",
+		"ident": 15,
+		"order": 16,
+		"desc": "Returns: The method or technique used to perform the observation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$method.$assign",
+		"ident": 16,
+		"order": 17,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The method or technique used to perform the observation."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$preferredReportName",
+		"ident": 17,
+		"order": 18,
+		"desc": "Returns: The preferred name to be used when reporting the results of observations conforming to this ObservationDefinition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$preferredReportName.$assign",
+		"ident": 18,
+		"order": 19,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The preferred name to be used when reporting the results of observations conforming to this ObservationDefinition."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$quantitativeDetails",
+		"ident": 19,
+		"order": 20,
+		"desc": "Returns: Characteristics for quantitative results of this observation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$quantitativeDetails.$assign",
+		"ident": 20,
+		"order": 21,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oObservationDefinitionQuantitativeDetails",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Characteristics for quantitative results of this observation."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$qualifiedInterval",
+		"ident": 21,
+		"order": 22,
+		"desc": "Returns: Multiple  ranges of results qualified by different contexts for ordinal or continuous observations conforming to this ObservationDefinition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addqualifiedInterval",
+		"ident": 22,
+		"order": 23,
+		"desc": "Multiple  ranges of results qualified by different contexts for ordinal or continuous observations conforming to this ObservationDefinition.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oObservationDefinitionQualifiedInterval",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oObservationDefinitionQualifiedInterval",
+				"sublen": 0,
+				"desc": "Multiple  ranges of results qualified by different contexts for ordinal or continuous observations conforming to this ObservationDefinition."
+			}
+		]
+	},
+	{
+		"name": "$validCodedValueSet",
+		"ident": 23,
+		"order": 24,
+		"desc": "Returns: The set of valid coded results for the observations  conforming to this ObservationDefinition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$validCodedValueSet.$assign",
+		"ident": 24,
+		"order": 25,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The set of valid coded results for the observations  conforming to this ObservationDefinition."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$normalCodedValueSet",
+		"ident": 25,
+		"order": 26,
+		"desc": "Returns: The set of normal coded results for the observations conforming to this ObservationDefinition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$normalCodedValueSet.$assign",
+		"ident": 26,
+		"order": 27,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The set of normal coded results for the observations conforming to this ObservationDefinition."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$abnormalCodedValueSet",
+		"ident": 27,
+		"order": 28,
+		"desc": "Returns: The set of abnormal coded results for the observation conforming to this ObservationDefinition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$abnormalCodedValueSet.$assign",
+		"ident": 28,
+		"order": 29,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The set of abnormal coded results for the observation conforming to this ObservationDefinition."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$criticalCodedValueSet",
+		"ident": 29,
+		"order": 30,
+		"desc": "Returns: The set of critical coded results for the observation conforming to this ObservationDefinition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$criticalCodedValueSet.$assign",
+		"ident": 30,
+		"order": 31,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The set of critical coded results for the observation conforming to this ObservationDefinition."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

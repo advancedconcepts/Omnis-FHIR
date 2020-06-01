@@ -1,0 +1,4 @@
+If locationCode.$validref()=kFalse
+	Calculate locationCode as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method locationCode

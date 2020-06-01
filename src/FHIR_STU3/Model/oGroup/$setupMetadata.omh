@@ -1,0 +1,10 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"-1",38,"Identifier")
+Do pElements.$add("active","active",0,"1",22,"boolean")
+Do pElements.$add("type","::type",1,"1",21,"code")
+Do pElements.$add("actual","actual",1,"1",22,"boolean")
+Do pElements.$add("code","code",0,"1",38,"CodeableConcept")
+Do pElements.$add("name","::name",0,"1",21,"string")
+Do pElements.$add("quantity","quantity",0,"1",26,"unsignedInt")
+Do pElements.$add("characteristic","characteristic",0,"-1",38,"")
+Do pElements.$add("member","member",0,"-1",38,"")

@@ -1,0 +1,13 @@
+Do inherited
+Calculate regulatoryAuthority as pValue.$regulatoryAuthority()
+Do substitution.$clear()
+Calculate list as pValue.$substitution()
+Do substitution.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do schedule.$clear()
+Calculate list as pValue.$schedule()
+Do schedule.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate maxDispense as pValue.$maxDispense()

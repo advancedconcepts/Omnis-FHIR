@@ -1,0 +1,7 @@
+Calculate interaction as pResource.$addinteraction()
+Calculate interaction.$code as 'read'
+
+Calculate searchParams as pResource.$addsearchParam()
+Calculate searchParams.$::name as '_id'
+Calculate searchParams.$::type as 'token'
+Calculate searchParams.$documentation as 'The ID of the resource'

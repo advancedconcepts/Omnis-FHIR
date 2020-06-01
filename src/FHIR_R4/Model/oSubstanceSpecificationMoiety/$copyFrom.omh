@@ -1,0 +1,7 @@
+Do inherited
+Calculate role as pValue.$role()
+Calculate identifier as pValue.$identifier()
+Calculate name as pValue.$name()
+Calculate stereochemistry as pValue.$stereochemistry()
+Calculate opticalActivity as pValue.$opticalActivity()
+Calculate molecularFormula as pValue.$molecularFormula()

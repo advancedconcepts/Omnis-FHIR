@@ -1,0 +1,5 @@
+Do inherited
+Calculate description as pValue.$description()
+Calculate exposureState as pValue.$exposureState()
+Calculate variantState as pValue.$variantState()
+Calculate riskEvidenceSynthesis as pValue.$riskEvidenceSynthesis()

@@ -1,0 +1,4 @@
+If classHistory.$validref()=kFalse
+	Calculate classHistory as $clib.$classes.oEncounterClassHistory.$newref()
+End If
+Quit method classHistory

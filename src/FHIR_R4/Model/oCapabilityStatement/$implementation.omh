@@ -1,0 +1,4 @@
+If implementation.$validref()=kFalse
+	Calculate implementation as $clib.$classes.oCapabilityStatementImplementation.$newref()
+End If
+Quit method implementation

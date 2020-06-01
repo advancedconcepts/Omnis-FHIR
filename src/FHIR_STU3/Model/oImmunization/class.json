@@ -1,0 +1,243 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "date",
+			"order": 8,
+			"type": "kDate",
+			"subtype": "kDatetime",
+			"sublen": 0,
+			"desc": "Date vaccine administered or was to be administered."
+		},
+		{
+			"name": "doseQuantity",
+			"order": 17,
+			"type": "kObjectref",
+			"subtype": "oQuantity",
+			"sublen": 0,
+			"desc": "The quantity of vaccine product that was administered."
+		},
+		{
+			"name": "encounter",
+			"order": 7,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The visit or admission or other contact between patient and health care provider the immunization was performed as part of."
+		},
+		{
+			"name": "expirationDate",
+			"order": 14,
+			"type": "kDate",
+			"subtype": "kDate2000",
+			"sublen": 0,
+			"desc": "Date vaccine batch expires."
+		},
+		{
+			"name": "explanation",
+			"order": 22,
+			"type": "kObjectref",
+			"subtype": "oImmunizationExplanation",
+			"sublen": 0,
+			"desc": "Reasons why a vaccine was or was not administered."
+		},
+		{
+			"name": "identifier",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "identifier_",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "A unique identifier assigned to this immunization record."
+		},
+		{
+			"name": "location",
+			"order": 11,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The service delivery location where the vaccine administration occurred."
+		},
+		{
+			"name": "lotNumber",
+			"order": 13,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Lot number of the  vaccine product."
+		},
+		{
+			"name": "manufacturer",
+			"order": 12,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Name of vaccine manufacturer."
+		},
+		{
+			"name": "note",
+			"order": 20,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "note_",
+			"order": 21,
+			"type": "kObjectref",
+			"subtype": "oAnnotation",
+			"sublen": 0,
+			"desc": "Extra information about the immunization that is not conveyed by the other attributes."
+		},
+		{
+			"name": "notGiven",
+			"order": 4,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "Indicates if the vaccination was or was not given."
+		},
+		{
+			"name": "patient",
+			"order": 6,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The patient who either received or did not receive the immunization."
+		},
+		{
+			"name": "practitioner",
+			"order": 18,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "practitioner_",
+			"order": 19,
+			"type": "kObjectref",
+			"subtype": "oImmunizationPractitioner",
+			"sublen": 0,
+			"desc": "Indicates who or what performed the event."
+		},
+		{
+			"name": "primarySource",
+			"order": 9,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "An indication that the content of the record is based on information from the person who administered the vaccine. This reflects the context under which the data was originally recorded."
+		},
+		{
+			"name": "reaction",
+			"order": 23,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "reaction_",
+			"order": 24,
+			"type": "kObjectref",
+			"subtype": "oImmunizationReaction",
+			"sublen": 0,
+			"desc": "Categorical data indicating that an adverse event is associated in time to an immunization."
+		},
+		{
+			"name": "reportOrigin",
+			"order": 10,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The source of the data when the report of the immunization event is not based on information from the person who administered the vaccine."
+		},
+		{
+			"name": "route",
+			"order": 16,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The path by which the vaccine product is taken into the body."
+		},
+		{
+			"name": "site",
+			"order": 15,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Body site where vaccine was administered."
+		},
+		{
+			"name": "status",
+			"order": 3,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Indicates the current status of the vaccination event."
+		},
+		{
+			"name": "vaccinationProtocol",
+			"order": 25,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "vaccinationProtocol_",
+			"order": 26,
+			"type": "kObjectref",
+			"subtype": "oImmunizationVaccinationProtocol",
+			"sublen": 0,
+			"desc": "Contains information about the protocol(s) under which the vaccine was administered."
+		},
+		{
+			"name": "vaccineCode",
+			"order": 5,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Vaccine that was administered or was to be administered."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:40:03",
+		"desc": "Base StructureDefinition for Immunization Resource",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:26",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

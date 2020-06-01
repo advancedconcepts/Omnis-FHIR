@@ -1,0 +1,4 @@
+If purpose.$validref()=kFalse
+	Calculate purpose as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method purpose

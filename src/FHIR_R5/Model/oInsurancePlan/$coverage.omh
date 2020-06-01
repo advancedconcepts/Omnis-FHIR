@@ -1,0 +1,4 @@
+If coverage.$validref()=kFalse
+	Calculate coverage as $clib.$classes.oInsurancePlanCoverage.$newref()
+End If
+Quit method coverage

@@ -1,0 +1,12 @@
+Do inherited
+Do code.$define(code_)
+Do reason.$define(reason_)
+Do documentation.$define(documentation_)
+Do goalId.$define(goalId_)
+Do triggerDefinition.$define(triggerDefinition_)
+Do condition.$define(condition_)
+Do input.$define(input_)
+Do output.$define(output_)
+Do relatedAction.$define(relatedAction_)
+Do participant.$define(participant_)
+Do dynamicValue.$define(dynamicValue_)

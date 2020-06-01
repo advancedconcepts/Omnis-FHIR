@@ -1,0 +1,4 @@
+If subSite.$validref()=kFalse
+	Calculate subSite as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method subSite

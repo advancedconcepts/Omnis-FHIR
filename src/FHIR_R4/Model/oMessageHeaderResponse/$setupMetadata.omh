@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("identifier","identifier",1,"1",21,"id")
+Do pElements.$add("code","code",1,"1",21,"code")
+Do pElements.$add("details","details",0,"1",38,"Reference")

@@ -1,0 +1,22 @@
+{
+	"classtype": "kCode",
+	"internalversion": 2,
+	"designtaskname": "",
+	"cvardefs": [
+
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:42:27",
+		"desc": "",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"moddate": "2020-06-01 17:57:25",
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

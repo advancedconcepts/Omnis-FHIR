@@ -1,0 +1,134 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "binding",
+			"order": 10,
+			"type": "kObjectref",
+			"subtype": "oOperationDefinitionParameterBinding",
+			"sublen": 0,
+			"desc": "Binds to a value set if this parameter is coded (code, Coding, CodeableConcept)."
+		},
+		{
+			"name": "documentation",
+			"order": 5,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Describes the meaning or use of this parameter."
+		},
+		{
+			"name": "max",
+			"order": 4,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The maximum number of times this element is permitted to appear in the request or response."
+		},
+		{
+			"name": "min",
+			"order": 3,
+			"type": "kInteger",
+			"subtype": "k32bitint",
+			"sublen": 0,
+			"desc": "The minimum number of times this parameter SHALL appear in the request or response."
+		},
+		{
+			"name": "name",
+			"order": 1,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The name of used to identify the parameter."
+		},
+		{
+			"name": "referencedFrom",
+			"order": 11,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "referencedFrom_",
+			"order": 12,
+			"type": "kObjectref",
+			"subtype": "oOperationDefinitionParameterReferencedFrom",
+			"sublen": 0,
+			"desc": "Identifies other resource parameters within the operation invocation that are expected to resolve to this resource."
+		},
+		{
+			"name": "searchType",
+			"order": 9,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "How the parameter is understood as a search parameter. This is only used if the parameter type is 'string'."
+		},
+		{
+			"name": "targetProfile",
+			"order": 7,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "targetProfile_",
+			"order": 8,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Used when the type is \"Reference\" or \"canonical\", and identifies a profile structure or implementation Guide that applies to the target of the reference this parameter refers to. If any profiles are specified, then the content must conform to at least one"
+		},
+		{
+			"name": "type",
+			"order": 6,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The type for this parameter."
+		},
+		{
+			"name": "use",
+			"order": 2,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Whether this is an input or an output parameter."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:44:57",
+		"desc": "The parameters for the operation/query.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:27",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

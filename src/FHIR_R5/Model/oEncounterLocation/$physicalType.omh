@@ -1,0 +1,4 @@
+If physicalType.$validref()=kFalse
+	Calculate physicalType as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method physicalType

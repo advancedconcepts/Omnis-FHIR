@@ -1,0 +1,73 @@
+[
+	{
+		"name": "$success",
+		"ident": 0,
+		"order": 1,
+		"desc": "The request was processed successfully, but more data may result in a more complete evaluation",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$data-requested",
+		"ident": 1,
+		"order": 2,
+		"desc": "The request was processed, but more data is required to complete the evaluation",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$data-required",
+		"ident": 2,
+		"order": 3,
+		"desc": "The request is currently being processed",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$in-progress",
+		"ident": 3,
+		"order": 4,
+		"desc": "The request was not processed successfully",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$failure",
+		"ident": 4,
+		"order": 5,
+		"desc": "The response was entered in error",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$entered-in-error",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

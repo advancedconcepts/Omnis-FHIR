@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$unknown",
+		"ident": 0,
+		"order": 1,
+		"desc": "Other",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$other",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

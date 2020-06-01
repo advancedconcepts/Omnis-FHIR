@@ -1,0 +1,4 @@
+If contact.$validref()=kFalse
+	Calculate contact as $clib.$classes.oInsurancePlanContact.$newref()
+End If
+Quit method contact

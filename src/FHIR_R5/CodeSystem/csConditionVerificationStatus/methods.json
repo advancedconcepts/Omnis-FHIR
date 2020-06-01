@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$unconfirmed",
+		"ident": 0,
+		"order": 1,
+		"desc": "There is sufficient diagnostic and/or clinical evidence to treat this as a confirmed condition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$confirmed",
+		"ident": 1,
+		"order": 2,
+		"desc": "This condition has been ruled out by diagnostic and clinical evidence.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$refuted",
+		"ident": 2,
+		"order": 3,
+		"desc": "The statement was entered in error and is not valid.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$entered-in-error",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

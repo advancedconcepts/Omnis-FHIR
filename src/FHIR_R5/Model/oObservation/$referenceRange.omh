@@ -1,0 +1,4 @@
+If referenceRange.$validref()=kFalse
+	Calculate referenceRange as $clib.$classes.oObservationReferenceRange.$newref()
+End If
+Quit method referenceRange

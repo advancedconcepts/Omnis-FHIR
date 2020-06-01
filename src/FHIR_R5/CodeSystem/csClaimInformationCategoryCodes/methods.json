@@ -1,0 +1,169 @@
+[
+	{
+		"name": "$info",
+		"ident": 0,
+		"order": 1,
+		"desc": "Discharge status and discharge to locations.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$discharge",
+		"ident": 1,
+		"order": 2,
+		"desc": "Period, start or end dates of aspects of the Condition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$onset",
+		"ident": 2,
+		"order": 3,
+		"desc": "Nature and date of the related event e.g. Last exam, service, X-ray etc.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$related",
+		"ident": 3,
+		"order": 4,
+		"desc": "Insurance policy exceptions.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$exception",
+		"ident": 4,
+		"order": 5,
+		"desc": "Materials being forwarded, e.g. Models, molds, images, documents.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$material",
+		"ident": 5,
+		"order": 6,
+		"desc": "Materials attached such as images, documents and resources.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$attachment",
+		"ident": 6,
+		"order": 7,
+		"desc": "Teeth which are missing for any reason, for example: prior extraction, never developed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$missingtooth",
+		"ident": 7,
+		"order": 8,
+		"desc": "The type of prosthesis and date of supply if a previously supplied prosthesis.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$prosthesis",
+		"ident": 8,
+		"order": 9,
+		"desc": "Other information identified by the type.system.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$other",
+		"ident": 9,
+		"order": 10,
+		"desc": "An indication that the patient was hospitalized, the period if known otherwise a Yes/No (boolean).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$hospitalized",
+		"ident": 10,
+		"order": 11,
+		"desc": "An indication that the patient was unable to work, the period if known otherwise a Yes/No (boolean).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$employmentimpacted",
+		"ident": 11,
+		"order": 12,
+		"desc": "The external cause of an illness or injury.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$externalcause",
+		"ident": 12,
+		"order": 13,
+		"desc": "The reason for the patient visit.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$patientreasonforvisit",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

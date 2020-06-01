@@ -1,0 +1,41 @@
+Do inherited
+Calculate url as pValue.$url()
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate version as pValue.$version()
+Calculate status as pValue.$status()
+Calculate experimental as pValue.$experimental()
+Calculate date as pValue.$date()
+Calculate publisher as pValue.$publisher()
+Calculate name as pValue.$name()
+Calculate title as pValue.$title()
+Do contact.$clear()
+Calculate list as pValue.$contact()
+Do contact.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do useContext.$clear()
+Calculate list as pValue.$useContext()
+Do useContext.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do jurisdiction.$clear()
+Calculate list as pValue.$jurisdiction()
+Do jurisdiction.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate copyright as pValue.$copyright()
+Calculate stringency as pValue.$stringency()
+Do mapping.$clear()
+Calculate list as pValue.$mapping()
+Do mapping.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do element.$clear()
+Calculate list as pValue.$element()
+Do element.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

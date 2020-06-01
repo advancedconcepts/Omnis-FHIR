@@ -1,0 +1,4 @@
+If locationReference.$validref()=kFalse
+	Calculate locationReference as $clib.$classes.oReference.$newref()
+End If
+Quit method locationReference

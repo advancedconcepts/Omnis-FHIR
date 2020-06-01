@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$1",
+		"ident": 0,
+		"order": 1,
+		"desc": "Example: The #2 form to be used when printing this information.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$2",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

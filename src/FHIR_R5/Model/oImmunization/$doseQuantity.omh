@@ -1,0 +1,4 @@
+If doseQuantity.$validref()=kFalse
+	Calculate doseQuantity as $clib.$classes.oQuantity.$newref()
+End If
+Quit method doseQuantity

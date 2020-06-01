@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$adr",
+		"ident": 0,
+		"order": 1,
+		"desc": "Consent to participate in research protocol and information sharing required",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$research",
+		"ident": 1,
+		"order": 2,
+		"desc": "Agreement to collect, access, use or disclose (share) information",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$patient-privacy",
+		"ident": 2,
+		"order": 3,
+		"desc": "Consent to undergo a specific treatment",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$treatment",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

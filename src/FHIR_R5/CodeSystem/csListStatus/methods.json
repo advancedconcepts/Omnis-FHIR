@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$current",
+		"ident": 0,
+		"order": 1,
+		"desc": "The list is \"old\" and should no longer be considered accurate or relevant.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$retired",
+		"ident": 1,
+		"order": 2,
+		"desc": "The list was never accurate.  It is retained for medico-legal purposes only.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$entered-in-error",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

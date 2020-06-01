@@ -1,0 +1,8 @@
+Do inherited
+Do pElements.$add("role","role",0,"1",38,"CodeableConcept")
+Do pElements.$add("identifier","identifier",0,"1",38,"Identifier")
+Do pElements.$add("name","::name",0,"1",21,"string")
+Do pElements.$add("stereochemistry","stereochemistry",0,"1",38,"CodeableConcept")
+Do pElements.$add("opticalActivity","opticalActivity",0,"1",38,"CodeableConcept")
+Do pElements.$add("molecularFormula","molecularFormula",0,"1",21,"string")
+Do pElements.$add("amountType","amountType",0,"1",38,"CodeableConcept")

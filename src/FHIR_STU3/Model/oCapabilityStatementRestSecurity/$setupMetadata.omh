@@ -1,0 +1,5 @@
+Do inherited
+Do pElements.$add("cors","cors",0,"1",22,"boolean")
+Do pElements.$add("service","service",0,"-1",38,"CodeableConcept")
+Do pElements.$add("description","description",0,"1",21,"string")
+Do pElements.$add("certificate","certificate",0,"-1",38,"")

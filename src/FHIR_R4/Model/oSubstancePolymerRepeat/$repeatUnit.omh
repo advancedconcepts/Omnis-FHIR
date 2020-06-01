@@ -1,0 +1,4 @@
+If repeatUnit.$validref()=kFalse
+	Calculate repeatUnit as $clib.$classes.oSubstancePolymerRepeatRepeatUnit.$newref()
+End If
+Quit method repeatUnit

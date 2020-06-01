@@ -1,0 +1,4 @@
+If context.$validref()=kFalse
+	Calculate context as $clib.$classes.oContractTermAssetContext.$newref()
+End If
+Quit method context

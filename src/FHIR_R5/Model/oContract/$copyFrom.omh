@@ -1,0 +1,88 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate url as pValue.$url()
+Calculate version as pValue.$version()
+Calculate status as pValue.$status()
+Calculate legalState as pValue.$legalState()
+Calculate instantiatesCanonical as pValue.$instantiatesCanonical()
+Calculate instantiatesUri as pValue.$instantiatesUri()
+Calculate contentDerivative as pValue.$contentDerivative()
+Calculate issued as pValue.$issued()
+Calculate applies as pValue.$applies()
+Calculate expirationType as pValue.$expirationType()
+Do subject.$clear()
+Calculate list as pValue.$subject()
+Do subject.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do authority.$clear()
+Calculate list as pValue.$authority()
+Do authority.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do domain.$clear()
+Calculate list as pValue.$domain()
+Do domain.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do site.$clear()
+Calculate list as pValue.$site()
+Do site.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate name as pValue.$name()
+Calculate title as pValue.$title()
+Calculate subtitle as pValue.$subtitle()
+Do alias.$clear()
+Calculate list as pValue.$alias()
+Do alias.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate author as pValue.$author()
+Calculate scope as pValue.$scope()
+Calculate type as pValue.$type()
+Do subType.$clear()
+Calculate list as pValue.$subtype()
+Do subType.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate contentDefinition as pValue.$contentDefinition()
+Do term.$clear()
+Calculate list as pValue.$term()
+Do term.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do supportingInfo.$clear()
+Calculate list as pValue.$supportingInfo()
+Do supportingInfo.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do relevantHistory.$clear()
+Calculate list as pValue.$relevantHistory()
+Do relevantHistory.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do signer.$clear()
+Calculate list as pValue.$signer()
+Do signer.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do friendly.$clear()
+Calculate list as pValue.$friendly()
+Do friendly.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do legal.$clear()
+Calculate list as pValue.$legal()
+Do legal.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do rule.$clear()
+Calculate list as pValue.$rule()
+Do rule.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

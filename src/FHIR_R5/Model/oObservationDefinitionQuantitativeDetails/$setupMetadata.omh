@@ -1,0 +1,5 @@
+Do inherited
+Do pElements.$add("customaryUnit","customaryUnit",0,"1",38,"CodeableConcept")
+Do pElements.$add("unit","unit",0,"1",38,"CodeableConcept")
+Do pElements.$add("conversionFactor","conversionFactor",0,"1",25,"decimal")
+Do pElements.$add("decimalPrecision","decimalPrecision",0,"1",26,"integer")

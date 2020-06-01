@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$accrual-goal-met",
+		"ident": 0,
+		"order": 1,
+		"desc": "The study prematurely ended due to toxicity.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$closed-due-to-toxicity",
+		"ident": 1,
+		"order": 2,
+		"desc": "The study prematurely ended due to lack of study progress.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$closed-due-to-lack-of-study-progress",
+		"ident": 2,
+		"order": 3,
+		"desc": "The study prematurely ended temporarily per study design.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$temporarily-closed-per-study-design",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

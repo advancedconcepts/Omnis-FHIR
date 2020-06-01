@@ -1,0 +1,5 @@
+Do inherited
+Do endpoint.$define(endpoint_)
+Do specimen.$define(specimen_)
+Do performer.$define(performer_)
+Do instance.$define(instance_)

@@ -1,0 +1,133 @@
+[
+	{
+		"name": "$equals",
+		"ident": 0,
+		"order": 1,
+		"desc": "Not equals comparison.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$notEquals",
+		"ident": 1,
+		"order": 2,
+		"desc": "Compare value within a known set of values.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$in",
+		"ident": 2,
+		"order": 3,
+		"desc": "Compare value not within a known set of values.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$notIn",
+		"ident": 3,
+		"order": 4,
+		"desc": "Compare value to be greater than a known value.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$greaterThan",
+		"ident": 4,
+		"order": 5,
+		"desc": "Compare value to be less than a known value.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$lessThan",
+		"ident": 5,
+		"order": 6,
+		"desc": "Compare value is empty.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$empty",
+		"ident": 6,
+		"order": 7,
+		"desc": "Compare value is not empty.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$notEmpty",
+		"ident": 7,
+		"order": 8,
+		"desc": "Compare value string contains a known value.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$contains",
+		"ident": 8,
+		"order": 9,
+		"desc": "Compare value string does not contain a known value.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$notContains",
+		"ident": 9,
+		"order": 10,
+		"desc": "Evaluate the FHIRPath expression as a boolean condition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$eval",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

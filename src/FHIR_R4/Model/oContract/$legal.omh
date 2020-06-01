@@ -1,0 +1,4 @@
+If legal.$validref()=kFalse
+	Calculate legal as $clib.$classes.oContractLegal.$newref()
+End If
+Quit method legal

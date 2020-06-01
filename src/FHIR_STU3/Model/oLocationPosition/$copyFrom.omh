@@ -1,0 +1,4 @@
+Do inherited
+Calculate longitude as pValue.$longitude()
+Calculate latitude as pValue.$latitude()
+Calculate altitude as pValue.$altitude()

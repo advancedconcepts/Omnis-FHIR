@@ -1,0 +1,8 @@
+Do inherited
+Do pElements.$add("required","required",0,"1",22,"boolean")
+Do pElements.$add("validated","validated",0,"1",22,"boolean")
+Do pElements.$add("description","description",0,"1",21,"string")
+Do pElements.$add("origin","origin",0,"-1",26,"integer")
+Do pElements.$add("destination","destination",0,"1",26,"integer")
+Do pElements.$add("link","link",0,"-1",21,"uri")
+Do pElements.$add("capabilities","capabilities",1,"1",38,"Reference")

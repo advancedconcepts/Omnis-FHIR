@@ -1,0 +1,20 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate active as pValue.$active()
+Calculate code as pValue.$code()
+Do qualifier.$clear()
+Calculate list as pValue.$qualifier()
+Do qualifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate description as pValue.$description()
+Do image.$clear()
+Calculate list as pValue.$image()
+Do image.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate patient as pValue.$patient()

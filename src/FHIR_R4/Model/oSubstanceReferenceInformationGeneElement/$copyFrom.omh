@@ -1,0 +1,8 @@
+Do inherited
+Calculate type as pValue.$type()
+Calculate element as pValue.$element()
+Do source.$clear()
+Calculate list as pValue.$source()
+Do source.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

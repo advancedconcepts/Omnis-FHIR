@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("focal","focal",0,"1",22,"boolean")
+Do pElements.$add("coverage","coverage",1,"1",38,"Reference")
+Do pElements.$add("businessArrangement","businessArrangement",0,"1",21,"string")

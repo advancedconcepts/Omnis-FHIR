@@ -1,0 +1,6 @@
+Do inherited
+Calculate text as pValue.$text()
+Calculate site as pValue.$site()
+Calculate route as pValue.$route()
+Calculate method as pValue.$method()
+Calculate dose as pValue.$dose()

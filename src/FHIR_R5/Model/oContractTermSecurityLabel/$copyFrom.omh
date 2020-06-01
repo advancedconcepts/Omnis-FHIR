@@ -1,0 +1,17 @@
+Do inherited
+Do number.$clear()
+Calculate list as pValue.$number()
+Do number.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate classification as pValue.$classification()
+Do category.$clear()
+Calculate list as pValue.$category()
+Do category.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do control.$clear()
+Calculate list as pValue.$control()
+Do control.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

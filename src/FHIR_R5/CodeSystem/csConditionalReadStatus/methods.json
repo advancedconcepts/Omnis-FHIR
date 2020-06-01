@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$not-supported",
+		"ident": 0,
+		"order": 1,
+		"desc": "Conditional reads are supported, but only with the If-Modified-Since HTTP Header.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$modified-since",
+		"ident": 1,
+		"order": 2,
+		"desc": "Conditional reads are supported, but only with the If-None-Match HTTP Header.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$not-match",
+		"ident": 2,
+		"order": 3,
+		"desc": "Conditional reads are supported, with both If-Modified-Since and If-None-Match HTTP Headers.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$full-support",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

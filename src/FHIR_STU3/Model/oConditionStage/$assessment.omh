@@ -1,0 +1,4 @@
+If assessment.$validref()=kFalse
+	Calculate assessment as $clib.$classes.oReference.$newref()
+End If
+Quit method assessment

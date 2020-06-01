@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("party","party",1,"1",38,"Reference")
+Do pElements.$add("onHold","onHold",0,"1",22,"boolean")
+Do pElements.$add("period","period",0,"1",38,"Period")

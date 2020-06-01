@@ -1,0 +1,285 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$required",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: Whether or not the test execution will require the given capabilities of the server in order for this test script to execute.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$required.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "Whether or not the test execution will require the given capabilities of the server in order for this test script to execute."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$validated",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: Whether or not the test execution will validate the given capabilities of the server in order for this test script to execute.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$validated.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "Whether or not the test execution will validate the given capabilities of the server in order for this test script to execute."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$description",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: Description of the capabilities that this test script is requiring the server to support.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$description.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Description of the capabilities that this test script is requiring the server to support."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$origin",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: Which origin server these requirements apply to.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addorigin",
+		"ident": 11,
+		"order": 12,
+		"desc": "Which origin server these requirements apply to.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Which origin server these requirements apply to."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$destination",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: Which server these requirements apply to.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$destination.$assign",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Which server these requirements apply to."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$link",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: Links to the FHIR specification that describes this interaction and the resources involved in more detail.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addlink",
+		"ident": 15,
+		"order": 16,
+		"desc": "Links to the FHIR specification that describes this interaction and the resources involved in more detail.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Links to the FHIR specification that describes this interaction and the resources involved in more detail."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$capabilities",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: Minimum capabilities required of server for test script to execute successfully.   If server does not meet at a minimum the referenced capability statement, then all tests in this script are skipped.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$capabilities.$assign",
+		"ident": 17,
+		"order": 18,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Minimum capabilities required of server for test script to execute successfully.   If server does not meet at a minimum the referenced capability statement, then all tests in this script are skipped."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

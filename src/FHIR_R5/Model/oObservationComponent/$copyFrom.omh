@@ -1,0 +1,8 @@
+Do inherited
+Calculate code as pValue.$code()
+Calculate dataAbsentReason as pValue.$dataAbsentReason()
+Do interpretation.$clear()
+Calculate list as pValue.$interpretation()
+Do interpretation.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

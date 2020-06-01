@@ -1,0 +1,123 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "fluidConsistencyType",
+			"order": 9,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "fluidConsistencyType_",
+			"order": 10,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The required consistency (e.g. honey-thick, nectar-thick, thin, thickened.) of liquids or fluids served to the patient."
+		},
+		{
+			"name": "instruction",
+			"order": 11,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Free text or additional instructions or information pertaining to the oral diet."
+		},
+		{
+			"name": "nutrient",
+			"order": 5,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "nutrient_",
+			"order": 6,
+			"type": "kObjectref",
+			"subtype": "oNutritionOrderOralDietNutrient",
+			"sublen": 0,
+			"desc": "Class that defines the quantity and type of nutrient modifications (for example carbohydrate, fiber or sodium) required for the oral diet."
+		},
+		{
+			"name": "schedule",
+			"order": 3,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "schedule_",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oTiming",
+			"sublen": 0,
+			"desc": "The time period and frequency at which the diet should be given.  The diet should be given for the combination of all schedules if more than one schedule is present."
+		},
+		{
+			"name": "texture",
+			"order": 7,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "texture_",
+			"order": 8,
+			"type": "kObjectref",
+			"subtype": "oNutritionOrderOralDietTexture",
+			"sublen": 0,
+			"desc": "Class that describes any texture modifications required for the patient to safely consume various types of solid foods."
+		},
+		{
+			"name": "type",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "type_",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The kind of diet or dietary restriction such as fiber restricted diet or diabetic diet."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:41:49",
+		"desc": "Diet given orally in contrast to enteral (tube) feeding.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:25",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

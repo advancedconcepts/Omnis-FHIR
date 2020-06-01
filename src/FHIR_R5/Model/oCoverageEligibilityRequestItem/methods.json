@@ -1,0 +1,398 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$supportingInfoSequence",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: Exceptions, special conditions and supporting information applicable for this service or product line.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addsupportingInfoSequence",
+		"ident": 5,
+		"order": 6,
+		"desc": "Exceptions, special conditions and supporting information applicable for this service or product line.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Exceptions, special conditions and supporting information applicable for this service or product line."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$category",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: Code to identify the general type of benefits under which products and services are provided.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$category.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Code to identify the general type of benefits under which products and services are provided."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$productOrService",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: This contains the product, service, drug or other billing code for the item.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$productOrService.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "This contains the product, service, drug or other billing code for the item."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$modifier",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: Item typification or modifiers codes to convey additional context for the product or service.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addmodifier",
+		"ident": 11,
+		"order": 12,
+		"desc": "Item typification or modifiers codes to convey additional context for the product or service.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Item typification or modifiers codes to convey additional context for the product or service."
+			}
+		]
+	},
+	{
+		"name": "$provider",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: The practitioner who is responsible for the product or service to be rendered to the patient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$provider.$assign",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The practitioner who is responsible for the product or service to be rendered to the patient."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$quantity",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: The number of repetitions of a service or product.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$quantity.$assign",
+		"ident": 15,
+		"order": 16,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oQuantity",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The number of repetitions of a service or product."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unitPrice",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: The amount charged to the patient by the provider for a single unit.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unitPrice.$assign",
+		"ident": 17,
+		"order": 18,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMoney",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The amount charged to the patient by the provider for a single unit."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$facility",
+		"ident": 18,
+		"order": 19,
+		"desc": "Returns: Facility where the services will be provided.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$facility.$assign",
+		"ident": 19,
+		"order": 20,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Facility where the services will be provided."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$diagnosis",
+		"ident": 20,
+		"order": 21,
+		"desc": "Returns: Patient diagnosis for which care is sought.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$adddiagnosis",
+		"ident": 21,
+		"order": 22,
+		"desc": "Patient diagnosis for which care is sought.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCoverageEligibilityRequestItemDiagnosis",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCoverageEligibilityRequestItemDiagnosis",
+				"sublen": 0,
+				"desc": "Patient diagnosis for which care is sought."
+			}
+		]
+	},
+	{
+		"name": "$detail",
+		"ident": 22,
+		"order": 23,
+		"desc": "Returns: The plan/proposal/order describing the proposed service in detail.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$adddetail",
+		"ident": 23,
+		"order": 24,
+		"desc": "The plan/proposal/order describing the proposed service in detail.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "The plan/proposal/order describing the proposed service in detail."
+			}
+		]
+	}
+]

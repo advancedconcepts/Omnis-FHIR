@@ -1,0 +1,402 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$destination",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: The destination application which the message is intended for.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$adddestination",
+		"ident": 6,
+		"order": 7,
+		"desc": "The destination application which the message is intended for.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMessageHeaderDestination",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oMessageHeaderDestination",
+				"sublen": 0,
+				"desc": "The destination application which the message is intended for."
+			}
+		]
+	},
+	{
+		"name": "$sender",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: Identifies the sending system to allow the use of a trust relationship.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sender.$assign",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Identifies the sending system to allow the use of a trust relationship."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$enterer",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: The person or device that performed the data entry leading to this message. When there is more than one candidate, pick the most proximal to the message. Can provide other enterers in extensions.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$enterer.$assign",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The person or device that performed the data entry leading to this message. When there is more than one candidate, pick the most proximal to the message. Can provide other enterers in extensions."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$author",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: The logical author of the message - the person or device that decided the described event should happen. When there is more than one candidate, pick the most proximal to the MessageHeader. Can provide other authors in extensions.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$author.$assign",
+		"ident": 12,
+		"order": 13,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The logical author of the message - the person or device that decided the described event should happen. When there is more than one candidate, pick the most proximal to the MessageHeader. Can provide other authors in extensions."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$source",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: The source application from which this message originated.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$source.$assign",
+		"ident": 14,
+		"order": 15,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMessageHeaderSource",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The source application from which this message originated."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$responsible",
+		"ident": 15,
+		"order": 16,
+		"desc": "Returns: The person or organization that accepts overall responsibility for the contents of the message. The implication is that the message event happened under the policies of the responsible party.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$responsible.$assign",
+		"ident": 16,
+		"order": 17,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The person or organization that accepts overall responsibility for the contents of the message. The implication is that the message event happened under the policies of the responsible party."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$reason",
+		"ident": 17,
+		"order": 18,
+		"desc": "Returns: Coded indication of the cause for the event - indicates  a reason for the occurrence of the event that is a focus of this message.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$reason.$assign",
+		"ident": 18,
+		"order": 19,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Coded indication of the cause for the event - indicates  a reason for the occurrence of the event that is a focus of this message."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$response",
+		"ident": 19,
+		"order": 20,
+		"desc": "Returns: Information about the message that this message is a response to.  Only present if this message is a response.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$response.$assign",
+		"ident": 20,
+		"order": 21,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMessageHeaderResponse",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Information about the message that this message is a response to.  Only present if this message is a response."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$focus",
+		"ident": 21,
+		"order": 22,
+		"desc": "Returns: The actual data of the message - a reference to the root/focus class of the event.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addfocus",
+		"ident": 22,
+		"order": 23,
+		"desc": "The actual data of the message - a reference to the root/focus class of the event.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "The actual data of the message - a reference to the root/focus class of the event."
+			}
+		]
+	},
+	{
+		"name": "$definition",
+		"ident": 23,
+		"order": 24,
+		"desc": "Returns: Permanent link to the MessageDefinition for this message.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$definition.$assign",
+		"ident": 24,
+		"order": 25,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Permanent link to the MessageDefinition for this message."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

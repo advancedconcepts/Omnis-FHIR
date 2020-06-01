@@ -1,0 +1,291 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$productOrService",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: When the value is a group code then this item collects a set of related claim details, otherwise this contains the product, service, drug or other billing code for the item.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$productOrService.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "When the value is a group code then this item collects a set of related claim details, otherwise this contains the product, service, drug or other billing code for the item."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$modifier",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: Item typification or modifiers codes to convey additional context for the product or service.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addmodifier",
+		"ident": 7,
+		"order": 8,
+		"desc": "Item typification or modifiers codes to convey additional context for the product or service.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Item typification or modifiers codes to convey additional context for the product or service."
+			}
+		]
+	},
+	{
+		"name": "$quantity",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: The number of repetitions of a service or product.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$quantity.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oQuantity",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The number of repetitions of a service or product."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unitPrice",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: If the item is not a group then this is the fee for the product or service, otherwise this is the total of the fees for the details of the group.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unitPrice.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMoney",
+				"sublen": 0,
+				"param": 1,
+				"desc": "If the item is not a group then this is the fee for the product or service, otherwise this is the total of the fees for the details of the group."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$factor",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: A real number that represents a multiplier used in determining the overall value of services delivered and/or goods received. The concept of a Factor allows for a discount or surcharge multiplier to be applied to a monetary amount.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$factor.$assign",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kNumber",
+				"subtype": "kFloatdp",
+				"sublen": 0,
+				"param": 1,
+				"desc": "A real number that represents a multiplier used in determining the overall value of services delivered and/or goods received. The concept of a Factor allows for a discount or surcharge multiplier to be applied to a monetary amount."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$net",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: The quantity times the unit price for an additional service or product or charge.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$net.$assign",
+		"ident": 15,
+		"order": 16,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMoney",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The quantity times the unit price for an additional service or product or charge."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$noteNumber",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: The numbers associated with notes below which apply to the adjudication of this item.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addnoteNumber",
+		"ident": 17,
+		"order": 18,
+		"desc": "The numbers associated with notes below which apply to the adjudication of this item.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The numbers associated with notes below which apply to the adjudication of this item."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

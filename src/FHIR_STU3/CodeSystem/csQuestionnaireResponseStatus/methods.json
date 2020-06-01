@@ -1,0 +1,61 @@
+[
+	{
+		"name": "$in-progress",
+		"ident": 0,
+		"order": 1,
+		"desc": "This QuestionnaireResponse has been filled out with answers, and the current content is regarded as definitive.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$completed",
+		"ident": 1,
+		"order": 2,
+		"desc": "This QuestionnaireResponse has been filled out with answers, then marked as complete, yet changes or additions have been made to it afterwards.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$amended",
+		"ident": 2,
+		"order": 3,
+		"desc": "This QuestionnaireResponse was entered in error and voided.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$entered-in-error",
+		"ident": 3,
+		"order": 4,
+		"desc": "This QuestionnaireResponse has been partially filled out with answers, but has been abandoned. It is unknown whether changes or additions are expected to be made to it.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$stopped",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

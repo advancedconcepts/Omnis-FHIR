@@ -1,0 +1,20 @@
+Do inherited
+Calculate who as pValue.$who()
+Do type.$clear()
+Calculate list as pValue.$type()
+Do type.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do communicationMethod.$clear()
+Calculate list as pValue.$communicationMethod()
+Do communicationMethod.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate validationStatus as pValue.$validationStatus()
+Calculate validationDate as pValue.$validationDate()
+Calculate canPushUpdates as pValue.$canPushUpdates()
+Do pushTypeAvailable.$clear()
+Calculate list as pValue.$pushTypeAvailable()
+Do pushTypeAvailable.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

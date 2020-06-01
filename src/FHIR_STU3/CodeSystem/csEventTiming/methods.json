@@ -1,0 +1,61 @@
+[
+	{
+		"name": "$MORN",
+		"ident": 0,
+		"order": 1,
+		"desc": "event occurs during the afternoon",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$AFT",
+		"ident": 1,
+		"order": 2,
+		"desc": "event occurs during the evening",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$EVE",
+		"ident": 2,
+		"order": 3,
+		"desc": "event occurs during the night",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$NIGHT",
+		"ident": 3,
+		"order": 4,
+		"desc": "event occurs [offset] after subject goes to sleep",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$PHS",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

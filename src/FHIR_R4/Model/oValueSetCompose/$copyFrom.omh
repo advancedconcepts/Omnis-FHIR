@@ -1,0 +1,8 @@
+Do inherited
+Calculate lockedDate as pValue.$lockedDate()
+Calculate inactive as pValue.$inactive()
+Do include.$clear()
+Calculate list as pValue.$include()
+Do include.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

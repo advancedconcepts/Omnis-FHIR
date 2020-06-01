@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$no",
+		"ident": 0,
+		"order": 1,
+		"desc": "The application accepts unknown extensions, but not unknown elements.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$extensions",
+		"ident": 1,
+		"order": 2,
+		"desc": "The application accepts unknown elements, but not unknown extensions.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$elements",
+		"ident": 2,
+		"order": 3,
+		"desc": "The application accepts unknown elements and extensions.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$both",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

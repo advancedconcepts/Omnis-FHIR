@@ -1,0 +1,8 @@
+Do inherited
+Do pElements.$add("deviceIdentifier","deviceIdentifier",0,"1",21,"string")
+Do pElements.$add("name","::name",0,"1",21,"string")
+Do pElements.$add("jurisdiction","jurisdiction",0,"1",21,"uri")
+Do pElements.$add("carrierHRF","carrierHRF",0,"1",21,"string")
+Do pElements.$add("carrierAIDC","carrierAIDC",0,"1",28,"base64Binary")
+Do pElements.$add("issuer","issuer",0,"1",21,"uri")
+Do pElements.$add("entryType","entryType",0,"1",21,"code")

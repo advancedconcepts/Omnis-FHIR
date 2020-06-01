@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$neutered",
+		"ident": 0,
+		"order": 1,
+		"desc": "The animal's reproductive organs are intact.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$intact",
+		"ident": 1,
+		"order": 2,
+		"desc": "Unable to determine whether the animal has been neutered.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unknown",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,11 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"-1",38,"Identifier")
+Do pElements.$add("active","active",0,"1",22,"boolean")
+Do pElements.$add("type","::type",0,"-1",38,"CodeableConcept")
+Do pElements.$add("name","::name",0,"1",21,"string")
+Do pElements.$add("alias","alias",0,"-1",21,"string")
+Do pElements.$add("telecom","telecom",0,"-1",38,"ContactPoint")
+Do pElements.$add("address","address",0,"-1",38,"Address")
+Do pElements.$add("partOf","partOf",0,"1",38,"Reference")
+Do pElements.$add("contact","contact",0,"-1",38,"")
+Do pElements.$add("endpoint","endpoint",0,"-1",38,"Reference")

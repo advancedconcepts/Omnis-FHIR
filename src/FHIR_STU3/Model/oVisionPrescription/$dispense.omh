@@ -1,0 +1,4 @@
+If dispense.$validref()=kFalse
+	Calculate dispense as $clib.$classes.oVisionPrescriptionDispense.$newref()
+End If
+Quit method dispense

@@ -1,0 +1,85 @@
+[
+	{
+		"name": "$planned",
+		"ident": 0,
+		"order": 1,
+		"desc": "The Encounter has begun and the patient is present / the practitioner and the patient are meeting.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$in-progress",
+		"ident": 1,
+		"order": 2,
+		"desc": "The Encounter has begun, but is currently on hold, e.g. because the patient is temporarily on leave.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$onhold",
+		"ident": 2,
+		"order": 3,
+		"desc": "The Encounter has ended.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$completed",
+		"ident": 3,
+		"order": 4,
+		"desc": "The Encounter has ended before it has begun.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$cancelled",
+		"ident": 4,
+		"order": 5,
+		"desc": "This instance should not have been part of this patient's medical record.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$entered-in-error",
+		"ident": 5,
+		"order": 6,
+		"desc": "The encounter status is unknown. Note that \"unknown\" is a value of last resort and every attempt should be made to provide a meaningful value other than \"unknown\".",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unknown",
+		"ident": 6,
+		"order": 7,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

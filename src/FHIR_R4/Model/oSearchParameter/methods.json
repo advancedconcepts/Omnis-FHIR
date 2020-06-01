@@ -1,0 +1,917 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$url",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: An absolute URI that is used to identify this search parameter when it is referenced in a specification, model, design or an instance; also called its canonical identifier. This SHOULD be globally unique and SHOULD be a literal address at which at which an authoritative instance of this search parameter is (or will be) published. This URL can be the target of a canonical reference. It SHALL remain the same when the search parameter is stored on different servers.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$url.$assign",
+		"ident": 6,
+		"order": 7,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "An absolute URI that is used to identify this search parameter when it is referenced in a specification, model, design or an instance; also called its canonical identifier. This SHOULD be globally unique and SHOULD be a literal address at which at which a"
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::version",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: The identifier that is used to identify this version of the search parameter when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the search parameter author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::version.$assign",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The identifier that is used to identify this version of the search parameter when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the search parameter author and is not expected to be globally unique. "
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::name",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: A natural language name identifying the search parameter. This name should be usable as an identifier for the module by machine processing applications such as code generation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::name.$assign",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A natural language name identifying the search parameter. This name should be usable as an identifier for the module by machine processing applications such as code generation."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$derivedFrom",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: Where this search parameter is originally defined. If a derivedFrom is provided, then the details in the search parameter must be consistent with the definition from which it is defined. i.e. the parameter should have the same meaning, and (usually) the functionality should be a proper subset of the underlying search parameter.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$derivedFrom.$assign",
+		"ident": 12,
+		"order": 13,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Where this search parameter is originally defined. If a derivedFrom is provided, then the details in the search parameter must be consistent with the definition from which it is defined. i.e. the parameter should have the same meaning, and (usually) the f"
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$status",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: The status of this search parameter. Enables tracking the life-cycle of the content.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$status.$assign",
+		"ident": 14,
+		"order": 15,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The status of this search parameter. Enables tracking the life-cycle of the content."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$experimental",
+		"ident": 15,
+		"order": 16,
+		"desc": "Returns: A Boolean value to indicate that this search parameter is authored for testing purposes (or education/evaluation/marketing) and is not intended to be used for genuine usage.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$experimental.$assign",
+		"ident": 16,
+		"order": 17,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "A Boolean value to indicate that this search parameter is authored for testing purposes (or education/evaluation/marketing) and is not intended to be used for genuine usage."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$date",
+		"ident": 17,
+		"order": 18,
+		"desc": "Returns: The date  (and optionally time) when the search parameter was published. The date must change when the business version changes and it must change if the status code changes. In addition, it should change when the substantive content of the search parameter changes.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$date.$assign",
+		"ident": 18,
+		"order": 19,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kDate",
+				"subtype": "kDatetime",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The date  (and optionally time) when the search parameter was published. The date must change when the business version changes and it must change if the status code changes. In addition, it should change when the substantive content of the search paramet"
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$publisher",
+		"ident": 19,
+		"order": 20,
+		"desc": "Returns: The name of the organization or individual that published the search parameter.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$publisher.$assign",
+		"ident": 20,
+		"order": 21,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The name of the organization or individual that published the search parameter."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$contact",
+		"ident": 21,
+		"order": 22,
+		"desc": "Returns: Contact details to assist a user in finding and communicating with the publisher.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcontact",
+		"ident": 22,
+		"order": 23,
+		"desc": "Contact details to assist a user in finding and communicating with the publisher.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oContactDetail",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oContactDetail",
+				"sublen": 0,
+				"desc": "Contact details to assist a user in finding and communicating with the publisher."
+			}
+		]
+	},
+	{
+		"name": "$description",
+		"ident": 23,
+		"order": 24,
+		"desc": "Returns: And how it used.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$description.$assign",
+		"ident": 24,
+		"order": 25,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "And how it used."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$useContext",
+		"ident": 25,
+		"order": 26,
+		"desc": "Returns: The content was developed with a focus and intent of supporting the contexts that are listed. These contexts may be general categories (gender, age, ...) or may be references to specific programs (insurance plans, studies, ...) and may be used to assist with indexing and searching for appropriate search parameter instances.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$adduseContext",
+		"ident": 26,
+		"order": 27,
+		"desc": "The content was developed with a focus and intent of supporting the contexts that are listed. These contexts may be general categories (gender, age, ...) or may be references to specific programs (insurance plans, studies, ...) and may be used to assist with indexing and searching for appropriate search parameter instances.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oUsageContext",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oUsageContext",
+				"sublen": 0,
+				"desc": "The content was developed with a focus and intent of supporting the contexts that are listed. These contexts may be general categories (gender, age, ...) or may be references to specific programs (insurance plans, studies, ...) and may be used to assist w"
+			}
+		]
+	},
+	{
+		"name": "$jurisdiction",
+		"ident": 27,
+		"order": 28,
+		"desc": "Returns: A legal or geographic region in which the search parameter is intended to be used.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addjurisdiction",
+		"ident": 28,
+		"order": 29,
+		"desc": "A legal or geographic region in which the search parameter is intended to be used.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "A legal or geographic region in which the search parameter is intended to be used."
+			}
+		]
+	},
+	{
+		"name": "$purpose",
+		"ident": 29,
+		"order": 30,
+		"desc": "Returns: Explanation of why this search parameter is needed and why it has been designed as it has.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$purpose.$assign",
+		"ident": 30,
+		"order": 31,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Explanation of why this search parameter is needed and why it has been designed as it has."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$code",
+		"ident": 31,
+		"order": 32,
+		"desc": "Returns: The code used in the URL or the parameter name in a parameters resource for this search parameter.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$code.$assign",
+		"ident": 32,
+		"order": 33,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The code used in the URL or the parameter name in a parameters resource for this search parameter."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$base",
+		"ident": 33,
+		"order": 34,
+		"desc": "Returns: The base resource type(s) that this search parameter can be used against.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addbase",
+		"ident": 34,
+		"order": 35,
+		"desc": "The base resource type(s) that this search parameter can be used against.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The base resource type(s) that this search parameter can be used against."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type",
+		"ident": 35,
+		"order": 36,
+		"desc": "Returns: The type of value that a search parameter may contain, and how the content is interpreted.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type.$assign",
+		"ident": 36,
+		"order": 37,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The type of value that a search parameter may contain, and how the content is interpreted."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$expression",
+		"ident": 37,
+		"order": 38,
+		"desc": "Returns: A FHIRPath expression that returns a set of elements for the search parameter.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$expression.$assign",
+		"ident": 38,
+		"order": 39,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A FHIRPath expression that returns a set of elements for the search parameter."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$xpath",
+		"ident": 39,
+		"order": 40,
+		"desc": "Returns: An XPath expression that returns a set of elements for the search parameter.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$xpath.$assign",
+		"ident": 40,
+		"order": 41,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "An XPath expression that returns a set of elements for the search parameter."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$xpathUsage",
+		"ident": 41,
+		"order": 42,
+		"desc": "Returns: How the search parameter relates to the set of elements returned by evaluating the xpath query.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$xpathUsage.$assign",
+		"ident": 42,
+		"order": 43,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "How the search parameter relates to the set of elements returned by evaluating the xpath query."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$target",
+		"ident": 43,
+		"order": 44,
+		"desc": "Returns: Types of resource (if a resource is referenced).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addtarget",
+		"ident": 44,
+		"order": 45,
+		"desc": "Types of resource (if a resource is referenced).",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Types of resource (if a resource is referenced)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$multipleOr",
+		"ident": 45,
+		"order": 46,
+		"desc": "Returns: Whether multiple values are allowed for each time the parameter exists. Values are separated by commas, and the parameter matches if any of the values match.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$multipleOr.$assign",
+		"ident": 46,
+		"order": 47,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "Whether multiple values are allowed for each time the parameter exists. Values are separated by commas, and the parameter matches if any of the values match."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$multipleAnd",
+		"ident": 47,
+		"order": 48,
+		"desc": "Returns: Whether multiple parameters are allowed - e.g. more than one parameter with the same name. The search matches if all the parameters match.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$multipleAnd.$assign",
+		"ident": 48,
+		"order": 49,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "Whether multiple parameters are allowed - e.g. more than one parameter with the same name. The search matches if all the parameters match."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$comparator",
+		"ident": 49,
+		"order": 50,
+		"desc": "Returns: Comparators supported for the search parameter.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcomparator",
+		"ident": 50,
+		"order": 51,
+		"desc": "Comparators supported for the search parameter.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Comparators supported for the search parameter."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$modifier",
+		"ident": 51,
+		"order": 52,
+		"desc": "Returns: A modifier supported for the search parameter.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addmodifier",
+		"ident": 52,
+		"order": 53,
+		"desc": "A modifier supported for the search parameter.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A modifier supported for the search parameter."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$chain",
+		"ident": 53,
+		"order": 54,
+		"desc": "Returns: Contains the names of any search parameters which may be chained to the containing search parameter. Chained parameters may be added to search parameters of type reference and specify that resources will only be returned if they contain a reference to a resource which matches the chained parameter value. Values for this field should be drawn from SearchParameter.code for a parameter on the target resource type.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addchain",
+		"ident": 54,
+		"order": 55,
+		"desc": "Contains the names of any search parameters which may be chained to the containing search parameter. Chained parameters may be added to search parameters of type reference and specify that resources will only be returned if they contain a reference to a resource which matches the chained parameter value. Values for this field should be drawn from SearchParameter.code for a parameter on the target resource type.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Contains the names of any search parameters which may be chained to the containing search parameter. Chained parameters may be added to search parameters of type reference and specify that resources will only be returned if they contain a reference to a r"
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$component",
+		"ident": 55,
+		"order": 56,
+		"desc": "Returns: Used to define the parts of a composite search parameter.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcomponent",
+		"ident": 56,
+		"order": 57,
+		"desc": "Used to define the parts of a composite search parameter.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oSearchParameterComponent",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oSearchParameterComponent",
+				"sublen": 0,
+				"desc": "Used to define the parts of a composite search parameter."
+			}
+		]
+	}
+]

@@ -1,0 +1,4 @@
+If collection.$validref()=kFalse
+	Calculate collection as $clib.$classes.oBiologicallyDerivedProductCollection.$newref()
+End If
+Quit method collection

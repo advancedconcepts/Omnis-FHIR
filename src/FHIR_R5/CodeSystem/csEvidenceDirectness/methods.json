@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$low",
+		"ident": 0,
+		"order": 1,
+		"desc": "Moderate level of directness.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$moderate",
+		"ident": 1,
+		"order": 2,
+		"desc": "High level of directness.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$high",
+		"ident": 2,
+		"order": 3,
+		"desc": "Exact directness.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$exact",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,8 @@
+Do inherited
+Do mode.$clear()
+Calculate list as pValue.$mode()
+Do mode.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate time as pValue.$time()
+Calculate party as pValue.$party()

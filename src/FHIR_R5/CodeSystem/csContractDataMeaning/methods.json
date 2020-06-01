@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$instance",
+		"ident": 0,
+		"order": 1,
+		"desc": "The consent applies directly to the instance of the resource and instances it refers to.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$related",
+		"ident": 1,
+		"order": 2,
+		"desc": "The consent applies directly to the instance of the resource and instances that refer to it.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$dependents",
+		"ident": 2,
+		"order": 3,
+		"desc": "The consent applies to instances of resources that are authored by.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$authoredby",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

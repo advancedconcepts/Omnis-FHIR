@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("type","::type",0,"1",38,"CodeableConcept")
+Do pElements.$add("element","element",0,"1",38,"Identifier")
+Do pElements.$add("source","source",0,"-1",38,"Reference")

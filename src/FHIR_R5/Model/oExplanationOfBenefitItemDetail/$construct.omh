@@ -1,0 +1,6 @@
+Do inherited
+Do modifier.$define(modifier_)
+Do programCode.$define(programCode_)
+Do udi.$define(udi_)
+Do noteNumber.$define(noteNumber_)
+Do subDetail.$define(subDetail_)

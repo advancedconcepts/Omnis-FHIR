@@ -1,0 +1,179 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "created",
+			"order": 8,
+			"type": "kDate",
+			"subtype": "kDatetime",
+			"sublen": 0,
+			"desc": "The date when this resource was created."
+		},
+		{
+			"name": "enterer",
+			"order": 9,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Person who created the request."
+		},
+		{
+			"name": "facility",
+			"order": 12,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Facility where the services are intended to be provided."
+		},
+		{
+			"name": "identifier",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "identifier_",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "A unique identifier assigned to this coverage eligiblity request."
+		},
+		{
+			"name": "insurance",
+			"order": 15,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "insurance_",
+			"order": 16,
+			"type": "kObjectref",
+			"subtype": "oCoverageEligibilityRequestInsurance",
+			"sublen": 0,
+			"desc": "Financial instruments for reimbursement for the health care products and services."
+		},
+		{
+			"name": "insurer",
+			"order": 11,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The Insurer who issued the coverage in question and is the recipient of the request."
+		},
+		{
+			"name": "item",
+			"order": 17,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "item_",
+			"order": 18,
+			"type": "kObjectref",
+			"subtype": "oCoverageEligibilityRequestItem",
+			"sublen": 0,
+			"desc": "Service categories or billable services for which benefit details and/or an authorization prior to service delivery may be required by the payor."
+		},
+		{
+			"name": "patient",
+			"order": 7,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The party who is the beneficiary of the supplied coverage and for whom eligibility is sought."
+		},
+		{
+			"name": "priority",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "When the requestor expects the processor to complete processing."
+		},
+		{
+			"name": "provider",
+			"order": 10,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The provider which is responsible for the request."
+		},
+		{
+			"name": "purpose",
+			"order": 5,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "purpose_",
+			"order": 6,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Code to specify whether requesting: prior authorization requirements for some service categories or billing codes; benefits for coverages specified or discovered; discovery and return of coverages for the patient; and/or validation that the specified cove"
+		},
+		{
+			"name": "status",
+			"order": 3,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The status of the resource instance."
+		},
+		{
+			"name": "supportingInfo",
+			"order": 13,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "supportingInfo_",
+			"order": 14,
+			"type": "kObjectref",
+			"subtype": "oCoverageEligibilityRequestSupportingInfo",
+			"sublen": 0,
+			"desc": "Additional information codes regarding exceptions, special considerations, the condition, situation, prior or concurrent issues."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:44:44",
+		"desc": "The CoverageEligibilityRequest provides patient and insurance coverage information to an insurer for them to respond, in the form of an CoverageEligibilityResponse, with information regarding whether the stated coverage is valid and in-force and optionall",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:27",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

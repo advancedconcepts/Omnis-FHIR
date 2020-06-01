@@ -1,0 +1,4 @@
+If attributeEstimate.estimateQualifier.$validref()=kFalse
+	Calculate attributeEstimate.estimateQualifier as $clib.$classes.oElement.$newref()
+End If
+Quit method attributeEstimate.estimateQualifier

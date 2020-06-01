@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("container","container",0,"1",38,"CodeableConcept")
+Do pElements.$add("content","content",0,"-1",38,"")
+Do pElements.$add("batch","batch",0,"-1",38,"")

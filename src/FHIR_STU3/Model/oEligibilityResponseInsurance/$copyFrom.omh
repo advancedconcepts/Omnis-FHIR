@@ -1,0 +1,8 @@
+Do inherited
+Calculate coverage as pValue.$coverage()
+Calculate contract as pValue.$contract()
+Do benefitBalance.$clear()
+Calculate list as pValue.$benefitBalance()
+Do benefitBalance.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

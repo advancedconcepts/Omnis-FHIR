@@ -1,0 +1,322 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$context",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: Type or variable this rule applies to.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$context.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Type or variable this rule applies to."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$contextType",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: How to interpret the context.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$contextType.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "How to interpret the context."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$element",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: Field to create in the context.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$element.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Field to create in the context."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$variable",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: Named context for field, if desired, and a field is specified.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$variable.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Named context for field, if desired, and a field is specified."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$listMode",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: If field is a list, how to manage the list.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addlistMode",
+		"ident": 13,
+		"order": 14,
+		"desc": "If field is a list, how to manage the list.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "If field is a list, how to manage the list."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$listRuleId",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: Internal rule reference for shared list items.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$listRuleId.$assign",
+		"ident": 15,
+		"order": 16,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Internal rule reference for shared list items."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$transform",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: How the data is copied / created.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$transform.$assign",
+		"ident": 17,
+		"order": 18,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "How the data is copied / created."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$parameter",
+		"ident": 18,
+		"order": 19,
+		"desc": "Returns: Parameters to the transform.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addparameter",
+		"ident": 19,
+		"order": 20,
+		"desc": "Parameters to the transform.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oStructureMapGroupRuleTargetParameter",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oStructureMapGroupRuleTargetParameter",
+				"sublen": 0,
+				"desc": "Parameters to the transform."
+			}
+		]
+	}
+]

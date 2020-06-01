@@ -1,0 +1,4 @@
+If interval.intervalStatistic.$validref()=kFalse
+	Calculate interval.intervalStatistic as $clib.$classes.oStatistic.$newref()
+End If
+Quit method interval.intervalStatistic

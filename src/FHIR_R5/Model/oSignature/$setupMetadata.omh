@@ -1,0 +1,8 @@
+Do inherited
+Do pElements.$add("type","::type",1,"-1",38,"Coding")
+Do pElements.$add("when","when",1,"1",23,"instant")
+Do pElements.$add("who","who",1,"1",38,"Reference")
+Do pElements.$add("onBehalfOf","onBehalfOf",0,"1",38,"Reference")
+Do pElements.$add("targetFormat","targetFormat",0,"1",21,"code")
+Do pElements.$add("sigFormat","sigFormat",0,"1",21,"code")
+Do pElements.$add("data","data",0,"1",28,"base64Binary")

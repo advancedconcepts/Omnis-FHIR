@@ -1,0 +1,366 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$date",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: The date the immunization recommendation was created.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$date.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kDate",
+				"subtype": "kDatetime",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The date the immunization recommendation was created."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$vaccineCode",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: Vaccine that pertains to the recommendation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$vaccineCode.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Vaccine that pertains to the recommendation."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$targetDisease",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: The targeted disease for the recommendation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$targetDisease.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The targeted disease for the recommendation."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$doseNumber",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: The next recommended dose number (e.g. dose 2 is the next recommended dose).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$doseNumber.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The next recommended dose number (e.g. dose 2 is the next recommended dose)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$forecastStatus",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: Vaccine administration status.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$forecastStatus.$assign",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Vaccine administration status."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$dateCriterion",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: Vaccine date recommendations.  For example, earliest date to administer, latest date to administer, etc.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$adddateCriterion",
+		"ident": 15,
+		"order": 16,
+		"desc": "Vaccine date recommendations.  For example, earliest date to administer, latest date to administer, etc.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oImmunizationRecommendationRecommendationDateCriterion",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oImmunizationRecommendationRecommendationDateCriterion",
+				"sublen": 0,
+				"desc": "Vaccine date recommendations.  For example, earliest date to administer, latest date to administer, etc."
+			}
+		]
+	},
+	{
+		"name": "$protocol",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: Contains information about the protocol under which the vaccine was administered.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$protocol.$assign",
+		"ident": 17,
+		"order": 18,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oImmunizationRecommendationRecommendationProtocol",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Contains information about the protocol under which the vaccine was administered."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$supportingImmunization",
+		"ident": 18,
+		"order": 19,
+		"desc": "Returns: Immunization event history that supports the status and recommendation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addsupportingImmunization",
+		"ident": 19,
+		"order": 20,
+		"desc": "Immunization event history that supports the status and recommendation.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Immunization event history that supports the status and recommendation."
+			}
+		]
+	},
+	{
+		"name": "$supportingPatientInformation",
+		"ident": 20,
+		"order": 21,
+		"desc": "Returns: Patient Information that supports the status and recommendation.  This includes patient observations, adverse reactions and allergy/intolerance information.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addsupportingPatientInformation",
+		"ident": 21,
+		"order": 22,
+		"desc": "Patient Information that supports the status and recommendation.  This includes patient observations, adverse reactions and allergy/intolerance information.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Patient Information that supports the status and recommendation.  This includes patient observations, adverse reactions and allergy/intolerance information."
+			}
+		]
+	}
+]

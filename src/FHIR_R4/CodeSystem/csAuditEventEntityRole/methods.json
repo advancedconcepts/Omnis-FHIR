@@ -1,0 +1,289 @@
+[
+	{
+		"name": "$1",
+		"ident": 0,
+		"order": 1,
+		"desc": "This is a location identified as related to the event.  This is usually the location where the event took place.  Note that for shipping, the usual events are arrival at a location or departure from a location.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$2",
+		"ident": 1,
+		"order": 2,
+		"desc": "This object is any kind of persistent document created as a result of the event.  This could be a paper report, film, electronic report, DICOM Study, etc.  Issues related to medical records life cycle management are conveyed elsewhere.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$3",
+		"ident": 2,
+		"order": 3,
+		"desc": "A logical object related to a health record event.  This is any healthcare  specific resource (object) not restricted to FHIR defined Resources.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$4",
+		"ident": 3,
+		"order": 4,
+		"desc": "This is any configurable file used to control creation of documents.  Examples include the objects maintained by the HL7 Master File transactions, Value Sets, etc.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$5",
+		"ident": 4,
+		"order": 5,
+		"desc": "A human participant not otherwise identified by some other category.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$6",
+		"ident": 5,
+		"order": 6,
+		"desc": "(deprecated).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$7",
+		"ident": 6,
+		"order": 7,
+		"desc": "Typically, a licensed person who is providing or performing care related to the event, generally a physician.   The key distinction between doctor and practitioner is with regards to their role, not the licensing.  The doctor is the human who actually performed the work.  The practitioner is the human or organization that is responsible for the work.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$8",
+		"ident": 7,
+		"order": 8,
+		"desc": "A person or system that is being notified as part of the event.  This is relevant in situations where automated systems provide notifications to other parties when an event took place.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$9",
+		"ident": 8,
+		"order": 9,
+		"desc": "Insurance company, or any other organization who accepts responsibility for paying for the healthcare event.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$10",
+		"ident": 9,
+		"order": 10,
+		"desc": "A person or active system object involved in the event with a security role.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$11",
+		"ident": 10,
+		"order": 11,
+		"desc": "A person or system object involved in the event with the authority to modify security roles of other objects.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$12",
+		"ident": 11,
+		"order": 12,
+		"desc": "A passive object, such as a role table, that is relevant to the event.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$13",
+		"ident": 12,
+		"order": 13,
+		"desc": "(deprecated)  Relevant to certain RBAC security methodologies.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$14",
+		"ident": 13,
+		"order": 14,
+		"desc": "Any person or organization responsible for providing care.  This encompasses all forms of care, licensed or otherwise, and all sorts of teams and care groups. Note the distinction between practitioner and the doctor that actually provided the care to the patient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$15",
+		"ident": 14,
+		"order": 15,
+		"desc": "The source or destination for data transfer, when it does not match some other role.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$16",
+		"ident": 15,
+		"order": 16,
+		"desc": "A source or destination for data transfer that acts as an archive, database, or similar role.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$17",
+		"ident": 16,
+		"order": 17,
+		"desc": "An object that holds schedule information.  This could be an appointment book, availability information, etc.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$18",
+		"ident": 17,
+		"order": 18,
+		"desc": "An organization or person that is the recipient of services.  This could be an organization that is buying services for a patient, or a person that is buying services for an animal.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$19",
+		"ident": 18,
+		"order": 19,
+		"desc": "An order, task, work item, procedure step, or other description of work to be performed; e.g. a particular instance of an MPPS.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$20",
+		"ident": 19,
+		"order": 20,
+		"desc": "A list of jobs or a system that provides lists of jobs; e.g. an MWL SCP.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$21",
+		"ident": 20,
+		"order": 21,
+		"desc": "(Deprecated).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$22",
+		"ident": 21,
+		"order": 22,
+		"desc": "An object that specifies or controls the routing or delivery of items.  For example, a distribution list is the routing criteria for mail.  The items delivered may be documents, jobs, or other objects.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$23",
+		"ident": 22,
+		"order": 23,
+		"desc": "The contents of a query.  This is used to capture the contents of any kind of query.  For security surveillance purposes knowing the queries being made is very important.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$24",
+		"ident": 23,
+		"order": 24,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

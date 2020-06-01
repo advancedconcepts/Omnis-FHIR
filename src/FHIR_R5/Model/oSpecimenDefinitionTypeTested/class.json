@@ -1,0 +1,141 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "container",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oSpecimenDefinitionTypeTestedContainer",
+			"sublen": 0,
+			"desc": "The specimen's container."
+		},
+		{
+			"name": "handling",
+			"order": 10,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "handling_",
+			"order": 11,
+			"type": "kObjectref",
+			"subtype": "oSpecimenDefinitionTypeTestedHandling",
+			"sublen": 0,
+			"desc": "Set of instructions for preservation/transport of the specimen at a defined temperature interval, prior the testing process."
+		},
+		{
+			"name": "isDerived",
+			"order": 1,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "Primary of secondary specimen."
+		},
+		{
+			"name": "preference",
+			"order": 3,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The preference for this type of conditioned specimen."
+		},
+		{
+			"name": "rejectionCriterion",
+			"order": 8,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "rejectionCriterion_",
+			"order": 9,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Criterion for rejection of the specimen in its container by the laboratory."
+		},
+		{
+			"name": "requirement",
+			"order": 5,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Requirements for delivery and special handling of this kind of conditioned specimen."
+		},
+		{
+			"name": "retentionTime",
+			"order": 6,
+			"type": "kObjectref",
+			"subtype": "oDuration",
+			"sublen": 0,
+			"desc": "The usual time that a specimen of this kind is retained after the ordered tests are completed, for the purpose of additional testing."
+		},
+		{
+			"name": "singleUse",
+			"order": 7,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "Specimen can be used by only one test or panel if the value is \"true\"."
+		},
+		{
+			"name": "testingDestination",
+			"order": 12,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "testingDestination_",
+			"order": 13,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Where the specimen will be tested: e.g., lab, sector, device or any combination of these."
+		},
+		{
+			"name": "type",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The kind of specimen conditioned for testing expected by lab."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:45:01",
+		"desc": "Specimen conditioned in a container as expected by the testing laboratory.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:28",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

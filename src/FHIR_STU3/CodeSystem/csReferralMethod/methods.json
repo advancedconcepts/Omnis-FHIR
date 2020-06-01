@@ -1,0 +1,61 @@
+[
+	{
+		"name": "$fax",
+		"ident": 0,
+		"order": 1,
+		"desc": "Referrals may be accepted over the phone from a practitioner.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$phone",
+		"ident": 1,
+		"order": 2,
+		"desc": "Referrals may be accepted via a secure messaging system. To determine the types of secure messaging systems supported, refer to the identifiers collection. Callers will need to understand the specific identifier system used to know that they are able to transmit messages.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$elec",
+		"ident": 2,
+		"order": 3,
+		"desc": "Referrals may be accepted via a secure email. To send please encrypt with the services public key.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$semail",
+		"ident": 3,
+		"order": 4,
+		"desc": "Referrals may be accepted via regular postage (or hand delivered).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$mail",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

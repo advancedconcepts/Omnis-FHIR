@@ -1,0 +1,9 @@
+Do inherited
+Calculate code as pValue.$code()
+Calculate display as pValue.$display()
+Calculate noMap as pValue.$noMap()
+Do target.$clear()
+Calculate list as pValue.$target()
+Do target.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

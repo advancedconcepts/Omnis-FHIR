@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$classification",
+		"ident": 0,
+		"order": 1,
+		"desc": "Indicates the useContext is a context - a domain of use - e.g. Particular country, organization or system",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$context",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

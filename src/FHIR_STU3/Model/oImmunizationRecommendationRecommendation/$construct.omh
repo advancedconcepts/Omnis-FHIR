@@ -1,0 +1,4 @@
+Do inherited
+Do dateCriterion.$define(dateCriterion_)
+Do supportingImmunization.$define(supportingImmunization_)
+Do supportingPatientInformation.$define(supportingPatientInformation_)

@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$a",
+		"ident": 0,
+		"order": 1,
+		"desc": "The patient was not available when the dose was scheduled.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$b",
+		"ident": 1,
+		"order": 2,
+		"desc": "The patient was asleep when the dose was scheduled.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$c",
+		"ident": 2,
+		"order": 3,
+		"desc": "The patient was given the medication and immediately vomited it back.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$d",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

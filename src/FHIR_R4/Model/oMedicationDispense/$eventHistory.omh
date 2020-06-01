@@ -1,0 +1,4 @@
+If eventHistory.$validref()=kFalse
+	Calculate eventHistory as $clib.$classes.oReference.$newref()
+End If
+Quit method eventHistory

@@ -1,0 +1,4 @@
+If data.$validref()=kFalse
+	Calculate data as $clib.$classes.oConsentExceptData.$newref()
+End If
+Quit method data

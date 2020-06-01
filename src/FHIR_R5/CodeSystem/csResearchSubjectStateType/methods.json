@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$Milestone",
+		"ident": 0,
+		"order": 1,
+		"desc": "This is a status that can only have a single value at a given point in time.  The subject is either on-study or off-study.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Enrollment",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,8 @@
+Do inherited
+Do pElements.$add("material","material",0,"1",38,"CodeableConcept")
+Do pElements.$add("type","::type",0,"1",38,"CodeableConcept")
+Do pElements.$add("cap","cap",0,"1",38,"CodeableConcept")
+Do pElements.$add("description","description",0,"1",21,"string")
+Do pElements.$add("capacity","capacity",0,"1",38,"Quantity")
+Do pElements.$add("additive","additive",0,"-1",38,"")
+Do pElements.$add("preparation","preparation",0,"1",21,"string")

@@ -1,0 +1,5 @@
+Do inherited
+Do supportedProfile.$define(supportedProfile_)
+Do interaction.$define(interaction_)
+Do searchParam.$define(searchParam_)
+Do operation.$define(operation_)

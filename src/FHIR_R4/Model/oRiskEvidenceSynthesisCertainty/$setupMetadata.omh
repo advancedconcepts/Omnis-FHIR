@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("rating","rating",0,"-1",38,"CodeableConcept")
+Do pElements.$add("note","note",0,"-1",38,"Annotation")
+Do pElements.$add("certaintySubcomponent","certaintySubcomponent",0,"-1",38,"")

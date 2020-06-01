@@ -1,0 +1,4 @@
+If ingredientLabel.$validref()=kFalse
+	Calculate ingredientLabel as $clib.$classes.oNutritionIntakeIngredientLabel.$newref()
+End If
+Quit method ingredientLabel

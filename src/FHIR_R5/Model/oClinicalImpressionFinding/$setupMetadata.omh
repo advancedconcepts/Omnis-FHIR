@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("itemCodeableConcept","itemCodeableConcept",0,"1",38,"CodeableConcept")
+Do pElements.$add("itemReference","itemReference",0,"1",38,"Reference")
+Do pElements.$add("basis","basis",0,"1",21,"string")

@@ -1,0 +1,12 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do definition.$define(definition_)
+Do partOf.$define(partOf_)
+Do supportingInformation.$define(supportingInformation_)
+Do performer.$define(performer_)
+Do reasonNotGiven.$define(reasonNotGiven_)
+Do reasonCode.$define(reasonCode_)
+Do reasonReference.$define(reasonReference_)
+Do device.$define(device_)
+Do note.$define(note_)
+Do eventHistory.$define(eventHistory_)

@@ -1,0 +1,133 @@
+[
+	{
+		"name": "$active",
+		"ident": 0,
+		"order": 1,
+		"desc": "Study is completed prematurely and will not resume; patients are no longer examined nor treated.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$administratively-completed",
+		"ident": 1,
+		"order": 2,
+		"desc": "Protocol is approved by the review board.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$approved",
+		"ident": 2,
+		"order": 3,
+		"desc": "Study is closed for accrual; patients can be examined and treated.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$closed-to-accrual",
+		"ident": 3,
+		"order": 4,
+		"desc": "Study is closed to accrual and intervention, i.e. the study is closed to enrollment, all study subjects have completed treatment or intervention but are still being followed according to the primary objective of the study.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$closed-to-accrual-and-intervention",
+		"ident": 4,
+		"order": 5,
+		"desc": "Study is closed to accrual and intervention, i.e. the study is closed to enrollment, all study subjects have completed treatment\nor intervention but are still being followed according to the primary objective of the study.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$completed",
+		"ident": 5,
+		"order": 6,
+		"desc": "Protocol was disapproved by the review board.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$disapproved",
+		"ident": 6,
+		"order": 7,
+		"desc": "Protocol is submitted to the review board for approval.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$in-review",
+		"ident": 7,
+		"order": 8,
+		"desc": "Study is temporarily closed for accrual; can be potentially resumed in the future; patients can be examined and treated.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$temporarily-closed-to-accrual",
+		"ident": 8,
+		"order": 9,
+		"desc": "Study is temporarily closed for accrual and intervention and potentially can be resumed in the future.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$temporarily-closed-to-accrual-and-intervention",
+		"ident": 9,
+		"order": 10,
+		"desc": "Protocol was withdrawn by the lead organization.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$withdrawn",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

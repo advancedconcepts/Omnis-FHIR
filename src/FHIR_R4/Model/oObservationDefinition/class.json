@@ -1,0 +1,172 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "abnormalCodedValueSet",
+			"order": 16,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The set of abnormal coded results for the observation conforming to this ObservationDefinition."
+		},
+		{
+			"name": "category",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "category_",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "A code that classifies the general type of observation."
+		},
+		{
+			"name": "code",
+			"order": 3,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Describes what will be observed. Sometimes this is called the observation \"name\"."
+		},
+		{
+			"name": "criticalCodedValueSet",
+			"order": 17,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The set of critical coded results for the observation conforming to this ObservationDefinition."
+		},
+		{
+			"name": "identifier",
+			"order": 4,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "identifier_",
+			"order": 5,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "A unique identifier assigned to this ObservationDefinition artifact."
+		},
+		{
+			"name": "method",
+			"order": 9,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The method or technique used to perform the observation."
+		},
+		{
+			"name": "multipleResultsAllowed",
+			"order": 8,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "Multiple results allowed for observations conforming to this ObservationDefinition."
+		},
+		{
+			"name": "normalCodedValueSet",
+			"order": 15,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The set of normal coded results for the observations conforming to this ObservationDefinition."
+		},
+		{
+			"name": "permittedDataType",
+			"order": 6,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "permittedDataType_",
+			"order": 7,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The data types allowed for the value element of the instance observations conforming to this ObservationDefinition."
+		},
+		{
+			"name": "preferredReportName",
+			"order": 10,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The preferred name to be used when reporting the results of observations conforming to this ObservationDefinition."
+		},
+		{
+			"name": "qualifiedInterval",
+			"order": 12,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "qualifiedInterval_",
+			"order": 13,
+			"type": "kObjectref",
+			"subtype": "oObservationDefinitionQualifiedInterval",
+			"sublen": 0,
+			"desc": "Multiple  ranges of results qualified by different contexts for ordinal or continuous observations conforming to this ObservationDefinition."
+		},
+		{
+			"name": "quantitativeDetails",
+			"order": 11,
+			"type": "kObjectref",
+			"subtype": "oObservationDefinitionQuantitativeDetails",
+			"sublen": 0,
+			"desc": "Characteristics for quantitative results of this observation."
+		},
+		{
+			"name": "validCodedValueSet",
+			"order": 14,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The set of valid coded results for the observations  conforming to this ObservationDefinition."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:41:50",
+		"desc": "Set of definitional characteristics for a kind of observation or measurement produced or consumed by an orderable health care service.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:25",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

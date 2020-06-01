@@ -1,0 +1,6 @@
+Do inherited
+Calculate example as pValue.$example()
+Calculate name as pValue.$name()
+Calculate description as pValue.$description()
+Calculate acronym as pValue.$acronym()
+Calculate exampleFor as pValue.$exampleFor()

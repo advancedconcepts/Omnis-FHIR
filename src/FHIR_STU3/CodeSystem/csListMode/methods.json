@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$working",
+		"ident": 0,
+		"order": 1,
+		"desc": "This list was prepared as a snapshot. It should not be assumed to be current",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$snapshot",
+		"ident": 1,
+		"order": 2,
+		"desc": "A list that indicates where changes have been made or recommended",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$changes",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

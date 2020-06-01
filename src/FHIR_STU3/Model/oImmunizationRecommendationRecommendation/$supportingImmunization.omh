@@ -1,0 +1,4 @@
+If supportingImmunization.$validref()=kFalse
+	Calculate supportingImmunization as $clib.$classes.oReference.$newref()
+End If
+Quit method supportingImmunization

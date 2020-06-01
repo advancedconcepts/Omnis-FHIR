@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$triggers",
+		"ident": 0,
+		"order": 1,
+		"desc": "the related catalog entry supersedes this one when it is not active.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$is-replaced-by",
+		"ident": 1,
+		"order": 2,
+		"desc": "The related catalog entry is excluded by this one.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$excludes",
+		"ident": 2,
+		"order": 3,
+		"desc": "The item of the related catalog entry  will be part of the orders containing the current item.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$includes",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

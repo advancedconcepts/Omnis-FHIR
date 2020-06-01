@@ -1,0 +1,4 @@
+If valuedItem.$validref()=kFalse
+	Calculate valuedItem as $clib.$classes.oContractValuedItem.$newref()
+End If
+Quit method valuedItem

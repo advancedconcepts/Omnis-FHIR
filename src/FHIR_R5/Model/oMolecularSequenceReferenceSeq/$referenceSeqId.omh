@@ -1,0 +1,4 @@
+If referenceSeqId.$validref()=kFalse
+	Calculate referenceSeqId as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method referenceSeqId

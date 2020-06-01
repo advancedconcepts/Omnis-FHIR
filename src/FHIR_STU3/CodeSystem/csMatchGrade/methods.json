@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$certain",
+		"ident": 0,
+		"order": 1,
+		"desc": "This record is a close match, but not a certain match. Additional review (e.g. by a human) may be required before using this as a match.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$probable",
+		"ident": 1,
+		"order": 2,
+		"desc": "This record may be a matching one. Additional review (e.g. by a human) SHOULD be performed before using this as a match.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$possible",
+		"ident": 2,
+		"order": 3,
+		"desc": "This record is known not to be a match. Note that usually non-matching records are not returned, but in some cases records previously or likely considered as a match may specifically be negated by the matching engine",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$certainly-not",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

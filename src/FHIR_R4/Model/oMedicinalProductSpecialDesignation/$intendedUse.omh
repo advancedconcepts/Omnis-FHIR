@@ -1,0 +1,4 @@
+If intendedUse.$validref()=kFalse
+	Calculate intendedUse as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method intendedUse

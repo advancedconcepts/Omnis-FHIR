@@ -1,0 +1,3 @@
+Do inherited
+Calculate date as pValue.$date()
+Calculate type as pValue.$type()

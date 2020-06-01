@@ -1,0 +1,169 @@
+[
+	{
+		"name": "$launch-ehr",
+		"ident": 0,
+		"order": 1,
+		"desc": "support for SMART’s Standalone Launch mode.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$launch-standalone",
+		"ident": 1,
+		"order": 2,
+		"desc": "support for SMART’s public client profile (no client authentication).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$client-public",
+		"ident": 2,
+		"order": 3,
+		"desc": "support for SMART’s confidential client profile (symmetric client secret authentication).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$client-confidential-symmetric",
+		"ident": 3,
+		"order": 4,
+		"desc": "support for SMART’s OpenID Connect profile.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sso-openid-connect",
+		"ident": 4,
+		"order": 5,
+		"desc": "support for “need patient banner” launch context (conveyed via need_patient_banner token parameter).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$context-passthrough-banner",
+		"ident": 5,
+		"order": 6,
+		"desc": "support for “SMART style URL” launch context (conveyed via smart_style_url token parameter).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$context-passthrough-style",
+		"ident": 6,
+		"order": 7,
+		"desc": "support for patient-level launch context (requested by launch/patient scope, conveyed via patient token parameter).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$context-ehr-patient",
+		"ident": 7,
+		"order": 8,
+		"desc": "support for encounter-level launch context (requested by launch/encounter scope, conveyed via encounter token parameter).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$context-ehr-encounter",
+		"ident": 8,
+		"order": 9,
+		"desc": "support for patient-level launch context (requested by launch/patient scope, conveyed via patient token parameter).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$context-standalone-patient",
+		"ident": 9,
+		"order": 10,
+		"desc": "support for encounter-level launch context (requested by launch/encounter scope, conveyed via encounter token parameter).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$context-standalone-encounter",
+		"ident": 10,
+		"order": 11,
+		"desc": "support for refresh tokens (requested by offline_access scope).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$permission-offline",
+		"ident": 11,
+		"order": 12,
+		"desc": "support for patient-level scopes (e.g. patient/Observation.read).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$permission-patient",
+		"ident": 12,
+		"order": 13,
+		"desc": "support for user-level scopes (e.g. user/Appointment.read).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$permission-user",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

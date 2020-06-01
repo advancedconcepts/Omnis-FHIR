@@ -1,0 +1,5 @@
+Do inherited
+Calculate itemSequence as pValue.$itemSequence()
+Calculate detailSequence as pValue.$detailSequence()
+Calculate subDetailSequence as pValue.$subDetailSequence()
+Calculate code as pValue.$code()

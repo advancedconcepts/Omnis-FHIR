@@ -1,0 +1,18 @@
+Do inherited
+Calculate code as pValue.$code()
+Calculate status as pValue.$status()
+Calculate isBrand as pValue.$isBrand()
+Calculate isOverTheCounter as pValue.$isOverTheCounter()
+Calculate manufacturer as pValue.$manufacturer()
+Calculate form as pValue.$form()
+Do ingredient.$clear()
+Calculate list as pValue.$ingredient()
+Do ingredient.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate package as pValue.$package()
+Do image.$clear()
+Calculate list as pValue.$image()
+Do image.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

@@ -1,0 +1,97 @@
+[
+	{
+		"name": "$n-a",
+		"ident": 0,
+		"order": 1,
+		"desc": "Designation for optional exploratory trials conducted in accordance with the United States Food and Drug Administration's (FDA) 2006 Guidance on Exploratory Investigational New Drug (IND) Studies. Formerly called Phase 0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$early-phase-1",
+		"ident": 1,
+		"order": 2,
+		"desc": "Includes initial studies to determine the metabolism and pharmacologic actions of drugs in humans, the side effects associated with increasing doses, and to gain early evidence of effectiveness; may include healthy participants and/or patients.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$phase-1",
+		"ident": 2,
+		"order": 3,
+		"desc": "Trials that are a combination of phases 1 and 2.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$phase-1-phase-2",
+		"ident": 3,
+		"order": 4,
+		"desc": "Includes controlled clinical studies conducted to evaluate the effectiveness of the drug for a particular indication or indications in participants with the disease or condition under study and to determine the common short-term side effects and risks.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$phase-2",
+		"ident": 4,
+		"order": 5,
+		"desc": "Trials that are a combination of phases 2 and 3.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$phase-2-phase-3",
+		"ident": 5,
+		"order": 6,
+		"desc": "Includes trials conducted after preliminary evidence suggesting effectiveness of the drug has been obtained, and are intended to gather additional information to evaluate the overall benefit-risk relationship of the drug.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$phase-3",
+		"ident": 6,
+		"order": 7,
+		"desc": "Studies of FDA-approved drugs to delineate additional information including the drug's risks, benefits, and optimal use.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$phase-4",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

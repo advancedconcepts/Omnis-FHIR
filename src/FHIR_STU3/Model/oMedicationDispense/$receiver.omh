@@ -1,0 +1,4 @@
+If receiver.$validref()=kFalse
+	Calculate receiver as $clib.$classes.oReference.$newref()
+End If
+Quit method receiver

@@ -1,0 +1,806 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$identifier",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: Business identifiers assigned to this communication request by the performer or other systems which remain constant as the resource is updated and propagates from server to server.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addidentifier",
+		"ident": 6,
+		"order": 7,
+		"desc": "Business identifiers assigned to this communication request by the performer or other systems which remain constant as the resource is updated and propagates from server to server.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"desc": "Business identifiers assigned to this communication request by the performer or other systems which remain constant as the resource is updated and propagates from server to server."
+			}
+		]
+	},
+	{
+		"name": "$basedOn",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: A plan or proposal that is fulfilled in whole or in part by this request.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addbasedOn",
+		"ident": 8,
+		"order": 9,
+		"desc": "A plan or proposal that is fulfilled in whole or in part by this request.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "A plan or proposal that is fulfilled in whole or in part by this request."
+			}
+		]
+	},
+	{
+		"name": "$replaces",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: Completed or terminated request(s) whose function is taken by this new request.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addreplaces",
+		"ident": 10,
+		"order": 11,
+		"desc": "Completed or terminated request(s) whose function is taken by this new request.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Completed or terminated request(s) whose function is taken by this new request."
+			}
+		]
+	},
+	{
+		"name": "$groupIdentifier",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: A shared identifier common to all requests that were authorized more or less simultaneously by a single author, representing the identifier of the requisition, prescription or similar form.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$groupIdentifier.$assign",
+		"ident": 12,
+		"order": 13,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1,
+				"desc": "A shared identifier common to all requests that were authorized more or less simultaneously by a single author, representing the identifier of the requisition, prescription or similar form."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$status",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: The status of the proposal or order.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$status.$assign",
+		"ident": 14,
+		"order": 15,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The status of the proposal or order."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$statusReason",
+		"ident": 15,
+		"order": 16,
+		"desc": "Returns: Captures the reason for the current state of the CommunicationRequest.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$statusReason.$assign",
+		"ident": 16,
+		"order": 17,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Captures the reason for the current state of the CommunicationRequest."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$category",
+		"ident": 17,
+		"order": 18,
+		"desc": "Returns: The type of message to be sent such as alert, notification, reminder, instruction, etc.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcategory",
+		"ident": 18,
+		"order": 19,
+		"desc": "The type of message to be sent such as alert, notification, reminder, instruction, etc.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "The type of message to be sent such as alert, notification, reminder, instruction, etc."
+			}
+		]
+	},
+	{
+		"name": "$priority",
+		"ident": 19,
+		"order": 20,
+		"desc": "Returns: Characterizes how quickly the proposed act must be initiated. Includes concepts such as stat, urgent, routine.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$priority.$assign",
+		"ident": 20,
+		"order": 21,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Characterizes how quickly the proposed act must be initiated. Includes concepts such as stat, urgent, routine."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$doNotPerform",
+		"ident": 21,
+		"order": 22,
+		"desc": "Returns: If true indicates that the CommunicationRequest is asking for the specified action to *not* occur.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$doNotPerform.$assign",
+		"ident": 22,
+		"order": 23,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "If true indicates that the CommunicationRequest is asking for the specified action to *not* occur."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$medium",
+		"ident": 23,
+		"order": 24,
+		"desc": "Returns: A channel that was used for this communication (e.g. email, fax).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addmedium",
+		"ident": 24,
+		"order": 25,
+		"desc": "A channel that was used for this communication (e.g. email, fax).",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "A channel that was used for this communication (e.g. email, fax)."
+			}
+		]
+	},
+	{
+		"name": "$subject",
+		"ident": 25,
+		"order": 26,
+		"desc": "Returns: The patient or group that is the focus of this communication request.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subject.$assign",
+		"ident": 26,
+		"order": 27,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The patient or group that is the focus of this communication request."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$about",
+		"ident": 27,
+		"order": 28,
+		"desc": "Returns: Other resources that pertain to this communication request and to which this communication request should be associated.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addabout",
+		"ident": 28,
+		"order": 29,
+		"desc": "Other resources that pertain to this communication request and to which this communication request should be associated.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Other resources that pertain to this communication request and to which this communication request should be associated."
+			}
+		]
+	},
+	{
+		"name": "$encounter",
+		"ident": 29,
+		"order": 30,
+		"desc": "Returns: The Encounter during which this CommunicationRequest was created or to which the creation of this record is tightly associated.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$encounter.$assign",
+		"ident": 30,
+		"order": 31,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The Encounter during which this CommunicationRequest was created or to which the creation of this record is tightly associated."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$payload",
+		"ident": 31,
+		"order": 32,
+		"desc": "Returns: Text, attachment(s), or resource(s) to be communicated to the recipient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addpayload",
+		"ident": 32,
+		"order": 33,
+		"desc": "Text, attachment(s), or resource(s) to be communicated to the recipient.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCommunicationRequestPayload",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCommunicationRequestPayload",
+				"sublen": 0,
+				"desc": "Text, attachment(s), or resource(s) to be communicated to the recipient."
+			}
+		]
+	},
+	{
+		"name": "$authoredOn",
+		"ident": 33,
+		"order": 34,
+		"desc": "Returns: For draft requests, indicates the date of initial creation.  For requests with other statuses, indicates the date of activation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$authoredOn.$assign",
+		"ident": 34,
+		"order": 35,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kDate",
+				"subtype": "kDatetime",
+				"sublen": 0,
+				"param": 1,
+				"desc": "For draft requests, indicates the date of initial creation.  For requests with other statuses, indicates the date of activation."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$requester",
+		"ident": 35,
+		"order": 36,
+		"desc": "Returns: The device, individual, or organization who initiated the request and has responsibility for its activation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$requester.$assign",
+		"ident": 36,
+		"order": 37,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The device, individual, or organization who initiated the request and has responsibility for its activation."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$recipient",
+		"ident": 37,
+		"order": 38,
+		"desc": "Returns: The entity (e.g. person, organization, clinical information system, device, group, or care team) which is the intended target of the communication.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addrecipient",
+		"ident": 38,
+		"order": 39,
+		"desc": "The entity (e.g. person, organization, clinical information system, device, group, or care team) which is the intended target of the communication.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "The entity (e.g. person, organization, clinical information system, device, group, or care team) which is the intended target of the communication."
+			}
+		]
+	},
+	{
+		"name": "$sender",
+		"ident": 39,
+		"order": 40,
+		"desc": "Returns: The entity (e.g. person, organization, clinical information system, or device) which is to be the source of the communication.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sender.$assign",
+		"ident": 40,
+		"order": 41,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The entity (e.g. person, organization, clinical information system, or device) which is to be the source of the communication."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$reasonCode",
+		"ident": 41,
+		"order": 42,
+		"desc": "Returns: Describes why the request is being made in coded or textual form.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addreasonCode",
+		"ident": 42,
+		"order": 43,
+		"desc": "Describes why the request is being made in coded or textual form.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Describes why the request is being made in coded or textual form."
+			}
+		]
+	},
+	{
+		"name": "$reasonReference",
+		"ident": 43,
+		"order": 44,
+		"desc": "Returns: Indicates another resource whose existence justifies this request.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addreasonReference",
+		"ident": 44,
+		"order": 45,
+		"desc": "Indicates another resource whose existence justifies this request.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Indicates another resource whose existence justifies this request."
+			}
+		]
+	},
+	{
+		"name": "$note",
+		"ident": 45,
+		"order": 46,
+		"desc": "Returns: Comments made about the request by the requester, sender, recipient, subject or other participants.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addnote",
+		"ident": 46,
+		"order": 47,
+		"desc": "Comments made about the request by the requester, sender, recipient, subject or other participants.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oAnnotation",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oAnnotation",
+				"sublen": 0,
+				"desc": "Comments made about the request by the requester, sender, recipient, subject or other participants."
+			}
+		]
+	}
+]

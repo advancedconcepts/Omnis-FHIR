@@ -1,0 +1,7 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"1",38,"Identifier")
+Do pElements.$add("role","role",1,"1",38,"CodeableConcept")
+Do pElements.$add("allergenicIndicator","allergenicIndicator",0,"1",22,"boolean")
+Do pElements.$add("manufacturer","manufacturer",0,"-1",38,"Reference")
+Do pElements.$add("specifiedSubstance","specifiedSubstance",0,"-1",38,"")
+Do pElements.$add("substance","substance",0,"1",38,"")

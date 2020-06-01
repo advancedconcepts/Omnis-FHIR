@@ -1,0 +1,109 @@
+[
+	{
+		"name": "$document",
+		"ident": 0,
+		"order": 1,
+		"desc": "The bundle is a message. The first resource is a MessageHeader.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$message",
+		"ident": 1,
+		"order": 2,
+		"desc": "The bundle is a transaction - intended to be processed by a server as an atomic commit.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$transaction",
+		"ident": 2,
+		"order": 3,
+		"desc": "The bundle is a transaction response. Because the response is a transaction response, the transaction has succeeded, and all responses are error free.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$transaction-response",
+		"ident": 3,
+		"order": 4,
+		"desc": "The bundle is a transaction - intended to be processed by a server as a group of actions.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$batch",
+		"ident": 4,
+		"order": 5,
+		"desc": "The bundle is a batch response. Note that as a batch, some responses may indicate failure and others success.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$batch-response",
+		"ident": 5,
+		"order": 6,
+		"desc": "The bundle is a list of resources from a history interaction on a server.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$history",
+		"ident": 6,
+		"order": 7,
+		"desc": "The bundle is a list of resources returned as a result of a search/query interaction, operation, or message.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$searchset",
+		"ident": 7,
+		"order": 8,
+		"desc": "The bundle is a set of resources collected into a single package for ease of distribution.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$collection",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

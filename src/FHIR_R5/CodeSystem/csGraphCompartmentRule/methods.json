@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$identical",
+		"ident": 0,
+		"order": 1,
+		"desc": "The compartment must be the same - the record must be about the same patient, but the reference may be different.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$matching",
+		"ident": 1,
+		"order": 2,
+		"desc": "The compartment must be different.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$different",
+		"ident": 2,
+		"order": 3,
+		"desc": "The compartment rule is defined in the accompanying FHIRPath expression.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$custom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

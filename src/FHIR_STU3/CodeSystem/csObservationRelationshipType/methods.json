@@ -1,0 +1,73 @@
+[
+	{
+		"name": "$has-member",
+		"ident": 0,
+		"order": 1,
+		"desc": "The target resource (Observation or QuestionnaireResponse) is part of the information from which this observation value is derived. (e.g. calculated anion gap, Apgar score)  NOTE:  \"derived-from\" is the only logical choice when referencing QuestionnaireResponse.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$derived-from",
+		"ident": 1,
+		"order": 2,
+		"desc": "This observation follows the target observation (e.g. timed tests such as Glucose Tolerance Test).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sequel-to",
+		"ident": 2,
+		"order": 3,
+		"desc": "This observation replaces a previous observation (i.e. a revised value). The target observation is now obsolete.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$replaces",
+		"ident": 3,
+		"order": 4,
+		"desc": "The value of the target observation qualifies (refines) the semantics of the source observation (e.g. a lipemia measure target from a plasma measure).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$qualified-by",
+		"ident": 4,
+		"order": 5,
+		"desc": "The value of the target observation interferes (degrades quality, or prevents valid observation) with the semantics of the source observation (e.g. a hemolysis measure target from a plasma potassium measure, which has no value).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$interfered-by",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

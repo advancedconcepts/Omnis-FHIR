@@ -1,0 +1,73 @@
+[
+	{
+		"name": "$group",
+		"ident": 0,
+		"order": 1,
+		"desc": "A sub-group of an employee group",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subgroup",
+		"ident": 1,
+		"order": 2,
+		"desc": "A specific suite of benefits.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$plan",
+		"ident": 2,
+		"order": 3,
+		"desc": "A subset of a specific suite of benefits.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subplan",
+		"ident": 3,
+		"order": 4,
+		"desc": "A class of benefits.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$class",
+		"ident": 4,
+		"order": 5,
+		"desc": "A subset of a class of benefits.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subclass",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

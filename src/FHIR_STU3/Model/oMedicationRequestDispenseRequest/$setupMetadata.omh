@@ -1,0 +1,6 @@
+Do inherited
+Do pElements.$add("validityPeriod","validityPeriod",0,"1",38,"Period")
+Do pElements.$add("numberOfRepeatsAllowed","numberOfRepeatsAllowed",0,"1",26,"positiveInt")
+Do pElements.$add("quantity","quantity",0,"1",38,"Quantity")
+Do pElements.$add("expectedSupplyDuration","expectedSupplyDuration",0,"1",38,"Duration")
+Do pElements.$add("performer","performer",0,"1",38,"Reference")

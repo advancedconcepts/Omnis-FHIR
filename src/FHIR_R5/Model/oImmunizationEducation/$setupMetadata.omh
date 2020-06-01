@@ -1,0 +1,5 @@
+Do inherited
+Do pElements.$add("documentType","documentType",0,"1",21,"string")
+Do pElements.$add("reference","reference",0,"1",21,"uri")
+Do pElements.$add("publicationDate","publicationDate",0,"1",23,"dateTime")
+Do pElements.$add("presentationDate","presentationDate",0,"1",23,"dateTime")

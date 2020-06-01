@@ -1,0 +1,73 @@
+[
+	{
+		"name": "$smokecess",
+		"ident": 0,
+		"order": 1,
+		"desc": "Flu Shot",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$flushot",
+		"ident": 1,
+		"order": 2,
+		"desc": "The wholesale price of the medication.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$drugcost",
+		"ident": 2,
+		"order": 3,
+		"desc": "The additional cost assessed on the drug.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$markup",
+		"ident": 3,
+		"order": 4,
+		"desc": "The professional fee charged for dispensing the product or service.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$dispensefee",
+		"ident": 4,
+		"order": 5,
+		"desc": "The professional fee charged for compounding the medication.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$compoundfee",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

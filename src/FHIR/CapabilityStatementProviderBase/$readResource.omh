@@ -1,0 +1,10 @@
+Calculate resourceRef as pContext.$createResource('CapabilityStatement')
+
+Calculate resourceRef.$status as "draft"
+Calculate resourceRef.$kind as 'capability'
+Calculate resourceRef.$fhirVersion as '4.0.1'
+
+Do resourceRef.$addformat('json')
+Do resourceRef.$addformat('xml')
+
+Quit method resourceRef

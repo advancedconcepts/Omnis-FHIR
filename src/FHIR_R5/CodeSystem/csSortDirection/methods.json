@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$ascending",
+		"ident": 0,
+		"order": 1,
+		"desc": "Sort by the value descending, so that lower values appear last.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$descending",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

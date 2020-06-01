@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("sequence","sequence",1,"1",26,"positiveInt")
+Do pElements.$add("information","information",1,"1",38,"Reference")
+Do pElements.$add("appliesToAll","appliesToAll",0,"1",22,"boolean")

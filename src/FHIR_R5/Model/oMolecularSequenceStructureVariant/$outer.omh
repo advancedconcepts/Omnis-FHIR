@@ -1,0 +1,4 @@
+If outer.$validref()=kFalse
+	Calculate outer as $clib.$classes.oMolecularSequenceStructureVariantOuter.$newref()
+End If
+Quit method outer

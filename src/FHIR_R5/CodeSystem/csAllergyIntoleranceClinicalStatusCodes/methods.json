@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$active",
+		"ident": 0,
+		"order": 1,
+		"desc": "The subject is no longer at risk of a reaction to the identified substance.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$inactive",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,3 @@
+Do inherited
+Do pElements.$add("link","link",0,"-1",38,"")
+Do pElements.$add("capability","capability",1,"-1",38,"")

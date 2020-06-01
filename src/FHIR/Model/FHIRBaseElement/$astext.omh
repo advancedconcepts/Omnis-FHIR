@@ -1,0 +1,112 @@
+Do $cinst.$metadata Returns elements
+
+If isJson
+	Calculate value as con(jst('',pIndent),'{',kCr)
+End If
+Calculate useType as pIndent=0
+Calculate pIndent as pIndent+2
+If isJson
+	If useType
+		Calculate value as con(value,jst('',pIndent),'"resourceType": "',$cinst.$resourceType(),'"')
+		Calculate hasElement as kTrue
+	End If
+Else
+	If useType
+		Calculate value as con(value,jst('',pIndent-2),'<',$cinst.$resourceType(),'>',kCr)
+	End If
+End If
+For i from 1 to elements.$linecount step 1
+	Calculate elementName as elements.[i].cElementName
+	If elements.[i].cElementsMax<>1
+		Calculate list as $cinst.[elementName]
+		;  # only show non-empty arrays
+		If (list.$linecount)
+			If isJson
+				If (hasElement)
+					Calculate value as con(value,',',kCr)
+				End If
+				Calculate value as con(value,jst('',pIndent),'"',elementName,'" : [',kCr)
+				Calculate pIndent as pIndent+2
+			Else
+			End If
+			For list.$line from 1 to list.$linecount step 1
+				If isJson
+					If (list.$line>1)
+						Calculate value as con(value,',',kCr)
+					End If
+				End If
+				
+				If list.$cols.1.$coltype=kObjectref
+					If not(isJson)
+						Calculate value as con(value,jst('',pIndent),'<',elementName,'>',kCr)
+					End If
+					
+					Calculate value as con(value,list.C1.$astext(pFormat,pIndent))
+					If not(isJson)
+						Calculate value as con(value,jst('',pIndent),'</',elementName,'>',kCr)
+					End If
+				Else
+					Do method formatvalue (list.C1,elements.[i].cElementType) Returns elementValue
+					If isJson
+						Calculate value as con(value,jst('',pIndent),'"',elementValue,'"')
+					Else
+						Calculate value as con(value,jst('',pIndent),'<',elementName,' value="',elementValue,'" />',kCr)
+					End If
+				End If
+			End For
+			If isJson
+				Calculate pIndent as pIndent-2
+				Calculate value as con(value,kCr,jst('',pIndent),']')
+				Calculate hasElement as kTrue
+			End If
+		End If
+	Else If elements.[i].cElementType=kObjectref
+		Calculate objref as $cinst.[elementName]
+		If objref.$validref()
+			If isJson
+				If (hasElement)
+					Calculate value as con(value,',',kCr)
+				End If
+				Calculate value as con(value,jst('',pIndent),'"',elementName,'" : ',kCr)
+			Else
+				Calculate value as con(value,jst('',pIndent),'<',elementName,'>',kCr)
+			End If
+			Calculate value as con(value,objref.$astext(pFormat,pIndent))
+			If isJson
+				Calculate hasElement as kTrue
+			Else
+				Calculate value as con(value,jst('',pIndent),'</',elementName,'>',kCr)
+			End If
+		End If
+	Else
+		If $cinst.[elementName]<>''
+			Do method formatvalue ($cinst.[elementName],elements.[i].cElementType) Returns elementValue
+			If isJson
+				If (hasElement)
+					Calculate value as con(value,',',kCr)
+				End If
+				Calculate value as con(value,jst('',pIndent),'"',elementName,'" : ')
+				;  # type difference
+				Calculate value as con(value,'"',elementValue,'"')
+				Calculate hasElement as kTrue
+			Else
+				Calculate value as con(value,jst('',pIndent),'<',elementName,' value="',elementValue,'" />',kCr)
+			End If
+		End If
+	End If
+End For
+
+Calculate pIndent as pIndent-2
+
+If isJson
+	If (hasElement)
+		Calculate value as con(value,kCr)
+	End If
+	Calculate value as con(value,jst('',pIndent),'}')
+Else
+	If useType
+		Calculate value as con(value,jst('',pIndent),'</',$cinst.$resourceType(),'>')
+	End If
+End If
+
+Quit method value

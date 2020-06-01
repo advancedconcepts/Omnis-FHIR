@@ -1,0 +1,12 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"1",38,"Identifier")
+Do pElements.$add("basedOn","basedOn",0,"-1",38,"Reference")
+Do pElements.$add("parent","parent",0,"-1",38,"Reference")
+Do pElements.$add("questionnaire","questionnaire",0,"1",38,"Reference")
+Do pElements.$add("status","status",1,"1",21,"code")
+Do pElements.$add("subject","subject",0,"1",38,"Reference")
+Do pElements.$add("context","context",0,"1",38,"Reference")
+Do pElements.$add("authored","authored",0,"1",23,"dateTime")
+Do pElements.$add("author","author",0,"1",38,"Reference")
+Do pElements.$add("source","source",0,"1",38,"Reference")
+Do pElements.$add("item","item",0,"-1",38,"")

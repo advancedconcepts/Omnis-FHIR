@@ -1,0 +1,6 @@
+Do inherited
+Do reaction.$define(reaction_)
+Do suspectEntity.$define(suspectEntity_)
+Do subjectMedicalHistory.$define(subjectMedicalHistory_)
+Do referenceDocument.$define(referenceDocument_)
+Do study.$define(study_)

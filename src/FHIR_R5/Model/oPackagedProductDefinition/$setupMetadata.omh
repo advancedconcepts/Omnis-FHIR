@@ -1,0 +1,11 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"-1",38,"Identifier")
+Do pElements.$add("subject","subject",0,"-1",38,"Reference")
+Do pElements.$add("description","description",0,"1",21,"string")
+Do pElements.$add("legalStatusOfSupply","legalStatusOfSupply",0,"1",38,"CodeableConcept")
+Do pElements.$add("marketingStatus","marketingStatus",0,"-1",38,"MarketingStatus")
+Do pElements.$add("copackagedIndicator","copackagedIndicator",0,"1",22,"boolean")
+Do pElements.$add("marketingAuthorization","marketingAuthorization",0,"1",38,"Reference")
+Do pElements.$add("manufacturer","manufacturer",0,"-1",38,"Reference")
+Do pElements.$add("batchIdentifier","batchIdentifier",0,"-1",38,"")
+Do pElements.$add("package","package",0,"-1",38,"")

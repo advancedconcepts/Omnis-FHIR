@@ -1,0 +1,4 @@
+If service.$validref()=kFalse
+	Calculate service as $clib.$classes.oReference.$newref()
+End If
+Quit method service

@@ -1,0 +1,97 @@
+[
+	{
+		"name": "$proposal",
+		"ident": 0,
+		"order": 1,
+		"desc": "The request represents an intention to ensure something occurs without providing an authorization for others to act.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$plan",
+		"ident": 1,
+		"order": 2,
+		"desc": "The request represents a request/demand and authorization for action",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$order",
+		"ident": 2,
+		"order": 3,
+		"desc": "The request represents the original authorization for the medication request.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$original-order",
+		"ident": 3,
+		"order": 4,
+		"desc": "The request represents an automatically generated supplemental authorization for action based on a parent authorization together with initial results of the action taken against that parent authorization..",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$reflex-order",
+		"ident": 4,
+		"order": 5,
+		"desc": "The request represents the view of an authorization instantiated by a fulfilling system representing the details of the fulfiller's intention to act upon a submitted order.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$filler-order",
+		"ident": 5,
+		"order": 6,
+		"desc": "The request represents an instance for the particular order, for example a medication administration record.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$instance-order",
+		"ident": 6,
+		"order": 7,
+		"desc": "The request represents a component or option for a RequestGroup that establishes timing, conditionality and/or  other constraints among a set of requests.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$option",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

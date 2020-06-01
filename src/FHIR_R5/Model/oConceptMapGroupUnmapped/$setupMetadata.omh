@@ -1,0 +1,5 @@
+Do inherited
+Do pElements.$add("mode","mode",1,"1",21,"code")
+Do pElements.$add("code","code",0,"1",21,"code")
+Do pElements.$add("display","display",0,"1",21,"string")
+Do pElements.$add("url","url",0,"1",21,"canonical")

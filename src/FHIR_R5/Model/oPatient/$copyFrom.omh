@@ -1,0 +1,51 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate active as pValue.$active()
+Do name.$clear()
+Calculate list as pValue.$name()
+Do name.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do telecom.$clear()
+Calculate list as pValue.$telecom()
+Do telecom.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate gender as pValue.$gender()
+Calculate birthDate as pValue.$birthDate()
+Do address.$clear()
+Calculate list as pValue.$address()
+Do address.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate maritalStatus as pValue.$maritalStatus()
+Do photo.$clear()
+Calculate list as pValue.$photo()
+Do photo.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do contact.$clear()
+Calculate list as pValue.$contact()
+Do contact.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do communication.$clear()
+Calculate list as pValue.$communication()
+Do communication.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do generalPractitioner.$clear()
+Calculate list as pValue.$generalPractitioner()
+Do generalPractitioner.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate managingOrganization as pValue.$managingOrganization()
+Do link.$clear()
+Calculate list as pValue.$link()
+Do link.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

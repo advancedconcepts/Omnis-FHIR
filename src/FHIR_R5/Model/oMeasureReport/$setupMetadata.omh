@@ -1,0 +1,12 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"-1",38,"Identifier")
+Do pElements.$add("status","status",1,"1",21,"code")
+Do pElements.$add("type","::type",1,"1",21,"code")
+Do pElements.$add("measure","measure",1,"1",21,"canonical")
+Do pElements.$add("subject","subject",0,"1",38,"Reference")
+Do pElements.$add("date","date",0,"1",23,"dateTime")
+Do pElements.$add("reporter","reporter",0,"1",38,"Reference")
+Do pElements.$add("period","period",1,"1",38,"Period")
+Do pElements.$add("improvementNotation","improvementNotation",0,"1",38,"CodeableConcept")
+Do pElements.$add("group","group",0,"-1",38,"")
+Do pElements.$add("evaluatedResource","evaluatedResource",0,"-1",38,"Reference")

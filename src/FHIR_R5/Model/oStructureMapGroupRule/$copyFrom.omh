@@ -1,0 +1,18 @@
+Do inherited
+Calculate name as pValue.$name()
+Do source.$clear()
+Calculate list as pValue.$source()
+Do source.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do target.$clear()
+Calculate list as pValue.$target()
+Do target.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do dependent.$clear()
+Calculate list as pValue.$dependent()
+Do dependent.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate documentation as pValue.$documentation()

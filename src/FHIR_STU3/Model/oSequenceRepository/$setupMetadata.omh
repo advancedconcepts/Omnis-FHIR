@@ -1,0 +1,7 @@
+Do inherited
+Do pElements.$add("type","::type",1,"1",21,"code")
+Do pElements.$add("url","url",0,"1",21,"uri")
+Do pElements.$add("name","::name",0,"1",21,"string")
+Do pElements.$add("datasetId","datasetId",0,"1",21,"string")
+Do pElements.$add("variantsetId","variantsetId",0,"1",21,"string")
+Do pElements.$add("readsetId","readsetId",0,"1",21,"string")

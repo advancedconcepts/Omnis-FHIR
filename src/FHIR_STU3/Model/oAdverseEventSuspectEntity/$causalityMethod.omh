@@ -1,0 +1,4 @@
+If causalityMethod.$validref()=kFalse
+	Calculate causalityMethod as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method causalityMethod

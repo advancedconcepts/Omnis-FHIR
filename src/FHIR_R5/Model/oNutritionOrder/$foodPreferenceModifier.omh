@@ -1,0 +1,4 @@
+If foodPreferenceModifier.$validref()=kFalse
+	Calculate foodPreferenceModifier as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method foodPreferenceModifier

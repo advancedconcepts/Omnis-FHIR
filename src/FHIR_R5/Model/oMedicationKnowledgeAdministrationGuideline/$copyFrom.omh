@@ -1,0 +1,11 @@
+Do inherited
+Do dosage.$clear()
+Calculate list as pValue.$dosage()
+Do dosage.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do patientCharacteristic.$clear()
+Calculate list as pValue.$patientCharacteristic()
+Do patientCharacteristic.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

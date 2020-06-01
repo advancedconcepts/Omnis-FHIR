@@ -1,0 +1,8 @@
+Do inherited
+Calculate active as pValue.$active()
+Calculate author as pValue.$author()
+Do item.$clear()
+Calculate list as pValue.$item()
+Do item.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

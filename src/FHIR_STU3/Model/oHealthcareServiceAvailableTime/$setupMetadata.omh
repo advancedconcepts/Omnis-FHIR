@@ -1,0 +1,5 @@
+Do inherited
+Do pElements.$add("daysOfWeek","daysOfWeek",0,"-1",21,"code")
+Do pElements.$add("allDay","allDay",0,"1",22,"boolean")
+Do pElements.$add("availableStartTime","availableStartTime",0,"1",23,"time")
+Do pElements.$add("availableEndTime","availableEndTime",0,"1",23,"time")

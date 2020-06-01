@@ -1,0 +1,4 @@
+If exception.$validref()=kFalse
+	Calculate exception as $clib.$classes.oCoverageCostToBeneficiaryException.$newref()
+End If
+Quit method exception

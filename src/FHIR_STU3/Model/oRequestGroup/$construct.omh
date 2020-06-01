@@ -1,0 +1,7 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do definition.$define(definition_)
+Do basedOn.$define(basedOn_)
+Do replaces.$define(replaces_)
+Do note.$define(note_)
+Do action.$define(action_)

@@ -1,0 +1,4 @@
+If template.$validref()=kFalse
+	Calculate template as $clib.$classes.oImplementationGuideDefinitionTemplate.$newref()
+End If
+Quit method template

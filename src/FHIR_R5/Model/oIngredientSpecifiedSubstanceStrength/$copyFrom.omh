@@ -1,0 +1,16 @@
+Do inherited
+Calculate presentation as pValue.$presentation()
+Calculate presentationHighLimit as pValue.$presentationHighLimit()
+Calculate concentration as pValue.$concentration()
+Calculate concentrationHighLimit as pValue.$concentrationHighLimit()
+Calculate measurementPoint as pValue.$measurementPoint()
+Do country.$clear()
+Calculate list as pValue.$country()
+Do country.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do referenceStrength.$clear()
+Calculate list as pValue.$referenceStrength()
+Do referenceStrength.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

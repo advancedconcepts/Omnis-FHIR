@@ -1,0 +1,6 @@
+Do inherited
+Calculate sequence as pValue.$sequence()
+Calculate focal as pValue.$focal()
+Calculate coverage as pValue.$coverage()
+Calculate businessArrangement as pValue.$businessArrangement()
+Calculate claimResponse as pValue.$claimResponse()

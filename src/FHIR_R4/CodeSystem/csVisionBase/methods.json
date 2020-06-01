@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$up",
+		"ident": 0,
+		"order": 1,
+		"desc": "bottom.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$down",
+		"ident": 1,
+		"order": 2,
+		"desc": "inner edge.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$in",
+		"ident": 2,
+		"order": 3,
+		"desc": "outer edge.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$out",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,7 @@
+Do inherited
+Do pElements.$add("type","::type",1,"1",21,"code")
+Do pElements.$add("display","display",0,"1",21,"string")
+Do pElements.$add("citation","citation",0,"1",21,"string")
+Do pElements.$add("url","url",0,"1",21,"uri")
+Do pElements.$add("document","document",0,"1",38,"Attachment")
+Do pElements.$add("resource","resource",0,"1",38,"Reference")

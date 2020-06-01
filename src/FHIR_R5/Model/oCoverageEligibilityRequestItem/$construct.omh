@@ -1,0 +1,5 @@
+Do inherited
+Do supportingInfoSequence.$define(supportingInfoSequence_)
+Do modifier.$define(modifier_)
+Do diagnosis.$define(diagnosis_)
+Do detail.$define(detail_)

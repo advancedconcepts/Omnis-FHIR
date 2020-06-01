@@ -1,0 +1,5 @@
+Do inherited
+Do pElements.$add("purpose","purpose",0,"1",38,"CodeableConcept")
+Do pElements.$add("name","::name",0,"1",38,"HumanName")
+Do pElements.$add("telecom","telecom",0,"-1",38,"ContactPoint")
+Do pElements.$add("address","address",0,"1",38,"Address")

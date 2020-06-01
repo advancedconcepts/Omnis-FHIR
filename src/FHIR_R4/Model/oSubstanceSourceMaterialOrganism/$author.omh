@@ -1,0 +1,4 @@
+If author.$validref()=kFalse
+	Calculate author as $clib.$classes.oSubstanceSourceMaterialOrganismAuthor.$newref()
+End If
+Quit method author

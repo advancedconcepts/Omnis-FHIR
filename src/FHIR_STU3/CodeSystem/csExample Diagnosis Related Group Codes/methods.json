@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$100",
+		"ident": 0,
+		"order": 1,
+		"desc": "Appendectomy without rupture or other complications.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$101",
+		"ident": 1,
+		"order": 2,
+		"desc": "Emergency department treatment of a tooth abcess.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$300",
+		"ident": 2,
+		"order": 3,
+		"desc": "Head trauma - concussion.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$400",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

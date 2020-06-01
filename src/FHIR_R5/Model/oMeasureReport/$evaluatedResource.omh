@@ -1,0 +1,4 @@
+If evaluatedResource.$validref()=kFalse
+	Calculate evaluatedResource as $clib.$classes.oReference.$newref()
+End If
+Quit method evaluatedResource

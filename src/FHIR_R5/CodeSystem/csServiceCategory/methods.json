@@ -1,0 +1,457 @@
+[
+	{
+		"name": "$1",
+		"ident": 0,
+		"order": 1,
+		"desc": "Aged Care",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$2",
+		"ident": 1,
+		"order": 2,
+		"desc": "Allied Health",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$34",
+		"ident": 2,
+		"order": 3,
+		"desc": "Alternative & Complementary Therapies",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$3",
+		"ident": 3,
+		"order": 4,
+		"desc": "Child Care and/or Kindergarten",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$4",
+		"ident": 4,
+		"order": 5,
+		"desc": "Child Development",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$5",
+		"ident": 5,
+		"order": 6,
+		"desc": "Child Protection & Family Services",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$6",
+		"ident": 6,
+		"order": 7,
+		"desc": "Community Health Care",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$7",
+		"ident": 7,
+		"order": 8,
+		"desc": "Counselling",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$8",
+		"ident": 8,
+		"order": 9,
+		"desc": "Crisis Line (GPAH use only)",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$36",
+		"ident": 9,
+		"order": 10,
+		"desc": "Death Services",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$9",
+		"ident": 10,
+		"order": 11,
+		"desc": "Dental",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$10",
+		"ident": 11,
+		"order": 12,
+		"desc": "Disability Support",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$11",
+		"ident": 12,
+		"order": 13,
+		"desc": "Drug/Alcohol",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$12",
+		"ident": 13,
+		"order": 14,
+		"desc": "Education & Learning",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$13",
+		"ident": 14,
+		"order": 15,
+		"desc": "Emergency Department",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$14",
+		"ident": 15,
+		"order": 16,
+		"desc": "Employment",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$15",
+		"ident": 16,
+		"order": 17,
+		"desc": "Financial & Material aid",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$16",
+		"ident": 17,
+		"order": 18,
+		"desc": "General Practice/GP (doctor)",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$17",
+		"ident": 18,
+		"order": 19,
+		"desc": "Hospital",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$35",
+		"ident": 19,
+		"order": 20,
+		"desc": "Housing/Homelessness",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$18",
+		"ident": 20,
+		"order": 21,
+		"desc": "Interpreting",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$19",
+		"ident": 21,
+		"order": 22,
+		"desc": "Justice",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$20",
+		"ident": 22,
+		"order": 23,
+		"desc": "Legal",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$21",
+		"ident": 23,
+		"order": 24,
+		"desc": "Mental Health",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$22",
+		"ident": 24,
+		"order": 25,
+		"desc": "NDIA",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$38",
+		"ident": 25,
+		"order": 26,
+		"desc": "Physical Activity & Recreation",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$23",
+		"ident": 26,
+		"order": 27,
+		"desc": "Regulation",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$24",
+		"ident": 27,
+		"order": 28,
+		"desc": "Respite/Carer Support",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$25",
+		"ident": 28,
+		"order": 29,
+		"desc": "Specialist Clinical Pathology - requires referral",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$26",
+		"ident": 29,
+		"order": 30,
+		"desc": "Specialist Medical - requires referral",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$27",
+		"ident": 30,
+		"order": 31,
+		"desc": "Specialist Obstetrics & Gynecology - requires referral",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$28",
+		"ident": 31,
+		"order": 32,
+		"desc": "Specialist Paediatric - requires referral",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$29",
+		"ident": 32,
+		"order": 33,
+		"desc": "Specialist Radiology/Imaging - requires referral",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$30",
+		"ident": 33,
+		"order": 34,
+		"desc": "Specialist Surgical - requires referral",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$31",
+		"ident": 34,
+		"order": 35,
+		"desc": "Support group/s",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$32",
+		"ident": 35,
+		"order": 36,
+		"desc": "Test Message (HSD admin use only)",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$37",
+		"ident": 36,
+		"order": 37,
+		"desc": "Transport",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$33",
+		"ident": 37,
+		"order": 38,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

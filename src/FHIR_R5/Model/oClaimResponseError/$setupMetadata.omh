@@ -1,0 +1,5 @@
+Do inherited
+Do pElements.$add("itemSequence","itemSequence",0,"1",26,"positiveInt")
+Do pElements.$add("detailSequence","detailSequence",0,"1",26,"positiveInt")
+Do pElements.$add("subDetailSequence","subDetailSequence",0,"1",26,"positiveInt")
+Do pElements.$add("code","code",1,"1",38,"CodeableConcept")

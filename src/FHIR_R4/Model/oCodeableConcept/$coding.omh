@@ -1,0 +1,4 @@
+If coding.$validref()=kFalse
+	Calculate coding as $clib.$classes.oCoding.$newref()
+End If
+Quit method coding

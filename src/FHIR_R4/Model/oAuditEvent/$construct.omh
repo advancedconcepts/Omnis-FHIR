@@ -1,0 +1,5 @@
+Do inherited
+Do subtype.$define(subtype_)
+Do purposeOfEvent.$define(purposeOfEvent_)
+Do agent.$define(agent_)
+Do entity.$define(entity_)

@@ -1,0 +1,11 @@
+Do inherited
+Do pElements.$add("type","::type",1,"1",21,"code")
+Do pElements.$add("period","period",0,"1",38,"Period")
+Do pElements.$add("actor","actor",0,"-1",38,"")
+Do pElements.$add("action","action",0,"-1",38,"CodeableConcept")
+Do pElements.$add("securityLabel","securityLabel",0,"-1",38,"Coding")
+Do pElements.$add("purpose","purpose",0,"-1",38,"Coding")
+Do pElements.$add("class","class",0,"-1",38,"Coding")
+Do pElements.$add("code","code",0,"-1",38,"Coding")
+Do pElements.$add("dataPeriod","dataPeriod",0,"1",38,"Period")
+Do pElements.$add("data","data",0,"-1",38,"")

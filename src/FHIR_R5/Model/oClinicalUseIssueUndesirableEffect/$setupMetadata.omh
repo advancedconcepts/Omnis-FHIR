@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("symptomConditionEffect","symptomConditionEffect",0,"1",38,"CodeableConcept")
+Do pElements.$add("classification","classification",0,"1",38,"CodeableConcept")
+Do pElements.$add("frequencyOfOccurrence","frequencyOfOccurrence",0,"1",38,"CodeableConcept")

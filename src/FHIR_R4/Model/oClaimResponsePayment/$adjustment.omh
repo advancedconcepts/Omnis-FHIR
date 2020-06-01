@@ -1,0 +1,4 @@
+If adjustment.$validref()=kFalse
+	Calculate adjustment as $clib.$classes.oMoney.$newref()
+End If
+Quit method adjustment

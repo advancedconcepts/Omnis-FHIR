@@ -1,0 +1,8 @@
+Do inherited
+Calculate initialFill as pValue.$initialFill()
+Calculate dispenseInterval as pValue.$dispenseInterval()
+Calculate validityPeriod as pValue.$validityPeriod()
+Calculate numberOfRepeatsAllowed as pValue.$numberOfRepeatsAllowed()
+Calculate quantity as pValue.$quantity()
+Calculate expectedSupplyDuration as pValue.$expectedSupplyDuration()
+Calculate performer as pValue.$performer()

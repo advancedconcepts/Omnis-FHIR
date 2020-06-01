@@ -1,0 +1,735 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$doNotPerform",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: True if the term prohibits the  action.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$doNotPerform.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "True if the term prohibits the  action."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: Activity or service obligation to be done or not done, performed or not performed, effectuated or not by this Contract term.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Activity or service obligation to be done or not done, performed or not performed, effectuated or not by this Contract term."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subject",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: Entity of the action.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addsubject",
+		"ident": 9,
+		"order": 10,
+		"desc": "Entity of the action.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oContractTermActionSubject",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oContractTermActionSubject",
+				"sublen": 0,
+				"desc": "Entity of the action."
+			}
+		]
+	},
+	{
+		"name": "$intent",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: Reason or purpose for the action stipulated by this Contract Provision.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$intent.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Reason or purpose for the action stipulated by this Contract Provision."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$linkId",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: Id [identifier??] of the clause or question text related to this action in the referenced form or QuestionnaireResponse.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addlinkId",
+		"ident": 13,
+		"order": 14,
+		"desc": "Id [identifier??] of the clause or question text related to this action in the referenced form or QuestionnaireResponse.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Id [identifier??] of the clause or question text related to this action in the referenced form or QuestionnaireResponse."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$status",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: Current state of the term action.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$status.$assign",
+		"ident": 15,
+		"order": 16,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Current state of the term action."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$context",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: Encounter or Episode with primary association to specified term activity.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$context.$assign",
+		"ident": 17,
+		"order": 18,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Encounter or Episode with primary association to specified term activity."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$contextLinkId",
+		"ident": 18,
+		"order": 19,
+		"desc": "Returns: Id [identifier??] of the clause or question text related to the requester of this action in the referenced form or QuestionnaireResponse.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcontextLinkId",
+		"ident": 19,
+		"order": 20,
+		"desc": "Id [identifier??] of the clause or question text related to the requester of this action in the referenced form or QuestionnaireResponse.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Id [identifier??] of the clause or question text related to the requester of this action in the referenced form or QuestionnaireResponse."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$requester",
+		"ident": 20,
+		"order": 21,
+		"desc": "Returns: Who or what initiated the action and has responsibility for its activation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addrequester",
+		"ident": 21,
+		"order": 22,
+		"desc": "Who or what initiated the action and has responsibility for its activation.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Who or what initiated the action and has responsibility for its activation."
+			}
+		]
+	},
+	{
+		"name": "$requesterLinkId",
+		"ident": 22,
+		"order": 23,
+		"desc": "Returns: Id [identifier??] of the clause or question text related to the requester of this action in the referenced form or QuestionnaireResponse.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addrequesterLinkId",
+		"ident": 23,
+		"order": 24,
+		"desc": "Id [identifier??] of the clause or question text related to the requester of this action in the referenced form or QuestionnaireResponse.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Id [identifier??] of the clause or question text related to the requester of this action in the referenced form or QuestionnaireResponse."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$performerType",
+		"ident": 24,
+		"order": 25,
+		"desc": "Returns: The type of individual that is desired or required to perform or not perform the action.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addperformerType",
+		"ident": 25,
+		"order": 26,
+		"desc": "The type of individual that is desired or required to perform or not perform the action.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "The type of individual that is desired or required to perform or not perform the action."
+			}
+		]
+	},
+	{
+		"name": "$performerRole",
+		"ident": 26,
+		"order": 27,
+		"desc": "Returns: The type of role or competency of an individual desired or required to perform or not perform the action.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$performerRole.$assign",
+		"ident": 27,
+		"order": 28,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The type of role or competency of an individual desired or required to perform or not perform the action."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$performer",
+		"ident": 28,
+		"order": 29,
+		"desc": "Returns: Indicates who or what is being asked to perform (or not perform) the ction.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$performer.$assign",
+		"ident": 29,
+		"order": 30,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Indicates who or what is being asked to perform (or not perform) the ction."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$performerLinkId",
+		"ident": 30,
+		"order": 31,
+		"desc": "Returns: Id [identifier??] of the clause or question text related to the reason type or reference of this  action in the referenced form or QuestionnaireResponse.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addperformerLinkId",
+		"ident": 31,
+		"order": 32,
+		"desc": "Id [identifier??] of the clause or question text related to the reason type or reference of this  action in the referenced form or QuestionnaireResponse.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Id [identifier??] of the clause or question text related to the reason type or reference of this  action in the referenced form or QuestionnaireResponse."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$reasonCode",
+		"ident": 32,
+		"order": 33,
+		"desc": "Returns: Rationale for the action to be performed or not performed. Describes why the action is permitted or prohibited.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addreasonCode",
+		"ident": 33,
+		"order": 34,
+		"desc": "Rationale for the action to be performed or not performed. Describes why the action is permitted or prohibited.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Rationale for the action to be performed or not performed. Describes why the action is permitted or prohibited."
+			}
+		]
+	},
+	{
+		"name": "$reasonReference",
+		"ident": 34,
+		"order": 35,
+		"desc": "Returns: Indicates another resource whose existence justifies permitting or not permitting this action.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addreasonReference",
+		"ident": 35,
+		"order": 36,
+		"desc": "Indicates another resource whose existence justifies permitting or not permitting this action.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Indicates another resource whose existence justifies permitting or not permitting this action."
+			}
+		]
+	},
+	{
+		"name": "$reason",
+		"ident": 36,
+		"order": 37,
+		"desc": "Returns: Describes why the action is to be performed or not performed in textual form.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addreason",
+		"ident": 37,
+		"order": 38,
+		"desc": "Describes why the action is to be performed or not performed in textual form.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Describes why the action is to be performed or not performed in textual form."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$reasonLinkId",
+		"ident": 38,
+		"order": 39,
+		"desc": "Returns: Id [identifier??] of the clause or question text related to the reason type or reference of this  action in the referenced form or QuestionnaireResponse.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addreasonLinkId",
+		"ident": 39,
+		"order": 40,
+		"desc": "Id [identifier??] of the clause or question text related to the reason type or reference of this  action in the referenced form or QuestionnaireResponse.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Id [identifier??] of the clause or question text related to the reason type or reference of this  action in the referenced form or QuestionnaireResponse."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$note",
+		"ident": 40,
+		"order": 41,
+		"desc": "Returns: Comments made about the term action made by the requester, performer, subject or other participants.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addnote",
+		"ident": 41,
+		"order": 42,
+		"desc": "Comments made about the term action made by the requester, performer, subject or other participants.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oAnnotation",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oAnnotation",
+				"sublen": 0,
+				"desc": "Comments made about the term action made by the requester, performer, subject or other participants."
+			}
+		]
+	},
+	{
+		"name": "$securityLabelNumber",
+		"ident": 42,
+		"order": 43,
+		"desc": "Returns: Security labels that protects the action.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addsecurityLabelNumber",
+		"ident": 43,
+		"order": 44,
+		"desc": "Security labels that protects the action.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Security labels that protects the action."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

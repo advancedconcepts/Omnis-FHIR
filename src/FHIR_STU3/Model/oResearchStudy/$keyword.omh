@@ -1,0 +1,4 @@
+If keyword.$validref()=kFalse
+	Calculate keyword as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method keyword

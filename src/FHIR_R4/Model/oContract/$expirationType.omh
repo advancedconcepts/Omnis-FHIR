@@ -1,0 +1,4 @@
+If expirationType.$validref()=kFalse
+	Calculate expirationType as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method expirationType

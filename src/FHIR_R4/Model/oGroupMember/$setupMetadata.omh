@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("entity","entity",1,"1",38,"Reference")
+Do pElements.$add("period","period",0,"1",38,"Period")
+Do pElements.$add("inactive","inactive",0,"1",22,"boolean")

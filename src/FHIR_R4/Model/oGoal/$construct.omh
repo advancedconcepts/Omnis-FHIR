@@ -1,0 +1,8 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do category.$define(category_)
+Do target.$define(target_)
+Do addresses.$define(addresses_)
+Do note.$define(note_)
+Do outcomeCode.$define(outcomeCode_)
+Do outcomeReference.$define(outcomeReference_)

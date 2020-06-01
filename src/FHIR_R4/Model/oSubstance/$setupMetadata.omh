@@ -1,0 +1,8 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"-1",38,"Identifier")
+Do pElements.$add("status","status",0,"1",21,"code")
+Do pElements.$add("category","category",0,"-1",38,"CodeableConcept")
+Do pElements.$add("code","code",1,"1",38,"CodeableConcept")
+Do pElements.$add("description","description",0,"1",21,"string")
+Do pElements.$add("instance","instance",0,"-1",38,"")
+Do pElements.$add("ingredient","ingredient",0,"-1",38,"")

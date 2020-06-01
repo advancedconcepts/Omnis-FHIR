@@ -1,0 +1,9 @@
+Do inherited
+Calculate identifier as pValue.$identifier()
+Calculate type as pValue.$type()
+Calculate period as pValue.$period()
+Do specialPrecautionsForStorage.$clear()
+Calculate list as pValue.$specialPrecautionsForStorage()
+Do specialPrecautionsForStorage.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

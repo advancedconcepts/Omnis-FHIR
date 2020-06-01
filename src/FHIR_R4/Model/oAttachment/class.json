@@ -1,0 +1,104 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "contentType",
+			"order": 1,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Identifies the type of the data in the attachment and allows a method to be chosen to interpret or render the data. Includes mime type parameters such as charset where appropriate."
+		},
+		{
+			"name": "creation",
+			"order": 8,
+			"type": "kDate",
+			"subtype": "kDatetime",
+			"sublen": 0,
+			"desc": "The date that the attachment was first created."
+		},
+		{
+			"name": "data",
+			"order": 3,
+			"type": "kBinary",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "The actual data of the attachment - a sequence of bytes, base64 encoded."
+		},
+		{
+			"name": "hash",
+			"order": 6,
+			"type": "kBinary",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "The calculated hash of the data using SHA-1. Represented using base64."
+		},
+		{
+			"name": "language",
+			"order": 2,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The human language of the content. The value can be any valid value according to BCP 47."
+		},
+		{
+			"name": "size",
+			"order": 5,
+			"type": "kInteger",
+			"subtype": "k32bitint",
+			"sublen": 0,
+			"desc": "The number of bytes of data that make up this attachment (before base64 encoding, if that is done)."
+		},
+		{
+			"name": "title",
+			"order": 7,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A label or set of text to display in place of the data."
+		},
+		{
+			"name": "url",
+			"order": 4,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A location where the data can be accessed."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:41:27",
+		"desc": "Base StructureDefinition for Attachment Type: For referring to data content defined in other formats.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:24",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

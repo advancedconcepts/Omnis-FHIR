@@ -1,0 +1,4 @@
+Do inherited
+Calculate property as pValue.$property()
+Calculate op as pValue.$op()
+Calculate value as pValue.$value()

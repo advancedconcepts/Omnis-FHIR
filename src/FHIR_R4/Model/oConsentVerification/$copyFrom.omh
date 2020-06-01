@@ -1,0 +1,4 @@
+Do inherited
+Calculate verified as pValue.$verified()
+Calculate verifiedWith as pValue.$verifiedWith()
+Calculate verificationDate as pValue.$verificationDate()

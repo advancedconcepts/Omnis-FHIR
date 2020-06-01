@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$group",
+		"ident": 0,
+		"order": 1,
+		"desc": "Text for display that will not capture an answer or have child items.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$display",
+		"ident": 1,
+		"order": 2,
+		"desc": "An item that defines a specific answer to be captured, and which may have child items. (the answer provided in the QuestionnaireResponse should be of the defined datatype).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$question",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

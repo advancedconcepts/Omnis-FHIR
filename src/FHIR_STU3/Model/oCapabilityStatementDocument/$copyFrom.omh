@@ -1,0 +1,4 @@
+Do inherited
+Calculate mode as pValue.$mode()
+Calculate documentation as pValue.$documentation()
+Calculate profile as pValue.$profile()

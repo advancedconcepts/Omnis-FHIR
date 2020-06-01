@@ -1,0 +1,29 @@
+Calculate url as pResource.url
+
+;  #  pResource.kind='complex-type'
+Calculate resourceId as pResource.id
+Calculate resourcetype as pResource.type
+Calculate resourcederivation as pResource.derivation
+
+Calculate omnistype as con(cFHIRTypePrefix,resourceId)
+Calculate base as pResource.baseDefinition
+
+If iURL2Types.$search($ref.iURL=url,kTrue,kFalse,kFalse,kFalse)
+	Calculate iURL2Types.iOmnisType as omnistype
+Else
+	Breakpoint
+End If
+
+Calculate tablename as con(cFHIRTypePrefix,resourceId)
+Do method createClass (tablename,base,pResource.description) Returns table
+
+Do table.$methods.$add('$resourceType') Returns methodref
+Calculate methodref.$desc as con('Returns the FHIR type name for this instance')
+Do methodref.$methodlines.$add(con('Quit method "',resourceId,'"'))
+
+;  # if it is a true spezialication then we need to process the elements, otherwise not
+If resourcederivation<>'constraint'
+	Calculate elements as pResource.differential.element
+	Calculate elecol as 1
+	Do method addElements (table,resourceId,elements,elecol,resourceId)
+End If

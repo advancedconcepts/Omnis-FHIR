@@ -1,0 +1,10 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do name.$define(name_)
+Do telecom.$define(telecom_)
+Do address.$define(address_)
+Do photo.$define(photo_)
+Do contact.$define(contact_)
+Do communication.$define(communication_)
+Do generalPractitioner.$define(generalPractitioner_)
+Do link.$define(link_)

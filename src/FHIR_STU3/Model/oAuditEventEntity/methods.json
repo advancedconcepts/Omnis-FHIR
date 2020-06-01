@@ -1,0 +1,390 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$identifier",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: Identifies a specific instance of the entity. The reference should always be version specific.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$identifier.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Identifies a specific instance of the entity. The reference should always be version specific."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$reference",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: Identifies a specific instance of the entity. The reference should be version specific.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$reference.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Identifies a specific instance of the entity. The reference should be version specific."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: The type of the object that was involved in this audit event.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCoding",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The type of the object that was involved in this audit event."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$role",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: Code representing the role the entity played in the event being audited.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$role.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCoding",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Code representing the role the entity played in the event being audited."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$lifecycle",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: Identifier for the data life-cycle stage for the entity.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$lifecycle.$assign",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCoding",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Identifier for the data life-cycle stage for the entity."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$securityLabel",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: Security labels for the identified entity.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addsecurityLabel",
+		"ident": 15,
+		"order": 16,
+		"desc": "Security labels for the identified entity.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCoding",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCoding",
+				"sublen": 0,
+				"desc": "Security labels for the identified entity."
+			}
+		]
+	},
+	{
+		"name": "$::name",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: A name of the entity in the audit event.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::name.$assign",
+		"ident": 17,
+		"order": 18,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A name of the entity in the audit event."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$description",
+		"ident": 18,
+		"order": 19,
+		"desc": "Returns: Text that describes the entity in more detail.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$description.$assign",
+		"ident": 19,
+		"order": 20,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Text that describes the entity in more detail."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$query",
+		"ident": 20,
+		"order": 21,
+		"desc": "Returns: The query parameters for a query-type entities.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$query.$assign",
+		"ident": 21,
+		"order": 22,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBinary",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "The query parameters for a query-type entities."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$detail",
+		"ident": 22,
+		"order": 23,
+		"desc": "Returns: Tagged value pairs for conveying additional information about the entity.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$adddetail",
+		"ident": 23,
+		"order": 24,
+		"desc": "Tagged value pairs for conveying additional information about the entity.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oAuditEventEntityDetail",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oAuditEventEntityDetail",
+				"sublen": 0,
+				"desc": "Tagged value pairs for conveying additional information about the entity."
+			}
+		]
+	}
+]

@@ -1,0 +1,7 @@
+Do inherited
+Do pElements.$add("method","method",1,"1",21,"code")
+Do pElements.$add("url","url",1,"1",21,"uri")
+Do pElements.$add("ifNoneMatch","ifNoneMatch",0,"1",21,"string")
+Do pElements.$add("ifModifiedSince","ifModifiedSince",0,"1",23,"instant")
+Do pElements.$add("ifMatch","ifMatch",0,"1",21,"string")
+Do pElements.$add("ifNoneExist","ifNoneExist",0,"1",21,"string")

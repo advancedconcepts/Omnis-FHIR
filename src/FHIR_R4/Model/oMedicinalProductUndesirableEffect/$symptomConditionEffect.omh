@@ -1,0 +1,4 @@
+If symptomConditionEffect.$validref()=kFalse
+	Calculate symptomConditionEffect as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method symptomConditionEffect

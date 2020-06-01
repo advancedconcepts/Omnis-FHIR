@@ -1,0 +1,241 @@
+[
+	{
+		"name": "$1101",
+		"ident": 0,
+		"order": 1,
+		"desc": "Exam, comp, mixed",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$1102",
+		"ident": 1,
+		"order": 2,
+		"desc": "Exam, comp, permanent",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$1103",
+		"ident": 2,
+		"order": 3,
+		"desc": "Exam, recall",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$1201",
+		"ident": 3,
+		"order": 4,
+		"desc": "Exam, emergency",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$1205",
+		"ident": 4,
+		"order": 5,
+		"desc": "Radiograph, series (12)",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$2101",
+		"ident": 5,
+		"order": 6,
+		"desc": "Radiograph, series (16)",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$2102",
+		"ident": 6,
+		"order": 7,
+		"desc": "Radiograph, bitewing",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$2141",
+		"ident": 7,
+		"order": 8,
+		"desc": "Radiograph, panoramic",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$2601",
+		"ident": 8,
+		"order": 9,
+		"desc": "Polishing, 1 unit",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$11101",
+		"ident": 9,
+		"order": 10,
+		"desc": "Polishing, 2 unit",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$11102",
+		"ident": 10,
+		"order": 11,
+		"desc": "Polishing, 3 unit",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$11103",
+		"ident": 11,
+		"order": 12,
+		"desc": "Polishing, 4 unit",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$11104",
+		"ident": 12,
+		"order": 13,
+		"desc": "Amalgam, 1 surface",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$21211",
+		"ident": 13,
+		"order": 14,
+		"desc": "Amalgam, 2 surface",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$21212",
+		"ident": 14,
+		"order": 15,
+		"desc": "Crown, PFM",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$27211",
+		"ident": 15,
+		"order": 16,
+		"desc": "Maryland Bridge",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$67211",
+		"ident": 16,
+		"order": 17,
+		"desc": "Lab, commercial",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$99111",
+		"ident": 17,
+		"order": 18,
+		"desc": "Lab, in office",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$99333",
+		"ident": 18,
+		"order": 19,
+		"desc": "Expense",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$99555",
+		"ident": 19,
+		"order": 20,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

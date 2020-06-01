@@ -1,0 +1,6 @@
+Calculate objRef as $clib.$classes.oInvoiceLineItemPriceComponent.$newref()
+Do priceComponent.$add(objRef)
+If pValue.$validref()
+	Do objRef.$copyFrom(pValue)
+End If
+Quit method objRef

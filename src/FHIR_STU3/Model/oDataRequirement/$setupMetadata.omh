@@ -1,0 +1,11 @@
+Do inherited
+Do pElements.$add("type","::type",1,"1",21,"code")
+Do pElements.$add("profile","profile",0,"-1",21,"uri")
+Do pElements.$add("mustSupport","mustSupport",0,"-1",21,"string")
+Do pElements.$add("codeFilter","codeFilter",0,"-1",38,"Element")
+Do pElements.$add("codeFilter.path","codeFilter.path",1,"1",21,"string")
+Do pElements.$add("codeFilter.valueCode","codeFilter.valueCode",0,"-1",21,"code")
+Do pElements.$add("codeFilter.valueCoding","codeFilter.valueCoding",0,"-1",38,"Coding")
+Do pElements.$add("codeFilter.valueCodeableConcept","codeFilter.valueCodeableConcept",0,"-1",38,"CodeableConcept")
+Do pElements.$add("dateFilter","dateFilter",0,"-1",38,"Element")
+Do pElements.$add("dateFilter.path","dateFilter.path",1,"1",21,"string")

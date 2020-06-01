@@ -1,0 +1,61 @@
+[
+	{
+		"name": "$due",
+		"ident": 0,
+		"order": 1,
+		"desc": "The patient is considered overdue for their next vaccination.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$overdue",
+		"ident": 1,
+		"order": 2,
+		"desc": "The patient is immune to the target disease and further immunization against the disease is not likely to provide benefit.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$immune",
+		"ident": 2,
+		"order": 3,
+		"desc": "The patient is contraindicated for futher doses.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$contraindicated",
+		"ident": 3,
+		"order": 4,
+		"desc": "The patient is fully protected and no further doses are recommended.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$complete",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

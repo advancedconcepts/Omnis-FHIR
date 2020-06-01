@@ -1,0 +1,33 @@
+[
+	{
+		"name": "$event",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "patient",
+				"order": 3,
+				"type": "kObjectref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "test",
+				"order": 1,
+				"type": "kObject",
+				"subtype": "TestPatient",
+				"sublen": 0
+			},
+			{
+				"name": "text",
+				"order": 2,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			}
+		]
+	}
+]

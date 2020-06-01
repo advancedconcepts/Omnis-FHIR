@@ -1,0 +1,8 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"1",38,"Identifier")
+Do pElements.$add("effectiveTime","effectiveTime",0,"1",23,"dateTime")
+Do pElements.$add("quantity","quantity",0,"1",38,"Quantity")
+Do pElements.$add("unitPrice","unitPrice",0,"1",38,"Money")
+Do pElements.$add("factor","factor",0,"1",25,"decimal")
+Do pElements.$add("points","points",0,"1",25,"decimal")
+Do pElements.$add("net","net",0,"1",38,"Money")

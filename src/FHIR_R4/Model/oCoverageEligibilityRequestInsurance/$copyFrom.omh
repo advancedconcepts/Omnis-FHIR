@@ -1,0 +1,4 @@
+Do inherited
+Calculate focal as pValue.$focal()
+Calculate coverage as pValue.$coverage()
+Calculate businessArrangement as pValue.$businessArrangement()

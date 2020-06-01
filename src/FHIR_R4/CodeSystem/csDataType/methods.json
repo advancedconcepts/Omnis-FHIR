@@ -1,0 +1,755 @@
+[
+	{
+		"name": "$Address",
+		"ident": 0,
+		"order": 1,
+		"desc": "A duration of time during which an organism (or a process) has existed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Age",
+		"ident": 1,
+		"order": 2,
+		"desc": "A  text note which also  contains information about who made the statement and when.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Annotation",
+		"ident": 2,
+		"order": 3,
+		"desc": "For referring to data content defined in other formats.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Attachment",
+		"ident": 3,
+		"order": 4,
+		"desc": "Base definition for all elements that are defined inside a resource - but not those in a data type.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$BackboneElement",
+		"ident": 4,
+		"order": 5,
+		"desc": "A concept that may be defined by a formal reference to a terminology or ontology or may be provided by text.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CodeableConcept",
+		"ident": 5,
+		"order": 6,
+		"desc": "A reference to a code defined by a terminology system.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Coding",
+		"ident": 6,
+		"order": 7,
+		"desc": "Specifies contact information for a person or organization.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ContactDetail",
+		"ident": 7,
+		"order": 8,
+		"desc": "Details for all kinds of technology mediated contact points for a person or organization, including telephone, email, etc.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ContactPoint",
+		"ident": 8,
+		"order": 9,
+		"desc": "A contributor to the content of a knowledge asset, including authors, editors, reviewers, and endorsers.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Contributor",
+		"ident": 9,
+		"order": 10,
+		"desc": "A measured amount (or an amount that can potentially be measured). Note that measured amounts include amounts that are not precisely quantified, including amounts involving arbitrary units and floating currencies.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Count",
+		"ident": 10,
+		"order": 11,
+		"desc": "Describes a required data item for evaluation in terms of the type of data, and optional code or date-based filters of the data.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$DataRequirement",
+		"ident": 11,
+		"order": 12,
+		"desc": "A length - a value with a unit that is a physical distance.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Distance",
+		"ident": 12,
+		"order": 13,
+		"desc": "Indicates how the medication is/was taken or should be taken by the patient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Dosage",
+		"ident": 13,
+		"order": 14,
+		"desc": "A length of time.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Duration",
+		"ident": 14,
+		"order": 15,
+		"desc": "Base definition for all elements in a resource.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Element",
+		"ident": 15,
+		"order": 16,
+		"desc": "Captures constraints on each element within the resource, profile, or extension.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ElementDefinition",
+		"ident": 16,
+		"order": 17,
+		"desc": "A expression that is evaluated in a specified context and returns a value. The context of use of the expression must specify the context in which the expression is evaluated, and how the result of the expression is used.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Expression",
+		"ident": 17,
+		"order": 18,
+		"desc": "Optional Extension Element - found in all resources.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Extension",
+		"ident": 18,
+		"order": 19,
+		"desc": "A human's name with the ability to identify parts and usage.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$HumanName",
+		"ident": 19,
+		"order": 20,
+		"desc": "An identifier - identifies some entity uniquely and unambiguously. Typically this is used for business identifiers.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Identifier",
+		"ident": 20,
+		"order": 21,
+		"desc": "The marketing status describes the date when a medicinal product is actually put on the market or the date as of which it is no longer available.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MarketingStatus",
+		"ident": 21,
+		"order": 22,
+		"desc": "The metadata about a resource. This is content in the resource that is maintained by the infrastructure. Changes to the content might not always be associated with version changes to the resource.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Meta",
+		"ident": 22,
+		"order": 23,
+		"desc": "An amount of economic utility in some recognized currency.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Money",
+		"ident": 23,
+		"order": 24,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MoneyQuantity",
+		"ident": 24,
+		"order": 25,
+		"desc": "A human-readable summary of the resource conveying the essential clinical and business information for the resource.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Narrative",
+		"ident": 25,
+		"order": 26,
+		"desc": "The parameters to the module. This collection specifies both the input and output parameters. Input parameters are provided by the caller as part of the $evaluate operation. Output parameters are included in the GuidanceResponse.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ParameterDefinition",
+		"ident": 26,
+		"order": 27,
+		"desc": "A time period defined by a start and end date and optionally time.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Period",
+		"ident": 27,
+		"order": 28,
+		"desc": "A populatioof people with some set of grouping criteria.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Population",
+		"ident": 28,
+		"order": 29,
+		"desc": "The marketing status describes the date when a medicinal product is actually put on the market or the date as of which it is no longer available.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ProdCharacteristic",
+		"ident": 29,
+		"order": 30,
+		"desc": "The shelf-life and storage information for a medicinal product item or container can be described using this class.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ProductShelfLife",
+		"ident": 30,
+		"order": 31,
+		"desc": "A measured amount (or an amount that can potentially be measured). Note that measured amounts include amounts that are not precisely quantified, including amounts involving arbitrary units and floating currencies.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Quantity",
+		"ident": 31,
+		"order": 32,
+		"desc": "A set of ordered Quantities defined by a low and high limit.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Range",
+		"ident": 32,
+		"order": 33,
+		"desc": "A relationship of two Quantity values - expressed as a numerator and a denominator.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Ratio",
+		"ident": 33,
+		"order": 34,
+		"desc": "A reference from one resource to another.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Reference",
+		"ident": 34,
+		"order": 35,
+		"desc": "Related artifacts such as additional documentation, justification, or bibliographic references.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$RelatedArtifact",
+		"ident": 35,
+		"order": 36,
+		"desc": "A series of measurements taken by a device, with upper and lower limits. There may be more than one dimension in the data.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$SampledData",
+		"ident": 36,
+		"order": 37,
+		"desc": "A signature along with supporting context. The signature may be a digital signature that is cryptographic in nature, or some other signature acceptable to the domain. This other signature may be as simple as a graphical image representing a hand-written signature, or a signature ceremony Different signature approaches have different utilities.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Signature",
+		"ident": 37,
+		"order": 38,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$SimpleQuantity",
+		"ident": 38,
+		"order": 39,
+		"desc": "Chemical substances are a single substance type whose primary defining element is the molecular structure. Chemical substances shall be defined on the basis of their complete covalent molecular structure; the presence of a salt (counter-ion) and/or solvates (water, alcohols) is also captured. Purity, grade, physical form or particle size are not taken into account in the definition of a chemical substance or in the assignment of a Substance ID.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$SubstanceAmount",
+		"ident": 39,
+		"order": 40,
+		"desc": "Specifies an event that may occur multiple times. Timing schedules are used to record when things are planned, expected or requested to occur. The most common usage is in dosage instructions for medications. They are also used when planning care of various kinds, and may be used for reporting the schedule to which past regular activities were carried out.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Timing",
+		"ident": 40,
+		"order": 41,
+		"desc": "A description of a triggering event. Triggering events can be named events, data events, or periodic, as determined by the type element.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$TriggerDefinition",
+		"ident": 41,
+		"order": 42,
+		"desc": "Specifies clinical/business/etc. metadata that can be used to retrieve, index and/or categorize an artifact. This metadata can either be specific to the applicable population (e.g., age category, DRG) or the specific context of care (e.g., venue, care setting, provider of care).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$UsageContext",
+		"ident": 42,
+		"order": 43,
+		"desc": "A stream of bytes",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$base64Binary",
+		"ident": 43,
+		"order": 44,
+		"desc": "Value of \"true\" or \"false\"",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$boolean",
+		"ident": 44,
+		"order": 45,
+		"desc": "A URI that is a reference to a canonical URL on a FHIR resource",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$canonical",
+		"ident": 45,
+		"order": 46,
+		"desc": "A string which has at least one character and no leading or trailing whitespace and where there is no whitespace other than single spaces in the contents",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$code",
+		"ident": 46,
+		"order": 47,
+		"desc": "A date or partial date (e.g. just year or year + month). There is no time zone. The format is a union of the schema types gYear, gYearMonth and date.  Dates SHALL be valid dates.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$date",
+		"ident": 47,
+		"order": 48,
+		"desc": "A date, date-time or partial date (e.g. just year or year + month).  If hours and minutes are specified, a time zone SHALL be populated. The format is a union of the schema types gYear, gYearMonth, date and dateTime. Seconds must be provided due to schema type constraints but may be zero-filled and may be ignored.                 Dates SHALL be valid dates.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$dateTime",
+		"ident": 48,
+		"order": 49,
+		"desc": "A rational number with implicit precision",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$decimal",
+		"ident": 49,
+		"order": 50,
+		"desc": "Any combination of letters, numerals, \"-\" and \".\", with a length limit of 64 characters.  (This might be an integer, an unprefixed OID, UUID or any other identifier pattern that meets these constraints.)  Ids are case-insensitive.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$id",
+		"ident": 50,
+		"order": 51,
+		"desc": "An instant in time - known at least to the second",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$instant",
+		"ident": 51,
+		"order": 52,
+		"desc": "A whole number",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$integer",
+		"ident": 52,
+		"order": 53,
+		"desc": "A string that may contain Github Flavored Markdown syntax for optional processing by a mark down presentation engine",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$markdown",
+		"ident": 53,
+		"order": 54,
+		"desc": "An OID represented as a URI",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$oid",
+		"ident": 54,
+		"order": 55,
+		"desc": "An integer with a value that is positive (e.g. >0)",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$positiveInt",
+		"ident": 55,
+		"order": 56,
+		"desc": "A sequence of Unicode characters",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$string",
+		"ident": 56,
+		"order": 57,
+		"desc": "A time during the day, with no date specified",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$time",
+		"ident": 57,
+		"order": 58,
+		"desc": "An integer with a value that is not negative (e.g. >= 0)",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unsignedInt",
+		"ident": 58,
+		"order": 59,
+		"desc": "String of characters used to identify a name or a resource",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$uri",
+		"ident": 59,
+		"order": 60,
+		"desc": "A URI that is a literal reference",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$url",
+		"ident": 60,
+		"order": 61,
+		"desc": "A UUID, represented as a URI",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$uuid",
+		"ident": 61,
+		"order": 62,
+		"desc": "XHTML format, as defined by W3C, but restricted usage (mainly, no active content)",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$xhtml",
+		"ident": 62,
+		"order": 63,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

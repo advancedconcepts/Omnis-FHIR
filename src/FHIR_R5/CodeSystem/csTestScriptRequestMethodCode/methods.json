@@ -1,0 +1,85 @@
+[
+	{
+		"name": "$delete",
+		"ident": 0,
+		"order": 1,
+		"desc": "HTTP GET operation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$get",
+		"ident": 1,
+		"order": 2,
+		"desc": "HTTP OPTIONS operation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$options",
+		"ident": 2,
+		"order": 3,
+		"desc": "HTTP PATCH operation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$patch",
+		"ident": 3,
+		"order": 4,
+		"desc": "HTTP POST operation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$post",
+		"ident": 4,
+		"order": 5,
+		"desc": "HTTP PUT operation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$put",
+		"ident": 5,
+		"order": 6,
+		"desc": "HTTP HEAD operation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$head",
+		"ident": 6,
+		"order": 7,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

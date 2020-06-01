@@ -1,0 +1,3 @@
+Do inherited
+Calculate lotNumber as pValue.$lotNumber()
+Calculate expirationDate as pValue.$expirationDate()

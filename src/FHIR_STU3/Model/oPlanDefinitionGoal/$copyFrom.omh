@@ -1,0 +1,20 @@
+Do inherited
+Calculate category as pValue.$category()
+Calculate description as pValue.$description()
+Calculate priority as pValue.$priority()
+Calculate start as pValue.$start()
+Do addresses.$clear()
+Calculate list as pValue.$addresses()
+Do addresses.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do documentation.$clear()
+Calculate list as pValue.$documentation()
+Do documentation.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do target.$clear()
+Calculate list as pValue.$target()
+Do target.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

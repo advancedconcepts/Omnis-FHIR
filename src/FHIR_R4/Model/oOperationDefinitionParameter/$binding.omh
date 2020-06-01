@@ -1,0 +1,4 @@
+If binding.$validref()=kFalse
+	Calculate binding as $clib.$classes.oOperationDefinitionParameterBinding.$newref()
+End If
+Quit method binding

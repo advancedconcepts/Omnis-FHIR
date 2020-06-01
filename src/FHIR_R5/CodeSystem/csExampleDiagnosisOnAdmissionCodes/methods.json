@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$yes",
+		"ident": 0,
+		"order": 1,
+		"desc": "Diagnosis was not present at time of inpatient admission.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$no",
+		"ident": 1,
+		"order": 2,
+		"desc": "Not known if condition was present at the time of inpatient admission.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unknown",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

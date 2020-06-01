@@ -1,0 +1,12 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"-1",38,"Identifier")
+Do pElements.$add("productCategory","productCategory",0,"1",21,"code")
+Do pElements.$add("productCode","productCode",0,"1",38,"CodeableConcept")
+Do pElements.$add("status","status",0,"1",21,"code")
+Do pElements.$add("request","request",0,"-1",38,"Reference")
+Do pElements.$add("quantity","quantity",0,"1",26,"integer")
+Do pElements.$add("parent","parent",0,"-1",38,"Reference")
+Do pElements.$add("collection","collection",0,"1",38,"")
+Do pElements.$add("processing","processing",0,"-1",38,"")
+Do pElements.$add("manipulation","manipulation",0,"1",38,"")
+Do pElements.$add("storage","storage",0,"-1",38,"")

@@ -1,0 +1,402 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$identifier",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: The locally assigned unique identification by the software. For example: handle ID.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$identifier.$assign",
+		"ident": 6,
+		"order": 7,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The locally assigned unique identification by the software. For example: handle ID."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: The component type as defined in the object-oriented or metric nomenclature partition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type.$assign",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The component type as defined in the object-oriented or metric nomenclature partition."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$lastSystemChange",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: The timestamp for the most recent system change which includes device configuration or setting change.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$lastSystemChange.$assign",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kDate",
+				"subtype": "kDatetime",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The timestamp for the most recent system change which includes device configuration or setting change."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$source",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: The link to the source Device that contains administrative device information such as manufacture, serial number, etc.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$source.$assign",
+		"ident": 12,
+		"order": 13,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The link to the source Device that contains administrative device information such as manufacture, serial number, etc."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$parent",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: The link to the parent resource. For example: Channel is linked to its VMD parent.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$parent.$assign",
+		"ident": 14,
+		"order": 15,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The link to the parent resource. For example: Channel is linked to its VMD parent."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$operationalStatus",
+		"ident": 15,
+		"order": 16,
+		"desc": "Returns: The current operational status of the device. For example: On, Off, Standby, etc.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addoperationalStatus",
+		"ident": 16,
+		"order": 17,
+		"desc": "The current operational status of the device. For example: On, Off, Standby, etc.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "The current operational status of the device. For example: On, Off, Standby, etc."
+			}
+		]
+	},
+	{
+		"name": "$parameterGroup",
+		"ident": 17,
+		"order": 18,
+		"desc": "Returns: The parameter group supported by the current device component that is based on some nomenclature, e.g. cardiovascular.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$parameterGroup.$assign",
+		"ident": 18,
+		"order": 19,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The parameter group supported by the current device component that is based on some nomenclature, e.g. cardiovascular."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$measurementPrinciple",
+		"ident": 19,
+		"order": 20,
+		"desc": "Returns: The physical principle of the measurement. For example: thermal, chemical, acoustical, etc.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$measurementPrinciple.$assign",
+		"ident": 20,
+		"order": 21,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The physical principle of the measurement. For example: thermal, chemical, acoustical, etc."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$productionSpecification",
+		"ident": 21,
+		"order": 22,
+		"desc": "Returns: The production specification such as component revision, serial number, etc.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addproductionSpecification",
+		"ident": 22,
+		"order": 23,
+		"desc": "The production specification such as component revision, serial number, etc.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oDeviceComponentProductionSpecification",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oDeviceComponentProductionSpecification",
+				"sublen": 0,
+				"desc": "The production specification such as component revision, serial number, etc."
+			}
+		]
+	},
+	{
+		"name": "$languageCode",
+		"ident": 23,
+		"order": 24,
+		"desc": "Returns: The language code for the human-readable text string produced by the device. This language code will follow the IETF language tag. Example: en-US.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$languageCode.$assign",
+		"ident": 24,
+		"order": 25,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The language code for the human-readable text string produced by the device. This language code will follow the IETF language tag. Example: en-US."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

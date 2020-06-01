@@ -1,0 +1,8 @@
+Do inherited
+Do pElements.$add("who","who",0,"1",38,"Reference")
+Do pElements.$add("type","::type",0,"-1",38,"CodeableConcept")
+Do pElements.$add("communicationMethod","communicationMethod",0,"-1",38,"CodeableConcept")
+Do pElements.$add("validationStatus","validationStatus",0,"1",38,"CodeableConcept")
+Do pElements.$add("validationDate","validationDate",0,"1",23,"dateTime")
+Do pElements.$add("canPushUpdates","canPushUpdates",0,"1",38,"CodeableConcept")
+Do pElements.$add("pushTypeAvailable","pushTypeAvailable",0,"-1",38,"CodeableConcept")

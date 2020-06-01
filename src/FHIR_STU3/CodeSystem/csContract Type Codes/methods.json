@@ -1,0 +1,61 @@
+[
+	{
+		"name": "$privacy",
+		"ident": 0,
+		"order": 1,
+		"desc": "Information disclosure policy.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$disclosure",
+		"ident": 1,
+		"order": 2,
+		"desc": "Health Insurance policy.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$healthinsurance",
+		"ident": 2,
+		"order": 3,
+		"desc": "Contract to supply goods or services.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$supply",
+		"ident": 3,
+		"order": 4,
+		"desc": "Consent Directive.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$consent",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

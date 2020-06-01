@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$statutory",
+		"ident": 0,
+		"order": 1,
+		"desc": "Execution of the term in the contract is conditional on the execution of other actions.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subject-to",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

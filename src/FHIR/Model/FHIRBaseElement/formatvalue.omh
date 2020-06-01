@@ -1,0 +1,6 @@
+If pType=kDate
+	Calculate value as jst(pValue,'D:y-M-D')
+	Quit method value
+Else
+	Quit method pValue
+End If

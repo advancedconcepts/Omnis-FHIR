@@ -1,0 +1,8 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do category.$define(category_)
+Do participant.$define(participant_)
+Do reasonCode.$define(reasonCode_)
+Do reasonReference.$define(reasonReference_)
+Do managingOrganization.$define(managingOrganization_)
+Do note.$define(note_)

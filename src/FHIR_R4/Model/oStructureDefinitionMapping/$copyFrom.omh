@@ -1,0 +1,5 @@
+Do inherited
+Calculate identity as pValue.$identity()
+Calculate uri as pValue.$uri()
+Calculate name as pValue.$name()
+Calculate comment as pValue.$comment()

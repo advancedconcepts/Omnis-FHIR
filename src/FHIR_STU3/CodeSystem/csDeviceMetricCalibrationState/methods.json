@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$not-calibrated",
+		"ident": 0,
+		"order": 1,
+		"desc": "The metric needs to be calibrated.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$calibration-required",
+		"ident": 1,
+		"order": 2,
+		"desc": "The metric has been calibrated.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$calibrated",
+		"ident": 2,
+		"order": 3,
+		"desc": "The state of calibration of this metric is unspecified.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unspecified",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

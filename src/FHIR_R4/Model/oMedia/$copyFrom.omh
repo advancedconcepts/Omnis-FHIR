@@ -1,0 +1,42 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do basedOn.$clear()
+Calculate list as pValue.$basedOn()
+Do basedOn.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do partOf.$clear()
+Calculate list as pValue.$partOf()
+Do partOf.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate status as pValue.$status()
+Calculate type as pValue.$type()
+Calculate modality as pValue.$modality()
+Calculate view as pValue.$view()
+Calculate subject as pValue.$subject()
+Calculate encounter as pValue.$encounter()
+Calculate issued as pValue.$issued()
+Calculate operator as pValue.$operator()
+Do reasonCode.$clear()
+Calculate list as pValue.$reasonCode()
+Do reasonCode.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate bodySite as pValue.$bodySite()
+Calculate deviceName as pValue.$deviceName()
+Calculate device as pValue.$device()
+Calculate height as pValue.$height()
+Calculate width as pValue.$width()
+Calculate frames as pValue.$frames()
+Calculate duration as pValue.$duration()
+Calculate content as pValue.$content()
+Do note.$clear()
+Calculate list as pValue.$note()
+Do note.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

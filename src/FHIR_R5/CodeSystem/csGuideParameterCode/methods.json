@@ -1,0 +1,121 @@
+[
+	{
+		"name": "$apply",
+		"ident": 0,
+		"order": 1,
+		"desc": "The value of this string 0..* parameter is a subfolder of the build context's location that is to be scanned to load resources. Scope is (if present) a particular resource type.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$path-resource",
+		"ident": 1,
+		"order": 2,
+		"desc": "The value of this string 0..1 parameter is a subfolder of the build context's location that contains files that are part of the html content processed by the builder.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$path-pages",
+		"ident": 2,
+		"order": 3,
+		"desc": "The value of this string 0..1 parameter is a subfolder of the build context's location that is used as the terminology cache. If this is not present, the terminology cache is on the local system, not under version control.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$path-tx-cache",
+		"ident": 3,
+		"order": 4,
+		"desc": "The value of this string 0..* parameter is a parameter (name=value) when expanding value sets for this implementation guide. This is particularly used to specify the versions of published terminologies such as SNOMED CT.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$expansion-parameter",
+		"ident": 4,
+		"order": 5,
+		"desc": "The value of this string 0..1 parameter is either \"warning\" or \"error\" (default = \"error\"). If the value is \"warning\" then IG build tools allow the IG to be considered successfully build even when there is no internal broken links.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$rule-broken-links",
+		"ident": 5,
+		"order": 6,
+		"desc": "The value of this boolean 0..1 parameter specifies whether the IG publisher creates examples in XML format. If not present, the Publication Tool decides whether to generate XML.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$generate-xml",
+		"ident": 6,
+		"order": 7,
+		"desc": "The value of this boolean 0..1 parameter specifies whether the IG publisher creates examples in JSON format. If not present, the Publication Tool decides whether to generate JSON.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$generate-json",
+		"ident": 7,
+		"order": 8,
+		"desc": "The value of this boolean 0..1 parameter specifies whether the IG publisher creates examples in Turtle format. If not present, the Publication Tool decides whether to generate Turtle.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$generate-turtle",
+		"ident": 8,
+		"order": 9,
+		"desc": "The value of this string singleton parameter is the name of the file to use as the builder template for each generated page (see templating).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$html-template",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

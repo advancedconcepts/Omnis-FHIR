@@ -1,0 +1,8 @@
+Do inherited
+Calculate type as pValue.$type()
+Calculate name as pValue.$name()
+Do contact.$clear()
+Calculate list as pValue.$contact()
+Do contact.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

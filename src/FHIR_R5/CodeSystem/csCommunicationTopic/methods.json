@@ -1,0 +1,73 @@
+[
+	{
+		"name": "$prescription-refill-request",
+		"ident": 0,
+		"order": 1,
+		"desc": "The purpose or content of the communication is a progress update.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$progress-update",
+		"ident": 1,
+		"order": 2,
+		"desc": "The purpose or content of the communication is to report labs.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$report-labs",
+		"ident": 2,
+		"order": 3,
+		"desc": "The purpose or content of the communication is an appointment reminder.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$appointment-reminder",
+		"ident": 3,
+		"order": 4,
+		"desc": "The purpose or content of the communication is a phone consult.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$phone-consult",
+		"ident": 4,
+		"order": 5,
+		"desc": "The purpose or content of the communication is a summary report.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$summary-report",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

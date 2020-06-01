@@ -1,0 +1,4 @@
+If reasonNotTaken.$validref()=kFalse
+	Calculate reasonNotTaken as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method reasonNotTaken

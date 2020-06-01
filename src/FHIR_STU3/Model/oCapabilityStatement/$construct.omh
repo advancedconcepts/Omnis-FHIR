@@ -1,0 +1,12 @@
+Do inherited
+Do contact.$define(contact_)
+Do useContext.$define(useContext_)
+Do jurisdiction.$define(jurisdiction_)
+Do instantiates.$define(instantiates_)
+Do format.$define(format_)
+Do patchFormat.$define(patchFormat_)
+Do implementationGuide.$define(implementationGuide_)
+Do profile.$define(profile_)
+Do rest.$define(rest_)
+Do messaging.$define(messaging_)
+Do document.$define(document_)

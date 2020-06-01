@@ -1,0 +1,85 @@
+[
+	{
+		"name": "$draft",
+		"ident": 0,
+		"order": 1,
+		"desc": "The plan is intended to be followed and used as part of patient care.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$active",
+		"ident": 1,
+		"order": 2,
+		"desc": "The plan has been temporarily stopped but is expected to resume in the future.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$suspended",
+		"ident": 2,
+		"order": 3,
+		"desc": "The plan is no longer in use and is not expected to be followed or used in patient care.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$completed",
+		"ident": 3,
+		"order": 4,
+		"desc": "The plan was entered in error and voided.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$entered-in-error",
+		"ident": 4,
+		"order": 5,
+		"desc": "The plan has been terminated prior to reaching completion (though it may have been replaced by a new plan).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$cancelled",
+		"ident": 5,
+		"order": 6,
+		"desc": "The authoring system doesn't know the current state of the care plan.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unknown",
+		"ident": 6,
+		"order": 7,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

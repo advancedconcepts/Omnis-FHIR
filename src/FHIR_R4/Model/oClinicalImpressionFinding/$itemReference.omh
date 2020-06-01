@@ -1,0 +1,4 @@
+If itemReference.$validref()=kFalse
+	Calculate itemReference as $clib.$classes.oReference.$newref()
+End If
+Quit method itemReference

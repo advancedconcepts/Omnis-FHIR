@@ -1,0 +1,283 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$initialFill",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: Indicates the quantity or duration for the first dispense of the medication.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$initialFill.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMedicationRequestDispenseRequestInitialFill",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Indicates the quantity or duration for the first dispense of the medication."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$dispenseInterval",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: The minimum period of time that must occur between dispenses of the medication.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$dispenseInterval.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oDuration",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The minimum period of time that must occur between dispenses of the medication."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$validityPeriod",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: This indicates the validity period of a prescription (stale dating the Prescription).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$validityPeriod.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oPeriod",
+				"sublen": 0,
+				"param": 1,
+				"desc": "This indicates the validity period of a prescription (stale dating the Prescription)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$numberOfRepeatsAllowed",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: An integer indicating the number of times, in addition to the original dispense, (aka refills or repeats) that the patient can receive the prescribed medication. Usage Notes: This integer does not include the original order dispense. This means that if an order indicates dispense 30 tablets plus \"3 repeats\", then the order can be dispensed a total of 4 times and the patient can receive a total of 120 tablets.  A prescriber may explicitly say that zero refills are permitted after the initial dispense.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$numberOfRepeatsAllowed.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "An integer indicating the number of times, in addition to the original dispense, (aka refills or repeats) that the patient can receive the prescribed medication. Usage Notes: This integer does not include the original order dispense. This means that if an"
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$quantity",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: The amount that is to be dispensed for one fill.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$quantity.$assign",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oQuantity",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The amount that is to be dispensed for one fill."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$expectedSupplyDuration",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: Identifies the period time over which the supplied product is expected to be used, or the length of time the dispense is expected to last.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$expectedSupplyDuration.$assign",
+		"ident": 15,
+		"order": 16,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oDuration",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Identifies the period time over which the supplied product is expected to be used, or the length of time the dispense is expected to last."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$performer",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: Indicates the intended dispensing Organization specified by the prescriber.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$performer.$assign",
+		"ident": 17,
+		"order": 18,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Indicates the intended dispensing Organization specified by the prescriber."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,4 @@
+If systemType.$validref()=kFalse
+	Calculate systemType as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method systemType

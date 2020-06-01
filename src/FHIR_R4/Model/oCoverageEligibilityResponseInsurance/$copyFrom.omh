@@ -1,0 +1,9 @@
+Do inherited
+Calculate coverage as pValue.$coverage()
+Calculate inforce as pValue.$inforce()
+Calculate benefitPeriod as pValue.$benefitPeriod()
+Do item.$clear()
+Calculate list as pValue.$item()
+Do item.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

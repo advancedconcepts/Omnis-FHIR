@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("coverage","coverage",0,"1",38,"Reference")
+Do pElements.$add("contract","contract",0,"1",38,"Reference")
+Do pElements.$add("benefitBalance","benefitBalance",0,"-1",38,"")

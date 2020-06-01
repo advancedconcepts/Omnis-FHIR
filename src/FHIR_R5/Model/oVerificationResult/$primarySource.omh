@@ -1,0 +1,4 @@
+If primarySource.$validref()=kFalse
+	Calculate primarySource as $clib.$classes.oVerificationResultPrimarySource.$newref()
+End If
+Quit method primarySource

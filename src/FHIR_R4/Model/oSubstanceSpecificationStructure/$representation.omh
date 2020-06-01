@@ -1,0 +1,4 @@
+If representation.$validref()=kFalse
+	Calculate representation as $clib.$classes.oSubstanceSpecificationStructureRepresentation.$newref()
+End If
+Quit method representation

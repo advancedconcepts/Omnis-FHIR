@@ -1,0 +1,4 @@
+If ingredient.$validref()=kFalse
+	Calculate ingredient as $clib.$classes.oMedicationIngredient.$newref()
+End If
+Quit method ingredient

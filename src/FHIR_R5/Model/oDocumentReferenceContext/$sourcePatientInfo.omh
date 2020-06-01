@@ -1,0 +1,4 @@
+If sourcePatientInfo.$validref()=kFalse
+	Calculate sourcePatientInfo as $clib.$classes.oReference.$newref()
+End If
+Quit method sourcePatientInfo

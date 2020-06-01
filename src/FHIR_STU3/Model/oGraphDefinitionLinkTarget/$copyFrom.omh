@@ -1,0 +1,8 @@
+Do inherited
+Calculate type as pValue.$type()
+Calculate profile as pValue.$profile()
+Do compartment.$clear()
+Calculate list as pValue.$compartment()
+Do compartment.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

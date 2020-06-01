@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$increase",
+		"ident": 0,
+		"order": 1,
+		"desc": "Improvement is indicated as a decrease in the score or measurement (e.g. Lower score indicates better quality).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$decrease",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

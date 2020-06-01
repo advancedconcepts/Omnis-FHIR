@@ -1,0 +1,4 @@
+If exampleFor.$validref()=kFalse
+	Calculate exampleFor as $clib.$classes.oReference.$newref()
+End If
+Quit method exampleFor

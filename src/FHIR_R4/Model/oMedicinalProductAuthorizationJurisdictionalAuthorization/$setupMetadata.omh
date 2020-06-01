@@ -1,0 +1,6 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"-1",38,"Identifier")
+Do pElements.$add("country","country",0,"1",38,"CodeableConcept")
+Do pElements.$add("jurisdiction","jurisdiction",0,"-1",38,"CodeableConcept")
+Do pElements.$add("legalStatusOfSupply","legalStatusOfSupply",0,"1",38,"CodeableConcept")
+Do pElements.$add("validityPeriod","validityPeriod",0,"1",38,"Period")

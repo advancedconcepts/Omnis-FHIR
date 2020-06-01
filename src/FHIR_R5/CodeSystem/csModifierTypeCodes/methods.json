@@ -1,0 +1,73 @@
+[
+	{
+		"name": "$a",
+		"ident": 0,
+		"order": 1,
+		"desc": "Temporary service or installation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$b",
+		"ident": 1,
+		"order": 2,
+		"desc": "Treatment associated with TMJ.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$c",
+		"ident": 2,
+		"order": 3,
+		"desc": "Implant or associated with an implant.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$e",
+		"ident": 3,
+		"order": 4,
+		"desc": "A Rush service or service performed outside of normal office hours.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$rooh",
+		"ident": 4,
+		"order": 5,
+		"desc": "None.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$x",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

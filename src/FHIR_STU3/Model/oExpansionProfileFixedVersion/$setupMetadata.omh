@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("system","system",1,"1",21,"uri")
+Do pElements.$add("version","::version",1,"1",21,"string")
+Do pElements.$add("mode","mode",1,"1",21,"code")

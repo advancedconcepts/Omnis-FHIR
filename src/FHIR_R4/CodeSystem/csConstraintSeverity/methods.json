@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$error",
+		"ident": 0,
+		"order": 1,
+		"desc": "If the constraint is violated, the resource is conformant, but it is not necessarily following best practice.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$warning",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

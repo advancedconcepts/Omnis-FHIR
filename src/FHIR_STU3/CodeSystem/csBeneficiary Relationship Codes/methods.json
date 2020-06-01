@@ -1,0 +1,61 @@
+[
+	{
+		"name": "$1",
+		"ident": 0,
+		"order": 1,
+		"desc": "The patient is the spouse or equivalent of the subscriber (policy holder)",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$2",
+		"ident": 1,
+		"order": 2,
+		"desc": "The patient is the child of the subscriber (policy holder)",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$3",
+		"ident": 2,
+		"order": 3,
+		"desc": "The patient is the common law spouse of the subscriber (policy holder)",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$4",
+		"ident": 3,
+		"order": 4,
+		"desc": "The patient has some other relationship, such as parent, to the subscriber (policy holder)",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$5",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

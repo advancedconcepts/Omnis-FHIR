@@ -1,0 +1,4 @@
+If validateCode.$validref()=kFalse
+	Calculate validateCode as $clib.$classes.oTerminologyCapabilitiesValidateCode.$newref()
+End If
+Quit method validateCode

@@ -1,0 +1,169 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "action",
+			"order": 5,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "action_",
+			"order": 6,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Actions controlled by this Exception."
+		},
+		{
+			"name": "actor",
+			"order": 3,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "actor_",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oConsentExceptActor",
+			"sublen": 0,
+			"desc": "Who or what is controlled by this Exception. Use group to identify a set of actors by some property they share (e.g. 'admitting officers')."
+		},
+		{
+			"name": "class",
+			"order": 11,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "class_",
+			"order": 12,
+			"type": "kObjectref",
+			"subtype": "oCoding",
+			"sublen": 0,
+			"desc": "The class of information covered by this exception. The type can be a FHIR resource type, a profile on a type, or a CDA document, or some other type that indicates what sort of information the consent relates to."
+		},
+		{
+			"name": "code",
+			"order": 13,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "code_",
+			"order": 14,
+			"type": "kObjectref",
+			"subtype": "oCoding",
+			"sublen": 0,
+			"desc": "If this code is found in an instance, then the exception applies."
+		},
+		{
+			"name": "data",
+			"order": 16,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "dataPeriod",
+			"order": 15,
+			"type": "kObjectref",
+			"subtype": "oPeriod",
+			"sublen": 0,
+			"desc": "Clinical or Operational Relevant period of time that bounds the data controlled by this exception."
+		},
+		{
+			"name": "data_",
+			"order": 17,
+			"type": "kObjectref",
+			"subtype": "oConsentExceptData",
+			"sublen": 0,
+			"desc": "The resources controlled by this exception, if specific resources are referenced."
+		},
+		{
+			"name": "period",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oPeriod",
+			"sublen": 0,
+			"desc": "The timeframe in this exception is valid."
+		},
+		{
+			"name": "purpose",
+			"order": 9,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "purpose_",
+			"order": 10,
+			"type": "kObjectref",
+			"subtype": "oCoding",
+			"sublen": 0,
+			"desc": "The context of the activities a user is taking - why the user is accessing the data - that are controlled by this exception."
+		},
+		{
+			"name": "securityLabel",
+			"order": 7,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "securityLabel_",
+			"order": 8,
+			"type": "kObjectref",
+			"subtype": "oCoding",
+			"sublen": 0,
+			"desc": "A set of security labels that define which resources are controlled by this exception. If more than one label is specified, all resources must have all the specified labels."
+		},
+		{
+			"name": "type",
+			"order": 1,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Action  to take - permit or deny - when the exception conditions are met."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:39:59",
+		"desc": "An exception to the base policy of this consent. An exception can be an addition or removal of access permissions.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:26",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

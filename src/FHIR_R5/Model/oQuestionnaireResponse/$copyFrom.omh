@@ -1,0 +1,24 @@
+Do inherited
+Calculate identifier as pValue.$identifier()
+Do basedOn.$clear()
+Calculate list as pValue.$basedOn()
+Do basedOn.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do partOf.$clear()
+Calculate list as pValue.$partOf()
+Do partOf.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate questionnaire as pValue.$questionnaire()
+Calculate status as pValue.$status()
+Calculate subject as pValue.$subject()
+Calculate encounter as pValue.$encounter()
+Calculate authored as pValue.$authored()
+Calculate author as pValue.$author()
+Calculate source as pValue.$source()
+Do item.$clear()
+Calculate list as pValue.$item()
+Do item.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

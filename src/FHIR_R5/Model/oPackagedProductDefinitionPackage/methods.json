@@ -1,0 +1,394 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$identifier",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: Including possibly Data Carrier Identifier.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addidentifier",
+		"ident": 5,
+		"order": 6,
+		"desc": "Including possibly Data Carrier Identifier.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"desc": "Including possibly Data Carrier Identifier."
+			}
+		]
+	},
+	{
+		"name": "$::type",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: The physical type of the container of the medicine.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The physical type of the container of the medicine."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$quantity",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: The quantity of this package in the medicinal product, at the current level of packaging. If specified, the outermost level is always 1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$quantity.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oQuantity",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The quantity of this package in the medicinal product, at the current level of packaging. If specified, the outermost level is always 1."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$material",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: Material type of the package item.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addmaterial",
+		"ident": 11,
+		"order": 12,
+		"desc": "Material type of the package item.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Material type of the package item."
+			}
+		]
+	},
+	{
+		"name": "$alternateMaterial",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: A possible alternate material for the packaging.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addalternateMaterial",
+		"ident": 13,
+		"order": 14,
+		"desc": "A possible alternate material for the packaging.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "A possible alternate material for the packaging."
+			}
+		]
+	},
+	{
+		"name": "$shelfLifeStorage",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: Shelf Life and storage information.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addshelfLifeStorage",
+		"ident": 15,
+		"order": 16,
+		"desc": "Shelf Life and storage information.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oProductShelfLife",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oProductShelfLife",
+				"sublen": 0,
+				"desc": "Shelf Life and storage information."
+			}
+		]
+	},
+	{
+		"name": "$manufacturer",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: Manufacturer of this Package Item.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addmanufacturer",
+		"ident": 17,
+		"order": 18,
+		"desc": "Manufacturer of this Package Item.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Manufacturer of this Package Item."
+			}
+		]
+	},
+	{
+		"name": "$characteristic",
+		"ident": 18,
+		"order": 19,
+		"desc": "Returns: General characteristics of this item.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcharacteristic",
+		"ident": 19,
+		"order": 20,
+		"desc": "General characteristics of this item.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oPackagedProductDefinitionPackageCharacteristic",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oPackagedProductDefinitionPackageCharacteristic",
+				"sublen": 0,
+				"desc": "General characteristics of this item."
+			}
+		]
+	},
+	{
+		"name": "$containedItem",
+		"ident": 20,
+		"order": 21,
+		"desc": "Returns: The item(s) within the packaging.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcontainedItem",
+		"ident": 21,
+		"order": 22,
+		"desc": "The item(s) within the packaging.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oPackagedProductDefinitionPackageContainedItem",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oPackagedProductDefinitionPackageContainedItem",
+				"sublen": 0,
+				"desc": "The item(s) within the packaging."
+			}
+		]
+	}
+]

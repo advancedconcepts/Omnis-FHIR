@@ -1,0 +1,4 @@
+If variantPointer.$validref()=kFalse
+	Calculate variantPointer as $clib.$classes.oReference.$newref()
+End If
+Quit method variantPointer

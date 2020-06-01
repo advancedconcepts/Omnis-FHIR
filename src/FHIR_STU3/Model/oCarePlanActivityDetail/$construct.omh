@@ -1,0 +1,5 @@
+Do inherited
+Do reasonCode.$define(reasonCode_)
+Do reasonReference.$define(reasonReference_)
+Do goal.$define(goal_)
+Do performer.$define(performer_)

@@ -1,0 +1,7 @@
+Do inherited
+Calculate type as pValue.$type()
+Calculate display as pValue.$display()
+Calculate citation as pValue.$citation()
+Calculate url as pValue.$url()
+Calculate document as pValue.$document()
+Calculate resource as pValue.$resource()

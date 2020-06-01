@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$complete",
+		"ident": 0,
+		"order": 1,
+		"desc": "The requested processing has been suspended.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$pended",
+		"ident": 1,
+		"order": 2,
+		"desc": "The requested processing has terminated with some errors being found.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$error",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

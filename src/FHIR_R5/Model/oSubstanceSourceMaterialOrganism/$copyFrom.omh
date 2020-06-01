@@ -1,0 +1,13 @@
+Do inherited
+Calculate family as pValue.$family()
+Calculate genus as pValue.$genus()
+Calculate species as pValue.$species()
+Calculate intraspecificType as pValue.$intraspecificType()
+Calculate intraspecificDescription as pValue.$intraspecificDescription()
+Do author.$clear()
+Calculate list as pValue.$author()
+Do author.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate hybrid as pValue.$hybrid()
+Calculate organismGeneral as pValue.$organismGeneral()

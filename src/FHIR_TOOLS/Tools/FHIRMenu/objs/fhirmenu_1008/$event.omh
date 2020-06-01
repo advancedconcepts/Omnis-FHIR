@@ -1,0 +1,4 @@
+Do FileOps.$selectdirectory(path,"Select Folder with version.info and FHIR json profiles")
+If path<>''
+	Do iFhirParser.$parsetypes(path)
+End If

@@ -1,0 +1,266 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$diseaseSymptomProcedure",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: The situation that is being documented as an indicaton for this item.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$diseaseSymptomProcedure.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The situation that is being documented as an indicaton for this item."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$diseaseStatus",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: The status of the disease or symptom for the indication.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$diseaseStatus.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The status of the disease or symptom for the indication."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$comorbidity",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: A comorbidity (concurrent condition) or coinfection as part of the indication.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcomorbidity",
+		"ident": 9,
+		"order": 10,
+		"desc": "A comorbidity (concurrent condition) or coinfection as part of the indication.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "A comorbidity (concurrent condition) or coinfection as part of the indication."
+			}
+		]
+	},
+	{
+		"name": "$intendedEffect",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: For an indication - the intended effect, aim or strategy to be achieved.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$intendedEffect.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "For an indication - the intended effect, aim or strategy to be achieved."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$duration",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: For an indication - timing or duration information.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$duration.$assign",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oQuantity",
+				"sublen": 0,
+				"param": 1,
+				"desc": "For an indication - timing or duration information."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$undesirableEffect",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: For an indicaton - the specific undesirable effects of the medicinal product.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addundesirableEffect",
+		"ident": 15,
+		"order": 16,
+		"desc": "For an indicaton - the specific undesirable effects of the medicinal product.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "For an indicaton - the specific undesirable effects of the medicinal product."
+			}
+		]
+	}
+]

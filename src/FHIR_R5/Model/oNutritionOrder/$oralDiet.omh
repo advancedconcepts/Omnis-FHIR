@@ -1,0 +1,4 @@
+If oralDiet.$validref()=kFalse
+	Calculate oralDiet as $clib.$classes.oNutritionOrderOralDiet.$newref()
+End If
+Quit method oralDiet

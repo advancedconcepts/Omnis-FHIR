@@ -1,0 +1,13 @@
+Do inherited
+Calculate domain as pValue.$domain()
+Calculate classification as pValue.$classification()
+Do subtype.$clear()
+Calculate list as pValue.$subtype()
+Do subtype.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do source.$clear()
+Calculate list as pValue.$source()
+Do source.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

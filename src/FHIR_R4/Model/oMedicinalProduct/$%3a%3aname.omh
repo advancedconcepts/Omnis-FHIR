@@ -1,0 +1,4 @@
+If name.$validref()=kFalse
+	Calculate name as $clib.$classes.oMedicinalProductName.$newref()
+End If
+Quit method name

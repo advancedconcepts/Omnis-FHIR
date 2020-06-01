@@ -1,0 +1,4 @@
+Do inherited
+Calculate result as pValue.$result()
+Calculate message as pValue.$message()
+Calculate detail as pValue.$detail()

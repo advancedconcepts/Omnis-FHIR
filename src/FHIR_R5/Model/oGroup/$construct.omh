@@ -1,0 +1,4 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do characteristic.$define(characteristic_)
+Do member.$define(member_)

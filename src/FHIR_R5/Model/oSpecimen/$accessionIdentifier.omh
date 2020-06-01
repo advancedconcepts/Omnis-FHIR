@@ -1,0 +1,4 @@
+If accessionIdentifier.$validref()=kFalse
+	Calculate accessionIdentifier as $clib.$classes.oIdentifier.$newref()
+End If
+Quit method accessionIdentifier

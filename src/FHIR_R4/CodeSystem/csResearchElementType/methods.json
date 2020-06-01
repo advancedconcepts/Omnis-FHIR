@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$population",
+		"ident": 0,
+		"order": 1,
+		"desc": "The element defines an exposure within the population that is being researched.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$exposure",
+		"ident": 1,
+		"order": 2,
+		"desc": "The element defines an outcome within the population that is being researched.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$outcome",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

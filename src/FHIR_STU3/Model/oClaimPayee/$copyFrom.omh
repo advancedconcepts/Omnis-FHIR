@@ -1,0 +1,4 @@
+Do inherited
+Calculate type as pValue.$type()
+Calculate resourceType as pValue.$resourceType()
+Calculate party as pValue.$party()

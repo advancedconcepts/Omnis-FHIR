@@ -1,0 +1,7 @@
+Do inherited
+Calculate resource as pValue.$resource()
+Do param.$clear()
+Calculate list as pValue.$param()
+Do param.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

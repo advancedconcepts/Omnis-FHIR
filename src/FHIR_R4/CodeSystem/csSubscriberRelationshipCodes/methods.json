@@ -1,0 +1,85 @@
+[
+	{
+		"name": "$child",
+		"ident": 0,
+		"order": 1,
+		"desc": "The Beneficiary is a parent of the Subscriber",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$parent",
+		"ident": 1,
+		"order": 2,
+		"desc": "The Beneficiary is a spouse or equivalent of the Subscriber",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$spouse",
+		"ident": 2,
+		"order": 3,
+		"desc": "The Beneficiary is a common law spouse or equivalent of the Subscriber",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$common",
+		"ident": 3,
+		"order": 4,
+		"desc": "The Beneficiary has some other relationship the Subscriber",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$other",
+		"ident": 4,
+		"order": 5,
+		"desc": "The Beneficiary is the Subscriber",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$self",
+		"ident": 5,
+		"order": 6,
+		"desc": "The Beneficiary is covered under insurance of the subscriber due to an injury.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$injured",
+		"ident": 6,
+		"order": 7,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

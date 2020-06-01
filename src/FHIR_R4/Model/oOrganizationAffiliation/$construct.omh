@@ -1,0 +1,9 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do network.$define(network_)
+Do code.$define(code_)
+Do specialty.$define(specialty_)
+Do location.$define(location_)
+Do healthcareService.$define(healthcareService_)
+Do telecom.$define(telecom_)
+Do endpoint.$define(endpoint_)

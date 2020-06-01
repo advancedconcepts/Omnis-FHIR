@@ -1,0 +1,4 @@
+If gestationalAge.$validref()=kFalse
+	Calculate gestationalAge as $clib.$classes.oRange.$newref()
+End If
+Quit method gestationalAge

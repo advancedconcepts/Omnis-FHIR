@@ -1,0 +1,4 @@
+If ownedBy.$validref()=kFalse
+	Calculate ownedBy as $clib.$classes.oReference.$newref()
+End If
+Quit method ownedBy

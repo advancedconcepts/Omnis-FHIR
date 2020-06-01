@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"1",38,"Identifier")
+Do pElements.$add("expiry","expiry",0,"1",23,"dateTime")
+Do pElements.$add("quantity","quantity",0,"1",38,"Quantity")

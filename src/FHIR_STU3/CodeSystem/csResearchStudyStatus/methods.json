@@ -1,0 +1,73 @@
+[
+	{
+		"name": "$draft",
+		"ident": 0,
+		"order": 1,
+		"desc": "The study is currently being executed",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$in-progress",
+		"ident": 1,
+		"order": 2,
+		"desc": "Execution of the study has been temporarily paused",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$suspended",
+		"ident": 2,
+		"order": 3,
+		"desc": "The study was terminated prior to the final determination of results",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$stopped",
+		"ident": 3,
+		"order": 4,
+		"desc": "The information sought by the study has been gathered and compiled and no further work is being performed",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$completed",
+		"ident": 4,
+		"order": 5,
+		"desc": "This study never actually existed.  The record is retained for tracking purposes in the event decisions may have been made based on this erroneous information.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$entered-in-error",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

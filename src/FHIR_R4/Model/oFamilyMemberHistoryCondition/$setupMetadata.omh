@@ -1,0 +1,5 @@
+Do inherited
+Do pElements.$add("code","code",1,"1",38,"CodeableConcept")
+Do pElements.$add("outcome","outcome",0,"1",38,"CodeableConcept")
+Do pElements.$add("contributedToDeath","contributedToDeath",0,"1",22,"boolean")
+Do pElements.$add("note","note",0,"-1",38,"Annotation")

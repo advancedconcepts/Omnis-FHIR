@@ -1,0 +1,6 @@
+Do inherited
+Do pElements.$add("rendering","rendering",0,"1",21,"url")
+Do pElements.$add("resource","resource",1,"-1",38,"")
+Do pElements.$add("page","page",0,"-1",38,"")
+Do pElements.$add("image","image",0,"-1",21,"string")
+Do pElements.$add("other","other",0,"-1",21,"string")

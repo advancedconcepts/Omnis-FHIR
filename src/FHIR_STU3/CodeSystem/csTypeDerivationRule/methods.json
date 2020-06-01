@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$specialization",
+		"ident": 0,
+		"order": 1,
+		"desc": "This definition adds additional rules to an existing concrete type",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$constraint",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

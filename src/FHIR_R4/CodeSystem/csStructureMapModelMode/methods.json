@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$source",
+		"ident": 0,
+		"order": 1,
+		"desc": "This structure describes an instance that the mapping engine may ask for that is used a source of data.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$queried",
+		"ident": 1,
+		"order": 2,
+		"desc": "This structure describes an instance passed to the mapping engine that is used a target of data.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$target",
+		"ident": 2,
+		"order": 3,
+		"desc": "This structure describes an instance that the mapping engine may ask to create that is used a target of data.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$produced",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

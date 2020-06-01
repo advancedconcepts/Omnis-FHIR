@@ -1,0 +1,7 @@
+Do inherited
+Calculate start as pValue.$start()
+Calculate end as pValue.$end()
+Calculate observedAllele as pValue.$observedAllele()
+Calculate referenceAllele as pValue.$referenceAllele()
+Calculate cigar as pValue.$cigar()
+Calculate variantPointer as pValue.$variantPointer()

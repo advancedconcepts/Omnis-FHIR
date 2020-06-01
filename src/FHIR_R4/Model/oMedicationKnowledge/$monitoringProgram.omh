@@ -1,0 +1,4 @@
+If monitoringProgram.$validref()=kFalse
+	Calculate monitoringProgram as $clib.$classes.oMedicationKnowledgeMonitoringProgram.$newref()
+End If
+Quit method monitoringProgram

@@ -1,0 +1,7 @@
+Do inherited
+Do pElements.$add("path","path",0,"1",21,"string")
+Do pElements.$add("sliceName","sliceName",0,"1",21,"string")
+Do pElements.$add("min","min",0,"1",26,"integer")
+Do pElements.$add("max","max",0,"1",21,"string")
+Do pElements.$add("description","description",0,"1",21,"string")
+Do pElements.$add("target","target",0,"-1",38,"")

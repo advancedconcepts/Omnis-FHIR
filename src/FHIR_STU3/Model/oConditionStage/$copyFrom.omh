@@ -1,0 +1,7 @@
+Do inherited
+Calculate summary as pValue.$summary()
+Do assessment.$clear()
+Calculate list as pValue.$assessment()
+Do assessment.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

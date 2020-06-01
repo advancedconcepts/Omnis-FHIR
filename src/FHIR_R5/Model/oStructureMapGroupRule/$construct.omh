@@ -1,0 +1,4 @@
+Do inherited
+Do source.$define(source_)
+Do target.$define(target_)
+Do dependent.$define(dependent_)

@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$sr",
+		"ident": 0,
+		"order": 1,
+		"desc": "Services provided outside or normal business hours.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ah",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

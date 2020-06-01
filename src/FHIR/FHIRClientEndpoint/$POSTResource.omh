@@ -1,0 +1,12 @@
+Calculate headers as iCommonHeaders
+Calculate resourcetext as pResource.$astext()
+Calculate sendbinary as chartoutf8(resourcetext)
+Do headers.$add("Content-Type","application/fhir+json")
+Do headers.$add("Content-Length",binlength(sendbinary))
+If http.$init(con(iBaseURL,pRelativeURL),kOW3httpMethodPost,headers,sendbinary)
+	If http.$run()
+		Do $classes.HTTPResponse.$new(http.$resultrow()) Returns response
+		Calculate #S1 as response.$statusCode()
+	End If
+End If
+Quit method response

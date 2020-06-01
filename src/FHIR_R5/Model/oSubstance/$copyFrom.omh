@@ -1,0 +1,24 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate status as pValue.$status()
+Do category.$clear()
+Calculate list as pValue.$category()
+Do category.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate code as pValue.$code()
+Calculate description as pValue.$description()
+Do instance.$clear()
+Calculate list as pValue.$instance()
+Do instance.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do ingredient.$clear()
+Calculate list as pValue.$ingredient()
+Do ingredient.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

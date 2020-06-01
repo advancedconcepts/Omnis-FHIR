@@ -1,0 +1,4 @@
+If intendedRoute.$validref()=kFalse
+	Calculate intendedRoute as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method intendedRoute

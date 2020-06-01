@@ -1,0 +1,4 @@
+If indication.$validref()=kFalse
+	Calculate indication as $clib.$classes.oClinicalUseIssueIndication.$newref()
+End If
+Quit method indication

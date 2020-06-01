@@ -1,0 +1,321 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$category",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: The category of interval of values for continuous or ordinal observations conforming to this ObservationDefinition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$category.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The category of interval of values for continuous or ordinal observations conforming to this ObservationDefinition."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$range",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: The low and high values determining the interval. There may be only one of the two.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$range.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oRange",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The low and high values determining the interval. There may be only one of the two."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$context",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: Codes to indicate the health context the range applies to. For example, the normal or therapeutic range.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$context.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Codes to indicate the health context the range applies to. For example, the normal or therapeutic range."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$appliesTo",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: Codes to indicate the target population this reference range applies to.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addappliesTo",
+		"ident": 11,
+		"order": 12,
+		"desc": "Codes to indicate the target population this reference range applies to.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Codes to indicate the target population this reference range applies to."
+			}
+		]
+	},
+	{
+		"name": "$gender",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: Sex of the population the range applies to.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$gender.$assign",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Sex of the population the range applies to."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$age",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: The age at which this reference range is applicable. This is a neonatal age (e.g. number of weeks at term) if the meaning says so.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$age.$assign",
+		"ident": 15,
+		"order": 16,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oRange",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The age at which this reference range is applicable. This is a neonatal age (e.g. number of weeks at term) if the meaning says so."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$gestationalAge",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: The gestational age to which this reference range is applicable, in the context of pregnancy.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$gestationalAge.$assign",
+		"ident": 17,
+		"order": 18,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oRange",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The gestational age to which this reference range is applicable, in the context of pregnancy."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$condition",
+		"ident": 18,
+		"order": 19,
+		"desc": "Returns: Text based condition for which the reference range is valid.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$condition.$assign",
+		"ident": 19,
+		"order": 20,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Text based condition for which the reference range is valid."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

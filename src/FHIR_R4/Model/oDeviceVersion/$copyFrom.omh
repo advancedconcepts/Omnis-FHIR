@@ -1,0 +1,4 @@
+Do inherited
+Calculate type as pValue.$type()
+Calculate component as pValue.$component()
+Calculate value as pValue.$value()

@@ -1,0 +1,8 @@
+Do inherited
+Do pElements.$add("type","::type",1,"1",38,"CodeableConcept")
+Do pElements.$add("nutritionProduct","nutritionProduct",1,"1",38,"CodeableConcept")
+Do pElements.$add("schedule","schedule",0,"1",38,"Timing")
+Do pElements.$add("amount","amount",0,"1",38,"Quantity")
+Do pElements.$add("rate","rate",0,"1",38,"Quantity")
+Do pElements.$add("notConsumed","notConsumed",0,"1",22,"boolean")
+Do pElements.$add("notConsumedReason","notConsumedReason",0,"1",38,"CodeableConcept")

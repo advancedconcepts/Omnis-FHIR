@@ -1,0 +1,61 @@
+[
+	{
+		"name": "$completed",
+		"ident": 0,
+		"order": 1,
+		"desc": "A test operations is currently executing",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$in-progress",
+		"ident": 1,
+		"order": 2,
+		"desc": "A test operation is waiting for an external client request",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$waiting",
+		"ident": 2,
+		"order": 3,
+		"desc": "The test script execution was manually stopped",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$stopped",
+		"ident": 3,
+		"order": 4,
+		"desc": "This test report was entered or created in error",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$entered-in-error",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,8 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do useContext.$define(useContext_)
+Do jurisdiction.$define(jurisdiction_)
+Do contact.$define(contact_)
+Do code.$define(code_)
+Do subjectType.$define(subjectType_)
+Do item.$define(item_)

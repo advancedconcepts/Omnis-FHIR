@@ -1,0 +1,204 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$regulatoryAuthority",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: The authority that is specifying the regulations.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$regulatoryAuthority.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The authority that is specifying the regulations."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$substitution",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: Specifies if changes are allowed when dispensing a medication from a regulatory perspective.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addsubstitution",
+		"ident": 7,
+		"order": 8,
+		"desc": "Specifies if changes are allowed when dispensing a medication from a regulatory perspective.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMedicationKnowledgeRegulatorySubstitution",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oMedicationKnowledgeRegulatorySubstitution",
+				"sublen": 0,
+				"desc": "Specifies if changes are allowed when dispensing a medication from a regulatory perspective."
+			}
+		]
+	},
+	{
+		"name": "$schedule",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: Specifies the schedule of a medication in jurisdiction.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addschedule",
+		"ident": 9,
+		"order": 10,
+		"desc": "Specifies the schedule of a medication in jurisdiction.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMedicationKnowledgeRegulatorySchedule",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oMedicationKnowledgeRegulatorySchedule",
+				"sublen": 0,
+				"desc": "Specifies the schedule of a medication in jurisdiction."
+			}
+		]
+	},
+	{
+		"name": "$maxDispense",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: The maximum number of units of the medication that can be dispensed in a period.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$maxDispense.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMedicationKnowledgeRegulatoryMaxDispense",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The maximum number of units of the medication that can be dispensed in a period."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

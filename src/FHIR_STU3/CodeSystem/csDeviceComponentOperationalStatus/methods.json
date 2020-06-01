@@ -1,0 +1,85 @@
+[
+	{
+		"name": "$off",
+		"ident": 0,
+		"order": 1,
+		"desc": "The device is fully operational.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$on",
+		"ident": 1,
+		"order": 2,
+		"desc": "The device is not ready.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$not-ready",
+		"ident": 2,
+		"order": 3,
+		"desc": "The device is ready but not actively operating.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$standby",
+		"ident": 3,
+		"order": 4,
+		"desc": "The device transducer is diconnected.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$transduc-discon",
+		"ident": 4,
+		"order": 5,
+		"desc": "The device hardware is disconnected.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$hw-discon",
+		"ident": 5,
+		"order": 6,
+		"desc": "The device was entered in error.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$entered-in-error",
+		"ident": 6,
+		"order": 7,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

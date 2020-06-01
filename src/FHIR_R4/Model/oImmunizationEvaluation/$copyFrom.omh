@@ -1,0 +1,20 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate status as pValue.$status()
+Calculate patient as pValue.$patient()
+Calculate date as pValue.$date()
+Calculate authority as pValue.$authority()
+Calculate targetDisease as pValue.$targetDisease()
+Calculate immunizationEvent as pValue.$immunizationEvent()
+Calculate doseStatus as pValue.$doseStatus()
+Do doseStatusReason.$clear()
+Calculate list as pValue.$doseStatusReason()
+Do doseStatusReason.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate description as pValue.$description()
+Calculate series as pValue.$series()

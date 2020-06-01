@@ -1,0 +1,6 @@
+Calculate objRef as $clib.$classes.oTriggerDefinition.$newref()
+Do trigger.$add(objRef)
+If pValue.$validref()
+	Do objRef.$copyFrom(pValue)
+End If
+Quit method objRef

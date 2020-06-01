@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("country","country",1,"1",38,"CodeableConcept")
+Do pElements.$add("jurisdiction","jurisdiction",0,"1",38,"CodeableConcept")
+Do pElements.$add("language","language",1,"1",38,"CodeableConcept")

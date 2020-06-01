@@ -1,0 +1,6 @@
+Do inherited
+Do pElements.$add("comment","comment",0,"1",21,"string")
+Do pElements.$add("gene","gene",0,"-1",38,"")
+Do pElements.$add("geneElement","geneElement",0,"-1",38,"")
+Do pElements.$add("classification","classification",0,"-1",38,"")
+Do pElements.$add("target","target",0,"-1",38,"")

@@ -1,0 +1,6 @@
+Do inherited
+Calculate country as pValue.$country()
+Calculate jurisdiction as pValue.$jurisdiction()
+Calculate status as pValue.$status()
+Calculate dateRange as pValue.$dateRange()
+Calculate restoreDate as pValue.$restoreDate()

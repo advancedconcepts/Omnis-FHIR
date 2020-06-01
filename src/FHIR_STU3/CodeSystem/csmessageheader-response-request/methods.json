@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$always",
+		"ident": 0,
+		"order": 1,
+		"desc": "initiator expects a response only if in error",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$on-error",
+		"ident": 1,
+		"order": 2,
+		"desc": "initiator does not expect a response",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$never",
+		"ident": 2,
+		"order": 3,
+		"desc": "initiator expects a response only if successful",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$on-success",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

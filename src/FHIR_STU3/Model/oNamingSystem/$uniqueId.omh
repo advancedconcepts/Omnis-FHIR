@@ -1,0 +1,4 @@
+If uniqueId.$validref()=kFalse
+	Calculate uniqueId as $clib.$classes.oNamingSystemUniqueId.$newref()
+End If
+Quit method uniqueId

@@ -1,0 +1,11 @@
+Do inherited
+Calculate operationType as pValue.$operationType()
+Calculate authorisationReferenceNumber as pValue.$authorisationReferenceNumber()
+Calculate effectiveDate as pValue.$effectiveDate()
+Calculate confidentialityIndicator as pValue.$confidentialityIndicator()
+Do manufacturer.$clear()
+Calculate list as pValue.$manufacturer()
+Do manufacturer.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate regulator as pValue.$regulator()

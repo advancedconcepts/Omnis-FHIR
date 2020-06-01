@@ -1,0 +1,4 @@
+Do inherited
+Calculate mode as pValue.$mode()
+Calculate time as pValue.$time()
+Calculate party as pValue.$party()

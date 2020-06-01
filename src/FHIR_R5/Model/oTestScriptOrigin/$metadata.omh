@@ -1,0 +1,5 @@
+If cElements.$linecount=0
+	Do cElements.$define(cElementName,cElementOmnisName,cElementsMin,cElementsMax,cElementType,cElementFHIRType)
+	Do $cinst.$setupMetadata(cElements)
+End If
+Quit method cElements.$ref

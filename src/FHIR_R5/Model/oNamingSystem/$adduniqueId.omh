@@ -1,0 +1,6 @@
+Calculate objRef as $clib.$classes.oNamingSystemUniqueId.$newref()
+Do uniqueId.$add(objRef)
+If pValue.$validref()
+	Do objRef.$copyFrom(pValue)
+End If
+Quit method objRef

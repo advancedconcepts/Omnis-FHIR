@@ -1,0 +1,85 @@
+[
+	{
+		"name": "$std-MA",
+		"ident": 0,
+		"order": 1,
+		"desc": "A meta-analysis of the individual participant data from individual studies or data sets.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$IPD-MA",
+		"ident": 1,
+		"order": 2,
+		"desc": "An indirect meta-analysis derived from 2 or more direct comparisons in a network meta-analysis.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$indirect-NMA",
+		"ident": 2,
+		"order": 3,
+		"desc": "An composite meta-analysis derived from direct comparisons and indirect comparisons in a network meta-analysis.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$combined-NMA",
+		"ident": 3,
+		"order": 4,
+		"desc": "A range of results across a body of evidence.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$range",
+		"ident": 4,
+		"order": 5,
+		"desc": "An approach describing a body of evidence by categorically classifying individual studies (eg 3 studies showed beneft and 2 studied found no effect).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$classification",
+		"ident": 5,
+		"order": 6,
+		"desc": "An unweighted average.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$pooled",
+		"ident": 6,
+		"order": 7,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

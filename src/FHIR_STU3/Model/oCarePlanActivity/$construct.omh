@@ -1,0 +1,4 @@
+Do inherited
+Do outcomeCodeableConcept.$define(outcomeCodeableConcept_)
+Do outcomeReference.$define(outcomeReference_)
+Do progress.$define(progress_)

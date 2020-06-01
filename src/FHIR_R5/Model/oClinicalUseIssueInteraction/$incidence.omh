@@ -1,0 +1,4 @@
+If incidence.$validref()=kFalse
+	Calculate incidence as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method incidence

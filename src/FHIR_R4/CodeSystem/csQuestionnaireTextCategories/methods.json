@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$instructions",
+		"ident": 0,
+		"order": 1,
+		"desc": "The text provides guidance on how the information should be or will be handled from a security/confidentiality/access control perspective when completed",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$security",
+		"ident": 1,
+		"order": 2,
+		"desc": "The text provides additional guidance on populating the containing item.  Help text isn't necessarily expected to be rendered as part of the form, but may instead be made available through fly-over, pop-up button, link to a \"help\" page, etc.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$help",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

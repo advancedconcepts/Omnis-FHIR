@@ -1,0 +1,11 @@
+Do inherited
+Do type.$define(type_)
+Do typeReference.$define(typeReference_)
+Do subtype.$define(subtype_)
+Do context.$define(context_)
+Do periodType.$define(periodType_)
+Do period.$define(period_)
+Do usePeriod.$define(usePeriod_)
+Do linkId.$define(linkId_)
+Do securityLabelNumber.$define(securityLabelNumber_)
+Do valuedItem.$define(valuedItem_)

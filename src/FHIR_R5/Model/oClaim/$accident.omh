@@ -1,0 +1,4 @@
+If accident.$validref()=kFalse
+	Calculate accident as $clib.$classes.oClaimAccident.$newref()
+End If
+Quit method accident

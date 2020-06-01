@@ -1,0 +1,85 @@
+[
+	{
+		"name": "$registered",
+		"ident": 0,
+		"order": 1,
+		"desc": "This is a partial (e.g. initial, interim or preliminary) report: data in the report may be incomplete or unverified.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$partial",
+		"ident": 1,
+		"order": 2,
+		"desc": "The report is complete and verified by an authorized person.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$final",
+		"ident": 2,
+		"order": 3,
+		"desc": "Subsequent to being final, the report has been modified.  This includes any change in the results, diagnosis, narrative text, or other content of a report that has been issued.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$amended",
+		"ident": 3,
+		"order": 4,
+		"desc": "The report is unavailable because the measurement was not started or not completed (also sometimes called \"aborted\").",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$cancelled",
+		"ident": 4,
+		"order": 5,
+		"desc": "The report has been withdrawn following a previous final release.  This electronic record should never have existed, though it is possible that real-world decisions were based on it. (If real-world activity has occurred, the status should be \"cancelled\" rather than \"entered-in-error\".).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$entered-in-error",
+		"ident": 5,
+		"order": 6,
+		"desc": "The authoring/source system does not know which of the status values currently applies for this observation. Note: This concept is not to be used for \"other\" - one of the listed statuses is presumed to apply, but the authoring/source system does not know which.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unknown",
+		"ident": 6,
+		"order": 7,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

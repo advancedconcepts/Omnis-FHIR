@@ -1,0 +1,7 @@
+Do inherited
+Do pElements.$add("use","use",0,"1",21,"code")
+Do pElements.$add("type","::type",0,"1",38,"CodeableConcept")
+Do pElements.$add("system","system",0,"1",21,"uri")
+Do pElements.$add("value","value",0,"1",21,"string")
+Do pElements.$add("period","period",0,"1",38,"Period")
+Do pElements.$add("assigner","assigner",0,"1",38,"Reference")

@@ -1,0 +1,4 @@
+If amountRatioHighLimit.$validref()=kFalse
+	Calculate amountRatioHighLimit as $clib.$classes.oRatio.$newref()
+End If
+Quit method amountRatioHighLimit

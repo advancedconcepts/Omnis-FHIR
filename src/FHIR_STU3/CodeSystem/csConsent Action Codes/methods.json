@@ -1,0 +1,61 @@
+[
+	{
+		"name": "$collect",
+		"ident": 0,
+		"order": 1,
+		"desc": "Provide an entity access to information to achieve a stated purpose",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$access",
+		"ident": 1,
+		"order": 2,
+		"desc": "Use of stored information by an entity fo the stated purpose",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$use",
+		"ident": 2,
+		"order": 3,
+		"desc": "Release / transfer of information to an entity ",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$disclose",
+		"ident": 3,
+		"order": 4,
+		"desc": "Allowing an entity to correct a patient's information",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$correct",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,228 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$hierarchical",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: Whether the server can return nested value sets.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$hierarchical.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "Whether the server can return nested value sets."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$paging",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: Whether the server supports paging on expansion.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$paging.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "Whether the server supports paging on expansion."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$incomplete",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: Allow request for incomplete expansions?",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$incomplete.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "Allow request for incomplete expansions?"
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$parameter",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: Supported expansion parameter.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addparameter",
+		"ident": 11,
+		"order": 12,
+		"desc": "Supported expansion parameter.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oTerminologyCapabilitiesExpansionParameter",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oTerminologyCapabilitiesExpansionParameter",
+				"sublen": 0,
+				"desc": "Supported expansion parameter."
+			}
+		]
+	},
+	{
+		"name": "$textFilter",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: Documentation about text searching works.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$textFilter.$assign",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Documentation about text searching works."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

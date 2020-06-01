@@ -1,0 +1,4 @@
+If link.$validref()=kFalse
+	Calculate link as $clib.$classes.oPersonLink.$newref()
+End If
+Quit method link

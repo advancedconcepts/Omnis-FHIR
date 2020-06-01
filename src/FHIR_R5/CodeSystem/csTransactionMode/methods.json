@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$not-supported",
+		"ident": 0,
+		"order": 1,
+		"desc": "Batches are  supported.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$batch",
+		"ident": 1,
+		"order": 2,
+		"desc": "Transactions are supported.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$transaction",
+		"ident": 2,
+		"order": 3,
+		"desc": "Both batches and transactions are supported.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$both",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

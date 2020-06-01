@@ -1,0 +1,366 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$preAdmissionIdentifier",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: Pre-admission identifier.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$preAdmissionIdentifier.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Pre-admission identifier."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$origin",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: The location from which the patient came before admission.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$origin.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The location from which the patient came before admission."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$admitSource",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: From where patient was admitted (physician referral, transfer).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$admitSource.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "From where patient was admitted (physician referral, transfer)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$reAdmission",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: Whether this hospitalization is a readmission and why if known.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$reAdmission.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Whether this hospitalization is a readmission and why if known."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$dietPreference",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: Diet preferences reported by the patient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$adddietPreference",
+		"ident": 13,
+		"order": 14,
+		"desc": "Diet preferences reported by the patient.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Diet preferences reported by the patient."
+			}
+		]
+	},
+	{
+		"name": "$specialCourtesy",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: Special courtesies (VIP, board member).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addspecialCourtesy",
+		"ident": 15,
+		"order": 16,
+		"desc": "Special courtesies (VIP, board member).",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Special courtesies (VIP, board member)."
+			}
+		]
+	},
+	{
+		"name": "$specialArrangement",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: Any special requests that have been made for this hospitalization encounter, such as the provision of specific equipment or other things.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addspecialArrangement",
+		"ident": 17,
+		"order": 18,
+		"desc": "Any special requests that have been made for this hospitalization encounter, such as the provision of specific equipment or other things.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Any special requests that have been made for this hospitalization encounter, such as the provision of specific equipment or other things."
+			}
+		]
+	},
+	{
+		"name": "$destination",
+		"ident": 18,
+		"order": 19,
+		"desc": "Returns: Location to which the patient is discharged.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$destination.$assign",
+		"ident": 19,
+		"order": 20,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Location to which the patient is discharged."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$dischargeDisposition",
+		"ident": 20,
+		"order": 21,
+		"desc": "Returns: Category or kind of location after discharge.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$dischargeDisposition.$assign",
+		"ident": 21,
+		"order": 22,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Category or kind of location after discharge."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

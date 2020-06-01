@@ -1,0 +1,4 @@
+If dependent.$validref()=kFalse
+	Calculate dependent as $clib.$classes.oStructureMapGroupRuleDependent.$newref()
+End If
+Quit method dependent

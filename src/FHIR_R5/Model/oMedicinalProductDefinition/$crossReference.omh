@@ -1,0 +1,4 @@
+If crossReference.$validref()=kFalse
+	Calculate crossReference as $clib.$classes.oMedicinalProductDefinitionCrossReference.$newref()
+End If
+Quit method crossReference

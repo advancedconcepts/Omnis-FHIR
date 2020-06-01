@@ -1,0 +1,50 @@
+Do inherited
+Calculate description as pValue.$description()
+Do note.$clear()
+Calculate list as pValue.$note()
+Do note.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate statisticType as pValue.$statisticType()
+Calculate quantity as pValue.$quantity()
+Calculate sampleSize as pValue.$sampleSize()
+Calculate sampleSize.description as pValue.$sampleSize.description()
+Do sampleSize.note.$clear()
+Calculate list as pValue.$sampleSize.note()
+Do sampleSize.note.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate sampleSize.numberOfStudies as pValue.$sampleSize.numberOfStudies()
+Calculate sampleSize.numberOfParticipants as pValue.$sampleSize.numberOfParticipants()
+Calculate sampleSize.knownDataCount as pValue.$sampleSize.knownDataCount()
+Calculate sampleSize.numeratorCount as pValue.$sampleSize.numeratorCount()
+Do attributeEstimate.$clear()
+Calculate list as pValue.$attributeEstimate()
+Do attributeEstimate.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate attributeEstimate.description as pValue.$attributeEstimate.description()
+Do attributeEstimate.note.$clear()
+Calculate list as pValue.$attributeEstimate.note()
+Do attributeEstimate.note.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate attributeEstimate.type as pValue.$attributeEstimate.type()
+Calculate attributeEstimate.quantity as pValue.$attributeEstimate.quantity()
+Calculate attributeEstimate.level as pValue.$attributeEstimate.level()
+Calculate attributeEstimate.range as pValue.$attributeEstimate.range()
+Do attributeEstimate.estimateQualifier.$clear()
+Calculate list as pValue.$attributeEstimate.estimateQualifier()
+Do attributeEstimate.estimateQualifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate attributeEstimate.estimateQualifier.description as pValue.$attributeEstimate.estimateQualifier.description()
+Do attributeEstimate.estimateQualifier.note.$clear()
+Calculate list as pValue.$attributeEstimate.estimateQualifier.note()
+Do attributeEstimate.estimateQualifier.note.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate attributeEstimate.estimateQualifier.type as pValue.$attributeEstimate.estimateQualifier.type()
+Calculate attributeEstimate.estimateQualifier.quantity as pValue.$attributeEstimate.estimateQualifier.quantity()
+Calculate attributeEstimate.estimateQualifier.level as pValue.$attributeEstimate.estimateQualifier.level()
+Calculate attributeEstimate.estimateQualifier.range as pValue.$attributeEstimate.estimateQualifier.range()

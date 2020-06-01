@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$retired",
+		"ident": 0,
+		"order": 1,
+		"desc": "Children in the foster care have all copays and deductibles waived.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$foster",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

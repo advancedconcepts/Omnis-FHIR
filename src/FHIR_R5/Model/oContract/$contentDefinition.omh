@@ -1,0 +1,4 @@
+If contentDefinition.$validref()=kFalse
+	Calculate contentDefinition as $clib.$classes.oContractContentDefinition.$newref()
+End If
+Quit method contentDefinition

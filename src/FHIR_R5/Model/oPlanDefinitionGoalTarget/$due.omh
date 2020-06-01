@@ -1,0 +1,4 @@
+If due.$validref()=kFalse
+	Calculate due as $clib.$classes.oDuration.$newref()
+End If
+Quit method due

@@ -1,0 +1,4 @@
+Do inherited
+Do type.$define(type_)
+Do communicationMethod.$define(communicationMethod_)
+Do pushTypeAvailable.$define(pushTypeAvailable_)

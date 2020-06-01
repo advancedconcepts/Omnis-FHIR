@@ -1,0 +1,4 @@
+If series.$validref()=kFalse
+	Calculate series as $clib.$classes.oImagingStudySeries.$newref()
+End If
+Quit method series

@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("uri","uri",0,"1",21,"canonical")
+Do pElements.$add("version","::version",0,"-1",38,"")
+Do pElements.$add("subsumption","subsumption",0,"1",22,"boolean")

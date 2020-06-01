@@ -1,0 +1,157 @@
+[
+	{
+		"name": "$candidate",
+		"ident": 0,
+		"order": 1,
+		"desc": "A person that has met the eligibility criteria for inclusion in a study.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$eligible",
+		"ident": 1,
+		"order": 2,
+		"desc": "A person is no longer receiving study intervention and/or being evaluated with tests and procedures according to the protocol, but they are being monitored on a protocol-prescribed schedule.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$follow-up",
+		"ident": 2,
+		"order": 3,
+		"desc": "A person who did not meet one or more criteria required for participation in a study is considered to have failed screening or\nis ineligible for the study.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ineligible",
+		"ident": 3,
+		"order": 4,
+		"desc": "A person for whom registration was not completed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$not-registered",
+		"ident": 4,
+		"order": 5,
+		"desc": "A person that has ended their participation on a study either because their treatment/observation is complete or through not\nresponding, withdrawal, non-compliance and/or adverse event.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$off-study",
+		"ident": 5,
+		"order": 6,
+		"desc": "A person that is enrolled or registered on a study.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$on-study",
+		"ident": 6,
+		"order": 7,
+		"desc": "The person is receiving the treatment or participating in an activity (e.g. yoga, diet, etc.) that the study is evaluating.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$on-study-intervention",
+		"ident": 7,
+		"order": 8,
+		"desc": "The subject is being evaluated via tests and assessments according to the study calendar, but is not receiving any intervention. Note that this state is study-dependent and might not exist in all studies.  A synonym for this is \"short-term follow-up\".",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$on-study-observation",
+		"ident": 8,
+		"order": 9,
+		"desc": "A person is pre-registered for a study.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$pending-on-study",
+		"ident": 9,
+		"order": 10,
+		"desc": "A person that is potentially eligible for participation in the study.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$potential-candidate",
+		"ident": 10,
+		"order": 11,
+		"desc": "A person who is being evaluated for eligibility for a study.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$screening",
+		"ident": 11,
+		"order": 12,
+		"desc": "The person has withdrawn their participation in the study before registration.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$withdrawn",
+		"ident": 12,
+		"order": 13,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

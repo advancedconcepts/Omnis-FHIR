@@ -1,0 +1,6 @@
+Do inherited
+Calculate system as pValue.$system()
+Calculate value as pValue.$value()
+Calculate use as pValue.$use()
+Calculate rank as pValue.$rank()
+Calculate period as pValue.$period()

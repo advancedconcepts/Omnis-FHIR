@@ -1,0 +1,187 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "attestation",
+			"order": 17,
+			"type": "kObjectref",
+			"subtype": "oVerificationResultAttestation",
+			"sublen": 0,
+			"desc": "Information about the entity attesting to information."
+		},
+		{
+			"name": "failureAction",
+			"order": 14,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The result if validation fails (fatal; warning; record only; none)."
+		},
+		{
+			"name": "frequency",
+			"order": 11,
+			"type": "kObjectref",
+			"subtype": "oTiming",
+			"sublen": 0,
+			"desc": "Frequency of revalidation."
+		},
+		{
+			"name": "lastPerformed",
+			"order": 12,
+			"type": "kDate",
+			"subtype": "kDatetime",
+			"sublen": 0,
+			"desc": "The date/time validation was last completed (including failed validations)."
+		},
+		{
+			"name": "need",
+			"order": 5,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The frequency with which the target must be validated (none; initial; periodic)."
+		},
+		{
+			"name": "nextScheduled",
+			"order": 13,
+			"type": "kDate",
+			"subtype": "kDate2000",
+			"sublen": 0,
+			"desc": "The date when target is next validated, if appropriate."
+		},
+		{
+			"name": "primarySource",
+			"order": 15,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "primarySource_",
+			"order": 16,
+			"type": "kObjectref",
+			"subtype": "oVerificationResultPrimarySource",
+			"sublen": 0,
+			"desc": "Information about the primary source(s) involved in validation."
+		},
+		{
+			"name": "status",
+			"order": 6,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The validation status of the target (attested; validated; in process; requires revalidation; validation failed; revalidation failed)."
+		},
+		{
+			"name": "statusDate",
+			"order": 7,
+			"type": "kDate",
+			"subtype": "kDatetime",
+			"sublen": 0,
+			"desc": "When the validation status was updated."
+		},
+		{
+			"name": "target",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "targetLocation",
+			"order": 3,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "targetLocation_",
+			"order": 4,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The fhirpath location(s) within the resource that was validated."
+		},
+		{
+			"name": "target_",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "A resource that was validated."
+		},
+		{
+			"name": "validationProcess",
+			"order": 9,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "validationProcess_",
+			"order": 10,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The primary process by which the target is validated (edit check; value set; primary source; multiple sources; standalone; in context)."
+		},
+		{
+			"name": "validationType",
+			"order": 8,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "What the target is validated against (nothing; primary source; multiple sources)."
+		},
+		{
+			"name": "validator",
+			"order": 18,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "validator_",
+			"order": 19,
+			"type": "kObjectref",
+			"subtype": "oVerificationResultValidator",
+			"sublen": 0,
+			"desc": "Information about the entity validating information."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:42:00",
+		"desc": "Describes validation requirements, source(s), status and dates for one or more elements.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:25",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

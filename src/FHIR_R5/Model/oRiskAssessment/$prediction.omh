@@ -1,0 +1,4 @@
+If prediction.$validref()=kFalse
+	Calculate prediction as $clib.$classes.oRiskAssessmentPrediction.$newref()
+End If
+Quit method prediction

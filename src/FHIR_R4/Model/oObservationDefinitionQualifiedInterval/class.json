@@ -1,0 +1,111 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "age",
+			"order": 7,
+			"type": "kObjectref",
+			"subtype": "oRange",
+			"sublen": 0,
+			"desc": "The age at which this reference range is applicable. This is a neonatal age (e.g. number of weeks at term) if the meaning says so."
+		},
+		{
+			"name": "appliesTo",
+			"order": 4,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "appliesTo_",
+			"order": 5,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Codes to indicate the target population this reference range applies to."
+		},
+		{
+			"name": "category",
+			"order": 1,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The category of interval of values for continuous or ordinal observations conforming to this ObservationDefinition."
+		},
+		{
+			"name": "condition",
+			"order": 9,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Text based condition for which the reference range is valid."
+		},
+		{
+			"name": "context",
+			"order": 3,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Codes to indicate the health context the range applies to. For example, the normal or therapeutic range."
+		},
+		{
+			"name": "gender",
+			"order": 6,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Sex of the population the range applies to."
+		},
+		{
+			"name": "gestationalAge",
+			"order": 8,
+			"type": "kObjectref",
+			"subtype": "oRange",
+			"sublen": 0,
+			"desc": "The gestational age to which this reference range is applicable, in the context of pregnancy."
+		},
+		{
+			"name": "range",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oRange",
+			"sublen": 0,
+			"desc": "The low and high values determining the interval. There may be only one of the two."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:41:50",
+		"desc": "Multiple  ranges of results qualified by different contexts for ordinal or continuous observations conforming to this ObservationDefinition.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:25",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

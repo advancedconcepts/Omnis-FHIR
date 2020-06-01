@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("lockedDate","lockedDate",0,"1",23,"date")
+Do pElements.$add("inactive","inactive",0,"1",22,"boolean")
+Do pElements.$add("include","include",1,"-1",38,"")

@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$test-engine",
+		"ident": 0,
+		"order": 1,
+		"desc": "A FHIR Client",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$client",
+		"ident": 1,
+		"order": 2,
+		"desc": "A FHIR Server",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$server",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

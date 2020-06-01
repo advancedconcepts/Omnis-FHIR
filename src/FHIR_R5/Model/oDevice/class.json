@@ -1,0 +1,318 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "contact",
+			"order": 28,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "contact_",
+			"order": 29,
+			"type": "kObjectref",
+			"subtype": "oContactPoint",
+			"sublen": 0,
+			"desc": "Contact details for an organization or a particular human that is responsible for the device."
+		},
+		{
+			"name": "definition",
+			"order": 3,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The reference to the definition for the device."
+		},
+		{
+			"name": "deviceName",
+			"order": 15,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "deviceName_",
+			"order": 16,
+			"type": "kObjectref",
+			"subtype": "oDeviceDeviceName",
+			"sublen": 0,
+			"desc": "This represents the manufacturer's name of the device as provided by the device, from a UDI label, or by a person describing the Device.  This typically would be used when a person provides the name(s) or when the device represents one of the names availa"
+		},
+		{
+			"name": "distinctIdentifier",
+			"order": 9,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The distinct identification string as required by regulation for a human cell, tissue, or cellular and tissue-based product."
+		},
+		{
+			"name": "expirationDate",
+			"order": 12,
+			"type": "kDate",
+			"subtype": "kDatetime",
+			"sublen": 0,
+			"desc": "The date and time beyond which this device is no longer valid or should not be used (if applicable)."
+		},
+		{
+			"name": "identifier",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "identifier_",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "Unique instance identifiers assigned to a device by manufacturers other organizations or owners."
+		},
+		{
+			"name": "location",
+			"order": 30,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The place where the device can be found."
+		},
+		{
+			"name": "lotNumber",
+			"order": 13,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Lot number assigned by the manufacturer."
+		},
+		{
+			"name": "manufactureDate",
+			"order": 11,
+			"type": "kDate",
+			"subtype": "kDatetime",
+			"sublen": 0,
+			"desc": "The date and time when the device was manufactured."
+		},
+		{
+			"name": "manufacturer",
+			"order": 10,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A name of the manufacturer."
+		},
+		{
+			"name": "modelNumber",
+			"order": 17,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The manufacturer's model number for the device."
+		},
+		{
+			"name": "note",
+			"order": 32,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "note_",
+			"order": 33,
+			"type": "kObjectref",
+			"subtype": "oAnnotation",
+			"sublen": 0,
+			"desc": "Descriptive information, usage information or implantation information that is not captured in an existing element."
+		},
+		{
+			"name": "owner",
+			"order": 27,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "An organization that is responsible for the provision and ongoing maintenance of the device."
+		},
+		{
+			"name": "parent",
+			"order": 36,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The device that this device is attached to or is part of."
+		},
+		{
+			"name": "partNumber",
+			"order": 18,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The part number or catalog number of the device."
+		},
+		{
+			"name": "patient",
+			"order": 26,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Patient information, If the device is affixed to a person."
+		},
+		{
+			"name": "property",
+			"order": 24,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "property_",
+			"order": 25,
+			"type": "kObjectref",
+			"subtype": "oDeviceProperty",
+			"sublen": 0,
+			"desc": "The actual configuration settings of a device as it actually operates, e.g., regulation status, time properties."
+		},
+		{
+			"name": "safety",
+			"order": 34,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "safety_",
+			"order": 35,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Provides additional safety characteristics about a medical device.  For example devices containing latex."
+		},
+		{
+			"name": "serialNumber",
+			"order": 14,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The serial number assigned by the organization when the device was manufactured."
+		},
+		{
+			"name": "specialization",
+			"order": 20,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "specialization_",
+			"order": 21,
+			"type": "kObjectref",
+			"subtype": "oDeviceSpecialization",
+			"sublen": 0,
+			"desc": "The capabilities supported on a  device, the standards to which the device conforms for a particular purpose, and used for the communication."
+		},
+		{
+			"name": "status",
+			"order": 6,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Status of the Device availability."
+		},
+		{
+			"name": "statusReason",
+			"order": 7,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "statusReason_",
+			"order": 8,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Reason for the dtatus of the Device availability."
+		},
+		{
+			"name": "type",
+			"order": 19,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The kind or type of device."
+		},
+		{
+			"name": "udiCarrier",
+			"order": 4,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "udiCarrier_",
+			"order": 5,
+			"type": "kObjectref",
+			"subtype": "oDeviceUdiCarrier",
+			"sublen": 0,
+			"desc": "Unique device identifier (UDI) assigned to device label or package.  Note that the Device may include multiple udiCarriers as it either may include just the udiCarrier for the jurisdiction it is sold, or for multiple jurisdictions it could have been sold."
+		},
+		{
+			"name": "url",
+			"order": 31,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A network address on which the device may be contacted directly."
+		},
+		{
+			"name": "version",
+			"order": 22,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "version_",
+			"order": 23,
+			"type": "kObjectref",
+			"subtype": "oDeviceVersion",
+			"sublen": 0,
+			"desc": "The actual design of the device or software version running on the device."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:44:45",
+		"desc": "A type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity. The device may be a medical or non-medical device.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:27",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

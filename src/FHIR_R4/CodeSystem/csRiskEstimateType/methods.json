@@ -1,0 +1,73 @@
+[
+	{
+		"name": "$proportion",
+		"ident": 0,
+		"order": 1,
+		"desc": "A special use case where the proportion is derived from a formula rather than derived from summary evidence.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$derivedProportion",
+		"ident": 1,
+		"order": 2,
+		"desc": "continuous numerical measure reported as an average.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$mean",
+		"ident": 2,
+		"order": 3,
+		"desc": "continuous numerical measure reported as the middle of the range.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$median",
+		"ident": 3,
+		"order": 4,
+		"desc": "descriptive measure reported as total number of items.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$count",
+		"ident": 4,
+		"order": 5,
+		"desc": "descriptive measure reported as narrative.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$descriptive",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

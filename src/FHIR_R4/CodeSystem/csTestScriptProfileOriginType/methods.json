@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$FHIR-Client",
+		"ident": 0,
+		"order": 1,
+		"desc": "A FHIR client acting as a Structured Data Capture Form Filler.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$FHIR-SDC-FormFiller",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

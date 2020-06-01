@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$queued",
+		"ident": 0,
+		"order": 1,
+		"desc": "The message has been delivered to its intended recipient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$delivered",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

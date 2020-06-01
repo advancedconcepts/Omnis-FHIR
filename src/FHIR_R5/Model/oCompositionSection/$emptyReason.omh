@@ -1,0 +1,4 @@
+If emptyReason.$validref()=kFalse
+	Calculate emptyReason as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method emptyReason

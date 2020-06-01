@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$active",
+		"ident": 0,
+		"order": 1,
+		"desc": "The subject is no longer experiencing the symptoms of the condition or there is no longer evidence of the condition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$inactive",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

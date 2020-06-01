@@ -1,0 +1,61 @@
+[
+	{
+		"name": "$invalid",
+		"ident": 0,
+		"order": 1,
+		"desc": "An authentication/authorization/permissions issue of some kind.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$security",
+		"ident": 1,
+		"order": 2,
+		"desc": "Processing issues. These are expected to be final e.g. there is no point resubmitting the same content unchanged.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$processing",
+		"ident": 2,
+		"order": 3,
+		"desc": "Transient processing issues. The system receiving the message may be able to resubmit the same content once an underlying issue is resolved.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$transient",
+		"ident": 3,
+		"order": 4,
+		"desc": "A message unrelated to the processing success of the completed operation (examples of the latter include things like reminders of password expiry, system maintenance times, etc.).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$informational",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

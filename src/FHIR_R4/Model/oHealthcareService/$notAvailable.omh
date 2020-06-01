@@ -1,0 +1,4 @@
+If notAvailable.$validref()=kFalse
+	Calculate notAvailable as $clib.$classes.oHealthcareServiceNotAvailable.$newref()
+End If
+Quit method notAvailable

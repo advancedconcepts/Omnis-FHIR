@@ -1,0 +1,17 @@
+Do inherited
+Calculate subunit as pValue.$subunit()
+Calculate sequence as pValue.$sequence()
+Calculate length as pValue.$length()
+Calculate sequenceAttachment as pValue.$sequenceAttachment()
+Calculate fivePrime as pValue.$fivePrime()
+Calculate threePrime as pValue.$threePrime()
+Do linkage.$clear()
+Calculate list as pValue.$linkage()
+Do linkage.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do sugar.$clear()
+Calculate list as pValue.$sugar()
+Do sugar.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

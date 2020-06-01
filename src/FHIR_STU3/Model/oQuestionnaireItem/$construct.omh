@@ -1,0 +1,4 @@
+Do inherited
+Do code.$define(code_)
+Do enableWhen.$define(enableWhen_)
+Do option.$define(option_)

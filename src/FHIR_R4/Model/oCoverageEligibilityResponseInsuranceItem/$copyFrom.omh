@@ -1,0 +1,27 @@
+Do inherited
+Calculate category as pValue.$category()
+Calculate productOrService as pValue.$productOrService()
+Do modifier.$clear()
+Calculate list as pValue.$modifier()
+Do modifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate provider as pValue.$provider()
+Calculate excluded as pValue.$excluded()
+Calculate name as pValue.$name()
+Calculate description as pValue.$description()
+Calculate network as pValue.$network()
+Calculate unit as pValue.$unit()
+Calculate term as pValue.$term()
+Do benefit.$clear()
+Calculate list as pValue.$benefit()
+Do benefit.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate authorizationRequired as pValue.$authorizationRequired()
+Do authorizationSupporting.$clear()
+Calculate list as pValue.$authorizationSupporting()
+Do authorizationSupporting.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate authorizationUrl as pValue.$authorizationUrl()

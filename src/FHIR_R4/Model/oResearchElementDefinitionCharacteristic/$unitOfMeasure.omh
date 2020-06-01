@@ -1,0 +1,4 @@
+If unitOfMeasure.$validref()=kFalse
+	Calculate unitOfMeasure as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method unitOfMeasure

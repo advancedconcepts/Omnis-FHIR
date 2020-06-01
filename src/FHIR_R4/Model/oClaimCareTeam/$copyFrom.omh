@@ -1,0 +1,6 @@
+Do inherited
+Calculate sequence as pValue.$sequence()
+Calculate provider as pValue.$provider()
+Calculate responsible as pValue.$responsible()
+Calculate role as pValue.$role()
+Calculate qualification as pValue.$qualification()

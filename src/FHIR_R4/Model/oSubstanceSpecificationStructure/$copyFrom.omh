@@ -1,0 +1,20 @@
+Do inherited
+Calculate stereochemistry as pValue.$stereochemistry()
+Calculate opticalActivity as pValue.$opticalActivity()
+Calculate molecularFormula as pValue.$molecularFormula()
+Calculate molecularFormulaByMoiety as pValue.$molecularFormulaByMoiety()
+Do isotope.$clear()
+Calculate list as pValue.$isotope()
+Do isotope.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do source.$clear()
+Calculate list as pValue.$source()
+Do source.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do representation.$clear()
+Calculate list as pValue.$representation()
+Do representation.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

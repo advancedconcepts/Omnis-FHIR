@@ -1,0 +1,13 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do basedOn.$define(basedOn_)
+Do replaces.$define(replaces_)
+Do category.$define(category_)
+Do medium.$define(medium_)
+Do about.$define(about_)
+Do payload.$define(payload_)
+Do recipient.$define(recipient_)
+Do informationProvider.$define(informationProvider_)
+Do reasonCode.$define(reasonCode_)
+Do reasonReference.$define(reasonReference_)
+Do note.$define(note_)

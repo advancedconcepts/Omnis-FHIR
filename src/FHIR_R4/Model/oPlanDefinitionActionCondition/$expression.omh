@@ -1,0 +1,4 @@
+If expression.$validref()=kFalse
+	Calculate expression as $clib.$classes.oExpression.$newref()
+End If
+Quit method expression

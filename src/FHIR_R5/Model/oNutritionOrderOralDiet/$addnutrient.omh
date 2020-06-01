@@ -1,0 +1,6 @@
+Calculate objRef as $clib.$classes.oNutritionOrderOralDietNutrient.$newref()
+Do nutrient.$add(objRef)
+If pValue.$validref()
+	Do objRef.$copyFrom(pValue)
+End If
+Quit method objRef

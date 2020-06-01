@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$translator",
+		"ident": 0,
+		"order": 1,
+		"desc": "A person to be contacted in case of an emergency during the encounter.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$emergency",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

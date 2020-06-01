@@ -1,0 +1,73 @@
+[
+	{
+		"name": "$any",
+		"ident": 0,
+		"order": 1,
+		"desc": "All the actions in the group must be selected as a single unit",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$all",
+		"ident": 1,
+		"order": 2,
+		"desc": "All the actions in the group are meant to be chosen as a single unit: either all must be selected by the end user, or none may be selected",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$all-or-none",
+		"ident": 2,
+		"order": 3,
+		"desc": "The end user must choose one and only one of the selectable actions in the group. The user may not choose none of the actions in the group",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$exactly-one",
+		"ident": 3,
+		"order": 4,
+		"desc": "The end user may choose zero or at most one of the actions in the group",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$at-most-one",
+		"ident": 4,
+		"order": 5,
+		"desc": "The end user must choose a minimum of one, and as many additional as desired",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$one-or-more",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

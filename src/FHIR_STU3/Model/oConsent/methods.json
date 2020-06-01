@@ -1,0 +1,675 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$identifier",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: Unique identifier for this copy of the Consent Statement.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$identifier.$assign",
+		"ident": 6,
+		"order": 7,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Unique identifier for this copy of the Consent Statement."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$status",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: Indicates the current state of this consent.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$status.$assign",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Indicates the current state of this consent."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$category",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: A classification of the type of consents found in the statement. This element supports indexing and retrieval of consent statements.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcategory",
+		"ident": 10,
+		"order": 11,
+		"desc": "A classification of the type of consents found in the statement. This element supports indexing and retrieval of consent statements.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "A classification of the type of consents found in the statement. This element supports indexing and retrieval of consent statements."
+			}
+		]
+	},
+	{
+		"name": "$patient",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: The patient/healthcare consumer to whom this consent applies.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$patient.$assign",
+		"ident": 12,
+		"order": 13,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The patient/healthcare consumer to whom this consent applies."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$period",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: Relevant time or time-period when this Consent is applicable.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$period.$assign",
+		"ident": 14,
+		"order": 15,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oPeriod",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Relevant time or time-period when this Consent is applicable."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$dateTime",
+		"ident": 15,
+		"order": 16,
+		"desc": "Returns: When this  Consent was issued / created / indexed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$dateTime.$assign",
+		"ident": 16,
+		"order": 17,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kDate",
+				"subtype": "kDatetime",
+				"sublen": 0,
+				"param": 1,
+				"desc": "When this  Consent was issued / created / indexed."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$consentingParty",
+		"ident": 17,
+		"order": 18,
+		"desc": "Returns: Either the Grantor, which is the entity responsible for granting the rights listed in a Consent Directive or the Grantee, which is the entity responsible for complying with the Consent Directive, including any obligations or limitations on authorizations and enforcement of prohibitions.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addconsentingParty",
+		"ident": 18,
+		"order": 19,
+		"desc": "Either the Grantor, which is the entity responsible for granting the rights listed in a Consent Directive or the Grantee, which is the entity responsible for complying with the Consent Directive, including any obligations or limitations on authorizations and enforcement of prohibitions.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Either the Grantor, which is the entity responsible for granting the rights listed in a Consent Directive or the Grantee, which is the entity responsible for complying with the Consent Directive, including any obligations or limitations on authorizations "
+			}
+		]
+	},
+	{
+		"name": "$actor",
+		"ident": 19,
+		"order": 20,
+		"desc": "Returns: Who or what is controlled by this consent. Use group to identify a set of actors by some property they share (e.g. 'admitting officers').",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addactor",
+		"ident": 20,
+		"order": 21,
+		"desc": "Who or what is controlled by this consent. Use group to identify a set of actors by some property they share (e.g. 'admitting officers').",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oConsentActor",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oConsentActor",
+				"sublen": 0,
+				"desc": "Who or what is controlled by this consent. Use group to identify a set of actors by some property they share (e.g. 'admitting officers')."
+			}
+		]
+	},
+	{
+		"name": "$action",
+		"ident": 21,
+		"order": 22,
+		"desc": "Returns: Actions controlled by this consent.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addaction",
+		"ident": 22,
+		"order": 23,
+		"desc": "Actions controlled by this consent.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Actions controlled by this consent."
+			}
+		]
+	},
+	{
+		"name": "$organization",
+		"ident": 23,
+		"order": 24,
+		"desc": "Returns: The organization that manages the consent, and the framework within which it is executed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addorganization",
+		"ident": 24,
+		"order": 25,
+		"desc": "The organization that manages the consent, and the framework within which it is executed.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "The organization that manages the consent, and the framework within which it is executed."
+			}
+		]
+	},
+	{
+		"name": "$policy",
+		"ident": 25,
+		"order": 26,
+		"desc": "Returns: The references to the policies that are included in this consent scope. Policies may be organizational, but are often defined jurisdictionally, or in law.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addpolicy",
+		"ident": 26,
+		"order": 27,
+		"desc": "The references to the policies that are included in this consent scope. Policies may be organizational, but are often defined jurisdictionally, or in law.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oConsentPolicy",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oConsentPolicy",
+				"sublen": 0,
+				"desc": "The references to the policies that are included in this consent scope. Policies may be organizational, but are often defined jurisdictionally, or in law."
+			}
+		]
+	},
+	{
+		"name": "$policyRule",
+		"ident": 27,
+		"order": 28,
+		"desc": "Returns: A referece to the specific computable policy.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$policyRule.$assign",
+		"ident": 28,
+		"order": 29,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A referece to the specific computable policy."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$securityLabel",
+		"ident": 29,
+		"order": 30,
+		"desc": "Returns: A set of security labels that define which resources are controlled by this consent. If more than one label is specified, all resources must have all the specified labels.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addsecurityLabel",
+		"ident": 30,
+		"order": 31,
+		"desc": "A set of security labels that define which resources are controlled by this consent. If more than one label is specified, all resources must have all the specified labels.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCoding",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCoding",
+				"sublen": 0,
+				"desc": "A set of security labels that define which resources are controlled by this consent. If more than one label is specified, all resources must have all the specified labels."
+			}
+		]
+	},
+	{
+		"name": "$purpose",
+		"ident": 31,
+		"order": 32,
+		"desc": "Returns: The context of the activities a user is taking - why the user is accessing the data - that are controlled by this consent.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addpurpose",
+		"ident": 32,
+		"order": 33,
+		"desc": "The context of the activities a user is taking - why the user is accessing the data - that are controlled by this consent.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCoding",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCoding",
+				"sublen": 0,
+				"desc": "The context of the activities a user is taking - why the user is accessing the data - that are controlled by this consent."
+			}
+		]
+	},
+	{
+		"name": "$dataPeriod",
+		"ident": 33,
+		"order": 34,
+		"desc": "Returns: Clinical or Operational Relevant period of time that bounds the data controlled by this consent.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$dataPeriod.$assign",
+		"ident": 34,
+		"order": 35,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oPeriod",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Clinical or Operational Relevant period of time that bounds the data controlled by this consent."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$data",
+		"ident": 35,
+		"order": 36,
+		"desc": "Returns: The resources controlled by this consent, if specific resources are referenced.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$adddata",
+		"ident": 36,
+		"order": 37,
+		"desc": "The resources controlled by this consent, if specific resources are referenced.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oConsentData",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oConsentData",
+				"sublen": 0,
+				"desc": "The resources controlled by this consent, if specific resources are referenced."
+			}
+		]
+	},
+	{
+		"name": "$except",
+		"ident": 37,
+		"order": 38,
+		"desc": "Returns: An exception to the base policy of this consent. An exception can be an addition or removal of access permissions.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addexcept",
+		"ident": 38,
+		"order": 39,
+		"desc": "An exception to the base policy of this consent. An exception can be an addition or removal of access permissions.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oConsentExcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oConsentExcept",
+				"sublen": 0,
+				"desc": "An exception to the base policy of this consent. An exception can be an addition or removal of access permissions."
+			}
+		]
+	}
+]

@@ -1,0 +1,5 @@
+Do inherited
+Calculate collector as pValue.$collector()
+Calculate quantity as pValue.$quantity()
+Calculate method as pValue.$method()
+Calculate bodySite as pValue.$bodySite()

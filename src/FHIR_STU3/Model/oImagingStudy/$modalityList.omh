@@ -1,0 +1,4 @@
+If modalityList.$validref()=kFalse
+	Calculate modalityList as $clib.$classes.oCoding.$newref()
+End If
+Quit method modalityList

@@ -1,0 +1,4 @@
+If severity.$validref()=kFalse
+	Calculate severity as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method severity

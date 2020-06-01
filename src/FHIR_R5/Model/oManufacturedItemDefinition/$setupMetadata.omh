@@ -1,0 +1,7 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"-1",38,"Identifier")
+Do pElements.$add("manufacturedDoseForm","manufacturedDoseForm",1,"1",38,"CodeableConcept")
+Do pElements.$add("unitOfPresentation","unitOfPresentation",0,"1",38,"CodeableConcept")
+Do pElements.$add("manufacturer","manufacturer",0,"-1",38,"Reference")
+Do pElements.$add("ingredient","ingredient",0,"-1",38,"Reference")
+Do pElements.$add("characteristic","characteristic",0,"-1",38,"")

@@ -1,0 +1,11 @@
+Do inherited
+Calculate sequence as pValue.$sequence()
+Calculate focal as pValue.$focal()
+Calculate coverage as pValue.$coverage()
+Calculate businessArrangement as pValue.$businessArrangement()
+Do preAuthRef.$clear()
+Calculate list as pValue.$preAuthRef()
+Do preAuthRef.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate claimResponse as pValue.$claimResponse()

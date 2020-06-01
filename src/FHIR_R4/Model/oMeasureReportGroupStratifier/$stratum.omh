@@ -1,0 +1,4 @@
+If stratum.$validref()=kFalse
+	Calculate stratum as $clib.$classes.oMeasureReportGroupStratifierStratum.$newref()
+End If
+Quit method stratum

@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$Consequence",
+		"ident": 0,
+		"order": 1,
+		"desc": "The message represents a response to query for current information. Retrospective processing is wrong and/or wasteful.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Currency",
+		"ident": 1,
+		"order": 2,
+		"desc": "The content is not necessarily intended to be current, and it can be reprocessed, though there may be version issues created by processing old notifications.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Notification",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

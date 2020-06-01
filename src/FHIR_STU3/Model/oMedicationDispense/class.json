@@ -1,0 +1,286 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "authorizingPrescription",
+			"order": 13,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "authorizingPrescription_",
+			"order": 14,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Indicates the medication order that is being dispensed against."
+		},
+		{
+			"name": "category",
+			"order": 6,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Indicates type of medication dispense and where the medication is expected to be consumed or administered."
+		},
+		{
+			"name": "context",
+			"order": 8,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The encounter or episode of care that establishes the context for this event."
+		},
+		{
+			"name": "daysSupply",
+			"order": 17,
+			"type": "kObjectref",
+			"subtype": "oQuantity",
+			"sublen": 0,
+			"desc": "The amount of medication expressed as a timing amount."
+		},
+		{
+			"name": "destination",
+			"order": 20,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Identification of the facility/location where the medication was shipped to, as part of the dispense event."
+		},
+		{
+			"name": "detectedIssue",
+			"order": 28,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "detectedIssue_",
+			"order": 29,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Indicates an actual or potential clinical issue with or between one or more active or proposed clinical actions for a patient; e.g. Drug-drug interaction, duplicate therapy, dosage alert etc."
+		},
+		{
+			"name": "dosageInstruction",
+			"order": 25,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "dosageInstruction_",
+			"order": 26,
+			"type": "kObjectref",
+			"subtype": "oDosage",
+			"sublen": 0,
+			"desc": "Indicates how the medication is to be used by the patient."
+		},
+		{
+			"name": "eventHistory",
+			"order": 31,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "eventHistory_",
+			"order": 32,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "A summary of the events of interest that have occurred, such as when the dispense was verified."
+		},
+		{
+			"name": "identifier",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "identifier_",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "Identifier assigned by the dispensing facility - this is an identifier assigned outside FHIR."
+		},
+		{
+			"name": "notDone",
+			"order": 30,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "True if the dispense was not performed for some reason."
+		},
+		{
+			"name": "note",
+			"order": 23,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "note_",
+			"order": 24,
+			"type": "kObjectref",
+			"subtype": "oAnnotation",
+			"sublen": 0,
+			"desc": "Extra information about the dispense that could not be conveyed in the other attributes."
+		},
+		{
+			"name": "partOf",
+			"order": 3,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "partOf_",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The procedure that the dispense is done because of."
+		},
+		{
+			"name": "performer",
+			"order": 11,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "performer_",
+			"order": 12,
+			"type": "kObjectref",
+			"subtype": "oMedicationDispensePerformer",
+			"sublen": 0,
+			"desc": "Indicates who or what performed the event.  It should be assumed that the performer is the dispenser of the medication."
+		},
+		{
+			"name": "quantity",
+			"order": 16,
+			"type": "kObjectref",
+			"subtype": "oQuantity",
+			"sublen": 0,
+			"desc": "The amount of medication that has been dispensed. Includes unit of measure."
+		},
+		{
+			"name": "receiver",
+			"order": 21,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "receiver_",
+			"order": 22,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Identifies the person who picked up the medication.  This will usually be a patient or their caregiver, but some cases exist where it can be a healthcare professional."
+		},
+		{
+			"name": "status",
+			"order": 5,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A code specifying the state of the set of dispense events."
+		},
+		{
+			"name": "subject",
+			"order": 7,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "A link to a resource representing the person or the group to whom the medication will be given."
+		},
+		{
+			"name": "substitution",
+			"order": 27,
+			"type": "kObjectref",
+			"subtype": "oMedicationDispenseSubstitution",
+			"sublen": 0,
+			"desc": "Indicates whether or not substitution was made as part of the dispense.  In some cases substitution will be expected but does not happen, in other cases substitution is not expected but does happen.  This block explains what substitution did or did not ha"
+		},
+		{
+			"name": "supportingInformation",
+			"order": 9,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "supportingInformation_",
+			"order": 10,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Additional information that supports the medication being dispensed."
+		},
+		{
+			"name": "type",
+			"order": 15,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Indicates the type of dispensing event that is performed. For example, Trial Fill, Completion of Trial, Partial Fill, Emergency Fill, Samples, etc."
+		},
+		{
+			"name": "whenHandedOver",
+			"order": 19,
+			"type": "kDate",
+			"subtype": "kDatetime",
+			"sublen": 0,
+			"desc": "The time the dispensed product was provided to the patient or their representative."
+		},
+		{
+			"name": "whenPrepared",
+			"order": 18,
+			"type": "kDate",
+			"subtype": "kDatetime",
+			"sublen": 0,
+			"desc": "The time when the dispensed product was packaged and reviewed."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:40:05",
+		"desc": "Base StructureDefinition for MedicationDispense Resource",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:26",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

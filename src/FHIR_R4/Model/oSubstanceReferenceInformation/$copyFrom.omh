@@ -1,0 +1,22 @@
+Do inherited
+Calculate comment as pValue.$comment()
+Do gene.$clear()
+Calculate list as pValue.$gene()
+Do gene.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do geneElement.$clear()
+Calculate list as pValue.$geneElement()
+Do geneElement.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do classification.$clear()
+Calculate list as pValue.$classification()
+Do classification.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do target.$clear()
+Calculate list as pValue.$target()
+Do target.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

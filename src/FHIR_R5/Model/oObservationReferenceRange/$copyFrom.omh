@@ -1,0 +1,11 @@
+Do inherited
+Calculate low as pValue.$low()
+Calculate high as pValue.$high()
+Calculate type as pValue.$type()
+Do appliesTo.$clear()
+Calculate list as pValue.$appliesTo()
+Do appliesTo.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate age as pValue.$age()
+Calculate text as pValue.$text()

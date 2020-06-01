@@ -1,0 +1,14 @@
+Do inherited
+Calculate baseFormulaType as pValue.$baseFormulaType()
+Calculate baseFormulaProductName as pValue.$baseFormulaProductName()
+Calculate additiveType as pValue.$additiveType()
+Calculate additiveProductName as pValue.$additiveProductName()
+Calculate caloricDensity as pValue.$caloricDensity()
+Calculate routeofAdministration as pValue.$routeofAdministration()
+Do administration.$clear()
+Calculate list as pValue.$administration()
+Do administration.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate maxVolumeToDeliver as pValue.$maxVolumeToDeliver()
+Calculate administrationInstruction as pValue.$administrationInstruction()

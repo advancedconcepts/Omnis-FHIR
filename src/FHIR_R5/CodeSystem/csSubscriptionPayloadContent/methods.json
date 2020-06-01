@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$empty",
+		"ident": 0,
+		"order": 1,
+		"desc": "Only the resource id is transacted in the notification payload.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$id-only",
+		"ident": 1,
+		"order": 2,
+		"desc": "The entire resource is transacted in the notification payload.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$full-resource",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

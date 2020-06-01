@@ -1,0 +1,39 @@
+Do inherited
+Do vaccineCode.$clear()
+Calculate list as pValue.$vaccineCode()
+Do vaccineCode.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do targetDisease.$clear()
+Calculate list as pValue.$targetDisease()
+Do targetDisease.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do contraindicatedVaccineCode.$clear()
+Calculate list as pValue.$contraindicatedVaccineCode()
+Do contraindicatedVaccineCode.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate forecastStatus as pValue.$forecastStatus()
+Do forecastReason.$clear()
+Calculate list as pValue.$forecastReason()
+Do forecastReason.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do dateCriterion.$clear()
+Calculate list as pValue.$dateCriterion()
+Do dateCriterion.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate description as pValue.$description()
+Calculate series as pValue.$series()
+Do supportingImmunization.$clear()
+Calculate list as pValue.$supportingImmunization()
+Do supportingImmunization.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do supportingPatientInformation.$clear()
+Calculate list as pValue.$supportingPatientInformation()
+Do supportingPatientInformation.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

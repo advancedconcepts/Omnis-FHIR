@@ -1,0 +1,1017 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$url",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: An absolute URI that is used to identify this condition definition when it is referenced in a specification, model, design or an instance; also called its canonical identifier. This SHOULD be globally unique and SHOULD be a literal address at which at which an authoritative instance of this condition definition is (or will be) published. This URL can be the target of a canonical reference. It SHALL remain the same when the condition definition is stored on different servers.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$url.$assign",
+		"ident": 6,
+		"order": 7,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "An absolute URI that is used to identify this condition definition when it is referenced in a specification, model, design or an instance; also called its canonical identifier. This SHOULD be globally unique and SHOULD be a literal address at which at whi"
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$identifier",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: A formal identifier that is used to identify this condition definition when it is represented in other formats, or referenced in a specification, model, design or an instance.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addidentifier",
+		"ident": 8,
+		"order": 9,
+		"desc": "A formal identifier that is used to identify this condition definition when it is represented in other formats, or referenced in a specification, model, design or an instance.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"desc": "A formal identifier that is used to identify this condition definition when it is represented in other formats, or referenced in a specification, model, design or an instance."
+			}
+		]
+	},
+	{
+		"name": "$::version",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: The identifier that is used to identify this version of the condition definition when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the condition definition author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::version.$assign",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The identifier that is used to identify this version of the condition definition when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the condition definition author and is not expected to be globally "
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::name",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: A natural language name identifying the condition definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::name.$assign",
+		"ident": 12,
+		"order": 13,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A natural language name identifying the condition definition. This name should be usable as an identifier for the module by machine processing applications such as code generation."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$title",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: A short, descriptive, user-friendly title for the condition definition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$title.$assign",
+		"ident": 14,
+		"order": 15,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A short, descriptive, user-friendly title for the condition definition."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subtitle",
+		"ident": 15,
+		"order": 16,
+		"desc": "Returns: An explanatory or alternate title for the event definition giving additional information about its content.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subtitle.$assign",
+		"ident": 16,
+		"order": 17,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "An explanatory or alternate title for the event definition giving additional information about its content."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$status",
+		"ident": 17,
+		"order": 18,
+		"desc": "Returns: The status of this condition definition. Enables tracking the life-cycle of the content.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$status.$assign",
+		"ident": 18,
+		"order": 19,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The status of this condition definition. Enables tracking the life-cycle of the content."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$experimental",
+		"ident": 19,
+		"order": 20,
+		"desc": "Returns: A Boolean value to indicate that this condition definition is authored for testing purposes (or education/evaluation/marketing) and is not intended to be used for genuine usage.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$experimental.$assign",
+		"ident": 20,
+		"order": 21,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "A Boolean value to indicate that this condition definition is authored for testing purposes (or education/evaluation/marketing) and is not intended to be used for genuine usage."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$date",
+		"ident": 21,
+		"order": 22,
+		"desc": "Returns: The date  (and optionally time) when the condition definition was published. The date must change when the business version changes and it must change if the status code changes. In addition, it should change when the substantive content of the condition definition changes.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$date.$assign",
+		"ident": 22,
+		"order": 23,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kDate",
+				"subtype": "kDatetime",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The date  (and optionally time) when the condition definition was published. The date must change when the business version changes and it must change if the status code changes. In addition, it should change when the substantive content of the condition "
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$publisher",
+		"ident": 23,
+		"order": 24,
+		"desc": "Returns: The name of the organization or individual that published the condition definition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$publisher.$assign",
+		"ident": 24,
+		"order": 25,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The name of the organization or individual that published the condition definition."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$contact",
+		"ident": 25,
+		"order": 26,
+		"desc": "Returns: Contact details to assist a user in finding and communicating with the publisher.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcontact",
+		"ident": 26,
+		"order": 27,
+		"desc": "Contact details to assist a user in finding and communicating with the publisher.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oContactDetail",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oContactDetail",
+				"sublen": 0,
+				"desc": "Contact details to assist a user in finding and communicating with the publisher."
+			}
+		]
+	},
+	{
+		"name": "$description",
+		"ident": 27,
+		"order": 28,
+		"desc": "Returns: A free text natural language description of the condition definition from a consumer's perspective.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$description.$assign",
+		"ident": 28,
+		"order": 29,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A free text natural language description of the condition definition from a consumer's perspective."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$useContext",
+		"ident": 29,
+		"order": 30,
+		"desc": "Returns: The content was developed with a focus and intent of supporting the contexts that are listed. These contexts may be general categories (gender, age, ...) or may be references to specific programs (insurance plans, studies, ...) and may be used to assist with indexing and searching for appropriate condition definition instances.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$adduseContext",
+		"ident": 30,
+		"order": 31,
+		"desc": "The content was developed with a focus and intent of supporting the contexts that are listed. These contexts may be general categories (gender, age, ...) or may be references to specific programs (insurance plans, studies, ...) and may be used to assist with indexing and searching for appropriate condition definition instances.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oUsageContext",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oUsageContext",
+				"sublen": 0,
+				"desc": "The content was developed with a focus and intent of supporting the contexts that are listed. These contexts may be general categories (gender, age, ...) or may be references to specific programs (insurance plans, studies, ...) and may be used to assist w"
+			}
+		]
+	},
+	{
+		"name": "$jurisdiction",
+		"ident": 31,
+		"order": 32,
+		"desc": "Returns: A legal or geographic region in which the condition definition is intended to be used.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addjurisdiction",
+		"ident": 32,
+		"order": 33,
+		"desc": "A legal or geographic region in which the condition definition is intended to be used.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "A legal or geographic region in which the condition definition is intended to be used."
+			}
+		]
+	},
+	{
+		"name": "$code",
+		"ident": 33,
+		"order": 34,
+		"desc": "Returns: Identification of the condition, problem or diagnosis.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$code.$assign",
+		"ident": 34,
+		"order": 35,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Identification of the condition, problem or diagnosis."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$severity",
+		"ident": 35,
+		"order": 36,
+		"desc": "Returns: A subjective assessment of the severity of the condition as evaluated by the clinician.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$severity.$assign",
+		"ident": 36,
+		"order": 37,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "A subjective assessment of the severity of the condition as evaluated by the clinician."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$bodySite",
+		"ident": 37,
+		"order": 38,
+		"desc": "Returns: The anatomical location where this condition manifests itself.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$bodySite.$assign",
+		"ident": 38,
+		"order": 39,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The anatomical location where this condition manifests itself."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$stage",
+		"ident": 39,
+		"order": 40,
+		"desc": "Returns: Clinical stage or grade of a condition. May include formal severity assessments.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$stage.$assign",
+		"ident": 40,
+		"order": 41,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Clinical stage or grade of a condition. May include formal severity assessments."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$hasSeverity",
+		"ident": 41,
+		"order": 42,
+		"desc": "Returns: Whether Severity is appropriate to collect for this condition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$hasSeverity.$assign",
+		"ident": 42,
+		"order": 43,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "Whether Severity is appropriate to collect for this condition."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$hasBodySite",
+		"ident": 43,
+		"order": 44,
+		"desc": "Returns: Whether bodySite is appropriate to collect for this condition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$hasBodySite.$assign",
+		"ident": 44,
+		"order": 45,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "Whether bodySite is appropriate to collect for this condition."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$hasStage",
+		"ident": 45,
+		"order": 46,
+		"desc": "Returns: Whether stage is appropriate to collect for this condition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$hasStage.$assign",
+		"ident": 46,
+		"order": 47,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "Whether stage is appropriate to collect for this condition."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$definition",
+		"ident": 47,
+		"order": 48,
+		"desc": "Returns: Formal definitions of the condition. These may be references to ontologies, published clinical protocols or research papers.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$adddefinition",
+		"ident": 48,
+		"order": 49,
+		"desc": "Formal definitions of the condition. These may be references to ontologies, published clinical protocols or research papers.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Formal definitions of the condition. These may be references to ontologies, published clinical protocols or research papers."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$observation",
+		"ident": 49,
+		"order": 50,
+		"desc": "Returns: Observations particularly relevant to this condition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addobservation",
+		"ident": 50,
+		"order": 51,
+		"desc": "Observations particularly relevant to this condition.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oConditionDefinitionObservation",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oConditionDefinitionObservation",
+				"sublen": 0,
+				"desc": "Observations particularly relevant to this condition."
+			}
+		]
+	},
+	{
+		"name": "$medication",
+		"ident": 51,
+		"order": 52,
+		"desc": "Returns: Medications particularly relevant for this condition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addmedication",
+		"ident": 52,
+		"order": 53,
+		"desc": "Medications particularly relevant for this condition.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oConditionDefinitionMedication",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oConditionDefinitionMedication",
+				"sublen": 0,
+				"desc": "Medications particularly relevant for this condition."
+			}
+		]
+	},
+	{
+		"name": "$precondition",
+		"ident": 53,
+		"order": 54,
+		"desc": "Returns: An observation that suggests that this condition applies.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addprecondition",
+		"ident": 54,
+		"order": 55,
+		"desc": "An observation that suggests that this condition applies.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oConditionDefinitionPrecondition",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oConditionDefinitionPrecondition",
+				"sublen": 0,
+				"desc": "An observation that suggests that this condition applies."
+			}
+		]
+	},
+	{
+		"name": "$team",
+		"ident": 55,
+		"order": 56,
+		"desc": "Returns: Appropriate team for this condition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addteam",
+		"ident": 56,
+		"order": 57,
+		"desc": "Appropriate team for this condition.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Appropriate team for this condition."
+			}
+		]
+	},
+	{
+		"name": "$questionnaire",
+		"ident": 57,
+		"order": 58,
+		"desc": "Returns: Questionnaire for this condition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addquestionnaire",
+		"ident": 58,
+		"order": 59,
+		"desc": "Questionnaire for this condition.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oConditionDefinitionQuestionnaire",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oConditionDefinitionQuestionnaire",
+				"sublen": 0,
+				"desc": "Questionnaire for this condition."
+			}
+		]
+	},
+	{
+		"name": "$plan",
+		"ident": 59,
+		"order": 60,
+		"desc": "Returns: Plan that is appropriate.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addplan",
+		"ident": 60,
+		"order": 61,
+		"desc": "Plan that is appropriate.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oConditionDefinitionPlan",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oConditionDefinitionPlan",
+				"sublen": 0,
+				"desc": "Plan that is appropriate."
+			}
+		]
+	}
+]

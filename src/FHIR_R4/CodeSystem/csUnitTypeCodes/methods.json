@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$individual",
+		"ident": 0,
+		"order": 1,
+		"desc": "A family, typically includes self, spouse(s) and children to a defined age",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$family",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

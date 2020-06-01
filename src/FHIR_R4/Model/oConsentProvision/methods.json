@@ -1,0 +1,425 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$::type",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: Action  to take - permit or deny - when the rule conditions are met.  Not permitted in root rule, required in all nested rules.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Action  to take - permit or deny - when the rule conditions are met.  Not permitted in root rule, required in all nested rules."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$period",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: The timeframe in this rule is valid.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$period.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oPeriod",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The timeframe in this rule is valid."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$actor",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: Who or what is controlled by this rule. Use group to identify a set of actors by some property they share (e.g. 'admitting officers').",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addactor",
+		"ident": 9,
+		"order": 10,
+		"desc": "Who or what is controlled by this rule. Use group to identify a set of actors by some property they share (e.g. 'admitting officers').",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oConsentProvisionActor",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oConsentProvisionActor",
+				"sublen": 0,
+				"desc": "Who or what is controlled by this rule. Use group to identify a set of actors by some property they share (e.g. 'admitting officers')."
+			}
+		]
+	},
+	{
+		"name": "$action",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: Actions controlled by this Rule.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addaction",
+		"ident": 11,
+		"order": 12,
+		"desc": "Actions controlled by this Rule.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Actions controlled by this Rule."
+			}
+		]
+	},
+	{
+		"name": "$securityLabel",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: A security label, comprised of 0..* security label fields (Privacy tags), which define which resources are controlled by this exception.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addsecurityLabel",
+		"ident": 13,
+		"order": 14,
+		"desc": "A security label, comprised of 0..* security label fields (Privacy tags), which define which resources are controlled by this exception.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCoding",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCoding",
+				"sublen": 0,
+				"desc": "A security label, comprised of 0..* security label fields (Privacy tags), which define which resources are controlled by this exception."
+			}
+		]
+	},
+	{
+		"name": "$purpose",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: The context of the activities a user is taking - why the user is accessing the data - that are controlled by this rule.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addpurpose",
+		"ident": 15,
+		"order": 16,
+		"desc": "The context of the activities a user is taking - why the user is accessing the data - that are controlled by this rule.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCoding",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCoding",
+				"sublen": 0,
+				"desc": "The context of the activities a user is taking - why the user is accessing the data - that are controlled by this rule."
+			}
+		]
+	},
+	{
+		"name": "$class",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: The class of information covered by this rule. The type can be a FHIR resource type, a profile on a type, or a CDA document, or some other type that indicates what sort of information the consent relates to.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addclass",
+		"ident": 17,
+		"order": 18,
+		"desc": "The class of information covered by this rule. The type can be a FHIR resource type, a profile on a type, or a CDA document, or some other type that indicates what sort of information the consent relates to.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCoding",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCoding",
+				"sublen": 0,
+				"desc": "The class of information covered by this rule. The type can be a FHIR resource type, a profile on a type, or a CDA document, or some other type that indicates what sort of information the consent relates to."
+			}
+		]
+	},
+	{
+		"name": "$code",
+		"ident": 18,
+		"order": 19,
+		"desc": "Returns: If this code is found in an instance, then the rule applies.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcode",
+		"ident": 19,
+		"order": 20,
+		"desc": "If this code is found in an instance, then the rule applies.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "If this code is found in an instance, then the rule applies."
+			}
+		]
+	},
+	{
+		"name": "$dataPeriod",
+		"ident": 20,
+		"order": 21,
+		"desc": "Returns: Clinical or Operational Relevant period of time that bounds the data controlled by this rule.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$dataPeriod.$assign",
+		"ident": 21,
+		"order": 22,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oPeriod",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Clinical or Operational Relevant period of time that bounds the data controlled by this rule."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$data",
+		"ident": 22,
+		"order": 23,
+		"desc": "Returns: The resources controlled by this rule if specific resources are referenced.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$adddata",
+		"ident": 23,
+		"order": 24,
+		"desc": "The resources controlled by this rule if specific resources are referenced.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oConsentProvisionData",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oConsentProvisionData",
+				"sublen": 0,
+				"desc": "The resources controlled by this rule if specific resources are referenced."
+			}
+		]
+	}
+]

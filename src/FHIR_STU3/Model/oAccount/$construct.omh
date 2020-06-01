@@ -1,0 +1,4 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do coverage.$define(coverage_)
+Do guarantor.$define(guarantor_)

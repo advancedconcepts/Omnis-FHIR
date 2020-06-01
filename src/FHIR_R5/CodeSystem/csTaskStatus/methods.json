@@ -1,0 +1,145 @@
+[
+	{
+		"name": "$draft",
+		"ident": 0,
+		"order": 1,
+		"desc": "The task is ready to be acted upon and action is sought.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$requested",
+		"ident": 1,
+		"order": 2,
+		"desc": "A potential performer has claimed ownership of the task and is evaluating whether to perform it.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$received",
+		"ident": 2,
+		"order": 3,
+		"desc": "The potential performer has agreed to execute the task but has not yet started work.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$accepted",
+		"ident": 3,
+		"order": 4,
+		"desc": "The potential performer who claimed ownership of the task has decided not to execute it prior to performing any action.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$rejected",
+		"ident": 4,
+		"order": 5,
+		"desc": "The task is ready to be performed, but no action has yet been taken.  Used in place of requested/received/accepted/rejected when request assignment and acceptance is a given.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ready",
+		"ident": 5,
+		"order": 6,
+		"desc": "The task was not completed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$cancelled",
+		"ident": 6,
+		"order": 7,
+		"desc": "The task has been started but is not yet complete.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$in-progress",
+		"ident": 7,
+		"order": 8,
+		"desc": "The task has been started but work has been paused.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$on-hold",
+		"ident": 8,
+		"order": 9,
+		"desc": "The task was attempted but could not be completed due to some error.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$failed",
+		"ident": 9,
+		"order": 10,
+		"desc": "The task has been completed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$completed",
+		"ident": 10,
+		"order": 11,
+		"desc": "The task should never have existed and is retained only because of the possibility it may have used.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$entered-in-error",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,9 @@
+Do inherited
+Do pElements.$add("status","status",1,"1",21,"code")
+Do pElements.$add("contact","contact",0,"-1",38,"ContactPoint")
+Do pElements.$add("end","end",0,"1",23,"instant")
+Do pElements.$add("reason","reason",1,"1",21,"string")
+Do pElements.$add("criteria","criteria",1,"1",21,"string")
+Do pElements.$add("error","error",0,"1",21,"string")
+Do pElements.$add("channel","channel",1,"1",38,"")
+Do pElements.$add("tag","tag",0,"-1",38,"Coding")

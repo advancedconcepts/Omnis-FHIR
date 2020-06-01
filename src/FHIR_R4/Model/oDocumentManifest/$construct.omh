@@ -1,0 +1,6 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do author.$define(author_)
+Do recipient.$define(recipient_)
+Do content.$define(content_)
+Do related.$define(related_)

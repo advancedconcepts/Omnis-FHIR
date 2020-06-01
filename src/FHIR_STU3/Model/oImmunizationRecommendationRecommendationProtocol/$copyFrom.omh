@@ -1,0 +1,5 @@
+Do inherited
+Calculate doseSequence as pValue.$doseSequence()
+Calculate description as pValue.$description()
+Calculate authority as pValue.$authority()
+Calculate series as pValue.$series()

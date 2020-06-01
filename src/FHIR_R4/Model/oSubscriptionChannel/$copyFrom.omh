@@ -1,0 +1,9 @@
+Do inherited
+Calculate type as pValue.$type()
+Calculate endpoint as pValue.$endpoint()
+Calculate payload as pValue.$payload()
+Do header.$clear()
+Calculate list as pValue.$header()
+Do header.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

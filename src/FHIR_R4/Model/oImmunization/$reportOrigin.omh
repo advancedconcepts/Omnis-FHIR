@@ -1,0 +1,4 @@
+If reportOrigin.$validref()=kFalse
+	Calculate reportOrigin as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method reportOrigin

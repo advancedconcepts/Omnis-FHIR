@@ -1,0 +1,4 @@
+Do inherited
+Do rating.$define(rating_)
+Do note.$define(note_)
+Do certaintySubcomponent.$define(certaintySubcomponent_)

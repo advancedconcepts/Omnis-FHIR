@@ -1,0 +1,4 @@
+Do inherited
+Calculate gender as pValue.$gender()
+Calculate race as pValue.$race()
+Calculate physiologicalCondition as pValue.$physiologicalCondition()

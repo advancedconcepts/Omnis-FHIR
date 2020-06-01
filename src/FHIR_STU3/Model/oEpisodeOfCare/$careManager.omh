@@ -1,0 +1,4 @@
+If careManager.$validref()=kFalse
+	Calculate careManager as $clib.$classes.oReference.$newref()
+End If
+Quit method careManager

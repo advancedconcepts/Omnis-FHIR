@@ -1,0 +1,11 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"-1",38,"Identifier")
+Do pElements.$add("status","status",1,"1",21,"code")
+Do pElements.$add("subject","subject",1,"1",38,"Reference")
+Do pElements.$add("whenUsed","whenUsed",0,"1",38,"Period")
+Do pElements.$add("recordedOn","recordedOn",0,"1",23,"dateTime")
+Do pElements.$add("source","source",0,"1",38,"Reference")
+Do pElements.$add("device","device",1,"1",38,"Reference")
+Do pElements.$add("indication","indication",0,"-1",38,"CodeableConcept")
+Do pElements.$add("bodySite","bodySite",0,"1",38,"CodeableConcept")
+Do pElements.$add("note","note",0,"-1",38,"Annotation")

@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$inpatient",
+		"ident": 0,
+		"order": 1,
+		"desc": "Includes administrations in an outpatient setting (for example, Emergency Department, Outpatient Clinic, Outpatient Surgery, Doctor's office)",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$outpatient",
+		"ident": 1,
+		"order": 2,
+		"desc": "Includes administrations by the patient in their home (this would include long term care or nursing homes, hospices, etc)",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$community",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

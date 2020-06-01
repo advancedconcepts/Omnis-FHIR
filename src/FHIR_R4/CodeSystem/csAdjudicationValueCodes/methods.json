@@ -1,0 +1,97 @@
+[
+	{
+		"name": "$submitted",
+		"ident": 0,
+		"order": 1,
+		"desc": "Patient Co-Payment",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copay",
+		"ident": 1,
+		"order": 2,
+		"desc": "Amount of the change which is considered for adjudication.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$eligible",
+		"ident": 2,
+		"order": 3,
+		"desc": "Amount deducted from the eligible amount prior to adjudication.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$deductible",
+		"ident": 3,
+		"order": 4,
+		"desc": "The amount of deductible which could not allocated to other line items.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unallocdeduct",
+		"ident": 4,
+		"order": 5,
+		"desc": "Eligible Percentage.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$eligpercent",
+		"ident": 5,
+		"order": 6,
+		"desc": "The amount of tax.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$tax",
+		"ident": 6,
+		"order": 7,
+		"desc": "Amount payable under the coverage",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$benefit",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,9 @@
+Do inherited
+Do pElements.$add("subunit","subunit",0,"1",26,"integer")
+Do pElements.$add("sequence","sequence",0,"1",21,"string")
+Do pElements.$add("length","length",0,"1",26,"integer")
+Do pElements.$add("sequenceAttachment","sequenceAttachment",0,"1",38,"Attachment")
+Do pElements.$add("fivePrime","fivePrime",0,"1",38,"CodeableConcept")
+Do pElements.$add("threePrime","threePrime",0,"1",38,"CodeableConcept")
+Do pElements.$add("linkage","linkage",0,"-1",38,"")
+Do pElements.$add("sugar","sugar",0,"-1",38,"")

@@ -1,0 +1,6 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do contact.$define(contact_)
+Do payloadType.$define(payloadType_)
+Do payloadMimeType.$define(payloadMimeType_)
+Do header.$define(header_)

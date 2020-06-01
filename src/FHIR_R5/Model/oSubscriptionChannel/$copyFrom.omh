@@ -1,0 +1,10 @@
+Do inherited
+Calculate type as pValue.$type()
+Calculate endpoint as pValue.$endpoint()
+Do header.$clear()
+Calculate list as pValue.$header()
+Do header.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate heartbeatPeriod as pValue.$heartbeatPeriod()
+Calculate payload as pValue.$payload()

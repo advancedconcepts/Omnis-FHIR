@@ -1,0 +1,4 @@
+Do inherited
+Calculate uri as pValue.$uri()
+Calculate packageId as pValue.$packageId()
+Calculate version as pValue.$version()

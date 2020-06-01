@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("name","::name",1,"1",21,"string")
+Do pElements.$add("matchType","matchType",0,"1",21,"code")
+Do pElements.$add("value","value",1,"1",21,"string")

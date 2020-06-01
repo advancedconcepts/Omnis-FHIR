@@ -1,0 +1,5 @@
+Do inherited
+Calculate actorId as pValue.$actorId()
+Calculate type as pValue.$type()
+Calculate name as pValue.$name()
+Calculate description as pValue.$description()

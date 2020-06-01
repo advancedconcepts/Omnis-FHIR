@@ -1,0 +1,4 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do detail.$define(detail_)
+Do processNote.$define(processNote_)

@@ -1,0 +1,68 @@
+Do inherited
+Calculate label as pValue.$label()
+Calculate title as pValue.$title()
+Calculate description as pValue.$description()
+Calculate textEquivalent as pValue.$textEquivalent()
+Do code.$clear()
+Calculate list as pValue.$code()
+Do code.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do reason.$clear()
+Calculate list as pValue.$reason()
+Do reason.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do documentation.$clear()
+Calculate list as pValue.$documentation()
+Do documentation.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do goalId.$clear()
+Calculate list as pValue.$goalId()
+Do goalId.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do triggerDefinition.$clear()
+Calculate list as pValue.$triggerDefinition()
+Do triggerDefinition.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do condition.$clear()
+Calculate list as pValue.$condition()
+Do condition.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do input.$clear()
+Calculate list as pValue.$input()
+Do input.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do output.$clear()
+Calculate list as pValue.$output()
+Do output.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do relatedAction.$clear()
+Calculate list as pValue.$relatedAction()
+Do relatedAction.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do participant.$clear()
+Calculate list as pValue.$participant()
+Do participant.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate type as pValue.$type()
+Calculate groupingBehavior as pValue.$groupingBehavior()
+Calculate selectionBehavior as pValue.$selectionBehavior()
+Calculate requiredBehavior as pValue.$requiredBehavior()
+Calculate precheckBehavior as pValue.$precheckBehavior()
+Calculate cardinalityBehavior as pValue.$cardinalityBehavior()
+Calculate definition as pValue.$definition()
+Calculate transform as pValue.$transform()
+Do dynamicValue.$clear()
+Calculate list as pValue.$dynamicValue()
+Do dynamicValue.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

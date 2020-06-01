@@ -1,0 +1,6 @@
+Do inherited
+Do target.$define(target_)
+Do targetLocation.$define(targetLocation_)
+Do validationProcess.$define(validationProcess_)
+Do primarySource.$define(primarySource_)
+Do validator.$define(validator_)

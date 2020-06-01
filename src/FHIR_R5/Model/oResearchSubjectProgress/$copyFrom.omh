@@ -1,0 +1,6 @@
+Do inherited
+Calculate type as pValue.$type()
+Calculate state as pValue.$state()
+Calculate milestone as pValue.$milestone()
+Calculate reason as pValue.$reason()
+Calculate startDate as pValue.$startDate()

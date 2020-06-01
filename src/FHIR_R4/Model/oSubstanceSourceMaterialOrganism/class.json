@@ -1,0 +1,111 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "author",
+			"order": 6,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "author_",
+			"order": 7,
+			"type": "kObjectref",
+			"subtype": "oSubstanceSourceMaterialOrganismAuthor",
+			"sublen": 0,
+			"desc": "4.9.13.6.1 Author type (Conditional)."
+		},
+		{
+			"name": "family",
+			"order": 1,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The family of an organism shall be specified."
+		},
+		{
+			"name": "genus",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The genus of an organism shall be specified; refers to the Latin epithet of the genus element of the plant/animal scientific name; it is present in names for genera, species and infraspecies."
+		},
+		{
+			"name": "hybrid",
+			"order": 8,
+			"type": "kObjectref",
+			"subtype": "oSubstanceSourceMaterialOrganismHybrid",
+			"sublen": 0,
+			"desc": "4.9.13.8.1 Hybrid species maternal organism ID (Optional)."
+		},
+		{
+			"name": "intraspecificDescription",
+			"order": 5,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The intraspecific description of an organism shall be specified based on a controlled vocabulary. For Influenza Vaccine, the intraspecific description shall contain the syntax of the antigen in line with the WHO convention."
+		},
+		{
+			"name": "intraspecificType",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The Intraspecific type of an organism shall be specified."
+		},
+		{
+			"name": "organismGeneral",
+			"order": 9,
+			"type": "kObjectref",
+			"subtype": "oSubstanceSourceMaterialOrganismOrganismGeneral",
+			"sublen": 0,
+			"desc": "4.9.13.7.1 Kingdom (Conditional)."
+		},
+		{
+			"name": "species",
+			"order": 3,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The species of an organism shall be specified; refers to the Latin epithet of the species of the plant/animal; it is present in names for species and infraspecies."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:41:57",
+		"desc": "This subclause describes the organism which the substance is derived from. For vaccines, the parent organism shall be specified based on these subclause elements. As an example, full taxonomy will be described for the Substance Name: ., Leaf.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:24",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

@@ -1,0 +1,41 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate basedOn as pValue.$basedOn()
+Calculate parent as pValue.$parent()
+Calculate status as pValue.$status()
+Calculate method as pValue.$method()
+Calculate code as pValue.$code()
+Calculate subject as pValue.$subject()
+Calculate encounter as pValue.$encounter()
+Calculate condition as pValue.$condition()
+Calculate performer as pValue.$performer()
+Do reasonCode.$clear()
+Calculate list as pValue.$reasonCode()
+Do reasonCode.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do reasonReference.$clear()
+Calculate list as pValue.$reasonReference()
+Do reasonReference.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do basis.$clear()
+Calculate list as pValue.$basis()
+Do basis.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do prediction.$clear()
+Calculate list as pValue.$prediction()
+Do prediction.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate mitigation as pValue.$mitigation()
+Do note.$clear()
+Calculate list as pValue.$note()
+Do note.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

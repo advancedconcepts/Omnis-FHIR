@@ -1,0 +1,17 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate appointment as pValue.$appointment()
+Calculate start as pValue.$start()
+Calculate end as pValue.$end()
+Do participantType.$clear()
+Calculate list as pValue.$participantType()
+Do participantType.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate actor as pValue.$actor()
+Calculate participantStatus as pValue.$participantStatus()
+Calculate comment as pValue.$comment()

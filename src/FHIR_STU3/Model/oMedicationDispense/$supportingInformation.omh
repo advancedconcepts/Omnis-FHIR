@@ -1,0 +1,4 @@
+If supportingInformation.$validref()=kFalse
+	Calculate supportingInformation as $clib.$classes.oReference.$newref()
+End If
+Quit method supportingInformation

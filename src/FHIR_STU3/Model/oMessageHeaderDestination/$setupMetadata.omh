@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("name","::name",0,"1",21,"string")
+Do pElements.$add("target","target",0,"1",38,"Reference")
+Do pElements.$add("endpoint","endpoint",1,"1",21,"uri")

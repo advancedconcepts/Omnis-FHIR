@@ -1,0 +1,4 @@
+If condition.$validref()=kFalse
+	Calculate condition as $clib.$classes.oRequestGroupActionCondition.$newref()
+End If
+Quit method condition

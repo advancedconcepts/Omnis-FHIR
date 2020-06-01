@@ -1,0 +1,5 @@
+Do inherited
+Do pElements.$add("value","value",0,"1",38,"CodeableConcept")
+Do pElements.$add("component","component",0,"-1",38,"")
+Do pElements.$add("population","population",0,"-1",38,"")
+Do pElements.$add("measureScore","measureScore",0,"1",38,"Quantity")

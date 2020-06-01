@@ -1,0 +1,11 @@
+Do inherited
+Calculate identifier as pValue.$identifier()
+Calculate predecessor as pValue.$predecessor()
+Calculate type as pValue.$type()
+Calculate request as pValue.$request()
+Calculate submitter as pValue.$submitter()
+Calculate response as pValue.$response()
+Calculate date as pValue.$date()
+Calculate responsible as pValue.$responsible()
+Calculate payee as pValue.$payee()
+Calculate amount as pValue.$amount()

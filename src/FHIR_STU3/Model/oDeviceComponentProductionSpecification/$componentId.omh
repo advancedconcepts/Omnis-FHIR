@@ -1,0 +1,4 @@
+If componentId.$validref()=kFalse
+	Calculate componentId as $clib.$classes.oIdentifier.$newref()
+End If
+Quit method componentId

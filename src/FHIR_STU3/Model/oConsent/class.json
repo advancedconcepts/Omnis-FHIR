@@ -1,0 +1,246 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "action",
+			"order": 12,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "action_",
+			"order": 13,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Actions controlled by this consent."
+		},
+		{
+			"name": "actor",
+			"order": 10,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "actor_",
+			"order": 11,
+			"type": "kObjectref",
+			"subtype": "oConsentActor",
+			"sublen": 0,
+			"desc": "Who or what is controlled by this consent. Use group to identify a set of actors by some property they share (e.g. 'admitting officers')."
+		},
+		{
+			"name": "category",
+			"order": 3,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "category_",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "A classification of the type of consents found in the statement. This element supports indexing and retrieval of consent statements."
+		},
+		{
+			"name": "consentingParty",
+			"order": 8,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "consentingParty_",
+			"order": 9,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Either the Grantor, which is the entity responsible for granting the rights listed in a Consent Directive or the Grantee, which is the entity responsible for complying with the Consent Directive, including any obligations or limitations on authorizations "
+		},
+		{
+			"name": "data",
+			"order": 24,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "dataPeriod",
+			"order": 23,
+			"type": "kObjectref",
+			"subtype": "oPeriod",
+			"sublen": 0,
+			"desc": "Clinical or Operational Relevant period of time that bounds the data controlled by this consent."
+		},
+		{
+			"name": "data_",
+			"order": 25,
+			"type": "kObjectref",
+			"subtype": "oConsentData",
+			"sublen": 0,
+			"desc": "The resources controlled by this consent, if specific resources are referenced."
+		},
+		{
+			"name": "dateTime",
+			"order": 7,
+			"type": "kDate",
+			"subtype": "kDatetime",
+			"sublen": 0,
+			"desc": "When this  Consent was issued / created / indexed."
+		},
+		{
+			"name": "except",
+			"order": 26,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "except_",
+			"order": 27,
+			"type": "kObjectref",
+			"subtype": "oConsentExcept",
+			"sublen": 0,
+			"desc": "An exception to the base policy of this consent. An exception can be an addition or removal of access permissions."
+		},
+		{
+			"name": "identifier",
+			"order": 1,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "Unique identifier for this copy of the Consent Statement."
+		},
+		{
+			"name": "organization",
+			"order": 14,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "organization_",
+			"order": 15,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The organization that manages the consent, and the framework within which it is executed."
+		},
+		{
+			"name": "patient",
+			"order": 5,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The patient/healthcare consumer to whom this consent applies."
+		},
+		{
+			"name": "period",
+			"order": 6,
+			"type": "kObjectref",
+			"subtype": "oPeriod",
+			"sublen": 0,
+			"desc": "Relevant time or time-period when this Consent is applicable."
+		},
+		{
+			"name": "policy",
+			"order": 16,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "policyRule",
+			"order": 18,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A referece to the specific computable policy."
+		},
+		{
+			"name": "policy_",
+			"order": 17,
+			"type": "kObjectref",
+			"subtype": "oConsentPolicy",
+			"sublen": 0,
+			"desc": "The references to the policies that are included in this consent scope. Policies may be organizational, but are often defined jurisdictionally, or in law."
+		},
+		{
+			"name": "purpose",
+			"order": 21,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "purpose_",
+			"order": 22,
+			"type": "kObjectref",
+			"subtype": "oCoding",
+			"sublen": 0,
+			"desc": "The context of the activities a user is taking - why the user is accessing the data - that are controlled by this consent."
+		},
+		{
+			"name": "securityLabel",
+			"order": 19,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "securityLabel_",
+			"order": 20,
+			"type": "kObjectref",
+			"subtype": "oCoding",
+			"sublen": 0,
+			"desc": "A set of security labels that define which resources are controlled by this consent. If more than one label is specified, all resources must have all the specified labels."
+		},
+		{
+			"name": "status",
+			"order": 2,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Indicates the current state of this consent."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:39:59",
+		"desc": "Base StructureDefinition for Consent Resource",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:26",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

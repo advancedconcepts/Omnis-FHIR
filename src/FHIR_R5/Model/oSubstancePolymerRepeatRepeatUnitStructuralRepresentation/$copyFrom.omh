@@ -1,0 +1,4 @@
+Do inherited
+Calculate type as pValue.$type()
+Calculate representation as pValue.$representation()
+Calculate attachment as pValue.$attachment()

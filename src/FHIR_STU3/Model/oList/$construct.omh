@@ -1,0 +1,4 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do note.$define(note_)
+Do entry.$define(entry_)

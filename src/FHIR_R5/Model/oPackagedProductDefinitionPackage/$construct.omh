@@ -1,0 +1,8 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do material.$define(material_)
+Do alternateMaterial.$define(alternateMaterial_)
+Do shelfLifeStorage.$define(shelfLifeStorage_)
+Do manufacturer.$define(manufacturer_)
+Do characteristic.$define(characteristic_)
+Do containedItem.$define(containedItem_)

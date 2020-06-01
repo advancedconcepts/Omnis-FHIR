@@ -1,0 +1,429 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "accident",
+			"order": 35,
+			"type": "kObjectref",
+			"subtype": "oExplanationOfBenefitAccident",
+			"sublen": 0,
+			"desc": "An accident which resulted in the need for healthcare services."
+		},
+		{
+			"name": "addItem",
+			"order": 40,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "addItem_",
+			"order": 41,
+			"type": "kObjectref",
+			"subtype": "oExplanationOfBenefitAddItem",
+			"sublen": 0,
+			"desc": "The first tier service adjudications for payor added services."
+		},
+		{
+			"name": "benefitBalance",
+			"order": 49,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "benefitBalance_",
+			"order": 50,
+			"type": "kObjectref",
+			"subtype": "oExplanationOfBenefitBenefitBalance",
+			"sublen": 0,
+			"desc": "Balance by Benefit Category."
+		},
+		{
+			"name": "billablePeriod",
+			"order": 8,
+			"type": "kObjectref",
+			"subtype": "oPeriod",
+			"sublen": 0,
+			"desc": "The billable period for which charges are being submitted."
+		},
+		{
+			"name": "careTeam",
+			"order": 27,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "careTeam_",
+			"order": 28,
+			"type": "kObjectref",
+			"subtype": "oExplanationOfBenefitCareTeam",
+			"sublen": 0,
+			"desc": "The members of the team who provided the overall service as well as their role and whether responsible and qualifications."
+		},
+		{
+			"name": "claim",
+			"order": 16,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The business identifier for the instance: invoice number, claim number, pre-determination or pre-authorization number."
+		},
+		{
+			"name": "claimResponse",
+			"order": 17,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The business identifier for the instance: invoice number, claim number, pre-determination or pre-authorization number."
+		},
+		{
+			"name": "created",
+			"order": 9,
+			"type": "kDate",
+			"subtype": "kDatetime",
+			"sublen": 0,
+			"desc": "The date when the EOB was created."
+		},
+		{
+			"name": "diagnosis",
+			"order": 29,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "diagnosis_",
+			"order": 30,
+			"type": "kObjectref",
+			"subtype": "oExplanationOfBenefitDiagnosis",
+			"sublen": 0,
+			"desc": "Ordered list of patient diagnosis for which care is sought."
+		},
+		{
+			"name": "disposition",
+			"order": 19,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A description of the status of the adjudication."
+		},
+		{
+			"name": "employmentImpacted",
+			"order": 36,
+			"type": "kObjectref",
+			"subtype": "oPeriod",
+			"sublen": 0,
+			"desc": "The start and optional end dates of when the patient was precluded from working due to the treatable condition(s)."
+		},
+		{
+			"name": "enterer",
+			"order": 10,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The person who created the explanation of benefit."
+		},
+		{
+			"name": "facility",
+			"order": 15,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Facility where the services were provided."
+		},
+		{
+			"name": "form",
+			"order": 46,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The form to be used for printing the content."
+		},
+		{
+			"name": "hospitalization",
+			"order": 37,
+			"type": "kObjectref",
+			"subtype": "oPeriod",
+			"sublen": 0,
+			"desc": "The start and optional end dates of when the patient was confined to a treatment center."
+		},
+		{
+			"name": "identifier",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "identifier_",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "The EOB Business Identifier."
+		},
+		{
+			"name": "information",
+			"order": 25,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "information_",
+			"order": 26,
+			"type": "kObjectref",
+			"subtype": "oExplanationOfBenefitInformation",
+			"sublen": 0,
+			"desc": "Additional information codes regarding exceptions, special considerations, the condition, situation, prior or concurrent issues. Often there are mutiple jurisdiction specific valuesets which are required."
+		},
+		{
+			"name": "insurance",
+			"order": 34,
+			"type": "kObjectref",
+			"subtype": "oExplanationOfBenefitInsurance",
+			"sublen": 0,
+			"desc": "Financial instrument by which payment information for health care."
+		},
+		{
+			"name": "insurer",
+			"order": 11,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The insurer which is responsible for the explanation of benefit."
+		},
+		{
+			"name": "item",
+			"order": 38,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "item_",
+			"order": 39,
+			"type": "kObjectref",
+			"subtype": "oExplanationOfBenefitItem",
+			"sublen": 0,
+			"desc": "First tier of goods and services."
+		},
+		{
+			"name": "organization",
+			"order": 13,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The provider which is responsible for the claim."
+		},
+		{
+			"name": "originalPrescription",
+			"order": 23,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Original prescription which has been superceded by this prescription to support the dispensing of pharmacy services, medications or products. For example, a physician may prescribe a medication which the pharmacy determines is contraindicated, or for whic"
+		},
+		{
+			"name": "outcome",
+			"order": 18,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Processing outcome errror, partial or complete processing."
+		},
+		{
+			"name": "patient",
+			"order": 7,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Patient Resource."
+		},
+		{
+			"name": "payee",
+			"order": 24,
+			"type": "kObjectref",
+			"subtype": "oExplanationOfBenefitPayee",
+			"sublen": 0,
+			"desc": "The party to be reimbursed for the services."
+		},
+		{
+			"name": "payment",
+			"order": 45,
+			"type": "kObjectref",
+			"subtype": "oExplanationOfBenefitPayment",
+			"sublen": 0,
+			"desc": "Payment details for the claim if the claim has been paid."
+		},
+		{
+			"name": "precedence",
+			"order": 33,
+			"type": "kInteger",
+			"subtype": "k32bitint",
+			"sublen": 0,
+			"desc": "Precedence (primary, secondary, etc.)."
+		},
+		{
+			"name": "prescription",
+			"order": 22,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Prescription to support the dispensing of Pharmacy or Vision products."
+		},
+		{
+			"name": "procedure",
+			"order": 31,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "procedure_",
+			"order": 32,
+			"type": "kObjectref",
+			"subtype": "oExplanationOfBenefitProcedure",
+			"sublen": 0,
+			"desc": "Ordered list of patient procedures performed to support the adjudication."
+		},
+		{
+			"name": "processNote",
+			"order": 47,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "processNote_",
+			"order": 48,
+			"type": "kObjectref",
+			"subtype": "oExplanationOfBenefitProcessNote",
+			"sublen": 0,
+			"desc": "Note text."
+		},
+		{
+			"name": "provider",
+			"order": 12,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The provider which is responsible for the claim."
+		},
+		{
+			"name": "referral",
+			"order": 14,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The referral resource which lists the date, practitioner, reason and other supporting information."
+		},
+		{
+			"name": "related",
+			"order": 20,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "related_",
+			"order": 21,
+			"type": "kObjectref",
+			"subtype": "oExplanationOfBenefitRelated",
+			"sublen": 0,
+			"desc": "Other claims which are related to this claim such as prior claim versions or for related services."
+		},
+		{
+			"name": "status",
+			"order": 3,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The status of the resource instance."
+		},
+		{
+			"name": "subType",
+			"order": 5,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "subType_",
+			"order": 6,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "A finer grained suite of claim subtype codes which may convey Inpatient vs Outpatient and/or a specialty service. In the US the BillType."
+		},
+		{
+			"name": "totalBenefit",
+			"order": 44,
+			"type": "kObjectref",
+			"subtype": "oMoney",
+			"sublen": 0,
+			"desc": "Total amount of benefit payable (Equal to sum of the Benefit amounts from all detail lines and additions less the Unallocated Deductable)."
+		},
+		{
+			"name": "totalCost",
+			"order": 42,
+			"type": "kObjectref",
+			"subtype": "oMoney",
+			"sublen": 0,
+			"desc": "The total cost of the services reported."
+		},
+		{
+			"name": "type",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The category of claim, eg, oral, pharmacy, vision, insitutional, professional."
+		},
+		{
+			"name": "unallocDeductable",
+			"order": 43,
+			"type": "kObjectref",
+			"subtype": "oMoney",
+			"sublen": 0,
+			"desc": "The amount of deductable applied which was not allocated to any particular service line."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:40:02",
+		"desc": "Base StructureDefinition for ExplanationOfBenefit Resource",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:25",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

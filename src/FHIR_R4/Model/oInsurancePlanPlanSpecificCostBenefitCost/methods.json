@@ -1,0 +1,197 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$::type",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: Type of cost (copay; individual cap; family cap; coinsurance; deductible).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Type of cost (copay; individual cap; family cap; coinsurance; deductible)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$applicability",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: Whether the cost applies to in-network or out-of-network providers (in-network; out-of-network; other).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$applicability.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Whether the cost applies to in-network or out-of-network providers (in-network; out-of-network; other)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$qualifiers",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: Additional information about the cost, such as information about funding sources (e.g. HSA, HRA, FSA, RRA).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addqualifiers",
+		"ident": 9,
+		"order": 10,
+		"desc": "Additional information about the cost, such as information about funding sources (e.g. HSA, HRA, FSA, RRA).",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Additional information about the cost, such as information about funding sources (e.g. HSA, HRA, FSA, RRA)."
+			}
+		]
+	},
+	{
+		"name": "$value",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: The actual cost value. (some of the costs may be represented as percentages rather than currency, e.g. 10% coinsurance).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$value.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oQuantity",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The actual cost value. (some of the costs may be represented as percentages rather than currency, e.g. 10% coinsurance)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

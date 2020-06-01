@@ -1,0 +1,73 @@
+Do inherited
+Calculate doNotPerform as pValue.$doNotPerform()
+Calculate type as pValue.$type()
+Do subject.$clear()
+Calculate list as pValue.$subject()
+Do subject.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate intent as pValue.$intent()
+Do linkId.$clear()
+Calculate list as pValue.$linkId()
+Do linkId.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate status as pValue.$status()
+Calculate context as pValue.$context()
+Do contextLinkId.$clear()
+Calculate list as pValue.$contextLinkId()
+Do contextLinkId.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do requester.$clear()
+Calculate list as pValue.$requester()
+Do requester.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do requesterLinkId.$clear()
+Calculate list as pValue.$requesterLinkId()
+Do requesterLinkId.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do performerType.$clear()
+Calculate list as pValue.$performerType()
+Do performerType.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate performerRole as pValue.$performerRole()
+Calculate performer as pValue.$performer()
+Do performerLinkId.$clear()
+Calculate list as pValue.$performerLinkId()
+Do performerLinkId.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do reasonCode.$clear()
+Calculate list as pValue.$reasonCode()
+Do reasonCode.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do reasonReference.$clear()
+Calculate list as pValue.$reasonReference()
+Do reasonReference.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do reason.$clear()
+Calculate list as pValue.$reason()
+Do reason.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do reasonLinkId.$clear()
+Calculate list as pValue.$reasonLinkId()
+Do reasonLinkId.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do note.$clear()
+Calculate list as pValue.$note()
+Do note.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do securityLabelNumber.$clear()
+Calculate list as pValue.$securityLabelNumber()
+Do securityLabelNumber.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

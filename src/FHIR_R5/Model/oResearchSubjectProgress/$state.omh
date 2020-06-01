@@ -1,0 +1,4 @@
+If state.$validref()=kFalse
+	Calculate state as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method state

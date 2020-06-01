@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$sensitive",
+		"ident": 0,
+		"order": 1,
+		"desc": "The observation is very specific for this condition, but not particularly sensitive.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$specific",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

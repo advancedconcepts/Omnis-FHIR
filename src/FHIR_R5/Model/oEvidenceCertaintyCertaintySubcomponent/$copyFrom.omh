@@ -1,0 +1,13 @@
+Do inherited
+Calculate description as pValue.$description()
+Calculate note as pValue.$note()
+Do type.$clear()
+Calculate list as pValue.$type()
+Do type.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do rating.$clear()
+Calculate list as pValue.$rating()
+Do rating.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

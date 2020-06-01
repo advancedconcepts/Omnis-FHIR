@@ -1,0 +1,4 @@
+If location.$validref()=kFalse
+	Calculate location as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method location

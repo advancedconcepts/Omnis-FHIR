@@ -1,0 +1,4 @@
+If subpotentReason.$validref()=kFalse
+	Calculate subpotentReason as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method subpotentReason

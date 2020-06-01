@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$proposal",
+		"ident": 0,
+		"order": 1,
+		"desc": "The request represents an intension to ensure something occurs without providing an authorization for others to act",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$plan",
+		"ident": 1,
+		"order": 2,
+		"desc": "The request represents a request/demand and authorization for action",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$order",
+		"ident": 2,
+		"order": 3,
+		"desc": "The request represents an instance for the particular order, for example a medication administration record.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$instance-order",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

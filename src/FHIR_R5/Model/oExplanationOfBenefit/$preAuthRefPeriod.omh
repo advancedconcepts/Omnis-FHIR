@@ -1,0 +1,4 @@
+If preAuthRefPeriod.$validref()=kFalse
+	Calculate preAuthRefPeriod as $clib.$classes.oPeriod.$newref()
+End If
+Quit method preAuthRefPeriod

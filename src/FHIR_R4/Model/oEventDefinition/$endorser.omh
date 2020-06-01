@@ -1,0 +1,4 @@
+If endorser.$validref()=kFalse
+	Calculate endorser as $clib.$classes.oContactDetail.$newref()
+End If
+Quit method endorser

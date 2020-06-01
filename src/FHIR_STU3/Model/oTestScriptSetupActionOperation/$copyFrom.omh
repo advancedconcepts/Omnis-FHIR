@@ -1,0 +1,21 @@
+Do inherited
+Calculate type as pValue.$type()
+Calculate resource as pValue.$resource()
+Calculate label as pValue.$label()
+Calculate description as pValue.$description()
+Calculate accept as pValue.$accept()
+Calculate contentType as pValue.$contentType()
+Calculate destination as pValue.$destination()
+Calculate encodeRequestUrl as pValue.$encodeRequestUrl()
+Calculate origin as pValue.$origin()
+Calculate params as pValue.$params()
+Do requestHeader.$clear()
+Calculate list as pValue.$requestHeader()
+Do requestHeader.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate requestId as pValue.$requestId()
+Calculate responseId as pValue.$responseId()
+Calculate sourceId as pValue.$sourceId()
+Calculate targetId as pValue.$targetId()
+Calculate url as pValue.$url()

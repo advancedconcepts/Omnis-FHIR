@@ -1,0 +1,73 @@
+[
+	{
+		"name": "$in-operating-room",
+		"ident": 0,
+		"order": 1,
+		"desc": "The patient is prepared for a procedure.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$prepared",
+		"ident": 1,
+		"order": 2,
+		"desc": "The patient is under anesthesia.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$anesthesia-induced",
+		"ident": 2,
+		"order": 3,
+		"desc": "The patient has open incision(s).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$open-incision",
+		"ident": 3,
+		"order": 4,
+		"desc": "The patient has incision(s) closed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$closed-incision",
+		"ident": 4,
+		"order": 5,
+		"desc": "The patient is in the recovery room.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$in-recovery-room",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$ineligible",
+		"ident": 0,
+		"order": 1,
+		"desc": "The patient is eligible for the funding program because they are uninsured.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$uninsured",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$reference",
+		"ident": 0,
+		"order": 1,
+		"desc": "The guide is embedded in this guide when published.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$inclusion",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

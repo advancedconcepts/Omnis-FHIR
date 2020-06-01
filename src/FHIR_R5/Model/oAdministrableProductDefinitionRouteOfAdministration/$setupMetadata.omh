@@ -1,0 +1,8 @@
+Do inherited
+Do pElements.$add("code","code",1,"1",38,"CodeableConcept")
+Do pElements.$add("firstDose","firstDose",0,"1",38,"Quantity")
+Do pElements.$add("maxSingleDose","maxSingleDose",0,"1",38,"Quantity")
+Do pElements.$add("maxDosePerDay","maxDosePerDay",0,"1",38,"Quantity")
+Do pElements.$add("maxDosePerTreatmentPeriod","maxDosePerTreatmentPeriod",0,"1",38,"Ratio")
+Do pElements.$add("maxTreatmentPeriod","maxTreatmentPeriod",0,"1",38,"Duration")
+Do pElements.$add("targetSpecies","targetSpecies",0,"-1",38,"")

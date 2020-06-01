@@ -1,0 +1,4 @@
+If otherCharacteristics.$validref()=kFalse
+	Calculate otherCharacteristics as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method otherCharacteristics

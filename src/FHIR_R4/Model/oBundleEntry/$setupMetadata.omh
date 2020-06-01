@@ -1,0 +1,6 @@
+Do inherited
+Do pElements.$add("fullUrl","fullUrl",0,"1",21,"uri")
+Do pElements.$add("resource","resource",0,"1",38,"Resource")
+Do pElements.$add("search","search",0,"1",38,"")
+Do pElements.$add("request","request",0,"1",38,"")
+Do pElements.$add("response","response",0,"1",38,"")

@@ -1,0 +1,11 @@
+Do inherited
+Do reason.$clear()
+Calculate list as pValue.$reason()
+Do reason.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do reasonNotGiven.$clear()
+Calculate list as pValue.$reasonNotGiven()
+Do reasonNotGiven.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

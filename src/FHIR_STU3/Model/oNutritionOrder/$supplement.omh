@@ -1,0 +1,4 @@
+If supplement.$validref()=kFalse
+	Calculate supplement as $clib.$classes.oNutritionOrderSupplement.$newref()
+End If
+Quit method supplement

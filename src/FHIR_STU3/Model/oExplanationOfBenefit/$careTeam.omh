@@ -1,0 +1,4 @@
+If careTeam.$validref()=kFalse
+	Calculate careTeam as $clib.$classes.oExplanationOfBenefitCareTeam.$newref()
+End If
+Quit method careTeam

@@ -1,0 +1,16 @@
+Do inherited
+Calculate encounter as pValue.$encounter()
+Do event.$clear()
+Calculate list as pValue.$event()
+Do event.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate period as pValue.$period()
+Calculate facilityType as pValue.$facilityType()
+Calculate practiceSetting as pValue.$practiceSetting()
+Calculate sourcePatientInfo as pValue.$sourcePatientInfo()
+Do related.$clear()
+Calculate list as pValue.$related()
+Do related.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

@@ -1,0 +1,166 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "add",
+			"order": 8,
+			"type": "kNumber",
+			"subtype": "kFloatdp",
+			"sublen": 0,
+			"desc": "Power adjustment for multifocal lenses measured in dioptres (0.25 units)."
+		},
+		{
+			"name": "axis",
+			"order": 5,
+			"type": "kInteger",
+			"subtype": "k32bitint",
+			"sublen": 0,
+			"desc": "Adjustment for astigmatism measured in integer degrees."
+		},
+		{
+			"name": "backCurve",
+			"order": 10,
+			"type": "kNumber",
+			"subtype": "kFloatdp",
+			"sublen": 0,
+			"desc": "Back curvature measured in millimetres."
+		},
+		{
+			"name": "brand",
+			"order": 14,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Brand recommendations or restrictions."
+		},
+		{
+			"name": "color",
+			"order": 13,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Special color or pattern."
+		},
+		{
+			"name": "cylinder",
+			"order": 4,
+			"type": "kNumber",
+			"subtype": "kFloatdp",
+			"sublen": 0,
+			"desc": "Power adjustment for astigmatism measured in dioptres (0.25 units)."
+		},
+		{
+			"name": "diameter",
+			"order": 11,
+			"type": "kNumber",
+			"subtype": "kFloatdp",
+			"sublen": 0,
+			"desc": "Contact lens diameter measured in millimetres."
+		},
+		{
+			"name": "duration",
+			"order": 12,
+			"type": "kObjectref",
+			"subtype": "oQuantity",
+			"sublen": 0,
+			"desc": "The recommended maximum wear period for the lens."
+		},
+		{
+			"name": "eye",
+			"order": 2,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The eye for which the lens specification applies."
+		},
+		{
+			"name": "note",
+			"order": 15,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "note_",
+			"order": 16,
+			"type": "kObjectref",
+			"subtype": "oAnnotation",
+			"sublen": 0,
+			"desc": "Notes for special requirements such as coatings and lens materials."
+		},
+		{
+			"name": "power",
+			"order": 9,
+			"type": "kNumber",
+			"subtype": "kFloatdp",
+			"sublen": 0,
+			"desc": "Contact lens power measured in dioptres (0.25 units)."
+		},
+		{
+			"name": "prism",
+			"order": 6,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "prism_",
+			"order": 7,
+			"type": "kObjectref",
+			"subtype": "oVisionPrescriptionLensSpecificationPrism",
+			"sublen": 0,
+			"desc": "Allows for adjustment on two axis."
+		},
+		{
+			"name": "product",
+			"order": 1,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Identifies the type of vision correction product which is required for the patient."
+		},
+		{
+			"name": "sphere",
+			"order": 3,
+			"type": "kNumber",
+			"subtype": "kFloatdp",
+			"sublen": 0,
+			"desc": "Lens power measured in dioptres (0.25 units)."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:42:01",
+		"desc": "Contain the details of  the individual lens specifications and serves as the authorization for the fullfillment by certified professionals.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:25",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

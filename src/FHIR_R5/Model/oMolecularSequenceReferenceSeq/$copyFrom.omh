@@ -1,0 +1,10 @@
+Do inherited
+Calculate chromosome as pValue.$chromosome()
+Calculate genomeBuild as pValue.$genomeBuild()
+Calculate orientation as pValue.$orientation()
+Calculate referenceSeqId as pValue.$referenceSeqId()
+Calculate referenceSeqPointer as pValue.$referenceSeqPointer()
+Calculate referenceSeqString as pValue.$referenceSeqString()
+Calculate strand as pValue.$strand()
+Calculate windowStart as pValue.$windowStart()
+Calculate windowEnd as pValue.$windowEnd()

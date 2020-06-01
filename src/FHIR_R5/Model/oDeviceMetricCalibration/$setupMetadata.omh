@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("type","::type",0,"1",21,"code")
+Do pElements.$add("state","state",0,"1",21,"code")
+Do pElements.$add("time","time",0,"1",23,"instant")

@@ -1,0 +1,12 @@
+Do inherited
+Do pElements.$add("role","role",0,"-1",38,"CodeableConcept")
+Do pElements.$add("reference","reference",0,"1",38,"Reference")
+Do pElements.$add("userId","userId",0,"1",38,"Identifier")
+Do pElements.$add("altId","altId",0,"1",21,"string")
+Do pElements.$add("name","::name",0,"1",21,"string")
+Do pElements.$add("requestor","requestor",1,"1",22,"boolean")
+Do pElements.$add("location","location",0,"1",38,"Reference")
+Do pElements.$add("policy","policy",0,"-1",21,"uri")
+Do pElements.$add("media","media",0,"1",38,"Coding")
+Do pElements.$add("network","network",0,"1",38,"")
+Do pElements.$add("purposeOfUse","purposeOfUse",0,"-1",38,"CodeableConcept")

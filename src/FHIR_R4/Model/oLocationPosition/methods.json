@@ -1,0 +1,159 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$longitude",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: Longitude. The value domain and the interpretation are the same as for the text of the longitude element in KML (see notes below).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$longitude.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kNumber",
+				"subtype": "kFloatdp",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Longitude. The value domain and the interpretation are the same as for the text of the longitude element in KML (see notes below)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$latitude",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: Latitude. The value domain and the interpretation are the same as for the text of the latitude element in KML (see notes below).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$latitude.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kNumber",
+				"subtype": "kFloatdp",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Latitude. The value domain and the interpretation are the same as for the text of the latitude element in KML (see notes below)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$altitude",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: Altitude. The value domain and the interpretation are the same as for the text of the altitude element in KML (see notes below).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$altitude.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kNumber",
+				"subtype": "kFloatdp",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Altitude. The value domain and the interpretation are the same as for the text of the altitude element in KML (see notes below)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

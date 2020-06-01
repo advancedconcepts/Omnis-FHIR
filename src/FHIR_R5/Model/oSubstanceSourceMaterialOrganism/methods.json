@@ -1,0 +1,321 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$family",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: The family of an organism shall be specified.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$family.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The family of an organism shall be specified."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$genus",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: The genus of an organism shall be specified; refers to the Latin epithet of the genus element of the plant/animal scientific name; it is present in names for genera, species and infraspecies.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$genus.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The genus of an organism shall be specified; refers to the Latin epithet of the genus element of the plant/animal scientific name; it is present in names for genera, species and infraspecies."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$species",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: The species of an organism shall be specified; refers to the Latin epithet of the species of the plant/animal; it is present in names for species and infraspecies.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$species.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The species of an organism shall be specified; refers to the Latin epithet of the species of the plant/animal; it is present in names for species and infraspecies."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$intraspecificType",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: The Intraspecific type of an organism shall be specified.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$intraspecificType.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The Intraspecific type of an organism shall be specified."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$intraspecificDescription",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: The intraspecific description of an organism shall be specified based on a controlled vocabulary. For Influenza Vaccine, the intraspecific description shall contain the syntax of the antigen in line with the WHO convention.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$intraspecificDescription.$assign",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The intraspecific description of an organism shall be specified based on a controlled vocabulary. For Influenza Vaccine, the intraspecific description shall contain the syntax of the antigen in line with the WHO convention."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$author",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: 4.9.13.6.1 Author type (Conditional).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addauthor",
+		"ident": 15,
+		"order": 16,
+		"desc": "4.9.13.6.1 Author type (Conditional).",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oSubstanceSourceMaterialOrganismAuthor",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oSubstanceSourceMaterialOrganismAuthor",
+				"sublen": 0,
+				"desc": "4.9.13.6.1 Author type (Conditional)."
+			}
+		]
+	},
+	{
+		"name": "$hybrid",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: 4.9.13.8.1 Hybrid species maternal organism ID (Optional).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$hybrid.$assign",
+		"ident": 17,
+		"order": 18,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oSubstanceSourceMaterialOrganismHybrid",
+				"sublen": 0,
+				"param": 1,
+				"desc": "4.9.13.8.1 Hybrid species maternal organism ID (Optional)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$organismGeneral",
+		"ident": 18,
+		"order": 19,
+		"desc": "Returns: 4.9.13.7.1 Kingdom (Conditional).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$organismGeneral.$assign",
+		"ident": 19,
+		"order": 20,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oSubstanceSourceMaterialOrganismOrganismGeneral",
+				"sublen": 0,
+				"param": 1,
+				"desc": "4.9.13.7.1 Kingdom (Conditional)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

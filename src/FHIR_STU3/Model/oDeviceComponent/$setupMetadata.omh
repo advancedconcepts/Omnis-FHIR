@@ -1,0 +1,11 @@
+Do inherited
+Do pElements.$add("identifier","identifier",1,"1",38,"Identifier")
+Do pElements.$add("type","::type",1,"1",38,"CodeableConcept")
+Do pElements.$add("lastSystemChange","lastSystemChange",0,"1",23,"instant")
+Do pElements.$add("source","source",0,"1",38,"Reference")
+Do pElements.$add("parent","parent",0,"1",38,"Reference")
+Do pElements.$add("operationalStatus","operationalStatus",0,"-1",38,"CodeableConcept")
+Do pElements.$add("parameterGroup","parameterGroup",0,"1",38,"CodeableConcept")
+Do pElements.$add("measurementPrinciple","measurementPrinciple",0,"1",21,"code")
+Do pElements.$add("productionSpecification","productionSpecification",0,"-1",38,"")
+Do pElements.$add("languageCode","languageCode",0,"1",38,"CodeableConcept")

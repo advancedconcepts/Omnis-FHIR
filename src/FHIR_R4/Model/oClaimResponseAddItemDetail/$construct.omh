@@ -1,0 +1,4 @@
+Do inherited
+Do modifier.$define(modifier_)
+Do noteNumber.$define(noteNumber_)
+Do subDetail.$define(subDetail_)

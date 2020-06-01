@@ -1,0 +1,83 @@
+Do inherited
+Calculate identifier as pValue.$identifier()
+Calculate status as pValue.$status()
+Calculate issued as pValue.$issued()
+Calculate applies as pValue.$applies()
+Do subject.$clear()
+Calculate list as pValue.$subject()
+Do subject.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do topic.$clear()
+Calculate list as pValue.$topic()
+Do topic.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do authority.$clear()
+Calculate list as pValue.$authority()
+Do authority.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do domain.$clear()
+Calculate list as pValue.$domain()
+Do domain.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate type as pValue.$type()
+Do subType.$clear()
+Calculate list as pValue.$subtype()
+Do subType.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do action.$clear()
+Calculate list as pValue.$action()
+Do action.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do actionReason.$clear()
+Calculate list as pValue.$actionReason()
+Do actionReason.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate decisionType as pValue.$decisionType()
+Calculate contentDerivative as pValue.$contentDerivative()
+Do securityLabel.$clear()
+Calculate list as pValue.$securityLabel()
+Do securityLabel.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do agent.$clear()
+Calculate list as pValue.$agent()
+Do agent.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do signer.$clear()
+Calculate list as pValue.$signer()
+Do signer.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do valuedItem.$clear()
+Calculate list as pValue.$valuedItem()
+Do valuedItem.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do term.$clear()
+Calculate list as pValue.$term()
+Do term.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do friendly.$clear()
+Calculate list as pValue.$friendly()
+Do friendly.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do legal.$clear()
+Calculate list as pValue.$legal()
+Do legal.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do rule.$clear()
+Calculate list as pValue.$rule()
+Do rule.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

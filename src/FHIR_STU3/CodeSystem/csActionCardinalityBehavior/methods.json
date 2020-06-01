@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$single",
+		"ident": 0,
+		"order": 1,
+		"desc": "The action may be selected multiple times",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$multiple",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

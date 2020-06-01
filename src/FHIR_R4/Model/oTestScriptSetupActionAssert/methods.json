@@ -1,0 +1,748 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$label",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: The label would be used for tracking/logging purposes by test engines.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$label.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The label would be used for tracking/logging purposes by test engines."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$description",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: The description would be used by test engines for tracking and reporting purposes.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$description.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The description would be used by test engines for tracking and reporting purposes."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$direction",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: The direction to use for the assertion.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$direction.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The direction to use for the assertion."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$compareToSourceId",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: Id of the source fixture used as the contents to be evaluated by either the \"source/expression\" or \"sourceId/path\" definition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$compareToSourceId.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Id of the source fixture used as the contents to be evaluated by either the \"source/expression\" or \"sourceId/path\" definition."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$compareToSourceExpression",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: The FHIRPath expression to evaluate against the source fixture. When compareToSourceId is defined, either compareToSourceExpression or compareToSourcePath must be defined, but not both.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$compareToSourceExpression.$assign",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The FHIRPath expression to evaluate against the source fixture. When compareToSourceId is defined, either compareToSourceExpression or compareToSourcePath must be defined, but not both."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$compareToSourcePath",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: XPath or JSONPath expression to evaluate against the source fixture. When compareToSourceId is defined, either compareToSourceExpression or compareToSourcePath must be defined, but not both.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$compareToSourcePath.$assign",
+		"ident": 15,
+		"order": 16,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "XPath or JSONPath expression to evaluate against the source fixture. When compareToSourceId is defined, either compareToSourceExpression or compareToSourcePath must be defined, but not both."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$contentType",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: The mime-type contents to compare against the request or response message 'Content-Type' header.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$contentType.$assign",
+		"ident": 17,
+		"order": 18,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The mime-type contents to compare against the request or response message 'Content-Type' header."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$expression",
+		"ident": 18,
+		"order": 19,
+		"desc": "Returns: The FHIRPath expression to be evaluated against the request or response message contents - HTTP headers and payload.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$expression.$assign",
+		"ident": 19,
+		"order": 20,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The FHIRPath expression to be evaluated against the request or response message contents - HTTP headers and payload."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$headerField",
+		"ident": 20,
+		"order": 21,
+		"desc": "Returns: The HTTP header field name e.g. 'Location'.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$headerField.$assign",
+		"ident": 21,
+		"order": 22,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The HTTP header field name e.g. 'Location'."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$minimumId",
+		"ident": 22,
+		"order": 23,
+		"desc": "Returns: The ID of a fixture.  Asserts that the response contains at a minimum the fixture specified by minimumId.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$minimumId.$assign",
+		"ident": 23,
+		"order": 24,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The ID of a fixture.  Asserts that the response contains at a minimum the fixture specified by minimumId."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$navigationLinks",
+		"ident": 24,
+		"order": 25,
+		"desc": "Returns: Whether or not the test execution performs validation on the bundle navigation links.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$navigationLinks.$assign",
+		"ident": 25,
+		"order": 26,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "Whether or not the test execution performs validation on the bundle navigation links."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$operator",
+		"ident": 26,
+		"order": 27,
+		"desc": "Returns: The operator type defines the conditional behavior of the assert. If not defined, the default is equals.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$operator.$assign",
+		"ident": 27,
+		"order": 28,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The operator type defines the conditional behavior of the assert. If not defined, the default is equals."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$path",
+		"ident": 28,
+		"order": 29,
+		"desc": "Returns: The XPath or JSONPath expression to be evaluated against the fixture representing the response received from server.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$path.$assign",
+		"ident": 29,
+		"order": 30,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The XPath or JSONPath expression to be evaluated against the fixture representing the response received from server."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$requestMethod",
+		"ident": 30,
+		"order": 31,
+		"desc": "Returns: The request method or HTTP operation code to compare against that used by the client system under test.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$requestMethod.$assign",
+		"ident": 31,
+		"order": 32,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The request method or HTTP operation code to compare against that used by the client system under test."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$requestURL",
+		"ident": 32,
+		"order": 33,
+		"desc": "Returns: The value to use in a comparison against the request URL path string.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$requestURL.$assign",
+		"ident": 33,
+		"order": 34,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The value to use in a comparison against the request URL path string."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$resource",
+		"ident": 34,
+		"order": 35,
+		"desc": "Returns: The type of the resource.  See http://build.fhir.org/resourcelist.html.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$resource.$assign",
+		"ident": 35,
+		"order": 36,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The type of the resource.  See http://build.fhir.org/resourcelist.html."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$response",
+		"ident": 36,
+		"order": 37,
+		"desc": "Returns: okay | created | noContent | notModified | bad | forbidden | notFound | methodNotAllowed | conflict | gone | preconditionFailed | unprocessable.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$response.$assign",
+		"ident": 37,
+		"order": 38,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "okay | created | noContent | notModified | bad | forbidden | notFound | methodNotAllowed | conflict | gone | preconditionFailed | unprocessable."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$responseCode",
+		"ident": 38,
+		"order": 39,
+		"desc": "Returns: The value of the HTTP response code to be tested.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$responseCode.$assign",
+		"ident": 39,
+		"order": 40,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The value of the HTTP response code to be tested."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sourceId",
+		"ident": 40,
+		"order": 41,
+		"desc": "Returns: Fixture to evaluate the XPath/JSONPath expression or the headerField  against.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sourceId.$assign",
+		"ident": 41,
+		"order": 42,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Fixture to evaluate the XPath/JSONPath expression or the headerField  against."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$validateProfileId",
+		"ident": 42,
+		"order": 43,
+		"desc": "Returns: The ID of the Profile to validate against.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$validateProfileId.$assign",
+		"ident": 43,
+		"order": 44,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The ID of the Profile to validate against."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$value",
+		"ident": 44,
+		"order": 45,
+		"desc": "Returns: The value to compare to.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$value.$assign",
+		"ident": 45,
+		"order": 46,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The value to compare to."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$warningOnly",
+		"ident": 46,
+		"order": 47,
+		"desc": "Returns: Whether or not the test execution will produce a warning only on error for this assert.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$warningOnly.$assign",
+		"ident": 47,
+		"order": 48,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "Whether or not the test execution will produce a warning only on error for this assert."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

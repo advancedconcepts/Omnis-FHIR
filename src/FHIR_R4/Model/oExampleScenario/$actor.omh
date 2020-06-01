@@ -1,0 +1,4 @@
+If actor.$validref()=kFalse
+	Calculate actor as $clib.$classes.oExampleScenarioActor.$newref()
+End If
+Quit method actor

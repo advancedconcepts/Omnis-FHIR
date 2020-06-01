@@ -1,0 +1,6 @@
+Do inherited
+Calculate identifier as pValue.$identifier()
+Calculate name as pValue.$name()
+Calculate substitution as pValue.$substitution()
+Calculate halfLife as pValue.$halfLife()
+Calculate molecularWeight as pValue.$molecularWeight()

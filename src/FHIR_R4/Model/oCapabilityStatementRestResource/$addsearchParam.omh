@@ -1,0 +1,6 @@
+Calculate objRef as $clib.$classes.oCapabilityStatementRestResourceSearchParam.$newref()
+Do searchParam.$add(objRef)
+If pValue.$validref()
+	Do objRef.$copyFrom(pValue)
+End If
+Quit method objRef

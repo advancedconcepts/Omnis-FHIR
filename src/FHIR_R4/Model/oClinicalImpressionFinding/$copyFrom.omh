@@ -1,0 +1,4 @@
+Do inherited
+Calculate itemCodeableConcept as pValue.$itemCodeableConcept()
+Calculate itemReference as pValue.$itemReference()
+Calculate basis as pValue.$basis()

@@ -1,0 +1,10 @@
+Do inherited
+Calculate type as pValue.$type()
+Calculate productName as pValue.$productName()
+Do schedule.$clear()
+Calculate list as pValue.$schedule()
+Do schedule.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate quantity as pValue.$quantity()
+Calculate instruction as pValue.$instruction()

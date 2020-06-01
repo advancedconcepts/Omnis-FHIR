@@ -1,0 +1,22 @@
+Do inherited
+Calculate identifier as pValue.$identifier()
+Calculate effectiveTime as pValue.$effectiveTime()
+Calculate quantity as pValue.$quantity()
+Calculate unitPrice as pValue.$unitPrice()
+Calculate factor as pValue.$factor()
+Calculate points as pValue.$points()
+Calculate net as pValue.$net()
+Calculate payment as pValue.$payment()
+Calculate paymentDate as pValue.$paymentDate()
+Calculate responsible as pValue.$responsible()
+Calculate recipient as pValue.$recipient()
+Do linkId.$clear()
+Calculate list as pValue.$linkId()
+Do linkId.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do securityLabelNumber.$clear()
+Calculate list as pValue.$securityLabelNumber()
+Do securityLabelNumber.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

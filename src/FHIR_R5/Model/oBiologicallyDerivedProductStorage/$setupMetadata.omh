@@ -1,0 +1,5 @@
+Do inherited
+Do pElements.$add("description","description",0,"1",21,"string")
+Do pElements.$add("temperature","temperature",0,"1",25,"decimal")
+Do pElements.$add("scale","scale",0,"1",21,"code")
+Do pElements.$add("duration","duration",0,"1",38,"Period")

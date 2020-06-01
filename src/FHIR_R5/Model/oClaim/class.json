@@ -1,0 +1,312 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "accident",
+			"order": 32,
+			"type": "kObjectref",
+			"subtype": "oClaimAccident",
+			"sublen": 0,
+			"desc": "Details of an accident which resulted in injuries which required the products and services listed in the claim."
+		},
+		{
+			"name": "billablePeriod",
+			"order": 8,
+			"type": "kObjectref",
+			"subtype": "oPeriod",
+			"sublen": 0,
+			"desc": "The period for which charges are being submitted."
+		},
+		{
+			"name": "careTeam",
+			"order": 22,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "careTeam_",
+			"order": 23,
+			"type": "kObjectref",
+			"subtype": "oClaimCareTeam",
+			"sublen": 0,
+			"desc": "The members of the team who provided the products and services."
+		},
+		{
+			"name": "created",
+			"order": 9,
+			"type": "kDate",
+			"subtype": "kDatetime",
+			"sublen": 0,
+			"desc": "The date this resource was created."
+		},
+		{
+			"name": "diagnosis",
+			"order": 26,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "diagnosis_",
+			"order": 27,
+			"type": "kObjectref",
+			"subtype": "oClaimDiagnosis",
+			"sublen": 0,
+			"desc": "Information about diagnoses relevant to the claim items."
+		},
+		{
+			"name": "enterer",
+			"order": 10,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Individual who created the claim, predetermination or preauthorization."
+		},
+		{
+			"name": "facility",
+			"order": 21,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Facility where the services were provided."
+		},
+		{
+			"name": "fundsReserve",
+			"order": 14,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "A code to indicate whether and for whom funds are to be reserved for future claims."
+		},
+		{
+			"name": "identifier",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "identifier_",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "A unique identifier assigned to this claim."
+		},
+		{
+			"name": "insurance",
+			"order": 30,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "insurance_",
+			"order": 31,
+			"type": "kObjectref",
+			"subtype": "oClaimInsurance",
+			"sublen": 0,
+			"desc": "Financial instruments for reimbursement for the health care products and services specified on the claim."
+		},
+		{
+			"name": "insurer",
+			"order": 11,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The Insurer who is target of the request."
+		},
+		{
+			"name": "item",
+			"order": 33,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "item_",
+			"order": 34,
+			"type": "kObjectref",
+			"subtype": "oClaimItem",
+			"sublen": 0,
+			"desc": "A claim line. Either a simple  product or service or a 'group' of details which can each be a simple items or groups of sub-details."
+		},
+		{
+			"name": "originalPrescription",
+			"order": 18,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Original prescription which has been superseded by this prescription to support the dispensing of pharmacy services, medications or products."
+		},
+		{
+			"name": "patient",
+			"order": 7,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The party to whom the professional services and/or products have been supplied or are being considered and for whom actual or forecast reimbursement is sought."
+		},
+		{
+			"name": "payee",
+			"order": 19,
+			"type": "kObjectref",
+			"subtype": "oClaimPayee",
+			"sublen": 0,
+			"desc": "The party to be reimbursed for cost of the products and services according to the terms of the policy."
+		},
+		{
+			"name": "prescription",
+			"order": 17,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Prescription to support the dispensing of pharmacy, device or vision products."
+		},
+		{
+			"name": "priority",
+			"order": 13,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The provider-required urgency of processing the request. Typical values include: stat, routine deferred."
+		},
+		{
+			"name": "procedure",
+			"order": 28,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "procedure_",
+			"order": 29,
+			"type": "kObjectref",
+			"subtype": "oClaimProcedure",
+			"sublen": 0,
+			"desc": "Procedures performed on the patient relevant to the billing items with the claim."
+		},
+		{
+			"name": "provider",
+			"order": 12,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The provider which is responsible for the claim, predetermination or preauthorization."
+		},
+		{
+			"name": "referral",
+			"order": 20,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "A reference to a referral resource."
+		},
+		{
+			"name": "related",
+			"order": 15,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "related_",
+			"order": 16,
+			"type": "kObjectref",
+			"subtype": "oClaimRelated",
+			"sublen": 0,
+			"desc": "Other claims which are related to this claim such as prior submissions or claims for related services or for the same event."
+		},
+		{
+			"name": "status",
+			"order": 3,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The status of the resource instance."
+		},
+		{
+			"name": "subType",
+			"order": 5,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "A finer grained suite of claim type codes which may convey additional information such as Inpatient vs Outpatient and/or a specialty service."
+		},
+		{
+			"name": "supportingInfo",
+			"order": 24,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "supportingInfo_",
+			"order": 25,
+			"type": "kObjectref",
+			"subtype": "oClaimSupportingInfo",
+			"sublen": 0,
+			"desc": "Additional information codes regarding exceptions, special considerations, the condition, situation, prior or concurrent issues."
+		},
+		{
+			"name": "total",
+			"order": 35,
+			"type": "kObjectref",
+			"subtype": "oMoney",
+			"sublen": 0,
+			"desc": "The total value of the all the items in the claim."
+		},
+		{
+			"name": "type",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The category of claim, e.g. oral, pharmacy, vision, institutional, professional."
+		},
+		{
+			"name": "use",
+			"order": 6,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A code to indicate whether the nature of the request is: to request adjudication of products and services previously rendered; or requesting authorization and adjudication for provision in the future; or requesting the non-binding adjudication of the list"
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:44:40",
+		"desc": "A provider issued list of professional services and products which have been provided, or are to be provided, to a patient which is sent to an insurer for reimbursement.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:29",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

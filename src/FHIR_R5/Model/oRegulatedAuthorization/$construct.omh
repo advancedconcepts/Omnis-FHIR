@@ -1,0 +1,6 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do region.$define(region_)
+Do basis.$define(basis_)
+Do relatedDate.$define(relatedDate_)
+Do jurisdictionalAuthorization.$define(jurisdictionalAuthorization_)

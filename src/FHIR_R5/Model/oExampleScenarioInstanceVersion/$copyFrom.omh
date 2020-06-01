@@ -1,0 +1,3 @@
+Do inherited
+Calculate versionId as pValue.$versionId()
+Calculate description as pValue.$description()

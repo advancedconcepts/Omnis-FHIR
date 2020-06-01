@@ -1,0 +1,4 @@
+Do inherited
+Calculate autocreate as pValue.$autocreate()
+Calculate autodelete as pValue.$autodelete()
+Calculate resource as pValue.$resource()

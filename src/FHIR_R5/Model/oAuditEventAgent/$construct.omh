@@ -1,0 +1,4 @@
+Do inherited
+Do role.$define(role_)
+Do policy.$define(policy_)
+Do purposeOfUse.$define(purposeOfUse_)

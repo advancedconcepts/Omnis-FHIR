@@ -1,0 +1,4 @@
+If arm.$validref()=kFalse
+	Calculate arm as $clib.$classes.oResearchStudyArm.$newref()
+End If
+Quit method arm

@@ -1,0 +1,4 @@
+If additionalIdentifier.$validref()=kFalse
+	Calculate additionalIdentifier as $clib.$classes.oIdentifier.$newref()
+End If
+Quit method additionalIdentifier

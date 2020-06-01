@@ -1,0 +1,85 @@
+[
+	{
+		"name": "$transgender-female",
+		"ident": 0,
+		"order": 1,
+		"desc": "the patient identifies as transgender female-to-male",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$transgender-male",
+		"ident": 1,
+		"order": 2,
+		"desc": "the patient identifies with neither/both female and male",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$non-binary",
+		"ident": 2,
+		"order": 3,
+		"desc": "the patient identifies as male",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$male",
+		"ident": 3,
+		"order": 4,
+		"desc": "the patient identifies as female",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$female",
+		"ident": 4,
+		"order": 5,
+		"desc": "other gender identity",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$other",
+		"ident": 5,
+		"order": 6,
+		"desc": "the patient does not wish to disclose his gender identity",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$non-disclose",
+		"ident": 6,
+		"order": 7,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

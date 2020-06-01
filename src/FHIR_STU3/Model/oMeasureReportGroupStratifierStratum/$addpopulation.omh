@@ -1,0 +1,6 @@
+Calculate objRef as $clib.$classes.oMeasureReportGroupStratifierStratumPopulation.$newref()
+Do population.$add(objRef)
+If pValue.$validref()
+	Do objRef.$copyFrom(pValue)
+End If
+Quit method objRef

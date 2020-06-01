@@ -1,0 +1,121 @@
+[
+	{
+		"name": "$diet",
+		"ident": 0,
+		"order": 1,
+		"desc": "Flags related to the subject's medications.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$drug",
+		"ident": 1,
+		"order": 2,
+		"desc": "Flags related to performing laboratory tests and related processes (e.g. phlebotomy).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$lab",
+		"ident": 2,
+		"order": 3,
+		"desc": "Flags related to administrative and financial processes.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$admin",
+		"ident": 3,
+		"order": 4,
+		"desc": "Flags related to coming into contact with the patient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$contact",
+		"ident": 4,
+		"order": 5,
+		"desc": "Flags related to the subject's clinical data.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$clinical",
+		"ident": 5,
+		"order": 6,
+		"desc": "Flags related to behavior.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$behavioral",
+		"ident": 6,
+		"order": 7,
+		"desc": "Flags related to research.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$research",
+		"ident": 7,
+		"order": 8,
+		"desc": "Flags related to subject's advance directives.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$advance-directive",
+		"ident": 8,
+		"order": 9,
+		"desc": "Flags related to safety precautions.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$safety",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

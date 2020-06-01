@@ -1,0 +1,61 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate status as pValue.$status()
+Calculate serviceCategory as pValue.$serviceCategory()
+Do serviceType.$clear()
+Calculate list as pValue.$serviceType()
+Do serviceType.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do specialty.$clear()
+Calculate list as pValue.$specialty()
+Do specialty.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate appointmentType as pValue.$appointmentType()
+Do reason.$clear()
+Calculate list as pValue.$reason()
+Do reason.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do indication.$clear()
+Calculate list as pValue.$indication()
+Do indication.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate priority as pValue.$priority()
+Calculate description as pValue.$description()
+Do supportingInformation.$clear()
+Calculate list as pValue.$supportingInformation()
+Do supportingInformation.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate start as pValue.$start()
+Calculate end as pValue.$end()
+Calculate minutesDuration as pValue.$minutesDuration()
+Do slot.$clear()
+Calculate list as pValue.$slot()
+Do slot.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate created as pValue.$created()
+Calculate comment as pValue.$comment()
+Do incomingReferral.$clear()
+Calculate list as pValue.$incomingReferral()
+Do incomingReferral.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do participant.$clear()
+Calculate list as pValue.$participant()
+Do participant.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do requestedPeriod.$clear()
+Calculate list as pValue.$requestedPeriod()
+Do requestedPeriod.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

@@ -1,0 +1,61 @@
+[
+	{
+		"name": "$literal",
+		"ident": 0,
+		"order": 1,
+		"desc": "The server allows logical references (i.e. using Reference.identifier).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$logical",
+		"ident": 1,
+		"order": 2,
+		"desc": "The server will attempt to resolve logical references to literal references - i.e. converting Reference.identifier to Reference.reference (if resolution fails, the server may still accept resources; see logical).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$resolves",
+		"ident": 2,
+		"order": 3,
+		"desc": "The server enforces that references have integrity - e.g. it ensures that references can always be resolved. This is typically the case for clinical record systems, but often not the case for middleware/proxy systems.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$enforced",
+		"ident": 3,
+		"order": 4,
+		"desc": "The server does not support references that point to other servers.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$local",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

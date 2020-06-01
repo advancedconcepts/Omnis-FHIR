@@ -1,0 +1,5 @@
+Do inherited
+Calculate customaryUnit as pValue.$customaryUnit()
+Calculate unit as pValue.$unit()
+Calculate conversionFactor as pValue.$conversionFactor()
+Calculate decimalPrecision as pValue.$decimalPrecision()

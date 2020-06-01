@@ -1,0 +1,4 @@
+If fee.$validref()=kFalse
+	Calculate fee as $clib.$classes.oMoney.$newref()
+End If
+Quit method fee

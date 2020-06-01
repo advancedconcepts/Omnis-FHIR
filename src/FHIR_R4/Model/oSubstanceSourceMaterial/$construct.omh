@@ -1,0 +1,7 @@
+Do inherited
+Do parentSubstanceId.$define(parentSubstanceId_)
+Do parentSubstanceName.$define(parentSubstanceName_)
+Do countryOfOrigin.$define(countryOfOrigin_)
+Do geographicalLocation.$define(geographicalLocation_)
+Do fractionDescription.$define(fractionDescription_)
+Do partDescription.$define(partDescription_)

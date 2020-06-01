@@ -1,0 +1,4 @@
+If rule.$validref()=kFalse
+	Calculate rule as $clib.$classes.oTestScriptSetupActionAssertRule.$newref()
+End If
+Quit method rule

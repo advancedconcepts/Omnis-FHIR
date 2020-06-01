@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("claim","claim",0,"1",38,"Reference")
+Do pElements.$add("relationship","relationship",0,"1",38,"CodeableConcept")
+Do pElements.$add("reference","reference",0,"1",38,"Identifier")

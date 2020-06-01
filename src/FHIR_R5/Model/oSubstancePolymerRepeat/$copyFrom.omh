@@ -1,0 +1,9 @@
+Do inherited
+Calculate numberOfUnits as pValue.$numberOfUnits()
+Calculate averageMolecularFormula as pValue.$averageMolecularFormula()
+Calculate repeatUnitAmountType as pValue.$repeatUnitAmountType()
+Do repeatUnit.$clear()
+Calculate list as pValue.$repeatUnit()
+Do repeatUnit.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

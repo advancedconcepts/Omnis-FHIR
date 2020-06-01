@@ -1,0 +1,10 @@
+Do inherited
+Calculate description as pValue.$description()
+Do usageContext.$clear()
+Calculate list as pValue.$usageContext()
+Do usageContext.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate exclude as pValue.$exclude()
+Calculate timeFromStart as pValue.$timeFromStart()
+Calculate groupMeasure as pValue.$groupMeasure()

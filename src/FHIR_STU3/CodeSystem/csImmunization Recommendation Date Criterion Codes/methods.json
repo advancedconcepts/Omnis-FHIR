@@ -1,0 +1,61 @@
+[
+	{
+		"name": "$due",
+		"ident": 0,
+		"order": 1,
+		"desc": "At the recommended date.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$recommended",
+		"ident": 1,
+		"order": 2,
+		"desc": "As early as possible.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$earliest",
+		"ident": 2,
+		"order": 3,
+		"desc": "Date the next dose is considered overdue.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$overdue",
+		"ident": 3,
+		"order": 4,
+		"desc": "The latest date the next dose is to be given.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$latest",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,4 @@
+If routeofAdministration.$validref()=kFalse
+	Calculate routeofAdministration as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method routeofAdministration

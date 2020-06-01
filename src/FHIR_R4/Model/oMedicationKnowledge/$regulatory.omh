@@ -1,0 +1,4 @@
+If regulatory.$validref()=kFalse
+	Calculate regulatory as $clib.$classes.oMedicationKnowledgeRegulatory.$newref()
+End If
+Quit method regulatory

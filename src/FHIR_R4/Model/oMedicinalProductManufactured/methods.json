@@ -1,0 +1,316 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$manufacturedDoseForm",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: Dose form as manufactured and before any transformation into the pharmaceutical product.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$manufacturedDoseForm.$assign",
+		"ident": 6,
+		"order": 7,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Dose form as manufactured and before any transformation into the pharmaceutical product."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unitOfPresentation",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: The “real world” units in which the quantity of the manufactured item is described.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unitOfPresentation.$assign",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The “real world” units in which the quantity of the manufactured item is described."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$quantity",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: The quantity or \"count number\" of the manufactured item.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$quantity.$assign",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oQuantity",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The quantity or \"count number\" of the manufactured item."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$manufacturer",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: Manufacturer of the item (Note that this should be named \"manufacturer\" but it currently causes technical issues).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addmanufacturer",
+		"ident": 12,
+		"order": 13,
+		"desc": "Manufacturer of the item (Note that this should be named \"manufacturer\" but it currently causes technical issues).",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Manufacturer of the item (Note that this should be named \"manufacturer\" but it currently causes technical issues)."
+			}
+		]
+	},
+	{
+		"name": "$ingredient",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: Ingredient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addingredient",
+		"ident": 14,
+		"order": 15,
+		"desc": "Ingredient.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Ingredient."
+			}
+		]
+	},
+	{
+		"name": "$physicalCharacteristics",
+		"ident": 15,
+		"order": 16,
+		"desc": "Returns: Dimensions, color etc.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$physicalCharacteristics.$assign",
+		"ident": 16,
+		"order": 17,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oProdCharacteristic",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Dimensions, color etc."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$otherCharacteristics",
+		"ident": 17,
+		"order": 18,
+		"desc": "Returns: Other codeable characteristics.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addotherCharacteristics",
+		"ident": 18,
+		"order": 19,
+		"desc": "Other codeable characteristics.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Other codeable characteristics."
+			}
+		]
+	}
+]

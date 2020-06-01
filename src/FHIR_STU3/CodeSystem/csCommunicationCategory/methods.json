@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$alert",
+		"ident": 0,
+		"order": 1,
+		"desc": "The communication conveys a notification.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$notification",
+		"ident": 1,
+		"order": 2,
+		"desc": "The communication conveys a reminder.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$reminder",
+		"ident": 2,
+		"order": 3,
+		"desc": "The communication conveys instruction.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$instruction",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

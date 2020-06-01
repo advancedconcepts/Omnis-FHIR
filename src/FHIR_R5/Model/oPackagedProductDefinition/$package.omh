@@ -1,0 +1,4 @@
+If package.$validref()=kFalse
+	Calculate package as $clib.$classes.oPackagedProductDefinitionPackage.$newref()
+End If
+Quit method package

@@ -1,0 +1,4 @@
+If answer.$validref()=kFalse
+	Calculate answer as $clib.$classes.oContractTermOfferAnswer.$newref()
+End If
+Quit method answer

@@ -1,0 +1,50 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate status as pValue.$status()
+Calculate statusReason as pValue.$statusReason()
+Calculate description as pValue.$description()
+Calculate subject as pValue.$subject()
+Calculate encounter as pValue.$encounter()
+Calculate date as pValue.$date()
+Calculate performer as pValue.$performer()
+Calculate previous as pValue.$previous()
+Do problem.$clear()
+Calculate list as pValue.$problem()
+Do problem.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do protocol.$clear()
+Calculate list as pValue.$protocol()
+Do protocol.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate summary as pValue.$summary()
+Do finding.$clear()
+Calculate list as pValue.$finding()
+Do finding.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do prognosisCodeableConcept.$clear()
+Calculate list as pValue.$prognosisCodeableConcept()
+Do prognosisCodeableConcept.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do prognosisReference.$clear()
+Calculate list as pValue.$prognosisReference()
+Do prognosisReference.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do supportingInfo.$clear()
+Calculate list as pValue.$supportingInfo()
+Do supportingInfo.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do note.$clear()
+Calculate list as pValue.$note()
+Do note.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

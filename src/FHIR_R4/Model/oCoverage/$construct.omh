@@ -1,0 +1,6 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do payor.$define(payor_)
+Do class.$define(class_)
+Do costToBeneficiary.$define(costToBeneficiary_)
+Do contract.$define(contract_)

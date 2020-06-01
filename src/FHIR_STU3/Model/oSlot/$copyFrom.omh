@@ -1,0 +1,24 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate serviceCategory as pValue.$serviceCategory()
+Do serviceType.$clear()
+Calculate list as pValue.$serviceType()
+Do serviceType.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do specialty.$clear()
+Calculate list as pValue.$specialty()
+Do specialty.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate appointmentType as pValue.$appointmentType()
+Calculate schedule as pValue.$schedule()
+Calculate status as pValue.$status()
+Calculate start as pValue.$start()
+Calculate end as pValue.$end()
+Calculate overbooked as pValue.$overbooked()
+Calculate comment as pValue.$comment()

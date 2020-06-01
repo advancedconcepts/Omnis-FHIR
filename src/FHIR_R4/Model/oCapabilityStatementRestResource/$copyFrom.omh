@@ -1,0 +1,46 @@
+Do inherited
+Calculate type as pValue.$type()
+Calculate profile as pValue.$profile()
+Do supportedProfile.$clear()
+Calculate list as pValue.$supportedProfile()
+Do supportedProfile.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate documentation as pValue.$documentation()
+Do interaction.$clear()
+Calculate list as pValue.$interaction()
+Do interaction.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate versioning as pValue.$versioning()
+Calculate readHistory as pValue.$readHistory()
+Calculate updateCreate as pValue.$updateCreate()
+Calculate conditionalCreate as pValue.$conditionalCreate()
+Calculate conditionalRead as pValue.$conditionalRead()
+Calculate conditionalUpdate as pValue.$conditionalUpdate()
+Calculate conditionalDelete as pValue.$conditionalDelete()
+Do referencePolicy.$clear()
+Calculate list as pValue.$referencePolicy()
+Do referencePolicy.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do searchInclude.$clear()
+Calculate list as pValue.$searchInclude()
+Do searchInclude.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do searchRevInclude.$clear()
+Calculate list as pValue.$searchRevInclude()
+Do searchRevInclude.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do searchParam.$clear()
+Calculate list as pValue.$searchParam()
+Do searchParam.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do operation.$clear()
+Calculate list as pValue.$operation()
+Do operation.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

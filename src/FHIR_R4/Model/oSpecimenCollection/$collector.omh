@@ -1,0 +1,4 @@
+If collector.$validref()=kFalse
+	Calculate collector as $clib.$classes.oReference.$newref()
+End If
+Quit method collector

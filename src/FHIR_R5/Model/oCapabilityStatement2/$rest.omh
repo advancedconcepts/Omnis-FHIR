@@ -1,0 +1,4 @@
+If rest.$validref()=kFalse
+	Calculate rest as $clib.$classes.oCapabilityStatement2Rest.$newref()
+End If
+Quit method rest

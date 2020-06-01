@@ -1,0 +1,15 @@
+Do inherited
+Calculate identifier as pValue.$identifier()
+Calculate role as pValue.$role()
+Calculate allergenicIndicator as pValue.$allergenicIndicator()
+Do manufacturer.$clear()
+Calculate list as pValue.$manufacturer()
+Do manufacturer.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do specifiedSubstance.$clear()
+Calculate list as pValue.$specifiedSubstance()
+Do specifiedSubstance.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate substance as pValue.$substance()

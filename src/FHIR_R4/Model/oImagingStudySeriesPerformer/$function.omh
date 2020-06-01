@@ -1,0 +1,4 @@
+If function.$validref()=kFalse
+	Calculate function as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method function

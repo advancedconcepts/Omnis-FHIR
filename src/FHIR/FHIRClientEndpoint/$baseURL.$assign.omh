@@ -1,0 +1,22 @@
+Calculate iBaseURL as pBaseURL
+
+If left(pBaseURL,8)='https://'
+	Calculate pBaseURL as mid(pBaseURL,9)
+	Calculate iURLSecure as kTrue
+Else If left(pBaseURL,7)='http://'
+	Calculate pBaseURL as mid(pBaseURL,8)
+	Calculate iURLSecure as kFalse
+End If
+
+Calculate iURLPath as mid(pBaseURL,pos("/",pBaseURL))
+Calculate iURLHost as left(pBaseURL,pos("/",pBaseURL)-1)
+If pos(":",iURLHost)
+	Calculate iURLPort as mid(iURLHost,pos(":",iURLHost)+1)
+	Calculate iURLHost as left(iURLHost,pos(":",iURLHost)-1)
+Else
+	If iURLSecure
+		Calculate iURLPort as 443
+	Else
+		Calculate iURLPort as 80
+	End If
+End If

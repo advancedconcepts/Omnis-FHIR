@@ -1,0 +1,5 @@
+Do inherited
+Do event.$define(event_)
+Do repeat.dayOfWeek.$define(repeat.dayOfWeek_)
+Do repeat.timeOfDay.$define(repeat.timeOfDay_)
+Do repeat.when.$define(repeat.when_)

@@ -1,0 +1,37 @@
+Do inherited
+Calculate identifier as pValue.$identifier()
+Calculate category as pValue.$category()
+Calculate type as pValue.$type()
+Calculate subject as pValue.$subject()
+Calculate date as pValue.$date()
+Do reaction.$clear()
+Calculate list as pValue.$reaction()
+Do reaction.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate location as pValue.$location()
+Calculate seriousness as pValue.$seriousness()
+Calculate outcome as pValue.$outcome()
+Calculate recorder as pValue.$recorder()
+Calculate eventParticipant as pValue.$eventParticipant()
+Calculate description as pValue.$description()
+Do suspectEntity.$clear()
+Calculate list as pValue.$suspectEntity()
+Do suspectEntity.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do subjectMedicalHistory.$clear()
+Calculate list as pValue.$subjectMedicalHistory()
+Do subjectMedicalHistory.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do referenceDocument.$clear()
+Calculate list as pValue.$referenceDocument()
+Do referenceDocument.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do study.$clear()
+Calculate list as pValue.$study()
+Do study.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

@@ -1,0 +1,20 @@
+Do inherited
+Calculate manufacturedDoseForm as pValue.$manufacturedDoseForm()
+Calculate unitOfPresentation as pValue.$unitOfPresentation()
+Calculate quantity as pValue.$quantity()
+Do manufacturer.$clear()
+Calculate list as pValue.$manufacturer()
+Do manufacturer.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do ingredient.$clear()
+Calculate list as pValue.$ingredient()
+Do ingredient.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate physicalCharacteristics as pValue.$physicalCharacteristics()
+Do otherCharacteristics.$clear()
+Calculate list as pValue.$otherCharacteristics()
+Do otherCharacteristics.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

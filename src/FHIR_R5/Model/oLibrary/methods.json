@@ -1,0 +1,1099 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$url",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: An absolute URI that is used to identify this library when it is referenced in a specification, model, design or an instance; also called its canonical identifier. This SHOULD be globally unique and SHOULD be a literal address at which at which an authoritative instance of this library is (or will be) published. This URL can be the target of a canonical reference. It SHALL remain the same when the library is stored on different servers.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$url.$assign",
+		"ident": 6,
+		"order": 7,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "An absolute URI that is used to identify this library when it is referenced in a specification, model, design or an instance; also called its canonical identifier. This SHOULD be globally unique and SHOULD be a literal address at which at which an authori"
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$identifier",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: A formal identifier that is used to identify this library when it is represented in other formats, or referenced in a specification, model, design or an instance. e.g. CMS or NQF identifiers for a measure artifact. Note that at least one identifier is required for non-experimental active artifacts.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addidentifier",
+		"ident": 8,
+		"order": 9,
+		"desc": "A formal identifier that is used to identify this library when it is represented in other formats, or referenced in a specification, model, design or an instance. e.g. CMS or NQF identifiers for a measure artifact. Note that at least one identifier is required for non-experimental active artifacts.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"desc": "A formal identifier that is used to identify this library when it is represented in other formats, or referenced in a specification, model, design or an instance. e.g. CMS or NQF identifiers for a measure artifact. Note that at least one identifier is req"
+			}
+		]
+	},
+	{
+		"name": "$::version",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: The identifier that is used to identify this version of the library when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the library author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence. To provide a version consistent with the Decision Support Service specification, use the format Major.Minor.Revision (e.g. 1.0.0). For more information on versioning knowledge assets, refer to the Decision Support Service specification. Note that a version is required for non-experimental active artifacts.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::version.$assign",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The identifier that is used to identify this version of the library when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the library author and is not expected to be globally unique. For example, it mi"
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::name",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: A natural language name identifying the library. This name should be usable as an identifier for the module by machine processing applications such as code generation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::name.$assign",
+		"ident": 12,
+		"order": 13,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A natural language name identifying the library. This name should be usable as an identifier for the module by machine processing applications such as code generation."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$title",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: A short, descriptive, user-friendly title for the library.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$title.$assign",
+		"ident": 14,
+		"order": 15,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A short, descriptive, user-friendly title for the library."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subtitle",
+		"ident": 15,
+		"order": 16,
+		"desc": "Returns: An explanatory or alternate title for the library giving additional information about its content.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subtitle.$assign",
+		"ident": 16,
+		"order": 17,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "An explanatory or alternate title for the library giving additional information about its content."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$status",
+		"ident": 17,
+		"order": 18,
+		"desc": "Returns: The status of this library. Enables tracking the life-cycle of the content.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$status.$assign",
+		"ident": 18,
+		"order": 19,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The status of this library. Enables tracking the life-cycle of the content."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$experimental",
+		"ident": 19,
+		"order": 20,
+		"desc": "Returns: A Boolean value to indicate that this library is authored for testing purposes (or education/evaluation/marketing) and is not intended to be used for genuine usage.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$experimental.$assign",
+		"ident": 20,
+		"order": 21,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "A Boolean value to indicate that this library is authored for testing purposes (or education/evaluation/marketing) and is not intended to be used for genuine usage."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type",
+		"ident": 21,
+		"order": 22,
+		"desc": "Returns: Identifies the type of library such as a Logic Library, Model Definition, Asset Collection, or Module Definition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type.$assign",
+		"ident": 22,
+		"order": 23,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Identifies the type of library such as a Logic Library, Model Definition, Asset Collection, or Module Definition."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$date",
+		"ident": 23,
+		"order": 24,
+		"desc": "Returns: The date  (and optionally time) when the library was published. The date must change when the business version changes and it must change if the status code changes. In addition, it should change when the substantive content of the library changes.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$date.$assign",
+		"ident": 24,
+		"order": 25,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kDate",
+				"subtype": "kDatetime",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The date  (and optionally time) when the library was published. The date must change when the business version changes and it must change if the status code changes. In addition, it should change when the substantive content of the library changes."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$publisher",
+		"ident": 25,
+		"order": 26,
+		"desc": "Returns: The name of the organization or individual that published the library.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$publisher.$assign",
+		"ident": 26,
+		"order": 27,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The name of the organization or individual that published the library."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$contact",
+		"ident": 27,
+		"order": 28,
+		"desc": "Returns: Contact details to assist a user in finding and communicating with the publisher.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcontact",
+		"ident": 28,
+		"order": 29,
+		"desc": "Contact details to assist a user in finding and communicating with the publisher.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oContactDetail",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oContactDetail",
+				"sublen": 0,
+				"desc": "Contact details to assist a user in finding and communicating with the publisher."
+			}
+		]
+	},
+	{
+		"name": "$description",
+		"ident": 29,
+		"order": 30,
+		"desc": "Returns: A free text natural language description of the library from a consumer's perspective.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$description.$assign",
+		"ident": 30,
+		"order": 31,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A free text natural language description of the library from a consumer's perspective."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$useContext",
+		"ident": 31,
+		"order": 32,
+		"desc": "Returns: The content was developed with a focus and intent of supporting the contexts that are listed. These contexts may be general categories (gender, age, ...) or may be references to specific programs (insurance plans, studies, ...) and may be used to assist with indexing and searching for appropriate library instances.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$adduseContext",
+		"ident": 32,
+		"order": 33,
+		"desc": "The content was developed with a focus and intent of supporting the contexts that are listed. These contexts may be general categories (gender, age, ...) or may be references to specific programs (insurance plans, studies, ...) and may be used to assist with indexing and searching for appropriate library instances.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oUsageContext",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oUsageContext",
+				"sublen": 0,
+				"desc": "The content was developed with a focus and intent of supporting the contexts that are listed. These contexts may be general categories (gender, age, ...) or may be references to specific programs (insurance plans, studies, ...) and may be used to assist w"
+			}
+		]
+	},
+	{
+		"name": "$jurisdiction",
+		"ident": 33,
+		"order": 34,
+		"desc": "Returns: A legal or geographic region in which the library is intended to be used.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addjurisdiction",
+		"ident": 34,
+		"order": 35,
+		"desc": "A legal or geographic region in which the library is intended to be used.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "A legal or geographic region in which the library is intended to be used."
+			}
+		]
+	},
+	{
+		"name": "$purpose",
+		"ident": 35,
+		"order": 36,
+		"desc": "Returns: Explanation of why this library is needed and why it has been designed as it has.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$purpose.$assign",
+		"ident": 36,
+		"order": 37,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Explanation of why this library is needed and why it has been designed as it has."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$usage",
+		"ident": 37,
+		"order": 38,
+		"desc": "Returns: A detailed description of how the library is used from a clinical perspective.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$usage.$assign",
+		"ident": 38,
+		"order": 39,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A detailed description of how the library is used from a clinical perspective."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyright",
+		"ident": 39,
+		"order": 40,
+		"desc": "Returns: A copyright statement relating to the library and/or its contents. Copyright statements are generally legal restrictions on the use and publishing of the library.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyright.$assign",
+		"ident": 40,
+		"order": 41,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A copyright statement relating to the library and/or its contents. Copyright statements are generally legal restrictions on the use and publishing of the library."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$approvalDate",
+		"ident": 41,
+		"order": 42,
+		"desc": "Returns: The date on which the resource content was approved by the publisher. Approval happens once when the content is officially approved for usage.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$approvalDate.$assign",
+		"ident": 42,
+		"order": 43,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kDate",
+				"subtype": "kDate2000",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The date on which the resource content was approved by the publisher. Approval happens once when the content is officially approved for usage."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$lastReviewDate",
+		"ident": 43,
+		"order": 44,
+		"desc": "Returns: The date on which the resource content was last reviewed. Review happens periodically after approval but does not change the original approval date.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$lastReviewDate.$assign",
+		"ident": 44,
+		"order": 45,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kDate",
+				"subtype": "kDate2000",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The date on which the resource content was last reviewed. Review happens periodically after approval but does not change the original approval date."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$effectivePeriod",
+		"ident": 45,
+		"order": 46,
+		"desc": "Returns: The period during which the library content was or is planned to be in active use.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$effectivePeriod.$assign",
+		"ident": 46,
+		"order": 47,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oPeriod",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The period during which the library content was or is planned to be in active use."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$topic",
+		"ident": 47,
+		"order": 48,
+		"desc": "Returns: Descriptive topics related to the content of the library. Topics provide a high-level categorization of the library that can be useful for filtering and searching.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addtopic",
+		"ident": 48,
+		"order": 49,
+		"desc": "Descriptive topics related to the content of the library. Topics provide a high-level categorization of the library that can be useful for filtering and searching.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Descriptive topics related to the content of the library. Topics provide a high-level categorization of the library that can be useful for filtering and searching."
+			}
+		]
+	},
+	{
+		"name": "$author",
+		"ident": 49,
+		"order": 50,
+		"desc": "Returns: An individiual or organization primarily involved in the creation and maintenance of the content.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addauthor",
+		"ident": 50,
+		"order": 51,
+		"desc": "An individiual or organization primarily involved in the creation and maintenance of the content.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oContactDetail",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oContactDetail",
+				"sublen": 0,
+				"desc": "An individiual or organization primarily involved in the creation and maintenance of the content."
+			}
+		]
+	},
+	{
+		"name": "$editor",
+		"ident": 51,
+		"order": 52,
+		"desc": "Returns: An individual or organization primarily responsible for internal coherence of the content.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addeditor",
+		"ident": 52,
+		"order": 53,
+		"desc": "An individual or organization primarily responsible for internal coherence of the content.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oContactDetail",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oContactDetail",
+				"sublen": 0,
+				"desc": "An individual or organization primarily responsible for internal coherence of the content."
+			}
+		]
+	},
+	{
+		"name": "$reviewer",
+		"ident": 53,
+		"order": 54,
+		"desc": "Returns: An individual or organization primarily responsible for review of some aspect of the content.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addreviewer",
+		"ident": 54,
+		"order": 55,
+		"desc": "An individual or organization primarily responsible for review of some aspect of the content.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oContactDetail",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oContactDetail",
+				"sublen": 0,
+				"desc": "An individual or organization primarily responsible for review of some aspect of the content."
+			}
+		]
+	},
+	{
+		"name": "$endorser",
+		"ident": 55,
+		"order": 56,
+		"desc": "Returns: An individual or organization responsible for officially endorsing the content for use in some setting.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addendorser",
+		"ident": 56,
+		"order": 57,
+		"desc": "An individual or organization responsible for officially endorsing the content for use in some setting.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oContactDetail",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oContactDetail",
+				"sublen": 0,
+				"desc": "An individual or organization responsible for officially endorsing the content for use in some setting."
+			}
+		]
+	},
+	{
+		"name": "$relatedArtifact",
+		"ident": 57,
+		"order": 58,
+		"desc": "Returns: Related artifacts such as additional documentation, justification, or bibliographic references.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addrelatedArtifact",
+		"ident": 58,
+		"order": 59,
+		"desc": "Related artifacts such as additional documentation, justification, or bibliographic references.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oRelatedArtifact",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oRelatedArtifact",
+				"sublen": 0,
+				"desc": "Related artifacts such as additional documentation, justification, or bibliographic references."
+			}
+		]
+	},
+	{
+		"name": "$parameter",
+		"ident": 59,
+		"order": 60,
+		"desc": "Returns: The parameter element defines parameters used by the library.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addparameter",
+		"ident": 60,
+		"order": 61,
+		"desc": "The parameter element defines parameters used by the library.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oParameterDefinition",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oParameterDefinition",
+				"sublen": 0,
+				"desc": "The parameter element defines parameters used by the library."
+			}
+		]
+	},
+	{
+		"name": "$dataRequirement",
+		"ident": 61,
+		"order": 62,
+		"desc": "Returns: Describes a set of data that must be provided in order to be able to successfully perform the computations defined by the library.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$adddataRequirement",
+		"ident": 62,
+		"order": 63,
+		"desc": "Describes a set of data that must be provided in order to be able to successfully perform the computations defined by the library.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oDataRequirement",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oDataRequirement",
+				"sublen": 0,
+				"desc": "Describes a set of data that must be provided in order to be able to successfully perform the computations defined by the library."
+			}
+		]
+	},
+	{
+		"name": "$content",
+		"ident": 63,
+		"order": 64,
+		"desc": "Returns: The content of the library as an Attachment. The content may be a reference to a url, or may be directly embedded as a base-64 string. Either way, the contentType of the attachment determines how to interpret the content.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcontent",
+		"ident": 64,
+		"order": 65,
+		"desc": "The content of the library as an Attachment. The content may be a reference to a url, or may be directly embedded as a base-64 string. Either way, the contentType of the attachment determines how to interpret the content.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oAttachment",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oAttachment",
+				"sublen": 0,
+				"desc": "The content of the library as an Attachment. The content may be a reference to a url, or may be directly embedded as a base-64 string. Either way, the contentType of the attachment determines how to interpret the content."
+			}
+		]
+	}
+]

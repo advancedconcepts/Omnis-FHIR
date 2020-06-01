@@ -1,0 +1,351 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "administrationGuideline",
+			"order": 29,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "administrationGuideline_",
+			"order": 30,
+			"type": "kObjectref",
+			"subtype": "oMedicationKnowledgeAdministrationGuideline",
+			"sublen": 0,
+			"desc": "Guidelines or protocols that are applicable for the administration of the medication."
+		},
+		{
+			"name": "amount",
+			"order": 7,
+			"type": "kObjectref",
+			"subtype": "oQuantity",
+			"sublen": 0,
+			"desc": "Specific amount of the drug in the packaged product.  For example, when specifying a product that has the same strength (For example, Insulin glargine 100 unit per mL solution for injection), this attribute provides additional clarification of the package"
+		},
+		{
+			"name": "associatedMedication",
+			"order": 12,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "associatedMedication_",
+			"order": 13,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Associated or related medications.  For example, if the medication is a branded product (e.g. Crestor), this is the Therapeutic Moeity (e.g. Rosuvastatin) or if this is a generic medication (e.g. Rosuvastatin), this would link to a branded product (e.g. C"
+		},
+		{
+			"name": "clinicalUseIssue",
+			"order": 36,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "clinicalUseIssue_",
+			"order": 37,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Potential clinical issue with or between medication(s) (for example, drug-drug interaction, drug-disease contraindication, drug-allergy interaction, etc.)."
+		},
+		{
+			"name": "code",
+			"order": 3,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "A code that specifies this medication, or a textual description if no code is available. Usage note: This could be a standard medication code such as a code from RxNorm, SNOMED CT, IDMP etc. It could also be a national or local formulary code, optionally "
+		},
+		{
+			"name": "cost",
+			"order": 25,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cost_",
+			"order": 26,
+			"type": "kObjectref",
+			"subtype": "oMedicationKnowledgeCost",
+			"sublen": 0,
+			"desc": "The price of the medication."
+		},
+		{
+			"name": "device",
+			"order": 20,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "device_",
+			"order": 21,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "A device associated with the medication (for example, a drug coated catheter or a drug impregnated dressing)."
+		},
+		{
+			"name": "doseForm",
+			"order": 6,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Describes the form of the item.  Powder; tablets; capsule."
+		},
+		{
+			"name": "drugCharacteristic",
+			"order": 34,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "drugCharacteristic_",
+			"order": 35,
+			"type": "kObjectref",
+			"subtype": "oMedicationKnowledgeDrugCharacteristic",
+			"sublen": 0,
+			"desc": "Specifies descriptive properties of the medicine, such as color, shape, imprints, etc."
+		},
+		{
+			"name": "identifier",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "identifier_",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "Business identifier for this medication."
+		},
+		{
+			"name": "ingredient",
+			"order": 18,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "ingredient_",
+			"order": 19,
+			"type": "kObjectref",
+			"subtype": "oMedicationKnowledgeIngredient",
+			"sublen": 0,
+			"desc": "Identifies a particular constituent of interest in the product."
+		},
+		{
+			"name": "intendedRoute",
+			"order": 23,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "intendedRoute_",
+			"order": 24,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The intended or approved route of administration."
+		},
+		{
+			"name": "kineticCharacteristic",
+			"order": 40,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "kineticCharacteristic_",
+			"order": 41,
+			"type": "kObjectref",
+			"subtype": "oMedicationKnowledgeKineticCharacteristic",
+			"sublen": 0,
+			"desc": "The time course of drug absorption, distribution, metabolism and excretion of a medication from the body."
+		},
+		{
+			"name": "manufacturer",
+			"order": 5,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Describes the details of the manufacturer of the medication product.  This is not intended to represent the distributor of a medication product."
+		},
+		{
+			"name": "medicineClassification",
+			"order": 31,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "medicineClassification_",
+			"order": 32,
+			"type": "kObjectref",
+			"subtype": "oMedicationKnowledgeMedicineClassification",
+			"sublen": 0,
+			"desc": "Categorization of the medication within a formulary or classification system."
+		},
+		{
+			"name": "monitoringProgram",
+			"order": 27,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "monitoringProgram_",
+			"order": 28,
+			"type": "kObjectref",
+			"subtype": "oMedicationKnowledgeMonitoringProgram",
+			"sublen": 0,
+			"desc": "The program under which the medication is reviewed."
+		},
+		{
+			"name": "monograph",
+			"order": 16,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "monograph_",
+			"order": 17,
+			"type": "kObjectref",
+			"subtype": "oMedicationKnowledgeMonograph",
+			"sublen": 0,
+			"desc": "Associated documentation about the medication."
+		},
+		{
+			"name": "packaging",
+			"order": 33,
+			"type": "kObjectref",
+			"subtype": "oMedicationKnowledgePackaging",
+			"sublen": 0,
+			"desc": "Information that only applies to packages (not products)."
+		},
+		{
+			"name": "preparationInstruction",
+			"order": 22,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The instructions for preparing the medication."
+		},
+		{
+			"name": "productType",
+			"order": 14,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "productType_",
+			"order": 15,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Category of the medication or product (e.g. branded product, therapeutic moeity, generic product, innovator product, etc.)."
+		},
+		{
+			"name": "regulatory",
+			"order": 38,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "regulatory_",
+			"order": 39,
+			"type": "kObjectref",
+			"subtype": "oMedicationKnowledgeRegulatory",
+			"sublen": 0,
+			"desc": "Regulatory information about a medication."
+		},
+		{
+			"name": "relatedMedicationKnowledge",
+			"order": 10,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "relatedMedicationKnowledge_",
+			"order": 11,
+			"type": "kObjectref",
+			"subtype": "oMedicationKnowledgeRelatedMedicationKnowledge",
+			"sublen": 0,
+			"desc": "Associated or related knowledge about a medication."
+		},
+		{
+			"name": "status",
+			"order": 4,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A code to indicate if the medication is in active use.  The status refers to the validity about the information of the medication and not to its medicinal properties."
+		},
+		{
+			"name": "synonym",
+			"order": 8,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "synonym_",
+			"order": 9,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Additional names for a medication, for example, the name(s) given to a medication in different countries.  For example, acetaminophen and paracetamol or salbutamol and albuterol."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:44:53",
+		"desc": "Information about a medication that is used to support knowledge.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:29",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

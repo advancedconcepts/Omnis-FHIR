@@ -1,0 +1,86 @@
+Do inherited
+Calculate url as pValue.$url()
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate version as pValue.$version()
+Calculate name as pValue.$name()
+Calculate title as pValue.$title()
+Calculate status as pValue.$status()
+Calculate experimental as pValue.$experimental()
+Calculate date as pValue.$date()
+Calculate publisher as pValue.$publisher()
+Calculate description as pValue.$description()
+Calculate purpose as pValue.$purpose()
+Calculate usage as pValue.$usage()
+Calculate approvalDate as pValue.$approvalDate()
+Calculate lastReviewDate as pValue.$lastReviewDate()
+Calculate effectivePeriod as pValue.$effectivePeriod()
+Do useContext.$clear()
+Calculate list as pValue.$useContext()
+Do useContext.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do jurisdiction.$clear()
+Calculate list as pValue.$jurisdiction()
+Do jurisdiction.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do topic.$clear()
+Calculate list as pValue.$topic()
+Do topic.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do contributor.$clear()
+Calculate list as pValue.$contributor()
+Do contributor.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do contact.$clear()
+Calculate list as pValue.$contact()
+Do contact.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate copyright as pValue.$copyright()
+Do relatedArtifact.$clear()
+Calculate list as pValue.$relatedArtifact()
+Do relatedArtifact.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do library.$clear()
+Calculate list as pValue.$library()
+Do library.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate disclaimer as pValue.$disclaimer()
+Calculate scoring as pValue.$scoring()
+Calculate compositeScoring as pValue.$compositeScoring()
+Do type.$clear()
+Calculate list as pValue.$type()
+Do type.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate riskAdjustment as pValue.$riskAdjustment()
+Calculate rateAggregation as pValue.$rateAggregation()
+Calculate rationale as pValue.$rationale()
+Calculate clinicalRecommendationStatement as pValue.$clinicalRecommendationStatement()
+Calculate improvementNotation as pValue.$improvementNotation()
+Do definition.$clear()
+Calculate list as pValue.$definition()
+Do definition.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate guidance as pValue.$guidance()
+Calculate set as pValue.$set()
+Do group.$clear()
+Calculate list as pValue.$group()
+Do group.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do supplementalData.$clear()
+Calculate list as pValue.$supplementalData()
+Do supplementalData.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

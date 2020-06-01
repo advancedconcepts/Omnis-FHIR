@@ -1,0 +1,7 @@
+Do inherited
+Do parameterName.$clear()
+Calculate list as pValue.$parameterName()
+Do parameterName.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate comment as pValue.$comment()

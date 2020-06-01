@@ -1,0 +1,7 @@
+Do inherited
+Do pElements.$add("source","source",0,"1",21,"uri")
+Do pElements.$add("sourceVersion","sourceVersion",0,"1",21,"string")
+Do pElements.$add("target","target",0,"1",21,"uri")
+Do pElements.$add("targetVersion","targetVersion",0,"1",21,"string")
+Do pElements.$add("element","element",1,"-1",38,"")
+Do pElements.$add("unmapped","unmapped",0,"1",38,"")

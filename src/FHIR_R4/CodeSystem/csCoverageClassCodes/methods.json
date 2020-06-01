@@ -1,0 +1,133 @@
+[
+	{
+		"name": "$group",
+		"ident": 0,
+		"order": 1,
+		"desc": "A sub-group of an employee group",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subgroup",
+		"ident": 1,
+		"order": 2,
+		"desc": "A specific suite of benefits.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$plan",
+		"ident": 2,
+		"order": 3,
+		"desc": "A subset of a specific suite of benefits.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subplan",
+		"ident": 3,
+		"order": 4,
+		"desc": "A class of benefits.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$class",
+		"ident": 4,
+		"order": 5,
+		"desc": "A subset of a class of benefits.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subclass",
+		"ident": 5,
+		"order": 6,
+		"desc": "A sequence number associated with a short-term continuance of the coverage.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sequence",
+		"ident": 6,
+		"order": 7,
+		"desc": "Pharmacy benefit manager's Business Identification Number.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$rxbin",
+		"ident": 7,
+		"order": 8,
+		"desc": "A Pharmacy Benefit Manager specified Processor Control Number.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$rxpcn",
+		"ident": 8,
+		"order": 9,
+		"desc": "A Pharmacy Benefit Manager specified Member ID.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$rxid",
+		"ident": 9,
+		"order": 10,
+		"desc": "A Pharmacy Benefit Manager specified Group number.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$rxgroup",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

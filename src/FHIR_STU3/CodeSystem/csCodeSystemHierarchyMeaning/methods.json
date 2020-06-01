@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$grouped-by",
+		"ident": 0,
+		"order": 1,
+		"desc": "A hierarchy where the child concepts have an IS-A relationship with the parents - that is, all the properties of the parent are also true for its child concepts",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$is-a",
+		"ident": 1,
+		"order": 2,
+		"desc": "Child elements list the individual parts of a composite whole (e.g. body site)",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$part-of",
+		"ident": 2,
+		"order": 3,
+		"desc": "Child concepts in the hierarchy may have only one parent, and there is a presumption that the code system is a \"closed world\" meaning all things must be in the hierarchy. This results in concepts such as \"not otherwise classified.\"",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$classified-with",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

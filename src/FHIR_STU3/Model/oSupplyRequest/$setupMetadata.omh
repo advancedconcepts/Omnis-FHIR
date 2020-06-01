@@ -1,0 +1,11 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"1",38,"Identifier")
+Do pElements.$add("status","status",0,"1",21,"code")
+Do pElements.$add("category","category",0,"1",38,"CodeableConcept")
+Do pElements.$add("priority","priority",0,"1",21,"code")
+Do pElements.$add("orderedItem","orderedItem",0,"1",38,"")
+Do pElements.$add("authoredOn","authoredOn",0,"1",23,"dateTime")
+Do pElements.$add("requester","requester",0,"1",38,"")
+Do pElements.$add("supplier","supplier",0,"-1",38,"Reference")
+Do pElements.$add("deliverFrom","deliverFrom",0,"1",38,"Reference")
+Do pElements.$add("deliverTo","deliverTo",0,"1",38,"Reference")

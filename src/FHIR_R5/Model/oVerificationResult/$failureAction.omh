@@ -1,0 +1,4 @@
+If failureAction.$validref()=kFalse
+	Calculate failureAction as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method failureAction

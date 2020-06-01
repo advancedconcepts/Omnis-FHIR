@@ -1,0 +1,109 @@
+[
+	{
+		"name": "$eq",
+		"ident": 0,
+		"order": 1,
+		"desc": "the value for the parameter in the resource is not equal to the provided value.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ne",
+		"ident": 1,
+		"order": 2,
+		"desc": "the value for the parameter in the resource is greater than the provided value.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$gt",
+		"ident": 2,
+		"order": 3,
+		"desc": "the value for the parameter in the resource is less than the provided value.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$lt",
+		"ident": 3,
+		"order": 4,
+		"desc": "the value for the parameter in the resource is greater or equal to the provided value.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ge",
+		"ident": 4,
+		"order": 5,
+		"desc": "the value for the parameter in the resource is less or equal to the provided value.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$le",
+		"ident": 5,
+		"order": 6,
+		"desc": "the value for the parameter in the resource starts after the provided value.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sa",
+		"ident": 6,
+		"order": 7,
+		"desc": "the value for the parameter in the resource ends before the provided value.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$eb",
+		"ident": 7,
+		"order": 8,
+		"desc": "the value for the parameter in the resource is approximately the same to the provided value.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ap",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

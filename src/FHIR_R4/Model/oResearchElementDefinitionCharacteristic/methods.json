@@ -1,0 +1,352 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$usageContext",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: Use UsageContext to define the members of the population, such as Age Ranges, Genders, Settings.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addusageContext",
+		"ident": 5,
+		"order": 6,
+		"desc": "Use UsageContext to define the members of the population, such as Age Ranges, Genders, Settings.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oUsageContext",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oUsageContext",
+				"sublen": 0,
+				"desc": "Use UsageContext to define the members of the population, such as Age Ranges, Genders, Settings."
+			}
+		]
+	},
+	{
+		"name": "$exclude",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: When true, members with this characteristic are excluded from the element.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$exclude.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "When true, members with this characteristic are excluded from the element."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unitOfMeasure",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: Specifies the UCUM unit for the outcome.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unitOfMeasure.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Specifies the UCUM unit for the outcome."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$studyEffectiveDescription",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: A narrative description of the time period the study covers.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$studyEffectiveDescription.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A narrative description of the time period the study covers."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$studyEffectiveTimeFromStart",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: Indicates duration from the study initiation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$studyEffectiveTimeFromStart.$assign",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oDuration",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Indicates duration from the study initiation."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$studyEffectiveGroupMeasure",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: Indicates how elements are aggregated within the study effective period.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$studyEffectiveGroupMeasure.$assign",
+		"ident": 15,
+		"order": 16,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Indicates how elements are aggregated within the study effective period."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$participantEffectiveDescription",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: A narrative description of the time period the study covers.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$participantEffectiveDescription.$assign",
+		"ident": 17,
+		"order": 18,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A narrative description of the time period the study covers."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$participantEffectiveTimeFromStart",
+		"ident": 18,
+		"order": 19,
+		"desc": "Returns: Indicates duration from the participant's study entry.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$participantEffectiveTimeFromStart.$assign",
+		"ident": 19,
+		"order": 20,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oDuration",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Indicates duration from the participant's study entry."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$participantEffectiveGroupMeasure",
+		"ident": 20,
+		"order": 21,
+		"desc": "Returns: Indicates how elements are aggregated within the study effective period.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$participantEffectiveGroupMeasure.$assign",
+		"ident": 21,
+		"order": 22,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Indicates how elements are aggregated within the study effective period."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

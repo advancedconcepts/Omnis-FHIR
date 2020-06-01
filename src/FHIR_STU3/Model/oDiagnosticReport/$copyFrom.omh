@@ -1,0 +1,53 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do basedOn.$clear()
+Calculate list as pValue.$basedOn()
+Do basedOn.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate status as pValue.$status()
+Calculate category as pValue.$category()
+Calculate code as pValue.$code()
+Calculate subject as pValue.$subject()
+Calculate context as pValue.$context()
+Calculate issued as pValue.$issued()
+Do performer.$clear()
+Calculate list as pValue.$performer()
+Do performer.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do specimen.$clear()
+Calculate list as pValue.$specimen()
+Do specimen.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do result.$clear()
+Calculate list as pValue.$result()
+Do result.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do imagingStudy.$clear()
+Calculate list as pValue.$imagingStudy()
+Do imagingStudy.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do image.$clear()
+Calculate list as pValue.$image()
+Do image.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate conclusion as pValue.$conclusion()
+Do codedDiagnosis.$clear()
+Calculate list as pValue.$codedDiagnosis()
+Do codedDiagnosis.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do presentedForm.$clear()
+Calculate list as pValue.$presentedForm()
+Do presentedForm.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

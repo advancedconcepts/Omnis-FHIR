@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$Type",
+		"ident": 0,
+		"order": 1,
+		"desc": "A place holder that means any kind of resource",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Any",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

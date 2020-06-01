@@ -1,0 +1,13 @@
+Do inherited
+Calculate cors as pValue.$cors()
+Do service.$clear()
+Calculate list as pValue.$service()
+Do service.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate description as pValue.$description()
+Do certificate.$clear()
+Calculate list as pValue.$certificate()
+Do certificate.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

@@ -1,0 +1,6 @@
+Do inherited
+Do pElements.$add("interactant","interactant",0,"-1",38,"")
+Do pElements.$add("type","::type",0,"1",38,"CodeableConcept")
+Do pElements.$add("effect","effect",0,"1",38,"CodeableConcept")
+Do pElements.$add("incidence","incidence",0,"1",38,"CodeableConcept")
+Do pElements.$add("management","management",0,"1",38,"CodeableConcept")

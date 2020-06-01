@@ -1,0 +1,5 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"1",38,"Identifier")
+Do pElements.$add("usage","usage",0,"-1",38,"CodeableConcept")
+Do pElements.$add("criteria","criteria",0,"1",21,"string")
+Do pElements.$add("path","path",0,"1",21,"string")

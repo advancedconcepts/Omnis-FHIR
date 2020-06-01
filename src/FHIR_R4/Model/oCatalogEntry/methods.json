@@ -1,0 +1,523 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$identifier",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: Used in supporting different identifiers for the same product, e.g. manufacturer code and retailer code.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addidentifier",
+		"ident": 6,
+		"order": 7,
+		"desc": "Used in supporting different identifiers for the same product, e.g. manufacturer code and retailer code.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"desc": "Used in supporting different identifiers for the same product, e.g. manufacturer code and retailer code."
+			}
+		]
+	},
+	{
+		"name": "$::type",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: The type of item - medication, device, service, protocol or other.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type.$assign",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The type of item - medication, device, service, protocol or other."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$orderable",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: Whether the entry represents an orderable item.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$orderable.$assign",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "Whether the entry represents an orderable item."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$referencedItem",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: The item in a catalog or definition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$referencedItem.$assign",
+		"ident": 12,
+		"order": 13,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The item in a catalog or definition."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$additionalIdentifier",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: Used in supporting related concepts, e.g. NDC to RxNorm.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addadditionalIdentifier",
+		"ident": 14,
+		"order": 15,
+		"desc": "Used in supporting related concepts, e.g. NDC to RxNorm.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"desc": "Used in supporting related concepts, e.g. NDC to RxNorm."
+			}
+		]
+	},
+	{
+		"name": "$classification",
+		"ident": 15,
+		"order": 16,
+		"desc": "Returns: Classes of devices, or ATC for medication.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addclassification",
+		"ident": 16,
+		"order": 17,
+		"desc": "Classes of devices, or ATC for medication.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Classes of devices, or ATC for medication."
+			}
+		]
+	},
+	{
+		"name": "$status",
+		"ident": 17,
+		"order": 18,
+		"desc": "Returns: Used to support catalog exchange even for unsupported products, e.g. getting list of medications even if not prescribable.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$status.$assign",
+		"ident": 18,
+		"order": 19,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Used to support catalog exchange even for unsupported products, e.g. getting list of medications even if not prescribable."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$validityPeriod",
+		"ident": 19,
+		"order": 20,
+		"desc": "Returns: The time period in which this catalog entry is expected to be active.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$validityPeriod.$assign",
+		"ident": 20,
+		"order": 21,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oPeriod",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The time period in which this catalog entry is expected to be active."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$validTo",
+		"ident": 21,
+		"order": 22,
+		"desc": "Returns: The date until which this catalog entry is expected to be active.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$validTo.$assign",
+		"ident": 22,
+		"order": 23,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kDate",
+				"subtype": "kDatetime",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The date until which this catalog entry is expected to be active."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$lastUpdated",
+		"ident": 23,
+		"order": 24,
+		"desc": "Returns: Typically date of issue is different from the beginning of the validity. This can be used to see when an item was last updated.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$lastUpdated.$assign",
+		"ident": 24,
+		"order": 25,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kDate",
+				"subtype": "kDatetime",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Typically date of issue is different from the beginning of the validity. This can be used to see when an item was last updated."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$additionalCharacteristic",
+		"ident": 25,
+		"order": 26,
+		"desc": "Returns: Used for examplefor Out of Formulary, or any specifics.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addadditionalCharacteristic",
+		"ident": 26,
+		"order": 27,
+		"desc": "Used for examplefor Out of Formulary, or any specifics.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Used for examplefor Out of Formulary, or any specifics."
+			}
+		]
+	},
+	{
+		"name": "$additionalClassification",
+		"ident": 27,
+		"order": 28,
+		"desc": "Returns: User for example for ATC classification, or.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addadditionalClassification",
+		"ident": 28,
+		"order": 29,
+		"desc": "User for example for ATC classification, or.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "User for example for ATC classification, or."
+			}
+		]
+	},
+	{
+		"name": "$relatedEntry",
+		"ident": 29,
+		"order": 30,
+		"desc": "Returns: Used for example, to point to a substance, or to a device used to administer a medication.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addrelatedEntry",
+		"ident": 30,
+		"order": 31,
+		"desc": "Used for example, to point to a substance, or to a device used to administer a medication.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCatalogEntryRelatedEntry",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCatalogEntryRelatedEntry",
+				"sublen": 0,
+				"desc": "Used for example, to point to a substance, or to a device used to administer a medication."
+			}
+		]
+	}
+]

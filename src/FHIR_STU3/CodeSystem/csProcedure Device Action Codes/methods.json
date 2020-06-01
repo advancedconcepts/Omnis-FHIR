@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$implanted",
+		"ident": 0,
+		"order": 1,
+		"desc": "The device was explanted from the patient during the procedure.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$explanted",
+		"ident": 1,
+		"order": 2,
+		"desc": "The device remains in that patient, but its location, settings, or functionality was changed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$manipulated",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

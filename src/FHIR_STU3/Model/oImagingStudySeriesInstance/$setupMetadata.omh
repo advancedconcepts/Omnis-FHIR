@@ -1,0 +1,5 @@
+Do inherited
+Do pElements.$add("uid","uid",1,"1",21,"oid")
+Do pElements.$add("number","number",0,"1",26,"unsignedInt")
+Do pElements.$add("sopClass","sopClass",1,"1",21,"oid")
+Do pElements.$add("title","title",0,"1",21,"string")

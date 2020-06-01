@@ -1,0 +1,7 @@
+Do inherited
+Calculate ratioType as pValue.$ratioType()
+Do startingMaterial.$clear()
+Calculate list as pValue.$startingMaterial()
+Do startingMaterial.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

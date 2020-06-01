@@ -1,0 +1,4 @@
+If partLocation.$validref()=kFalse
+	Calculate partLocation as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method partLocation

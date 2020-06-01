@@ -1,0 +1,4 @@
+If searchParam.$validref()=kFalse
+	Calculate searchParam as $clib.$classes.oCapabilityStatementRestResourceSearchParam.$newref()
+End If
+Quit method searchParam

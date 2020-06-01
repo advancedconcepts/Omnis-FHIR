@@ -1,0 +1,23 @@
+Do inherited
+Calculate product as pValue.$product()
+Calculate eye as pValue.$eye()
+Calculate sphere as pValue.$sphere()
+Calculate cylinder as pValue.$cylinder()
+Calculate axis as pValue.$axis()
+Do prism.$clear()
+Calculate list as pValue.$prism()
+Do prism.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate add as pValue.$add()
+Calculate power as pValue.$power()
+Calculate backCurve as pValue.$backCurve()
+Calculate diameter as pValue.$diameter()
+Calculate duration as pValue.$duration()
+Calculate color as pValue.$color()
+Calculate brand as pValue.$brand()
+Do note.$clear()
+Calculate list as pValue.$note()
+Do note.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

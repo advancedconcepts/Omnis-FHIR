@@ -1,0 +1,109 @@
+[
+	{
+		"name": "$enterer",
+		"ident": 0,
+		"order": 1,
+		"desc": "A person, animal, organization or device that who actually and principally carries out the activity",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$performer",
+		"ident": 1,
+		"order": 2,
+		"desc": "A party that originates the resource and therefore has responsibility for the information given in the resource and ownership of this resource",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$author",
+		"ident": 2,
+		"order": 3,
+		"desc": "A person who verifies the correctness and appropriateness of activity",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$verifier",
+		"ident": 3,
+		"order": 4,
+		"desc": "A verifier who attests to the accuracy of the resource",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$attester",
+		"ident": 4,
+		"order": 5,
+		"desc": "A person who reported information that contributed to the resource",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$informant",
+		"ident": 5,
+		"order": 6,
+		"desc": "The entity that is accountable for maintaining a true an accurate copy of the original record",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$custodian",
+		"ident": 6,
+		"order": 7,
+		"desc": "A device that operates independently of an author on custodian's algorithms for data extraction of existing information for purpose of generating a new artifact.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$assembler",
+		"ident": 7,
+		"order": 8,
+		"desc": "A device used by an author to record new information, which may also be used by the author to select existing information for aggregation with newly recorded information for the purpose of generating a new artifact.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$composer",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,24 @@
+Do inherited
+Calculate height as pValue.$height()
+Calculate width as pValue.$width()
+Calculate depth as pValue.$depth()
+Calculate weight as pValue.$weight()
+Calculate nominalVolume as pValue.$nominalVolume()
+Calculate externalDiameter as pValue.$externalDiameter()
+Calculate shape as pValue.$shape()
+Do color.$clear()
+Calculate list as pValue.$color()
+Do color.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do imprint.$clear()
+Calculate list as pValue.$imprint()
+Do imprint.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do image.$clear()
+Calculate list as pValue.$image()
+Do image.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate scoring as pValue.$scoring()

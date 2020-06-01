@@ -1,0 +1,5 @@
+Do inherited
+Do pElements.$add("sequenceType","sequenceType",0,"1",38,"CodeableConcept")
+Do pElements.$add("numberOfSubunits","numberOfSubunits",0,"1",26,"integer")
+Do pElements.$add("disulfideLinkage","disulfideLinkage",0,"-1",21,"string")
+Do pElements.$add("subunit","subunit",0,"-1",38,"")

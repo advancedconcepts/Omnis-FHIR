@@ -1,0 +1,4 @@
+If message.$validref()=kFalse
+	Calculate message as $clib.$classes.oReference.$newref()
+End If
+Quit method message

@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$deny",
+		"ident": 0,
+		"order": 1,
+		"desc": "Consent is provided for actions meeting these rules.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$permit",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

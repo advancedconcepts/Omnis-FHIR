@@ -1,0 +1,141 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "action",
+			"order": 12,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "action_",
+			"order": 13,
+			"type": "kObjectref",
+			"subtype": "oContractTermAction",
+			"sublen": 0,
+			"desc": "An actor taking a role in an activity for which it can be assigned some degree of responsibility for the activity taking place."
+		},
+		{
+			"name": "applies",
+			"order": 3,
+			"type": "kObjectref",
+			"subtype": "oPeriod",
+			"sublen": 0,
+			"desc": "Relevant time or time-period when this Contract Provision is applicable."
+		},
+		{
+			"name": "asset",
+			"order": 10,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "asset_",
+			"order": 11,
+			"type": "kObjectref",
+			"subtype": "oContractTermAsset",
+			"sublen": 0,
+			"desc": "Contract Term Asset List."
+		},
+		{
+			"name": "identifier",
+			"order": 1,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "Unique identifier for this particular Contract Provision."
+		},
+		{
+			"name": "issued",
+			"order": 2,
+			"type": "kDate",
+			"subtype": "kDatetime",
+			"sublen": 0,
+			"desc": "When this Contract Provision was issued."
+		},
+		{
+			"name": "offer",
+			"order": 9,
+			"type": "kObjectref",
+			"subtype": "oContractTermOffer",
+			"sublen": 0,
+			"desc": "The matter of concern in the context of this provision of the agrement."
+		},
+		{
+			"name": "securityLabel",
+			"order": 7,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "securityLabel_",
+			"order": 8,
+			"type": "kObjectref",
+			"subtype": "oContractTermSecurityLabel",
+			"sublen": 0,
+			"desc": "Security labels that protect the handling of information about the term and its elements, which may be specifically identified.."
+		},
+		{
+			"name": "subType",
+			"order": 5,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "A specialized legal clause or condition based on overarching contract type."
+		},
+		{
+			"name": "text",
+			"order": 6,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Statement of a provision in a policy or a contract."
+		},
+		{
+			"name": "type",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "A legal clause or condition contained within a contract that requires one or both parties to perform a particular requirement by some specified time or prevents one or both parties from performing a particular requirement by some specified time."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:41:37",
+		"desc": "One or more Contract Provisions, which may be related and conveyed as a group, and may contain nested groups.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:25",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

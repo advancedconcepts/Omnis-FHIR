@@ -1,0 +1,4 @@
+If packageItem.$validref()=kFalse
+	Calculate packageItem as $clib.$classes.oMedicinalProductPackagedPackageItem.$newref()
+End If
+Quit method packageItem

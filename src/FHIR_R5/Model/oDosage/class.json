@@ -1,0 +1,158 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "additionalInstruction",
+			"order": 3,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "additionalInstruction_",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Supplemental instructions to the patient on how to take the medication  (e.g. \"with meals\" or\"take half to one hour before food\") or warnings for the patient about the medication (e.g. \"may cause drowsiness\" or \"avoid exposure of skin to direct sunlight o"
+		},
+		{
+			"name": "doseAndRate",
+			"order": 10,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "doseAndRate.type",
+			"order": 12,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The kind of dose or rate specified, for example, ordered or calculated."
+		},
+		{
+			"name": "doseAndRate_",
+			"order": 11,
+			"type": "kObjectref",
+			"subtype": "oElement",
+			"sublen": 0,
+			"desc": "The amount of medication administered."
+		},
+		{
+			"name": "maxDosePerAdministration",
+			"order": 14,
+			"type": "kObjectref",
+			"subtype": "oQuantity",
+			"sublen": 0,
+			"desc": "Upper limit on medication per administration."
+		},
+		{
+			"name": "maxDosePerLifetime",
+			"order": 15,
+			"type": "kObjectref",
+			"subtype": "oQuantity",
+			"sublen": 0,
+			"desc": "Upper limit on medication per lifetime of the patient."
+		},
+		{
+			"name": "maxDosePerPeriod",
+			"order": 13,
+			"type": "kObjectref",
+			"subtype": "oRatio",
+			"sublen": 0,
+			"desc": "Upper limit on medication per unit of time."
+		},
+		{
+			"name": "method",
+			"order": 9,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Technique for administering medication."
+		},
+		{
+			"name": "patientInstruction",
+			"order": 5,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Instructions in terms that are understood by the patient or consumer."
+		},
+		{
+			"name": "route",
+			"order": 8,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "How drug should enter body."
+		},
+		{
+			"name": "sequence",
+			"order": 1,
+			"type": "kInteger",
+			"subtype": "k32bitint",
+			"sublen": 0,
+			"desc": "Indicates the order in which the dosage instructions should be applied or interpreted."
+		},
+		{
+			"name": "site",
+			"order": 7,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Body site to administer to."
+		},
+		{
+			"name": "text",
+			"order": 2,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Free text dosage instructions e.g. SIG."
+		},
+		{
+			"name": "timing",
+			"order": 6,
+			"type": "kObjectref",
+			"subtype": "oTiming",
+			"sublen": 0,
+			"desc": "When medication should be administered."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:44:31",
+		"desc": "Base StructureDefinition for Dosage Type: Indicates how the medication is/was taken or should be taken by the patient.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:27",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

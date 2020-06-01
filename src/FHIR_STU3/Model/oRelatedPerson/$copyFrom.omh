@@ -1,0 +1,32 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate active as pValue.$active()
+Calculate patient as pValue.$patient()
+Calculate relationship as pValue.$relationship()
+Do name.$clear()
+Calculate list as pValue.$name()
+Do name.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do telecom.$clear()
+Calculate list as pValue.$telecom()
+Do telecom.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate gender as pValue.$gender()
+Calculate birthDate as pValue.$birthDate()
+Do address.$clear()
+Calculate list as pValue.$address()
+Do address.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do photo.$clear()
+Calculate list as pValue.$photo()
+Do photo.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate period as pValue.$period()

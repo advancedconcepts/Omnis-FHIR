@@ -1,0 +1,3 @@
+Do inherited
+Do pElements.$add("contentType","contentType",0,"1",21,"code")
+Do pElements.$add("content","content",0,"1",21,"code")

@@ -1,0 +1,8 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do contact.$define(contact_)
+Do useContext.$define(useContext_)
+Do jurisdiction.$define(jurisdiction_)
+Do filter.$define(filter_)
+Do property.$define(property_)
+Do concept.$define(concept_)

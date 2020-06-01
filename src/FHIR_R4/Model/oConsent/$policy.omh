@@ -1,0 +1,4 @@
+If policy.$validref()=kFalse
+	Calculate policy as $clib.$classes.oConsentPolicy.$newref()
+End If
+Quit method policy

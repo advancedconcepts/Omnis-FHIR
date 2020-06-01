@@ -1,0 +1,15 @@
+Do inherited
+Calculate severity as pValue.$severity()
+Calculate code as pValue.$code()
+Calculate details as pValue.$details()
+Calculate diagnostics as pValue.$diagnostics()
+Do location.$clear()
+Calculate list as pValue.$location()
+Do location.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do expression.$clear()
+Calculate list as pValue.$expression()
+Do expression.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$preliminary",
+		"ident": 0,
+		"order": 1,
+		"desc": "This version of the composition is complete and verified by an appropriate person and no further work is planned. Any subsequent updates would be on a new version of the composition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$final",
+		"ident": 1,
+		"order": 2,
+		"desc": "The composition content or the referenced resources have been modified (edited or added to) subsequent to being released as \"final\" and the composition is complete and verified by an authorized person.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$amended",
+		"ident": 2,
+		"order": 3,
+		"desc": "The composition or document was originally created/issued in error, and this is an amendment that marks that the entire series should not be considered as valid.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$entered-in-error",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

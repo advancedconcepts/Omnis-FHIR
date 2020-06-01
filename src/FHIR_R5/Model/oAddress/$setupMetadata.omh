@@ -1,0 +1,11 @@
+Do inherited
+Do pElements.$add("use","use",0,"1",21,"code")
+Do pElements.$add("type","::type",0,"1",21,"code")
+Do pElements.$add("text","text",0,"1",21,"string")
+Do pElements.$add("line","line",0,"-1",21,"string")
+Do pElements.$add("city","city",0,"1",21,"string")
+Do pElements.$add("district","district",0,"1",21,"string")
+Do pElements.$add("state","state",0,"1",21,"string")
+Do pElements.$add("postalCode","postalCode",0,"1",21,"string")
+Do pElements.$add("country","country",0,"1",21,"string")
+Do pElements.$add("period","period",0,"1",38,"Period")

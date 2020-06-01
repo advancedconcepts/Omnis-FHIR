@@ -1,0 +1,9 @@
+Do inherited
+Do pElements.$add("chromosome","chromosome",0,"1",38,"CodeableConcept")
+Do pElements.$add("genomeBuild","genomeBuild",0,"1",21,"string")
+Do pElements.$add("referenceSeqId","referenceSeqId",0,"1",38,"CodeableConcept")
+Do pElements.$add("referenceSeqPointer","referenceSeqPointer",0,"1",38,"Reference")
+Do pElements.$add("referenceSeqString","referenceSeqString",0,"1",21,"string")
+Do pElements.$add("strand","strand",0,"1",26,"integer")
+Do pElements.$add("windowStart","windowStart",1,"1",26,"integer")
+Do pElements.$add("windowEnd","windowEnd",1,"1",26,"integer")

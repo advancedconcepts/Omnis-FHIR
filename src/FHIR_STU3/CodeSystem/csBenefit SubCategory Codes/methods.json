@@ -1,0 +1,337 @@
+[
+	{
+		"name": "$1",
+		"ident": 0,
+		"order": 1,
+		"desc": "Surgical.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$2",
+		"ident": 1,
+		"order": 2,
+		"desc": "Consultation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$3",
+		"ident": 2,
+		"order": 3,
+		"desc": "Diagnostic XRay.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$4",
+		"ident": 3,
+		"order": 4,
+		"desc": "Diagnostic Lab.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$5",
+		"ident": 4,
+		"order": 5,
+		"desc": "Renal Supplies excluding Dialysis.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$14",
+		"ident": 5,
+		"order": 6,
+		"desc": "Diagnostic Dental.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$23",
+		"ident": 6,
+		"order": 7,
+		"desc": "Periodontics.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$24",
+		"ident": 7,
+		"order": 8,
+		"desc": "Restorative.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$25",
+		"ident": 8,
+		"order": 9,
+		"desc": "Endodontics.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$26",
+		"ident": 9,
+		"order": 10,
+		"desc": "Maxillofacilial Prosthetics.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$27",
+		"ident": 10,
+		"order": 11,
+		"desc": "Adjunctive Dental Services.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$28",
+		"ident": 11,
+		"order": 12,
+		"desc": "Health Benefit Plan Coverage.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$30",
+		"ident": 12,
+		"order": 13,
+		"desc": "Dental Care.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$35",
+		"ident": 13,
+		"order": 14,
+		"desc": "Dental Crowns.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$36",
+		"ident": 14,
+		"order": 15,
+		"desc": "Dental Accident.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$37",
+		"ident": 15,
+		"order": 16,
+		"desc": "Hospital Room and Board.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$49",
+		"ident": 16,
+		"order": 17,
+		"desc": "Major Medical.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$55",
+		"ident": 17,
+		"order": 18,
+		"desc": "Medically Related Transportation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$56",
+		"ident": 18,
+		"order": 19,
+		"desc": "In-vitro Fertilization.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$61",
+		"ident": 19,
+		"order": 20,
+		"desc": "MRI Scan.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$62",
+		"ident": 20,
+		"order": 21,
+		"desc": "Donor Procedures such as organ harvest.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$63",
+		"ident": 21,
+		"order": 22,
+		"desc": "Maternity.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$69",
+		"ident": 22,
+		"order": 23,
+		"desc": "Renal dialysis.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$76",
+		"ident": 23,
+		"order": 24,
+		"desc": "Medical Coverage.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$F1",
+		"ident": 24,
+		"order": 25,
+		"desc": "Dental Coverage.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$F3",
+		"ident": 25,
+		"order": 26,
+		"desc": "Hearing Coverage.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$F4",
+		"ident": 26,
+		"order": 27,
+		"desc": "Vision Coverage.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$F6",
+		"ident": 27,
+		"order": 28,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

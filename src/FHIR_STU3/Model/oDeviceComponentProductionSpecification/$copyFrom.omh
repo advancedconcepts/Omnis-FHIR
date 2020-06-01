@@ -1,0 +1,4 @@
+Do inherited
+Calculate specType as pValue.$specType()
+Calculate componentId as pValue.$componentId()
+Calculate productionSpec as pValue.$productionSpec()

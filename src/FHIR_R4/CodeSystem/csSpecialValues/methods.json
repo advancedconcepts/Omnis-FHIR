@@ -1,0 +1,73 @@
+[
+	{
+		"name": "$true",
+		"ident": 0,
+		"order": 1,
+		"desc": "Boolean false.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$false",
+		"ident": 1,
+		"order": 2,
+		"desc": "The content is greater than zero, but too small to be quantified.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$trace",
+		"ident": 2,
+		"order": 3,
+		"desc": "The specific quantity is not known, but is known to be non-zero and is not specified because it makes up the bulk of the material.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sufficient",
+		"ident": 3,
+		"order": 4,
+		"desc": "The value is no longer available.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$withdrawn",
+		"ident": 4,
+		"order": 5,
+		"desc": "The are no known applicable values in this context.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$nil-known",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,61 @@
+[
+	{
+		"name": "$dietary",
+		"ident": 0,
+		"order": 1,
+		"desc": "Goals related to the personal protection of the subject.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$safety",
+		"ident": 1,
+		"order": 2,
+		"desc": "Goals related to the manner in which the subject acts.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$behavioral",
+		"ident": 2,
+		"order": 3,
+		"desc": "Goals related to the practice of nursing or established by nurses.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$nursing",
+		"ident": 3,
+		"order": 4,
+		"desc": "Goals related to the mobility and motor capability of the subject.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$physiotherapy",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

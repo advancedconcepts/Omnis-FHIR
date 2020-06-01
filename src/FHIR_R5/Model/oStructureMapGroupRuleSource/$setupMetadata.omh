@@ -1,0 +1,11 @@
+Do inherited
+Do pElements.$add("context","context",1,"1",21,"id")
+Do pElements.$add("min","min",0,"1",26,"integer")
+Do pElements.$add("max","max",0,"1",21,"string")
+Do pElements.$add("type","::type",0,"1",21,"string")
+Do pElements.$add("element","element",0,"1",21,"string")
+Do pElements.$add("listMode","listMode",0,"1",21,"code")
+Do pElements.$add("variable","variable",0,"1",21,"id")
+Do pElements.$add("condition","condition",0,"1",21,"string")
+Do pElements.$add("check","check",0,"1",21,"string")
+Do pElements.$add("logMessage","logMessage",0,"1",21,"string")

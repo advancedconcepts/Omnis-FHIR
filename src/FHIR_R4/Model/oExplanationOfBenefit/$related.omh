@@ -1,0 +1,4 @@
+If related.$validref()=kFalse
+	Calculate related as $clib.$classes.oExplanationOfBenefitRelated.$newref()
+End If
+Quit method related

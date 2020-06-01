@@ -1,0 +1,4 @@
+If targetSpecies.$validref()=kFalse
+	Calculate targetSpecies as $clib.$classes.oAdministrableProductDefinitionRouteOfAdministrationTargetSpecies.$newref()
+End If
+Quit method targetSpecies

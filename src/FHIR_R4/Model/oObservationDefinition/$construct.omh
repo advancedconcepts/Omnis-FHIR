@@ -1,0 +1,5 @@
+Do inherited
+Do category.$define(category_)
+Do identifier.$define(identifier_)
+Do permittedDataType.$define(permittedDataType_)
+Do qualifiedInterval.$define(qualifiedInterval_)

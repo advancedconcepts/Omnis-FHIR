@@ -1,0 +1,5 @@
+Do inherited
+Do pElements.$add("number","number",0,"1",26,"positiveInt")
+Do pElements.$add("type","::type",0,"1",38,"CodeableConcept")
+Do pElements.$add("text","text",0,"1",21,"string")
+Do pElements.$add("language","language",0,"1",38,"CodeableConcept")

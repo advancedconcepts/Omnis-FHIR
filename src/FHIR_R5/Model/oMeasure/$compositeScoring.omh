@@ -1,0 +1,4 @@
+If compositeScoring.$validref()=kFalse
+	Calculate compositeScoring as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method compositeScoring

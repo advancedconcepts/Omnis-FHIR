@@ -1,0 +1,4 @@
+If geneSequenceOrigin.$validref()=kFalse
+	Calculate geneSequenceOrigin as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method geneSequenceOrigin

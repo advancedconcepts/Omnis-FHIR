@@ -1,0 +1,7 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do party.$define(party_)
+Do decisionMode.$define(decisionMode_)
+Do answer.$define(answer_)
+Do linkId.$define(linkId_)
+Do securityLabelNumber.$define(securityLabelNumber_)

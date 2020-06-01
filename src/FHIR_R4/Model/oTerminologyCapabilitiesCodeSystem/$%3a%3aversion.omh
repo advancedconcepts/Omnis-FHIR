@@ -1,0 +1,4 @@
+If version.$validref()=kFalse
+	Calculate version as $clib.$classes.oTerminologyCapabilitiesCodeSystemVersion.$newref()
+End If
+Quit method version

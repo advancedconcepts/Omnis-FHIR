@@ -1,0 +1,61 @@
+[
+	{
+		"name": "$process",
+		"ident": 0,
+		"order": 1,
+		"desc": "A measure that indicates the result of the performance (or non-performance) of a function or process.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$outcome",
+		"ident": 1,
+		"order": 2,
+		"desc": "A measure that focuses on a health care provider's capacity, systems, and processes to provide high-quality care.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$structure",
+		"ident": 2,
+		"order": 3,
+		"desc": "A measure that focuses on patient-reported information such as patient engagement or patient experience measures.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$patient-reported-outcome",
+		"ident": 3,
+		"order": 4,
+		"desc": "A measure that combines multiple component measures in to a single quality measure.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$composite",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,4 @@
+If additionalInstruction.$validref()=kFalse
+	Calculate additionalInstruction as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method additionalInstruction

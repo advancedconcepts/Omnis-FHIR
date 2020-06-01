@@ -1,0 +1,7 @@
+Do inherited
+Calculate use as pValue.$use()
+Calculate type as pValue.$type()
+Calculate system as pValue.$system()
+Calculate value as pValue.$value()
+Calculate period as pValue.$period()
+Calculate assigner as pValue.$assigner()

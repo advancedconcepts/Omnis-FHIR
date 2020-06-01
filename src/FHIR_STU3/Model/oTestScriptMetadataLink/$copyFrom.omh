@@ -1,0 +1,3 @@
+Do inherited
+Calculate url as pValue.$url()
+Calculate description as pValue.$description()

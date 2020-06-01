@@ -1,0 +1,4 @@
+If contentDerivative.$validref()=kFalse
+	Calculate contentDerivative as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method contentDerivative

@@ -1,0 +1,6 @@
+Do inherited
+Do pElements.$add("code","code",0,"1",38,"CodeableConcept")
+Do pElements.$add("status","status",0,"1",38,"CodeableConcept")
+Do pElements.$add("statusDate","statusDate",0,"1",23,"dateTime")
+Do pElements.$add("note","note",0,"-1",38,"Annotation")
+Do pElements.$add("source","source",0,"-1",38,"Reference")

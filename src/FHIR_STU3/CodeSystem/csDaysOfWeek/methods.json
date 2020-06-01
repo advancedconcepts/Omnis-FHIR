@@ -1,0 +1,85 @@
+[
+	{
+		"name": "$mon",
+		"ident": 0,
+		"order": 1,
+		"desc": "Tuesday",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$tue",
+		"ident": 1,
+		"order": 2,
+		"desc": "Wednesday",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$wed",
+		"ident": 2,
+		"order": 3,
+		"desc": "Thursday",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$thu",
+		"ident": 3,
+		"order": 4,
+		"desc": "Friday",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$fri",
+		"ident": 4,
+		"order": 5,
+		"desc": "Saturday",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sat",
+		"ident": 5,
+		"order": 6,
+		"desc": "Sunday",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sun",
+		"ident": 6,
+		"order": 7,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

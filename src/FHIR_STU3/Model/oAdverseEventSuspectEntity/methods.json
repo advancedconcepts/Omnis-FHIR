@@ -1,0 +1,283 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$instance",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: Identifies the actual instance of what caused the adverse event.  May be a substance, medication, medication administration, medication statement or a device.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$instance.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Identifies the actual instance of what caused the adverse event.  May be a substance, medication, medication administration, medication statement or a device."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$causality",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: causality1 | causality2.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$causality.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "causality1 | causality2."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$causalityAssessment",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: assess1 | assess2.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$causalityAssessment.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "assess1 | assess2."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$causalityProductRelatedness",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: AdverseEvent.suspectEntity.causalityProductRelatedness.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$causalityProductRelatedness.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "AdverseEvent.suspectEntity.causalityProductRelatedness."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$causalityMethod",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: method1 | method2.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$causalityMethod.$assign",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "method1 | method2."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$causalityAuthor",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: AdverseEvent.suspectEntity.causalityAuthor.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$causalityAuthor.$assign",
+		"ident": 15,
+		"order": 16,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "AdverseEvent.suspectEntity.causalityAuthor."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$causalityResult",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: result1 | result2.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$causalityResult.$assign",
+		"ident": 17,
+		"order": 18,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "result1 | result2."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

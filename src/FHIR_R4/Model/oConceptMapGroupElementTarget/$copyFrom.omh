@@ -1,0 +1,10 @@
+Do inherited
+Calculate code as pValue.$code()
+Calculate display as pValue.$display()
+Calculate equivalence as pValue.$equivalence()
+Calculate comment as pValue.$comment()
+Do dependsOn.$clear()
+Calculate list as pValue.$dependsOn()
+Do dependsOn.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

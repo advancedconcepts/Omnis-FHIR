@@ -1,0 +1,73 @@
+[
+	{
+		"name": "$barcode",
+		"ident": 0,
+		"order": 1,
+		"desc": "An RFID chip reader captured the data from the device label.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$rfid",
+		"ident": 1,
+		"order": 2,
+		"desc": "The data was read from the label by a person and manually entered. (e.g.  via a keyboard).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$manual",
+		"ident": 2,
+		"order": 3,
+		"desc": "The data originated from a patient's implant card and was read by an operator.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$card",
+		"ident": 3,
+		"order": 4,
+		"desc": "The data originated from a patient source and was not directly scanned or read from a label or card.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$self-reported",
+		"ident": 4,
+		"order": 5,
+		"desc": "The method of data capture has not been determined.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unknown",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

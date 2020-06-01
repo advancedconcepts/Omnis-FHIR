@@ -1,0 +1,4 @@
+If tag.$validref()=kFalse
+	Calculate tag as $clib.$classes.oCoding.$newref()
+End If
+Quit method tag

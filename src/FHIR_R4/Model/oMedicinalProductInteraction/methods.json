@@ -1,0 +1,309 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$subject",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: The medication for which this is a described interaction.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addsubject",
+		"ident": 6,
+		"order": 7,
+		"desc": "The medication for which this is a described interaction.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "The medication for which this is a described interaction."
+			}
+		]
+	},
+	{
+		"name": "$description",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: The interaction described.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$description.$assign",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The interaction described."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$interactant",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: The specific medication, food or laboratory test that interacts.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addinteractant",
+		"ident": 10,
+		"order": 11,
+		"desc": "The specific medication, food or laboratory test that interacts.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMedicinalProductInteractionInteractant",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oMedicinalProductInteractionInteractant",
+				"sublen": 0,
+				"desc": "The specific medication, food or laboratory test that interacts."
+			}
+		]
+	},
+	{
+		"name": "$::type",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: The type of the interaction e.g. drug-drug interaction, drug-food interaction, drug-lab test interaction.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type.$assign",
+		"ident": 12,
+		"order": 13,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The type of the interaction e.g. drug-drug interaction, drug-food interaction, drug-lab test interaction."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$effect",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: The effect of the interaction, for example \"reduced gastric absorption of primary medication\".",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$effect.$assign",
+		"ident": 14,
+		"order": 15,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The effect of the interaction, for example \"reduced gastric absorption of primary medication\"."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$incidence",
+		"ident": 15,
+		"order": 16,
+		"desc": "Returns: The incidence of the interaction, e.g. theoretical, observed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$incidence.$assign",
+		"ident": 16,
+		"order": 17,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The incidence of the interaction, e.g. theoretical, observed."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$management",
+		"ident": 17,
+		"order": 18,
+		"desc": "Returns: Actions for managing the interaction.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$management.$assign",
+		"ident": 18,
+		"order": 19,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Actions for managing the interaction."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

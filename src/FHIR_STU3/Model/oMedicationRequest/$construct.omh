@@ -1,0 +1,11 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do definition.$define(definition_)
+Do basedOn.$define(basedOn_)
+Do supportingInformation.$define(supportingInformation_)
+Do reasonCode.$define(reasonCode_)
+Do reasonReference.$define(reasonReference_)
+Do note.$define(note_)
+Do dosageInstruction.$define(dosageInstruction_)
+Do detectedIssue.$define(detectedIssue_)
+Do eventHistory.$define(eventHistory_)

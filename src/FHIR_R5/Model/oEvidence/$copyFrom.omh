@@ -1,0 +1,58 @@
+Do inherited
+Calculate url as pValue.$url()
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate version as pValue.$version()
+Calculate title as pValue.$title()
+Calculate status as pValue.$status()
+Do useContext.$clear()
+Calculate list as pValue.$useContext()
+Do useContext.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate date as pValue.$date()
+Calculate approvalDate as pValue.$approvalDate()
+Calculate lastReviewDate as pValue.$lastReviewDate()
+Do contributor.$clear()
+Calculate list as pValue.$contributor()
+Do contributor.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do relatedArtifact.$clear()
+Calculate list as pValue.$relatedArtifact()
+Do relatedArtifact.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate description as pValue.$description()
+Calculate assertion as pValue.$assertion()
+Do note.$clear()
+Calculate list as pValue.$note()
+Do note.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate referentGroup as pValue.$referentGroup()
+Do variableDefinition.$clear()
+Calculate list as pValue.$variableDefinition()
+Do variableDefinition.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate synthesisType as pValue.$synthesisType()
+Calculate studyType as pValue.$studyType()
+Do statistic.$clear()
+Calculate list as pValue.$statistic()
+Do statistic.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do distribution.$clear()
+Calculate list as pValue.$distribution()
+Do distribution.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do certainty.$clear()
+Calculate list as pValue.$certainty()
+Do certainty.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

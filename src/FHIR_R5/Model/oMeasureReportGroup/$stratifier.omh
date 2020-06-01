@@ -1,0 +1,4 @@
+If stratifier.$validref()=kFalse
+	Calculate stratifier as $clib.$classes.oMeasureReportGroupStratifier.$newref()
+End If
+Quit method stratifier

@@ -1,0 +1,5 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do contact.$define(contact_)
+Do note.$define(note_)
+Do safety.$define(safety_)

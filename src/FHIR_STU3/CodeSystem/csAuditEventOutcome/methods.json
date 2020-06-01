@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$0",
+		"ident": 0,
+		"order": 1,
+		"desc": "The action was not successful due to some kind of catered for error (often equivalent to an HTTP 400 response).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$4",
+		"ident": 1,
+		"order": 2,
+		"desc": "The action was not successful due to some kind of unexpected error (often equivalent to an HTTP 500 response).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$8",
+		"ident": 2,
+		"order": 3,
+		"desc": "An error of such magnitude occurred that the system is no longer available for use (i.e. the system died).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$12",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

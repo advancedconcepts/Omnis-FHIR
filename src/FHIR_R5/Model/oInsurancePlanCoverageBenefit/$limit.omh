@@ -1,0 +1,4 @@
+If limit.$validref()=kFalse
+	Calculate limit as $clib.$classes.oInsurancePlanCoverageBenefitLimit.$newref()
+End If
+Quit method limit

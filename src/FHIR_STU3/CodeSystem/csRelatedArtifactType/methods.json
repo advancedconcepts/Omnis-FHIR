@@ -1,0 +1,97 @@
+[
+	{
+		"name": "$documentation",
+		"ident": 0,
+		"order": 1,
+		"desc": "A summary of the justification for the knowledge resource including supporting evidence, relevant guidelines, or other clinically important information. This information is intended to provide a way to make the justification for the knowledge resource available to the consumer of interventions or results produced by the knowledge resource",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$justification",
+		"ident": 1,
+		"order": 2,
+		"desc": "Bibliographic citation for papers, references, or other relevant material for the knowledge resource. This is intended to allow for citation of related material, but that was not necessarily specifically prepared in connection with this knowledge resource",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$citation",
+		"ident": 2,
+		"order": 3,
+		"desc": "The previous version of the knowledge resource",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$predecessor",
+		"ident": 3,
+		"order": 4,
+		"desc": "The next version of the knowledge resource",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$successor",
+		"ident": 4,
+		"order": 5,
+		"desc": "The knowledge resource is derived from the related artifact. This is intended to capture the relationship in which a particular knowledge resource is based on the content of another artifact, but is modified to capture either a different set of overall requirements, or a more specific set of requirements such as those involved in a particular institution or clinical setting",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$derived-from",
+		"ident": 5,
+		"order": 6,
+		"desc": "The knowledge resource depends on the given related artifact",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$depends-on",
+		"ident": 6,
+		"order": 7,
+		"desc": "The knowledge resource is composed of the given related artifact",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$composed-of",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

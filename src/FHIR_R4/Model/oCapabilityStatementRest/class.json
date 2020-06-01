@@ -1,0 +1,109 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "compartment",
+			"order": 8,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "compartment_",
+			"order": 9,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "An absolute URI which is a reference to the definition of a compartment that the system supports. The reference is to a CompartmentDefinition resource by its canonical URL ."
+		},
+		{
+			"name": "documentation",
+			"order": 2,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Information about the system's restful capabilities that apply across all applications, such as security."
+		},
+		{
+			"name": "interaction",
+			"order": 6,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "interaction_",
+			"order": 7,
+			"type": "kObjectref",
+			"subtype": "oCapabilityStatementRestInteraction",
+			"sublen": 0,
+			"desc": "A specification of restful operations supported by the system."
+		},
+		{
+			"name": "mode",
+			"order": 1,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Identifies whether this portion of the statement is describing the ability to initiate or receive restful operations."
+		},
+		{
+			"name": "resource",
+			"order": 4,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "resource_",
+			"order": 5,
+			"type": "kObjectref",
+			"subtype": "oCapabilityStatementRestResource",
+			"sublen": 0,
+			"desc": "A specification of the restful capabilities of the solution for a specific resource type."
+		},
+		{
+			"name": "security",
+			"order": 3,
+			"type": "kObjectref",
+			"subtype": "oCapabilityStatementRestSecurity",
+			"sublen": 0,
+			"desc": "Information about security implementation from an interface perspective - what a client needs to know."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:41:34",
+		"desc": "A definition of the restful capabilities of the solution, if any.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:24",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

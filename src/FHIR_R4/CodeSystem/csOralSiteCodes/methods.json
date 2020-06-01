@@ -1,0 +1,493 @@
+[
+	{
+		"name": "$0",
+		"ident": 0,
+		"order": 1,
+		"desc": "Permanent teeth Maxillary right.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$1",
+		"ident": 1,
+		"order": 2,
+		"desc": "Permanent teeth Maxillary left.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$2",
+		"ident": 2,
+		"order": 3,
+		"desc": "Permanent teeth Mandibular right.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$3",
+		"ident": 3,
+		"order": 4,
+		"desc": "Permanent teeth Mandibular left.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$4",
+		"ident": 4,
+		"order": 5,
+		"desc": "Deciduous teeth Maxillary right.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$5",
+		"ident": 5,
+		"order": 6,
+		"desc": "Deciduous teeth Maxillary left.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$6",
+		"ident": 6,
+		"order": 7,
+		"desc": "Deciduous teeth Mandibular right.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$7",
+		"ident": 7,
+		"order": 8,
+		"desc": "Deciduous teeth Mandibular left.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$8",
+		"ident": 8,
+		"order": 9,
+		"desc": "Upper Right Tooth 1 from the central axis, permanent dentition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$11",
+		"ident": 9,
+		"order": 10,
+		"desc": "Upper Right Tooth 2 from the central axis, permanent dentition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$12",
+		"ident": 10,
+		"order": 11,
+		"desc": "Upper Right Tooth 3 from the central axis, permanent dentition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$13",
+		"ident": 11,
+		"order": 12,
+		"desc": "Upper Right Tooth 4 from the central axis, permanent dentition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$14",
+		"ident": 12,
+		"order": 13,
+		"desc": "Upper Right Tooth 5 from the central axis, permanent dentition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$15",
+		"ident": 13,
+		"order": 14,
+		"desc": "Upper Right Tooth 6 from the central axis, permanent dentition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$16",
+		"ident": 14,
+		"order": 15,
+		"desc": "Upper Right Tooth 7 from the central axis, permanent dentition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$17",
+		"ident": 15,
+		"order": 16,
+		"desc": "Upper Right Tooth 8 from the central axis, permanent dentition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$18",
+		"ident": 16,
+		"order": 17,
+		"desc": "Upper Left Tooth 1 from the central axis, permanent dentition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$21",
+		"ident": 17,
+		"order": 18,
+		"desc": "Upper Left Tooth 2 from the central axis, permanent dentition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$22",
+		"ident": 18,
+		"order": 19,
+		"desc": "Upper Left Tooth 3 from the central axis, permanent dentition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$23",
+		"ident": 19,
+		"order": 20,
+		"desc": "Upper Left Tooth 4 from the central axis, permanent dentition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$24",
+		"ident": 20,
+		"order": 21,
+		"desc": "Upper Left Tooth 5 from the central axis, permanent dentition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$25",
+		"ident": 21,
+		"order": 22,
+		"desc": "Upper Left Tooth 6 from the central axis, permanent dentition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$26",
+		"ident": 22,
+		"order": 23,
+		"desc": "Upper Left Tooth 7 from the central axis, permanent dentition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$27",
+		"ident": 23,
+		"order": 24,
+		"desc": "Upper Left Tooth 8 from the central axis, permanent dentition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$28",
+		"ident": 24,
+		"order": 25,
+		"desc": "Lower Left Tooth 1 from the central axis, permanent dentition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$31",
+		"ident": 25,
+		"order": 26,
+		"desc": "Lower Left Tooth 2 from the central axis, permanent dentition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$32",
+		"ident": 26,
+		"order": 27,
+		"desc": "Lower Left Tooth 3 from the central axis, permanent dentition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$33",
+		"ident": 27,
+		"order": 28,
+		"desc": "Lower Left Tooth 4 from the central axis, permanent dentition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$34",
+		"ident": 28,
+		"order": 29,
+		"desc": "Lower Left Tooth 5 from the central axis, permanent dentition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$35",
+		"ident": 29,
+		"order": 30,
+		"desc": "Lower Left Tooth 6 from the central axis, permanent dentition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$36",
+		"ident": 30,
+		"order": 31,
+		"desc": "Lower Left Tooth 7 from the central axis, permanent dentition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$37",
+		"ident": 31,
+		"order": 32,
+		"desc": "Lower Left Tooth 8 from the central axis, permanent dentition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$38",
+		"ident": 32,
+		"order": 33,
+		"desc": "Lower Right Tooth 1 from the central axis, permanent dentition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$41",
+		"ident": 33,
+		"order": 34,
+		"desc": "Lower Right Tooth 2 from the central axis, permanent dentition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$42",
+		"ident": 34,
+		"order": 35,
+		"desc": "Lower Right Tooth 3 from the central axis, permanent dentition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$43",
+		"ident": 35,
+		"order": 36,
+		"desc": "Lower Right Tooth 4 from the central axis, permanent dentition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$44",
+		"ident": 36,
+		"order": 37,
+		"desc": "Lower Right Tooth 5 from the central axis, permanent dentition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$45",
+		"ident": 37,
+		"order": 38,
+		"desc": "Lower Right Tooth 6 from the central axis, permanent dentition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$46",
+		"ident": 38,
+		"order": 39,
+		"desc": "Lower Right Tooth 7 from the central axis, permanent dentition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$47",
+		"ident": 39,
+		"order": 40,
+		"desc": "Lower Right Tooth 8 from the central axis, permanent dentition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$48",
+		"ident": 40,
+		"order": 41,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$farenheit",
+		"ident": 0,
+		"order": 1,
+		"desc": "Celsius or centigrade temperature scale.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$celsius",
+		"ident": 1,
+		"order": 2,
+		"desc": "Kelvin absolute thermodynamic temperature scale.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$kelvin",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

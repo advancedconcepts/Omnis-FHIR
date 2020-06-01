@@ -1,0 +1,9 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"-1",38,"Identifier")
+Do pElements.$add("status","status",1,"1",21,"code")
+Do pElements.$add("category","category",0,"1",38,"CodeableConcept")
+Do pElements.$add("code","code",1,"1",38,"CodeableConcept")
+Do pElements.$add("subject","subject",1,"1",38,"Reference")
+Do pElements.$add("period","period",0,"1",38,"Period")
+Do pElements.$add("encounter","encounter",0,"1",38,"Reference")
+Do pElements.$add("author","author",0,"1",38,"Reference")

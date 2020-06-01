@@ -1,0 +1,5 @@
+Do inherited
+Calculate connectivity as pValue.$connectivity()
+Calculate identifier as pValue.$identifier()
+Calculate name as pValue.$name()
+Calculate residueSite as pValue.$residueSite()

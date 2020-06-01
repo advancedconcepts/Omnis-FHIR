@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("code","code",0,"1",38,"CodeableConcept")
+Do pElements.$add("count","count",0,"1",26,"integer")
+Do pElements.$add("subjectResults","subjectResults",0,"1",38,"Reference")

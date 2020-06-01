@@ -1,0 +1,265 @@
+[
+	{
+		"name": "$0.01",
+		"ident": 0,
+		"order": 1,
+		"desc": "1st Draft for Comment (Sept 2012 Ballot).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$0.05",
+		"ident": 1,
+		"order": 2,
+		"desc": "2nd Draft for Comment (January 2013 Ballot).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$0.06",
+		"ident": 2,
+		"order": 3,
+		"desc": "DSTU 1 Ballot version.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$0.11",
+		"ident": 3,
+		"order": 4,
+		"desc": "DSTU 1 Official version.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$0.0.80",
+		"ident": 4,
+		"order": 5,
+		"desc": "DSTU 1 Official version Technical Errata #1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$0.0.81",
+		"ident": 5,
+		"order": 6,
+		"desc": "DSTU 1 Official version Technical Errata #2.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$0.0.82",
+		"ident": 6,
+		"order": 7,
+		"desc": "Draft For Comment (January 2015 Ballot).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$0.4.0",
+		"ident": 7,
+		"order": 8,
+		"desc": "DSTU 2 Ballot version (May 2015 Ballot).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$0.5.0",
+		"ident": 8,
+		"order": 9,
+		"desc": "DSTU 2 QA Preview + CQIF Ballot (Sep 2015).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$1.0.0",
+		"ident": 9,
+		"order": 10,
+		"desc": "DSTU 2 (Official version).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$1.0.1",
+		"ident": 10,
+		"order": 11,
+		"desc": "DSTU 2 (Official version) with 1 technical errata.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$1.0.2",
+		"ident": 11,
+		"order": 12,
+		"desc": "GAO Ballot + draft changes to main FHIR standard.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$1.1.0",
+		"ident": 12,
+		"order": 13,
+		"desc": "CQF on FHIR Ballot + Connectathon 12 (Montreal).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$1.4.0",
+		"ident": 13,
+		"order": 14,
+		"desc": "FHIR STU3 Ballot + Connectathon 13 (Baltimore).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$1.6.0",
+		"ident": 14,
+		"order": 15,
+		"desc": "FHIR STU3 Candidate + Connectathon 14 (San Antonio).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$1.8.0",
+		"ident": 15,
+		"order": 16,
+		"desc": "FHIR Release 3 (STU).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$3.0.0",
+		"ident": 16,
+		"order": 17,
+		"desc": "FHIR Release 3 (STU) with 1 technical errata.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$3.0.1",
+		"ident": 17,
+		"order": 18,
+		"desc": "R4 Ballot #1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$3.3.0",
+		"ident": 18,
+		"order": 19,
+		"desc": "R4 Ballot #2.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$3.5.0",
+		"ident": 19,
+		"order": 20,
+		"desc": "FHIR Release 4 (Normative + STU).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$4.0.0",
+		"ident": 20,
+		"order": 21,
+		"desc": "FHIR Release 4 Technical Correction.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$4.0.1",
+		"ident": 21,
+		"order": 22,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

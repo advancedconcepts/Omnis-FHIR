@@ -1,0 +1,3 @@
+Do inherited
+Do pElements.$add("authorType","authorType",0,"1",38,"CodeableConcept")
+Do pElements.$add("authorDescription","authorDescription",0,"1",21,"string")

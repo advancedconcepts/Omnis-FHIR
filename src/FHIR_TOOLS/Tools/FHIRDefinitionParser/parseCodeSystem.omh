@@ -1,0 +1,18 @@
+Calculate url as pResource.url
+Calculate name as con(cFHIRCodeSystemPrefix,pResource.name)
+
+If not(isnull(iFHIRVersionLib.$classes.[name]))
+	Do iFHIRVersionLib.$classes.$remove(iFHIRVersionLib.$classes.$findname(name))
+End If
+
+Do iFHIRVersionLib.$classes.$add(kCode,name,iFHIRVersionLib.$classes.CodeSystem.$ident) Returns iCodeSystems
+Calculate iCodeSystems.$external as kTrue
+
+Calculate elements as pResource.concept
+
+For i from 1 to elements.$colcount step 1
+	Calculate item as elements.1.C[i]
+	Calculate codemethod.$desc as item.definition
+	Do iCodeSystems.$methods.$add(con('$',item.code)) Returns codemethod
+	Do codemethod.$methodlines.$add(con('Quit method "',item.code,'"'))
+End For

@@ -1,0 +1,10 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do subType.$define(subType_)
+Do related.$define(related_)
+Do careTeam.$define(careTeam_)
+Do information.$define(information_)
+Do diagnosis.$define(diagnosis_)
+Do procedure.$define(procedure_)
+Do insurance.$define(insurance_)
+Do item.$define(item_)

@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$organization",
+		"ident": 0,
+		"order": 1,
+		"desc": "Patient resource",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$patient",
+		"ident": 1,
+		"order": 2,
+		"desc": "Practitioner resource",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$practitioner",
+		"ident": 2,
+		"order": 3,
+		"desc": "RelatedPerson resource",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$relatedperson",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

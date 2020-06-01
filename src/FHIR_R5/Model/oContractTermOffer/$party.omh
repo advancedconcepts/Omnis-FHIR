@@ -1,0 +1,4 @@
+If party.$validref()=kFalse
+	Calculate party as $clib.$classes.oContractTermOfferParty.$newref()
+End If
+Quit method party

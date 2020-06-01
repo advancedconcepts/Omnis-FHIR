@@ -1,0 +1,47 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate status as pValue.$status()
+Calculate scope as pValue.$scope()
+Do category.$clear()
+Calculate list as pValue.$category()
+Do category.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate patient as pValue.$patient()
+Calculate dateTime as pValue.$dateTime()
+Do performer.$clear()
+Calculate list as pValue.$performer()
+Do performer.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do organization.$clear()
+Calculate list as pValue.$organization()
+Do organization.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do sourceAttachment.$clear()
+Calculate list as pValue.$sourceAttachment()
+Do sourceAttachment.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do sourceReference.$clear()
+Calculate list as pValue.$sourceReference()
+Do sourceReference.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do policy.$clear()
+Calculate list as pValue.$policy()
+Do policy.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate policyRule as pValue.$policyRule()
+Do verification.$clear()
+Calculate list as pValue.$verification()
+Do verification.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate provision as pValue.$provision()

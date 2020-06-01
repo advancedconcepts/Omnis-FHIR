@@ -1,0 +1,15 @@
+Do inherited
+Calculate revenue as pValue.$revenue()
+Calculate category as pValue.$category()
+Calculate service as pValue.$service()
+Do modifier.$clear()
+Calculate list as pValue.$modifier()
+Do modifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate fee as pValue.$fee()
+Do noteNumber.$clear()
+Calculate list as pValue.$noteNumber()
+Do noteNumber.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

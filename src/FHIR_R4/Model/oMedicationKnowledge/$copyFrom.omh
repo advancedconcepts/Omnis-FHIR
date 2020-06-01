@@ -1,0 +1,83 @@
+Do inherited
+Calculate code as pValue.$code()
+Calculate status as pValue.$status()
+Calculate manufacturer as pValue.$manufacturer()
+Calculate doseForm as pValue.$doseForm()
+Calculate amount as pValue.$amount()
+Do synonym.$clear()
+Calculate list as pValue.$synonym()
+Do synonym.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do relatedMedicationKnowledge.$clear()
+Calculate list as pValue.$relatedMedicationKnowledge()
+Do relatedMedicationKnowledge.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do associatedMedication.$clear()
+Calculate list as pValue.$associatedMedication()
+Do associatedMedication.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do productType.$clear()
+Calculate list as pValue.$productType()
+Do productType.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do monograph.$clear()
+Calculate list as pValue.$monograph()
+Do monograph.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do ingredient.$clear()
+Calculate list as pValue.$ingredient()
+Do ingredient.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate preparationInstruction as pValue.$preparationInstruction()
+Do intendedRoute.$clear()
+Calculate list as pValue.$intendedRoute()
+Do intendedRoute.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do cost.$clear()
+Calculate list as pValue.$cost()
+Do cost.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do monitoringProgram.$clear()
+Calculate list as pValue.$monitoringProgram()
+Do monitoringProgram.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do administrationGuidelines.$clear()
+Calculate list as pValue.$administrationGuidelines()
+Do administrationGuidelines.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do medicineClassification.$clear()
+Calculate list as pValue.$medicineClassification()
+Do medicineClassification.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate packaging as pValue.$packaging()
+Do drugCharacteristic.$clear()
+Calculate list as pValue.$drugCharacteristic()
+Do drugCharacteristic.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do contraindication.$clear()
+Calculate list as pValue.$contraindication()
+Do contraindication.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do regulatory.$clear()
+Calculate list as pValue.$regulatory()
+Do regulatory.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do kinetics.$clear()
+Calculate list as pValue.$kinetics()
+Do kinetics.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

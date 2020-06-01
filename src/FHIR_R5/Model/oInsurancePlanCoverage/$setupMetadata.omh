@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("type","::type",1,"1",38,"CodeableConcept")
+Do pElements.$add("network","network",0,"-1",38,"Reference")
+Do pElements.$add("benefit","benefit",1,"-1",38,"")

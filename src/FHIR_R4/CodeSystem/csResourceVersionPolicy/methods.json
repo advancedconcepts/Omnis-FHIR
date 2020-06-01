@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$no-version",
+		"ident": 0,
+		"order": 1,
+		"desc": "VersionId meta-property is supported (server) or used (client).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$versioned",
+		"ident": 1,
+		"order": 2,
+		"desc": "VersionId must be correct for updates (server) or will be specified (If-match header) for updates (client).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$versioned-update",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

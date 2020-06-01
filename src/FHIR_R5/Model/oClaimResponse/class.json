@@ -1,0 +1,304 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "addItem",
+			"order": 19,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "addItem_",
+			"order": 20,
+			"type": "kObjectref",
+			"subtype": "oClaimResponseAddItem",
+			"sublen": 0,
+			"desc": "The first-tier service adjudications for payor added product or service lines."
+		},
+		{
+			"name": "communicationRequest",
+			"order": 29,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "communicationRequest_",
+			"order": 30,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Request for additional supporting or authorizing information."
+		},
+		{
+			"name": "created",
+			"order": 8,
+			"type": "kDate",
+			"subtype": "kDatetime",
+			"sublen": 0,
+			"desc": "The date this resource was created."
+		},
+		{
+			"name": "disposition",
+			"order": 13,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A human readable description of the status of the adjudication."
+		},
+		{
+			"name": "error",
+			"order": 33,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "error_",
+			"order": 34,
+			"type": "kObjectref",
+			"subtype": "oClaimResponseError",
+			"sublen": 0,
+			"desc": "Errors encountered during the processing of the adjudication."
+		},
+		{
+			"name": "form",
+			"order": 26,
+			"type": "kObjectref",
+			"subtype": "oAttachment",
+			"sublen": 0,
+			"desc": "The actual form, by reference or inclusion, for printing the content or an EOB."
+		},
+		{
+			"name": "formCode",
+			"order": 25,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "A code for the form to be used for printing the content."
+		},
+		{
+			"name": "fundsReserve",
+			"order": 24,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "A code, used only on a response to a preauthorization, to indicate whether the benefits payable have been reserved and for whom."
+		},
+		{
+			"name": "identifier",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "identifier_",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "A unique identifier assigned to this claim response."
+		},
+		{
+			"name": "insurance",
+			"order": 31,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "insurance_",
+			"order": 32,
+			"type": "kObjectref",
+			"subtype": "oClaimResponseInsurance",
+			"sublen": 0,
+			"desc": "Financial instruments for reimbursement for the health care products and services specified on the claim."
+		},
+		{
+			"name": "insurer",
+			"order": 9,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The party responsible for authorization, adjudication and reimbursement."
+		},
+		{
+			"name": "item",
+			"order": 17,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "item_",
+			"order": 18,
+			"type": "kObjectref",
+			"subtype": "oClaimResponseItem",
+			"sublen": 0,
+			"desc": "A claim line. Either a simple (a product or service) or a 'group' of details which can also be a simple items or groups of sub-details."
+		},
+		{
+			"name": "outcome",
+			"order": 12,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The outcome of the claim, predetermination, or preauthorization processing."
+		},
+		{
+			"name": "patient",
+			"order": 7,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The party to whom the professional services and/or products have been supplied or are being considered and for whom actual for facast reimbursement is sought."
+		},
+		{
+			"name": "payeeType",
+			"order": 16,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Type of Party to be reimbursed: subscriber, provider, other."
+		},
+		{
+			"name": "payment",
+			"order": 23,
+			"type": "kObjectref",
+			"subtype": "oClaimResponsePayment",
+			"sublen": 0,
+			"desc": "Payment details for the adjudication of the claim."
+		},
+		{
+			"name": "preAuthPeriod",
+			"order": 15,
+			"type": "kObjectref",
+			"subtype": "oPeriod",
+			"sublen": 0,
+			"desc": "The time frame during which this authorization is effective."
+		},
+		{
+			"name": "preAuthRef",
+			"order": 14,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Reference from the Insurer which is used in later communications which refers to this adjudication."
+		},
+		{
+			"name": "processNote",
+			"order": 27,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "processNote_",
+			"order": 28,
+			"type": "kObjectref",
+			"subtype": "oClaimResponseProcessNote",
+			"sublen": 0,
+			"desc": "A note that describes or explains adjudication results in a human readable form."
+		},
+		{
+			"name": "request",
+			"order": 11,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Original request resource reference."
+		},
+		{
+			"name": "requestor",
+			"order": 10,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The provider which is responsible for the claim, predetermination or preauthorization."
+		},
+		{
+			"name": "status",
+			"order": 3,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The status of the resource instance."
+		},
+		{
+			"name": "subType",
+			"order": 5,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "A finer grained suite of claim type codes which may convey additional information such as Inpatient vs Outpatient and/or a specialty service."
+		},
+		{
+			"name": "total",
+			"order": 21,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "total_",
+			"order": 22,
+			"type": "kObjectref",
+			"subtype": "oClaimResponseTotal",
+			"sublen": 0,
+			"desc": "Categorized monetary totals for the adjudication."
+		},
+		{
+			"name": "type",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "A finer grained suite of claim type codes which may convey additional information such as Inpatient vs Outpatient and/or a specialty service."
+		},
+		{
+			"name": "use",
+			"order": 6,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A code to indicate whether the nature of the request is: to request adjudication of products and services previously rendered; or requesting authorization and adjudication for provision in the future; or requesting the non-binding adjudication of the list"
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:44:41",
+		"desc": "This resource provides the adjudication details from the processing of a Claim resource.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:29",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

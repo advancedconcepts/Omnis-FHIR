@@ -1,0 +1,97 @@
+[
+	{
+		"name": "$unknown",
+		"ident": 0,
+		"order": 1,
+		"desc": "The information is not available due to security, privacy or related reasons.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$masked",
+		"ident": 1,
+		"order": 2,
+		"desc": "There is no proper value for this element (e.g. last menstrual period for a male).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$not-applicable",
+		"ident": 2,
+		"order": 3,
+		"desc": "The source system wasn't capable of supporting this element.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unsupported",
+		"ident": 3,
+		"order": 4,
+		"desc": "The content of the data is represented in the resource narrative.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$as-text",
+		"ident": 4,
+		"order": 5,
+		"desc": "Some system or workflow process error means that the information is not available.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$error",
+		"ident": 5,
+		"order": 6,
+		"desc": "The value is not available because the observation procedure (test, etc.) was not performed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$not-performed",
+		"ident": 6,
+		"order": 7,
+		"desc": "The value is not permitted in this context (e.g. due to profiles, or the base data types).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$not-permitted",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

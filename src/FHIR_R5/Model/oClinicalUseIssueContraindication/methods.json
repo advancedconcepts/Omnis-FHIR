@@ -1,0 +1,242 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$diseaseSymptomProcedure",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: The situation that is being documented as contraindicating against this item.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$diseaseSymptomProcedure.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The situation that is being documented as contraindicating against this item."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$diseaseStatus",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: The status of the disease or symptom for the contraindication.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$diseaseStatus.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The status of the disease or symptom for the contraindication."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$comorbidity",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: A comorbidity (concurrent condition) or coinfection.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcomorbidity",
+		"ident": 9,
+		"order": 10,
+		"desc": "A comorbidity (concurrent condition) or coinfection.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "A comorbidity (concurrent condition) or coinfection."
+			}
+		]
+	},
+	{
+		"name": "$indication",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: The indication which this is a contraidication for.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addindication",
+		"ident": 11,
+		"order": 12,
+		"desc": "The indication which this is a contraidication for.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "The indication which this is a contraidication for."
+			}
+		]
+	},
+	{
+		"name": "$otherTherapy",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: Information about the use of the medicinal product in relation to other therapies described as part of the indication.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addotherTherapy",
+		"ident": 13,
+		"order": 14,
+		"desc": "Information about the use of the medicinal product in relation to other therapies described as part of the indication.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oClinicalUseIssueContraindicationOtherTherapy",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oClinicalUseIssueContraindicationOtherTherapy",
+				"sublen": 0,
+				"desc": "Information about the use of the medicinal product in relation to other therapies described as part of the indication."
+			}
+		]
+	}
+]

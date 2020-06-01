@@ -1,0 +1,4 @@
+If param.$validref()=kFalse
+	Calculate param as $clib.$classes.oTestScriptRuleParam.$newref()
+End If
+Quit method param

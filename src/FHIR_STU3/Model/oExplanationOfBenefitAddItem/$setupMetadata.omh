@@ -1,0 +1,9 @@
+Do inherited
+Do pElements.$add("sequenceLinkId","sequenceLinkId",0,"-1",26,"positiveInt")
+Do pElements.$add("revenue","revenue",0,"1",38,"CodeableConcept")
+Do pElements.$add("category","category",0,"1",38,"CodeableConcept")
+Do pElements.$add("service","service",0,"1",38,"CodeableConcept")
+Do pElements.$add("modifier","modifier",0,"-1",38,"CodeableConcept")
+Do pElements.$add("fee","fee",0,"1",38,"Money")
+Do pElements.$add("noteNumber","noteNumber",0,"-1",26,"positiveInt")
+Do pElements.$add("detail","detail",0,"-1",38,"")

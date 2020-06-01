@@ -1,0 +1,13 @@
+Do inherited
+Calculate wasSubstituted as pValue.$wasSubstituted()
+Calculate type as pValue.$type()
+Do reason.$clear()
+Calculate list as pValue.$reason()
+Do reason.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do responsibleParty.$clear()
+Calculate list as pValue.$responsibleParty()
+Do responsibleParty.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

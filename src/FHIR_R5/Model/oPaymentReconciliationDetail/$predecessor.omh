@@ -1,0 +1,4 @@
+If predecessor.$validref()=kFalse
+	Calculate predecessor as $clib.$classes.oIdentifier.$newref()
+End If
+Quit method predecessor

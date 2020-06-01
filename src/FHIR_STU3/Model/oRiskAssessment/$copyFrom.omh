@@ -1,0 +1,23 @@
+Do inherited
+Calculate identifier as pValue.$identifier()
+Calculate basedOn as pValue.$basedOn()
+Calculate parent as pValue.$parent()
+Calculate status as pValue.$status()
+Calculate method as pValue.$method()
+Calculate code as pValue.$code()
+Calculate subject as pValue.$subject()
+Calculate context as pValue.$context()
+Calculate condition as pValue.$condition()
+Calculate performer as pValue.$performer()
+Do basis.$clear()
+Calculate list as pValue.$basis()
+Do basis.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do prediction.$clear()
+Calculate list as pValue.$prediction()
+Do prediction.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate mitigation as pValue.$mitigation()
+Calculate comment as pValue.$comment()

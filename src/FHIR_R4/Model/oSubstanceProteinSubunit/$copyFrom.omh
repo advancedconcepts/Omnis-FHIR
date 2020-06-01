@@ -1,0 +1,9 @@
+Do inherited
+Calculate subunit as pValue.$subunit()
+Calculate sequence as pValue.$sequence()
+Calculate length as pValue.$length()
+Calculate sequenceAttachment as pValue.$sequenceAttachment()
+Calculate nTerminalModificationId as pValue.$nTerminalModificationId()
+Calculate nTerminalModification as pValue.$nTerminalModification()
+Calculate cTerminalModificationId as pValue.$cTerminalModificationId()
+Calculate cTerminalModification as pValue.$cTerminalModification()

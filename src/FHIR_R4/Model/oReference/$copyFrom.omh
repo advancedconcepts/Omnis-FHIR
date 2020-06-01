@@ -1,0 +1,5 @@
+Do inherited
+Calculate reference as pValue.$reference()
+Calculate type as pValue.$type()
+Calculate identifier as pValue.$identifier()
+Calculate display as pValue.$display()

@@ -1,0 +1,173 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "authorizationRequired",
+			"order": 14,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "A boolean flag indicating whether a preauthorization is required prior to actual service delivery."
+		},
+		{
+			"name": "authorizationSupporting",
+			"order": 15,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "authorizationSupporting_",
+			"order": 16,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Codes or comments regarding information or actions associated with the preauthorization."
+		},
+		{
+			"name": "authorizationUrl",
+			"order": 17,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A web location for obtaining requirements or descriptive information regarding the preauthorization."
+		},
+		{
+			"name": "benefit",
+			"order": 12,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "benefit_",
+			"order": 13,
+			"type": "kObjectref",
+			"subtype": "oCoverageEligibilityResponseInsuranceItemBenefit",
+			"sublen": 0,
+			"desc": "Benefits used to date."
+		},
+		{
+			"name": "category",
+			"order": 1,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Code to identify the general type of benefits under which products and services are provided."
+		},
+		{
+			"name": "description",
+			"order": 8,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A richer description of the benefit or services covered."
+		},
+		{
+			"name": "excluded",
+			"order": 6,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "True if the indicated class of service is excluded from the plan, missing or False indicates the product or service is included in the coverage."
+		},
+		{
+			"name": "modifier",
+			"order": 3,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "modifier_",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Item typification or modifiers codes to convey additional context for the product or service."
+		},
+		{
+			"name": "name",
+			"order": 7,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A short name or tag for the benefit."
+		},
+		{
+			"name": "network",
+			"order": 9,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Is a flag to indicate whether the benefits refer to in-network providers or out-of-network providers."
+		},
+		{
+			"name": "productOrService",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "This contains the product, service, drug or other billing code for the item."
+		},
+		{
+			"name": "provider",
+			"order": 5,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The practitioner who is eligible for the provision of the product or service."
+		},
+		{
+			"name": "term",
+			"order": 11,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The term or period of the values such as 'maximum lifetime benefit' or 'maximum annual visits'."
+		},
+		{
+			"name": "unit",
+			"order": 10,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Indicates if the benefits apply to an individual or to the family."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:41:38",
+		"desc": "Benefits and optionally current balances, and authorization details by category or service.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:25",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

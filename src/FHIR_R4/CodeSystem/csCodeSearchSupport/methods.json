@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$explicit",
+		"ident": 0,
+		"order": 1,
+		"desc": "The search for code on ValueSet only includes all codes based on the expansion of the value set.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$all",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

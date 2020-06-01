@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$planned",
+		"ident": 0,
+		"order": 1,
+		"desc": "The patient is currently at this location, or was between the period specified.\r\rA system may update these records when the patient leaves the location to either reserved, or completed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$active",
+		"ident": 1,
+		"order": 2,
+		"desc": "This location is held empty for this patient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$reserved",
+		"ident": 2,
+		"order": 3,
+		"desc": "The patient was at this location during the period specified.\r\rNot to be used when the patient is currently at the location.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$completed",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

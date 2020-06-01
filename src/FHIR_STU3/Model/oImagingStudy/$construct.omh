@@ -1,0 +1,9 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do modalityList.$define(modalityList_)
+Do basedOn.$define(basedOn_)
+Do interpreter.$define(interpreter_)
+Do endpoint.$define(endpoint_)
+Do procedureReference.$define(procedureReference_)
+Do procedureCode.$define(procedureCode_)
+Do series.$define(series_)

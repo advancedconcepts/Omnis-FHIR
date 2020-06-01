@@ -1,0 +1,6 @@
+Do inherited
+Do pElements.$add("use","use",1,"1",21,"code")
+Do pElements.$add("code","code",1,"1",21,"code")
+Do pElements.$add("rule","rule",1,"1",21,"code")
+Do pElements.$add("expression","expression",0,"1",21,"string")
+Do pElements.$add("description","description",0,"1",21,"string")

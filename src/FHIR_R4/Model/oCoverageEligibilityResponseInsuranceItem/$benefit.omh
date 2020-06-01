@@ -1,0 +1,4 @@
+If benefit.$validref()=kFalse
+	Calculate benefit as $clib.$classes.oCoverageEligibilityResponseInsuranceItemBenefit.$newref()
+End If
+Quit method benefit

@@ -1,0 +1,6 @@
+Calculate objRef as $clib.$classes.oContractAgent.$newref()
+Do agent.$add(objRef)
+If pValue.$validref()
+	Do objRef.$copyFrom(pValue)
+End If
+Quit method objRef

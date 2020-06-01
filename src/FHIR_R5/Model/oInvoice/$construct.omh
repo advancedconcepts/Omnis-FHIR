@@ -1,0 +1,5 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do participant.$define(participant_)
+Do lineItem.$define(lineItem_)
+Do note.$define(note_)

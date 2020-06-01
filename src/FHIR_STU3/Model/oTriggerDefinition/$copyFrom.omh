@@ -1,0 +1,4 @@
+Do inherited
+Calculate type as pValue.$type()
+Calculate eventName as pValue.$eventName()
+Calculate eventData as pValue.$eventData()

@@ -1,0 +1,5 @@
+Do inherited
+Calculate role as pValue.$role()
+Calculate member as pValue.$member()
+Calculate onBehalfOf as pValue.$onBehalfOf()
+Calculate period as pValue.$period()

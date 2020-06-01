@@ -1,0 +1,27 @@
+Do inherited
+Do type.$clear()
+Calculate list as pValue.$type()
+Do type.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do schedule.$clear()
+Calculate list as pValue.$schedule()
+Do schedule.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do nutrient.$clear()
+Calculate list as pValue.$nutrient()
+Do nutrient.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do texture.$clear()
+Calculate list as pValue.$texture()
+Do texture.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do fluidConsistencyType.$clear()
+Calculate list as pValue.$fluidConsistencyType()
+Do fluidConsistencyType.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate instruction as pValue.$instruction()

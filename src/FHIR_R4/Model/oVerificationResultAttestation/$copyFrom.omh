@@ -1,0 +1,9 @@
+Do inherited
+Calculate who as pValue.$who()
+Calculate onBehalfOf as pValue.$onBehalfOf()
+Calculate communicationMethod as pValue.$communicationMethod()
+Calculate date as pValue.$date()
+Calculate sourceIdentityCertificate as pValue.$sourceIdentityCertificate()
+Calculate proxyIdentityCertificate as pValue.$proxyIdentityCertificate()
+Calculate proxySignature as pValue.$proxySignature()
+Calculate sourceSignature as pValue.$sourceSignature()

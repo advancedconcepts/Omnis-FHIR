@@ -1,0 +1,121 @@
+[
+	{
+		"name": "$missing",
+		"ident": 0,
+		"order": 1,
+		"desc": "The search parameter returns resources that have a value that exactly matches the supplied parameter (the whole string, including casing and accents).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$exact",
+		"ident": 1,
+		"order": 2,
+		"desc": "The search parameter returns resources that include the supplied parameter value anywhere within the field being searched.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$contains",
+		"ident": 2,
+		"order": 3,
+		"desc": "The search parameter returns resources that do not contain a match.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$not",
+		"ident": 3,
+		"order": 4,
+		"desc": "The search parameter is processed as a string that searches text associated with the code/value - either CodeableConcept.text, Coding.display, or Identifier.type.text.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$text",
+		"ident": 4,
+		"order": 5,
+		"desc": "The search parameter is a URI (relative or absolute) that identifies a value set, and the search parameter tests whether the coding is in the specified value set.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$in",
+		"ident": 5,
+		"order": 6,
+		"desc": "The search parameter is a URI (relative or absolute) that identifies a value set, and the search parameter tests whether the coding is not in the specified value set.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$not-in",
+		"ident": 6,
+		"order": 7,
+		"desc": "The search parameter tests whether the value in a resource is subsumed by the specified value (is-a, or hierarchical relationships).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$below",
+		"ident": 7,
+		"order": 8,
+		"desc": "The search parameter tests whether the value in a resource subsumes the specified value (is-a, or hierarchical relationships).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$above",
+		"ident": 8,
+		"order": 9,
+		"desc": "The search parameter only applies to the Resource Type specified as a modifier (e.g. the modifier is not actually :type, but :Patient etc.).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$type",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

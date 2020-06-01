@@ -1,0 +1,5 @@
+If not(cMetadataSetup)
+	Do cElements.$define(cElementName,cElementsMin,cElementsMax,cElementType,cElementFHIRType)
+	Do $cinst.$setupMetadata
+	Calculate cMetadataSetup as kTrue
+End If

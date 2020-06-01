@@ -1,0 +1,4 @@
+If repeat.$validref()=kFalse
+	Calculate repeat as $clib.$classes.oElement.$newref()
+End If
+Quit method repeat

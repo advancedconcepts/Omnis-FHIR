@@ -1,0 +1,73 @@
+[
+	{
+		"name": "$doctor",
+		"ident": 0,
+		"order": 1,
+		"desc": "A practitoner with nursing experience that may be qualified/registered",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$nurse",
+		"ident": 1,
+		"order": 2,
+		"desc": "A qualified/registered/licensed pharmacist",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$pharmacist",
+		"ident": 2,
+		"order": 3,
+		"desc": "A practitioner that may perform research",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$researcher",
+		"ident": 3,
+		"order": 4,
+		"desc": "Someone who is able to provide educational services",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$teacher",
+		"ident": 4,
+		"order": 5,
+		"desc": "Someone who is qualified in Information and Communication Technologies",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ict",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

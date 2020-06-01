@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("pause","pause",0,"1",22,"boolean")
+Do pElements.$add("operation","operation",0,"1",38,"")
+Do pElements.$add("alternative","alternative",0,"-1",38,"")

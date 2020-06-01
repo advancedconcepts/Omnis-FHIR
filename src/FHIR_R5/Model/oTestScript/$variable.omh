@@ -1,0 +1,4 @@
+If variable.$validref()=kFalse
+	Calculate variable as $clib.$classes.oTestScriptVariable.$newref()
+End If
+Quit method variable

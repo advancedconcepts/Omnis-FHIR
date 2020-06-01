@@ -1,0 +1,4 @@
+If structure.$validref()=kFalse
+	Calculate structure as $clib.$classes.oSubstanceDefinitionStructure.$newref()
+End If
+Quit method structure

@@ -1,0 +1,4 @@
+If attachedDocument.$validref()=kFalse
+	Calculate attachedDocument as $clib.$classes.oReference.$newref()
+End If
+Quit method attachedDocument

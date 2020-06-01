@@ -1,0 +1,4 @@
+If topic.$validref()=kFalse
+	Calculate topic as $clib.$classes.oReference.$newref()
+End If
+Quit method topic

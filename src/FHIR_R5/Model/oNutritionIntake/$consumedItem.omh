@@ -1,0 +1,4 @@
+If consumedItem.$validref()=kFalse
+	Calculate consumedItem as $clib.$classes.oNutritionIntakeConsumedItem.$newref()
+End If
+Quit method consumedItem

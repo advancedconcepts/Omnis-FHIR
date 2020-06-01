@@ -1,0 +1,4 @@
+If billingCode.$validref()=kFalse
+	Calculate billingCode as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method billingCode

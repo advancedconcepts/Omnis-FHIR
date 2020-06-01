@@ -1,0 +1,61 @@
+[
+	{
+		"name": "$partialdose",
+		"ident": 0,
+		"order": 1,
+		"desc": "The vaccine experienced a cold chain break.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$coldchainbreak",
+		"ident": 1,
+		"order": 2,
+		"desc": "The vaccine was recalled by the manufacturer.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$recall",
+		"ident": 2,
+		"order": 3,
+		"desc": "The vaccine experienced adverse storage conditions.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$adversestorage",
+		"ident": 3,
+		"order": 4,
+		"desc": "The vaccine was expired at the time of administration.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$expired",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

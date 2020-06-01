@@ -1,0 +1,5 @@
+Do inherited
+Calculate sequenceLinkId as pValue.$sequenceLinkId()
+Calculate detailSequenceLinkId as pValue.$detailSequenceLinkId()
+Calculate subdetailSequenceLinkId as pValue.$subdetailSequenceLinkId()
+Calculate code as pValue.$code()

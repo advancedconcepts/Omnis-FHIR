@@ -1,0 +1,4 @@
+If component.$validref()=kFalse
+	Calculate component as $clib.$classes.oMeasureGroupStratifierComponent.$newref()
+End If
+Quit method component

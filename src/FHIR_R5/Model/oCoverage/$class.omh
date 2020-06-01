@@ -1,0 +1,4 @@
+If class.$validref()=kFalse
+	Calculate class as $clib.$classes.oCoverageClass.$newref()
+End If
+Quit method class

@@ -1,0 +1,11 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"1",38,"Identifier")
+Do pElements.$add("reference","reference",0,"1",38,"Reference")
+Do pElements.$add("type","::type",0,"1",38,"Coding")
+Do pElements.$add("role","role",0,"1",38,"Coding")
+Do pElements.$add("lifecycle","lifecycle",0,"1",38,"Coding")
+Do pElements.$add("securityLabel","securityLabel",0,"-1",38,"Coding")
+Do pElements.$add("name","::name",0,"1",21,"string")
+Do pElements.$add("description","description",0,"1",21,"string")
+Do pElements.$add("query","query",0,"1",28,"base64Binary")
+Do pElements.$add("detail","detail",0,"-1",38,"")

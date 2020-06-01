@@ -1,0 +1,5 @@
+Do inherited
+Calculate documentType as pValue.$documentType()
+Calculate reference as pValue.$reference()
+Calculate publicationDate as pValue.$publicationDate()
+Calculate presentationDate as pValue.$presentationDate()

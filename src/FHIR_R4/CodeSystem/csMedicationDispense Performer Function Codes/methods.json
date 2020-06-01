@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$dataenterer",
+		"ident": 0,
+		"order": 1,
+		"desc": "Prepared the medication.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$packager",
+		"ident": 1,
+		"order": 2,
+		"desc": "Performed initial quality assurance on the prepared medication",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$checker",
+		"ident": 2,
+		"order": 3,
+		"desc": "Performed the final quality assurance on the prepared medication against the request. Typically, this is a pharmacist function.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$finalchecker",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

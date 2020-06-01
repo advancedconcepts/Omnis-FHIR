@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$chol-mmol",
+		"ident": 0,
+		"order": 1,
+		"desc": "Serum Cholesterol, in mg/L",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$chol-mass",
+		"ident": 1,
+		"order": 2,
+		"desc": "Serum Cholesterol",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$chol",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

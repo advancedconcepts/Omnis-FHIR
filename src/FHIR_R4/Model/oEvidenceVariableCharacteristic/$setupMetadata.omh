@@ -1,0 +1,6 @@
+Do inherited
+Do pElements.$add("description","description",0,"1",21,"string")
+Do pElements.$add("usageContext","usageContext",0,"-1",38,"UsageContext")
+Do pElements.$add("exclude","exclude",0,"1",22,"boolean")
+Do pElements.$add("timeFromStart","timeFromStart",0,"1",38,"Duration")
+Do pElements.$add("groupMeasure","groupMeasure",0,"1",21,"code")

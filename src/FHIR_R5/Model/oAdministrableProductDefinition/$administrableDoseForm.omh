@@ -1,0 +1,4 @@
+If administrableDoseForm.$validref()=kFalse
+	Calculate administrableDoseForm as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method administrableDoseForm

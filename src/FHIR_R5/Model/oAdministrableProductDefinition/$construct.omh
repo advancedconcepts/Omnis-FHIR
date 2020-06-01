@@ -1,0 +1,8 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do subject.$define(subject_)
+Do producedFrom.$define(producedFrom_)
+Do ingredient.$define(ingredient_)
+Do device.$define(device_)
+Do characteristic.$define(characteristic_)
+Do routeOfAdministration.$define(routeOfAdministration_)

@@ -1,0 +1,73 @@
+[
+	{
+		"name": "$nilknown",
+		"ident": 0,
+		"order": 1,
+		"desc": "The investigation to find out whether there are items for this list has not occurred.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$notasked",
+		"ident": 1,
+		"order": 2,
+		"desc": "The content of the list was not provided due to privacy or confidentiality concerns. Note that it should not be assumed that this means that the particular information in question was withheld due to its contents - it can also be a policy decision.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$withheld",
+		"ident": 2,
+		"order": 3,
+		"desc": "Information to populate this list cannot be obtained; e.g. unconscious patient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unavailable",
+		"ident": 3,
+		"order": 4,
+		"desc": "The work to populate this list has not yet begun.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$notstarted",
+		"ident": 4,
+		"order": 5,
+		"desc": "This list has now closed or has ceased to be relevant or useful.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$closed",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

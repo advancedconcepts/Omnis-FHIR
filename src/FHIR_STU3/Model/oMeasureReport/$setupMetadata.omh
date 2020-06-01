@@ -1,0 +1,11 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"1",38,"Identifier")
+Do pElements.$add("status","status",1,"1",21,"code")
+Do pElements.$add("type","::type",1,"1",21,"code")
+Do pElements.$add("measure","measure",1,"1",38,"Reference")
+Do pElements.$add("patient","patient",0,"1",38,"Reference")
+Do pElements.$add("date","date",0,"1",23,"dateTime")
+Do pElements.$add("reportingOrganization","reportingOrganization",0,"1",38,"Reference")
+Do pElements.$add("period","period",1,"1",38,"Period")
+Do pElements.$add("group","group",0,"-1",38,"")
+Do pElements.$add("evaluatedResources","evaluatedResources",0,"1",38,"Reference")

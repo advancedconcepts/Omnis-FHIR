@@ -1,0 +1,4 @@
+If extension.$validref()=kFalse
+	Calculate extension as $clib.$classes.oExtension.$newref()
+End If
+Quit method extension

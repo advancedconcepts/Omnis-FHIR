@@ -1,0 +1,61 @@
+[
+	{
+		"name": "$directlink",
+		"ident": 0,
+		"order": 1,
+		"desc": "When the API method (e.g. [base_url]/[parameter]) related with the URL of the website is executed, the resource can be seen directly (usually in JSON or XML format).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$openapi",
+		"ident": 1,
+		"order": 2,
+		"desc": "When logged into the website, the resource can be seen.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$login",
+		"ident": 2,
+		"order": 3,
+		"desc": "When logged in and  follow the API in the website related with URL, the resource can be seen.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$oauth",
+		"ident": 3,
+		"order": 4,
+		"desc": "Some other complicated or particular way to get resource from URL.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$other",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

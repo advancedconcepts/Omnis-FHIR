@@ -1,0 +1,16 @@
+Do inherited
+Do relationship.$clear()
+Calculate list as pValue.$relationship()
+Do relationship.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate name as pValue.$name()
+Do telecom.$clear()
+Calculate list as pValue.$telecom()
+Do telecom.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate address as pValue.$address()
+Calculate gender as pValue.$gender()
+Calculate organization as pValue.$organization()
+Calculate period as pValue.$period()

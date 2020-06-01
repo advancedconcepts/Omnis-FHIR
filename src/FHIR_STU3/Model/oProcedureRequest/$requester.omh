@@ -1,0 +1,4 @@
+If requester.$validref()=kFalse
+	Calculate requester as $clib.$classes.oProcedureRequestRequester.$newref()
+End If
+Quit method requester

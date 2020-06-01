@@ -1,0 +1,4 @@
+If progress.$validref()=kFalse
+	Calculate progress as $clib.$classes.oResearchSubjectProgress.$newref()
+End If
+Quit method progress

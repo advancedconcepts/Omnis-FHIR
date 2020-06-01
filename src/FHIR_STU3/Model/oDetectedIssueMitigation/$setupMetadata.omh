@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("action","action",1,"1",38,"CodeableConcept")
+Do pElements.$add("date","date",0,"1",23,"dateTime")
+Do pElements.$add("author","author",0,"1",38,"Reference")

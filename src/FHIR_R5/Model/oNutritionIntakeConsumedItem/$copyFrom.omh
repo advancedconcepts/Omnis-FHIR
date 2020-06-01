@@ -1,0 +1,8 @@
+Do inherited
+Calculate type as pValue.$type()
+Calculate nutritionProduct as pValue.$nutritionProduct()
+Calculate schedule as pValue.$schedule()
+Calculate amount as pValue.$amount()
+Calculate rate as pValue.$rate()
+Calculate notConsumed as pValue.$notConsumed()
+Calculate notConsumedReason as pValue.$notConsumedReason()

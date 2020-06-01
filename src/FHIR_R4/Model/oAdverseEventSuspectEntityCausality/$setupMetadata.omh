@@ -1,0 +1,5 @@
+Do inherited
+Do pElements.$add("assessment","assessment",0,"1",38,"CodeableConcept")
+Do pElements.$add("productRelatedness","productRelatedness",0,"1",21,"string")
+Do pElements.$add("author","author",0,"1",38,"Reference")
+Do pElements.$add("method","method",0,"1",38,"CodeableConcept")

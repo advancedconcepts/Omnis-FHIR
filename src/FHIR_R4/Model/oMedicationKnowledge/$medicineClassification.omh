@@ -1,0 +1,4 @@
+If medicineClassification.$validref()=kFalse
+	Calculate medicineClassification as $clib.$classes.oMedicationKnowledgeMedicineClassification.$newref()
+End If
+Quit method medicineClassification

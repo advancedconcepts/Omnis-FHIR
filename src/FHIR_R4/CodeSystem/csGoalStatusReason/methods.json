@@ -1,0 +1,109 @@
+[
+	{
+		"name": "$surgery",
+		"ident": 0,
+		"order": 1,
+		"desc": "Goal suspended or ended because of a significant life event (marital change, bereavement, etc.).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$life-event",
+		"ident": 1,
+		"order": 2,
+		"desc": "Goal has been superseded by a new goal.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$replaced",
+		"ident": 2,
+		"order": 3,
+		"desc": "Patient wishes the goal to be set aside, at least temporarily.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$patient-request",
+		"ident": 3,
+		"order": 4,
+		"desc": "Goal cannot be reached temporarily.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$temp-not-attainable",
+		"ident": 4,
+		"order": 5,
+		"desc": "Goal cannot be reached permanently.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$permanent-not-attainable",
+		"ident": 5,
+		"order": 6,
+		"desc": "Goal cannot be reached due to financial barrier or reason.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$financial-barrier",
+		"ident": 6,
+		"order": 7,
+		"desc": "Goal cannot be reached due to a lack of transportation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$lack-of-transportation",
+		"ident": 7,
+		"order": 8,
+		"desc": "Goal cannot be reached due to a lack of social support.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$lack-of-social-support",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

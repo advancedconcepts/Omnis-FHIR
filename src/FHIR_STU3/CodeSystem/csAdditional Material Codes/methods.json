@@ -1,0 +1,73 @@
+[
+	{
+		"name": "$xray",
+		"ident": 0,
+		"order": 1,
+		"desc": "Image",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$image",
+		"ident": 1,
+		"order": 2,
+		"desc": "Email",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$email",
+		"ident": 2,
+		"order": 3,
+		"desc": "Model",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$model",
+		"ident": 3,
+		"order": 4,
+		"desc": "Document",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$document",
+		"ident": 4,
+		"order": 5,
+		"desc": "Other",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$other",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

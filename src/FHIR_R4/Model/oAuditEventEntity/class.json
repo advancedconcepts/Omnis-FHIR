@@ -1,0 +1,126 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "description",
+			"order": 8,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Text that describes the entity in more detail."
+		},
+		{
+			"name": "detail",
+			"order": 10,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "detail_",
+			"order": 11,
+			"type": "kObjectref",
+			"subtype": "oAuditEventEntityDetail",
+			"sublen": 0,
+			"desc": "Tagged value pairs for conveying additional information about the entity."
+		},
+		{
+			"name": "lifecycle",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oCoding",
+			"sublen": 0,
+			"desc": "Identifier for the data life-cycle stage for the entity."
+		},
+		{
+			"name": "name",
+			"order": 7,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A name of the entity in the audit event."
+		},
+		{
+			"name": "query",
+			"order": 9,
+			"type": "kBinary",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "The query parameters for a query-type entities."
+		},
+		{
+			"name": "role",
+			"order": 3,
+			"type": "kObjectref",
+			"subtype": "oCoding",
+			"sublen": 0,
+			"desc": "Code representing the role the entity played in the event being audited."
+		},
+		{
+			"name": "securityLabel",
+			"order": 5,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "securityLabel_",
+			"order": 6,
+			"type": "kObjectref",
+			"subtype": "oCoding",
+			"sublen": 0,
+			"desc": "Security labels for the identified entity."
+		},
+		{
+			"name": "type",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oCoding",
+			"sublen": 0,
+			"desc": "The type of the object that was involved in this audit event."
+		},
+		{
+			"name": "what",
+			"order": 1,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Identifies a specific instance of the entity. The reference should be version specific."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:41:33",
+		"desc": "Specific instances of data or objects that have been accessed.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:24",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

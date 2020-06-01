@@ -1,0 +1,4 @@
+If geneElement.$validref()=kFalse
+	Calculate geneElement as $clib.$classes.oSubstanceReferenceInformationGeneElement.$newref()
+End If
+Quit method geneElement

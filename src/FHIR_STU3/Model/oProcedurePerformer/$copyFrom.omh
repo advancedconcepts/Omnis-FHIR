@@ -1,0 +1,4 @@
+Do inherited
+Calculate role as pValue.$role()
+Calculate actor as pValue.$actor()
+Calculate onBehalfOf as pValue.$onBehalfOf()

@@ -1,0 +1,19 @@
+Do inherited
+Calculate mode as pValue.$mode()
+Calculate documentation as pValue.$documentation()
+Calculate security as pValue.$security()
+Do resource.$clear()
+Calculate list as pValue.$resource()
+Do resource.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do interaction.$clear()
+Calculate list as pValue.$interaction()
+Do interaction.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do compartment.$clear()
+Calculate list as pValue.$compartment()
+Do compartment.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

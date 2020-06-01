@@ -1,0 +1,12 @@
+Do inherited
+Do pElements.$add("height","height",0,"1",38,"Quantity")
+Do pElements.$add("width","width",0,"1",38,"Quantity")
+Do pElements.$add("depth","depth",0,"1",38,"Quantity")
+Do pElements.$add("weight","weight",0,"1",38,"Quantity")
+Do pElements.$add("nominalVolume","nominalVolume",0,"1",38,"Quantity")
+Do pElements.$add("externalDiameter","externalDiameter",0,"1",38,"Quantity")
+Do pElements.$add("shape","shape",0,"1",21,"string")
+Do pElements.$add("color","color",0,"-1",21,"string")
+Do pElements.$add("imprint","imprint",0,"-1",21,"string")
+Do pElements.$add("image","image",0,"-1",38,"Attachment")
+Do pElements.$add("scoring","scoring",0,"1",38,"CodeableConcept")

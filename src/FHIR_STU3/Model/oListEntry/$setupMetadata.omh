@@ -1,0 +1,5 @@
+Do inherited
+Do pElements.$add("flag","flag",0,"1",38,"CodeableConcept")
+Do pElements.$add("deleted","deleted",0,"1",22,"boolean")
+Do pElements.$add("date","date",0,"1",23,"dateTime")
+Do pElements.$add("item","item",1,"1",38,"Reference")

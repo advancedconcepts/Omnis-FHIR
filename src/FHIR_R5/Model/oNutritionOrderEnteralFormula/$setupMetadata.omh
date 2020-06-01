@@ -1,0 +1,10 @@
+Do inherited
+Do pElements.$add("baseFormulaType","baseFormulaType",0,"1",38,"CodeableConcept")
+Do pElements.$add("baseFormulaProductName","baseFormulaProductName",0,"1",21,"string")
+Do pElements.$add("additiveType","additiveType",0,"1",38,"CodeableConcept")
+Do pElements.$add("additiveProductName","additiveProductName",0,"1",21,"string")
+Do pElements.$add("caloricDensity","caloricDensity",0,"1",38,"Quantity")
+Do pElements.$add("routeofAdministration","routeofAdministration",0,"1",38,"CodeableConcept")
+Do pElements.$add("administration","administration",0,"-1",38,"")
+Do pElements.$add("maxVolumeToDeliver","maxVolumeToDeliver",0,"1",38,"Quantity")
+Do pElements.$add("administrationInstruction","administrationInstruction",0,"1",21,"string")

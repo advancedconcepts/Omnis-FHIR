@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("active","active",0,"1",22,"boolean")
+Do pElements.$add("author","author",0,"1",38,"Reference")
+Do pElements.$add("item","item",1,"-1",38,"")

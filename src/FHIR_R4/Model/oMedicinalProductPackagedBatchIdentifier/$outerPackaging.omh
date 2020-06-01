@@ -1,0 +1,4 @@
+If outerPackaging.$validref()=kFalse
+	Calculate outerPackaging as $clib.$classes.oIdentifier.$newref()
+End If
+Quit method outerPackaging

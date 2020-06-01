@@ -1,0 +1,4 @@
+If legalBasis.$validref()=kFalse
+	Calculate legalBasis as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method legalBasis

@@ -1,0 +1,4 @@
+If udi.$validref()=kFalse
+	Calculate udi as $clib.$classes.oDeviceUdi.$newref()
+End If
+Quit method udi

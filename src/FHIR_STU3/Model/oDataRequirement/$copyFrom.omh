@@ -1,0 +1,39 @@
+Do inherited
+Calculate type as pValue.$type()
+Do profile.$clear()
+Calculate list as pValue.$profile()
+Do profile.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do mustSupport.$clear()
+Calculate list as pValue.$mustSupport()
+Do mustSupport.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do codeFilter.$clear()
+Calculate list as pValue.$codeFilter()
+Do codeFilter.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate codeFilter.path as pValue.$codeFilter.path()
+Do codeFilter.valueCode.$clear()
+Calculate list as pValue.$codeFilter.valueCode()
+Do codeFilter.valueCode.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do codeFilter.valueCoding.$clear()
+Calculate list as pValue.$codeFilter.valueCoding()
+Do codeFilter.valueCoding.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do codeFilter.valueCodeableConcept.$clear()
+Calculate list as pValue.$codeFilter.valueCodeableConcept()
+Do codeFilter.valueCodeableConcept.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do dateFilter.$clear()
+Calculate list as pValue.$dateFilter()
+Do dateFilter.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate dateFilter.path as pValue.$dateFilter.path()

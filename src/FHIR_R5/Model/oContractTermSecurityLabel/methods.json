@@ -1,0 +1,205 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$number",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: Number used to link this term or term element to the applicable Security Label.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addnumber",
+		"ident": 5,
+		"order": 6,
+		"desc": "Number used to link this term or term element to the applicable Security Label.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Number used to link this term or term element to the applicable Security Label."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$classification",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: Security label privacy tag that species the level of confidentiality protection required for this term and/or term elements.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$classification.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCoding",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Security label privacy tag that species the level of confidentiality protection required for this term and/or term elements."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$category",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: Security label privacy tag that species the applicable privacy and security policies governing this term and/or term elements.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcategory",
+		"ident": 9,
+		"order": 10,
+		"desc": "Security label privacy tag that species the applicable privacy and security policies governing this term and/or term elements.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCoding",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCoding",
+				"sublen": 0,
+				"desc": "Security label privacy tag that species the applicable privacy and security policies governing this term and/or term elements."
+			}
+		]
+	},
+	{
+		"name": "$control",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: Security label privacy tag that species the manner in which term and/or term elements are to be protected.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcontrol",
+		"ident": 11,
+		"order": 12,
+		"desc": "Security label privacy tag that species the manner in which term and/or term elements are to be protected.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCoding",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCoding",
+				"sublen": 0,
+				"desc": "Security label privacy tag that species the manner in which term and/or term elements are to be protected."
+			}
+		]
+	}
+]

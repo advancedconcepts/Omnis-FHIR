@@ -1,0 +1,35 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate subject as pValue.$subject()
+Calculate type as pValue.$type()
+Calculate description as pValue.$description()
+Do region.$clear()
+Calculate list as pValue.$region()
+Do region.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate status as pValue.$status()
+Calculate statusDate as pValue.$statusDate()
+Calculate validityPeriod as pValue.$validityPeriod()
+Do basis.$clear()
+Calculate list as pValue.$basis()
+Do basis.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do relatedDate.$clear()
+Calculate list as pValue.$relatedDate()
+Do relatedDate.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do jurisdictionalAuthorization.$clear()
+Calculate list as pValue.$jurisdictionalAuthorization()
+Do jurisdictionalAuthorization.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate holder as pValue.$holder()
+Calculate regulator as pValue.$regulator()
+Calculate case as pValue.$case()

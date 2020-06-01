@@ -1,0 +1,4 @@
+If medium.$validref()=kFalse
+	Calculate medium as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method medium

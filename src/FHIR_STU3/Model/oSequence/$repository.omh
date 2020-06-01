@@ -1,0 +1,4 @@
+If repository.$validref()=kFalse
+	Calculate repository as $clib.$classes.oSequenceRepository.$newref()
+End If
+Quit method repository

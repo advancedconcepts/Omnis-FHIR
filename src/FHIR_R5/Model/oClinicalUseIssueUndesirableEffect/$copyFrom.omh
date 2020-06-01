@@ -1,0 +1,4 @@
+Do inherited
+Calculate symptomConditionEffect as pValue.$symptomConditionEffect()
+Calculate classification as pValue.$classification()
+Calculate frequencyOfOccurrence as pValue.$frequencyOfOccurrence()

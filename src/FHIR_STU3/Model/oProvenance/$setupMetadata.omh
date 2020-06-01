@@ -1,0 +1,11 @@
+Do inherited
+Do pElements.$add("target","target",1,"-1",38,"Reference")
+Do pElements.$add("period","period",0,"1",38,"Period")
+Do pElements.$add("recorded","recorded",1,"1",23,"instant")
+Do pElements.$add("policy","policy",0,"-1",21,"uri")
+Do pElements.$add("location","location",0,"1",38,"Reference")
+Do pElements.$add("reason","reason",0,"-1",38,"Coding")
+Do pElements.$add("activity","activity",0,"1",38,"Coding")
+Do pElements.$add("agent","agent",1,"-1",38,"")
+Do pElements.$add("entity","entity",0,"-1",38,"")
+Do pElements.$add("signature","signature",0,"-1",38,"Signature")

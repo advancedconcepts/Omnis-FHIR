@@ -1,0 +1,4 @@
+If manipulation.$validref()=kFalse
+	Calculate manipulation as $clib.$classes.oBiologicallyDerivedProductManipulation.$newref()
+End If
+Quit method manipulation

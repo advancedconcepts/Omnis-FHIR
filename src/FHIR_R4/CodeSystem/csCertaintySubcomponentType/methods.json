@@ -1,0 +1,97 @@
+[
+	{
+		"name": "$RiskOfBias",
+		"ident": 0,
+		"order": 1,
+		"desc": "concerns that findings are not similar enough to support certainty.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Inconsistency",
+		"ident": 1,
+		"order": 2,
+		"desc": "concerns reducing external validity.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Indirectness",
+		"ident": 2,
+		"order": 3,
+		"desc": "High quality evidence.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Imprecision",
+		"ident": 3,
+		"order": 4,
+		"desc": "likelihood that what is published misrepresents what is available to publish.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$PublicationBias",
+		"ident": 4,
+		"order": 5,
+		"desc": "higher certainty due to dose response relationship.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$DoseResponseGradient",
+		"ident": 5,
+		"order": 6,
+		"desc": "higher certainty due to risk of bias in opposite direction.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$PlausibleConfounding",
+		"ident": 6,
+		"order": 7,
+		"desc": "higher certainty due to large effect size.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$LargeEffect",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

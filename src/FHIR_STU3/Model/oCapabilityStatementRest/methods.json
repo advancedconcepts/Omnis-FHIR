@@ -1,0 +1,305 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$mode",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: Identifies whether this portion of the statement is describing the ability to initiate or receive restful operations.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$mode.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Identifies whether this portion of the statement is describing the ability to initiate or receive restful operations."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$documentation",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: Information about the system's restful capabilities that apply across all applications, such as security.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$documentation.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Information about the system's restful capabilities that apply across all applications, such as security."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$security",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: Information about security implementation from an interface perspective - what a client needs to know.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$security.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCapabilityStatementRestSecurity",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Information about security implementation from an interface perspective - what a client needs to know."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$resource",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: A specification of the restful capabilities of the solution for a specific resource type.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addresource",
+		"ident": 11,
+		"order": 12,
+		"desc": "A specification of the restful capabilities of the solution for a specific resource type.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCapabilityStatementRestResource",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCapabilityStatementRestResource",
+				"sublen": 0,
+				"desc": "A specification of the restful capabilities of the solution for a specific resource type."
+			}
+		]
+	},
+	{
+		"name": "$interaction",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: A specification of restful operations supported by the system.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addinteraction",
+		"ident": 13,
+		"order": 14,
+		"desc": "A specification of restful operations supported by the system.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCapabilityStatementRestInteraction",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCapabilityStatementRestInteraction",
+				"sublen": 0,
+				"desc": "A specification of restful operations supported by the system."
+			}
+		]
+	},
+	{
+		"name": "$operation",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: Definition of an operation or a named query together with its parameters and their meaning and type.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addoperation",
+		"ident": 15,
+		"order": 16,
+		"desc": "Definition of an operation or a named query together with its parameters and their meaning and type.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCapabilityStatementRestOperation",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCapabilityStatementRestOperation",
+				"sublen": 0,
+				"desc": "Definition of an operation or a named query together with its parameters and their meaning and type."
+			}
+		]
+	},
+	{
+		"name": "$compartment",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: An absolute URI which is a reference to the definition of a compartment that the system supports. The reference is to a CompartmentDefinition resource by its canonical URL .",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcompartment",
+		"ident": 17,
+		"order": 18,
+		"desc": "An absolute URI which is a reference to the definition of a compartment that the system supports. The reference is to a CompartmentDefinition resource by its canonical URL .",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "An absolute URI which is a reference to the definition of a compartment that the system supports. The reference is to a CompartmentDefinition resource by its canonical URL ."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

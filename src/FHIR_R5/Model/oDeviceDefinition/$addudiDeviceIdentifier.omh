@@ -1,0 +1,6 @@
+Calculate objRef as $clib.$classes.oDeviceDefinitionUdiDeviceIdentifier.$newref()
+Do udiDeviceIdentifier.$add(objRef)
+If pValue.$validref()
+	Do objRef.$copyFrom(pValue)
+End If
+Quit method objRef

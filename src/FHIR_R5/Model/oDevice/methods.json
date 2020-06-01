@@ -1,0 +1,954 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$identifier",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: Unique instance identifiers assigned to a device by manufacturers other organizations or owners.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addidentifier",
+		"ident": 6,
+		"order": 7,
+		"desc": "Unique instance identifiers assigned to a device by manufacturers other organizations or owners.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"desc": "Unique instance identifiers assigned to a device by manufacturers other organizations or owners."
+			}
+		]
+	},
+	{
+		"name": "$definition",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: The reference to the definition for the device.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$definition.$assign",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The reference to the definition for the device."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$udiCarrier",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: Unique device identifier (UDI) assigned to device label or package.  Note that the Device may include multiple udiCarriers as it either may include just the udiCarrier for the jurisdiction it is sold, or for multiple jurisdictions it could have been sold.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addudiCarrier",
+		"ident": 10,
+		"order": 11,
+		"desc": "Unique device identifier (UDI) assigned to device label or package.  Note that the Device may include multiple udiCarriers as it either may include just the udiCarrier for the jurisdiction it is sold, or for multiple jurisdictions it could have been sold.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oDeviceUdiCarrier",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oDeviceUdiCarrier",
+				"sublen": 0,
+				"desc": "Unique device identifier (UDI) assigned to device label or package.  Note that the Device may include multiple udiCarriers as it either may include just the udiCarrier for the jurisdiction it is sold, or for multiple jurisdictions it could have been sold."
+			}
+		]
+	},
+	{
+		"name": "$status",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: Status of the Device availability.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$status.$assign",
+		"ident": 12,
+		"order": 13,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Status of the Device availability."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$statusReason",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: Reason for the dtatus of the Device availability.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addstatusReason",
+		"ident": 14,
+		"order": 15,
+		"desc": "Reason for the dtatus of the Device availability.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Reason for the dtatus of the Device availability."
+			}
+		]
+	},
+	{
+		"name": "$distinctIdentifier",
+		"ident": 15,
+		"order": 16,
+		"desc": "Returns: The distinct identification string as required by regulation for a human cell, tissue, or cellular and tissue-based product.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$distinctIdentifier.$assign",
+		"ident": 16,
+		"order": 17,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The distinct identification string as required by regulation for a human cell, tissue, or cellular and tissue-based product."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$manufacturer",
+		"ident": 17,
+		"order": 18,
+		"desc": "Returns: A name of the manufacturer.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$manufacturer.$assign",
+		"ident": 18,
+		"order": 19,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A name of the manufacturer."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$manufactureDate",
+		"ident": 19,
+		"order": 20,
+		"desc": "Returns: The date and time when the device was manufactured.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$manufactureDate.$assign",
+		"ident": 20,
+		"order": 21,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kDate",
+				"subtype": "kDatetime",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The date and time when the device was manufactured."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$expirationDate",
+		"ident": 21,
+		"order": 22,
+		"desc": "Returns: The date and time beyond which this device is no longer valid or should not be used (if applicable).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$expirationDate.$assign",
+		"ident": 22,
+		"order": 23,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kDate",
+				"subtype": "kDatetime",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The date and time beyond which this device is no longer valid or should not be used (if applicable)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$lotNumber",
+		"ident": 23,
+		"order": 24,
+		"desc": "Returns: Lot number assigned by the manufacturer.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$lotNumber.$assign",
+		"ident": 24,
+		"order": 25,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Lot number assigned by the manufacturer."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$serialNumber",
+		"ident": 25,
+		"order": 26,
+		"desc": "Returns: The serial number assigned by the organization when the device was manufactured.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$serialNumber.$assign",
+		"ident": 26,
+		"order": 27,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The serial number assigned by the organization when the device was manufactured."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$deviceName",
+		"ident": 27,
+		"order": 28,
+		"desc": "Returns: This represents the manufacturer's name of the device as provided by the device, from a UDI label, or by a person describing the Device.  This typically would be used when a person provides the name(s) or when the device represents one of the names available from DeviceDefinition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$adddeviceName",
+		"ident": 28,
+		"order": 29,
+		"desc": "This represents the manufacturer's name of the device as provided by the device, from a UDI label, or by a person describing the Device.  This typically would be used when a person provides the name(s) or when the device represents one of the names available from DeviceDefinition.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oDeviceDeviceName",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oDeviceDeviceName",
+				"sublen": 0,
+				"desc": "This represents the manufacturer's name of the device as provided by the device, from a UDI label, or by a person describing the Device.  This typically would be used when a person provides the name(s) or when the device represents one of the names availa"
+			}
+		]
+	},
+	{
+		"name": "$modelNumber",
+		"ident": 29,
+		"order": 30,
+		"desc": "Returns: The manufacturer's model number for the device.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$modelNumber.$assign",
+		"ident": 30,
+		"order": 31,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The manufacturer's model number for the device."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$partNumber",
+		"ident": 31,
+		"order": 32,
+		"desc": "Returns: The part number or catalog number of the device.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$partNumber.$assign",
+		"ident": 32,
+		"order": 33,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The part number or catalog number of the device."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type",
+		"ident": 33,
+		"order": 34,
+		"desc": "Returns: The kind or type of device.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type.$assign",
+		"ident": 34,
+		"order": 35,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The kind or type of device."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$specialization",
+		"ident": 35,
+		"order": 36,
+		"desc": "Returns: The capabilities supported on a  device, the standards to which the device conforms for a particular purpose, and used for the communication.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addspecialization",
+		"ident": 36,
+		"order": 37,
+		"desc": "The capabilities supported on a  device, the standards to which the device conforms for a particular purpose, and used for the communication.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oDeviceSpecialization",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oDeviceSpecialization",
+				"sublen": 0,
+				"desc": "The capabilities supported on a  device, the standards to which the device conforms for a particular purpose, and used for the communication."
+			}
+		]
+	},
+	{
+		"name": "$::version",
+		"ident": 37,
+		"order": 38,
+		"desc": "Returns: The actual design of the device or software version running on the device.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addversion",
+		"ident": 38,
+		"order": 39,
+		"desc": "The actual design of the device or software version running on the device.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oDeviceVersion",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oDeviceVersion",
+				"sublen": 0,
+				"desc": "The actual design of the device or software version running on the device."
+			}
+		]
+	},
+	{
+		"name": "$property",
+		"ident": 39,
+		"order": 40,
+		"desc": "Returns: The actual configuration settings of a device as it actually operates, e.g., regulation status, time properties.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addproperty",
+		"ident": 40,
+		"order": 41,
+		"desc": "The actual configuration settings of a device as it actually operates, e.g., regulation status, time properties.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oDeviceProperty",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oDeviceProperty",
+				"sublen": 0,
+				"desc": "The actual configuration settings of a device as it actually operates, e.g., regulation status, time properties."
+			}
+		]
+	},
+	{
+		"name": "$patient",
+		"ident": 41,
+		"order": 42,
+		"desc": "Returns: Patient information, If the device is affixed to a person.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$patient.$assign",
+		"ident": 42,
+		"order": 43,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Patient information, If the device is affixed to a person."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$owner",
+		"ident": 43,
+		"order": 44,
+		"desc": "Returns: An organization that is responsible for the provision and ongoing maintenance of the device.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$owner.$assign",
+		"ident": 44,
+		"order": 45,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "An organization that is responsible for the provision and ongoing maintenance of the device."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$contact",
+		"ident": 45,
+		"order": 46,
+		"desc": "Returns: Contact details for an organization or a particular human that is responsible for the device.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcontact",
+		"ident": 46,
+		"order": 47,
+		"desc": "Contact details for an organization or a particular human that is responsible for the device.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oContactPoint",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oContactPoint",
+				"sublen": 0,
+				"desc": "Contact details for an organization or a particular human that is responsible for the device."
+			}
+		]
+	},
+	{
+		"name": "$location",
+		"ident": 47,
+		"order": 48,
+		"desc": "Returns: The place where the device can be found.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$location.$assign",
+		"ident": 48,
+		"order": 49,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The place where the device can be found."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$url",
+		"ident": 49,
+		"order": 50,
+		"desc": "Returns: A network address on which the device may be contacted directly.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$url.$assign",
+		"ident": 50,
+		"order": 51,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A network address on which the device may be contacted directly."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$note",
+		"ident": 51,
+		"order": 52,
+		"desc": "Returns: Descriptive information, usage information or implantation information that is not captured in an existing element.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addnote",
+		"ident": 52,
+		"order": 53,
+		"desc": "Descriptive information, usage information or implantation information that is not captured in an existing element.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oAnnotation",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oAnnotation",
+				"sublen": 0,
+				"desc": "Descriptive information, usage information or implantation information that is not captured in an existing element."
+			}
+		]
+	},
+	{
+		"name": "$safety",
+		"ident": 53,
+		"order": 54,
+		"desc": "Returns: Provides additional safety characteristics about a medical device.  For example devices containing latex.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addsafety",
+		"ident": 54,
+		"order": 55,
+		"desc": "Provides additional safety characteristics about a medical device.  For example devices containing latex.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Provides additional safety characteristics about a medical device.  For example devices containing latex."
+			}
+		]
+	},
+	{
+		"name": "$parent",
+		"ident": 55,
+		"order": 56,
+		"desc": "Returns: The device that this device is attached to or is part of.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$parent.$assign",
+		"ident": 56,
+		"order": 57,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The device that this device is attached to or is part of."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

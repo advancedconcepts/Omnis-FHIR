@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$operation",
+		"ident": 0,
+		"order": 1,
+		"desc": "This operation is a named query, invoked using the search mechanism.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$query",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

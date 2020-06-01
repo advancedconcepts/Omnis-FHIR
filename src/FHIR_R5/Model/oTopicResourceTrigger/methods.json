@@ -1,0 +1,223 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$description",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: The human readable description of what triggers inclusion into this topic -  for example, \"Beginning of a clinical encounter\".",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$description.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The human readable description of what triggers inclusion into this topic -  for example, \"Beginning of a clinical encounter\"."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$resourceType",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: The list of resource types that are candidates for this topic.  For example, the Encounter resource is updated in an 'admission' topic.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addresourceType",
+		"ident": 7,
+		"order": 8,
+		"desc": "The list of resource types that are candidates for this topic.  For example, the Encounter resource is updated in an 'admission' topic.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The list of resource types that are candidates for this topic.  For example, the Encounter resource is updated in an 'admission' topic."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$methodCriteria",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: The REST interaction based rules that the server should use to determine when to trigger a notification for this topic.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addmethodCriteria",
+		"ident": 9,
+		"order": 10,
+		"desc": "The REST interaction based rules that the server should use to determine when to trigger a notification for this topic.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The REST interaction based rules that the server should use to determine when to trigger a notification for this topic."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$queryCriteria",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: The FHIR query based rules that the server should use to determine when to trigger a notification for this topic.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$queryCriteria.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oTopicResourceTriggerQueryCriteria",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The FHIR query based rules that the server should use to determine when to trigger a notification for this topic."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$fhirPathCriteria",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: The FHIRPath based rules that the server should use to determine when to trigger a notification for this topic.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$fhirPathCriteria.$assign",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The FHIRPath based rules that the server should use to determine when to trigger a notification for this topic."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$contained",
+		"ident": 0,
+		"order": 1,
+		"desc": "The reference to a resource that has to be resolved externally to the resource that includes the reference.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$referenced",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,7 @@
+Do inherited
+Do pElements.$add("source","source",1,"1",21,"uri")
+Do pElements.$add("title","title",1,"1",21,"string")
+Do pElements.$add("kind","kind",1,"1",21,"code")
+Do pElements.$add("type","::type",0,"-1",21,"code")
+Do pElements.$add("package","package",0,"-1",21,"string")
+Do pElements.$add("format","format",0,"1",21,"code")

@@ -1,0 +1,4 @@
+If nominalVolume.$validref()=kFalse
+	Calculate nominalVolume as $clib.$classes.oQuantity.$newref()
+End If
+Quit method nominalVolume

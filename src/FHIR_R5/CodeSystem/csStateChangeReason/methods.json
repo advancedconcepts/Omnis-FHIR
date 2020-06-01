@@ -1,0 +1,229 @@
+[
+	{
+		"name": "$adverseEvent",
+		"ident": 0,
+		"order": 1,
+		"desc": "death (adverse event).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$death",
+		"ident": 1,
+		"order": 2,
+		"desc": "did not meet eligibility criteria.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$notEligible",
+		"ident": 2,
+		"order": 3,
+		"desc": "eligible but unwilling or unable to participate.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$eligibleButNo",
+		"ident": 3,
+		"order": 4,
+		"desc": "enrolled or registered.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$enrolled",
+		"ident": 4,
+		"order": 5,
+		"desc": "exclusion.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$exclusion",
+		"ident": 5,
+		"order": 6,
+		"desc": "follow-up complete.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$followUpComplete",
+		"ident": 6,
+		"order": 7,
+		"desc": "inclusion.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$inclusion",
+		"ident": 7,
+		"order": 8,
+		"desc": "Informed consent signed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$informedConsentSigned",
+		"ident": 8,
+		"order": 9,
+		"desc": "intervention or observation complete.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$intOrObsComplete",
+		"ident": 9,
+		"order": 10,
+		"desc": "non-compliance.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$nonCompliance",
+		"ident": 10,
+		"order": 11,
+		"desc": "pre-registered or slot reserved.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$preReg",
+		"ident": 11,
+		"order": 12,
+		"desc": "refuse consent.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$refuseConsent",
+		"ident": 12,
+		"order": 13,
+		"desc": "screen failure.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$screenFailure",
+		"ident": 13,
+		"order": 14,
+		"desc": "study permanently closed to accrual.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$studyClosed",
+		"ident": 14,
+		"order": 15,
+		"desc": "study terminated.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$studyTerminated",
+		"ident": 15,
+		"order": 16,
+		"desc": "subject refusal.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subjectRefusal",
+		"ident": 16,
+		"order": 17,
+		"desc": "unwilling or unable to participate.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unwillingOrUnable",
+		"ident": 17,
+		"order": 18,
+		"desc": "withdrawn consent.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$withdrawnConsent",
+		"ident": 18,
+		"order": 19,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

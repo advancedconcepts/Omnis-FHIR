@@ -1,0 +1,4 @@
+Do inherited
+Calculate deviceIdentifier as pValue.$deviceIdentifier()
+Calculate issuer as pValue.$issuer()
+Calculate jurisdiction as pValue.$jurisdiction()

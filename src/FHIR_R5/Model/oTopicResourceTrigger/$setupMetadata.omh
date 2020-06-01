@@ -1,0 +1,6 @@
+Do inherited
+Do pElements.$add("description","description",0,"1",21,"string")
+Do pElements.$add("resourceType","resourceType",0,"-1",21,"code")
+Do pElements.$add("methodCriteria","methodCriteria",0,"-1",21,"code")
+Do pElements.$add("queryCriteria","queryCriteria",0,"1",38,"")
+Do pElements.$add("fhirPathCriteria","fhirPathCriteria",0,"1",21,"string")

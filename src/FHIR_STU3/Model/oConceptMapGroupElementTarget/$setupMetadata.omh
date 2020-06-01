@@ -1,0 +1,6 @@
+Do inherited
+Do pElements.$add("code","code",0,"1",21,"code")
+Do pElements.$add("display","display",0,"1",21,"string")
+Do pElements.$add("equivalence","equivalence",0,"1",21,"code")
+Do pElements.$add("comment","comment",0,"1",21,"string")
+Do pElements.$add("dependsOn","dependsOn",0,"-1",38,"")

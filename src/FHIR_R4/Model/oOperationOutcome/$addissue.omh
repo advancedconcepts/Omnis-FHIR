@@ -1,0 +1,6 @@
+Calculate objRef as $clib.$classes.oOperationOutcomeIssue.$newref()
+Do issue.$add(objRef)
+If pValue.$validref()
+	Do objRef.$copyFrom(pValue)
+End If
+Quit method objRef

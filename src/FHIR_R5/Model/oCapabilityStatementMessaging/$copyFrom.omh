@@ -1,0 +1,13 @@
+Do inherited
+Do endpoint.$clear()
+Calculate list as pValue.$endpoint()
+Do endpoint.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate reliableCache as pValue.$reliableCache()
+Calculate documentation as pValue.$documentation()
+Do supportedMessage.$clear()
+Calculate list as pValue.$supportedMessage()
+Do supportedMessage.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

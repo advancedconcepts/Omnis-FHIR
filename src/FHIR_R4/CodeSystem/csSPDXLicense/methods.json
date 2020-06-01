@@ -1,0 +1,4153 @@
+[
+	{
+		"name": "$not-open-source",
+		"ident": 0,
+		"order": 1,
+		"desc": "BSD Zero Clause License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$0BSD",
+		"ident": 1,
+		"order": 2,
+		"desc": "Attribution Assurance License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$AAL",
+		"ident": 2,
+		"order": 3,
+		"desc": "Abstyles License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Abstyles",
+		"ident": 3,
+		"order": 4,
+		"desc": "Adobe Systems Incorporated Source Code License Agreement.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Adobe-2006",
+		"ident": 4,
+		"order": 5,
+		"desc": "Adobe Glyph List License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Adobe-Glyph",
+		"ident": 5,
+		"order": 6,
+		"desc": "Amazon Digital Services License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ADSL",
+		"ident": 6,
+		"order": 7,
+		"desc": "Academic Free License v1.1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$AFL-1.1",
+		"ident": 7,
+		"order": 8,
+		"desc": "Academic Free License v1.2.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$AFL-1.2",
+		"ident": 8,
+		"order": 9,
+		"desc": "Academic Free License v2.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$AFL-2.0",
+		"ident": 9,
+		"order": 10,
+		"desc": "Academic Free License v2.1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$AFL-2.1",
+		"ident": 10,
+		"order": 11,
+		"desc": "Academic Free License v3.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$AFL-3.0",
+		"ident": 11,
+		"order": 12,
+		"desc": "Afmparse License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Afmparse",
+		"ident": 12,
+		"order": 13,
+		"desc": "Affero General Public License v1.0 only.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$AGPL-1.0-only",
+		"ident": 13,
+		"order": 14,
+		"desc": "Affero General Public License v1.0 or later.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$AGPL-1.0-or-later",
+		"ident": 14,
+		"order": 15,
+		"desc": "GNU Affero General Public License v3.0 only.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$AGPL-3.0-only",
+		"ident": 15,
+		"order": 16,
+		"desc": "GNU Affero General Public License v3.0 or later.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$AGPL-3.0-or-later",
+		"ident": 16,
+		"order": 17,
+		"desc": "Aladdin Free Public License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Aladdin",
+		"ident": 17,
+		"order": 18,
+		"desc": "AMD's plpa_map.c License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$AMDPLPA",
+		"ident": 18,
+		"order": 19,
+		"desc": "Apple MIT License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$AML",
+		"ident": 19,
+		"order": 20,
+		"desc": "Academy of Motion Picture Arts and Sciences BSD.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$AMPAS",
+		"ident": 20,
+		"order": 21,
+		"desc": "ANTLR Software Rights Notice.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ANTLR-PD",
+		"ident": 21,
+		"order": 22,
+		"desc": "Apache License 1.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Apache-1.0",
+		"ident": 22,
+		"order": 23,
+		"desc": "Apache License 1.1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Apache-1.1",
+		"ident": 23,
+		"order": 24,
+		"desc": "Apache License 2.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Apache-2.0",
+		"ident": 24,
+		"order": 25,
+		"desc": "Adobe Postscript AFM License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$APAFML",
+		"ident": 25,
+		"order": 26,
+		"desc": "Adaptive Public License 1.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$APL-1.0",
+		"ident": 26,
+		"order": 27,
+		"desc": "Apple Public Source License 1.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$APSL-1.0",
+		"ident": 27,
+		"order": 28,
+		"desc": "Apple Public Source License 1.1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$APSL-1.1",
+		"ident": 28,
+		"order": 29,
+		"desc": "Apple Public Source License 1.2.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$APSL-1.2",
+		"ident": 29,
+		"order": 30,
+		"desc": "Apple Public Source License 2.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$APSL-2.0",
+		"ident": 30,
+		"order": 31,
+		"desc": "Artistic License 1.0 w/clause 8.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Artistic-1.0-cl8",
+		"ident": 31,
+		"order": 32,
+		"desc": "Artistic License 1.0 (Perl).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Artistic-1.0-Perl",
+		"ident": 32,
+		"order": 33,
+		"desc": "Artistic License 1.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Artistic-1.0",
+		"ident": 33,
+		"order": 34,
+		"desc": "Artistic License 2.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Artistic-2.0",
+		"ident": 34,
+		"order": 35,
+		"desc": "Bahyph License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Bahyph",
+		"ident": 35,
+		"order": 36,
+		"desc": "Barr License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Barr",
+		"ident": 36,
+		"order": 37,
+		"desc": "Beerware License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Beerware",
+		"ident": 37,
+		"order": 38,
+		"desc": "BitTorrent Open Source License v1.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$BitTorrent-1.0",
+		"ident": 38,
+		"order": 39,
+		"desc": "BitTorrent Open Source License v1.1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$BitTorrent-1.1",
+		"ident": 39,
+		"order": 40,
+		"desc": "Borceux license.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Borceux",
+		"ident": 40,
+		"order": 41,
+		"desc": "BSD 1-Clause License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$BSD-1-Clause",
+		"ident": 41,
+		"order": 42,
+		"desc": "BSD 2-Clause FreeBSD License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$BSD-2-Clause-FreeBSD",
+		"ident": 42,
+		"order": 43,
+		"desc": "BSD 2-Clause NetBSD License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$BSD-2-Clause-NetBSD",
+		"ident": 43,
+		"order": 44,
+		"desc": "BSD-2-Clause Plus Patent License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$BSD-2-Clause-Patent",
+		"ident": 44,
+		"order": 45,
+		"desc": "BSD 2-Clause \"Simplified\" License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$BSD-2-Clause",
+		"ident": 45,
+		"order": 46,
+		"desc": "BSD with attribution.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$BSD-3-Clause-Attribution",
+		"ident": 46,
+		"order": 47,
+		"desc": "BSD 3-Clause Clear License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$BSD-3-Clause-Clear",
+		"ident": 47,
+		"order": 48,
+		"desc": "Lawrence Berkeley National Labs BSD variant license.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$BSD-3-Clause-LBNL",
+		"ident": 48,
+		"order": 49,
+		"desc": "BSD 3-Clause No Nuclear License 2014.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$BSD-3-Clause-No-Nuclear-License-2014",
+		"ident": 49,
+		"order": 50,
+		"desc": "BSD 3-Clause No Nuclear License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$BSD-3-Clause-No-Nuclear-License",
+		"ident": 50,
+		"order": 51,
+		"desc": "BSD 3-Clause No Nuclear Warranty.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$BSD-3-Clause-No-Nuclear-Warranty",
+		"ident": 51,
+		"order": 52,
+		"desc": "BSD 3-Clause \"New\" or \"Revised\" License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$BSD-3-Clause",
+		"ident": 52,
+		"order": 53,
+		"desc": "BSD-4-Clause (University of California-Specific).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$BSD-4-Clause-UC",
+		"ident": 53,
+		"order": 54,
+		"desc": "BSD 4-Clause \"Original\" or \"Old\" License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$BSD-4-Clause",
+		"ident": 54,
+		"order": 55,
+		"desc": "BSD Protection License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$BSD-Protection",
+		"ident": 55,
+		"order": 56,
+		"desc": "BSD Source Code Attribution.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$BSD-Source-Code",
+		"ident": 56,
+		"order": 57,
+		"desc": "Boost Software License 1.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$BSL-1.0",
+		"ident": 57,
+		"order": 58,
+		"desc": "bzip2 and libbzip2 License v1.0.5.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$bzip2-1.0.5",
+		"ident": 58,
+		"order": 59,
+		"desc": "bzip2 and libbzip2 License v1.0.6.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$bzip2-1.0.6",
+		"ident": 59,
+		"order": 60,
+		"desc": "Caldera License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Caldera",
+		"ident": 60,
+		"order": 61,
+		"desc": "Computer Associates Trusted Open Source License 1.1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CATOSL-1.1",
+		"ident": 61,
+		"order": 62,
+		"desc": "Creative Commons Attribution 1.0 Generic.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CC-BY-1.0",
+		"ident": 62,
+		"order": 63,
+		"desc": "Creative Commons Attribution 2.0 Generic.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CC-BY-2.0",
+		"ident": 63,
+		"order": 64,
+		"desc": "Creative Commons Attribution 2.5 Generic.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CC-BY-2.5",
+		"ident": 64,
+		"order": 65,
+		"desc": "Creative Commons Attribution 3.0 Unported.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CC-BY-3.0",
+		"ident": 65,
+		"order": 66,
+		"desc": "Creative Commons Attribution 4.0 International.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CC-BY-4.0",
+		"ident": 66,
+		"order": 67,
+		"desc": "Creative Commons Attribution Non Commercial 1.0 Generic.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CC-BY-NC-1.0",
+		"ident": 67,
+		"order": 68,
+		"desc": "Creative Commons Attribution Non Commercial 2.0 Generic.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CC-BY-NC-2.0",
+		"ident": 68,
+		"order": 69,
+		"desc": "Creative Commons Attribution Non Commercial 2.5 Generic.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CC-BY-NC-2.5",
+		"ident": 69,
+		"order": 70,
+		"desc": "Creative Commons Attribution Non Commercial 3.0 Unported.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CC-BY-NC-3.0",
+		"ident": 70,
+		"order": 71,
+		"desc": "Creative Commons Attribution Non Commercial 4.0 International.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CC-BY-NC-4.0",
+		"ident": 71,
+		"order": 72,
+		"desc": "Creative Commons Attribution Non Commercial No Derivatives 1.0 Generic.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CC-BY-NC-ND-1.0",
+		"ident": 72,
+		"order": 73,
+		"desc": "Creative Commons Attribution Non Commercial No Derivatives 2.0 Generic.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CC-BY-NC-ND-2.0",
+		"ident": 73,
+		"order": 74,
+		"desc": "Creative Commons Attribution Non Commercial No Derivatives 2.5 Generic.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CC-BY-NC-ND-2.5",
+		"ident": 74,
+		"order": 75,
+		"desc": "Creative Commons Attribution Non Commercial No Derivatives 3.0 Unported.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CC-BY-NC-ND-3.0",
+		"ident": 75,
+		"order": 76,
+		"desc": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CC-BY-NC-ND-4.0",
+		"ident": 76,
+		"order": 77,
+		"desc": "Creative Commons Attribution Non Commercial Share Alike 1.0 Generic.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CC-BY-NC-SA-1.0",
+		"ident": 77,
+		"order": 78,
+		"desc": "Creative Commons Attribution Non Commercial Share Alike 2.0 Generic.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CC-BY-NC-SA-2.0",
+		"ident": 78,
+		"order": 79,
+		"desc": "Creative Commons Attribution Non Commercial Share Alike 2.5 Generic.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CC-BY-NC-SA-2.5",
+		"ident": 79,
+		"order": 80,
+		"desc": "Creative Commons Attribution Non Commercial Share Alike 3.0 Unported.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CC-BY-NC-SA-3.0",
+		"ident": 80,
+		"order": 81,
+		"desc": "Creative Commons Attribution Non Commercial Share Alike 4.0 International.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CC-BY-NC-SA-4.0",
+		"ident": 81,
+		"order": 82,
+		"desc": "Creative Commons Attribution No Derivatives 1.0 Generic.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CC-BY-ND-1.0",
+		"ident": 82,
+		"order": 83,
+		"desc": "Creative Commons Attribution No Derivatives 2.0 Generic.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CC-BY-ND-2.0",
+		"ident": 83,
+		"order": 84,
+		"desc": "Creative Commons Attribution No Derivatives 2.5 Generic.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CC-BY-ND-2.5",
+		"ident": 84,
+		"order": 85,
+		"desc": "Creative Commons Attribution No Derivatives 3.0 Unported.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CC-BY-ND-3.0",
+		"ident": 85,
+		"order": 86,
+		"desc": "Creative Commons Attribution No Derivatives 4.0 International.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CC-BY-ND-4.0",
+		"ident": 86,
+		"order": 87,
+		"desc": "Creative Commons Attribution Share Alike 1.0 Generic.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CC-BY-SA-1.0",
+		"ident": 87,
+		"order": 88,
+		"desc": "Creative Commons Attribution Share Alike 2.0 Generic.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CC-BY-SA-2.0",
+		"ident": 88,
+		"order": 89,
+		"desc": "Creative Commons Attribution Share Alike 2.5 Generic.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CC-BY-SA-2.5",
+		"ident": 89,
+		"order": 90,
+		"desc": "Creative Commons Attribution Share Alike 3.0 Unported.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CC-BY-SA-3.0",
+		"ident": 90,
+		"order": 91,
+		"desc": "Creative Commons Attribution Share Alike 4.0 International.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CC-BY-SA-4.0",
+		"ident": 91,
+		"order": 92,
+		"desc": "Creative Commons Zero v1.0 Universal.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CC0-1.0",
+		"ident": 92,
+		"order": 93,
+		"desc": "Common Development and Distribution License 1.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CDDL-1.0",
+		"ident": 93,
+		"order": 94,
+		"desc": "Common Development and Distribution License 1.1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CDDL-1.1",
+		"ident": 94,
+		"order": 95,
+		"desc": "Community Data License Agreement Permissive 1.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CDLA-Permissive-1.0",
+		"ident": 95,
+		"order": 96,
+		"desc": "Community Data License Agreement Sharing 1.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CDLA-Sharing-1.0",
+		"ident": 96,
+		"order": 97,
+		"desc": "CeCILL Free Software License Agreement v1.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CECILL-1.0",
+		"ident": 97,
+		"order": 98,
+		"desc": "CeCILL Free Software License Agreement v1.1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CECILL-1.1",
+		"ident": 98,
+		"order": 99,
+		"desc": "CeCILL Free Software License Agreement v2.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CECILL-2.0",
+		"ident": 99,
+		"order": 100,
+		"desc": "CeCILL Free Software License Agreement v2.1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CECILL-2.1",
+		"ident": 100,
+		"order": 101,
+		"desc": "CeCILL-B Free Software License Agreement.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CECILL-B",
+		"ident": 101,
+		"order": 102,
+		"desc": "CeCILL-C Free Software License Agreement.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CECILL-C",
+		"ident": 102,
+		"order": 103,
+		"desc": "Clarified Artistic License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ClArtistic",
+		"ident": 103,
+		"order": 104,
+		"desc": "CNRI Jython License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CNRI-Jython",
+		"ident": 104,
+		"order": 105,
+		"desc": "CNRI Python Open Source GPL Compatible License Agreement.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CNRI-Python-GPL-Compatible",
+		"ident": 105,
+		"order": 106,
+		"desc": "CNRI Python License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CNRI-Python",
+		"ident": 106,
+		"order": 107,
+		"desc": "Condor Public License v1.1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Condor-1.1",
+		"ident": 107,
+		"order": 108,
+		"desc": "Common Public Attribution License 1.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CPAL-1.0",
+		"ident": 108,
+		"order": 109,
+		"desc": "Common Public License 1.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CPL-1.0",
+		"ident": 109,
+		"order": 110,
+		"desc": "Code Project Open License 1.02.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CPOL-1.02",
+		"ident": 110,
+		"order": 111,
+		"desc": "Crossword License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Crossword",
+		"ident": 111,
+		"order": 112,
+		"desc": "CrystalStacker License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CrystalStacker",
+		"ident": 112,
+		"order": 113,
+		"desc": "CUA Office Public License v1.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CUA-OPL-1.0",
+		"ident": 113,
+		"order": 114,
+		"desc": "Cube License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Cube",
+		"ident": 114,
+		"order": 115,
+		"desc": "curl License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$curl",
+		"ident": 115,
+		"order": 116,
+		"desc": "Deutsche Freie Software Lizenz.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$D-FSL-1.0",
+		"ident": 116,
+		"order": 117,
+		"desc": "diffmark license.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$diffmark",
+		"ident": 117,
+		"order": 118,
+		"desc": "DOC License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$DOC",
+		"ident": 118,
+		"order": 119,
+		"desc": "Dotseqn License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Dotseqn",
+		"ident": 119,
+		"order": 120,
+		"desc": "DSDP License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$DSDP",
+		"ident": 120,
+		"order": 121,
+		"desc": "dvipdfm License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$dvipdfm",
+		"ident": 121,
+		"order": 122,
+		"desc": "Educational Community License v1.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ECL-1.0",
+		"ident": 122,
+		"order": 123,
+		"desc": "Educational Community License v2.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ECL-2.0",
+		"ident": 123,
+		"order": 124,
+		"desc": "Eiffel Forum License v1.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$EFL-1.0",
+		"ident": 124,
+		"order": 125,
+		"desc": "Eiffel Forum License v2.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$EFL-2.0",
+		"ident": 125,
+		"order": 126,
+		"desc": "eGenix.com Public License 1.1.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$eGenix",
+		"ident": 126,
+		"order": 127,
+		"desc": "Entessa Public License v1.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Entessa",
+		"ident": 127,
+		"order": 128,
+		"desc": "Eclipse Public License 1.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$EPL-1.0",
+		"ident": 128,
+		"order": 129,
+		"desc": "Eclipse Public License 2.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$EPL-2.0",
+		"ident": 129,
+		"order": 130,
+		"desc": "Erlang Public License v1.1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ErlPL-1.1",
+		"ident": 130,
+		"order": 131,
+		"desc": "EU DataGrid Software License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$EUDatagrid",
+		"ident": 131,
+		"order": 132,
+		"desc": "European Union Public License 1.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$EUPL-1.0",
+		"ident": 132,
+		"order": 133,
+		"desc": "European Union Public License 1.1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$EUPL-1.1",
+		"ident": 133,
+		"order": 134,
+		"desc": "European Union Public License 1.2.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$EUPL-1.2",
+		"ident": 134,
+		"order": 135,
+		"desc": "Eurosym License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Eurosym",
+		"ident": 135,
+		"order": 136,
+		"desc": "Fair License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Fair",
+		"ident": 136,
+		"order": 137,
+		"desc": "Frameworx Open License 1.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Frameworx-1.0",
+		"ident": 137,
+		"order": 138,
+		"desc": "FreeImage Public License v1.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$FreeImage",
+		"ident": 138,
+		"order": 139,
+		"desc": "FSF All Permissive License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$FSFAP",
+		"ident": 139,
+		"order": 140,
+		"desc": "FSF Unlimited License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$FSFUL",
+		"ident": 140,
+		"order": 141,
+		"desc": "FSF Unlimited License (with License Retention).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$FSFULLR",
+		"ident": 141,
+		"order": 142,
+		"desc": "Freetype Project License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$FTL",
+		"ident": 142,
+		"order": 143,
+		"desc": "GNU Free Documentation License v1.1 only.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$GFDL-1.1-only",
+		"ident": 143,
+		"order": 144,
+		"desc": "GNU Free Documentation License v1.1 or later.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$GFDL-1.1-or-later",
+		"ident": 144,
+		"order": 145,
+		"desc": "GNU Free Documentation License v1.2 only.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$GFDL-1.2-only",
+		"ident": 145,
+		"order": 146,
+		"desc": "GNU Free Documentation License v1.2 or later.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$GFDL-1.2-or-later",
+		"ident": 146,
+		"order": 147,
+		"desc": "GNU Free Documentation License v1.3 only.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$GFDL-1.3-only",
+		"ident": 147,
+		"order": 148,
+		"desc": "GNU Free Documentation License v1.3 or later.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$GFDL-1.3-or-later",
+		"ident": 148,
+		"order": 149,
+		"desc": "Giftware License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Giftware",
+		"ident": 149,
+		"order": 150,
+		"desc": "GL2PS License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$GL2PS",
+		"ident": 150,
+		"order": 151,
+		"desc": "3dfx Glide License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Glide",
+		"ident": 151,
+		"order": 152,
+		"desc": "Glulxe License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Glulxe",
+		"ident": 152,
+		"order": 153,
+		"desc": "gnuplot License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$gnuplot",
+		"ident": 153,
+		"order": 154,
+		"desc": "GNU General Public License v1.0 only.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$GPL-1.0-only",
+		"ident": 154,
+		"order": 155,
+		"desc": "GNU General Public License v1.0 or later.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$GPL-1.0-or-later",
+		"ident": 155,
+		"order": 156,
+		"desc": "GNU General Public License v2.0 only.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$GPL-2.0-only",
+		"ident": 156,
+		"order": 157,
+		"desc": "GNU General Public License v2.0 or later.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$GPL-2.0-or-later",
+		"ident": 157,
+		"order": 158,
+		"desc": "GNU General Public License v3.0 only.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$GPL-3.0-only",
+		"ident": 158,
+		"order": 159,
+		"desc": "GNU General Public License v3.0 or later.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$GPL-3.0-or-later",
+		"ident": 159,
+		"order": 160,
+		"desc": "gSOAP Public License v1.3b.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$gSOAP-1.3b",
+		"ident": 160,
+		"order": 161,
+		"desc": "Haskell Language Report License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$HaskellReport",
+		"ident": 161,
+		"order": 162,
+		"desc": "Historical Permission Notice and Disclaimer.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$HPND",
+		"ident": 162,
+		"order": 163,
+		"desc": "IBM PowerPC Initialization and Boot Software.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$IBM-pibs",
+		"ident": 163,
+		"order": 164,
+		"desc": "ICU License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ICU",
+		"ident": 164,
+		"order": 165,
+		"desc": "Independent JPEG Group License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$IJG",
+		"ident": 165,
+		"order": 166,
+		"desc": "ImageMagick License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ImageMagick",
+		"ident": 166,
+		"order": 167,
+		"desc": "iMatix Standard Function Library Agreement.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$iMatix",
+		"ident": 167,
+		"order": 168,
+		"desc": "Imlib2 License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Imlib2",
+		"ident": 168,
+		"order": 169,
+		"desc": "Info-ZIP License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Info-ZIP",
+		"ident": 169,
+		"order": 170,
+		"desc": "Intel ACPI Software License Agreement.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Intel-ACPI",
+		"ident": 170,
+		"order": 171,
+		"desc": "Intel Open Source License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Intel",
+		"ident": 171,
+		"order": 172,
+		"desc": "Interbase Public License v1.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Interbase-1.0",
+		"ident": 172,
+		"order": 173,
+		"desc": "IPA Font License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$IPA",
+		"ident": 173,
+		"order": 174,
+		"desc": "IBM Public License v1.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$IPL-1.0",
+		"ident": 174,
+		"order": 175,
+		"desc": "ISC License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ISC",
+		"ident": 175,
+		"order": 176,
+		"desc": "JasPer License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$JasPer-2.0",
+		"ident": 176,
+		"order": 177,
+		"desc": "JSON License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$JSON",
+		"ident": 177,
+		"order": 178,
+		"desc": "Licence Art Libre 1.2.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$LAL-1.2",
+		"ident": 178,
+		"order": 179,
+		"desc": "Licence Art Libre 1.3.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$LAL-1.3",
+		"ident": 179,
+		"order": 180,
+		"desc": "Latex2e License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Latex2e",
+		"ident": 180,
+		"order": 181,
+		"desc": "Leptonica License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Leptonica",
+		"ident": 181,
+		"order": 182,
+		"desc": "GNU Library General Public License v2 only.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$LGPL-2.0-only",
+		"ident": 182,
+		"order": 183,
+		"desc": "GNU Library General Public License v2 or later.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$LGPL-2.0-or-later",
+		"ident": 183,
+		"order": 184,
+		"desc": "GNU Lesser General Public License v2.1 only.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$LGPL-2.1-only",
+		"ident": 184,
+		"order": 185,
+		"desc": "GNU Lesser General Public License v2.1 or later.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$LGPL-2.1-or-later",
+		"ident": 185,
+		"order": 186,
+		"desc": "GNU Lesser General Public License v3.0 only.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$LGPL-3.0-only",
+		"ident": 186,
+		"order": 187,
+		"desc": "GNU Lesser General Public License v3.0 or later.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$LGPL-3.0-or-later",
+		"ident": 187,
+		"order": 188,
+		"desc": "Lesser General Public License For Linguistic Resources.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$LGPLLR",
+		"ident": 188,
+		"order": 189,
+		"desc": "libpng License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Libpng",
+		"ident": 189,
+		"order": 190,
+		"desc": "libtiff License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$libtiff",
+		"ident": 190,
+		"order": 191,
+		"desc": "Licence Libre du Québec – Permissive version 1.1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$LiLiQ-P-1.1",
+		"ident": 191,
+		"order": 192,
+		"desc": "Licence Libre du Québec – Réciprocité version 1.1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$LiLiQ-R-1.1",
+		"ident": 192,
+		"order": 193,
+		"desc": "Licence Libre du Québec – Réciprocité forte version 1.1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$LiLiQ-Rplus-1.1",
+		"ident": 193,
+		"order": 194,
+		"desc": "Linux Kernel Variant of OpenIB.org license.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Linux-OpenIB",
+		"ident": 194,
+		"order": 195,
+		"desc": "Lucent Public License Version 1.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$LPL-1.0",
+		"ident": 195,
+		"order": 196,
+		"desc": "Lucent Public License v1.02.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$LPL-1.02",
+		"ident": 196,
+		"order": 197,
+		"desc": "LaTeX Project Public License v1.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$LPPL-1.0",
+		"ident": 197,
+		"order": 198,
+		"desc": "LaTeX Project Public License v1.1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$LPPL-1.1",
+		"ident": 198,
+		"order": 199,
+		"desc": "LaTeX Project Public License v1.2.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$LPPL-1.2",
+		"ident": 199,
+		"order": 200,
+		"desc": "LaTeX Project Public License v1.3a.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$LPPL-1.3a",
+		"ident": 200,
+		"order": 201,
+		"desc": "LaTeX Project Public License v1.3c.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$LPPL-1.3c",
+		"ident": 201,
+		"order": 202,
+		"desc": "MakeIndex License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MakeIndex",
+		"ident": 202,
+		"order": 203,
+		"desc": "MirOS License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MirOS",
+		"ident": 203,
+		"order": 204,
+		"desc": "MIT No Attribution.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MIT-0",
+		"ident": 204,
+		"order": 205,
+		"desc": "Enlightenment License (e16).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MIT-advertising",
+		"ident": 205,
+		"order": 206,
+		"desc": "CMU License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MIT-CMU",
+		"ident": 206,
+		"order": 207,
+		"desc": "enna License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MIT-enna",
+		"ident": 207,
+		"order": 208,
+		"desc": "feh License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MIT-feh",
+		"ident": 208,
+		"order": 209,
+		"desc": "MIT License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MIT",
+		"ident": 209,
+		"order": 210,
+		"desc": "MIT +no-false-attribs license.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MITNFA",
+		"ident": 210,
+		"order": 211,
+		"desc": "Motosoto License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Motosoto",
+		"ident": 211,
+		"order": 212,
+		"desc": "mpich2 License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$mpich2",
+		"ident": 212,
+		"order": 213,
+		"desc": "Mozilla Public License 1.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MPL-1.0",
+		"ident": 213,
+		"order": 214,
+		"desc": "Mozilla Public License 1.1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MPL-1.1",
+		"ident": 214,
+		"order": 215,
+		"desc": "Mozilla Public License 2.0 (no copyleft exception).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MPL-2.0-no-copyleft-exception",
+		"ident": 215,
+		"order": 216,
+		"desc": "Mozilla Public License 2.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MPL-2.0",
+		"ident": 216,
+		"order": 217,
+		"desc": "Microsoft Public License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MS-PL",
+		"ident": 217,
+		"order": 218,
+		"desc": "Microsoft Reciprocal License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MS-RL",
+		"ident": 218,
+		"order": 219,
+		"desc": "Matrix Template Library License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MTLL",
+		"ident": 219,
+		"order": 220,
+		"desc": "Multics License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Multics",
+		"ident": 220,
+		"order": 221,
+		"desc": "Mup License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Mup",
+		"ident": 221,
+		"order": 222,
+		"desc": "NASA Open Source Agreement 1.3.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$NASA-1.3",
+		"ident": 222,
+		"order": 223,
+		"desc": "Naumen Public License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Naumen",
+		"ident": 223,
+		"order": 224,
+		"desc": "Net Boolean Public License v1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$NBPL-1.0",
+		"ident": 224,
+		"order": 225,
+		"desc": "University of Illinois/NCSA Open Source License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$NCSA",
+		"ident": 225,
+		"order": 226,
+		"desc": "Net-SNMP License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Net-SNMP",
+		"ident": 226,
+		"order": 227,
+		"desc": "NetCDF license.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$NetCDF",
+		"ident": 227,
+		"order": 228,
+		"desc": "Newsletr License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Newsletr",
+		"ident": 228,
+		"order": 229,
+		"desc": "Nethack General Public License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$NGPL",
+		"ident": 229,
+		"order": 230,
+		"desc": "Norwegian Licence for Open Government Data.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$NLOD-1.0",
+		"ident": 230,
+		"order": 231,
+		"desc": "No Limit Public License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$NLPL",
+		"ident": 231,
+		"order": 232,
+		"desc": "Nokia Open Source License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Nokia",
+		"ident": 232,
+		"order": 233,
+		"desc": "Netizen Open Source License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$NOSL",
+		"ident": 233,
+		"order": 234,
+		"desc": "Noweb License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Noweb",
+		"ident": 234,
+		"order": 235,
+		"desc": "Netscape Public License v1.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$NPL-1.0",
+		"ident": 235,
+		"order": 236,
+		"desc": "Netscape Public License v1.1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$NPL-1.1",
+		"ident": 236,
+		"order": 237,
+		"desc": "Non-Profit Open Software License 3.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$NPOSL-3.0",
+		"ident": 237,
+		"order": 238,
+		"desc": "NRL License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$NRL",
+		"ident": 238,
+		"order": 239,
+		"desc": "NTP License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$NTP",
+		"ident": 239,
+		"order": 240,
+		"desc": "Open CASCADE Technology Public License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$OCCT-PL",
+		"ident": 240,
+		"order": 241,
+		"desc": "OCLC Research Public License 2.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$OCLC-2.0",
+		"ident": 241,
+		"order": 242,
+		"desc": "ODC Open Database License v1.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ODbL-1.0",
+		"ident": 242,
+		"order": 243,
+		"desc": "SIL Open Font License 1.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$OFL-1.0",
+		"ident": 243,
+		"order": 244,
+		"desc": "SIL Open Font License 1.1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$OFL-1.1",
+		"ident": 244,
+		"order": 245,
+		"desc": "Open Group Test Suite License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$OGTSL",
+		"ident": 245,
+		"order": 246,
+		"desc": "Open LDAP Public License v1.1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$OLDAP-1.1",
+		"ident": 246,
+		"order": 247,
+		"desc": "Open LDAP Public License v1.2.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$OLDAP-1.2",
+		"ident": 247,
+		"order": 248,
+		"desc": "Open LDAP Public License v1.3.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$OLDAP-1.3",
+		"ident": 248,
+		"order": 249,
+		"desc": "Open LDAP Public License v1.4.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$OLDAP-1.4",
+		"ident": 249,
+		"order": 250,
+		"desc": "Open LDAP Public License v2.0.1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$OLDAP-2.0.1",
+		"ident": 250,
+		"order": 251,
+		"desc": "Open LDAP Public License v2.0 (or possibly 2.0A and 2.0B).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$OLDAP-2.0",
+		"ident": 251,
+		"order": 252,
+		"desc": "Open LDAP Public License v2.1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$OLDAP-2.1",
+		"ident": 252,
+		"order": 253,
+		"desc": "Open LDAP Public License v2.2.1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$OLDAP-2.2.1",
+		"ident": 253,
+		"order": 254,
+		"desc": "Open LDAP Public License 2.2.2.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$OLDAP-2.2.2",
+		"ident": 254,
+		"order": 255,
+		"desc": "Open LDAP Public License v2.2.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$OLDAP-2.2",
+		"ident": 255,
+		"order": 256,
+		"desc": "Open LDAP Public License v2.3.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$OLDAP-2.3",
+		"ident": 256,
+		"order": 257,
+		"desc": "Open LDAP Public License v2.4.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$OLDAP-2.4",
+		"ident": 257,
+		"order": 258,
+		"desc": "Open LDAP Public License v2.5.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$OLDAP-2.5",
+		"ident": 258,
+		"order": 259,
+		"desc": "Open LDAP Public License v2.6.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$OLDAP-2.6",
+		"ident": 259,
+		"order": 260,
+		"desc": "Open LDAP Public License v2.7.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$OLDAP-2.7",
+		"ident": 260,
+		"order": 261,
+		"desc": "Open LDAP Public License v2.8.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$OLDAP-2.8",
+		"ident": 261,
+		"order": 262,
+		"desc": "Open Market License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$OML",
+		"ident": 262,
+		"order": 263,
+		"desc": "OpenSSL License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$OpenSSL",
+		"ident": 263,
+		"order": 264,
+		"desc": "Open Public License v1.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$OPL-1.0",
+		"ident": 264,
+		"order": 265,
+		"desc": "OSET Public License version 2.1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$OSET-PL-2.1",
+		"ident": 265,
+		"order": 266,
+		"desc": "Open Software License 1.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$OSL-1.0",
+		"ident": 266,
+		"order": 267,
+		"desc": "Open Software License 1.1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$OSL-1.1",
+		"ident": 267,
+		"order": 268,
+		"desc": "Open Software License 2.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$OSL-2.0",
+		"ident": 268,
+		"order": 269,
+		"desc": "Open Software License 2.1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$OSL-2.1",
+		"ident": 269,
+		"order": 270,
+		"desc": "Open Software License 3.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$OSL-3.0",
+		"ident": 270,
+		"order": 271,
+		"desc": "ODC Public Domain Dedication & License 1.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$PDDL-1.0",
+		"ident": 271,
+		"order": 272,
+		"desc": "PHP License v3.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$PHP-3.0",
+		"ident": 272,
+		"order": 273,
+		"desc": "PHP License v3.01.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$PHP-3.01",
+		"ident": 273,
+		"order": 274,
+		"desc": "Plexus Classworlds License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Plexus",
+		"ident": 274,
+		"order": 275,
+		"desc": "PostgreSQL License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$PostgreSQL",
+		"ident": 275,
+		"order": 276,
+		"desc": "psfrag License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$psfrag",
+		"ident": 276,
+		"order": 277,
+		"desc": "psutils License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$psutils",
+		"ident": 277,
+		"order": 278,
+		"desc": "Python License 2.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Python-2.0",
+		"ident": 278,
+		"order": 279,
+		"desc": "Qhull License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Qhull",
+		"ident": 279,
+		"order": 280,
+		"desc": "Q Public License 1.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$QPL-1.0",
+		"ident": 280,
+		"order": 281,
+		"desc": "Rdisc License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Rdisc",
+		"ident": 281,
+		"order": 282,
+		"desc": "Red Hat eCos Public License v1.1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$RHeCos-1.1",
+		"ident": 282,
+		"order": 283,
+		"desc": "Reciprocal Public License 1.1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$RPL-1.1",
+		"ident": 283,
+		"order": 284,
+		"desc": "Reciprocal Public License 1.5.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$RPL-1.5",
+		"ident": 284,
+		"order": 285,
+		"desc": "RealNetworks Public Source License v1.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$RPSL-1.0",
+		"ident": 285,
+		"order": 286,
+		"desc": "RSA Message-Digest License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$RSA-MD",
+		"ident": 286,
+		"order": 287,
+		"desc": "Ricoh Source Code Public License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$RSCPL",
+		"ident": 287,
+		"order": 288,
+		"desc": "Ruby License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Ruby",
+		"ident": 288,
+		"order": 289,
+		"desc": "Sax Public Domain Notice.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$SAX-PD",
+		"ident": 289,
+		"order": 290,
+		"desc": "Saxpath License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Saxpath",
+		"ident": 290,
+		"order": 291,
+		"desc": "SCEA Shared Source License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$SCEA",
+		"ident": 291,
+		"order": 292,
+		"desc": "Sendmail License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Sendmail",
+		"ident": 292,
+		"order": 293,
+		"desc": "SGI Free Software License B v1.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$SGI-B-1.0",
+		"ident": 293,
+		"order": 294,
+		"desc": "SGI Free Software License B v1.1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$SGI-B-1.1",
+		"ident": 294,
+		"order": 295,
+		"desc": "SGI Free Software License B v2.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$SGI-B-2.0",
+		"ident": 295,
+		"order": 296,
+		"desc": "Simple Public License 2.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$SimPL-2.0",
+		"ident": 296,
+		"order": 297,
+		"desc": "Sun Industry Standards Source License v1.2.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$SISSL-1.2",
+		"ident": 297,
+		"order": 298,
+		"desc": "Sun Industry Standards Source License v1.1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$SISSL",
+		"ident": 298,
+		"order": 299,
+		"desc": "Sleepycat License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Sleepycat",
+		"ident": 299,
+		"order": 300,
+		"desc": "Standard ML of New Jersey License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$SMLNJ",
+		"ident": 300,
+		"order": 301,
+		"desc": "Secure Messaging Protocol Public License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$SMPPL",
+		"ident": 301,
+		"order": 302,
+		"desc": "SNIA Public License 1.1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$SNIA",
+		"ident": 302,
+		"order": 303,
+		"desc": "Spencer License 86.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Spencer-86",
+		"ident": 303,
+		"order": 304,
+		"desc": "Spencer License 94.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Spencer-94",
+		"ident": 304,
+		"order": 305,
+		"desc": "Spencer License 99.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Spencer-99",
+		"ident": 305,
+		"order": 306,
+		"desc": "Sun Public License v1.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$SPL-1.0",
+		"ident": 306,
+		"order": 307,
+		"desc": "SugarCRM Public License v1.1.3.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$SugarCRM-1.1.3",
+		"ident": 307,
+		"order": 308,
+		"desc": "Scheme Widget Library (SWL) Software License Agreement.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$SWL",
+		"ident": 308,
+		"order": 309,
+		"desc": "TCL/TK License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$TCL",
+		"ident": 309,
+		"order": 310,
+		"desc": "TCP Wrappers License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$TCP-wrappers",
+		"ident": 310,
+		"order": 311,
+		"desc": "TMate Open Source License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$TMate",
+		"ident": 311,
+		"order": 312,
+		"desc": "TORQUE v2.5+ Software License v1.1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$TORQUE-1.1",
+		"ident": 312,
+		"order": 313,
+		"desc": "Trusster Open Source License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$TOSL",
+		"ident": 313,
+		"order": 314,
+		"desc": "Unicode License Agreement - Data Files and Software (2015).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Unicode-DFS-2015",
+		"ident": 314,
+		"order": 315,
+		"desc": "Unicode License Agreement - Data Files and Software (2016).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Unicode-DFS-2016",
+		"ident": 315,
+		"order": 316,
+		"desc": "Unicode Terms of Use.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Unicode-TOU",
+		"ident": 316,
+		"order": 317,
+		"desc": "The Unlicense.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Unlicense",
+		"ident": 317,
+		"order": 318,
+		"desc": "Universal Permissive License v1.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$UPL-1.0",
+		"ident": 318,
+		"order": 319,
+		"desc": "Vim License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Vim",
+		"ident": 319,
+		"order": 320,
+		"desc": "VOSTROM Public License for Open Source.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$VOSTROM",
+		"ident": 320,
+		"order": 321,
+		"desc": "Vovida Software License v1.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$VSL-1.0",
+		"ident": 321,
+		"order": 322,
+		"desc": "W3C Software Notice and License (1998-07-20).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$W3C-19980720",
+		"ident": 322,
+		"order": 323,
+		"desc": "W3C Software Notice and Document License (2015-05-13).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$W3C-20150513",
+		"ident": 323,
+		"order": 324,
+		"desc": "W3C Software Notice and License (2002-12-31).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$W3C",
+		"ident": 324,
+		"order": 325,
+		"desc": "Sybase Open Watcom Public License 1.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Watcom-1.0",
+		"ident": 325,
+		"order": 326,
+		"desc": "Wsuipa License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Wsuipa",
+		"ident": 326,
+		"order": 327,
+		"desc": "Do What The F*ck You Want To Public License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$WTFPL",
+		"ident": 327,
+		"order": 328,
+		"desc": "X11 License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$X11",
+		"ident": 328,
+		"order": 329,
+		"desc": "Xerox License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Xerox",
+		"ident": 329,
+		"order": 330,
+		"desc": "XFree86 License 1.1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$XFree86-1.1",
+		"ident": 330,
+		"order": 331,
+		"desc": "xinetd License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$xinetd",
+		"ident": 331,
+		"order": 332,
+		"desc": "X.Net License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Xnet",
+		"ident": 332,
+		"order": 333,
+		"desc": "XPP License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$xpp",
+		"ident": 333,
+		"order": 334,
+		"desc": "XSkat License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$XSkat",
+		"ident": 334,
+		"order": 335,
+		"desc": "Yahoo! Public License v1.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$YPL-1.0",
+		"ident": 335,
+		"order": 336,
+		"desc": "Yahoo! Public License v1.1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$YPL-1.1",
+		"ident": 336,
+		"order": 337,
+		"desc": "Zed License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Zed",
+		"ident": 337,
+		"order": 338,
+		"desc": "Zend License v2.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Zend-2.0",
+		"ident": 338,
+		"order": 339,
+		"desc": "Zimbra Public License v1.3.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Zimbra-1.3",
+		"ident": 339,
+		"order": 340,
+		"desc": "Zimbra Public License v1.4.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Zimbra-1.4",
+		"ident": 340,
+		"order": 341,
+		"desc": "zlib/libpng License with Acknowledgement.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$zlib-acknowledgement",
+		"ident": 341,
+		"order": 342,
+		"desc": "zlib License.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Zlib",
+		"ident": 342,
+		"order": 343,
+		"desc": "Zope Public License 1.1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ZPL-1.1",
+		"ident": 343,
+		"order": 344,
+		"desc": "Zope Public License 2.0.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ZPL-2.0",
+		"ident": 344,
+		"order": 345,
+		"desc": "Zope Public License 2.1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ZPL-2.1",
+		"ident": 345,
+		"order": 346,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

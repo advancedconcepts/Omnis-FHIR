@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$a001",
+		"ident": 0,
+		"order": 1,
+		"desc": "Prior Overpayment",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$a002",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,4 @@
+If manifest.$validref()=kFalse
+	Calculate manifest as $clib.$classes.oImplementationGuideManifest.$newref()
+End If
+Quit method manifest

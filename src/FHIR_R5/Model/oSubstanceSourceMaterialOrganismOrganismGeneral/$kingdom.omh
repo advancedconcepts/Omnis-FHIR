@@ -1,0 +1,4 @@
+If kingdom.$validref()=kFalse
+	Calculate kingdom as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method kingdom

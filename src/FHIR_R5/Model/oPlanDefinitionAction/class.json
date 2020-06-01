@@ -1,0 +1,301 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "cardinalityBehavior",
+			"order": 31,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Defines whether the action can be selected multiple times."
+		},
+		{
+			"name": "code",
+			"order": 6,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "code_",
+			"order": 7,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "A code that provides meaning for the action or action group. For example, a section may have a LOINC code for the section of a documentation template."
+		},
+		{
+			"name": "condition",
+			"order": 16,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "condition_",
+			"order": 17,
+			"type": "kObjectref",
+			"subtype": "oPlanDefinitionActionCondition",
+			"sublen": 0,
+			"desc": "An expression that describes applicability criteria or start/stop conditions for the action."
+		},
+		{
+			"name": "description",
+			"order": 3,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A brief description of the action used to provide a summary to display to the user."
+		},
+		{
+			"name": "documentation",
+			"order": 10,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "documentation_",
+			"order": 11,
+			"type": "kObjectref",
+			"subtype": "oRelatedArtifact",
+			"sublen": 0,
+			"desc": "Didactic or other informational resources associated with the action that can be provided to the CDS recipient. Information resources can include inline text commentary and links to web resources."
+		},
+		{
+			"name": "dynamicValue",
+			"order": 33,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "dynamicValue_",
+			"order": 34,
+			"type": "kObjectref",
+			"subtype": "oPlanDefinitionActionDynamicValue",
+			"sublen": 0,
+			"desc": "Customizations that should be applied to the statically defined resource. For example, if the dosage of a medication must be computed based on the patient's weight, a customization would be used to specify an expression that calculated the weight, and the"
+		},
+		{
+			"name": "goalId",
+			"order": 12,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "goalId_",
+			"order": 13,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Identifies goals that this action supports. The reference must be to a goal element defined within this plan definition."
+		},
+		{
+			"name": "groupingBehavior",
+			"order": 27,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Defines the grouping behavior for the action and its children."
+		},
+		{
+			"name": "input",
+			"order": 18,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "input_",
+			"order": 19,
+			"type": "kObjectref",
+			"subtype": "oDataRequirement",
+			"sublen": 0,
+			"desc": "Defines input data requirements for the action."
+		},
+		{
+			"name": "output",
+			"order": 20,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "output_",
+			"order": 21,
+			"type": "kObjectref",
+			"subtype": "oDataRequirement",
+			"sublen": 0,
+			"desc": "Defines the outputs of the action, if any."
+		},
+		{
+			"name": "participant",
+			"order": 24,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "participant_",
+			"order": 25,
+			"type": "kObjectref",
+			"subtype": "oPlanDefinitionActionParticipant",
+			"sublen": 0,
+			"desc": "Indicates who should participate in performing the action described."
+		},
+		{
+			"name": "precheckBehavior",
+			"order": 30,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Defines whether the action should usually be preselected."
+		},
+		{
+			"name": "prefix",
+			"order": 1,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A user-visible prefix for the action."
+		},
+		{
+			"name": "priority",
+			"order": 5,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Indicates how quickly the action should be addressed with respect to other actions."
+		},
+		{
+			"name": "reason",
+			"order": 8,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "reason_",
+			"order": 9,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "A description of why this action is necessary or appropriate."
+		},
+		{
+			"name": "relatedAction",
+			"order": 22,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "relatedAction_",
+			"order": 23,
+			"type": "kObjectref",
+			"subtype": "oPlanDefinitionActionRelatedAction",
+			"sublen": 0,
+			"desc": "A relationship to another action such as \"before\" or \"30-60 minutes after start of\"."
+		},
+		{
+			"name": "requiredBehavior",
+			"order": 29,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Defines the required behavior for the action."
+		},
+		{
+			"name": "selectionBehavior",
+			"order": 28,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Defines the selection behavior for the action and its children."
+		},
+		{
+			"name": "textEquivalent",
+			"order": 4,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A text equivalent of the action to be performed. This provides a human-interpretable description of the action when the definition is consumed by a system that might not be capable of interpreting it dynamically."
+		},
+		{
+			"name": "title",
+			"order": 2,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The title of the action displayed to a user."
+		},
+		{
+			"name": "transform",
+			"order": 32,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A reference to a StructureMap resource that defines a transform that can be executed to produce the intent resource using the ActivityDefinition instance as the input."
+		},
+		{
+			"name": "trigger",
+			"order": 14,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "trigger_",
+			"order": 15,
+			"type": "kObjectref",
+			"subtype": "oTriggerDefinition",
+			"sublen": 0,
+			"desc": "A description of when the action should be triggered."
+		},
+		{
+			"name": "type",
+			"order": 26,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The type of action to perform (create, update, remove)."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:44:58",
+		"desc": "An action or group of actions to be taken as part of the plan.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:27",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

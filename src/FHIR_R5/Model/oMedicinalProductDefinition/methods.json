@@ -1,0 +1,858 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$identifier",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: Business identifier for this product. Could be an MPID.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addidentifier",
+		"ident": 6,
+		"order": 7,
+		"desc": "Business identifier for this product. Could be an MPID.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"desc": "Business identifier for this product. Could be an MPID."
+			}
+		]
+	},
+	{
+		"name": "$::type",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: Regulatory type, e.g. Investigational or Authorized.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type.$assign",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Regulatory type, e.g. Investigational or Authorized."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$domain",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: If this medicine applies to human or veterinary uses.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$domain.$assign",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCoding",
+				"sublen": 0,
+				"param": 1,
+				"desc": "If this medicine applies to human or veterinary uses."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$description",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: General description of this product.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$description.$assign",
+		"ident": 12,
+		"order": 13,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "General description of this product."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$combinedPharmaceuticalDoseForm",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: The dose form for a single part product, or combined form of a multiple part product.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$combinedPharmaceuticalDoseForm.$assign",
+		"ident": 14,
+		"order": 15,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The dose form for a single part product, or combined form of a multiple part product."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$indication",
+		"ident": 15,
+		"order": 16,
+		"desc": "Returns: General combined description of indication(s) for this product. See also MedicinalProductDefinitionIndication.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$indication.$assign",
+		"ident": 16,
+		"order": 17,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "General combined description of indication(s) for this product. See also MedicinalProductDefinitionIndication."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$legalStatusOfSupply",
+		"ident": 17,
+		"order": 18,
+		"desc": "Returns: The legal status of supply of the medicinal product as classified by the regulator.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$legalStatusOfSupply.$assign",
+		"ident": 18,
+		"order": 19,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The legal status of supply of the medicinal product as classified by the regulator."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$additionalMonitoringIndicator",
+		"ident": 19,
+		"order": 20,
+		"desc": "Returns: Whether the Medicinal Product is subject to additional monitoring for regulatory reasons.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$additionalMonitoringIndicator.$assign",
+		"ident": 20,
+		"order": 21,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Whether the Medicinal Product is subject to additional monitoring for regulatory reasons."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$specialMeasures",
+		"ident": 21,
+		"order": 22,
+		"desc": "Returns: Whether the Medicinal Product is subject to special measures for regulatory reasons.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addspecialMeasures",
+		"ident": 22,
+		"order": 23,
+		"desc": "Whether the Medicinal Product is subject to special measures for regulatory reasons.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Whether the Medicinal Product is subject to special measures for regulatory reasons."
+			}
+		]
+	},
+	{
+		"name": "$paediatricUseIndicator",
+		"ident": 23,
+		"order": 24,
+		"desc": "Returns: If authorised for use in children.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$paediatricUseIndicator.$assign",
+		"ident": 24,
+		"order": 25,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "If authorised for use in children."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$productClassification",
+		"ident": 25,
+		"order": 26,
+		"desc": "Returns: Allows the product to be classified by various systems.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addproductClassification",
+		"ident": 26,
+		"order": 27,
+		"desc": "Allows the product to be classified by various systems.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Allows the product to be classified by various systems."
+			}
+		]
+	},
+	{
+		"name": "$marketingStatus",
+		"ident": 27,
+		"order": 28,
+		"desc": "Returns: Marketing status of the medicinal product, in contrast to marketing authorizaton.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addmarketingStatus",
+		"ident": 28,
+		"order": 29,
+		"desc": "Marketing status of the medicinal product, in contrast to marketing authorizaton.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMarketingStatus",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oMarketingStatus",
+				"sublen": 0,
+				"desc": "Marketing status of the medicinal product, in contrast to marketing authorizaton."
+			}
+		]
+	},
+	{
+		"name": "$pharmaceuticalProduct",
+		"ident": 29,
+		"order": 30,
+		"desc": "Returns: Pharmaceutical aspects of product.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addpharmaceuticalProduct",
+		"ident": 30,
+		"order": 31,
+		"desc": "Pharmaceutical aspects of product.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Pharmaceutical aspects of product."
+			}
+		]
+	},
+	{
+		"name": "$packagedMedicinalProduct",
+		"ident": 31,
+		"order": 32,
+		"desc": "Returns: Package representation for the product.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addpackagedMedicinalProduct",
+		"ident": 32,
+		"order": 33,
+		"desc": "Package representation for the product.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Package representation for the product."
+			}
+		]
+	},
+	{
+		"name": "$ingredient",
+		"ident": 33,
+		"order": 34,
+		"desc": "Returns: The ingredients of this medicinal product - when not specified elsewhere. This is only needed if the ingredients are not specified by the pharmaceuticalProduct or packagedMedicinalProduct references above. In cases where those levels of detail are not used, the ingredients may be specified directly here.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addingredient",
+		"ident": 34,
+		"order": 35,
+		"desc": "The ingredients of this medicinal product - when not specified elsewhere. This is only needed if the ingredients are not specified by the pharmaceuticalProduct or packagedMedicinalProduct references above. In cases where those levels of detail are not used, the ingredients may be specified directly here.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "The ingredients of this medicinal product - when not specified elsewhere. This is only needed if the ingredients are not specified by the pharmaceuticalProduct or packagedMedicinalProduct references above. In cases where those levels of detail are not use"
+			}
+		]
+	},
+	{
+		"name": "$attachedDocument",
+		"ident": 35,
+		"order": 36,
+		"desc": "Returns: Supporting documentation, typically for regulatory submission.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addattachedDocument",
+		"ident": 36,
+		"order": 37,
+		"desc": "Supporting documentation, typically for regulatory submission.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Supporting documentation, typically for regulatory submission."
+			}
+		]
+	},
+	{
+		"name": "$masterFile",
+		"ident": 37,
+		"order": 38,
+		"desc": "Returns: A master file for to the medicinal product (e.g. Pharmacovigilance System Master File).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addmasterFile",
+		"ident": 38,
+		"order": 39,
+		"desc": "A master file for to the medicinal product (e.g. Pharmacovigilance System Master File).",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "A master file for to the medicinal product (e.g. Pharmacovigilance System Master File)."
+			}
+		]
+	},
+	{
+		"name": "$contact",
+		"ident": 39,
+		"order": 40,
+		"desc": "Returns: A product specific contact, person (in a role), or an organization.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcontact",
+		"ident": 40,
+		"order": 41,
+		"desc": "A product specific contact, person (in a role), or an organization.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMedicinalProductDefinitionContact",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oMedicinalProductDefinitionContact",
+				"sublen": 0,
+				"desc": "A product specific contact, person (in a role), or an organization."
+			}
+		]
+	},
+	{
+		"name": "$clinicalTrial",
+		"ident": 41,
+		"order": 42,
+		"desc": "Returns: Clinical trials or studies that this product is involved in.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addclinicalTrial",
+		"ident": 42,
+		"order": 43,
+		"desc": "Clinical trials or studies that this product is involved in.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Clinical trials or studies that this product is involved in."
+			}
+		]
+	},
+	{
+		"name": "$::name",
+		"ident": 43,
+		"order": 44,
+		"desc": "Returns: The product's name, including full name and possibly coded parts.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addname",
+		"ident": 44,
+		"order": 45,
+		"desc": "The product's name, including full name and possibly coded parts.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMedicinalProductDefinitionName",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oMedicinalProductDefinitionName",
+				"sublen": 0,
+				"desc": "The product's name, including full name and possibly coded parts."
+			}
+		]
+	},
+	{
+		"name": "$crossReference",
+		"ident": 45,
+		"order": 46,
+		"desc": "Returns: Reference to another product, e.g. for linking authorised to investigational product.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcrossReference",
+		"ident": 46,
+		"order": 47,
+		"desc": "Reference to another product, e.g. for linking authorised to investigational product.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMedicinalProductDefinitionCrossReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oMedicinalProductDefinitionCrossReference",
+				"sublen": 0,
+				"desc": "Reference to another product, e.g. for linking authorised to investigational product."
+			}
+		]
+	},
+	{
+		"name": "$manufacturingBusinessOperation",
+		"ident": 47,
+		"order": 48,
+		"desc": "Returns: An operation applied to the product, for manufacturing or adminsitrative purpose.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addmanufacturingBusinessOperation",
+		"ident": 48,
+		"order": 49,
+		"desc": "An operation applied to the product, for manufacturing or adminsitrative purpose.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMedicinalProductDefinitionManufacturingBusinessOperation",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oMedicinalProductDefinitionManufacturingBusinessOperation",
+				"sublen": 0,
+				"desc": "An operation applied to the product, for manufacturing or adminsitrative purpose."
+			}
+		]
+	}
+]

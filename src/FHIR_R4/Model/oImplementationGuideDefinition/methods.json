@@ -1,0 +1,249 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$grouping",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: A logical group of resources. Logical groups can be used when building pages.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addgrouping",
+		"ident": 5,
+		"order": 6,
+		"desc": "A logical group of resources. Logical groups can be used when building pages.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oImplementationGuideDefinitionGrouping",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oImplementationGuideDefinitionGrouping",
+				"sublen": 0,
+				"desc": "A logical group of resources. Logical groups can be used when building pages."
+			}
+		]
+	},
+	{
+		"name": "$resource",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: A resource that is part of the implementation guide. Conformance resources (value set, structure definition, capability statements etc.) are obvious candidates for inclusion, but any kind of resource can be included as an example resource.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addresource",
+		"ident": 7,
+		"order": 8,
+		"desc": "A resource that is part of the implementation guide. Conformance resources (value set, structure definition, capability statements etc.) are obvious candidates for inclusion, but any kind of resource can be included as an example resource.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oImplementationGuideDefinitionResource",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oImplementationGuideDefinitionResource",
+				"sublen": 0,
+				"desc": "A resource that is part of the implementation guide. Conformance resources (value set, structure definition, capability statements etc.) are obvious candidates for inclusion, but any kind of resource can be included as an example resource."
+			}
+		]
+	},
+	{
+		"name": "$page",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: A page / section in the implementation guide. The root page is the implementation guide home page.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$page.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oImplementationGuideDefinitionPage",
+				"sublen": 0,
+				"param": 1,
+				"desc": "A page / section in the implementation guide. The root page is the implementation guide home page."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$parameter",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: Defines how IG is built by tools.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addparameter",
+		"ident": 11,
+		"order": 12,
+		"desc": "Defines how IG is built by tools.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oImplementationGuideDefinitionParameter",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oImplementationGuideDefinitionParameter",
+				"sublen": 0,
+				"desc": "Defines how IG is built by tools."
+			}
+		]
+	},
+	{
+		"name": "$template",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: A template for building resources.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addtemplate",
+		"ident": 13,
+		"order": 14,
+		"desc": "A template for building resources.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oImplementationGuideDefinitionTemplate",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oImplementationGuideDefinitionTemplate",
+				"sublen": 0,
+				"desc": "A template for building resources."
+			}
+		]
+	}
+]

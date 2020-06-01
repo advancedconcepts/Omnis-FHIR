@@ -1,0 +1,61 @@
+[
+	{
+		"name": "$collect",
+		"ident": 0,
+		"order": 1,
+		"desc": "Retrieval without permitting collection, use or disclosure. e.g., no screen-scraping for collection, use or disclosure (view-only access)",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$access",
+		"ident": 1,
+		"order": 2,
+		"desc": "Utilize the retrieved information",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$use",
+		"ident": 2,
+		"order": 3,
+		"desc": "Transfer retrieved information",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$disclose",
+		"ident": 3,
+		"order": 4,
+		"desc": "Allow retrieval of a patient's information for the purpose of update or rectify",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$correct",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,22 @@
+Do inherited
+Calculate date as pValue.$date()
+Calculate vaccineCode as pValue.$vaccineCode()
+Calculate targetDisease as pValue.$targetDisease()
+Calculate doseNumber as pValue.$doseNumber()
+Calculate forecastStatus as pValue.$forecastStatus()
+Do dateCriterion.$clear()
+Calculate list as pValue.$dateCriterion()
+Do dateCriterion.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate protocol as pValue.$protocol()
+Do supportingImmunization.$clear()
+Calculate list as pValue.$supportingImmunization()
+Do supportingImmunization.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do supportingPatientInformation.$clear()
+Calculate list as pValue.$supportingPatientInformation()
+Do supportingPatientInformation.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

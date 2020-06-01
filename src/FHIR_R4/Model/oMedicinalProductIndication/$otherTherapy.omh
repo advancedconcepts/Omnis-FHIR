@@ -1,0 +1,4 @@
+If otherTherapy.$validref()=kFalse
+	Calculate otherTherapy as $clib.$classes.oMedicinalProductIndicationOtherTherapy.$newref()
+End If
+Quit method otherTherapy

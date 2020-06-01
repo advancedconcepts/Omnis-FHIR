@@ -1,0 +1,137 @@
+If pos('xsd:',pPrimitiveType)=1
+	Switch pPrimitiveType
+		Case 'xsd:boolean'
+			Calculate pPrimitiveType as 'boolean'
+		Case 'xsd:string'
+			Calculate pPrimitiveType as 'string'
+		Case 'xsd:int'
+			Calculate pPrimitiveType as 'integer'
+		Case 'xsd:decimal'
+			Calculate pPrimitiveType as 'decimal'
+		Case 'xsd:positiveInteger'
+			Calculate pPrimitiveType as 'positiveInt'
+		Case 'xsd:nonNegativeInteger'
+			Calculate pPrimitiveType as 'unsignedInt'
+		Case 'xsd:token'
+			Calculate pPrimitiveType as 'code'
+		Case 'xsd:anyURI'
+			Calculate pPrimitiveType as 'uri'
+		Case 'xsd:base64Binary'
+			Calculate pPrimitiveType as 'base64Binary'
+			
+			
+		Case 'xsd:dateTime'
+			Calculate pPrimitiveType as 'instant'
+		Case 'xsd:time'
+			Calculate pPrimitiveType as 'time'
+		Case 'xsd:gYear OR xsd:gYearMonth OR xsd:date'
+			Calculate pPrimitiveType as 'date'
+		Case 'xsd:gYear OR xsd:gYearMonth OR xsd:date OR xsd:dateTime'
+			Calculate pPrimitiveType as 'dateTime'
+	End Switch
+Else If pos('http://hl7.org/fhirpath/System.',pPrimitiveType)=1
+	Switch mid(pPrimitiveType,len('http://hl7.org/fhirpath/System.')+1)
+		Case 'Boolean'
+			Calculate pPrimitiveType as 'boolean'
+		Case 'String'
+			Calculate pPrimitiveType as 'string'
+		Case 'Integer'
+			Calculate pPrimitiveType as 'integer'
+		Case 'Decimal'
+			Calculate pPrimitiveType as 'decimal'
+		Case 'Date'
+			Calculate pPrimitiveType as 'date'
+		Case 'DateTime'
+			Calculate pPrimitiveType as 'dateTime'
+		Case 'Time'
+			Calculate pPrimitiveType as 'time'
+		Case 'Quantity'
+			Calculate pPrimitiveType as 'Quantity'
+	End Switch
+End If
+
+Calculate pMaxLen as 0
+Switch pPrimitiveType
+	Case 'instant'
+		Calculate pODataType as kDate
+		Calculate pODataSubtype as kDatetime
+	Case 'time'
+		Calculate pODataType as kDate
+		Calculate pODataSubtype as kTime
+	Case 'date'
+		Calculate pODataType as kDate
+		Calculate pODataSubtype as kDate2000
+	Case 'dateTime'
+		Calculate pODataType as kDate
+		Calculate pODataSubtype as kDatetime
+		;  #
+	Case 'base64Binary'
+		Calculate pODataType as kBinary
+		Calculate pODataSubtype as 0
+		;  #
+	Case 'decimal'
+		Calculate pODataType as kNumber
+		Calculate pODataSubtype as kFloatdp
+		;  #
+	Case 'boolean'
+		Calculate pODataType as kBoolean
+		Calculate pODataSubtype as 0
+		;  #
+	Case 'url'
+		Calculate pODataType as kCharacter
+		Calculate pODataSubtype as kSimplechar
+		Calculate pMaxLen as 100000000
+	Case 'uri'
+		Calculate pODataType as kCharacter
+		Calculate pODataSubtype as kSimplechar
+		Calculate pMaxLen as 100000000
+	Case 'oid'
+		Calculate pODataType as kCharacter
+		Calculate pODataSubtype as kSimplechar
+		Calculate pMaxLen as 100000000
+	Case 'uuid'
+		Calculate pODataType as kCharacter
+		Calculate pODataSubtype as kSimplechar
+		Calculate pMaxLen as 100000000
+	Case 'canonical'
+		Calculate pODataType as kCharacter
+		Calculate pODataSubtype as kSimplechar
+		Calculate pMaxLen as 100000000
+		;  #
+	Case 'string'
+		Calculate pODataType as kCharacter
+		Calculate pODataSubtype as kSimplechar
+		Calculate pMaxLen as 100000000
+	Case 'code'
+		Calculate pODataType as kCharacter
+		Calculate pODataSubtype as kSimplechar
+		Calculate pMaxLen as 100000000
+	Case 'markdown'
+		Calculate pODataType as kCharacter
+		Calculate pODataSubtype as kSimplechar
+		Calculate pMaxLen as 100000000
+	Case 'id'
+		Calculate pODataType as kCharacter
+		Calculate pODataSubtype as kSimplechar
+		Calculate pMaxLen as 100000000
+	Case 'xhtml:div'
+		Calculate pODataType as kCharacter
+		Calculate pODataSubtype as kSimplechar
+		Calculate pMaxLen as 100000000
+		;  #
+	Case 'integer'
+		Calculate pODataType as kInteger
+		Calculate pODataSubtype as k32bitint
+	Case 'unsignedInt'
+		Calculate pODataType as kInteger
+		Calculate pODataSubtype as k32bitint
+	Case 'positiveInt'
+		Calculate pODataType as kInteger
+		Calculate pODataSubtype as k32bitint
+	Default
+		Calculate pODataType as kObjectref
+		Do method ensureTypeKnown (pPrimitiveType)
+		If iURL2Types.$search($ref.iType=pPrimitiveType,kTrue,kFalse,kFalse,kFalse)
+			Calculate pODataSubtype as iURL2Types.iOmnisType
+		End If
+End Switch

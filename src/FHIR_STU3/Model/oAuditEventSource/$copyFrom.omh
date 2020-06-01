@@ -1,0 +1,8 @@
+Do inherited
+Calculate site as pValue.$site()
+Calculate identifier as pValue.$identifier()
+Do type.$clear()
+Calculate list as pValue.$type()
+Do type.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

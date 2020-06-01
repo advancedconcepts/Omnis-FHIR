@@ -1,0 +1,8 @@
+Do inherited
+Do actor.$define(actor_)
+Do action.$define(action_)
+Do securityLabel.$define(securityLabel_)
+Do purpose.$define(purpose_)
+Do class.$define(class_)
+Do code.$define(code_)
+Do data.$define(data_)

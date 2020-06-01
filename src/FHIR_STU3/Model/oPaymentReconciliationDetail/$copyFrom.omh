@@ -1,0 +1,8 @@
+Do inherited
+Calculate type as pValue.$type()
+Calculate request as pValue.$request()
+Calculate response as pValue.$response()
+Calculate submitter as pValue.$submitter()
+Calculate payee as pValue.$payee()
+Calculate date as pValue.$date()
+Calculate amount as pValue.$amount()

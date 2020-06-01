@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$PN",
+		"ident": 0,
+		"order": 1,
+		"desc": "Low priority.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$PL",
+		"ident": 1,
+		"order": 2,
+		"desc": "Medium priority.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$PM",
+		"ident": 2,
+		"order": 3,
+		"desc": "High priority.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$PH",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

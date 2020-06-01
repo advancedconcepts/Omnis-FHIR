@@ -1,0 +1,85 @@
+[
+	{
+		"name": "$named-event",
+		"ident": 0,
+		"order": 1,
+		"desc": "The trigger occurs at a specific time or periodically as described by a timing or schedule",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$periodic",
+		"ident": 1,
+		"order": 2,
+		"desc": "The trigger occurs whenever data of a particular type is added",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$data-added",
+		"ident": 2,
+		"order": 3,
+		"desc": "The trigger occurs whenever data of a particular type is modified",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$data-modified",
+		"ident": 3,
+		"order": 4,
+		"desc": "The trigger occurs whenever data of a particular type is removed",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$data-removed",
+		"ident": 4,
+		"order": 5,
+		"desc": "The trigger occurs whenever data of a particular type is accessed",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$data-accessed",
+		"ident": 5,
+		"order": 6,
+		"desc": "The trigger occurs whenever access to data of a particular type is completed",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$data-access-ended",
+		"ident": 6,
+		"order": 7,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

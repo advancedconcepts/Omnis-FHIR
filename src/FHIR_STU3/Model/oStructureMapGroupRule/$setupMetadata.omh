@@ -1,0 +1,6 @@
+Do inherited
+Do pElements.$add("name","::name",1,"1",21,"id")
+Do pElements.$add("source","source",1,"-1",38,"")
+Do pElements.$add("target","target",0,"-1",38,"")
+Do pElements.$add("dependent","dependent",0,"-1",38,"")
+Do pElements.$add("documentation","documentation",0,"1",21,"string")

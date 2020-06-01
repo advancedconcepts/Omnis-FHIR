@@ -1,0 +1,4 @@
+If supportedMessage.$validref()=kFalse
+	Calculate supportedMessage as $clib.$classes.oCapabilityStatementMessagingSupportedMessage.$newref()
+End If
+Quit method supportedMessage

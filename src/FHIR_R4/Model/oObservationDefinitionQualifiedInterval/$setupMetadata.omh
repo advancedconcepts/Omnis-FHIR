@@ -1,0 +1,9 @@
+Do inherited
+Do pElements.$add("category","category",0,"1",21,"code")
+Do pElements.$add("range","range",0,"1",38,"Range")
+Do pElements.$add("context","context",0,"1",38,"CodeableConcept")
+Do pElements.$add("appliesTo","appliesTo",0,"-1",38,"CodeableConcept")
+Do pElements.$add("gender","gender",0,"1",21,"code")
+Do pElements.$add("age","age",0,"1",38,"Range")
+Do pElements.$add("gestationalAge","gestationalAge",0,"1",38,"Range")
+Do pElements.$add("condition","condition",0,"1",21,"string")

@@ -1,0 +1,181 @@
+[
+	{
+		"name": "$Appointment",
+		"ident": 0,
+		"order": 1,
+		"desc": "A reply to an appointment request for a patient and/or practitioner(s), such as a confirmation or rejection.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$AppointmentResponse",
+		"ident": 1,
+		"order": 2,
+		"desc": "Healthcare plan for patient or group.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CarePlan",
+		"ident": 2,
+		"order": 3,
+		"desc": "Claim, Pre-determination or Pre-authorization.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Claim",
+		"ident": 3,
+		"order": 4,
+		"desc": "A request for information to be sent to a receiver.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CommunicationRequest",
+		"ident": 4,
+		"order": 5,
+		"desc": "Legal Agreement.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Contract",
+		"ident": 5,
+		"order": 6,
+		"desc": "Medical device request.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$DeviceRequest",
+		"ident": 6,
+		"order": 7,
+		"desc": "Enrollment request.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$EnrollmentRequest",
+		"ident": 7,
+		"order": 8,
+		"desc": "Guidance or advice relating to an immunization.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ImmunizationRecommendation",
+		"ident": 8,
+		"order": 9,
+		"desc": "Ordering of medication for patient or group.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MedicationRequest",
+		"ident": 9,
+		"order": 10,
+		"desc": "Diet, formula or nutritional supplement request.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$NutritionOrder",
+		"ident": 10,
+		"order": 11,
+		"desc": "A record of a request for service such as diagnostic investigations, treatments, or operations to be performed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ServiceRequest",
+		"ident": 11,
+		"order": 12,
+		"desc": "Request for a medication, substance or device.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$SupplyRequest",
+		"ident": 12,
+		"order": 13,
+		"desc": "A task to be performed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Task",
+		"ident": 13,
+		"order": 14,
+		"desc": "Prescription for vision correction products for a patient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$VisionPrescription",
+		"ident": 14,
+		"order": 15,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

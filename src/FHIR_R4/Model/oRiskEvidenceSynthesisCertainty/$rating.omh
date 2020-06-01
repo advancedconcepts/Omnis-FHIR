@@ -1,0 +1,4 @@
+If rating.$validref()=kFalse
+	Calculate rating as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method rating

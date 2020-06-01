@@ -1,0 +1,35 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do party.$clear()
+Calculate list as pValue.$party()
+Do party.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate topic as pValue.$topic()
+Calculate type as pValue.$type()
+Calculate decision as pValue.$decision()
+Do decisionMode.$clear()
+Calculate list as pValue.$decisionMode()
+Do decisionMode.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do answer.$clear()
+Calculate list as pValue.$answer()
+Do answer.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate text as pValue.$text()
+Do linkId.$clear()
+Calculate list as pValue.$linkId()
+Do linkId.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do securityLabelNumber.$clear()
+Calculate list as pValue.$securityLabelNumber()
+Do securityLabelNumber.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

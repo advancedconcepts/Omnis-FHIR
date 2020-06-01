@@ -1,0 +1,4 @@
+Do inherited
+Calculate code as pValue.$code()
+Calculate exclude as pValue.$exclude()
+Calculate period as pValue.$period()

@@ -1,0 +1,480 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$identifier",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: Unique identifier for this particular Contract Provision.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$identifier.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Unique identifier for this particular Contract Provision."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$issued",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: When this Contract Provision was issued.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$issued.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kDate",
+				"subtype": "kDatetime",
+				"sublen": 0,
+				"param": 1,
+				"desc": "When this Contract Provision was issued."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$applies",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: Relevant time or time-period when this Contract Provision is applicable.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$applies.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oPeriod",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Relevant time or time-period when this Contract Provision is applicable."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: Type of Contract Provision such as specific requirements, purposes for actions, obligations, prohibitions, e.g. life time maximum benefit.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Type of Contract Provision such as specific requirements, purposes for actions, obligations, prohibitions, e.g. life time maximum benefit."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subType",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: Subtype of this Contract Provision, e.g. life time maximum payment for a contract term for specific valued item, e.g. disability payment.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subType.$assign",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Subtype of this Contract Provision, e.g. life time maximum payment for a contract term for specific valued item, e.g. disability payment."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$topic",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: The matter of concern in the context of this provision of the agrement.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addtopic",
+		"ident": 15,
+		"order": 16,
+		"desc": "The matter of concern in the context of this provision of the agrement.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "The matter of concern in the context of this provision of the agrement."
+			}
+		]
+	},
+	{
+		"name": "$action",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: Action stipulated by this Contract Provision.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addaction",
+		"ident": 17,
+		"order": 18,
+		"desc": "Action stipulated by this Contract Provision.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Action stipulated by this Contract Provision."
+			}
+		]
+	},
+	{
+		"name": "$actionReason",
+		"ident": 18,
+		"order": 19,
+		"desc": "Returns: Reason or purpose for the action stipulated by this Contract Provision.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addactionReason",
+		"ident": 19,
+		"order": 20,
+		"desc": "Reason or purpose for the action stipulated by this Contract Provision.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Reason or purpose for the action stipulated by this Contract Provision."
+			}
+		]
+	},
+	{
+		"name": "$securityLabel",
+		"ident": 20,
+		"order": 21,
+		"desc": "Returns: A set of security labels that define which terms are controlled by this condition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addsecurityLabel",
+		"ident": 21,
+		"order": 22,
+		"desc": "A set of security labels that define which terms are controlled by this condition.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCoding",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCoding",
+				"sublen": 0,
+				"desc": "A set of security labels that define which terms are controlled by this condition."
+			}
+		]
+	},
+	{
+		"name": "$agent",
+		"ident": 22,
+		"order": 23,
+		"desc": "Returns: An actor taking a role in an activity for which it can be assigned some degree of responsibility for the activity taking place.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addagent",
+		"ident": 23,
+		"order": 24,
+		"desc": "An actor taking a role in an activity for which it can be assigned some degree of responsibility for the activity taking place.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oContractTermAgent",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oContractTermAgent",
+				"sublen": 0,
+				"desc": "An actor taking a role in an activity for which it can be assigned some degree of responsibility for the activity taking place."
+			}
+		]
+	},
+	{
+		"name": "$text",
+		"ident": 24,
+		"order": 25,
+		"desc": "Returns: Human readable form of this Contract Provision.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$text.$assign",
+		"ident": 25,
+		"order": 26,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Human readable form of this Contract Provision."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$valuedItem",
+		"ident": 26,
+		"order": 27,
+		"desc": "Returns: Contract Provision Valued Item List.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addvaluedItem",
+		"ident": 27,
+		"order": 28,
+		"desc": "Contract Provision Valued Item List.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oContractTermValuedItem",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oContractTermValuedItem",
+				"sublen": 0,
+				"desc": "Contract Provision Valued Item List."
+			}
+		]
+	}
+]

@@ -1,0 +1,50 @@
+Do inherited
+Calculate url as pValue.$url()
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate version as pValue.$version()
+Calculate name as pValue.$name()
+Calculate status as pValue.$status()
+Calculate experimental as pValue.$experimental()
+Calculate date as pValue.$date()
+Calculate publisher as pValue.$publisher()
+Do contact.$clear()
+Calculate list as pValue.$contact()
+Do contact.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do useContext.$clear()
+Calculate list as pValue.$useContext()
+Do useContext.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do jurisdiction.$clear()
+Calculate list as pValue.$jurisdiction()
+Do jurisdiction.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate copyright as pValue.$copyright()
+Calculate purpose as pValue.$purpose()
+Do actor.$clear()
+Calculate list as pValue.$actor()
+Do actor.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do instance.$clear()
+Calculate list as pValue.$instance()
+Do instance.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do process.$clear()
+Calculate list as pValue.$process()
+Do process.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do workflow.$clear()
+Calculate list as pValue.$workflow()
+Do workflow.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

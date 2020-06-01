@@ -1,0 +1,7 @@
+Do inherited
+Do pElements.$add("diseaseSymptomProcedure","diseaseSymptomProcedure",0,"1",38,"CodeableConcept")
+Do pElements.$add("diseaseStatus","diseaseStatus",0,"1",38,"CodeableConcept")
+Do pElements.$add("comorbidity","comorbidity",0,"-1",38,"CodeableConcept")
+Do pElements.$add("intendedEffect","intendedEffect",0,"1",38,"CodeableConcept")
+Do pElements.$add("duration","duration",0,"1",38,"Quantity")
+Do pElements.$add("undesirableEffect","undesirableEffect",0,"-1",38,"Reference")

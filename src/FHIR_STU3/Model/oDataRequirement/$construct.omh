@@ -1,0 +1,8 @@
+Do inherited
+Do profile.$define(profile_)
+Do mustSupport.$define(mustSupport_)
+Do codeFilter.$define(codeFilter_)
+Do codeFilter.valueCode.$define(codeFilter.valueCode_)
+Do codeFilter.valueCoding.$define(codeFilter.valueCoding_)
+Do codeFilter.valueCodeableConcept.$define(codeFilter.valueCodeableConcept_)
+Do dateFilter.$define(dateFilter_)

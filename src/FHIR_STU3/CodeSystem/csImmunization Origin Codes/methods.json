@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$provider",
+		"ident": 0,
+		"order": 1,
+		"desc": "The data for the immunization event originated with a written record for the patient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$record",
+		"ident": 1,
+		"order": 2,
+		"desc": "The data for the immunization event originated from the recollection of the patient or parent/guardian of the patient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$recall",
+		"ident": 2,
+		"order": 3,
+		"desc": "The data for the immunization event originated with a school record for the patient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$school",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

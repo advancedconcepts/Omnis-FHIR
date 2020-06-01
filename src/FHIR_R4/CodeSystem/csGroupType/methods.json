@@ -1,0 +1,73 @@
+[
+	{
+		"name": "$person",
+		"ident": 0,
+		"order": 1,
+		"desc": "Group contains \"animal\" Patient resources.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$animal",
+		"ident": 1,
+		"order": 2,
+		"desc": "Group contains healthcare practitioner resources (Practitioner or PractitionerRole).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$practitioner",
+		"ident": 2,
+		"order": 3,
+		"desc": "Group contains Device resources.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$device",
+		"ident": 3,
+		"order": 4,
+		"desc": "Group contains Medication resources.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$medication",
+		"ident": 4,
+		"order": 5,
+		"desc": "Group contains Substance resources.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$substance",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

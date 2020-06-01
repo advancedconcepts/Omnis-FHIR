@@ -1,0 +1,4 @@
+If managingEntity.$validref()=kFalse
+	Calculate managingEntity as $clib.$classes.oReference.$newref()
+End If
+Quit method managingEntity

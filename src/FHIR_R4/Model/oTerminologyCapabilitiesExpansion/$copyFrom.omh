@@ -1,0 +1,10 @@
+Do inherited
+Calculate hierarchical as pValue.$hierarchical()
+Calculate paging as pValue.$paging()
+Calculate incomplete as pValue.$incomplete()
+Do parameter.$clear()
+Calculate list as pValue.$parameter()
+Do parameter.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate textFilter as pValue.$textFilter()

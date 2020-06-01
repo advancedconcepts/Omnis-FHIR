@@ -1,0 +1,38 @@
+Do inherited
+Calculate sourceMaterialClass as pValue.$sourceMaterialClass()
+Calculate sourceMaterialType as pValue.$sourceMaterialType()
+Calculate sourceMaterialState as pValue.$sourceMaterialState()
+Calculate organismId as pValue.$organismId()
+Calculate organismName as pValue.$organismName()
+Do parentSubstanceId.$clear()
+Calculate list as pValue.$parentSubstanceId()
+Do parentSubstanceId.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do parentSubstanceName.$clear()
+Calculate list as pValue.$parentSubstanceName()
+Do parentSubstanceName.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do countryOfOrigin.$clear()
+Calculate list as pValue.$countryOfOrigin()
+Do countryOfOrigin.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do geographicalLocation.$clear()
+Calculate list as pValue.$geographicalLocation()
+Do geographicalLocation.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate developmentStage as pValue.$developmentStage()
+Do fractionDescription.$clear()
+Calculate list as pValue.$fractionDescription()
+Do fractionDescription.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate organism as pValue.$organism()
+Do partDescription.$clear()
+Calculate list as pValue.$partDescription()
+Do partDescription.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

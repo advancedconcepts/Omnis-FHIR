@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$disclosure-ca",
+		"ident": 0,
+		"order": 1,
+		"desc": "United States health information displosure policy.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$disclosure-us",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

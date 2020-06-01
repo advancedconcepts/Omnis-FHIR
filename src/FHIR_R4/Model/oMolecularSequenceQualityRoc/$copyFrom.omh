@@ -1,0 +1,36 @@
+Do inherited
+Do score.$clear()
+Calculate list as pValue.$score()
+Do score.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do numTP.$clear()
+Calculate list as pValue.$numTP()
+Do numTP.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do numFP.$clear()
+Calculate list as pValue.$numFP()
+Do numFP.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do numFN.$clear()
+Calculate list as pValue.$numFN()
+Do numFN.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do precision.$clear()
+Calculate list as pValue.$precision()
+Do precision.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do sensitivity.$clear()
+Calculate list as pValue.$sensitivity()
+Do sensitivity.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do fMeasure.$clear()
+Calculate list as pValue.$fMeasure()
+Do fMeasure.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

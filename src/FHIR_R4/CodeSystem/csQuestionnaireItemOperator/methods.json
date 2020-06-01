@@ -1,0 +1,85 @@
+[
+	{
+		"name": "$exists",
+		"ident": 0,
+		"order": 1,
+		"desc": "True if whether at least one answer has a value that is equal to the enableWhen answer.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$=",
+		"ident": 1,
+		"order": 2,
+		"desc": "True if whether at least no answer has a value that is equal to the enableWhen answer.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$!=",
+		"ident": 2,
+		"order": 3,
+		"desc": "True if whether at least no answer has a value that is greater than the enableWhen answer.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$>",
+		"ident": 3,
+		"order": 4,
+		"desc": "True if whether at least no answer has a value that is less than the enableWhen answer.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$<",
+		"ident": 4,
+		"order": 5,
+		"desc": "True if whether at least no answer has a value that is greater or equal to the enableWhen answer.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$>=",
+		"ident": 5,
+		"order": 6,
+		"desc": "True if whether at least no answer has a value that is less or equal to the enableWhen answer.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$<=",
+		"ident": 6,
+		"order": 7,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

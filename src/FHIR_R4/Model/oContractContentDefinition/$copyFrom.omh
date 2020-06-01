@@ -1,0 +1,7 @@
+Do inherited
+Calculate type as pValue.$type()
+Calculate subType as pValue.$subtype()
+Calculate publisher as pValue.$publisher()
+Calculate publicationDate as pValue.$publicationDate()
+Calculate publicationStatus as pValue.$publicationStatus()
+Calculate copyright as pValue.$copyright()

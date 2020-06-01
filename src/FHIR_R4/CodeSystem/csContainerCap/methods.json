@@ -1,0 +1,145 @@
+[
+	{
+		"name": "$red",
+		"ident": 0,
+		"order": 1,
+		"desc": "yellow cap.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$yellow",
+		"ident": 1,
+		"order": 2,
+		"desc": "dark yellow cap.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$dark-yellow",
+		"ident": 2,
+		"order": 3,
+		"desc": "grey cap.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$grey",
+		"ident": 3,
+		"order": 4,
+		"desc": "light blue cap.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$light-blue",
+		"ident": 4,
+		"order": 5,
+		"desc": "black cap.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$black",
+		"ident": 5,
+		"order": 6,
+		"desc": "green cap.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$green",
+		"ident": 6,
+		"order": 7,
+		"desc": "light green cap.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$light-green",
+		"ident": 7,
+		"order": 8,
+		"desc": "lavender cap.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$lavender",
+		"ident": 8,
+		"order": 9,
+		"desc": "brown cap.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$brown",
+		"ident": 9,
+		"order": 10,
+		"desc": "white cap.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$white",
+		"ident": 10,
+		"order": 11,
+		"desc": "pink cap.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$pink",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

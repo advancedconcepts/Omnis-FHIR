@@ -1,0 +1,934 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$identifier",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: External identifiers for this item.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addidentifier",
+		"ident": 6,
+		"order": 7,
+		"desc": "External identifiers for this item.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"desc": "External identifiers for this item."
+			}
+		]
+	},
+	{
+		"name": "$active",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: This flag is used to mark the record to not be used. This is not used when a center is closed for maintenance, or for holidays, the notAvailable period is to be used for this.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$active.$assign",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "This flag is used to mark the record to not be used. This is not used when a center is closed for maintenance, or for holidays, the notAvailable period is to be used for this."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$providedBy",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: The organization that provides this healthcare service.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$providedBy.$assign",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The organization that provides this healthcare service."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$category",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: Identifies the broad category of service being performed or delivered.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcategory",
+		"ident": 12,
+		"order": 13,
+		"desc": "Identifies the broad category of service being performed or delivered.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Identifies the broad category of service being performed or delivered."
+			}
+		]
+	},
+	{
+		"name": "$::type",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: The specific type of service that may be delivered or performed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addtype",
+		"ident": 14,
+		"order": 15,
+		"desc": "The specific type of service that may be delivered or performed.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "The specific type of service that may be delivered or performed."
+			}
+		]
+	},
+	{
+		"name": "$specialty",
+		"ident": 15,
+		"order": 16,
+		"desc": "Returns: Collection of specialties handled by the service site. This is more of a medical term.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addspecialty",
+		"ident": 16,
+		"order": 17,
+		"desc": "Collection of specialties handled by the service site. This is more of a medical term.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Collection of specialties handled by the service site. This is more of a medical term."
+			}
+		]
+	},
+	{
+		"name": "$location",
+		"ident": 17,
+		"order": 18,
+		"desc": "Returns: The location(s) where this healthcare service may be provided.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addlocation",
+		"ident": 18,
+		"order": 19,
+		"desc": "The location(s) where this healthcare service may be provided.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "The location(s) where this healthcare service may be provided."
+			}
+		]
+	},
+	{
+		"name": "$::name",
+		"ident": 19,
+		"order": 20,
+		"desc": "Returns: Further description of the service as it would be presented to a consumer while searching.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::name.$assign",
+		"ident": 20,
+		"order": 21,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Further description of the service as it would be presented to a consumer while searching."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$comment",
+		"ident": 21,
+		"order": 22,
+		"desc": "Returns: Any additional description of the service and/or any specific issues not covered by the other attributes, which can be displayed as further detail under the serviceName.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$comment.$assign",
+		"ident": 22,
+		"order": 23,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Any additional description of the service and/or any specific issues not covered by the other attributes, which can be displayed as further detail under the serviceName."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$extraDetails",
+		"ident": 23,
+		"order": 24,
+		"desc": "Returns: Extra details about the service that can't be placed in the other fields.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$extraDetails.$assign",
+		"ident": 24,
+		"order": 25,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Extra details about the service that can't be placed in the other fields."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$photo",
+		"ident": 25,
+		"order": 26,
+		"desc": "Returns: If there is a photo/symbol associated with this HealthcareService, it may be included here to facilitate quick identification of the service in a list.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$photo.$assign",
+		"ident": 26,
+		"order": 27,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oAttachment",
+				"sublen": 0,
+				"param": 1,
+				"desc": "If there is a photo/symbol associated with this HealthcareService, it may be included here to facilitate quick identification of the service in a list."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$telecom",
+		"ident": 27,
+		"order": 28,
+		"desc": "Returns: List of contacts related to this specific healthcare service.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addtelecom",
+		"ident": 28,
+		"order": 29,
+		"desc": "List of contacts related to this specific healthcare service.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oContactPoint",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oContactPoint",
+				"sublen": 0,
+				"desc": "List of contacts related to this specific healthcare service."
+			}
+		]
+	},
+	{
+		"name": "$coverageArea",
+		"ident": 29,
+		"order": 30,
+		"desc": "Returns: The location(s) that this service is available to (not where the service is provided).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcoverageArea",
+		"ident": 30,
+		"order": 31,
+		"desc": "The location(s) that this service is available to (not where the service is provided).",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "The location(s) that this service is available to (not where the service is provided)."
+			}
+		]
+	},
+	{
+		"name": "$serviceProvisionCode",
+		"ident": 31,
+		"order": 32,
+		"desc": "Returns: The code(s) that detail the conditions under which the healthcare service is available/offered.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addserviceProvisionCode",
+		"ident": 32,
+		"order": 33,
+		"desc": "The code(s) that detail the conditions under which the healthcare service is available/offered.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "The code(s) that detail the conditions under which the healthcare service is available/offered."
+			}
+		]
+	},
+	{
+		"name": "$eligibility",
+		"ident": 33,
+		"order": 34,
+		"desc": "Returns: Does this service have specific eligibility requirements that need to be met in order to use the service?",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addeligibility",
+		"ident": 34,
+		"order": 35,
+		"desc": "Does this service have specific eligibility requirements that need to be met in order to use the service?",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oHealthcareServiceEligibility",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oHealthcareServiceEligibility",
+				"sublen": 0,
+				"desc": "Does this service have specific eligibility requirements that need to be met in order to use the service?"
+			}
+		]
+	},
+	{
+		"name": "$program",
+		"ident": 35,
+		"order": 36,
+		"desc": "Returns: Programs that this service is applicable to.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addprogram",
+		"ident": 36,
+		"order": 37,
+		"desc": "Programs that this service is applicable to.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Programs that this service is applicable to."
+			}
+		]
+	},
+	{
+		"name": "$characteristic",
+		"ident": 37,
+		"order": 38,
+		"desc": "Returns: Collection of characteristics (attributes).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcharacteristic",
+		"ident": 38,
+		"order": 39,
+		"desc": "Collection of characteristics (attributes).",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Collection of characteristics (attributes)."
+			}
+		]
+	},
+	{
+		"name": "$communication",
+		"ident": 39,
+		"order": 40,
+		"desc": "Returns: Some services are specifically made available in multiple languages, this property permits a directory to declare the languages this is offered in. Typically this is only provided where a service operates in communities with mixed languages used.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcommunication",
+		"ident": 40,
+		"order": 41,
+		"desc": "Some services are specifically made available in multiple languages, this property permits a directory to declare the languages this is offered in. Typically this is only provided where a service operates in communities with mixed languages used.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Some services are specifically made available in multiple languages, this property permits a directory to declare the languages this is offered in. Typically this is only provided where a service operates in communities with mixed languages used."
+			}
+		]
+	},
+	{
+		"name": "$referralMethod",
+		"ident": 41,
+		"order": 42,
+		"desc": "Returns: Ways that the service accepts referrals, if this is not provided then it is implied that no referral is required.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addreferralMethod",
+		"ident": 42,
+		"order": 43,
+		"desc": "Ways that the service accepts referrals, if this is not provided then it is implied that no referral is required.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Ways that the service accepts referrals, if this is not provided then it is implied that no referral is required."
+			}
+		]
+	},
+	{
+		"name": "$appointmentRequired",
+		"ident": 43,
+		"order": 44,
+		"desc": "Returns: Indicates whether or not a prospective consumer will require an appointment for a particular service at a site to be provided by the Organization. Indicates if an appointment is required for access to this service.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$appointmentRequired.$assign",
+		"ident": 44,
+		"order": 45,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "Indicates whether or not a prospective consumer will require an appointment for a particular service at a site to be provided by the Organization. Indicates if an appointment is required for access to this service."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$availableTime",
+		"ident": 45,
+		"order": 46,
+		"desc": "Returns: A collection of times that the Service Site is available.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addavailableTime",
+		"ident": 46,
+		"order": 47,
+		"desc": "A collection of times that the Service Site is available.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oHealthcareServiceAvailableTime",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oHealthcareServiceAvailableTime",
+				"sublen": 0,
+				"desc": "A collection of times that the Service Site is available."
+			}
+		]
+	},
+	{
+		"name": "$notAvailable",
+		"ident": 47,
+		"order": 48,
+		"desc": "Returns: The HealthcareService is not available during this period of time due to the provided reason.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addnotAvailable",
+		"ident": 48,
+		"order": 49,
+		"desc": "The HealthcareService is not available during this period of time due to the provided reason.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oHealthcareServiceNotAvailable",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oHealthcareServiceNotAvailable",
+				"sublen": 0,
+				"desc": "The HealthcareService is not available during this period of time due to the provided reason."
+			}
+		]
+	},
+	{
+		"name": "$availabilityExceptions",
+		"ident": 49,
+		"order": 50,
+		"desc": "Returns: A description of site availability exceptions, e.g. public holiday availability. Succinctly describing all possible exceptions to normal site availability as details in the available Times and not available Times.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$availabilityExceptions.$assign",
+		"ident": 50,
+		"order": 51,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A description of site availability exceptions, e.g. public holiday availability. Succinctly describing all possible exceptions to normal site availability as details in the available Times and not available Times."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$endpoint",
+		"ident": 51,
+		"order": 52,
+		"desc": "Returns: Technical endpoints providing access to services operated for the specific healthcare services defined at this resource.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addendpoint",
+		"ident": 52,
+		"order": 53,
+		"desc": "Technical endpoints providing access to services operated for the specific healthcare services defined at this resource.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Technical endpoints providing access to services operated for the specific healthcare services defined at this resource."
+			}
+		]
+	}
+]

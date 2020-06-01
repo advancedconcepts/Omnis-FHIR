@@ -1,0 +1,133 @@
+[
+	{
+		"name": "$Quantity",
+		"ident": 0,
+		"order": 1,
+		"desc": "A coded concept from a reference terminology and/or text.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CodeableConcept",
+		"ident": 1,
+		"order": 2,
+		"desc": "A sequence of Unicode characters.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$string",
+		"ident": 2,
+		"order": 3,
+		"desc": "true or false.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$boolean",
+		"ident": 3,
+		"order": 4,
+		"desc": "A signed integer.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$integer",
+		"ident": 4,
+		"order": 5,
+		"desc": "A set of values bounded by low and high.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Range",
+		"ident": 5,
+		"order": 6,
+		"desc": "A ratio of two Quantity values - a numerator and a denominator.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Ratio",
+		"ident": 6,
+		"order": 7,
+		"desc": "A series of measurements taken by a device.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$SampledData",
+		"ident": 7,
+		"order": 8,
+		"desc": "A time during the day, in the format hh:mm:ss.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$time",
+		"ident": 8,
+		"order": 9,
+		"desc": "A date, date-time or partial date (e.g. just year or year + month) as used in human communication.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$dateTime",
+		"ident": 9,
+		"order": 10,
+		"desc": "A time range defined by start and end date/time.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Period",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

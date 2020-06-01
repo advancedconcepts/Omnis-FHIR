@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$author",
+		"ident": 0,
+		"order": 1,
+		"desc": "An editor of the content of the module",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$editor",
+		"ident": 1,
+		"order": 2,
+		"desc": "A reviewer of the content of the module",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$reviewer",
+		"ident": 2,
+		"order": 3,
+		"desc": "An endorser of the content of the module",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$endorser",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

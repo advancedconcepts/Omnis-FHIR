@@ -1,0 +1,4 @@
+If formCode.$validref()=kFalse
+	Calculate formCode as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method formCode

@@ -1,0 +1,9 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do contact.$define(contact_)
+Do useContext.$define(useContext_)
+Do jurisdiction.$define(jurisdiction_)
+Do actor.$define(actor_)
+Do instance.$define(instance_)
+Do process.$define(process_)
+Do workflow.$define(workflow_)

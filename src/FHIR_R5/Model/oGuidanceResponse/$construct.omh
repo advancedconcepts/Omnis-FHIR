@@ -1,0 +1,7 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do reasonCode.$define(reasonCode_)
+Do reasonReference.$define(reasonReference_)
+Do note.$define(note_)
+Do evaluationMessage.$define(evaluationMessage_)
+Do dataRequirement.$define(dataRequirement_)

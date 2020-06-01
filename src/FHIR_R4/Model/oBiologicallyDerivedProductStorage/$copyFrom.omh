@@ -1,0 +1,5 @@
+Do inherited
+Calculate description as pValue.$description()
+Calculate temperature as pValue.$temperature()
+Calculate scale as pValue.$scale()
+Calculate duration as pValue.$duration()

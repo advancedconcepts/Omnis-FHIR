@@ -1,0 +1,150 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "identifier",
+			"order": 1,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "Identifier for the TestScript assigned for external purposes outside the context of FHIR."
+		},
+		{
+			"name": "issued",
+			"order": 8,
+			"type": "kDate",
+			"subtype": "kDatetime",
+			"sublen": 0,
+			"desc": "When the TestScript was executed and this TestReport was generated."
+		},
+		{
+			"name": "name",
+			"order": 2,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A free text natural language name identifying the executed TestScript."
+		},
+		{
+			"name": "participant",
+			"order": 9,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "participant_",
+			"order": 10,
+			"type": "kObjectref",
+			"subtype": "oTestReportParticipant",
+			"sublen": 0,
+			"desc": "A participant in the test execution, either the execution engine, a client, or a server."
+		},
+		{
+			"name": "result",
+			"order": 5,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The overall result from the execution of the TestScript."
+		},
+		{
+			"name": "score",
+			"order": 6,
+			"type": "kNumber",
+			"subtype": "kFloatdp",
+			"sublen": 0,
+			"desc": "The final score (percentage of tests passed) resulting from the execution of the TestScript."
+		},
+		{
+			"name": "setup",
+			"order": 11,
+			"type": "kObjectref",
+			"subtype": "oTestReportSetup",
+			"sublen": 0,
+			"desc": "The results of the series of required setup operations before the tests were executed."
+		},
+		{
+			"name": "status",
+			"order": 3,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The current state of this test report."
+		},
+		{
+			"name": "teardown",
+			"order": 14,
+			"type": "kObjectref",
+			"subtype": "oTestReportTeardown",
+			"sublen": 0,
+			"desc": "The results of the series of operations required to clean up after the all the tests were executed (successfully or otherwise)."
+		},
+		{
+			"name": "test",
+			"order": 12,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "tester",
+			"order": 7,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Name of the tester producing this report (Organization or individual)."
+		},
+		{
+			"name": "testScript",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Ideally this is an absolute URL that is used to identify the version-specific TestScript that was executed, matching the `TestScript.url`."
+		},
+		{
+			"name": "test_",
+			"order": 13,
+			"type": "kObjectref",
+			"subtype": "oTestReportTest",
+			"sublen": 0,
+			"desc": "A test executed from the test script."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:40:11",
+		"desc": "Base StructureDefinition for TestReport Resource",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:27",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

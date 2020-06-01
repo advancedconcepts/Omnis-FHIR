@@ -1,0 +1,4 @@
+If objective.$validref()=kFalse
+	Calculate objective as $clib.$classes.oResearchStudyObjective.$newref()
+End If
+Quit method objective

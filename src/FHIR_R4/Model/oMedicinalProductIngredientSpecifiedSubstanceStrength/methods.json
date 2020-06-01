@@ -1,0 +1,297 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$presentation",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: The quantity of substance in the unit of presentation, or in the volume (or mass) of the single pharmaceutical product or manufactured item.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$presentation.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oRatio",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The quantity of substance in the unit of presentation, or in the volume (or mass) of the single pharmaceutical product or manufactured item."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$presentationLowLimit",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: A lower limit for the quantity of substance in the unit of presentation. For use when there is a range of strengths, this is the lower limit, with the presentation attribute becoming the upper limit.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$presentationLowLimit.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oRatio",
+				"sublen": 0,
+				"param": 1,
+				"desc": "A lower limit for the quantity of substance in the unit of presentation. For use when there is a range of strengths, this is the lower limit, with the presentation attribute becoming the upper limit."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$concentration",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: The strength per unitary volume (or mass).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$concentration.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oRatio",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The strength per unitary volume (or mass)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$concentrationLowLimit",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: A lower limit for the strength per unitary volume (or mass), for when there is a range. The concentration attribute then becomes the upper limit.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$concentrationLowLimit.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oRatio",
+				"sublen": 0,
+				"param": 1,
+				"desc": "A lower limit for the strength per unitary volume (or mass), for when there is a range. The concentration attribute then becomes the upper limit."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$measurementPoint",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: For when strength is measured at a particular point or distance.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$measurementPoint.$assign",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "For when strength is measured at a particular point or distance."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$country",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: The country or countries for which the strength range applies.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcountry",
+		"ident": 15,
+		"order": 16,
+		"desc": "The country or countries for which the strength range applies.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "The country or countries for which the strength range applies."
+			}
+		]
+	},
+	{
+		"name": "$referenceStrength",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: Strength expressed in terms of a reference substance.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addreferenceStrength",
+		"ident": 17,
+		"order": 18,
+		"desc": "Strength expressed in terms of a reference substance.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMedicinalProductIngredientSpecifiedSubstanceStrengthReferenceStrength",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oMedicinalProductIngredientSpecifiedSubstanceStrengthReferenceStrength",
+				"sublen": 0,
+				"desc": "Strength expressed in terms of a reference substance."
+			}
+		]
+	}
+]

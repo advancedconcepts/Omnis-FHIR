@@ -1,0 +1,4 @@
+Do inherited
+Calculate assessmentMethod as pValue.$assessmentMethod()
+Calculate entityRelatedness as pValue.$entityRelatedness()
+Calculate author as pValue.$author()

@@ -1,0 +1,16 @@
+Do inherited
+Do subject.$clear()
+Calculate list as pValue.$subject()
+Do subject.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate description as pValue.$description()
+Do interactant.$clear()
+Calculate list as pValue.$interactant()
+Do interactant.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate type as pValue.$type()
+Calculate effect as pValue.$effect()
+Calculate incidence as pValue.$incidence()
+Calculate management as pValue.$management()

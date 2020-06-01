@@ -1,0 +1,6 @@
+Do inherited
+Do type.$define(type_)
+Do schedule.$define(schedule_)
+Do nutrient.$define(nutrient_)
+Do texture.$define(texture_)
+Do fluidConsistencyType.$define(fluidConsistencyType_)

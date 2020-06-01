@@ -1,0 +1,89 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate active as pValue.$active()
+Calculate providedBy as pValue.$providedBy()
+Do category.$clear()
+Calculate list as pValue.$category()
+Do category.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do type.$clear()
+Calculate list as pValue.$type()
+Do type.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do specialty.$clear()
+Calculate list as pValue.$specialty()
+Do specialty.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do location.$clear()
+Calculate list as pValue.$location()
+Do location.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate name as pValue.$name()
+Calculate comment as pValue.$comment()
+Calculate extraDetails as pValue.$extraDetails()
+Calculate photo as pValue.$photo()
+Do telecom.$clear()
+Calculate list as pValue.$telecom()
+Do telecom.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do coverageArea.$clear()
+Calculate list as pValue.$coverageArea()
+Do coverageArea.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do serviceProvisionCode.$clear()
+Calculate list as pValue.$serviceProvisionCode()
+Do serviceProvisionCode.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do eligibility.$clear()
+Calculate list as pValue.$eligibility()
+Do eligibility.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do program.$clear()
+Calculate list as pValue.$program()
+Do program.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do characteristic.$clear()
+Calculate list as pValue.$characteristic()
+Do characteristic.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do communication.$clear()
+Calculate list as pValue.$communication()
+Do communication.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do referralMethod.$clear()
+Calculate list as pValue.$referralMethod()
+Do referralMethod.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate appointmentRequired as pValue.$appointmentRequired()
+Do availableTime.$clear()
+Calculate list as pValue.$availableTime()
+Do availableTime.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do notAvailable.$clear()
+Calculate list as pValue.$notAvailable()
+Do notAvailable.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate availabilityExceptions as pValue.$availabilityExceptions()
+Do endpoint.$clear()
+Calculate list as pValue.$endpoint()
+Do endpoint.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

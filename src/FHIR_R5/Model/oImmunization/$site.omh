@@ -1,0 +1,4 @@
+If site.$validref()=kFalse
+	Calculate site as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method site

@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$Non-serious",
+		"ident": 0,
+		"order": 1,
+		"desc": "Serious.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Serious",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

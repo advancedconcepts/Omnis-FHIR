@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$known-reaction-risk",
+		"ident": 0,
+		"order": 1,
+		"desc": "No known risk of allergy or intolerance reaction upon exposure to the specified substance.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$no-known-reaction-risk",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

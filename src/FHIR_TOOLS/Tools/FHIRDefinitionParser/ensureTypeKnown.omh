@@ -1,0 +1,16 @@
+If iURL2Types.$search($ref.iType=pName,kTrue,kFalse,kFalse,kFalse)
+	If (iURL2Types.iOmnisType<>'')
+		Quit method
+	End If
+End If
+
+For i from 1 to iTypes.$colcount step 1
+	Calculate entry as iTypes.C[i]
+	Calculate resource as entry.resource
+	If (resource.id=pName)
+		Do method parseOneType (resource)
+		Quit method
+	End If
+End For
+
+Breakpoint

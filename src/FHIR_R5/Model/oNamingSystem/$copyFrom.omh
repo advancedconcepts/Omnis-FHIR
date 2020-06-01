@@ -1,0 +1,30 @@
+Do inherited
+Calculate name as pValue.$name()
+Calculate status as pValue.$status()
+Calculate kind as pValue.$kind()
+Calculate date as pValue.$date()
+Calculate publisher as pValue.$publisher()
+Do contact.$clear()
+Calculate list as pValue.$contact()
+Do contact.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate responsible as pValue.$responsible()
+Calculate type as pValue.$type()
+Calculate description as pValue.$description()
+Do useContext.$clear()
+Calculate list as pValue.$useContext()
+Do useContext.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do jurisdiction.$clear()
+Calculate list as pValue.$jurisdiction()
+Do jurisdiction.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate usage as pValue.$usage()
+Do uniqueId.$clear()
+Calculate list as pValue.$uniqueId()
+Do uniqueId.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

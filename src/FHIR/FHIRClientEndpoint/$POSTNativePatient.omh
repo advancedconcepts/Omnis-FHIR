@@ -1,0 +1,3 @@
+Calculate patient as iContext.$createResource('Patient')
+Do iBridge.$patientToResource(iContext,pNativePatient.$ref,patient)
+Quit method $cinst.$POSTPatient(patient,pFormat)

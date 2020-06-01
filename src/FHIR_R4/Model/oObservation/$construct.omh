@@ -1,0 +1,13 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do basedOn.$define(basedOn_)
+Do partOf.$define(partOf_)
+Do category.$define(category_)
+Do focus.$define(focus_)
+Do performer.$define(performer_)
+Do interpretation.$define(interpretation_)
+Do note.$define(note_)
+Do referenceRange.$define(referenceRange_)
+Do hasMember.$define(hasMember_)
+Do derivedFrom.$define(derivedFrom_)
+Do component.$define(component_)

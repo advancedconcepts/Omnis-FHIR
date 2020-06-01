@@ -1,0 +1,9 @@
+Do inherited
+Calculate type as pValue.$type()
+Calculate applicability as pValue.$applicability()
+Do qualifiers.$clear()
+Calculate list as pValue.$qualifiers()
+Do qualifiers.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate value as pValue.$value()

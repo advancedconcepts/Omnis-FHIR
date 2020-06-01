@@ -1,0 +1,28 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate administrableDoseForm as pValue.$administrableDoseForm()
+Calculate unitOfPresentation as pValue.$unitOfPresentation()
+Do ingredient.$clear()
+Calculate list as pValue.$ingredient()
+Do ingredient.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do device.$clear()
+Calculate list as pValue.$device()
+Do device.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do characteristics.$clear()
+Calculate list as pValue.$characteristics()
+Do characteristics.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do routeOfAdministration.$clear()
+Calculate list as pValue.$routeOfAdministration()
+Do routeOfAdministration.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

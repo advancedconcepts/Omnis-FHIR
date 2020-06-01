@@ -1,0 +1,6 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do name.$define(name_)
+Do telecom.$define(telecom_)
+Do address.$define(address_)
+Do link.$define(link_)

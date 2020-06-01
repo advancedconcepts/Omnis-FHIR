@@ -1,0 +1,109 @@
+[
+	{
+		"name": "$0370",
+		"ident": 0,
+		"order": 1,
+		"desc": "Physical Therapy.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$0420",
+		"ident": 1,
+		"order": 2,
+		"desc": "Physical Therapy - visit charge.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$0421",
+		"ident": 2,
+		"order": 3,
+		"desc": "Speech-Language Pathology.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$0440",
+		"ident": 3,
+		"order": 4,
+		"desc": "Speech-Language Pathology- visit charge",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$0441",
+		"ident": 4,
+		"order": 5,
+		"desc": "Emergency Room",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$0450",
+		"ident": 5,
+		"order": 6,
+		"desc": "Emergency Room - EM/EMTALA",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$0451",
+		"ident": 6,
+		"order": 7,
+		"desc": "Emergency Room - beyond EMTALA",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$0452",
+		"ident": 7,
+		"order": 8,
+		"desc": "Vision Clinic",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$0010",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

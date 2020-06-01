@@ -1,0 +1,12 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"-1",38,"Identifier")
+Do pElements.$add("name","::name",0,"1",21,"string")
+Do pElements.$add("status","status",1,"1",21,"code")
+Do pElements.$add("topic","topic",1,"1",38,"Reference")
+Do pElements.$add("contact","contact",0,"-1",38,"ContactPoint")
+Do pElements.$add("end","end",0,"1",23,"instant")
+Do pElements.$add("reason","reason",0,"1",21,"string")
+Do pElements.$add("filterBy","filterBy",0,"-1",38,"")
+Do pElements.$add("error","error",0,"-1",38,"CodeableConcept")
+Do pElements.$add("eventCount","eventCount",0,"1",26,"unsignedInt")
+Do pElements.$add("channel","channel",1,"1",38,"")

@@ -1,0 +1,4 @@
+If legalStatusOfSupply.$validref()=kFalse
+	Calculate legalStatusOfSupply as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method legalStatusOfSupply

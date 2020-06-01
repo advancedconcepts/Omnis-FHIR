@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$routine",
+		"ident": 0,
+		"order": 1,
+		"desc": "The order should be urgently.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$urgent",
+		"ident": 1,
+		"order": 2,
+		"desc": "The order is time-critical.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$stat",
+		"ident": 2,
+		"order": 3,
+		"desc": "The order should be acted on as soon as possible.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$asap",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

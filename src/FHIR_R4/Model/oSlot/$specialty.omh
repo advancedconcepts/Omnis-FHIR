@@ -1,0 +1,4 @@
+If specialty.$validref()=kFalse
+	Calculate specialty as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method specialty

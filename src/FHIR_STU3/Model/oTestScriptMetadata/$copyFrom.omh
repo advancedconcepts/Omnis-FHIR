@@ -1,0 +1,11 @@
+Do inherited
+Do link.$clear()
+Calculate list as pValue.$link()
+Do link.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do capability.$clear()
+Calculate list as pValue.$capability()
+Do capability.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

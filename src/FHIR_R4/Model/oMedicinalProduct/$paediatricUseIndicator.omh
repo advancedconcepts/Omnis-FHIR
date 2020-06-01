@@ -1,0 +1,4 @@
+If paediatricUseIndicator.$validref()=kFalse
+	Calculate paediatricUseIndicator as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method paediatricUseIndicator

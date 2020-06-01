@@ -1,0 +1,29 @@
+Do inherited
+Calculate type as pValue.$type()
+Do subtype.$clear()
+Calculate list as pValue.$subtype()
+Do subtype.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate action as pValue.$action()
+Calculate severity as pValue.$severity()
+Calculate period as pValue.$period()
+Calculate recorded as pValue.$recorded()
+Calculate outcome as pValue.$outcome()
+Calculate outcomeDesc as pValue.$outcomeDesc()
+Do purposeOfEvent.$clear()
+Calculate list as pValue.$purposeOfEvent()
+Do purposeOfEvent.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do agent.$clear()
+Calculate list as pValue.$agent()
+Do agent.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate source as pValue.$source()
+Do entity.$clear()
+Calculate list as pValue.$entity()
+Do entity.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

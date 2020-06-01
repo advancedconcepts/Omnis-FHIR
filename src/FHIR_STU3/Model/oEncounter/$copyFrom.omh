@@ -1,0 +1,66 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate status as pValue.$status()
+Do statusHistory.$clear()
+Calculate list as pValue.$statusHistory()
+Do statusHistory.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate class as pValue.$class()
+Do classHistory.$clear()
+Calculate list as pValue.$classHistory()
+Do classHistory.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do type.$clear()
+Calculate list as pValue.$type()
+Do type.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate priority as pValue.$priority()
+Calculate subject as pValue.$subject()
+Do episodeOfCare.$clear()
+Calculate list as pValue.$episodeOfCare()
+Do episodeOfCare.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do incomingReferral.$clear()
+Calculate list as pValue.$incomingReferral()
+Do incomingReferral.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do participant.$clear()
+Calculate list as pValue.$participant()
+Do participant.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate appointment as pValue.$appointment()
+Calculate period as pValue.$period()
+Calculate length as pValue.$length()
+Do reason.$clear()
+Calculate list as pValue.$reason()
+Do reason.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do diagnosis.$clear()
+Calculate list as pValue.$diagnosis()
+Do diagnosis.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do account.$clear()
+Calculate list as pValue.$account()
+Do account.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate hospitalization as pValue.$hospitalization()
+Do location.$clear()
+Calculate list as pValue.$location()
+Do location.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate serviceProvider as pValue.$serviceProvider()
+Calculate partOf as pValue.$partOf()

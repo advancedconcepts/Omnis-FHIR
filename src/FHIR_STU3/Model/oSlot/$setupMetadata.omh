@@ -1,0 +1,12 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"-1",38,"Identifier")
+Do pElements.$add("serviceCategory","serviceCategory",0,"1",38,"CodeableConcept")
+Do pElements.$add("serviceType","serviceType",0,"-1",38,"CodeableConcept")
+Do pElements.$add("specialty","specialty",0,"-1",38,"CodeableConcept")
+Do pElements.$add("appointmentType","appointmentType",0,"1",38,"CodeableConcept")
+Do pElements.$add("schedule","schedule",1,"1",38,"Reference")
+Do pElements.$add("status","status",1,"1",21,"code")
+Do pElements.$add("start","start",1,"1",23,"instant")
+Do pElements.$add("end","end",1,"1",23,"instant")
+Do pElements.$add("overbooked","overbooked",0,"1",22,"boolean")
+Do pElements.$add("comment","comment",0,"1",21,"string")

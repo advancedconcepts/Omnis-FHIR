@@ -1,0 +1,9 @@
+Do inherited
+Do pElements.$add("number","number",1,"1",21,"string")
+Do pElements.$add("type","::type",0,"1",21,"string")
+Do pElements.$add("name","::name",0,"1",21,"string")
+Do pElements.$add("initiator","initiator",0,"1",21,"string")
+Do pElements.$add("receiver","receiver",0,"1",21,"string")
+Do pElements.$add("description","description",0,"1",21,"markdown")
+Do pElements.$add("initiatorActive","initiatorActive",0,"1",22,"boolean")
+Do pElements.$add("receiverActive","receiverActive",0,"1",22,"boolean")

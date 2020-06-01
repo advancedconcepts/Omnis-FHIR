@@ -1,0 +1,13 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"-1",38,"Identifier")
+Do pElements.$add("status","status",0,"1",21,"code")
+Do pElements.$add("category","category",0,"-1",38,"CodeableConcept")
+Do pElements.$add("name","::name",0,"1",21,"string")
+Do pElements.$add("subject","subject",0,"1",38,"Reference")
+Do pElements.$add("period","period",0,"1",38,"Period")
+Do pElements.$add("participant","participant",0,"-1",38,"")
+Do pElements.$add("reasonCode","reasonCode",0,"-1",38,"CodeableConcept")
+Do pElements.$add("reasonReference","reasonReference",0,"-1",38,"Reference")
+Do pElements.$add("managingOrganization","managingOrganization",0,"-1",38,"Reference")
+Do pElements.$add("telecom","telecom",0,"-1",38,"ContactPoint")
+Do pElements.$add("note","note",0,"-1",38,"Annotation")

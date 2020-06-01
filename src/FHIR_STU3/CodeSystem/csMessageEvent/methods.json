@@ -1,0 +1,145 @@
+[
+	{
+		"name": "$CodeSystem-expand",
+		"ident": 0,
+		"order": 1,
+		"desc": "Change the status of a Medication Administration to show that it is complete.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MedicationAdministration-Complete",
+		"ident": 1,
+		"order": 2,
+		"desc": "Someone wishes to record that the record of administration of a medication is in error and should be ignored.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MedicationAdministration-Nullification",
+		"ident": 2,
+		"order": 3,
+		"desc": "Indicates that a medication has been recorded against the patient's record.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MedicationAdministration-Recording",
+		"ident": 3,
+		"order": 4,
+		"desc": "Update a Medication Administration record.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MedicationAdministration-Update",
+		"ident": 4,
+		"order": 5,
+		"desc": "Notification of a change to an administrative resource (either create or update). Note that there is no delete, though some administrative resources have status or period elements for this use.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$admin-notify",
+		"ident": 5,
+		"order": 6,
+		"desc": "Notification to convey information.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$communication-request",
+		"ident": 6,
+		"order": 7,
+		"desc": "Provide a diagnostic report, or update a previously provided diagnostic report.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$diagnosticreport-provide",
+		"ident": 7,
+		"order": 8,
+		"desc": "Provide a simple observation or update a previously provided simple observation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$observation-provide",
+		"ident": 8,
+		"order": 9,
+		"desc": "Notification that two patient records actually identify the same patient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$patient-link",
+		"ident": 9,
+		"order": 10,
+		"desc": "Notification that previous advice that two patient records concern the same patient is now considered incorrect.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$patient-unlink",
+		"ident": 10,
+		"order": 11,
+		"desc": "The definition of a value set is used to create a simple collection of codes suitable for use for data entry or validation. An expanded value set will be returned, or an error message.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$valueset-expand",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

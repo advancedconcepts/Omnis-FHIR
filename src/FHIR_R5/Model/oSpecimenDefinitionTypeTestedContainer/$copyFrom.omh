@@ -1,0 +1,12 @@
+Do inherited
+Calculate material as pValue.$material()
+Calculate type as pValue.$type()
+Calculate cap as pValue.$cap()
+Calculate description as pValue.$description()
+Calculate capacity as pValue.$capacity()
+Do additive.$clear()
+Calculate list as pValue.$additive()
+Do additive.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate preparation as pValue.$preparation()

@@ -1,0 +1,44 @@
+{
+	"classtype": "kMenu",
+	"internalversion": 8,
+	"designtaskname": "Startup_Task",
+	"nextident": 1011,
+	"cvardefs": [
+
+	],
+	"ivardefs": [
+		{
+			"name": "iFhirParser",
+			"order": 1,
+			"type": "kObject",
+			"subtype": "FHIRDefinitionParser",
+			"sublen": 0,
+			"initval": "'/Volumes/Macintosh-HD⁩/⁨Sources⁩/FHIRDownloads⁩'",
+			"desc": "This is the path to the downloaded FHIR definitions"
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-01-30 11:34:47",
+		"desc": "",
+		"editor": "",
+		"editordata": "",
+		"enabled": true,
+		"external": true,
+		"helpfile": 0,
+		"helptext": "",
+		"inheritedorder": 0,
+		"issupercomponent": false,
+		"moddate": "2020-04-06 17:58:18",
+		"showascheckedout": false,
+		"title": {
+			"type": 0,
+			"calc": "FHIRGenerator"
+		},
+		"userinfo": "",
+		"users": "12345678",
+		"version": ""
+	}
+}

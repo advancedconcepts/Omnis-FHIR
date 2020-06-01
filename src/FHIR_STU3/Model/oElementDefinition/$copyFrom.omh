@@ -1,0 +1,96 @@
+Do inherited
+Calculate path as pValue.$path()
+Do representation.$clear()
+Calculate list as pValue.$representation()
+Do representation.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate sliceName as pValue.$sliceName()
+Calculate label as pValue.$label()
+Do code.$clear()
+Calculate list as pValue.$code()
+Do code.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate slicing as pValue.$slicing()
+Do slicing.discriminator.$clear()
+Calculate list as pValue.$slicing.discriminator()
+Do slicing.discriminator.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate slicing.discriminator.type as pValue.$slicing.discriminator.type()
+Calculate slicing.discriminator.path as pValue.$slicing.discriminator.path()
+Calculate slicing.description as pValue.$slicing.description()
+Calculate slicing.ordered as pValue.$slicing.ordered()
+Calculate slicing.rules as pValue.$slicing.rules()
+Calculate short as pValue.$short()
+Calculate definition as pValue.$definition()
+Calculate comment as pValue.$comment()
+Calculate requirements as pValue.$requirements()
+Do alias.$clear()
+Calculate list as pValue.$alias()
+Do alias.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate min as pValue.$min()
+Calculate max as pValue.$max()
+Calculate base as pValue.$base()
+Calculate base.path as pValue.$base.path()
+Calculate base.min as pValue.$base.min()
+Calculate base.max as pValue.$base.max()
+Calculate contentReference as pValue.$contentReference()
+Do type.$clear()
+Calculate list as pValue.$type()
+Do type.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate type.code as pValue.$type.code()
+Calculate type.profile as pValue.$type.profile()
+Calculate type.targetProfile as pValue.$type.targetProfile()
+Do type.aggregation.$clear()
+Calculate list as pValue.$type.aggregation()
+Do type.aggregation.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate type.versioning as pValue.$type.versioning()
+Calculate meaningWhenMissing as pValue.$meaningWhenMissing()
+Calculate orderMeaning as pValue.$orderMeaning()
+Do example.$clear()
+Calculate list as pValue.$example()
+Do example.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate example.label as pValue.$example.label()
+Calculate maxLength as pValue.$maxLength()
+Do condition.$clear()
+Calculate list as pValue.$condition()
+Do condition.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do constraint.$clear()
+Calculate list as pValue.$constraint()
+Do constraint.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate constraint.key as pValue.$constraint.key()
+Calculate constraint.requirements as pValue.$constraint.requirements()
+Calculate constraint.severity as pValue.$constraint.severity()
+Calculate constraint.human as pValue.$constraint.human()
+Calculate constraint.expression as pValue.$constraint.expression()
+Calculate constraint.xpath as pValue.$constraint.xpath()
+Calculate constraint.source as pValue.$constraint.source()
+Calculate mustSupport as pValue.$mustSupport()
+Calculate isModifier as pValue.$isModifier()
+Calculate isSummary as pValue.$isSummary()
+Calculate binding as pValue.$binding()
+Calculate binding.strength as pValue.$binding.strength()
+Calculate binding.description as pValue.$binding.description()
+Do mapping.$clear()
+Calculate list as pValue.$mapping()
+Do mapping.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate mapping.identity as pValue.$mapping.identity()
+Calculate mapping.language as pValue.$mapping.language()
+Calculate mapping.map as pValue.$mapping.map()
+Calculate mapping.comment as pValue.$mapping.comment()

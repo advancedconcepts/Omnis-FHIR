@@ -1,0 +1,4 @@
+If mapping.$validref()=kFalse
+	Calculate mapping as $clib.$classes.oDataElementMapping.$newref()
+End If
+Quit method mapping

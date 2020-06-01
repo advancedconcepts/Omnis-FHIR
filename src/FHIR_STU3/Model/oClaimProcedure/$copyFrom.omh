@@ -1,0 +1,3 @@
+Do inherited
+Calculate sequence as pValue.$sequence()
+Calculate date as pValue.$date()

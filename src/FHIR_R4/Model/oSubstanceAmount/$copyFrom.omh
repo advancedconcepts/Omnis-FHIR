@@ -1,0 +1,6 @@
+Do inherited
+Calculate amountType as pValue.$amountType()
+Calculate amountText as pValue.$amountText()
+Calculate referenceRange as pValue.$referenceRange()
+Calculate referenceRange.lowLimit as pValue.$referenceRange.lowLimit()
+Calculate referenceRange.highLimit as pValue.$referenceRange.highLimit()

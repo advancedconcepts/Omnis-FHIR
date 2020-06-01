@@ -1,0 +1,4 @@
+If teardown.$validref()=kFalse
+	Calculate teardown as $clib.$classes.oTestScriptTeardown.$newref()
+End If
+Quit method teardown

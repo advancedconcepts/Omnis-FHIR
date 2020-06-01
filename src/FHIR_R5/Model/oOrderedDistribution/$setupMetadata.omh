@@ -1,0 +1,9 @@
+Do inherited
+Do pElements.$add("description","description",0,"1",21,"string")
+Do pElements.$add("note","note",0,"-1",38,"Annotation")
+Do pElements.$add("numberOfIntervals","numberOfIntervals",1,"1",26,"integer")
+Do pElements.$add("bottomOfFirstInterval","bottomOfFirstInterval",0,"1",38,"Quantity")
+Do pElements.$add("interval","interval",1,"-1",38,"Element")
+Do pElements.$add("interval.rankOrder","interval.rankOrder",1,"1",26,"integer")
+Do pElements.$add("interval.intervalStatistic","interval.intervalStatistic",0,"-1",38,"Statistic")
+Do pElements.$add("topOfInterval","topOfInterval",0,"1",38,"Quantity")

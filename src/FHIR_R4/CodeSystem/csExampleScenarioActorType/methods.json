@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$person",
+		"ident": 0,
+		"order": 1,
+		"desc": "A system.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$entity",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

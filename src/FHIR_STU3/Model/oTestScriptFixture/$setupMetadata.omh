@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("autocreate","autocreate",0,"1",22,"boolean")
+Do pElements.$add("autodelete","autodelete",0,"1",22,"boolean")
+Do pElements.$add("resource","resource",0,"1",38,"Reference")

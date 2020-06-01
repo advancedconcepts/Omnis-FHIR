@@ -1,0 +1,15 @@
+Do inherited
+Calculate use as pValue.$use()
+Calculate type as pValue.$type()
+Calculate text as pValue.$text()
+Do line.$clear()
+Calculate list as pValue.$line()
+Do line.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate city as pValue.$city()
+Calculate district as pValue.$district()
+Calculate state as pValue.$state()
+Calculate postalCode as pValue.$postalCode()
+Calculate country as pValue.$country()
+Calculate period as pValue.$period()

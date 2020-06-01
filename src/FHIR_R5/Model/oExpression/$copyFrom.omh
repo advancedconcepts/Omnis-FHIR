@@ -1,0 +1,6 @@
+Do inherited
+Calculate description as pValue.$description()
+Calculate name as pValue.$name()
+Calculate language as pValue.$language()
+Calculate expression as pValue.$expression()
+Calculate reference as pValue.$reference()

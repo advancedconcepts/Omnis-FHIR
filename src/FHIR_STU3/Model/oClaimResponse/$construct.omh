@@ -1,0 +1,8 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do item.$define(item_)
+Do addItem.$define(addItem_)
+Do error.$define(error_)
+Do processNote.$define(processNote_)
+Do communicationRequest.$define(communicationRequest_)
+Do insurance.$define(insurance_)

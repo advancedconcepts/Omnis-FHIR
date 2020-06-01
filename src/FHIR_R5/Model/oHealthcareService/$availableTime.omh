@@ -1,0 +1,4 @@
+If availableTime.$validref()=kFalse
+	Calculate availableTime as $clib.$classes.oHealthcareServiceAvailableTime.$newref()
+End If
+Quit method availableTime

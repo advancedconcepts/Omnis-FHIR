@@ -1,0 +1,13 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"-1",38,"Identifier")
+Do pElements.$add("status","status",0,"1",21,"code")
+Do pElements.$add("type","::type",0,"1",38,"CodeableConcept")
+Do pElements.$add("name","::name",0,"1",21,"string")
+Do pElements.$add("subject","subject",0,"1",38,"Reference")
+Do pElements.$add("period","period",0,"1",38,"Period")
+Do pElements.$add("active","active",0,"1",38,"Period")
+Do pElements.$add("balance","balance",0,"1",38,"Money")
+Do pElements.$add("coverage","coverage",0,"-1",38,"")
+Do pElements.$add("owner","owner",0,"1",38,"Reference")
+Do pElements.$add("description","description",0,"1",21,"string")
+Do pElements.$add("guarantor","guarantor",0,"-1",38,"")

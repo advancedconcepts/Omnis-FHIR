@@ -1,0 +1,253 @@
+[
+	{
+		"name": "$average",
+		"ident": 0,
+		"order": 1,
+		"desc": "The [maximum](https://en.wikipedia.org/wiki/Maximal_element) value of N measurements over the stated period.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$maximum",
+		"ident": 1,
+		"order": 2,
+		"desc": "The [minimum](https://en.wikipedia.org/wiki/Minimal_element) value of N measurements over the stated period.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$minimum",
+		"ident": 2,
+		"order": 3,
+		"desc": "The [number] of valid measurements over the stated period that contributed to the other statistical outputs.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$count",
+		"ident": 3,
+		"order": 4,
+		"desc": "The total [number] of valid measurements over the stated period, including observations that were ignored because they did not contain valid result values.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$total-count",
+		"ident": 4,
+		"order": 5,
+		"desc": "The [median](https://en.wikipedia.org/wiki/Median) of N measurements over the stated period.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$median",
+		"ident": 5,
+		"order": 6,
+		"desc": "The [standard deviation](https://en.wikipedia.org/wiki/Standard_deviation) of N measurements over the stated period.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$std-dev",
+		"ident": 6,
+		"order": 7,
+		"desc": "The [sum](https://en.wikipedia.org/wiki/Summation) of N measurements over the stated period.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sum",
+		"ident": 7,
+		"order": 8,
+		"desc": "The [variance](https://en.wikipedia.org/wiki/Variance) of N measurements over the stated period.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$variance",
+		"ident": 8,
+		"order": 9,
+		"desc": "The 20th [Percentile](https://en.wikipedia.org/wiki/Percentile) of N measurements over the stated period.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$20-percent",
+		"ident": 9,
+		"order": 10,
+		"desc": "The 80th [Percentile](https://en.wikipedia.org/wiki/Percentile) of N measurements over the stated period.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$80-percent",
+		"ident": 10,
+		"order": 11,
+		"desc": "The lower [Quartile](https://en.wikipedia.org/wiki/Quartile) Boundary of N measurements over the stated period.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$4-lower",
+		"ident": 11,
+		"order": 12,
+		"desc": "The upper [Quartile](https://en.wikipedia.org/wiki/Quartile) Boundary of N measurements over the stated period.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$4-upper",
+		"ident": 12,
+		"order": 13,
+		"desc": "The difference between the upper and lower [Quartiles](https://en.wikipedia.org/wiki/Quartile) is called the Interquartile range. (IQR = Q3-Q1) Quartile deviation or Semi-interquartile range is one-half the difference between the first and the third quartiles.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$4-dev",
+		"ident": 13,
+		"order": 14,
+		"desc": "The lowest of four values that divide the N measurements into a frequency distribution of five classes with each containing one fifth of the total population.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$5-1",
+		"ident": 14,
+		"order": 15,
+		"desc": "The second of four values that divide the N measurements into a frequency distribution of five classes with each containing one fifth of the total population.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$5-2",
+		"ident": 15,
+		"order": 16,
+		"desc": "The third of four values that divide the N measurements into a frequency distribution of five classes with each containing one fifth of the total population.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$5-3",
+		"ident": 16,
+		"order": 17,
+		"desc": "The fourth of four values that divide the N measurements into a frequency distribution of five classes with each containing one fifth of the total population.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$5-4",
+		"ident": 17,
+		"order": 18,
+		"desc": "Skewness is a measure of the asymmetry of the probability distribution of a real-valued random variable about its mean. The skewness value can be positive or negative, or even undefined.  Source: [Wikipedia](https://en.wikipedia.org/wiki/Skewness).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$skew",
+		"ident": 18,
+		"order": 19,
+		"desc": "Kurtosis  is a measure of the \"tailedness\" of the probability distribution of a real-valued random variable.   Source: [Wikipedia](https://en.wikipedia.org/wiki/Kurtosis).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$kurtosis",
+		"ident": 19,
+		"order": 20,
+		"desc": "Linear regression is an approach for modeling two-dimensional sample points with one independent variable and one dependent variable (conventionally, the x and y coordinates in a Cartesian coordinate system) and finds a linear function (a non-vertical straight line) that, as accurately as possible, predicts the dependent variable values as a function of the independent variables. Source: [Wikipedia](https://en.wikipedia.org/wiki/Simple_linear_regression)  This Statistic code will return both a gradient and an intercept value.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$regression",
+		"ident": 20,
+		"order": 21,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

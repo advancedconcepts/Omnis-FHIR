@@ -1,0 +1,4 @@
+If riskEvidenceSynthesis.$validref()=kFalse
+	Calculate riskEvidenceSynthesis as $clib.$classes.oReference.$newref()
+End If
+Quit method riskEvidenceSynthesis

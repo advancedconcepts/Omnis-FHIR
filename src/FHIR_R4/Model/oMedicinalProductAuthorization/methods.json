@@ -1,0 +1,602 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$identifier",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: Business identifier for the marketing authorization, as assigned by a regulator.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addidentifier",
+		"ident": 6,
+		"order": 7,
+		"desc": "Business identifier for the marketing authorization, as assigned by a regulator.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"desc": "Business identifier for the marketing authorization, as assigned by a regulator."
+			}
+		]
+	},
+	{
+		"name": "$subject",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: The medicinal product that is being authorized.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subject.$assign",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The medicinal product that is being authorized."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$country",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: The country in which the marketing authorization has been granted.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcountry",
+		"ident": 10,
+		"order": 11,
+		"desc": "The country in which the marketing authorization has been granted.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "The country in which the marketing authorization has been granted."
+			}
+		]
+	},
+	{
+		"name": "$jurisdiction",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: Jurisdiction within a country.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addjurisdiction",
+		"ident": 12,
+		"order": 13,
+		"desc": "Jurisdiction within a country.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Jurisdiction within a country."
+			}
+		]
+	},
+	{
+		"name": "$status",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: The status of the marketing authorization.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$status.$assign",
+		"ident": 14,
+		"order": 15,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The status of the marketing authorization."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$statusDate",
+		"ident": 15,
+		"order": 16,
+		"desc": "Returns: The date at which the given status has become applicable.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$statusDate.$assign",
+		"ident": 16,
+		"order": 17,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kDate",
+				"subtype": "kDatetime",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The date at which the given status has become applicable."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$restoreDate",
+		"ident": 17,
+		"order": 18,
+		"desc": "Returns: The date when a suspended the marketing or the marketing authorization of the product is anticipated to be restored.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$restoreDate.$assign",
+		"ident": 18,
+		"order": 19,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kDate",
+				"subtype": "kDatetime",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The date when a suspended the marketing or the marketing authorization of the product is anticipated to be restored."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$validityPeriod",
+		"ident": 19,
+		"order": 20,
+		"desc": "Returns: The beginning of the time period in which the marketing authorization is in the specific status shall be specified A complete date consisting of day, month and year shall be specified using the ISO 8601 date format.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$validityPeriod.$assign",
+		"ident": 20,
+		"order": 21,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oPeriod",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The beginning of the time period in which the marketing authorization is in the specific status shall be specified A complete date consisting of day, month and year shall be specified using the ISO 8601 date format."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$dataExclusivityPeriod",
+		"ident": 21,
+		"order": 22,
+		"desc": "Returns: A period of time after authorization before generic product applicatiosn can be submitted.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$dataExclusivityPeriod.$assign",
+		"ident": 22,
+		"order": 23,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oPeriod",
+				"sublen": 0,
+				"param": 1,
+				"desc": "A period of time after authorization before generic product applicatiosn can be submitted."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$dateOfFirstAuthorization",
+		"ident": 23,
+		"order": 24,
+		"desc": "Returns: The date when the first authorization was granted by a Medicines Regulatory Agency.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$dateOfFirstAuthorization.$assign",
+		"ident": 24,
+		"order": 25,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kDate",
+				"subtype": "kDatetime",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The date when the first authorization was granted by a Medicines Regulatory Agency."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$internationalBirthDate",
+		"ident": 25,
+		"order": 26,
+		"desc": "Returns: Date of first marketing authorization for a company's new medicinal product in any country in the World.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$internationalBirthDate.$assign",
+		"ident": 26,
+		"order": 27,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kDate",
+				"subtype": "kDatetime",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Date of first marketing authorization for a company's new medicinal product in any country in the World."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$legalBasis",
+		"ident": 27,
+		"order": 28,
+		"desc": "Returns: The legal framework against which this authorization is granted.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$legalBasis.$assign",
+		"ident": 28,
+		"order": 29,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The legal framework against which this authorization is granted."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$jurisdictionalAuthorization",
+		"ident": 29,
+		"order": 30,
+		"desc": "Returns: Authorization in areas within a country.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addjurisdictionalAuthorization",
+		"ident": 30,
+		"order": 31,
+		"desc": "Authorization in areas within a country.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMedicinalProductAuthorizationJurisdictionalAuthorization",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oMedicinalProductAuthorizationJurisdictionalAuthorization",
+				"sublen": 0,
+				"desc": "Authorization in areas within a country."
+			}
+		]
+	},
+	{
+		"name": "$holder",
+		"ident": 31,
+		"order": 32,
+		"desc": "Returns: Marketing Authorization Holder.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$holder.$assign",
+		"ident": 32,
+		"order": 33,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Marketing Authorization Holder."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$regulator",
+		"ident": 33,
+		"order": 34,
+		"desc": "Returns: Medicines Regulatory Agency.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$regulator.$assign",
+		"ident": 34,
+		"order": 35,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Medicines Regulatory Agency."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$procedure",
+		"ident": 35,
+		"order": 36,
+		"desc": "Returns: The regulatory procedure for granting or amending a marketing authorization.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$procedure.$assign",
+		"ident": 36,
+		"order": 37,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMedicinalProductAuthorizationProcedure",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The regulatory procedure for granting or amending a marketing authorization."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

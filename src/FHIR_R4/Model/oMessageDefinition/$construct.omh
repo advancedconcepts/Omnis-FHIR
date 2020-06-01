@@ -1,0 +1,10 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do replaces.$define(replaces_)
+Do contact.$define(contact_)
+Do useContext.$define(useContext_)
+Do jurisdiction.$define(jurisdiction_)
+Do parent.$define(parent_)
+Do focus.$define(focus_)
+Do allowedResponse.$define(allowedResponse_)
+Do graph.$define(graph_)

@@ -1,0 +1,3 @@
+Do inherited
+Do pElements.$add("type","::type",0,"1",38,"CodeableConcept")
+Do pElements.$add("exception","exception",0,"-1",38,"")

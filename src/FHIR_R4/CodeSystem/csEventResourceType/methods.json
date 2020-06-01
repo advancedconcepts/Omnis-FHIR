@@ -1,0 +1,409 @@
+[
+	{
+		"name": "$ChargeItem",
+		"ident": 0,
+		"order": 1,
+		"desc": "Remittance resource.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ClaimResponse",
+		"ident": 1,
+		"order": 2,
+		"desc": "A clinical assessment performed when planning treatments and management strategies for a patient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ClinicalImpression",
+		"ident": 2,
+		"order": 3,
+		"desc": "A record of information transmitted from a sender to a receiver.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Communication",
+		"ident": 3,
+		"order": 4,
+		"desc": "A set of resources composed into a single coherent clinical statement with clinical attestation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Composition",
+		"ident": 4,
+		"order": 5,
+		"desc": "Detailed information about conditions, problems or diagnoses.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Condition",
+		"ident": 5,
+		"order": 6,
+		"desc": "A healthcare consumer's policy choices to permits or denies recipients or roles to perform actions for specific purposes and periods of time.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Consent",
+		"ident": 6,
+		"order": 7,
+		"desc": "Insurance or medical plan or a payment agreement.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Coverage",
+		"ident": 7,
+		"order": 8,
+		"desc": "Record of use of a device.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$DeviceUseStatement",
+		"ident": 8,
+		"order": 9,
+		"desc": "A Diagnostic report - a combination of request information, atomic results, images, interpretation, as well as formatted reports.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$DiagnosticReport",
+		"ident": 9,
+		"order": 10,
+		"desc": "A list that defines a set of documents.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$DocumentManifest",
+		"ident": 10,
+		"order": 11,
+		"desc": "A reference to a document.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$DocumentReference",
+		"ident": 11,
+		"order": 12,
+		"desc": "An interaction during which services are provided to the patient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Encounter",
+		"ident": 12,
+		"order": 13,
+		"desc": "EnrollmentResponse resource.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$EnrollmentResponse",
+		"ident": 13,
+		"order": 14,
+		"desc": "An association of a Patient with an Organization and  Healthcare Provider(s) for a period of time that the Organization assumes some level of responsibility.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$EpisodeOfCare",
+		"ident": 14,
+		"order": 15,
+		"desc": "Explanation of Benefit resource.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ExplanationOfBenefit",
+		"ident": 15,
+		"order": 16,
+		"desc": "Information about patient's relatives, relevant for patient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$FamilyMemberHistory",
+		"ident": 16,
+		"order": 17,
+		"desc": "The formal response to a guidance request.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$GuidanceResponse",
+		"ident": 17,
+		"order": 18,
+		"desc": "A set of images produced in single study (one or more series of references images).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ImagingStudy",
+		"ident": 18,
+		"order": 19,
+		"desc": "Immunization event information.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Immunization",
+		"ident": 19,
+		"order": 20,
+		"desc": "Results of a measure evaluation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MeasureReport",
+		"ident": 20,
+		"order": 21,
+		"desc": "A photo, video, or audio recording acquired or used in healthcare. The actual content may be inline or provided by direct reference.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Media",
+		"ident": 21,
+		"order": 22,
+		"desc": "Administration of medication to a patient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MedicationAdministration",
+		"ident": 22,
+		"order": 23,
+		"desc": "Dispensing a medication to a named patient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MedicationDispense",
+		"ident": 23,
+		"order": 24,
+		"desc": "Record of medication being taken by a patient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MedicationStatement",
+		"ident": 24,
+		"order": 25,
+		"desc": "Measurements and simple assertions.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Observation",
+		"ident": 25,
+		"order": 26,
+		"desc": "PaymentNotice request.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$PaymentNotice",
+		"ident": 26,
+		"order": 27,
+		"desc": "PaymentReconciliation resource.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$PaymentReconciliation",
+		"ident": 27,
+		"order": 28,
+		"desc": "An action that is being or was performed on a patient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Procedure",
+		"ident": 28,
+		"order": 29,
+		"desc": "ProcessResponse resource.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ProcessResponse",
+		"ident": 29,
+		"order": 30,
+		"desc": "A structured set of questions and their answers.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$QuestionnaireResponse",
+		"ident": 30,
+		"order": 31,
+		"desc": "Potential outcomes for a subject with likelihood.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$RiskAssessment",
+		"ident": 31,
+		"order": 32,
+		"desc": "Delivery of bulk Supplies.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$SupplyDelivery",
+		"ident": 32,
+		"order": 33,
+		"desc": "A task to be performed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Task",
+		"ident": 33,
+		"order": 34,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,6 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do practitioner.$define(practitioner_)
+Do note.$define(note_)
+Do reaction.$define(reaction_)
+Do vaccinationProtocol.$define(vaccinationProtocol_)

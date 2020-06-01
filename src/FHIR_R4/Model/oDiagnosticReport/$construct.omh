@@ -1,0 +1,12 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do basedOn.$define(basedOn_)
+Do category.$define(category_)
+Do performer.$define(performer_)
+Do resultsInterpreter.$define(resultsInterpreter_)
+Do specimen.$define(specimen_)
+Do result.$define(result_)
+Do imagingStudy.$define(imagingStudy_)
+Do media.$define(media_)
+Do conclusionCode.$define(conclusionCode_)
+Do presentedForm.$define(presentedForm_)

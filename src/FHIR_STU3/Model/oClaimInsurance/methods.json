@@ -1,0 +1,253 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$sequence",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: Sequence of coverage which serves to provide a link and convey coordination of benefit order.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sequence.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Sequence of coverage which serves to provide a link and convey coordination of benefit order."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$focal",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: A flag to indicate that this Coverage is the focus for adjudication. The Coverage against which the claim is to be adjudicated.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$focal.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "A flag to indicate that this Coverage is the focus for adjudication. The Coverage against which the claim is to be adjudicated."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$coverage",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: Reference to the program or plan identification, underwriter or payor.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$coverage.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Reference to the program or plan identification, underwriter or payor."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$businessArrangement",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: The contract number of a business agreement which describes the terms and conditions.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$businessArrangement.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The contract number of a business agreement which describes the terms and conditions."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$preAuthRef",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: A list of references from the Insurer to which these services pertain.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addpreAuthRef",
+		"ident": 13,
+		"order": 14,
+		"desc": "A list of references from the Insurer to which these services pertain.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A list of references from the Insurer to which these services pertain."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$claimResponse",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: The Coverages adjudication details.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$claimResponse.$assign",
+		"ident": 15,
+		"order": 16,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The Coverages adjudication details."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,6 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do coverageArea.$define(coverageArea_)
+Do network.$define(network_)
+Do generalCost.$define(generalCost_)
+Do specificCost.$define(specificCost_)

@@ -1,0 +1,4 @@
+If productionSpecification.$validref()=kFalse
+	Calculate productionSpecification as $clib.$classes.oDeviceComponentProductionSpecification.$newref()
+End If
+Quit method productionSpecification

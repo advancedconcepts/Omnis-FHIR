@@ -1,0 +1,22 @@
+Do inherited
+Calculate preAdmissionIdentifier as pValue.$preAdmissionIdentifier()
+Calculate origin as pValue.$origin()
+Calculate admitSource as pValue.$admitSource()
+Calculate reAdmission as pValue.$reAdmission()
+Do dietPreference.$clear()
+Calculate list as pValue.$dietPreference()
+Do dietPreference.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do specialCourtesy.$clear()
+Calculate list as pValue.$specialCourtesy()
+Do specialCourtesy.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do specialArrangement.$clear()
+Calculate list as pValue.$specialArrangement()
+Do specialArrangement.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate destination as pValue.$destination()
+Calculate dischargeDisposition as pValue.$dischargeDisposition()

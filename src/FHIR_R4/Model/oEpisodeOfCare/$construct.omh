@@ -1,0 +1,8 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do statusHistory.$define(statusHistory_)
+Do type.$define(type_)
+Do diagnosis.$define(diagnosis_)
+Do referralRequest.$define(referralRequest_)
+Do team.$define(team_)
+Do account.$define(account_)

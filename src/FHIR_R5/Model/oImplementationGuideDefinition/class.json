@@ -1,0 +1,108 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "grouping",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "grouping_",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oImplementationGuideDefinitionGrouping",
+			"sublen": 0,
+			"desc": "A logical group of resources. Logical groups can be used when building pages."
+		},
+		{
+			"name": "page",
+			"order": 5,
+			"type": "kObjectref",
+			"subtype": "oImplementationGuideDefinitionPage",
+			"sublen": 0,
+			"desc": "A page / section in the implementation guide. The root page is the implementation guide home page."
+		},
+		{
+			"name": "parameter",
+			"order": 6,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "parameter_",
+			"order": 7,
+			"type": "kObjectref",
+			"subtype": "oImplementationGuideDefinitionParameter",
+			"sublen": 0,
+			"desc": "Defines how IG is built by tools."
+		},
+		{
+			"name": "resource",
+			"order": 3,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "resource_",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oImplementationGuideDefinitionResource",
+			"sublen": 0,
+			"desc": "A resource that is part of the implementation guide. Conformance resources (value set, structure definition, capability statements etc.) are obvious candidates for inclusion, but any kind of resource can be included as an example resource."
+		},
+		{
+			"name": "template",
+			"order": 8,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "template_",
+			"order": 9,
+			"type": "kObjectref",
+			"subtype": "oImplementationGuideDefinitionTemplate",
+			"sublen": 0,
+			"desc": "A template for building resources."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:44:51",
+		"desc": "The information needed by an IG publisher tool to publish the whole implementation guide.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:28",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

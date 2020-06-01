@@ -1,0 +1,4 @@
+Do inherited
+Calculate type as pValue.$type()
+Calculate uri as pValue.$uri()
+Calculate display as pValue.$display()

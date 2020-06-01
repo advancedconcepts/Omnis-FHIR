@@ -1,0 +1,11 @@
+Do inherited
+Do derivedFromCanonical.$define(derivedFromCanonical_)
+Do derivedFromUri.$define(derivedFromUri_)
+Do contact.$define(contact_)
+Do useContext.$define(useContext_)
+Do jurisdiction.$define(jurisdiction_)
+Do category.$define(category_)
+Do permittedDataType.$define(permittedDataType_)
+Do qualifiedInterval.$define(qualifiedInterval_)
+Do hasMember.$define(hasMember_)
+Do component.$define(component_)

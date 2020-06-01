@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$preadmit",
+		"ident": 0,
+		"order": 1,
+		"desc": "A questionnaire that helps with diferential diagnosis.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$diff-diagnosis",
+		"ident": 1,
+		"order": 2,
+		"desc": "A questionnaire to check on outcomes for the patient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$outcome",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

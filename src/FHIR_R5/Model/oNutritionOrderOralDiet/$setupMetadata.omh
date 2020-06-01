@@ -1,0 +1,7 @@
+Do inherited
+Do pElements.$add("type","::type",0,"-1",38,"CodeableConcept")
+Do pElements.$add("schedule","schedule",0,"-1",38,"Timing")
+Do pElements.$add("nutrient","nutrient",0,"-1",38,"")
+Do pElements.$add("texture","texture",0,"-1",38,"")
+Do pElements.$add("fluidConsistencyType","fluidConsistencyType",0,"-1",38,"CodeableConcept")
+Do pElements.$add("instruction","instruction",0,"1",21,"string")

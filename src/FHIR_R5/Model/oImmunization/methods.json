@@ -1,0 +1,954 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$identifier",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: A unique identifier assigned to this immunization record.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addidentifier",
+		"ident": 6,
+		"order": 7,
+		"desc": "A unique identifier assigned to this immunization record.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oIdentifier",
+				"sublen": 0,
+				"desc": "A unique identifier assigned to this immunization record."
+			}
+		]
+	},
+	{
+		"name": "$status",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: Indicates the current status of the immunization event.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$status.$assign",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Indicates the current status of the immunization event."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$statusReason",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: Indicates the reason the immunization event was not performed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$statusReason.$assign",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Indicates the reason the immunization event was not performed."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$vaccineCode",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: Vaccine that was administered or was to be administered.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$vaccineCode.$assign",
+		"ident": 12,
+		"order": 13,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Vaccine that was administered or was to be administered."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$patient",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: The patient who either received or did not receive the immunization.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$patient.$assign",
+		"ident": 14,
+		"order": 15,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The patient who either received or did not receive the immunization."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$encounter",
+		"ident": 15,
+		"order": 16,
+		"desc": "Returns: The visit or admission or other contact between patient and health care provider the immunization was performed as part of.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$encounter.$assign",
+		"ident": 16,
+		"order": 17,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The visit or admission or other contact between patient and health care provider the immunization was performed as part of."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$recorded",
+		"ident": 17,
+		"order": 18,
+		"desc": "Returns: The date the occurrence of the immunization was first captured in the record - potentially significantly after the occurrence of the event.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$recorded.$assign",
+		"ident": 18,
+		"order": 19,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kDate",
+				"subtype": "kDatetime",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The date the occurrence of the immunization was first captured in the record - potentially significantly after the occurrence of the event."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$primarySource",
+		"ident": 19,
+		"order": 20,
+		"desc": "Returns: Indicates if this record was captured as a secondary 'reported' record rather than as an original primary source-of-truth record.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$primarySource.$assign",
+		"ident": 20,
+		"order": 21,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "Indicates if this record was captured as a secondary 'reported' record rather than as an original primary source-of-truth record."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$location",
+		"ident": 21,
+		"order": 22,
+		"desc": "Returns: The service delivery location where the vaccine administration occurred.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$location.$assign",
+		"ident": 22,
+		"order": 23,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The service delivery location where the vaccine administration occurred."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$manufacturer",
+		"ident": 23,
+		"order": 24,
+		"desc": "Returns: Name of vaccine manufacturer.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$manufacturer.$assign",
+		"ident": 24,
+		"order": 25,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Name of vaccine manufacturer."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$lotNumber",
+		"ident": 25,
+		"order": 26,
+		"desc": "Returns: Lot number of the  vaccine product.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$lotNumber.$assign",
+		"ident": 26,
+		"order": 27,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Lot number of the  vaccine product."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$expirationDate",
+		"ident": 27,
+		"order": 28,
+		"desc": "Returns: Date vaccine batch expires.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$expirationDate.$assign",
+		"ident": 28,
+		"order": 29,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kDate",
+				"subtype": "kDate2000",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Date vaccine batch expires."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$site",
+		"ident": 29,
+		"order": 30,
+		"desc": "Returns: Body site where vaccine was administered.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$site.$assign",
+		"ident": 30,
+		"order": 31,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Body site where vaccine was administered."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$route",
+		"ident": 31,
+		"order": 32,
+		"desc": "Returns: The path by which the vaccine product is taken into the body.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$route.$assign",
+		"ident": 32,
+		"order": 33,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The path by which the vaccine product is taken into the body."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$doseQuantity",
+		"ident": 33,
+		"order": 34,
+		"desc": "Returns: The quantity of vaccine product that was administered.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$doseQuantity.$assign",
+		"ident": 34,
+		"order": 35,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oQuantity",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The quantity of vaccine product that was administered."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$performer",
+		"ident": 35,
+		"order": 36,
+		"desc": "Returns: Indicates who performed the immunization event.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addperformer",
+		"ident": 36,
+		"order": 37,
+		"desc": "Indicates who performed the immunization event.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oImmunizationPerformer",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oImmunizationPerformer",
+				"sublen": 0,
+				"desc": "Indicates who performed the immunization event."
+			}
+		]
+	},
+	{
+		"name": "$note",
+		"ident": 37,
+		"order": 38,
+		"desc": "Returns: Extra information about the immunization that is not conveyed by the other attributes.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addnote",
+		"ident": 38,
+		"order": 39,
+		"desc": "Extra information about the immunization that is not conveyed by the other attributes.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oAnnotation",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oAnnotation",
+				"sublen": 0,
+				"desc": "Extra information about the immunization that is not conveyed by the other attributes."
+			}
+		]
+	},
+	{
+		"name": "$reasonCode",
+		"ident": 39,
+		"order": 40,
+		"desc": "Returns: Describes why the immunization occurred in coded or textual form.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addreasonCode",
+		"ident": 40,
+		"order": 41,
+		"desc": "Describes why the immunization occurred in coded or textual form.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Describes why the immunization occurred in coded or textual form."
+			}
+		]
+	},
+	{
+		"name": "$reasonReference",
+		"ident": 41,
+		"order": 42,
+		"desc": "Returns: Indicates another resource (Condition, Observation or DiagnosticReport) whose existence justifies this immunization.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addreasonReference",
+		"ident": 42,
+		"order": 43,
+		"desc": "Indicates another resource (Condition, Observation or DiagnosticReport) whose existence justifies this immunization.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Indicates another resource (Condition, Observation or DiagnosticReport) whose existence justifies this immunization."
+			}
+		]
+	},
+	{
+		"name": "$isSubpotent",
+		"ident": 43,
+		"order": 44,
+		"desc": "Returns: Indication if a dose is considered to be subpotent. By default, a dose should be considered to be potent.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$isSubpotent.$assign",
+		"ident": 44,
+		"order": 45,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "Indication if a dose is considered to be subpotent. By default, a dose should be considered to be potent."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subpotentReason",
+		"ident": 45,
+		"order": 46,
+		"desc": "Returns: Reason why a dose is considered to be subpotent.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addsubpotentReason",
+		"ident": 46,
+		"order": 47,
+		"desc": "Reason why a dose is considered to be subpotent.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Reason why a dose is considered to be subpotent."
+			}
+		]
+	},
+	{
+		"name": "$education",
+		"ident": 47,
+		"order": 48,
+		"desc": "Returns: Educational material presented to the patient (or guardian) at the time of vaccine administration.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addeducation",
+		"ident": 48,
+		"order": 49,
+		"desc": "Educational material presented to the patient (or guardian) at the time of vaccine administration.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oImmunizationEducation",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oImmunizationEducation",
+				"sublen": 0,
+				"desc": "Educational material presented to the patient (or guardian) at the time of vaccine administration."
+			}
+		]
+	},
+	{
+		"name": "$programEligibility",
+		"ident": 49,
+		"order": 50,
+		"desc": "Returns: Indicates a patient's eligibility for a funding program.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addprogramEligibility",
+		"ident": 50,
+		"order": 51,
+		"desc": "Indicates a patient's eligibility for a funding program.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Indicates a patient's eligibility for a funding program."
+			}
+		]
+	},
+	{
+		"name": "$fundingSource",
+		"ident": 51,
+		"order": 52,
+		"desc": "Returns: Indicates the source of the vaccine actually administered. This may be different than the patient eligibility (e.g. the patient may be eligible for a publically purchased vaccine but due to inventory issues, vaccine purchased with private funds was actually administered).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$fundingSource.$assign",
+		"ident": 52,
+		"order": 53,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Indicates the source of the vaccine actually administered. This may be different than the patient eligibility (e.g. the patient may be eligible for a publically purchased vaccine but due to inventory issues, vaccine purchased with private funds was actual"
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$reaction",
+		"ident": 53,
+		"order": 54,
+		"desc": "Returns: Categorical data indicating that an adverse event is associated in time to an immunization.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addreaction",
+		"ident": 54,
+		"order": 55,
+		"desc": "Categorical data indicating that an adverse event is associated in time to an immunization.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oImmunizationReaction",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oImmunizationReaction",
+				"sublen": 0,
+				"desc": "Categorical data indicating that an adverse event is associated in time to an immunization."
+			}
+		]
+	},
+	{
+		"name": "$protocolApplied",
+		"ident": 55,
+		"order": 56,
+		"desc": "Returns: The protocol (set of recommendations) being followed by the provider who administered the dose.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addprotocolApplied",
+		"ident": 56,
+		"order": 57,
+		"desc": "The protocol (set of recommendations) being followed by the provider who administered the dose.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oImmunizationProtocolApplied",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oImmunizationProtocolApplied",
+				"sublen": 0,
+				"desc": "The protocol (set of recommendations) being followed by the provider who administered the dose."
+			}
+		]
+	}
+]

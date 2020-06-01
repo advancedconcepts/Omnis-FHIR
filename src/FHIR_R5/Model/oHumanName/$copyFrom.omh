@@ -1,0 +1,20 @@
+Do inherited
+Calculate use as pValue.$use()
+Calculate text as pValue.$text()
+Calculate family as pValue.$family()
+Do given.$clear()
+Calculate list as pValue.$given()
+Do given.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do prefix.$clear()
+Calculate list as pValue.$prefix()
+Do prefix.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do suffix.$clear()
+Calculate list as pValue.$suffix()
+Do suffix.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate period as pValue.$period()

@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$client",
+		"ident": 0,
+		"order": 1,
+		"desc": "The application acts as a server for this resource.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$server",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,4 @@
+If kineticCharacteristic.$validref()=kFalse
+	Calculate kineticCharacteristic as $clib.$classes.oMedicationKnowledgeKineticCharacteristic.$newref()
+End If
+Quit method kineticCharacteristic

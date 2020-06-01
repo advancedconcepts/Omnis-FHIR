@@ -1,0 +1,418 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$vaccineCode",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: Vaccine(s) or vaccine group that pertain to the recommendation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addvaccineCode",
+		"ident": 5,
+		"order": 6,
+		"desc": "Vaccine(s) or vaccine group that pertain to the recommendation.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Vaccine(s) or vaccine group that pertain to the recommendation."
+			}
+		]
+	},
+	{
+		"name": "$targetDisease",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: The targeted disease for the recommendation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$targetDisease.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The targeted disease for the recommendation."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$contraindicatedVaccineCode",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: Vaccine(s) which should not be used to fulfill the recommendation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcontraindicatedVaccineCode",
+		"ident": 9,
+		"order": 10,
+		"desc": "Vaccine(s) which should not be used to fulfill the recommendation.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "Vaccine(s) which should not be used to fulfill the recommendation."
+			}
+		]
+	},
+	{
+		"name": "$forecastStatus",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: Indicates the patient status with respect to the path to immunity for the target disease.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$forecastStatus.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Indicates the patient status with respect to the path to immunity for the target disease."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$forecastReason",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: The reason for the assigned forecast status.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addforecastReason",
+		"ident": 13,
+		"order": 14,
+		"desc": "The reason for the assigned forecast status.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "The reason for the assigned forecast status."
+			}
+		]
+	},
+	{
+		"name": "$dateCriterion",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: Vaccine date recommendations.  For example, earliest date to administer, latest date to administer, etc.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$adddateCriterion",
+		"ident": 15,
+		"order": 16,
+		"desc": "Vaccine date recommendations.  For example, earliest date to administer, latest date to administer, etc.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oImmunizationRecommendationRecommendationDateCriterion",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oImmunizationRecommendationRecommendationDateCriterion",
+				"sublen": 0,
+				"desc": "Vaccine date recommendations.  For example, earliest date to administer, latest date to administer, etc."
+			}
+		]
+	},
+	{
+		"name": "$description",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: Contains the description about the protocol under which the vaccine was administered.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$description.$assign",
+		"ident": 17,
+		"order": 18,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Contains the description about the protocol under which the vaccine was administered."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$series",
+		"ident": 18,
+		"order": 19,
+		"desc": "Returns: One possible path to achieve presumed immunity against a disease - within the context of an authority.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$series.$assign",
+		"ident": 19,
+		"order": 20,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "One possible path to achieve presumed immunity against a disease - within the context of an authority."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$supportingImmunization",
+		"ident": 20,
+		"order": 21,
+		"desc": "Returns: Immunization event history and/or evaluation that supports the status and recommendation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addsupportingImmunization",
+		"ident": 21,
+		"order": 22,
+		"desc": "Immunization event history and/or evaluation that supports the status and recommendation.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Immunization event history and/or evaluation that supports the status and recommendation."
+			}
+		]
+	},
+	{
+		"name": "$supportingPatientInformation",
+		"ident": 22,
+		"order": 23,
+		"desc": "Returns: Patient Information that supports the status and recommendation.  This includes patient observations, adverse reactions and allergy/intolerance information.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addsupportingPatientInformation",
+		"ident": 23,
+		"order": 24,
+		"desc": "Patient Information that supports the status and recommendation.  This includes patient observations, adverse reactions and allergy/intolerance information.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Patient Information that supports the status and recommendation.  This includes patient observations, adverse reactions and allergy/intolerance information."
+			}
+		]
+	}
+]

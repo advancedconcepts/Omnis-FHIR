@@ -1,0 +1,7 @@
+Do inherited
+Do pElements.$add("resourceId","resourceId",1,"1",21,"string")
+Do pElements.$add("resourceType","resourceType",1,"1",21,"code")
+Do pElements.$add("name","::name",0,"1",21,"string")
+Do pElements.$add("description","description",0,"1",21,"markdown")
+Do pElements.$add("version","::version",0,"-1",38,"")
+Do pElements.$add("containedInstance","containedInstance",0,"-1",38,"")

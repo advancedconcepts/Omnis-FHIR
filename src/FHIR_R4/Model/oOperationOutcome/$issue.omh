@@ -1,0 +1,4 @@
+If issue.$validref()=kFalse
+	Calculate issue as $clib.$classes.oOperationOutcomeIssue.$newref()
+End If
+Quit method issue

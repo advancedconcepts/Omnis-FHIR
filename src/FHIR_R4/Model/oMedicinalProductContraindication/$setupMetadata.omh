@@ -1,0 +1,8 @@
+Do inherited
+Do pElements.$add("subject","subject",0,"-1",38,"Reference")
+Do pElements.$add("disease","disease",0,"1",38,"CodeableConcept")
+Do pElements.$add("diseaseStatus","diseaseStatus",0,"1",38,"CodeableConcept")
+Do pElements.$add("comorbidity","comorbidity",0,"-1",38,"CodeableConcept")
+Do pElements.$add("therapeuticIndication","therapeuticIndication",0,"-1",38,"Reference")
+Do pElements.$add("otherTherapy","otherTherapy",0,"-1",38,"")
+Do pElements.$add("population","population",0,"-1",38,"Population")

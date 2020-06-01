@@ -1,0 +1,550 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "alias",
+			"order": 20,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "alias_",
+			"order": 21,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Identifies additional names by which this element might also be known."
+		},
+		{
+			"name": "base",
+			"order": 24,
+			"type": "kObjectref",
+			"subtype": "oElement",
+			"sublen": 0,
+			"desc": "Information about the base definition of the element, provided to make it unnecessary for tools to trace the deviation of the element through the derived and related profiles. This information is provided when the element definition is not the original de"
+		},
+		{
+			"name": "base.max",
+			"order": 27,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Maximum cardinality of the base element identified by the path."
+		},
+		{
+			"name": "base.min",
+			"order": 26,
+			"type": "kInteger",
+			"subtype": "k32bitint",
+			"sublen": 0,
+			"desc": "Minimum cardinality of the base element identified by the path."
+		},
+		{
+			"name": "base.path",
+			"order": 25,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The Path that identifies the base element - this matches the ElementDefinition.path for that element. Across FHIR, there is only one base definition of any element - that is, an element definition on a [StructureDefinition](structuredefinition.html#) with"
+		},
+		{
+			"name": "binding",
+			"order": 57,
+			"type": "kObjectref",
+			"subtype": "oElement",
+			"sublen": 0,
+			"desc": "Binds to a value set if this element is coded (code, Coding, CodeableConcept, Quantity), or the data types (string, uri)."
+		},
+		{
+			"name": "binding.description",
+			"order": 59,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Describes the intended use of this particular set of codes."
+		},
+		{
+			"name": "binding.strength",
+			"order": 58,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Indicates the degree of conformance expectations associated with this binding - that is, the degree to which the provided value set must be adhered to in the instances."
+		},
+		{
+			"name": "code",
+			"order": 6,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "code_",
+			"order": 7,
+			"type": "kObjectref",
+			"subtype": "oCoding",
+			"sublen": 0,
+			"desc": "A code that has the same meaning as the element in a particular terminology."
+		},
+		{
+			"name": "comment",
+			"order": 18,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Explanatory notes and implementation guidance about the data element, including notes about how to use the data properly, exceptions to proper use, etc."
+		},
+		{
+			"name": "condition",
+			"order": 43,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "condition_",
+			"order": 44,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A reference to an invariant that may make additional statements about the cardinality or value in the instance."
+		},
+		{
+			"name": "constraint",
+			"order": 45,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "constraint.expression",
+			"order": 51,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A [FHIRPath](http://hl7.org/fluentpath) expression of constraint that can be executed to see if this constraint is met."
+		},
+		{
+			"name": "constraint.human",
+			"order": 50,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Text that can be used to describe the constraint in messages identifying that the constraint has been violated."
+		},
+		{
+			"name": "constraint.key",
+			"order": 47,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Allows identification of which elements have their cardinalities impacted by the constraint.  Will not be referenced for constraints that do not affect cardinality."
+		},
+		{
+			"name": "constraint.requirements",
+			"order": 48,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Description of why this constraint is necessary or appropriate."
+		},
+		{
+			"name": "constraint.severity",
+			"order": 49,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Identifies the impact constraint violation has on the conformance of the instance."
+		},
+		{
+			"name": "constraint.source",
+			"order": 53,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A reference to the original source of the constraint, for traceability purposes."
+		},
+		{
+			"name": "constraint.xpath",
+			"order": 52,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "An XPath expression of constraint that can be executed to see if this constraint is met."
+		},
+		{
+			"name": "constraint_",
+			"order": 46,
+			"type": "kObjectref",
+			"subtype": "oElement",
+			"sublen": 0,
+			"desc": "Formal constraints such as co-occurrence and other constraints that can be computationally evaluated within the context of the instance."
+		},
+		{
+			"name": "contentReference",
+			"order": 28,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Identifies the identity of an element defined elsewhere in the profile whose content rules should be applied to the current element."
+		},
+		{
+			"name": "definition",
+			"order": 17,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Provides a complete explanation of the meaning of the data element for human readability.  For the case of elements derived from existing elements (e.g. constraints), the definition SHALL be consistent with the base definition, but convey the meaning of t"
+		},
+		{
+			"name": "example",
+			"order": 39,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "example.label",
+			"order": 41,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Describes the purpose of this example amoung the set of examples."
+		},
+		{
+			"name": "example_",
+			"order": 40,
+			"type": "kObjectref",
+			"subtype": "oElement",
+			"sublen": 0,
+			"desc": "A sample value for this element demonstrating the type of information that would typically be found in the element."
+		},
+		{
+			"name": "isModifier",
+			"order": 55,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "If true, the value of this element affects the interpretation of the element or resource that contains it, and the value of the element cannot be ignored. Typically, this is used for status, negation and qualification codes. The effect of this is that the"
+		},
+		{
+			"name": "isSummary",
+			"order": 56,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "Whether the element should be included if a client requests a search with the parameter _summary=true."
+		},
+		{
+			"name": "label",
+			"order": 5,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A single preferred label which is the text to display beside the element indicating its meaning or to use to prompt for the element in a user display or form."
+		},
+		{
+			"name": "mapping",
+			"order": 60,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "mapping.comment",
+			"order": 65,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Comments that provide information about the mapping or its use."
+		},
+		{
+			"name": "mapping.identity",
+			"order": 62,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "An internal reference to the definition of a mapping."
+		},
+		{
+			"name": "mapping.language",
+			"order": 63,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Identifies the computable language in which mapping.map is expressed."
+		},
+		{
+			"name": "mapping.map",
+			"order": 64,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Expresses what part of the target specification corresponds to this element."
+		},
+		{
+			"name": "mapping_",
+			"order": 61,
+			"type": "kObjectref",
+			"subtype": "oElement",
+			"sublen": 0,
+			"desc": "Identifies a concept from an external specification that roughly corresponds to this element."
+		},
+		{
+			"name": "max",
+			"order": 23,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The maximum number of times this element is permitted to appear in the instance."
+		},
+		{
+			"name": "maxLength",
+			"order": 42,
+			"type": "kInteger",
+			"subtype": "k32bitint",
+			"sublen": 0,
+			"desc": "Indicates the maximum length in characters that is permitted to be present in conformant instances and which is expected to be supported by conformant consumers that support the element."
+		},
+		{
+			"name": "meaningWhenMissing",
+			"order": 37,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The Implicit meaning that is to be understood when this element is missing (e.g. 'when this element is missing, the period is ongoing'."
+		},
+		{
+			"name": "min",
+			"order": 22,
+			"type": "kInteger",
+			"subtype": "k32bitint",
+			"sublen": 0,
+			"desc": "The minimum number of times this element SHALL appear in the instance."
+		},
+		{
+			"name": "mustSupport",
+			"order": 54,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "If true, implementations that produce or consume resources SHALL provide \"support\" for the element in some meaningful way.  If false, the element may be ignored and not supported."
+		},
+		{
+			"name": "orderMeaning",
+			"order": 38,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "If present, indicates that the order of the repeating element has meaning and describes what that meaning is.  If absent, it means that the order of the element has no meaning."
+		},
+		{
+			"name": "path",
+			"order": 1,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The path identifies the element and is expressed as a \".\"-separated list of ancestor elements, beginning with the name of the resource or extension."
+		},
+		{
+			"name": "representation",
+			"order": 2,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "representation_",
+			"order": 3,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Codes that define how this element is represented in instances, when the deviation varies from the normal case."
+		},
+		{
+			"name": "requirements",
+			"order": 19,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "This element is for traceability of why the element was created and why the constraints exist as they do. This may be used to point to source materials or specifications that drove the structure of this element."
+		},
+		{
+			"name": "short",
+			"order": 16,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A concise description of what this element means (e.g. for use in autogenerated summaries)."
+		},
+		{
+			"name": "sliceName",
+			"order": 4,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The name of this element definition slice, when slicing is working. The name must be a token with no dots or spaces. This is a unique name referring to a specific set of constraints applied to this element, used to provide a name to different slices of th"
+		},
+		{
+			"name": "slicing",
+			"order": 8,
+			"type": "kObjectref",
+			"subtype": "oElement",
+			"sublen": 0,
+			"desc": "Indicates that the element is sliced into a set of alternative definitions (i.e. in a structure definition, there are multiple different constraints on a single element in the base resource). Slicing can be used in any resource that has cardinality ..* on"
+		},
+		{
+			"name": "slicing.description",
+			"order": 13,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A human-readable text description of how the slicing works. If there is no discriminator, this is required to be present to provide whatever information is possible about how the slices can be differentiated."
+		},
+		{
+			"name": "slicing.discriminator",
+			"order": 9,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "slicing.discriminator.path",
+			"order": 12,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A FHIRPath expression, using a restricted subset of FHIRPath, that is used to identify the element on which discrimination is based."
+		},
+		{
+			"name": "slicing.discriminator.type",
+			"order": 11,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "How the element value is interpreted when discrimination is evaluated."
+		},
+		{
+			"name": "slicing.discriminator_",
+			"order": 10,
+			"type": "kObjectref",
+			"subtype": "oElement",
+			"sublen": 0,
+			"desc": "Designates which child elements are used to discriminate between the slices when processing an instance. If one or more discriminators are provided, the value of the child elements in the instance data SHALL completely distinguish which slice the element "
+		},
+		{
+			"name": "slicing.ordered",
+			"order": 14,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "If the matching elements have to occur in the same order as defined in the profile."
+		},
+		{
+			"name": "slicing.rules",
+			"order": 15,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Whether additional slices are allowed or not. When the slices are ordered, profile authors can also say that additional slices are only allowed at the end."
+		},
+		{
+			"name": "type",
+			"order": 29,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "type.aggregation",
+			"order": 34,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "type.aggregation_",
+			"order": 35,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "If the type is a reference to another resource, how the resource is or can be aggregated - is it a contained resource, or a reference, and if the context is a bundle, is it included in the bundle."
+		},
+		{
+			"name": "type.code",
+			"order": 31,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "URL of Data type or Resource that is a(or the) type used for this element. References are URLs that are relative to http://hl7.org/fhir/StructureDefinition e.g. \"string\" is a reference to http://hl7.org/fhir/StructureDefinition/string. Absolute URLs are o"
+		},
+		{
+			"name": "type.profile",
+			"order": 32,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Identifies a profile structure or implementation Guide that SHALL hold for the datatype this element refers to. Can be a local reference - to a contained StructureDefinition, or a reference to another StructureDefinition or Implementation Guide by a canon"
+		},
+		{
+			"name": "type.targetProfile",
+			"order": 33,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Identifies a profile structure or implementation Guide that SHALL hold for the target of the reference this element refers to. Can be a local reference - to a contained StructureDefinition, or a reference to another StructureDefinition or Implementation G"
+		},
+		{
+			"name": "type.versioning",
+			"order": 36,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Whether this reference needs to be version specific or version independent, or whether either can be used."
+		},
+		{
+			"name": "type_",
+			"order": 30,
+			"type": "kObjectref",
+			"subtype": "oElement",
+			"sublen": 0,
+			"desc": "The data type or resource that the value of this element is permitted to be."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:39:53",
+		"desc": "Base StructureDefinition for ElementDefinition Type",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:26",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

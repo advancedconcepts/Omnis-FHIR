@@ -1,0 +1,4 @@
+If maxDosePerPeriod.$validref()=kFalse
+	Calculate maxDosePerPeriod as $clib.$classes.oRatio.$newref()
+End If
+Quit method maxDosePerPeriod

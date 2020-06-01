@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("type","::type",1,"1",38,"Coding")
+Do pElements.$add("party","party",1,"1",38,"Reference")
+Do pElements.$add("signature","signature",1,"-1",38,"Signature")

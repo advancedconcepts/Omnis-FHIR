@@ -1,0 +1,6 @@
+Do inherited
+Calculate collector as pValue.$collector()
+Calculate duration as pValue.$duration()
+Calculate quantity as pValue.$quantity()
+Calculate method as pValue.$method()
+Calculate bodySite as pValue.$bodySite()

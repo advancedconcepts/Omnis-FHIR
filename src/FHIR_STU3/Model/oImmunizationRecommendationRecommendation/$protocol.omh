@@ -1,0 +1,4 @@
+If protocol.$validref()=kFalse
+	Calculate protocol as $clib.$classes.oImmunizationRecommendationRecommendationProtocol.$newref()
+End If
+Quit method protocol

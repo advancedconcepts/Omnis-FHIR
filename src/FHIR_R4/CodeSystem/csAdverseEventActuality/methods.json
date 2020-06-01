@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$actual",
+		"ident": 0,
+		"order": 1,
+		"desc": "A potential adverse event.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$potential",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

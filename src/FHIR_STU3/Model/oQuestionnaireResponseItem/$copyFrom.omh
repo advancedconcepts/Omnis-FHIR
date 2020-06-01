@@ -1,0 +1,10 @@
+Do inherited
+Calculate linkId as pValue.$linkId()
+Calculate definition as pValue.$definition()
+Calculate text as pValue.$text()
+Calculate subject as pValue.$subject()
+Do answer.$clear()
+Calculate list as pValue.$answer()
+Do answer.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

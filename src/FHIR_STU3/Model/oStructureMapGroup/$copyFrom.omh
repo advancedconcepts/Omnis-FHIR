@@ -1,0 +1,15 @@
+Do inherited
+Calculate name as pValue.$name()
+Calculate extends as pValue.$extends()
+Calculate typeMode as pValue.$typeMode()
+Calculate documentation as pValue.$documentation()
+Do input.$clear()
+Calculate list as pValue.$input()
+Do input.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do rule.$clear()
+Calculate list as pValue.$rule()
+Do rule.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

@@ -1,0 +1,61 @@
+[
+	{
+		"name": "$organ",
+		"ident": 0,
+		"order": 1,
+		"desc": "An ensemble of similar cells and their extracellular matrix from the same origin that together carry out a specific function.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$tissue",
+		"ident": 1,
+		"order": 2,
+		"desc": "Body fluid.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$fluid",
+		"ident": 2,
+		"order": 3,
+		"desc": "Collection of cells.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$cells",
+		"ident": 3,
+		"order": 4,
+		"desc": "Biological agent of unspecified type.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$biologicalAgent",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

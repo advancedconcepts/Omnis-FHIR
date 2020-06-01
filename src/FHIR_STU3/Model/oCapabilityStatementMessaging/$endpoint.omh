@@ -1,0 +1,4 @@
+If endpoint.$validref()=kFalse
+	Calculate endpoint as $clib.$classes.oCapabilityStatementMessagingEndpoint.$newref()
+End If
+Quit method endpoint

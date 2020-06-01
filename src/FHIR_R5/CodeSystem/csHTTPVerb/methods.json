@@ -1,0 +1,73 @@
+[
+	{
+		"name": "$GET",
+		"ident": 0,
+		"order": 1,
+		"desc": "HTTP HEAD Command.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$HEAD",
+		"ident": 1,
+		"order": 2,
+		"desc": "HTTP POST Command.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$POST",
+		"ident": 2,
+		"order": 3,
+		"desc": "HTTP PUT Command.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$PUT",
+		"ident": 3,
+		"order": 4,
+		"desc": "HTTP DELETE Command.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$DELETE",
+		"ident": 4,
+		"order": 5,
+		"desc": "HTTP PATCH Command.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$PATCH",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

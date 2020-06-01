@@ -1,0 +1,14 @@
+Do inherited
+Do usageContext.$clear()
+Calculate list as pValue.$usageContext()
+Do usageContext.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate exclude as pValue.$exclude()
+Calculate unitOfMeasure as pValue.$unitOfMeasure()
+Calculate studyEffectiveDescription as pValue.$studyEffectiveDescription()
+Calculate studyEffectiveTimeFromStart as pValue.$studyEffectiveTimeFromStart()
+Calculate studyEffectiveGroupMeasure as pValue.$studyEffectiveGroupMeasure()
+Calculate participantEffectiveDescription as pValue.$participantEffectiveDescription()
+Calculate participantEffectiveTimeFromStart as pValue.$participantEffectiveTimeFromStart()
+Calculate participantEffectiveGroupMeasure as pValue.$participantEffectiveGroupMeasure()

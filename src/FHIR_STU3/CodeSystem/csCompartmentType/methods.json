@@ -1,0 +1,61 @@
+[
+	{
+		"name": "$Patient",
+		"ident": 0,
+		"order": 1,
+		"desc": "The compartment definition is for the encounter compartment",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Encounter",
+		"ident": 1,
+		"order": 2,
+		"desc": "The compartment definition is for the related-person compartment",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$RelatedPerson",
+		"ident": 2,
+		"order": 3,
+		"desc": "The compartment definition is for the practitioner compartment",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Practitioner",
+		"ident": 3,
+		"order": 4,
+		"desc": "The compartment definition is for the device compartment",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Device",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

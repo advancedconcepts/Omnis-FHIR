@@ -1,0 +1,19 @@
+Do inherited
+Calculate identifier as pValue.$identifier()
+Calculate typeCollected as pValue.$typeCollected()
+Do patientPreparation.$clear()
+Calculate list as pValue.$patientPreparation()
+Do patientPreparation.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate timeAspect as pValue.$timeAspect()
+Do collection.$clear()
+Calculate list as pValue.$collection()
+Do collection.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do typeTested.$clear()
+Calculate list as pValue.$typeTested()
+Do typeTested.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

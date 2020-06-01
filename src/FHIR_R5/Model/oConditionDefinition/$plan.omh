@@ -1,0 +1,4 @@
+If plan.$validref()=kFalse
+	Calculate plan as $clib.$classes.oConditionDefinitionPlan.$newref()
+End If
+Quit method plan

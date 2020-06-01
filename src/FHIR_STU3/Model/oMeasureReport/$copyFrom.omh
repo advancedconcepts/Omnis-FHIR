@@ -1,0 +1,15 @@
+Do inherited
+Calculate identifier as pValue.$identifier()
+Calculate status as pValue.$status()
+Calculate type as pValue.$type()
+Calculate measure as pValue.$measure()
+Calculate patient as pValue.$patient()
+Calculate date as pValue.$date()
+Calculate reportingOrganization as pValue.$reportingOrganization()
+Calculate period as pValue.$period()
+Do group.$clear()
+Calculate list as pValue.$group()
+Do group.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate evaluatedResources as pValue.$evaluatedResources()

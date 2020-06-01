@@ -1,0 +1,203 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "cardinalityBehavior",
+			"order": 20,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Defines whether the action can be selected multiple times."
+		},
+		{
+			"name": "code",
+			"order": 5,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "code_",
+			"order": 6,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "A code that provides meaning for the action or action group. For example, a section may have a LOINC code for a the section of a documentation template."
+		},
+		{
+			"name": "condition",
+			"order": 9,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "condition_",
+			"order": 10,
+			"type": "kObjectref",
+			"subtype": "oRequestGroupActionCondition",
+			"sublen": 0,
+			"desc": "An expression that describes applicability criteria, or start/stop conditions for the action."
+		},
+		{
+			"name": "description",
+			"order": 3,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A short description of the action used to provide a summary to display to the user."
+		},
+		{
+			"name": "documentation",
+			"order": 7,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "documentation_",
+			"order": 8,
+			"type": "kObjectref",
+			"subtype": "oRelatedArtifact",
+			"sublen": 0,
+			"desc": "Didactic or other informational resources associated with the action that can be provided to the CDS recipient. Information resources can include inline text commentary and links to web resources."
+		},
+		{
+			"name": "groupingBehavior",
+			"order": 16,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Defines the grouping behavior for the action and its children."
+		},
+		{
+			"name": "label",
+			"order": 1,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A user-visible label for the action."
+		},
+		{
+			"name": "participant",
+			"order": 13,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "participant_",
+			"order": 14,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The participant that should perform or be responsible for this action."
+		},
+		{
+			"name": "precheckBehavior",
+			"order": 19,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Defines whether the action should usually be preselected."
+		},
+		{
+			"name": "relatedAction",
+			"order": 11,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "relatedAction_",
+			"order": 12,
+			"type": "kObjectref",
+			"subtype": "oRequestGroupActionRelatedAction",
+			"sublen": 0,
+			"desc": "A relationship to another action such as \"before\" or \"30-60 minutes after start of\"."
+		},
+		{
+			"name": "requiredBehavior",
+			"order": 18,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Defines the requiredness behavior for the action."
+		},
+		{
+			"name": "resource",
+			"order": 21,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The resource that is the target of the action (e.g. CommunicationRequest)."
+		},
+		{
+			"name": "selectionBehavior",
+			"order": 17,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Defines the selection behavior for the action and its children."
+		},
+		{
+			"name": "textEquivalent",
+			"order": 4,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A text equivalent of the action to be performed. This provides a human-interpretable description of the action when the definition is consumed by a system that may not be capable of interpreting it dynamically."
+		},
+		{
+			"name": "title",
+			"order": 2,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The title of the action displayed to a user."
+		},
+		{
+			"name": "type",
+			"order": 15,
+			"type": "kObjectref",
+			"subtype": "oCoding",
+			"sublen": 0,
+			"desc": "The type of action to perform (create, update, remove)."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:40:09",
+		"desc": "The actions, if any, produced by the evaluation of the artifact.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:26",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

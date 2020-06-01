@@ -1,0 +1,32 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate status as pValue.$status()
+Calculate action as pValue.$action()
+Calculate target as pValue.$target()
+Calculate created as pValue.$created()
+Calculate provider as pValue.$provider()
+Calculate organization as pValue.$organization()
+Calculate request as pValue.$request()
+Calculate response as pValue.$response()
+Calculate nullify as pValue.$nullify()
+Calculate reference as pValue.$reference()
+Do item.$clear()
+Calculate list as pValue.$item()
+Do item.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do include.$clear()
+Calculate list as pValue.$include()
+Do include.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do exclude.$clear()
+Calculate list as pValue.$exclude()
+Do exclude.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate period as pValue.$period()

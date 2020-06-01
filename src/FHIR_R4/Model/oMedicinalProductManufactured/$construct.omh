@@ -1,0 +1,4 @@
+Do inherited
+Do manufacturer.$define(manufacturer_)
+Do ingredient.$define(ingredient_)
+Do otherCharacteristics.$define(otherCharacteristics_)

@@ -1,0 +1,9 @@
+Do inherited
+Do pElements.$add("subunit","subunit",0,"1",26,"integer")
+Do pElements.$add("sequence","sequence",0,"1",21,"string")
+Do pElements.$add("length","length",0,"1",26,"integer")
+Do pElements.$add("sequenceAttachment","sequenceAttachment",0,"1",38,"Attachment")
+Do pElements.$add("nTerminalModificationId","nTerminalModificationId",0,"1",38,"Identifier")
+Do pElements.$add("nTerminalModification","nTerminalModification",0,"1",21,"string")
+Do pElements.$add("cTerminalModificationId","cTerminalModificationId",0,"1",38,"Identifier")
+Do pElements.$add("cTerminalModification","cTerminalModification",0,"1",21,"string")

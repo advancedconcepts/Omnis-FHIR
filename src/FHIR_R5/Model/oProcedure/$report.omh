@@ -1,0 +1,4 @@
+If report.$validref()=kFalse
+	Calculate report as $clib.$classes.oReference.$newref()
+End If
+Quit method report

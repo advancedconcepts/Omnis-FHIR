@@ -1,0 +1,3 @@
+Do inherited
+Do pElements.$add("attachment","attachment",1,"1",38,"Attachment")
+Do pElements.$add("format","format",0,"1",38,"Coding")

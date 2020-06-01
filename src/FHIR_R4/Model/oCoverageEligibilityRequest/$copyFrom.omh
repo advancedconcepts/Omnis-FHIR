@@ -1,0 +1,34 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate status as pValue.$status()
+Calculate priority as pValue.$priority()
+Do purpose.$clear()
+Calculate list as pValue.$purpose()
+Do purpose.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate patient as pValue.$patient()
+Calculate created as pValue.$created()
+Calculate enterer as pValue.$enterer()
+Calculate provider as pValue.$provider()
+Calculate insurer as pValue.$insurer()
+Calculate facility as pValue.$facility()
+Do supportingInfo.$clear()
+Calculate list as pValue.$supportingInfo()
+Do supportingInfo.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do insurance.$clear()
+Calculate list as pValue.$insurance()
+Do insurance.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do item.$clear()
+Calculate list as pValue.$item()
+Do item.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

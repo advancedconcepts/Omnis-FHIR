@@ -1,0 +1,40 @@
+Do inherited
+Calculate kind as pValue.$kind()
+Do instantiatesCanonical.$clear()
+Calculate list as pValue.$instantiatesCanonical()
+Do instantiatesCanonical.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do instantiatesUri.$clear()
+Calculate list as pValue.$instantiatesUri()
+Do instantiatesUri.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate code as pValue.$code()
+Do reasonCode.$clear()
+Calculate list as pValue.$reasonCode()
+Do reasonCode.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do reasonReference.$clear()
+Calculate list as pValue.$reasonReference()
+Do reasonReference.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do goal.$clear()
+Calculate list as pValue.$goal()
+Do goal.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate status as pValue.$status()
+Calculate statusReason as pValue.$statusReason()
+Calculate doNotPerform as pValue.$doNotPerform()
+Calculate location as pValue.$location()
+Do performer.$clear()
+Calculate list as pValue.$performer()
+Do performer.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate dailyAmount as pValue.$dailyAmount()
+Calculate quantity as pValue.$quantity()
+Calculate description as pValue.$description()

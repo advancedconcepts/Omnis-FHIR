@@ -1,0 +1,6 @@
+Do inherited
+Calculate type as pValue.$type()
+Calculate value as pValue.$value()
+Calculate preferred as pValue.$preferred()
+Calculate comment as pValue.$comment()
+Calculate period as pValue.$period()

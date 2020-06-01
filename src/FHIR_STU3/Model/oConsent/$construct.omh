@@ -1,0 +1,11 @@
+Do inherited
+Do category.$define(category_)
+Do consentingParty.$define(consentingParty_)
+Do actor.$define(actor_)
+Do action.$define(action_)
+Do organization.$define(organization_)
+Do policy.$define(policy_)
+Do securityLabel.$define(securityLabel_)
+Do purpose.$define(purpose_)
+Do data.$define(data_)
+Do except.$define(except_)

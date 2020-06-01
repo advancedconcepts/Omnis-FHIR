@@ -1,0 +1,133 @@
+[
+	{
+		"name": "$prov",
+		"ident": 0,
+		"order": 1,
+		"desc": "A department or ward within a hospital (Generally is not applicable to top level organizations)",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$dept",
+		"ident": 1,
+		"order": 2,
+		"desc": "An organizational team is usually a grouping of practitioners that perform a specific function within an organization (which could be a top level organization, or a department).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$team",
+		"ident": 2,
+		"order": 3,
+		"desc": "A political body, often used when including organization records for government bodies such as a Federal Government, State or Local Government.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$govt",
+		"ident": 3,
+		"order": 4,
+		"desc": "A company that provides insurance to its subscribers that may include healthcare related policies.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ins",
+		"ident": 4,
+		"order": 5,
+		"desc": "An educational institution that provides education or research facilities.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$edu",
+		"ident": 5,
+		"order": 6,
+		"desc": "An organization that is identified as a part of a religious institution.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$reli",
+		"ident": 6,
+		"order": 7,
+		"desc": "An organization that is identified as a Pharmaceutical/Clinical Research Sponsor.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$crs",
+		"ident": 7,
+		"order": 8,
+		"desc": "An un-incorporated community group.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$cg",
+		"ident": 8,
+		"order": 9,
+		"desc": "An organization that is a registered business or corporation but not identified by other types.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$bus",
+		"ident": 9,
+		"order": 10,
+		"desc": "Other type of organization not already specified.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$other",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$available",
+		"ident": 0,
+		"order": 1,
+		"desc": "Product is not currently available for use.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unavailable",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

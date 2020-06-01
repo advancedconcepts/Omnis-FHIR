@@ -1,0 +1,3 @@
+Do inherited
+Do pElements.$add("mode","mode",0,"1",21,"code")
+Do pElements.$add("score","score",0,"1",25,"decimal")

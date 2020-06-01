@@ -1,0 +1,29 @@
+If not(isnull(iFHIRVersionLib.$classes.[pClassNAme]))
+	Do iFHIRVersionLib.$classes.$remove(iFHIRVersionLib.$classes.$findname(pClassNAme))
+End If
+
+Do iFHIRVersionLib.$classes.$add(kObjectclass,pClassNAme,iFHIRVersionLib.$classes.Model.$ident) Returns cls
+Calculate cls.$external as kTrue
+
+If pBase<>
+	If iURL2Types.$search($ref.iURL=pBase,kTrue,kFalse,kFalse,kFalse)
+		
+		If iURL2Types.iOmnisType=''
+			Do method ensureTypeKnown (iURL2Types.iType)
+			If iURL2Types.$search($ref.iURL=pBase,kTrue,kFalse,kFalse,kFalse)
+				If iURL2Types.iOmnisType=''
+					Breakpoint
+				End If
+			End If
+		End If
+		Calculate cls.$superclass as iURL2Types.iOmnisType
+	Else
+		Breakpoint
+	End If
+Else
+	Calculate cls.$superclass as 'fhir.FHIRBaseElement'
+End If
+
+Calculate cls.$desc as pDescription
+
+Quit method cls

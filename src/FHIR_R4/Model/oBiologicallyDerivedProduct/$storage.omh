@@ -1,0 +1,4 @@
+If storage.$validref()=kFalse
+	Calculate storage as $clib.$classes.oBiologicallyDerivedProductStorage.$newref()
+End If
+Quit method storage

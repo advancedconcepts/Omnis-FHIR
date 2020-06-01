@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("assessmentMethod","assessmentMethod",0,"1",38,"CodeableConcept")
+Do pElements.$add("entityRelatedness","entityRelatedness",0,"1",38,"CodeableConcept")
+Do pElements.$add("author","author",0,"1",38,"Reference")

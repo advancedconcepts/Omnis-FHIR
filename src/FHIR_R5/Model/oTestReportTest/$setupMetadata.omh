@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("name","::name",0,"1",21,"string")
+Do pElements.$add("description","description",0,"1",21,"string")
+Do pElements.$add("action","action",1,"-1",38,"")

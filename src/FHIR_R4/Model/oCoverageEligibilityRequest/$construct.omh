@@ -1,0 +1,6 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do purpose.$define(purpose_)
+Do supportingInfo.$define(supportingInfo_)
+Do insurance.$define(insurance_)
+Do item.$define(item_)

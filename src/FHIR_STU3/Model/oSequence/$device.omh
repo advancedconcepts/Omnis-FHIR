@@ -1,0 +1,4 @@
+If device.$validref()=kFalse
+	Calculate device as $clib.$classes.oReference.$newref()
+End If
+Quit method device

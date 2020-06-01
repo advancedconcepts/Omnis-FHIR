@@ -1,0 +1,4 @@
+If orderedBy.$validref()=kFalse
+	Calculate orderedBy as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method orderedBy

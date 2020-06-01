@@ -1,0 +1,97 @@
+[
+	{
+		"name": "$number",
+		"ident": 0,
+		"order": 1,
+		"desc": "Search parameter is on a date/time. The date format is the standard XML format, though other formats may be supported.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$date",
+		"ident": 1,
+		"order": 2,
+		"desc": "Search parameter is a simple string, like a name part. Search is case-insensitive and accent-insensitive. May match just the start of a string. String parameters may contain spaces.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$string",
+		"ident": 2,
+		"order": 3,
+		"desc": "Search parameter on a coded element or identifier. May be used to search through the text, displayname, code and code/codesystem (for codes) and label, system and key (for identifier). Its value is either a string or a pair of namespace and value, separated by a \"|\", depending on the modifier used.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$token",
+		"ident": 3,
+		"order": 4,
+		"desc": "A reference to another resource.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$reference",
+		"ident": 4,
+		"order": 5,
+		"desc": "A composite search parameter that combines a search on two values together.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$composite",
+		"ident": 5,
+		"order": 6,
+		"desc": "A search parameter that searches on a quantity.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$quantity",
+		"ident": 6,
+		"order": 7,
+		"desc": "A search parameter that searches on a URI (RFC 3986).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$uri",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

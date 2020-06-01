@@ -1,0 +1,273 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "addItem",
+			"order": 15,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "addItem_",
+			"order": 16,
+			"type": "kObjectref",
+			"subtype": "oClaimResponseAddItem",
+			"sublen": 0,
+			"desc": "The first tier service adjudications for payor added services."
+		},
+		{
+			"name": "communicationRequest",
+			"order": 27,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "communicationRequest_",
+			"order": 28,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Request for additional supporting or authorizing information, such as: documents, images or resources."
+		},
+		{
+			"name": "created",
+			"order": 5,
+			"type": "kDate",
+			"subtype": "kDatetime",
+			"sublen": 0,
+			"desc": "The date when the enclosed suite of services were performed or completed."
+		},
+		{
+			"name": "disposition",
+			"order": 11,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A description of the status of the adjudication."
+		},
+		{
+			"name": "error",
+			"order": 17,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "error_",
+			"order": 18,
+			"type": "kObjectref",
+			"subtype": "oClaimResponseError",
+			"sublen": 0,
+			"desc": "Mutually exclusive with Services Provided (Item)."
+		},
+		{
+			"name": "form",
+			"order": 24,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The form to be used for printing the content."
+		},
+		{
+			"name": "identifier",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "identifier_",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "The Response business identifier."
+		},
+		{
+			"name": "insurance",
+			"order": 29,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "insurance_",
+			"order": 30,
+			"type": "kObjectref",
+			"subtype": "oClaimResponseInsurance",
+			"sublen": 0,
+			"desc": "Financial instrument by which payment information for health care."
+		},
+		{
+			"name": "insurer",
+			"order": 6,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The Insurer who produced this adjudicated response."
+		},
+		{
+			"name": "item",
+			"order": 13,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "item_",
+			"order": 14,
+			"type": "kObjectref",
+			"subtype": "oClaimResponseItem",
+			"sublen": 0,
+			"desc": "The first tier service adjudications for submitted services."
+		},
+		{
+			"name": "outcome",
+			"order": 10,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Processing outcome errror, partial or complete processing."
+		},
+		{
+			"name": "patient",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Patient Resource."
+		},
+		{
+			"name": "payeeType",
+			"order": 12,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Party to be reimbursed: Subscriber, provider, other."
+		},
+		{
+			"name": "payment",
+			"order": 22,
+			"type": "kObjectref",
+			"subtype": "oClaimResponsePayment",
+			"sublen": 0,
+			"desc": "Payment details for the claim if the claim has been paid."
+		},
+		{
+			"name": "processNote",
+			"order": 25,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "processNote_",
+			"order": 26,
+			"type": "kObjectref",
+			"subtype": "oClaimResponseProcessNote",
+			"sublen": 0,
+			"desc": "Note text."
+		},
+		{
+			"name": "request",
+			"order": 9,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Original request resource referrence."
+		},
+		{
+			"name": "requestOrganization",
+			"order": 8,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The organization which is responsible for the services rendered to the patient."
+		},
+		{
+			"name": "requestProvider",
+			"order": 7,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The practitioner who is responsible for the services rendered to the patient."
+		},
+		{
+			"name": "reserved",
+			"order": 23,
+			"type": "kObjectref",
+			"subtype": "oCoding",
+			"sublen": 0,
+			"desc": "Status of funds reservation (For provider, for Patient, None)."
+		},
+		{
+			"name": "status",
+			"order": 3,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The status of the resource instance."
+		},
+		{
+			"name": "totalBenefit",
+			"order": 21,
+			"type": "kObjectref",
+			"subtype": "oMoney",
+			"sublen": 0,
+			"desc": "Total amount of benefit payable (Equal to sum of the Benefit amounts from all detail lines and additions less the Unallocated Deductible)."
+		},
+		{
+			"name": "totalCost",
+			"order": 19,
+			"type": "kObjectref",
+			"subtype": "oMoney",
+			"sublen": 0,
+			"desc": "The total cost of the services reported."
+		},
+		{
+			"name": "unallocDeductable",
+			"order": 20,
+			"type": "kObjectref",
+			"subtype": "oMoney",
+			"sublen": 0,
+			"desc": "The amount of deductible applied which was not allocated to any particular service line."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:39:58",
+		"desc": "Base StructureDefinition for ClaimResponse Resource",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:26",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

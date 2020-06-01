@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$SignedUp",
+		"ident": 0,
+		"order": 1,
+		"desc": "A potential subject has been screened for suitability.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Screened",
+		"ident": 1,
+		"order": 2,
+		"desc": "A subject has been allocated to an arm of the study.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Randomized",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

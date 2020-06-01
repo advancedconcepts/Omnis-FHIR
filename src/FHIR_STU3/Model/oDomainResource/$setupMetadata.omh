@@ -1,0 +1,5 @@
+Do inherited
+Do pElements.$add("text","text",0,"1",38,"Narrative")
+Do pElements.$add("contained","contained",0,"-1",38,"Resource")
+Do pElements.$add("extension","extension",0,"-1",38,"Extension")
+Do pElements.$add("modifierExtension","modifierExtension",0,"-1",38,"Extension")

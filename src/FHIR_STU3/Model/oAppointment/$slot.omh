@@ -1,0 +1,4 @@
+If slot.$validref()=kFalse
+	Calculate slot as $clib.$classes.oReference.$newref()
+End If
+Quit method slot

@@ -1,0 +1,4 @@
+If closure.$validref()=kFalse
+	Calculate closure as $clib.$classes.oTerminologyCapabilitiesClosure.$newref()
+End If
+Quit method closure

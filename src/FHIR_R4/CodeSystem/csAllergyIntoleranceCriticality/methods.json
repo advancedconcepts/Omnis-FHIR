@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$low",
+		"ident": 0,
+		"order": 1,
+		"desc": "Worst case result of a future exposure is assessed to be life-threatening or having high potential for organ system failure.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$high",
+		"ident": 1,
+		"order": 2,
+		"desc": "Unable to assess the worst case result of a future exposure.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unable-to-assess",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

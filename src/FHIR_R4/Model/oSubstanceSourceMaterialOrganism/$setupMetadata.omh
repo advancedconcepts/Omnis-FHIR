@@ -1,0 +1,9 @@
+Do inherited
+Do pElements.$add("family","family",0,"1",38,"CodeableConcept")
+Do pElements.$add("genus","genus",0,"1",38,"CodeableConcept")
+Do pElements.$add("species","species",0,"1",38,"CodeableConcept")
+Do pElements.$add("intraspecificType","intraspecificType",0,"1",38,"CodeableConcept")
+Do pElements.$add("intraspecificDescription","intraspecificDescription",0,"1",21,"string")
+Do pElements.$add("author","author",0,"-1",38,"")
+Do pElements.$add("hybrid","hybrid",0,"1",38,"")
+Do pElements.$add("organismGeneral","organismGeneral",0,"1",38,"")

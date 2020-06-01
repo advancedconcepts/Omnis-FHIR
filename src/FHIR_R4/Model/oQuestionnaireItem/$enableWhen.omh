@@ -1,0 +1,4 @@
+If enableWhen.$validref()=kFalse
+	Calculate enableWhen as $clib.$classes.oQuestionnaireItemEnableWhen.$newref()
+End If
+Quit method enableWhen

@@ -1,0 +1,8 @@
+Do inherited
+Calculate name as pValue.$name()
+Do matchType.$clear()
+Calculate list as pValue.$matchType()
+Do matchType.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate documentation as pValue.$documentation()

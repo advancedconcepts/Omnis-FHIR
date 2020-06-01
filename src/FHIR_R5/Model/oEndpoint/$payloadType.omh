@@ -1,0 +1,4 @@
+If payloadType.$validref()=kFalse
+	Calculate payloadType as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method payloadType

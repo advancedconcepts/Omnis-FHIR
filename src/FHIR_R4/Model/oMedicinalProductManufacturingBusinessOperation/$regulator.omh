@@ -1,0 +1,4 @@
+If regulator.$validref()=kFalse
+	Calculate regulator as $clib.$classes.oReference.$newref()
+End If
+Quit method regulator

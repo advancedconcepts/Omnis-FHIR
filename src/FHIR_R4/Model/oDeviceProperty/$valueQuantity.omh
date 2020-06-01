@@ -1,0 +1,4 @@
+If valueQuantity.$validref()=kFalse
+	Calculate valueQuantity as $clib.$classes.oQuantity.$newref()
+End If
+Quit method valueQuantity

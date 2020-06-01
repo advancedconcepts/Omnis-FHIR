@@ -1,0 +1,39 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate active as pValue.$active()
+Do type.$clear()
+Calculate list as pValue.$type()
+Do type.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate name as pValue.$name()
+Do alias.$clear()
+Calculate list as pValue.$alias()
+Do alias.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do telecom.$clear()
+Calculate list as pValue.$telecom()
+Do telecom.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do address.$clear()
+Calculate list as pValue.$address()
+Do address.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate partOf as pValue.$partOf()
+Do contact.$clear()
+Calculate list as pValue.$contact()
+Do contact.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do endpoint.$clear()
+Calculate list as pValue.$endpoint()
+Do endpoint.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

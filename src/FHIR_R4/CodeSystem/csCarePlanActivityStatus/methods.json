@@ -1,0 +1,97 @@
+[
+	{
+		"name": "$not-started",
+		"ident": 0,
+		"order": 1,
+		"desc": "Appointment or other booking has occurred but activity has not yet begun.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$scheduled",
+		"ident": 1,
+		"order": 2,
+		"desc": "Care plan activity has been started but is not yet complete.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$in-progress",
+		"ident": 2,
+		"order": 3,
+		"desc": "Care plan activity was started but has temporarily ceased with an expectation of resumption at a future time.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$on-hold",
+		"ident": 3,
+		"order": 4,
+		"desc": "Care plan activity has been completed (more or less) as planned.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$completed",
+		"ident": 4,
+		"order": 5,
+		"desc": "The planned care plan activity has been withdrawn.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$cancelled",
+		"ident": 5,
+		"order": 6,
+		"desc": "The current state of the care plan activity is not known.  Note: This concept is not to be used for \"other\" - one of the listed statuses is presumed to apply, but the authoring/source system does not know which one.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unknown",
+		"ident": 6,
+		"order": 7,
+		"desc": "Care plan activity was entered in error and voided.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$entered-in-error",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

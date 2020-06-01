@@ -1,0 +1,85 @@
+[
+	{
+		"name": "$vegetarian",
+		"ident": 0,
+		"order": 1,
+		"desc": "Excludes dairy products.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$dairy-free",
+		"ident": 1,
+		"order": 2,
+		"desc": "Excludes ingredients containing nuts.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$nut-free",
+		"ident": 2,
+		"order": 3,
+		"desc": "Excludes ingredients containing gluten.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$gluten-free",
+		"ident": 3,
+		"order": 4,
+		"desc": "Food without meat, poultry, seafood, eggs, dairy products and other animal-derived substances.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$vegan",
+		"ident": 4,
+		"order": 5,
+		"desc": "Foods that conform to Islamic law.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$halal",
+		"ident": 5,
+		"order": 6,
+		"desc": "Foods that conform to Jewish dietary law.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$kosher",
+		"ident": 6,
+		"order": 7,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$horizontal",
+		"ident": 0,
+		"order": 1,
+		"desc": "List choices down the vertical axis.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$vertical",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

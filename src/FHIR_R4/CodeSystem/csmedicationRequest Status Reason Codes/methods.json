@@ -1,0 +1,157 @@
+[
+	{
+		"name": "$altchoice",
+		"ident": 0,
+		"order": 1,
+		"desc": "Clarification is required before the order can be acted upon.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$clarif",
+		"ident": 1,
+		"order": 2,
+		"desc": "The current level of the medication in the patient's system is too high. The medication is suspended to allow the level to subside to a safer level.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$drughigh",
+		"ident": 2,
+		"order": 3,
+		"desc": "The patient has been admitted to a care facility and their community medications are suspended until hospital discharge.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$hospadm",
+		"ident": 3,
+		"order": 4,
+		"desc": "The therapy would interfere with a planned lab test and the therapy is being withdrawn until the test is completed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$labint",
+		"ident": 4,
+		"order": 5,
+		"desc": "Patient not available for a period of time due to a scheduled therapy, leave of absence or other reason.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$non-avail",
+		"ident": 5,
+		"order": 6,
+		"desc": "The patient is pregnant or breast feeding. The therapy will be resumed when the pregnancy is complete and the patient is no longer breastfeeding.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$preg",
+		"ident": 6,
+		"order": 7,
+		"desc": "The patient is believed to be allergic to a substance that is part of the therapy and the therapy is being temporarily withdrawn to confirm.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$salg",
+		"ident": 7,
+		"order": 8,
+		"desc": "The drug interacts with a short-term treatment that is more urgently required. This order will be resumed when the short-term treatment is complete.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sddi",
+		"ident": 8,
+		"order": 9,
+		"desc": "The drug interacts with a short-term treatment that is more urgently required. This order will be resumed when the short-term treatment is complete.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sdupther",
+		"ident": 9,
+		"order": 10,
+		"desc": "The drug interacts with a short-term treatment that is more urgently required. This order will be resumed when the short-term treatment is complete.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sintol",
+		"ident": 10,
+		"order": 11,
+		"desc": "The drug is contraindicated for patients receiving surgery and the patient is scheduled to be admitted for surgery in the near future. The drug will be resumed when the patient has sufficiently recovered from the surgery.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$surg",
+		"ident": 11,
+		"order": 12,
+		"desc": "The patient was previously receiving a medication contraindicated with the current medication. The current medication will remain on hold until the prior medication has been cleansed from their system.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$washout",
+		"ident": 12,
+		"order": 13,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

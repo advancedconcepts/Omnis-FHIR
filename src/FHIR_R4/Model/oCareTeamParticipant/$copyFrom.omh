@@ -1,0 +1,9 @@
+Do inherited
+Do role.$clear()
+Calculate list as pValue.$role()
+Do role.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate member as pValue.$member()
+Calculate onBehalfOf as pValue.$onBehalfOf()
+Calculate period as pValue.$period()

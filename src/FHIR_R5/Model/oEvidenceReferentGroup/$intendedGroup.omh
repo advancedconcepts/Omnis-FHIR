@@ -1,0 +1,4 @@
+If intendedGroup.$validref()=kFalse
+	Calculate intendedGroup as $clib.$classes.oReference.$newref()
+End If
+Quit method intendedGroup

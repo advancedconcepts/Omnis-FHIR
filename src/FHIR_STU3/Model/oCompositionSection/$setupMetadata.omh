@@ -1,0 +1,8 @@
+Do inherited
+Do pElements.$add("title","title",0,"1",21,"string")
+Do pElements.$add("code","code",0,"1",38,"CodeableConcept")
+Do pElements.$add("text","text",0,"1",38,"Narrative")
+Do pElements.$add("mode","mode",0,"1",21,"code")
+Do pElements.$add("orderedBy","orderedBy",0,"1",38,"CodeableConcept")
+Do pElements.$add("entry","entry",0,"-1",38,"Reference")
+Do pElements.$add("emptyReason","emptyReason",0,"1",38,"CodeableConcept")

@@ -1,0 +1,4 @@
+If jurisdiction.$validref()=kFalse
+	Calculate jurisdiction as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method jurisdiction

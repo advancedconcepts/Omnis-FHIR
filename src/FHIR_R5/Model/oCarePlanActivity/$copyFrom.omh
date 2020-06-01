@@ -1,0 +1,18 @@
+Do inherited
+Do outcomeCodeableConcept.$clear()
+Calculate list as pValue.$outcomeCodeableConcept()
+Do outcomeCodeableConcept.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do outcomeReference.$clear()
+Calculate list as pValue.$outcomeReference()
+Do outcomeReference.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do progress.$clear()
+Calculate list as pValue.$progress()
+Do progress.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate reference as pValue.$reference()
+Calculate detail as pValue.$detail()

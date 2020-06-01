@@ -1,0 +1,8 @@
+Do inherited
+Do pElements.$add("type","::type",1,"1",38,"CodeableConcept")
+Do pElements.$add("request","request",0,"1",38,"Reference")
+Do pElements.$add("response","response",0,"1",38,"Reference")
+Do pElements.$add("submitter","submitter",0,"1",38,"Reference")
+Do pElements.$add("payee","payee",0,"1",38,"Reference")
+Do pElements.$add("date","date",0,"1",23,"date")
+Do pElements.$add("amount","amount",0,"1",38,"Money")

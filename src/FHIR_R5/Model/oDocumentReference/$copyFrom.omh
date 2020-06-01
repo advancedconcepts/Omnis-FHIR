@@ -1,0 +1,41 @@
+Do inherited
+Calculate masterIdentifier as pValue.$masterIdentifier()
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate status as pValue.$status()
+Calculate docStatus as pValue.$docStatus()
+Calculate type as pValue.$type()
+Do category.$clear()
+Calculate list as pValue.$category()
+Do category.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate subject as pValue.$subject()
+Calculate date as pValue.$date()
+Do author.$clear()
+Calculate list as pValue.$author()
+Do author.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate authenticator as pValue.$authenticator()
+Calculate custodian as pValue.$custodian()
+Do relatesTo.$clear()
+Calculate list as pValue.$relatesTo()
+Do relatesTo.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate description as pValue.$description()
+Do securityLabel.$clear()
+Calculate list as pValue.$securityLabel()
+Do securityLabel.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do content.$clear()
+Calculate list as pValue.$content()
+Do content.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate context as pValue.$context()

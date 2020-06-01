@@ -1,0 +1,5 @@
+Do inherited
+Calculate assessment as pValue.$assessment()
+Calculate productRelatedness as pValue.$productRelatedness()
+Calculate author as pValue.$author()
+Calculate method as pValue.$method()

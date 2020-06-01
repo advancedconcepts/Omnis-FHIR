@@ -1,0 +1,9 @@
+Do inherited
+Do pElements.$add("who","who",0,"1",38,"Reference")
+Do pElements.$add("onBehalfOf","onBehalfOf",0,"1",38,"Reference")
+Do pElements.$add("communicationMethod","communicationMethod",0,"1",38,"CodeableConcept")
+Do pElements.$add("date","date",0,"1",23,"date")
+Do pElements.$add("sourceIdentityCertificate","sourceIdentityCertificate",0,"1",21,"string")
+Do pElements.$add("proxyIdentityCertificate","proxyIdentityCertificate",0,"1",21,"string")
+Do pElements.$add("proxySignature","proxySignature",0,"1",38,"Signature")
+Do pElements.$add("sourceSignature","sourceSignature",0,"1",38,"Signature")

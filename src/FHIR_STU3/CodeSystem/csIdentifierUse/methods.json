@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$usual",
+		"ident": 0,
+		"order": 1,
+		"desc": "The identifier considered to be most trusted for the identification of this item.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$official",
+		"ident": 1,
+		"order": 2,
+		"desc": "A temporary identifier.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$temp",
+		"ident": 2,
+		"order": 3,
+		"desc": "An identifier that was assigned in secondary use - it serves to identify the object in a relative context, but cannot be consistently assigned to the same object again in a different context.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$secondary",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

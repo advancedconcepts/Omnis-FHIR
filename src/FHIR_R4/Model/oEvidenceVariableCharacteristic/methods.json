@@ -1,0 +1,228 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$description",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: A short, natural language description of the characteristic that could be used to communicate the criteria to an end-user.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$description.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A short, natural language description of the characteristic that could be used to communicate the criteria to an end-user."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$usageContext",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: Use UsageContext to define the members of the population, such as Age Ranges, Genders, Settings.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addusageContext",
+		"ident": 7,
+		"order": 8,
+		"desc": "Use UsageContext to define the members of the population, such as Age Ranges, Genders, Settings.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oUsageContext",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oUsageContext",
+				"sublen": 0,
+				"desc": "Use UsageContext to define the members of the population, such as Age Ranges, Genders, Settings."
+			}
+		]
+	},
+	{
+		"name": "$exclude",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: When true, members with this characteristic are excluded from the element.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$exclude.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "When true, members with this characteristic are excluded from the element."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$timeFromStart",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: Indicates duration from the participant's study entry.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$timeFromStart.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oDuration",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Indicates duration from the participant's study entry."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$groupMeasure",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: Indicates how elements are aggregated within the study effective period.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$groupMeasure.$assign",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Indicates how elements are aggregated within the study effective period."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,37 @@
+Do inherited
+Calculate identifier as pValue.$identifier()
+Calculate issued as pValue.$issued()
+Calculate applies as pValue.$applies()
+Calculate type as pValue.$type()
+Calculate subType as pValue.$subtype()
+Do topic.$clear()
+Calculate list as pValue.$topic()
+Do topic.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do action.$clear()
+Calculate list as pValue.$action()
+Do action.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do actionReason.$clear()
+Calculate list as pValue.$actionReason()
+Do actionReason.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do securityLabel.$clear()
+Calculate list as pValue.$securityLabel()
+Do securityLabel.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do agent.$clear()
+Calculate list as pValue.$agent()
+Do agent.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate text as pValue.$text()
+Do valuedItem.$clear()
+Calculate list as pValue.$valuedItem()
+Do valuedItem.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

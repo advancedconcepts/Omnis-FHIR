@@ -1,0 +1,205 @@
+[
+	{
+		"name": "$create",
+		"ident": 0,
+		"order": 1,
+		"desc": "copy(source).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copy",
+		"ident": 1,
+		"order": 2,
+		"desc": "truncate(source, length) - source must be stringy type.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$truncate",
+		"ident": 2,
+		"order": 3,
+		"desc": "escape(source, fmt1, fmt2) - change source from one kind of escaping to another (plain, java, xml, json). note that this is for when the string itself is escaped.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$escape",
+		"ident": 3,
+		"order": 4,
+		"desc": "cast(source, type?) - case source from one type to another. target type can be left as implicit if there is one and only one target type known.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$cast",
+		"ident": 4,
+		"order": 5,
+		"desc": "append(source...) - source is element or string.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$append",
+		"ident": 5,
+		"order": 6,
+		"desc": "translate(source, uri_of_map) - use the translate operation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$translate",
+		"ident": 6,
+		"order": 7,
+		"desc": "reference(source : object) - return a string that references the provided tree properly.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$reference",
+		"ident": 7,
+		"order": 8,
+		"desc": "Perform a date operation. *Parameters to be documented*.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$dateOp",
+		"ident": 8,
+		"order": 9,
+		"desc": "Generate a random UUID (in lowercase). No Parameters.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$uuid",
+		"ident": 9,
+		"order": 10,
+		"desc": "Return the appropriate string to put in a reference that refers to the resource provided as a parameter.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$pointer",
+		"ident": 10,
+		"order": 11,
+		"desc": "Execute the supplied FHIRPath expression and use the value returned by that.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$evaluate",
+		"ident": 11,
+		"order": 12,
+		"desc": "Create a CodeableConcept. Parameters = (text) or (system. Code[, display]).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$cc",
+		"ident": 12,
+		"order": 13,
+		"desc": "Create a Coding. Parameters = (system. Code[, display]).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$c",
+		"ident": 13,
+		"order": 14,
+		"desc": "Create a quantity. Parameters = (text) or (value, unit, [system, code]) where text is the natural representation e.g. [comparator]value[space]unit.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$qty",
+		"ident": 14,
+		"order": 15,
+		"desc": "Create an identifier. Parameters = (system, value[, type]) where type is a code from the identifier type value set.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$id",
+		"ident": 15,
+		"order": 16,
+		"desc": "Create a contact details. Parameters = (value) or (system, value). If no system is provided, the system should be inferred from the content of the value.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$cp",
+		"ident": 16,
+		"order": 17,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$all",
+		"ident": 0,
+		"order": 1,
+		"desc": "Enable the question when any of the enableWhen criteria are satisfied.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$any",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

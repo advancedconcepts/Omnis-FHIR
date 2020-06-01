@@ -1,0 +1,61 @@
+[
+	{
+		"name": "$draft",
+		"ident": 0,
+		"order": 1,
+		"desc": "the invoice has been finalized and sent to the recipient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$issued",
+		"ident": 1,
+		"order": 2,
+		"desc": "the invoice has been balaced / completely paid.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$balanced",
+		"ident": 2,
+		"order": 3,
+		"desc": "the invoice was cancelled.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$cancelled",
+		"ident": 3,
+		"order": 4,
+		"desc": "the invoice was determined as entered in error before it was issued.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$entered-in-error",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,6 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do variant.$define(variant_)
+Do quality.$define(quality_)
+Do repository.$define(repository_)
+Do pointer.$define(pointer_)

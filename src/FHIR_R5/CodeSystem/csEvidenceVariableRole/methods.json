@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$exposure",
+		"ident": 0,
+		"order": 1,
+		"desc": "variable represents a reference exposure.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$referenceExposure",
+		"ident": 1,
+		"order": 2,
+		"desc": "variable represents a measured variable.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$measuredVariable",
+		"ident": 2,
+		"order": 3,
+		"desc": "variable represents a confounder.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$confounder",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

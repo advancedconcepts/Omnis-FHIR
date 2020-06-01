@@ -1,0 +1,4 @@
+If fixture.$validref()=kFalse
+	Calculate fixture as $clib.$classes.oTestScriptFixture.$newref()
+End If
+Quit method fixture

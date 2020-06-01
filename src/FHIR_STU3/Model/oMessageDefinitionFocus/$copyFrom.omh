@@ -1,0 +1,5 @@
+Do inherited
+Calculate code as pValue.$code()
+Calculate profile as pValue.$profile()
+Calculate min as pValue.$min()
+Calculate max as pValue.$max()

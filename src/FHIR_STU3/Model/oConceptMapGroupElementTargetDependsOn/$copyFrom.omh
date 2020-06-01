@@ -1,0 +1,5 @@
+Do inherited
+Calculate property as pValue.$property()
+Calculate system as pValue.$system()
+Calculate code as pValue.$code()
+Calculate display as pValue.$display()

@@ -1,0 +1,4 @@
+If overload.$validref()=kFalse
+	Calculate overload as $clib.$classes.oOperationDefinitionOverload.$newref()
+End If
+Quit method overload

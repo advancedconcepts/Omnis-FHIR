@@ -1,0 +1,4 @@
+If attestationSignature.$validref()=kFalse
+	Calculate attestationSignature as $clib.$classes.oSignature.$newref()
+End If
+Quit method attestationSignature

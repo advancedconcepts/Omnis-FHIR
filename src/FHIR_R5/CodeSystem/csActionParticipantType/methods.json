@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$patient",
+		"ident": 0,
+		"order": 1,
+		"desc": "The participant is a practitioner involved in the patient's care.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$practitioner",
+		"ident": 1,
+		"order": 2,
+		"desc": "The participant is a person related to the patient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$related-person",
+		"ident": 2,
+		"order": 3,
+		"desc": "The participant is a system or device used in the care of the patient.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$device",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

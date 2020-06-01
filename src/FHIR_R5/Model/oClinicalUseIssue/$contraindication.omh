@@ -1,0 +1,4 @@
+If contraindication.$validref()=kFalse
+	Calculate contraindication as $clib.$classes.oClinicalUseIssueContraindication.$newref()
+End If
+Quit method contraindication

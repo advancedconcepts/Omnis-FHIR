@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$condition",
+		"ident": 0,
+		"order": 1,
+		"desc": "This compartment rule is enforced on any relationships that meet the conditions.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$requirement",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("condition","condition",1,"1",38,"Reference")
+Do pElements.$add("use","use",0,"1",38,"CodeableConcept")
+Do pElements.$add("rank","rank",0,"1",26,"positiveInt")

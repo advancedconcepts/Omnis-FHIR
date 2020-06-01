@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$patient-care",
+		"ident": 0,
+		"order": 1,
+		"desc": "The supply has been requested for for creating or replenishing ward stock.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ward-stock",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

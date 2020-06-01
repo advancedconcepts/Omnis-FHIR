@@ -1,0 +1,7 @@
+Do inherited
+Do pElements.$add("code","code",0,"1",21,"string")
+Do pElements.$add("isDefault","isDefault",0,"1",22,"boolean")
+Do pElements.$add("compositional","compositional",0,"1",22,"boolean")
+Do pElements.$add("language","language",0,"-1",21,"code")
+Do pElements.$add("filter","filter",0,"-1",38,"")
+Do pElements.$add("property","property",0,"-1",21,"code")

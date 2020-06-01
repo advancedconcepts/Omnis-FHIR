@@ -1,0 +1,4 @@
+If referenceSeq.$validref()=kFalse
+	Calculate referenceSeq as $clib.$classes.oSequenceReferenceSeq.$newref()
+End If
+Quit method referenceSeq

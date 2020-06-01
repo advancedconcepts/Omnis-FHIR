@@ -1,0 +1,5 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do category.$define(category_)
+Do instance.$define(instance_)
+Do ingredient.$define(ingredient_)

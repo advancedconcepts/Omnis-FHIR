@@ -1,0 +1,6 @@
+Do inherited
+Do pElements.$add("title","title",1,"1",21,"string")
+Do pElements.$add("description","description",0,"1",21,"markdown")
+Do pElements.$add("preConditions","preConditions",0,"1",21,"markdown")
+Do pElements.$add("postConditions","postConditions",0,"1",21,"markdown")
+Do pElements.$add("step","step",0,"-1",38,"")

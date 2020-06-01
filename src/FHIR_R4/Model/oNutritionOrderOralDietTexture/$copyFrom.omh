@@ -1,0 +1,3 @@
+Do inherited
+Calculate modifier as pValue.$modifier()
+Calculate foodType as pValue.$foodType()

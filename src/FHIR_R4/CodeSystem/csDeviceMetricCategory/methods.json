@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$measurement",
+		"ident": 0,
+		"order": 1,
+		"desc": "DeviceObservations generated for this DeviceMetric is a setting that will influence the behavior of the Device.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setting",
+		"ident": 1,
+		"order": 2,
+		"desc": "DeviceObservations generated for this DeviceMetric are calculated.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$calculation",
+		"ident": 2,
+		"order": 3,
+		"desc": "The category of this DeviceMetric is unspecified.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unspecified",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,5 @@
+Do inherited
+Do pElements.$add("role","role",0,"-1",38,"CodeableConcept")
+Do pElements.$add("member","member",0,"1",38,"Reference")
+Do pElements.$add("onBehalfOf","onBehalfOf",0,"1",38,"Reference")
+Do pElements.$add("period","period",0,"1",38,"Period")

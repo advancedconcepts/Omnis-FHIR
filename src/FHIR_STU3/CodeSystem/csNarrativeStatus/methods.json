@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$generated",
+		"ident": 0,
+		"order": 1,
+		"desc": "The contents of the narrative are entirely generated from the structured data in the content and some of the content is generated from extensions",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$extensions",
+		"ident": 1,
+		"order": 2,
+		"desc": "The contents of the narrative may contain additional information not found in the structured data. Note that there is no computable way to determine what the extra information is, other than by human inspection",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$additional",
+		"ident": 2,
+		"order": 3,
+		"desc": "The contents of the narrative are some equivalent of \"No human-readable text provided in this case\"",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$empty",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

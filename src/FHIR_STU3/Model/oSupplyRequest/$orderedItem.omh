@@ -1,0 +1,4 @@
+If orderedItem.$validref()=kFalse
+	Calculate orderedItem as $clib.$classes.oSupplyRequestOrderedItem.$newref()
+End If
+Quit method orderedItem

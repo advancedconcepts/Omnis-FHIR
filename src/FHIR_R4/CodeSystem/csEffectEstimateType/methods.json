@@ -1,0 +1,85 @@
+[
+	{
+		"name": "$relative-RR",
+		"ident": 0,
+		"order": 1,
+		"desc": "odds ratio (a type of relative effect estimate).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$relative-OR",
+		"ident": 1,
+		"order": 2,
+		"desc": "hazard ratio (a type of relative effect estimate).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$relative-HR",
+		"ident": 2,
+		"order": 3,
+		"desc": "absolute risk difference (a type of absolute effect estimate).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$absolute-ARD",
+		"ident": 3,
+		"order": 4,
+		"desc": "mean difference (a type of absolute effect estimate).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$absolute-MeanDiff",
+		"ident": 4,
+		"order": 5,
+		"desc": "standardized mean difference (a type of absolute effect estimate).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$absolute-SMD",
+		"ident": 5,
+		"order": 6,
+		"desc": "median difference (a type of absolute effect estimate).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$absolute-MedianDiff",
+		"ident": 6,
+		"order": 7,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

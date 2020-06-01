@@ -1,0 +1,73 @@
+[
+	{
+		"name": "$product-problem",
+		"ident": 0,
+		"order": 1,
+		"desc": "The adverse event pertains to product quality.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$product-quality",
+		"ident": 1,
+		"order": 2,
+		"desc": "The adverse event pertains to a product use error.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$product-use-error",
+		"ident": 2,
+		"order": 3,
+		"desc": "The adverse event pertains to a medical device use error.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$medical-device-use-error",
+		"ident": 3,
+		"order": 4,
+		"desc": "The adverse event pertains to a problem with a different manufacturer of the same medication.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$problem-different-manufacturer",
+		"ident": 4,
+		"order": 5,
+		"desc": "The adverse event pertains to an unsafe physical environment.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unsafe-physical-environment",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

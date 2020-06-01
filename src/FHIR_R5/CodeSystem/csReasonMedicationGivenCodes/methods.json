@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$a",
+		"ident": 0,
+		"order": 1,
+		"desc": "The administration was following an ordered protocol.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$b",
+		"ident": 1,
+		"order": 2,
+		"desc": "The administration was needed to treat an emergency.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$c",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

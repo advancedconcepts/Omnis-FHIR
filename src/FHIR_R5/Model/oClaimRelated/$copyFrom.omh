@@ -1,0 +1,4 @@
+Do inherited
+Calculate claim as pValue.$claim()
+Calculate relationship as pValue.$relationship()
+Calculate reference as pValue.$reference()

@@ -1,0 +1,4 @@
+If designation.$validref()=kFalse
+	Calculate designation as $clib.$classes.oExpansionProfileDesignationExcludeDesignation.$newref()
+End If
+Quit method designation

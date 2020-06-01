@@ -1,0 +1,4 @@
+If code.$validref()=kFalse
+	Calculate code as $clib.$classes.oSubstanceSpecificationCode.$newref()
+End If
+Quit method code

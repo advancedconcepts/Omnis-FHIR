@@ -1,0 +1,326 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "doseQuantity",
+			"order": 17,
+			"type": "kObjectref",
+			"subtype": "oQuantity",
+			"sublen": 0,
+			"desc": "The quantity of vaccine product that was administered."
+		},
+		{
+			"name": "education",
+			"order": 29,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "education_",
+			"order": 30,
+			"type": "kObjectref",
+			"subtype": "oImmunizationEducation",
+			"sublen": 0,
+			"desc": "Educational material presented to the patient (or guardian) at the time of vaccine administration."
+		},
+		{
+			"name": "encounter",
+			"order": 7,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The visit or admission or other contact between patient and health care provider the immunization was performed as part of."
+		},
+		{
+			"name": "expirationDate",
+			"order": 14,
+			"type": "kDate",
+			"subtype": "kDate2000",
+			"sublen": 0,
+			"desc": "Date vaccine batch expires."
+		},
+		{
+			"name": "fundingSource",
+			"order": 33,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Indicates the source of the vaccine actually administered. This may be different than the patient eligibility (e.g. the patient may be eligible for a publically purchased vaccine but due to inventory issues, vaccine purchased with private funds was actual"
+		},
+		{
+			"name": "identifier",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "identifier_",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "A unique identifier assigned to this immunization record."
+		},
+		{
+			"name": "isSubpotent",
+			"order": 26,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "Indication if a dose is considered to be subpotent. By default, a dose should be considered to be potent."
+		},
+		{
+			"name": "location",
+			"order": 11,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The service delivery location where the vaccine administration occurred."
+		},
+		{
+			"name": "lotNumber",
+			"order": 13,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Lot number of the  vaccine product."
+		},
+		{
+			"name": "manufacturer",
+			"order": 12,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Name of vaccine manufacturer."
+		},
+		{
+			"name": "note",
+			"order": 20,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "note_",
+			"order": 21,
+			"type": "kObjectref",
+			"subtype": "oAnnotation",
+			"sublen": 0,
+			"desc": "Extra information about the immunization that is not conveyed by the other attributes."
+		},
+		{
+			"name": "patient",
+			"order": 6,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The patient who either received or did not receive the immunization."
+		},
+		{
+			"name": "performer",
+			"order": 18,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "performer_",
+			"order": 19,
+			"type": "kObjectref",
+			"subtype": "oImmunizationPerformer",
+			"sublen": 0,
+			"desc": "Indicates who performed the immunization event."
+		},
+		{
+			"name": "primarySource",
+			"order": 9,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "An indication that the content of the record is based on information from the person who administered the vaccine. This reflects the context under which the data was originally recorded."
+		},
+		{
+			"name": "programEligibility",
+			"order": 31,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "programEligibility_",
+			"order": 32,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Indicates a patient's eligibility for a funding program."
+		},
+		{
+			"name": "protocolApplied",
+			"order": 36,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "protocolApplied_",
+			"order": 37,
+			"type": "kObjectref",
+			"subtype": "oImmunizationProtocolApplied",
+			"sublen": 0,
+			"desc": "The protocol (set of recommendations) being followed by the provider who administered the dose."
+		},
+		{
+			"name": "reaction",
+			"order": 34,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "reaction_",
+			"order": 35,
+			"type": "kObjectref",
+			"subtype": "oImmunizationReaction",
+			"sublen": 0,
+			"desc": "Categorical data indicating that an adverse event is associated in time to an immunization."
+		},
+		{
+			"name": "reasonCode",
+			"order": 22,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "reasonCode_",
+			"order": 23,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Reasons why the vaccine was administered."
+		},
+		{
+			"name": "reasonReference",
+			"order": 24,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "reasonReference_",
+			"order": 25,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Condition, Observation or DiagnosticReport that supports why the immunization was administered."
+		},
+		{
+			"name": "recorded",
+			"order": 8,
+			"type": "kDate",
+			"subtype": "kDatetime",
+			"sublen": 0,
+			"desc": "The date the occurrence of the immunization was first captured in the record - potentially significantly after the occurrence of the event."
+		},
+		{
+			"name": "reportOrigin",
+			"order": 10,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The source of the data when the report of the immunization event is not based on information from the person who administered the vaccine."
+		},
+		{
+			"name": "route",
+			"order": 16,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The path by which the vaccine product is taken into the body."
+		},
+		{
+			"name": "site",
+			"order": 15,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Body site where vaccine was administered."
+		},
+		{
+			"name": "status",
+			"order": 3,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Indicates the current status of the immunization event."
+		},
+		{
+			"name": "statusReason",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Indicates the reason the immunization event was not performed."
+		},
+		{
+			"name": "subpotentReason",
+			"order": 27,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "subpotentReason_",
+			"order": 28,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Reason why a dose is considered to be subpotent."
+		},
+		{
+			"name": "vaccineCode",
+			"order": 5,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Vaccine that was administered or was to be administered."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:41:43",
+		"desc": "Describes the event of a patient being administered a vaccine or a record of an immunization as reported by a patient, a clinician or another party.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:24",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

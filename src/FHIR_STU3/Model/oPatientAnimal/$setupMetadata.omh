@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("species","species",1,"1",38,"CodeableConcept")
+Do pElements.$add("breed","breed",0,"1",38,"CodeableConcept")
+Do pElements.$add("genderStatus","genderStatus",0,"1",38,"CodeableConcept")

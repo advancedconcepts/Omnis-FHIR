@@ -1,0 +1,4 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do group.$define(group_)
+Do evaluatedResource.$define(evaluatedResource_)

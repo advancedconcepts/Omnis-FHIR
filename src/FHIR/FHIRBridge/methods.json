@@ -1,0 +1,94 @@
+[
+	{
+		"name": "$construct",
+		"ident": 1,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$destruct",
+		"ident": 2,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$patientToResource",
+		"ident": 0,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pContext",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "",
+				"sublen": 0,
+				"param": 1
+			},
+			{
+				"name": "pNativePatient",
+				"order": 3,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0,
+				"param": 2
+			},
+			{
+				"name": "pFHIRPatient",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "",
+				"sublen": 0,
+				"param": 3
+			}
+		],
+		"lvardefs": [
+
+		],
+		"empty": true
+	},
+	{
+		"name": "$patientFromResource",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+			{
+				"name": "pContext",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "FHIRContext",
+				"sublen": 0,
+				"param": 1
+			},
+			{
+				"name": "pFHIRPatient",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "fhir_r4.oPatient",
+				"sublen": 0,
+				"param": 2
+			},
+			{
+				"name": "pNativePatient",
+				"order": 3,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0,
+				"param": 3
+			}
+		],
+		"lvardefs": [
+
+		],
+		"empty": true
+	}
+]

@@ -1,0 +1,4 @@
+If reviewer.$validref()=kFalse
+	Calculate reviewer as $clib.$classes.oContactDetail.$newref()
+End If
+Quit method reviewer

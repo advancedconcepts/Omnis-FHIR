@@ -1,0 +1,8 @@
+Do inherited
+Calculate type as pValue.$type()
+Calculate requirement as pValue.$requirement()
+Do limit.$clear()
+Calculate list as pValue.$limit()
+Do limit.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

@@ -1,0 +1,9 @@
+Do inherited
+Do daysOfWeek.$clear()
+Calculate list as pValue.$daysOfWeek()
+Do daysOfWeek.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate allDay as pValue.$allDay()
+Calculate openingTime as pValue.$openingTime()
+Calculate closingTime as pValue.$closingTime()

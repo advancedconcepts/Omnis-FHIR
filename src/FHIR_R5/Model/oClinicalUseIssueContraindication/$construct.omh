@@ -1,0 +1,4 @@
+Do inherited
+Do comorbidity.$define(comorbidity_)
+Do indication.$define(indication_)
+Do otherTherapy.$define(otherTherapy_)

@@ -1,0 +1,330 @@
+[
+	{
+		"name": "$resourceType",
+		"ident": 0,
+		"order": 1,
+		"desc": "Returns the FHIR type name for this instance",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$metadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$subject",
+		"ident": 5,
+		"order": 6,
+		"desc": "Returns: The medication for which this is an indication.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addsubject",
+		"ident": 6,
+		"order": 7,
+		"desc": "The medication for which this is an indication.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "The medication for which this is an indication."
+			}
+		]
+	},
+	{
+		"name": "$disease",
+		"ident": 7,
+		"order": 8,
+		"desc": "Returns: The disease, symptom or procedure for the contraindication.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$disease.$assign",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The disease, symptom or procedure for the contraindication."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$diseaseStatus",
+		"ident": 9,
+		"order": 10,
+		"desc": "Returns: The status of the disease or symptom for the contraindication.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$diseaseStatus.$assign",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The status of the disease or symptom for the contraindication."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$comorbidity",
+		"ident": 11,
+		"order": 12,
+		"desc": "Returns: A comorbidity (concurrent condition) or coinfection.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcomorbidity",
+		"ident": 12,
+		"order": 13,
+		"desc": "A comorbidity (concurrent condition) or coinfection.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"desc": "A comorbidity (concurrent condition) or coinfection."
+			}
+		]
+	},
+	{
+		"name": "$therapeuticIndication",
+		"ident": 13,
+		"order": 14,
+		"desc": "Returns: Information about the use of the medicinal product in relation to other therapies as part of the indication.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addtherapeuticIndication",
+		"ident": 14,
+		"order": 15,
+		"desc": "Information about the use of the medicinal product in relation to other therapies as part of the indication.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Information about the use of the medicinal product in relation to other therapies as part of the indication."
+			}
+		]
+	},
+	{
+		"name": "$otherTherapy",
+		"ident": 15,
+		"order": 16,
+		"desc": "Returns: Information about the use of the medicinal product in relation to other therapies described as part of the indication.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addotherTherapy",
+		"ident": 16,
+		"order": 17,
+		"desc": "Information about the use of the medicinal product in relation to other therapies described as part of the indication.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMedicinalProductContraindicationOtherTherapy",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oMedicinalProductContraindicationOtherTherapy",
+				"sublen": 0,
+				"desc": "Information about the use of the medicinal product in relation to other therapies described as part of the indication."
+			}
+		]
+	},
+	{
+		"name": "$population",
+		"ident": 17,
+		"order": 18,
+		"desc": "Returns: The population group to which this applies.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addpopulation",
+		"ident": 18,
+		"order": 19,
+		"desc": "The population group to which this applies.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oPopulation",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oPopulation",
+				"sublen": 0,
+				"desc": "The population group to which this applies."
+			}
+		]
+	}
+]

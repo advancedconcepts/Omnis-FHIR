@@ -1,0 +1,290 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$score",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: Invidual data point representing the GQ (genotype quality) score threshold.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addscore",
+		"ident": 5,
+		"order": 6,
+		"desc": "Invidual data point representing the GQ (genotype quality) score threshold.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Invidual data point representing the GQ (genotype quality) score threshold."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$numTP",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: The number of true positives if the GQ score threshold was set to \"score\" field value.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addnumTP",
+		"ident": 7,
+		"order": 8,
+		"desc": "The number of true positives if the GQ score threshold was set to \"score\" field value.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The number of true positives if the GQ score threshold was set to \"score\" field value."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$numFP",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: The number of false positives if the GQ score threshold was set to \"score\" field value.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addnumFP",
+		"ident": 9,
+		"order": 10,
+		"desc": "The number of false positives if the GQ score threshold was set to \"score\" field value.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The number of false positives if the GQ score threshold was set to \"score\" field value."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$numFN",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: The number of false negatives if the GQ score threshold was set to \"score\" field value.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addnumFN",
+		"ident": 11,
+		"order": 12,
+		"desc": "The number of false negatives if the GQ score threshold was set to \"score\" field value.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The number of false negatives if the GQ score threshold was set to \"score\" field value."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$precision",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: Calculated precision if the GQ score threshold was set to \"score\" field value.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addprecision",
+		"ident": 13,
+		"order": 14,
+		"desc": "Calculated precision if the GQ score threshold was set to \"score\" field value.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kNumber",
+				"subtype": "kFloatdp",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Calculated precision if the GQ score threshold was set to \"score\" field value."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sensitivity",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: Calculated sensitivity if the GQ score threshold was set to \"score\" field value.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addsensitivity",
+		"ident": 15,
+		"order": 16,
+		"desc": "Calculated sensitivity if the GQ score threshold was set to \"score\" field value.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kNumber",
+				"subtype": "kFloatdp",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Calculated sensitivity if the GQ score threshold was set to \"score\" field value."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$fMeasure",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: Calculated fScore if the GQ score threshold was set to \"score\" field value.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addfMeasure",
+		"ident": 17,
+		"order": 18,
+		"desc": "Calculated fScore if the GQ score threshold was set to \"score\" field value.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kNumber",
+				"subtype": "kFloatdp",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Calculated fScore if the GQ score threshold was set to \"score\" field value."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

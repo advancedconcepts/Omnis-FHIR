@@ -1,0 +1,4 @@
+If qualifiedInterval.$validref()=kFalse
+	Calculate qualifiedInterval as $clib.$classes.oObservationDefinitionQualifiedInterval.$newref()
+End If
+Quit method qualifiedInterval

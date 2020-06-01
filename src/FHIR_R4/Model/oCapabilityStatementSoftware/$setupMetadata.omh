@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("name","::name",1,"1",21,"string")
+Do pElements.$add("version","::version",0,"1",21,"string")
+Do pElements.$add("releaseDate","releaseDate",0,"1",23,"dateTime")

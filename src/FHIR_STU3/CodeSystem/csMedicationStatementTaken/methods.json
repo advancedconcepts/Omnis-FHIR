@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$y",
+		"ident": 0,
+		"order": 1,
+		"desc": "Negative assertion that patient has not taken medication",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$n",
+		"ident": 1,
+		"order": 2,
+		"desc": "Unknown assertion if patient has taken medication",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unk",
+		"ident": 2,
+		"order": 3,
+		"desc": "Patient reporting does not apply",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$na",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

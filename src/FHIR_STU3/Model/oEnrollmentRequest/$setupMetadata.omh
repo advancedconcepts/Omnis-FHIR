@@ -1,0 +1,9 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"-1",38,"Identifier")
+Do pElements.$add("status","status",0,"1",21,"code")
+Do pElements.$add("created","created",0,"1",23,"dateTime")
+Do pElements.$add("insurer","insurer",0,"1",38,"Reference")
+Do pElements.$add("provider","provider",0,"1",38,"Reference")
+Do pElements.$add("organization","organization",0,"1",38,"Reference")
+Do pElements.$add("subject","subject",0,"1",38,"Reference")
+Do pElements.$add("coverage","coverage",0,"1",38,"Reference")

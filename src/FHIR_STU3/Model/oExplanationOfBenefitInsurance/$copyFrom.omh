@@ -1,0 +1,7 @@
+Do inherited
+Calculate coverage as pValue.$coverage()
+Do preAuthRef.$clear()
+Calculate list as pValue.$preAuthRef()
+Do preAuthRef.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

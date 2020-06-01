@@ -1,0 +1,17 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate status as pValue.$status()
+Calculate request as pValue.$request()
+Calculate response as pValue.$response()
+Calculate created as pValue.$created()
+Calculate provider as pValue.$provider()
+Calculate payment as pValue.$payment()
+Calculate paymentDate as pValue.$paymentDate()
+Calculate payee as pValue.$payee()
+Calculate recipient as pValue.$recipient()
+Calculate amount as pValue.$amount()
+Calculate paymentStatus as pValue.$paymentStatus()

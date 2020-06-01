@@ -1,0 +1,135 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "additionalInstruction",
+			"order": 3,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "additionalInstruction_",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Supplemental instruction - e.g. \"with meals\"."
+		},
+		{
+			"name": "maxDosePerAdministration",
+			"order": 11,
+			"type": "kObjectref",
+			"subtype": "oQuantity",
+			"sublen": 0,
+			"desc": "Upper limit on medication per administration."
+		},
+		{
+			"name": "maxDosePerLifetime",
+			"order": 12,
+			"type": "kObjectref",
+			"subtype": "oQuantity",
+			"sublen": 0,
+			"desc": "Upper limit on medication per lifetime of the patient."
+		},
+		{
+			"name": "maxDosePerPeriod",
+			"order": 10,
+			"type": "kObjectref",
+			"subtype": "oRatio",
+			"sublen": 0,
+			"desc": "Upper limit on medication per unit of time."
+		},
+		{
+			"name": "method",
+			"order": 9,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Technique for administering medication."
+		},
+		{
+			"name": "patientInstruction",
+			"order": 5,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Instructions in terms that are understood by the patient or consumer."
+		},
+		{
+			"name": "route",
+			"order": 8,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "How drug should enter body."
+		},
+		{
+			"name": "sequence",
+			"order": 1,
+			"type": "kInteger",
+			"subtype": "k32bitint",
+			"sublen": 0,
+			"desc": "Indicates the order in which the dosage instructions should be applied or interpreted."
+		},
+		{
+			"name": "site",
+			"order": 7,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Body site to administer to."
+		},
+		{
+			"name": "text",
+			"order": 2,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Free text dosage instructions e.g. SIG."
+		},
+		{
+			"name": "timing",
+			"order": 6,
+			"type": "kObjectref",
+			"subtype": "oTiming",
+			"sublen": 0,
+			"desc": "When medication should be administered."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:39:53",
+		"desc": "Base StructureDefinition for Dosage Type",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:26",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

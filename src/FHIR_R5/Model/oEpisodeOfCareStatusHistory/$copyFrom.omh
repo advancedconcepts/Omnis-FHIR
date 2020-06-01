@@ -1,0 +1,3 @@
+Do inherited
+Calculate status as pValue.$status()
+Calculate period as pValue.$period()

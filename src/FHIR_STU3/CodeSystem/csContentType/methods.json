@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$xml",
+		"ident": 0,
+		"order": 1,
+		"desc": "JSON content-type corresponding to the application/fhir+json mime-type.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$json",
+		"ident": 1,
+		"order": 2,
+		"desc": "RDF content-type corresponding to the text/turtle mime-type.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ttl",
+		"ident": 2,
+		"order": 3,
+		"desc": "Prevent the use of the corresponding http header.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$none",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

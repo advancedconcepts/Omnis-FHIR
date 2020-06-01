@@ -1,0 +1,4 @@
+If attributeEstimate.estimateQualifier.quantity.$validref()=kFalse
+	Calculate attributeEstimate.estimateQualifier.quantity as $clib.$classes.oQuantity.$newref()
+End If
+Quit method attributeEstimate.estimateQualifier.quantity

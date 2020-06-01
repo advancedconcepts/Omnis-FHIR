@@ -1,0 +1,4 @@
+If prism.$validref()=kFalse
+	Calculate prism as $clib.$classes.oVisionPrescriptionLensSpecificationPrism.$newref()
+End If
+Quit method prism

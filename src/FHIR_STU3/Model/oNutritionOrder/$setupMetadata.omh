@@ -1,0 +1,13 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"-1",38,"Identifier")
+Do pElements.$add("status","status",0,"1",21,"code")
+Do pElements.$add("patient","patient",1,"1",38,"Reference")
+Do pElements.$add("encounter","encounter",0,"1",38,"Reference")
+Do pElements.$add("dateTime","dateTime",1,"1",23,"dateTime")
+Do pElements.$add("orderer","orderer",0,"1",38,"Reference")
+Do pElements.$add("allergyIntolerance","allergyIntolerance",0,"-1",38,"Reference")
+Do pElements.$add("foodPreferenceModifier","foodPreferenceModifier",0,"-1",38,"CodeableConcept")
+Do pElements.$add("excludeFoodModifier","excludeFoodModifier",0,"-1",38,"CodeableConcept")
+Do pElements.$add("oralDiet","oralDiet",0,"1",38,"")
+Do pElements.$add("supplement","supplement",0,"-1",38,"")
+Do pElements.$add("enteralFormula","enteralFormula",0,"1",38,"")

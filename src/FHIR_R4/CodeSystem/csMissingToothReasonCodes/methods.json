@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$e",
+		"ident": 0,
+		"order": 1,
+		"desc": "Congenital",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$c",
+		"ident": 1,
+		"order": 2,
+		"desc": "Unknown",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$u",
+		"ident": 2,
+		"order": 3,
+		"desc": "Other",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$o",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

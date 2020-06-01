@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$cancel",
+		"ident": 0,
+		"order": 1,
+		"desc": "Check for previously un-read/ not-retrieved resources.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$poll",
+		"ident": 1,
+		"order": 2,
+		"desc": "Re-process the target resource.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$reprocess",
+		"ident": 2,
+		"order": 3,
+		"desc": "Retrieve the processing status of the target resource.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$status",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

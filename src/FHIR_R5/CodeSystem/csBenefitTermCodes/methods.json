@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$annual",
+		"ident": 0,
+		"order": 1,
+		"desc": "Per day",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$day",
+		"ident": 1,
+		"order": 2,
+		"desc": "For the total term, lifetime, of the policy or coverage",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$lifetime",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

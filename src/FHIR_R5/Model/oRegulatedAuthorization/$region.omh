@@ -1,0 +1,4 @@
+If region.$validref()=kFalse
+	Calculate region as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method region

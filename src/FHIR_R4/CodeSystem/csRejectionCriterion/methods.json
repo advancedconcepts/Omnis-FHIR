@@ -1,0 +1,61 @@
+[
+	{
+		"name": "$hemolized",
+		"ident": 0,
+		"order": 1,
+		"desc": "insufficient quantity of specimen.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$insufficient",
+		"ident": 1,
+		"order": 2,
+		"desc": "specimen container broken.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$broken",
+		"ident": 2,
+		"order": 3,
+		"desc": "specimen clotted.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$clotted",
+		"ident": 3,
+		"order": 4,
+		"desc": "specimen temperature inappropriate.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$wrong-temperature",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

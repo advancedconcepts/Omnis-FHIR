@@ -1,0 +1,61 @@
+[
+	{
+		"name": "$proposed",
+		"ident": 0,
+		"order": 1,
+		"desc": "A proposed goal was accepted or acknowledged",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$accepted",
+		"ident": 1,
+		"order": 2,
+		"desc": "The previously accepted goal is no longer being sought",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$cancelled",
+		"ident": 2,
+		"order": 3,
+		"desc": "The goal was entered in error and voided.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$entered-in-error",
+		"ident": 3,
+		"order": 4,
+		"desc": "A proposed goal was rejected",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$rejected",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

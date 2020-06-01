@@ -1,0 +1,7 @@
+Do inherited
+Do pElements.$add("severity","severity",1,"1",21,"code")
+Do pElements.$add("code","code",1,"1",21,"code")
+Do pElements.$add("details","details",0,"1",38,"CodeableConcept")
+Do pElements.$add("diagnostics","diagnostics",0,"1",21,"string")
+Do pElements.$add("location","location",0,"-1",21,"string")
+Do pElements.$add("expression","expression",0,"-1",21,"string")

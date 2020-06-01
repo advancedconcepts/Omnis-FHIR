@@ -1,0 +1,108 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "classification",
+			"order": 6,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "classification_",
+			"order": 7,
+			"type": "kObjectref",
+			"subtype": "oSubstanceReferenceInformationClassification",
+			"sublen": 0,
+			"desc": "Todo."
+		},
+		{
+			"name": "comment",
+			"order": 1,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Todo."
+		},
+		{
+			"name": "gene",
+			"order": 2,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "geneElement",
+			"order": 4,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "geneElement_",
+			"order": 5,
+			"type": "kObjectref",
+			"subtype": "oSubstanceReferenceInformationGeneElement",
+			"sublen": 0,
+			"desc": "Todo."
+		},
+		{
+			"name": "gene_",
+			"order": 3,
+			"type": "kObjectref",
+			"subtype": "oSubstanceReferenceInformationGene",
+			"sublen": 0,
+			"desc": "Todo."
+		},
+		{
+			"name": "target",
+			"order": 8,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "target_",
+			"order": 9,
+			"type": "kObjectref",
+			"subtype": "oSubstanceReferenceInformationTarget",
+			"sublen": 0,
+			"desc": "Todo."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:45:04",
+		"desc": "Todo.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:28",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

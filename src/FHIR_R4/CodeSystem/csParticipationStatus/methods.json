@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$accepted",
+		"ident": 0,
+		"order": 1,
+		"desc": "The participant has declined the appointment and will not participate in the appointment.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$declined",
+		"ident": 1,
+		"order": 2,
+		"desc": "The participant has  tentatively accepted the appointment. This could be automatically created by a system and requires further processing before it can be accepted. There is no commitment that attendance will occur.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$tentative",
+		"ident": 2,
+		"order": 3,
+		"desc": "The participant needs to indicate if they accept the appointment by changing this status to one of the other statuses.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$needs-action",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

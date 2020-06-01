@@ -1,0 +1,11 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"1",38,"Identifier")
+Do pElements.$add("basedOn","basedOn",0,"-1",38,"Reference")
+Do pElements.$add("partOf","partOf",0,"-1",38,"Reference")
+Do pElements.$add("status","status",0,"1",21,"code")
+Do pElements.$add("patient","patient",0,"1",38,"Reference")
+Do pElements.$add("type","::type",0,"1",38,"CodeableConcept")
+Do pElements.$add("suppliedItem","suppliedItem",0,"1",38,"")
+Do pElements.$add("supplier","supplier",0,"1",38,"Reference")
+Do pElements.$add("destination","destination",0,"1",38,"Reference")
+Do pElements.$add("receiver","receiver",0,"-1",38,"Reference")

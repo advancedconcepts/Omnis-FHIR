@@ -1,0 +1,13 @@
+Do inherited
+Calculate uid as pValue.$uid()
+Calculate imagingStudy as pValue.$imagingStudy()
+Do endpoint.$clear()
+Calculate list as pValue.$endpoint()
+Do endpoint.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do series.$clear()
+Calculate list as pValue.$series()
+Do series.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

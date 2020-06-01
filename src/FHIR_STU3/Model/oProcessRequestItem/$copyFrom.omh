@@ -1,0 +1,2 @@
+Do inherited
+Calculate sequenceLinkId as pValue.$sequenceLinkId()

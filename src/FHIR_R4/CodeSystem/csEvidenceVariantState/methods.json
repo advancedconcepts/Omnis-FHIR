@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$low-risk",
+		"ident": 0,
+		"order": 1,
+		"desc": "medium risk estimate.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$medium-risk",
+		"ident": 1,
+		"order": 2,
+		"desc": "high risk estimate.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$high-risk",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

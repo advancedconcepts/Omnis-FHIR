@@ -1,0 +1,97 @@
+[
+	{
+		"name": "$active",
+		"ident": 0,
+		"order": 1,
+		"desc": "The medication is no longer being taken.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$completed",
+		"ident": 1,
+		"order": 2,
+		"desc": "Some of the actions that are implied by the medication usage may have occurred.  For example, the patient may have taken some of the medication.  Clinical decision support systems should take this status into account.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$entered-in-error",
+		"ident": 2,
+		"order": 3,
+		"desc": "The medication may be taken at some time in the future.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$intended",
+		"ident": 3,
+		"order": 4,
+		"desc": "Actions implied by the usage have been permanently halted, before all of them occurred. This should not be used if the statement was entered in error.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$stopped",
+		"ident": 4,
+		"order": 5,
+		"desc": "Actions implied by the usage have been temporarily halted, but are expected to continue later. May also be called 'suspended'.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$on-hold",
+		"ident": 5,
+		"order": 6,
+		"desc": "The state of the medication use is not currently known.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unknown",
+		"ident": 6,
+		"order": 7,
+		"desc": "The medication was not consumed by the patient",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$not-taken",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

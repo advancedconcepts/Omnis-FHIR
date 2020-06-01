@@ -1,0 +1,315 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "account",
+			"order": 30,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "account_",
+			"order": 31,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The set of accounts that may be used for billing for this Encounter."
+		},
+		{
+			"name": "appointment",
+			"order": 20,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "appointment_",
+			"order": 21,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The appointment that scheduled this encounter."
+		},
+		{
+			"name": "basedOn",
+			"order": 16,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "basedOn_",
+			"order": 17,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The request this encounter satisfies (e.g. incoming referral or procedure request)."
+		},
+		{
+			"name": "class",
+			"order": 6,
+			"type": "kObjectref",
+			"subtype": "oCoding",
+			"sublen": 0,
+			"desc": "Concepts representing classification of patient encounter such as ambulatory (outpatient), inpatient, emergency, home health or others due to local variations."
+		},
+		{
+			"name": "classHistory",
+			"order": 7,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "classHistory_",
+			"order": 8,
+			"type": "kObjectref",
+			"subtype": "oEncounterClassHistory",
+			"sublen": 0,
+			"desc": "The class history permits the tracking of the encounters transitions without needing to go  through the resource history.  This would be used for a case where an admission starts of as an emergency encounter, then transitions into an inpatient scenario. D"
+		},
+		{
+			"name": "diagnosis",
+			"order": 28,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "diagnosis_",
+			"order": 29,
+			"type": "kObjectref",
+			"subtype": "oEncounterDiagnosis",
+			"sublen": 0,
+			"desc": "The list of diagnosis relevant to this encounter."
+		},
+		{
+			"name": "episodeOfCare",
+			"order": 14,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "episodeOfCare_",
+			"order": 15,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Where a specific encounter should be classified as a part of a specific episode(s) of care this field should be used. This association can facilitate grouping of related encounters together for a specific purpose, such as government reporting, issue track"
+		},
+		{
+			"name": "hospitalization",
+			"order": 32,
+			"type": "kObjectref",
+			"subtype": "oEncounterHospitalization",
+			"sublen": 0,
+			"desc": "Details about the admission to a healthcare service."
+		},
+		{
+			"name": "identifier",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "identifier_",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "Identifier(s) by which this encounter is known."
+		},
+		{
+			"name": "length",
+			"order": 23,
+			"type": "kObjectref",
+			"subtype": "oDuration",
+			"sublen": 0,
+			"desc": "Quantity of time the encounter lasted. This excludes the time during leaves of absence."
+		},
+		{
+			"name": "location",
+			"order": 33,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "location_",
+			"order": 34,
+			"type": "kObjectref",
+			"subtype": "oEncounterLocation",
+			"sublen": 0,
+			"desc": "List of locations where  the patient has been during this encounter."
+		},
+		{
+			"name": "participant",
+			"order": 18,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "participant_",
+			"order": 19,
+			"type": "kObjectref",
+			"subtype": "oEncounterParticipant",
+			"sublen": 0,
+			"desc": "The list of people responsible for providing the service."
+		},
+		{
+			"name": "partOf",
+			"order": 36,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Another Encounter of which this encounter is a part of (administratively or in time)."
+		},
+		{
+			"name": "period",
+			"order": 22,
+			"type": "kObjectref",
+			"subtype": "oPeriod",
+			"sublen": 0,
+			"desc": "The start and end time of the encounter."
+		},
+		{
+			"name": "priority",
+			"order": 12,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Indicates the urgency of the encounter."
+		},
+		{
+			"name": "reasonCode",
+			"order": 24,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "reasonCode_",
+			"order": 25,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Reason the encounter takes place, expressed as a code. For admissions, this can be used for a coded admission diagnosis."
+		},
+		{
+			"name": "reasonReference",
+			"order": 26,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "reasonReference_",
+			"order": 27,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Reason the encounter takes place, expressed as a code. For admissions, this can be used for a coded admission diagnosis."
+		},
+		{
+			"name": "serviceProvider",
+			"order": 35,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The organization that is primarily responsible for this Encounter's services. This MAY be the same as the organization on the Patient record, however it could be different, such as if the actor performing the services was from an external organization (wh"
+		},
+		{
+			"name": "serviceType",
+			"order": 11,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Broad categorization of the service that is to be provided (e.g. cardiology)."
+		},
+		{
+			"name": "status",
+			"order": 3,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "planned | arrived | triaged | in-progress | onleave | finished | cancelled +."
+		},
+		{
+			"name": "statusHistory",
+			"order": 4,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "statusHistory_",
+			"order": 5,
+			"type": "kObjectref",
+			"subtype": "oEncounterStatusHistory",
+			"sublen": 0,
+			"desc": "The status history permits the encounter resource to contain the status history without needing to read through the historical versions of the resource, or even have the server store them."
+		},
+		{
+			"name": "subject",
+			"order": 13,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The patient or group present at the encounter."
+		},
+		{
+			"name": "type",
+			"order": 9,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "type_",
+			"order": 10,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Specific type of encounter (e.g. e-mail consultation, surgical day-care, skilled nursing, rehabilitation)."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:41:40",
+		"desc": "An interaction between a patient and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of a patient.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:23",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

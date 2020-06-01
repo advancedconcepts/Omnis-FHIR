@@ -1,0 +1,12 @@
+Do inherited
+Calculate type as pValue.$type()
+Do valueQuantity.$clear()
+Calculate list as pValue.$valueQuantity()
+Do valueQuantity.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do valueCode.$clear()
+Calculate list as pValue.$valueCode()
+Do valueCode.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$ortho",
+		"ident": 0,
+		"order": 1,
+		"desc": "A claim for emergency services.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$emergency",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

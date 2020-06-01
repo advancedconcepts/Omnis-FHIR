@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("description","description",1,"1",21,"string")
+Do pElements.$add("url","url",0,"1",21,"url")
+Do pElements.$add("custodian","custodian",0,"1",38,"Reference")

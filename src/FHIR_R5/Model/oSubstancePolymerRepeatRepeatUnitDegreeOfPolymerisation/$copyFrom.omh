@@ -1,0 +1,3 @@
+Do inherited
+Calculate degree as pValue.$degree()
+Calculate amount as pValue.$amount()

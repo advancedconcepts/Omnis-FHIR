@@ -1,0 +1,4 @@
+If participant.$validref()=kFalse
+	Calculate participant as $clib.$classes.oActivityDefinitionParticipant.$newref()
+End If
+Quit method participant

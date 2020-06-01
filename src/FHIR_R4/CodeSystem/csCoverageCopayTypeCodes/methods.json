@@ -1,0 +1,121 @@
+[
+	{
+		"name": "$gpvisit",
+		"ident": 0,
+		"order": 1,
+		"desc": "An office visit for a specialist practitioner of a discipline",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$spvisit",
+		"ident": 1,
+		"order": 2,
+		"desc": "An episode in an emergency department.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$emergency",
+		"ident": 2,
+		"order": 3,
+		"desc": "An episode of an Inpatient hospital stay.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$inpthosp",
+		"ident": 3,
+		"order": 4,
+		"desc": "A visit held where the patient is remote relative to the practitioner, e.g. by phone, computer or video conference.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$televisit",
+		"ident": 4,
+		"order": 5,
+		"desc": "A visit to an urgent care facility - typically a community care clinic.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$urgentcare",
+		"ident": 5,
+		"order": 6,
+		"desc": "A standard percentage applied to all classes or service or product not otherwise specified.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copaypct",
+		"ident": 6,
+		"order": 7,
+		"desc": "A standard fixed currency amount applied to all classes or service or product not otherwise specified.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copay",
+		"ident": 7,
+		"order": 8,
+		"desc": "The accumulated amount of patient payment before the coverage begins to pay for services.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$deductible",
+		"ident": 8,
+		"order": 9,
+		"desc": "The maximum amout of payment for services which a patient, or family, is expected to incur - typically annually.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$maxoutofpocket",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,4 @@
+If software.$validref()=kFalse
+	Calculate software as $clib.$classes.oCapabilityStatement2Software.$newref()
+End If
+Quit method software

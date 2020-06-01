@@ -1,0 +1,3 @@
+Do inherited
+Do endpoint.$define(endpoint_)
+Do supportedMessage.$define(supportedMessage_)

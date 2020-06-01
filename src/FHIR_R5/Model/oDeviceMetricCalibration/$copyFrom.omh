@@ -1,0 +1,4 @@
+Do inherited
+Calculate type as pValue.$type()
+Calculate state as pValue.$state()
+Calculate time as pValue.$time()

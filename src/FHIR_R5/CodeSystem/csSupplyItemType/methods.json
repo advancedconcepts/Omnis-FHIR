@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$medication",
+		"ident": 0,
+		"order": 1,
+		"desc": "What is supplied (or requested) is a device.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$device",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$311405",
+		"ident": 0,
+		"order": 1,
+		"desc": "Ophthalmologist.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$604215",
+		"ident": 1,
+		"order": 2,
+		"desc": "Optometrist.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$604210",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

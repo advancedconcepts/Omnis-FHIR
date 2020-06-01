@@ -1,0 +1,61 @@
+[
+	{
+		"name": "$proposed",
+		"ident": 0,
+		"order": 1,
+		"desc": "The care team is currently participating in the coordination and delivery of care.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$active",
+		"ident": 1,
+		"order": 2,
+		"desc": "The care team is temporarily on hold or suspended and not participating in the coordination and delivery of care.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$suspended",
+		"ident": 2,
+		"order": 3,
+		"desc": "The care team was, but is no longer, participating in the coordination and delivery of care.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$inactive",
+		"ident": 3,
+		"order": 4,
+		"desc": "The care team should have never existed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$entered-in-error",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,145 @@
+[
+	{
+		"name": "$benefit",
+		"ident": 0,
+		"order": 1,
+		"desc": "Cost to be incurred before benefits are applied",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$deductible",
+		"ident": 1,
+		"order": 2,
+		"desc": "Service visit",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$visit",
+		"ident": 2,
+		"order": 3,
+		"desc": "Type of room",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$room",
+		"ident": 3,
+		"order": 4,
+		"desc": "Copayment per service",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copay",
+		"ident": 4,
+		"order": 5,
+		"desc": "Copayment percentage per service",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copay-percent",
+		"ident": 5,
+		"order": 6,
+		"desc": "Copayment maximum per service",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copay-maximum",
+		"ident": 6,
+		"order": 7,
+		"desc": "Vision Exam",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$vision-exam",
+		"ident": 7,
+		"order": 8,
+		"desc": "Frames and lenses",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$vision-glasses",
+		"ident": 8,
+		"order": 9,
+		"desc": "Contact Lenses",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$vision-contacts",
+		"ident": 9,
+		"order": 10,
+		"desc": "Medical Primary Health Coverage",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$medical-primarycare",
+		"ident": 10,
+		"order": 11,
+		"desc": "Pharmacy Dispense Coverage",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$pharmacy-dispense",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

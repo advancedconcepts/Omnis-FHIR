@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$condition",
+		"ident": 0,
+		"order": 1,
+		"desc": "Less imperative than a condition, so the contract will survive a breach",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$warranty",
+		"ident": 1,
+		"order": 2,
+		"desc": "Breach of which might or might not go to the root of the contract depending upon the nature of the breach",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$innominate",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,9 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do basedOn.$define(basedOn_)
+Do partOf.$define(partOf_)
+Do performerType.$define(performerType_)
+Do note.$define(note_)
+Do relevantHistory.$define(relevantHistory_)
+Do input.$define(input_)
+Do output.$define(output_)

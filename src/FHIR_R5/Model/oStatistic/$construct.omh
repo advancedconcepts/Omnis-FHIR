@@ -1,0 +1,7 @@
+Do inherited
+Do note.$define(note_)
+Do sampleSize.note.$define(sampleSize.note_)
+Do attributeEstimate.$define(attributeEstimate_)
+Do attributeEstimate.note.$define(attributeEstimate.note_)
+Do attributeEstimate.estimateQualifier.$define(attributeEstimate.estimateQualifier_)
+Do attributeEstimate.estimateQualifier.note.$define(attributeEstimate.estimateQualifier.note_)

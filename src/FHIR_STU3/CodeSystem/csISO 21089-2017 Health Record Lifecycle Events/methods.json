@@ -1,0 +1,301 @@
+[
+	{
+		"name": "$2",
+		"ident": 0,
+		"order": 1,
+		"desc": "occurs when an agent causes the system to create and move archive artifacts containing record entry content, typically to long-term offline storage",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$14",
+		"ident": 1,
+		"order": 2,
+		"desc": "occurs when an agent causes the system to capture the agentâ€™s digital signature (or equivalent indication) during formal validation of record entry content",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$4",
+		"ident": 2,
+		"order": 3,
+		"desc": "occurs when an agent causes the system to decode record entry content from a cipher",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$27",
+		"ident": 3,
+		"order": 4,
+		"desc": "occurs when an agent causes the system to scrub record entry content to reduce the association between a set of identifying data and the data subject in a way that may or may not be reversible",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$10",
+		"ident": 4,
+		"order": 5,
+		"desc": "occurs when an agent causes the system to tag record entry(ies) as obsolete, erroneous or untrustworthy, to warn against its future use",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$17",
+		"ident": 5,
+		"order": 6,
+		"desc": "occurs when an agent causes the system to permanently erase record entry content from the system",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$16",
+		"ident": 6,
+		"order": 7,
+		"desc": "occurs when an agent causes the system to release, transfer, provision access to, or otherwise divulge record entry content",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$7",
+		"ident": 7,
+		"order": 8,
+		"desc": "occurs when an agent causes the system to encode record entry content in a cipher",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$26",
+		"ident": 8,
+		"order": 9,
+		"desc": "occurs when an agent causes the system to selectively pull out a subset of record entry content, based on explicit criteria",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$13",
+		"ident": 9,
+		"order": 10,
+		"desc": "occurs when an agent causes the system to connect related record entries",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$21",
+		"ident": 10,
+		"order": 11,
+		"desc": "occurs when an agent causes the system to combine or join content from two or more record entries, resulting in a single logical record entry",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$19",
+		"ident": 11,
+		"order": 12,
+		"desc": "occurs when an agent causes the system to:  a) initiate capture of potential record content, and b) incorporate that content into the storage considered a permanent part of the health record",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$1",
+		"ident": 12,
+		"order": 13,
+		"desc": "occurs when an agent causes the system to remove record entry content to reduce the association between a set of identifying data and the data subject in a way that may be reversible",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$11",
+		"ident": 13,
+		"order": 14,
+		"desc": "occurs when an agent causes the system to recreate or restore full status to record entries previously deleted or deprecated",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$18",
+		"ident": 14,
+		"order": 15,
+		"desc": "occurs when an agent causes the system to:  a) initiate capture of data content from elseware, and b) incorporate that content into the storage considered a permanent part of the health record",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$9",
+		"ident": 15,
+		"order": 16,
+		"desc": "occurs when an agent causes the system to produce and deliver record entry content in a particular form and manner",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$6",
+		"ident": 16,
+		"order": 17,
+		"desc": "occurs when an agent causes the system to restore information to data that allows identification of information source and/or information subject",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$12",
+		"ident": 17,
+		"order": 18,
+		"desc": "occurs when an agent causes the system to remove a tag or other cues for special access management had required to fulfill organizational policy under the legal doctrine of â€œduty to preserveâ€",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$24",
+		"ident": 18,
+		"order": 19,
+		"desc": "occurs when an agent causes the system to recreate record entries and their content from a previous created archive artifact",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$15",
+		"ident": 19,
+		"order": 20,
+		"desc": "occurs when an agent causes the system to change the form, language or code system used to represent record entry content",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$3",
+		"ident": 20,
+		"order": 21,
+		"desc": "occurs when an agent causes the system to send record entry content from one (EHR/PHR/other) system to another",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$8",
+		"ident": 21,
+		"order": 22,
+		"desc": "occurs when an agent causes the system to disconnect two or more record entries previously connected, rendering them separate (disconnected) again",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$22",
+		"ident": 22,
+		"order": 23,
+		"desc": "occurs when an agent causes the system to reverse a previous record entry merge operation, rendering them separate again",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$20",
+		"ident": 23,
+		"order": 24,
+		"desc": "occurs when an agent causes the system to confirm compliance of data or data objects with regulations, requirements, specifications, or other imposed conditions based on organizational policy",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$25",
+		"ident": 24,
+		"order": 25,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

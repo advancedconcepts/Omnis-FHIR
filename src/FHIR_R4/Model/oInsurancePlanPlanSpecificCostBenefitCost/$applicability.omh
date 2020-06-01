@@ -1,0 +1,4 @@
+If applicability.$validref()=kFalse
+	Calculate applicability as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method applicability

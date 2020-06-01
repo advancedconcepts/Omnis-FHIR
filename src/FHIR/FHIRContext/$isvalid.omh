@@ -1,0 +1,5 @@
+If iFHIRVersionLib
+	Quit method kTrue
+Else
+	Quit method kFalse
+End If

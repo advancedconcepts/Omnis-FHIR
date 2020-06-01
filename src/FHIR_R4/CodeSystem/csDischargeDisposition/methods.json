@@ -1,0 +1,133 @@
+[
+	{
+		"name": "$home",
+		"ident": 0,
+		"order": 1,
+		"desc": "The patient was discharged and has indicated that they are going to return home afterwards, but not the patient's home - e.g. a family member's home.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$alt-home",
+		"ident": 1,
+		"order": 2,
+		"desc": "The patient was transferred to another healthcare facility.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$other-hcf",
+		"ident": 2,
+		"order": 3,
+		"desc": "The patient has been discharged into palliative care.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$hosp",
+		"ident": 3,
+		"order": 4,
+		"desc": "The patient has been discharged into long-term care where is likely to be monitored through an ongoing episode-of-care.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$long",
+		"ident": 4,
+		"order": 5,
+		"desc": "The patient self discharged against medical advice.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$aadvice",
+		"ident": 5,
+		"order": 6,
+		"desc": "The patient has deceased during this encounter.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$exp",
+		"ident": 6,
+		"order": 7,
+		"desc": "The patient has been transferred to a psychiatric facility.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$psy",
+		"ident": 7,
+		"order": 8,
+		"desc": "The patient was discharged and is to receive post acute care rehabilitation services.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$rehab",
+		"ident": 8,
+		"order": 9,
+		"desc": "The patient has been discharged to a skilled nursing facility for the patient to receive additional care.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$snf",
+		"ident": 9,
+		"order": 10,
+		"desc": "The discharge disposition has not otherwise defined.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$oth",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

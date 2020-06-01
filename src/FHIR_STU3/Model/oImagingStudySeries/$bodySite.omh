@@ -1,0 +1,4 @@
+If bodySite.$validref()=kFalse
+	Calculate bodySite as $clib.$classes.oCoding.$newref()
+End If
+Quit method bodySite

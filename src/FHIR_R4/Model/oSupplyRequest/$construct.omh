@@ -1,0 +1,6 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do parameter.$define(parameter_)
+Do supplier.$define(supplier_)
+Do reasonCode.$define(reasonCode_)
+Do reasonReference.$define(reasonReference_)

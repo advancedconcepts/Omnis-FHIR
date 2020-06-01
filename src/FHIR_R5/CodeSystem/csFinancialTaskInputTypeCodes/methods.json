@@ -1,0 +1,85 @@
+[
+	{
+		"name": "$include",
+		"ident": 0,
+		"order": 1,
+		"desc": "The name of a resource to not include in a selection.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$exclude",
+		"ident": 1,
+		"order": 2,
+		"desc": "A reference to the response resource to the original processing of a resource.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$origresponse",
+		"ident": 2,
+		"order": 3,
+		"desc": "A reference value which must be quoted to authorize an action.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$reference",
+		"ident": 3,
+		"order": 4,
+		"desc": "The sequence number associated with an item for reprocessing.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$item",
+		"ident": 4,
+		"order": 5,
+		"desc": "The reference period for the action being requested.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$period",
+		"ident": 5,
+		"order": 6,
+		"desc": "The processing status from a check on the processing status of a resource such as the adjudication of a claim.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$status",
+		"ident": 6,
+		"order": 7,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

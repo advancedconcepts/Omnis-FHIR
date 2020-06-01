@@ -1,0 +1,85 @@
+[
+	{
+		"name": "$planned",
+		"ident": 0,
+		"order": 1,
+		"desc": "This episode has been placed on a waitlist, pending the episode being made active (or cancelled).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$waitlist",
+		"ident": 1,
+		"order": 2,
+		"desc": "This episode of care is current.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$active",
+		"ident": 2,
+		"order": 3,
+		"desc": "This episode of care is on hold, the organization has limited responsibility for the patient (such as while on respite).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$onhold",
+		"ident": 3,
+		"order": 4,
+		"desc": "This episode of care is finished and the organization is not expecting to be providing further care to the patient. Can also be known as \"closed\", \"completed\" or other similar terms.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$finished",
+		"ident": 4,
+		"order": 5,
+		"desc": "The episode of care was cancelled, or withdrawn from service, often selected during the planned stage as the patient may have gone elsewhere, or the circumstances have changed and the organization is unable to provide the care. It indicates that services terminated outside the planned/expected workflow.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$cancelled",
+		"ident": 5,
+		"order": 6,
+		"desc": "This instance should not have been part of this patient's medical record.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$entered-in-error",
+		"ident": 6,
+		"order": 7,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

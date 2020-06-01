@@ -1,0 +1,147 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "comorbidity",
+			"order": 5,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "comorbidity_",
+			"order": 6,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Comorbidity (concurrent condition) or co-infection as part of the indication."
+		},
+		{
+			"name": "diseaseStatus",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The status of the disease or symptom for which the indication applies."
+		},
+		{
+			"name": "diseaseSymptomProcedure",
+			"order": 3,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The disease, symptom or procedure that is the indication for treatment."
+		},
+		{
+			"name": "duration",
+			"order": 8,
+			"type": "kObjectref",
+			"subtype": "oQuantity",
+			"sublen": 0,
+			"desc": "Timing or duration information as part of the indication."
+		},
+		{
+			"name": "intendedEffect",
+			"order": 7,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The intended effect, aim or strategy to be achieved by the indication."
+		},
+		{
+			"name": "otherTherapy",
+			"order": 9,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "otherTherapy_",
+			"order": 10,
+			"type": "kObjectref",
+			"subtype": "oMedicinalProductIndicationOtherTherapy",
+			"sublen": 0,
+			"desc": "Information about the use of the medicinal product in relation to other therapies described as part of the indication."
+		},
+		{
+			"name": "population",
+			"order": 13,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "population_",
+			"order": 14,
+			"type": "kObjectref",
+			"subtype": "oPopulation",
+			"sublen": 0,
+			"desc": "The population group to which this applies."
+		},
+		{
+			"name": "subject",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "subject_",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The medication for which this is an indication."
+		},
+		{
+			"name": "undesirableEffect",
+			"order": 11,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "undesirableEffect_",
+			"order": 12,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Describe the undesirable effects of the medicinal product."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:41:47",
+		"desc": "Indication for the Medicinal Product.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:25",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

@@ -1,0 +1,4 @@
+If holder.$validref()=kFalse
+	Calculate holder as $clib.$classes.oReference.$newref()
+End If
+Quit method holder

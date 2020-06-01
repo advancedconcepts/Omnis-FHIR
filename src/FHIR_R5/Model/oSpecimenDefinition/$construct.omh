@@ -1,0 +1,9 @@
+Do inherited
+Do derivedFromCanonical.$define(derivedFromCanonical_)
+Do derivedFromUri.$define(derivedFromUri_)
+Do contact.$define(contact_)
+Do useContext.$define(useContext_)
+Do jurisdiction.$define(jurisdiction_)
+Do patientPreparation.$define(patientPreparation_)
+Do collection.$define(collection_)
+Do typeTested.$define(typeTested_)

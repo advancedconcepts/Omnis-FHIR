@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$queued",
+		"ident": 0,
+		"order": 1,
+		"desc": "The processing has completed without errors",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$complete",
+		"ident": 1,
+		"order": 2,
+		"desc": "One or more errors have been detected in the Claim",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$error",
+		"ident": 2,
+		"order": 3,
+		"desc": "No errors have been detected in the Claim and some of the adjudication has been performed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$partial",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

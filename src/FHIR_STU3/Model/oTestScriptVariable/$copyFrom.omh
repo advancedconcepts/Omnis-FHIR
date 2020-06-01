@@ -1,0 +1,9 @@
+Do inherited
+Calculate name as pValue.$name()
+Calculate defaultValue as pValue.$defaultValue()
+Calculate description as pValue.$description()
+Calculate expression as pValue.$expression()
+Calculate headerField as pValue.$headerField()
+Calculate hint as pValue.$hint()
+Calculate path as pValue.$path()
+Calculate sourceId as pValue.$sourceId()

@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("contentType","contentType",1,"1",21,"code")
+Do pElements.$add("securityContext","securityContext",0,"1",38,"Reference")
+Do pElements.$add("data","data",0,"1",28,"base64Binary")

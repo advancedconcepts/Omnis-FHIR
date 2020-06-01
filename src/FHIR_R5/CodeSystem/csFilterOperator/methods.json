@@ -1,0 +1,109 @@
+[
+	{
+		"name": "$=",
+		"ident": 0,
+		"order": 1,
+		"desc": "Includes all concept ids that have a transitive is-a relationship with the concept Id provided as the value, including the provided concept itself (include descendant codes and self).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$is-a",
+		"ident": 1,
+		"order": 2,
+		"desc": "Includes all concept ids that have a transitive is-a relationship with the concept Id provided as the value, excluding the provided concept itself i.e. include descendant codes only).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$descendent-of",
+		"ident": 2,
+		"order": 3,
+		"desc": "The specified property of the code does not have an is-a relationship with the provided value.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$is-not-a",
+		"ident": 3,
+		"order": 4,
+		"desc": "The specified property of the code  matches the regex specified in the provided value.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$regex",
+		"ident": 4,
+		"order": 5,
+		"desc": "The specified property of the code is in the set of codes or concepts specified in the provided value (comma separated list).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$in",
+		"ident": 5,
+		"order": 6,
+		"desc": "The specified property of the code is not in the set of codes or concepts specified in the provided value (comma separated list).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$not-in",
+		"ident": 6,
+		"order": 7,
+		"desc": "Includes all concept ids that have a transitive is-a relationship from the concept Id provided as the value, including the provided concept itself (i.e. include ancestor codes and self).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$generalizes",
+		"ident": 7,
+		"order": 8,
+		"desc": "The specified property of the code has at least one value (if the specified value is true; if the specified value is false, then matches when the specified property of the code has no values).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$exists",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

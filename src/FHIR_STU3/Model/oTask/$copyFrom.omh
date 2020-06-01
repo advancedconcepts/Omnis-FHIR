@@ -1,0 +1,59 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do basedOn.$clear()
+Calculate list as pValue.$basedOn()
+Do basedOn.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate groupIdentifier as pValue.$groupIdentifier()
+Do partOf.$clear()
+Calculate list as pValue.$partOf()
+Do partOf.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate status as pValue.$status()
+Calculate statusReason as pValue.$statusReason()
+Calculate businessStatus as pValue.$businessStatus()
+Calculate intent as pValue.$intent()
+Calculate priority as pValue.$priority()
+Calculate code as pValue.$code()
+Calculate description as pValue.$description()
+Calculate focus as pValue.$focus()
+Calculate for as pValue.$for()
+Calculate context as pValue.$context()
+Calculate executionPeriod as pValue.$executionPeriod()
+Calculate authoredOn as pValue.$authoredOn()
+Calculate lastModified as pValue.$lastModified()
+Calculate requester as pValue.$requester()
+Do performerType.$clear()
+Calculate list as pValue.$performerType()
+Do performerType.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate owner as pValue.$owner()
+Calculate reason as pValue.$reason()
+Do note.$clear()
+Calculate list as pValue.$note()
+Do note.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do relevantHistory.$clear()
+Calculate list as pValue.$relevantHistory()
+Do relevantHistory.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate restriction as pValue.$restriction()
+Do input.$clear()
+Calculate list as pValue.$input()
+Do input.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do output.$clear()
+Calculate list as pValue.$output()
+Do output.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

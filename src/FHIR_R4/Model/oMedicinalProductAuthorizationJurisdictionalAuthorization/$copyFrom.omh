@@ -1,0 +1,14 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate country as pValue.$country()
+Do jurisdiction.$clear()
+Calculate list as pValue.$jurisdiction()
+Do jurisdiction.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate legalStatusOfSupply as pValue.$legalStatusOfSupply()
+Calculate validityPeriod as pValue.$validityPeriod()

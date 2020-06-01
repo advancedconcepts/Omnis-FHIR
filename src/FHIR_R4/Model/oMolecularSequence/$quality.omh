@@ -1,0 +1,4 @@
+If quality.$validref()=kFalse
+	Calculate quality as $clib.$classes.oMolecularSequenceQuality.$newref()
+End If
+Quit method quality

@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$in-progress",
+		"ident": 0,
+		"order": 1,
+		"desc": "The goal has been met.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$achieved",
+		"ident": 1,
+		"order": 2,
+		"desc": "The goal has not been met and there might or might not have been progress towards target.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$not-achieved",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

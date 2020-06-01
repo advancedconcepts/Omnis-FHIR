@@ -1,0 +1,13 @@
+Do inherited
+Do pElements.$add("group","group",0,"1",21,"string")
+Do pElements.$add("groupDisplay","groupDisplay",0,"1",21,"string")
+Do pElements.$add("subGroup","subGroup",0,"1",21,"string")
+Do pElements.$add("subGroupDisplay","subGroupDisplay",0,"1",21,"string")
+Do pElements.$add("plan","plan",0,"1",21,"string")
+Do pElements.$add("planDisplay","planDisplay",0,"1",21,"string")
+Do pElements.$add("subPlan","subPlan",0,"1",21,"string")
+Do pElements.$add("subPlanDisplay","subPlanDisplay",0,"1",21,"string")
+Do pElements.$add("class","class",0,"1",21,"string")
+Do pElements.$add("classDisplay","classDisplay",0,"1",21,"string")
+Do pElements.$add("subClass","subClass",0,"1",21,"string")
+Do pElements.$add("subClassDisplay","subClassDisplay",0,"1",21,"string")

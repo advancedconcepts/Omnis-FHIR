@@ -1,0 +1,4 @@
+If referralMethod.$validref()=kFalse
+	Calculate referralMethod as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method referralMethod

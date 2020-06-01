@@ -1,0 +1,13 @@
+Do inherited
+Calculate category as pValue.$category()
+Calculate range as pValue.$range()
+Calculate context as pValue.$context()
+Do appliesTo.$clear()
+Calculate list as pValue.$appliesTo()
+Do appliesTo.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate gender as pValue.$gender()
+Calculate age as pValue.$age()
+Calculate gestationalAge as pValue.$gestationalAge()
+Calculate condition as pValue.$condition()

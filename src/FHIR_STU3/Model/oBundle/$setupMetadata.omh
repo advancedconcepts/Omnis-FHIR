@@ -1,0 +1,7 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"1",38,"Identifier")
+Do pElements.$add("type","::type",1,"1",21,"code")
+Do pElements.$add("total","total",0,"1",26,"unsignedInt")
+Do pElements.$add("link","link",0,"-1",38,"")
+Do pElements.$add("entry","entry",0,"-1",38,"")
+Do pElements.$add("signature","signature",0,"1",38,"Signature")

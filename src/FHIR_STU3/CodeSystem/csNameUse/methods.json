@@ -1,0 +1,73 @@
+[
+	{
+		"name": "$usual",
+		"ident": 0,
+		"order": 1,
+		"desc": "The formal name as registered in an official (government) registry, but which name might not be commonly used. May be called \"legal name\".",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$official",
+		"ident": 1,
+		"order": 2,
+		"desc": "A temporary name. Name.period can provide more detailed information. This may also be used for temporary names assigned at birth or in emergency situations.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$temp",
+		"ident": 2,
+		"order": 3,
+		"desc": "A name that is used to address the person in an informal manner, but is not part of their formal or usual name",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$nickname",
+		"ident": 3,
+		"order": 4,
+		"desc": "Anonymous assigned name, alias, or pseudonym (used to protect a person's identity for privacy reasons)",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$anonymous",
+		"ident": 4,
+		"order": 5,
+		"desc": "This name is no longer in use (or was never correct, but retained for records)",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$old",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

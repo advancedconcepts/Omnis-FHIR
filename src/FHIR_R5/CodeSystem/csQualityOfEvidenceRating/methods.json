@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$high",
+		"ident": 0,
+		"order": 1,
+		"desc": "Moderate quality evidence.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$moderate",
+		"ident": 1,
+		"order": 2,
+		"desc": "Low quality evidence.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$low",
+		"ident": 2,
+		"order": 3,
+		"desc": "Very low quality evidence.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$very-low",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

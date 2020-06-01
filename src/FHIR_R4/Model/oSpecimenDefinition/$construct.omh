@@ -1,0 +1,4 @@
+Do inherited
+Do patientPreparation.$define(patientPreparation_)
+Do collection.$define(collection_)
+Do typeTested.$define(typeTested_)

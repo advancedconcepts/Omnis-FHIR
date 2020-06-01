@@ -1,0 +1,4 @@
+If requestProvider.$validref()=kFalse
+	Calculate requestProvider as $clib.$classes.oReference.$newref()
+End If
+Quit method requestProvider

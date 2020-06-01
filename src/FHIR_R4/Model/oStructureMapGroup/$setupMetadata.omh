@@ -1,0 +1,7 @@
+Do inherited
+Do pElements.$add("name","::name",1,"1",21,"id")
+Do pElements.$add("extends","extends",0,"1",21,"id")
+Do pElements.$add("typeMode","typeMode",1,"1",21,"code")
+Do pElements.$add("documentation","documentation",0,"1",21,"string")
+Do pElements.$add("input","input",1,"-1",38,"")
+Do pElements.$add("rule","rule",1,"-1",38,"")

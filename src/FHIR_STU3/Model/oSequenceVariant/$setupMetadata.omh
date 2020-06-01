@@ -1,0 +1,7 @@
+Do inherited
+Do pElements.$add("start","start",0,"1",26,"integer")
+Do pElements.$add("end","end",0,"1",26,"integer")
+Do pElements.$add("observedAllele","observedAllele",0,"1",21,"string")
+Do pElements.$add("referenceAllele","referenceAllele",0,"1",21,"string")
+Do pElements.$add("cigar","cigar",0,"1",21,"string")
+Do pElements.$add("variantPointer","variantPointer",0,"1",38,"Reference")

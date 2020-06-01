@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$individual",
+		"ident": 0,
+		"order": 1,
+		"desc": "A subject list report that includes a listing of subjects that satisfied each population criteria in the measure.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$subject-list",
+		"ident": 1,
+		"order": 2,
+		"desc": "A summary report that returns the number of members in each population criteria for the measure.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$summary",
+		"ident": 2,
+		"order": 3,
+		"desc": "A data collection report that contains data-of-interest for the measure.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$data-collection",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

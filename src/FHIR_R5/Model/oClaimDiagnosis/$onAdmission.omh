@@ -1,0 +1,4 @@
+If onAdmission.$validref()=kFalse
+	Calculate onAdmission as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method onAdmission

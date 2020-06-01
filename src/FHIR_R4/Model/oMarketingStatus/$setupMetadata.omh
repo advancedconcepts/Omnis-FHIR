@@ -1,0 +1,6 @@
+Do inherited
+Do pElements.$add("country","country",1,"1",38,"CodeableConcept")
+Do pElements.$add("jurisdiction","jurisdiction",0,"1",38,"CodeableConcept")
+Do pElements.$add("status","status",1,"1",38,"CodeableConcept")
+Do pElements.$add("dateRange","dateRange",1,"1",38,"Period")
+Do pElements.$add("restoreDate","restoreDate",0,"1",23,"dateTime")

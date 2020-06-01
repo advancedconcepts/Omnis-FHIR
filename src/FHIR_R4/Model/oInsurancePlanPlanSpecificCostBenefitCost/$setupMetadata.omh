@@ -1,0 +1,5 @@
+Do inherited
+Do pElements.$add("type","::type",1,"1",38,"CodeableConcept")
+Do pElements.$add("applicability","applicability",0,"1",38,"CodeableConcept")
+Do pElements.$add("qualifiers","qualifiers",0,"-1",38,"CodeableConcept")
+Do pElements.$add("value","value",0,"1",38,"Quantity")

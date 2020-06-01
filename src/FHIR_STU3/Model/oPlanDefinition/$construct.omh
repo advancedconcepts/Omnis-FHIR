@@ -1,0 +1,11 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do useContext.$define(useContext_)
+Do jurisdiction.$define(jurisdiction_)
+Do topic.$define(topic_)
+Do contributor.$define(contributor_)
+Do contact.$define(contact_)
+Do relatedArtifact.$define(relatedArtifact_)
+Do library.$define(library_)
+Do goal.$define(goal_)
+Do action.$define(action_)

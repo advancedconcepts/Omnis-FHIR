@@ -1,0 +1,4 @@
+If reserved.$validref()=kFalse
+	Calculate reserved as $clib.$classes.oCoding.$newref()
+End If
+Quit method reserved

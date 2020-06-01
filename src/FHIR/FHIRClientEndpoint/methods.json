@@ -1,0 +1,336 @@
+[
+	{
+		"name": "$construct",
+		"ident": 1,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$destruct",
+		"ident": 2,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$baseURL.$assign",
+		"ident": 0,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pBaseURL",
+				"order": 2,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$baseURL",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$context",
+		"ident": 6,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$context.$assign",
+		"ident": 7,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pType",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$bridge",
+		"ident": 9,
+		"order": 7,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$bridge.$assign",
+		"ident": 8,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pBridge",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addHeader",
+		"ident": 5,
+		"order": 9,
+		"pvardefs": [
+			{
+				"name": "pAttribute",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1
+			},
+			{
+				"name": "pValue",
+				"order": 2,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 2
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$POSTResource",
+		"ident": 4,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pRelativeURL",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1
+			},
+			{
+				"name": "pResource",
+				"order": 3,
+				"type": "kObjectref",
+				"subtype": "",
+				"sublen": 0,
+				"param": 2
+			},
+			{
+				"name": "pFormat",
+				"order": 4,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 3,
+				"initval": "'json'"
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "crlf",
+				"order": 12,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			},
+			{
+				"name": "crlfcrlf",
+				"order": 11,
+				"type": "kBinary",
+				"subtype": 0,
+				"sublen": 100000000,
+				"initval": "binfromhex(\"0D0A0D0A\")"
+			},
+			{
+				"name": "errorCode",
+				"order": 15,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"initval": "500"
+			},
+			{
+				"name": "headers",
+				"order": 5,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "http",
+				"order": 14,
+				"type": "kObject",
+				"subtype": "HTTPClientWorker",
+				"sublen": 0
+			},
+			{
+				"name": "resourcetext",
+				"order": 8,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			},
+			{
+				"name": "response",
+				"order": 9,
+				"type": "kObject",
+				"subtype": "HTTPResponse",
+				"sublen": 0
+			},
+			{
+				"name": "responseheader",
+				"order": 13,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			},
+			{
+				"name": "responseSplit",
+				"order": 10,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0
+			},
+			{
+				"name": "resultbinary",
+				"order": 7,
+				"type": "kBinary",
+				"subtype": 0,
+				"sublen": 100000000
+			},
+			{
+				"name": "resultrow",
+				"order": 16,
+				"type": "kRow",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "sendbinary",
+				"order": 2,
+				"type": "kBinary",
+				"subtype": 0,
+				"sublen": 100000000
+			},
+			{
+				"name": "socket",
+				"order": 6,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "-",
+		"ident": 12,
+		"order": 11,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		],
+		"empty": true
+	},
+	{
+		"name": "$POSTNativePatient",
+		"ident": 10,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pNativePatient",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0,
+				"param": 1
+			},
+			{
+				"name": "pFormat",
+				"order": 3,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 2,
+				"initval": "'json'"
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "patient",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$POSTPatient",
+		"ident": 11,
+		"order": 13,
+		"pvardefs": [
+			{
+				"name": "pPatient",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "",
+				"sublen": 0,
+				"param": 1
+			},
+			{
+				"name": "pFormat",
+				"order": 2,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 2,
+				"initval": "'json'"
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

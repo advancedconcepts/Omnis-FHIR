@@ -1,0 +1,9 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"-1",38,"Identifier")
+Do pElements.$add("status","status",1,"1",21,"code")
+Do pElements.$add("period","period",0,"1",38,"Period")
+Do pElements.$add("study","study",1,"1",38,"Reference")
+Do pElements.$add("individual","individual",1,"1",38,"Reference")
+Do pElements.$add("assignedArm","assignedArm",0,"1",21,"string")
+Do pElements.$add("actualArm","actualArm",0,"1",21,"string")
+Do pElements.$add("consent","consent",0,"1",38,"Reference")

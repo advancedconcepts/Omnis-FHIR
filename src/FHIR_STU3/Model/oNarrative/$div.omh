@@ -1,0 +1,4 @@
+If div.$validref()=kFalse
+	Calculate div as $clib.$classes.oxhtml.$newref()
+End If
+Quit method div

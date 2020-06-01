@@ -1,0 +1,7 @@
+Do inherited
+Do coding.$clear()
+Calculate list as pValue.$coding()
+Do coding.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate text as pValue.$text()

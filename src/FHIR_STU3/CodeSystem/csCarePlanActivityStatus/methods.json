@@ -1,0 +1,85 @@
+[
+	{
+		"name": "$not-started",
+		"ident": 0,
+		"order": 1,
+		"desc": "Appointment or other booking has occurred but activity has not yet begun.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$scheduled",
+		"ident": 1,
+		"order": 2,
+		"desc": "Activity has been started but is not yet complete.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$in-progress",
+		"ident": 2,
+		"order": 3,
+		"desc": "Activity was started but has temporarily ceased with an expectation of resumption at a future time.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$on-hold",
+		"ident": 3,
+		"order": 4,
+		"desc": "The activities have been completed (more or less) as planned.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$completed",
+		"ident": 4,
+		"order": 5,
+		"desc": "The activities have been ended prior to completion (perhaps even before they were started).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$cancelled",
+		"ident": 5,
+		"order": 6,
+		"desc": "The authoring system doesn't know the current state of the activity.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unknown",
+		"ident": 6,
+		"order": 7,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

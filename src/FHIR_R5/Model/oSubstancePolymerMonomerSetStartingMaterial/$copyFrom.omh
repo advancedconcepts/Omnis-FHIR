@@ -1,0 +1,5 @@
+Do inherited
+Calculate material as pValue.$material()
+Calculate type as pValue.$type()
+Calculate isDefining as pValue.$isDefining()
+Calculate amount as pValue.$amount()

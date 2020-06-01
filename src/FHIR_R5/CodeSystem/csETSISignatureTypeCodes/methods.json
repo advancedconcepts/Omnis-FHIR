@@ -1,0 +1,73 @@
+[
+	{
+		"name": "$ProofOfOrigin",
+		"ident": 0,
+		"order": 1,
+		"desc": "indicates that signer recognizes to have received the content of the signed data object.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ProofOfReceipt",
+		"ident": 1,
+		"order": 2,
+		"desc": "indicates that the TSP providing that indication has delivered a signed data object in a local store accessible to the recipient of the signed data object.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ProofOfDelivery",
+		"ident": 2,
+		"order": 3,
+		"desc": "indicates that the entity providing that indication has sent the signed data object (but not necessarily created it).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ProofOfSender",
+		"ident": 3,
+		"order": 4,
+		"desc": "indicates that the signer has approved the content of the signed data object.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ProofOfapproval",
+		"ident": 4,
+		"order": 5,
+		"desc": "indicates that the signer has created the signed data object (but not necessarily approved, nor sent it).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ProofOfCreation",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

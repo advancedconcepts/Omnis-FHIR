@@ -1,0 +1,4 @@
+If subscriber.$validref()=kFalse
+	Calculate subscriber as $clib.$classes.oReference.$newref()
+End If
+Quit method subscriber

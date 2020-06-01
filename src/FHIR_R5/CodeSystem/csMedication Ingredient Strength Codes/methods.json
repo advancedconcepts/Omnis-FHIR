@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$qs",
+		"ident": 0,
+		"order": 1,
+		"desc": "Very small amount.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$trace",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

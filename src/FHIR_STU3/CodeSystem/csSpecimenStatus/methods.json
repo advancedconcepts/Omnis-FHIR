@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$available",
+		"ident": 0,
+		"order": 1,
+		"desc": "There is no physical specimen because it is either lost, destroyed or consumed.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unavailable",
+		"ident": 1,
+		"order": 2,
+		"desc": "The specimen cannot be used because of a quality issue such as a broken container, contamination, or too old.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unsatisfactory",
+		"ident": 2,
+		"order": 3,
+		"desc": "The specimen was entered in error and therefore nullified.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$entered-in-error",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

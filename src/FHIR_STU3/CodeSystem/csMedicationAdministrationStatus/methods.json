@@ -1,0 +1,73 @@
+[
+	{
+		"name": "$in-progress",
+		"ident": 0,
+		"order": 1,
+		"desc": "Actions implied by the administration have been temporarily halted, but are expected to continue later. May also be called \"suspended\".",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$on-hold",
+		"ident": 1,
+		"order": 2,
+		"desc": "All actions that are implied by the administration have occurred.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$completed",
+		"ident": 2,
+		"order": 3,
+		"desc": "The administration was entered in error and therefore nullified.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$entered-in-error",
+		"ident": 3,
+		"order": 4,
+		"desc": "Actions implied by the administration have been permanently halted, before all of them occurred.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$stopped",
+		"ident": 4,
+		"order": 5,
+		"desc": "The authoring system does not know which of the status values currently applies for this request. Note: This concept is not to be used for \"other\" - one of the listed statuses is presumed to apply, it's just not known which one.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unknown",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

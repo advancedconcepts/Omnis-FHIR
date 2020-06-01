@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$unlikely",
+		"ident": 0,
+		"order": 1,
+		"desc": "There is a high level of clinical certainty that the reaction was caused by the identified substance.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$likely",
+		"ident": 1,
+		"order": 2,
+		"desc": "There is a very high level of clinical certainty that the reaction was due to the identified substance, which may include clinical evidence by testing or rechallenge.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$confirmed",
+		"ident": 2,
+		"order": 3,
+		"desc": "The clinical certainty that the reaction was caused by the identified substance is unknown.  It is an explicit assertion that certainty is not known.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unknown",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

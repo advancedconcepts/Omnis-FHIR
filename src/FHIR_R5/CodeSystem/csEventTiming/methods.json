@@ -1,0 +1,145 @@
+[
+	{
+		"name": "$MORN",
+		"ident": 0,
+		"order": 1,
+		"desc": "Event occurs during the early morning. The exact time is unspecified and established by institution convention or patient interpretation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MORN.early",
+		"ident": 1,
+		"order": 2,
+		"desc": "Event occurs during the late morning. The exact time is unspecified and established by institution convention or patient interpretation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MORN.late",
+		"ident": 2,
+		"order": 3,
+		"desc": "Event occurs around 12:00pm. The exact time is unspecified and established by institution convention or patient interpretation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$NOON",
+		"ident": 3,
+		"order": 4,
+		"desc": "Event occurs during the afternoon. The exact time is unspecified and established by institution convention or patient interpretation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$AFT",
+		"ident": 4,
+		"order": 5,
+		"desc": "Event occurs during the early afternoon. The exact time is unspecified and established by institution convention or patient interpretation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$AFT.early",
+		"ident": 5,
+		"order": 6,
+		"desc": "Event occurs during the late afternoon. The exact time is unspecified and established by institution convention or patient interpretation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$AFT.late",
+		"ident": 6,
+		"order": 7,
+		"desc": "Event occurs during the evening. The exact time is unspecified and established by institution convention or patient interpretation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$EVE",
+		"ident": 7,
+		"order": 8,
+		"desc": "Event occurs during the early evening. The exact time is unspecified and established by institution convention or patient interpretation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$EVE.early",
+		"ident": 8,
+		"order": 9,
+		"desc": "Event occurs during the late evening. The exact time is unspecified and established by institution convention or patient interpretation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$EVE.late",
+		"ident": 9,
+		"order": 10,
+		"desc": "Event occurs during the night. The exact time is unspecified and established by institution convention or patient interpretation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$NIGHT",
+		"ident": 10,
+		"order": 11,
+		"desc": "Event occurs [offset] after subject goes to sleep. The exact time is unspecified and established by institution convention or patient interpretation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$PHS",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

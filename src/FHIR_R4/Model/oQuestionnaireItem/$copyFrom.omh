@@ -1,0 +1,32 @@
+Do inherited
+Calculate linkId as pValue.$linkId()
+Calculate definition as pValue.$definition()
+Do code.$clear()
+Calculate list as pValue.$code()
+Do code.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate prefix as pValue.$prefix()
+Calculate text as pValue.$text()
+Calculate type as pValue.$type()
+Do enableWhen.$clear()
+Calculate list as pValue.$enableWhen()
+Do enableWhen.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate enableBehavior as pValue.$enableBehavior()
+Calculate required as pValue.$required()
+Calculate repeats as pValue.$repeats()
+Calculate readOnly as pValue.$readOnly()
+Calculate maxLength as pValue.$maxLength()
+Calculate answerValueSet as pValue.$answerValueSet()
+Do answerOption.$clear()
+Calculate list as pValue.$answerOption()
+Do answerOption.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do initial.$clear()
+Calculate list as pValue.$initial()
+Do initial.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

@@ -1,0 +1,133 @@
+[
+	{
+		"name": "$no-change",
+		"ident": 0,
+		"order": 1,
+		"desc": "reduce quality rating by 1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$downcode1",
+		"ident": 1,
+		"order": 2,
+		"desc": "reduce quality rating by 2.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$downcode2",
+		"ident": 2,
+		"order": 3,
+		"desc": "reduce quality rating by 3.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$downcode3",
+		"ident": 3,
+		"order": 4,
+		"desc": "increase quality rating by 1.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$upcode1",
+		"ident": 4,
+		"order": 5,
+		"desc": "increase quality rating by 2.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$upcode2",
+		"ident": 5,
+		"order": 6,
+		"desc": "no serious concern.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$no-concern",
+		"ident": 6,
+		"order": 7,
+		"desc": "serious concern.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$serious-concern",
+		"ident": 7,
+		"order": 8,
+		"desc": "critical concern.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$critical-concern",
+		"ident": 8,
+		"order": 9,
+		"desc": "possible reason for increasing quality rating was checked and found to bepresent.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$present",
+		"ident": 9,
+		"order": 10,
+		"desc": "possible reason for increasing quality rating was checked and found to be absent.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$absent",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

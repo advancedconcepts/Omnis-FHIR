@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$oral",
+		"ident": 0,
+		"order": 1,
+		"desc": "Vision Health Coverage",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$vision",
+		"ident": 1,
+		"order": 2,
+		"desc": "Medical Health Coverage",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$medical",
+		"ident": 2,
+		"order": 3,
+		"desc": "Pharmacy Coverage",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$pharmacy",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

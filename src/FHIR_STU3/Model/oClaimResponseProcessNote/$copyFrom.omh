@@ -1,0 +1,5 @@
+Do inherited
+Calculate number as pValue.$number()
+Calculate type as pValue.$type()
+Calculate text as pValue.$text()
+Calculate language as pValue.$language()

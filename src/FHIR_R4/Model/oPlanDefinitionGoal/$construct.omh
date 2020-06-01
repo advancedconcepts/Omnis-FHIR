@@ -1,0 +1,4 @@
+Do inherited
+Do addresses.$define(addresses_)
+Do documentation.$define(documentation_)
+Do target.$define(target_)

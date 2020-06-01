@@ -1,0 +1,4 @@
+If security.$validref()=kFalse
+	Calculate security as $clib.$classes.oCoding.$newref()
+End If
+Quit method security

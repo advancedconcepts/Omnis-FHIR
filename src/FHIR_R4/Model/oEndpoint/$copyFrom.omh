@@ -1,0 +1,32 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate status as pValue.$status()
+Calculate connectionType as pValue.$connectionType()
+Calculate name as pValue.$name()
+Calculate managingOrganization as pValue.$managingOrganization()
+Do contact.$clear()
+Calculate list as pValue.$contact()
+Do contact.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate period as pValue.$period()
+Do payloadType.$clear()
+Calculate list as pValue.$payloadType()
+Do payloadType.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do payloadMimeType.$clear()
+Calculate list as pValue.$payloadMimeType()
+Do payloadMimeType.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate address as pValue.$address()
+Do header.$clear()
+Calculate list as pValue.$header()
+Do header.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

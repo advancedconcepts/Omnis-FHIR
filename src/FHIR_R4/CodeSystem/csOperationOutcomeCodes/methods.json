@@ -1,0 +1,552 @@
+[
+	{
+		"name": "$DELETE_MULTIPLE_MATCHES",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_AUTH_REQUIRED",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_BAD_FORMAT",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_BAD_SYNTAX",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_CANT_PARSE_CONTENT",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_CANT_PARSE_ROOT",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_CREATED",
+		"ident": 6,
+		"order": 7,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_DATE_FORMAT",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_DELETED",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_DELETED_DONE",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_DELETED_ID",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_DUPLICATE_ID",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_ERROR_PARSING",
+		"ident": 12,
+		"order": 13,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_ID_INVALID",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_ID_TOO_LONG",
+		"ident": 14,
+		"order": 15,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_INVALID_ID",
+		"ident": 15,
+		"order": 16,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_JSON_OBJECT",
+		"ident": 16,
+		"order": 17,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_LOCAL_FAIL",
+		"ident": 17,
+		"order": 18,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_NO_EXIST",
+		"ident": 18,
+		"order": 19,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_NO_MATCH",
+		"ident": 19,
+		"order": 20,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_NO_MODULE",
+		"ident": 20,
+		"order": 21,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_NO_SUMMARY",
+		"ident": 21,
+		"order": 22,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_OP_NOT_ALLOWED",
+		"ident": 22,
+		"order": 23,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_PARAM_CHAINED",
+		"ident": 23,
+		"order": 24,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_PARAM_INVALID",
+		"ident": 24,
+		"order": 25,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_PARAM_MODIFIER_INVALID",
+		"ident": 25,
+		"order": 26,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_PARAM_NO_REPEAT",
+		"ident": 26,
+		"order": 27,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_PARAM_UNKNOWN",
+		"ident": 27,
+		"order": 28,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_RESOURCE_EXAMPLE_PROTECTED",
+		"ident": 28,
+		"order": 29,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_RESOURCE_ID_FAIL",
+		"ident": 29,
+		"order": 30,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_RESOURCE_ID_MISMATCH",
+		"ident": 30,
+		"order": 31,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_RESOURCE_ID_MISSING",
+		"ident": 31,
+		"order": 32,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_RESOURCE_NOT_ALLOWED",
+		"ident": 32,
+		"order": 33,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_RESOURCE_REQUIRED",
+		"ident": 33,
+		"order": 34,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_RESOURCE_TYPE_MISMATCH",
+		"ident": 34,
+		"order": 35,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_SORT_UNKNOWN",
+		"ident": 35,
+		"order": 36,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_TRANSACTION_DUPLICATE_ID",
+		"ident": 36,
+		"order": 37,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_TRANSACTION_MISSING_ID",
+		"ident": 37,
+		"order": 38,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_UNHANDLED_NODE_TYPE",
+		"ident": 38,
+		"order": 39,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_UNKNOWN_CONTENT",
+		"ident": 39,
+		"order": 40,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_UNKNOWN_OPERATION",
+		"ident": 40,
+		"order": 41,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_UNKNOWN_TYPE",
+		"ident": 41,
+		"order": 42,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_UPDATED",
+		"ident": 42,
+		"order": 43,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_VERSION_AWARE",
+		"ident": 43,
+		"order": 44,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_VERSION_AWARE_CONFLICT",
+		"ident": 44,
+		"order": 45,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_VERSION_AWARE_URL",
+		"ident": 45,
+		"order": 46,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$MSG_WRONG_NS",
+		"ident": 46,
+		"order": 47,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$SEARCH_MULTIPLE",
+		"ident": 47,
+		"order": 48,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$SEARCH_NONE",
+		"ident": 48,
+		"order": 49,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$UPDATE_MULTIPLE_MATCHES",
+		"ident": 49,
+		"order": 50,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

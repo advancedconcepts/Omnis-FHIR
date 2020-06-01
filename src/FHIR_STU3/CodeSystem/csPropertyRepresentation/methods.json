@@ -1,0 +1,61 @@
+[
+	{
+		"name": "$xmlAttr",
+		"ident": 0,
+		"order": 1,
+		"desc": "This element is represented using the XML text attribute (primitives only)",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$xmlText",
+		"ident": 1,
+		"order": 2,
+		"desc": "The type of this element is indicated using xsi:type",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$typeAttr",
+		"ident": 2,
+		"order": 3,
+		"desc": "Use CDA narrative instead of XHTML",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$cdaText",
+		"ident": 3,
+		"order": 4,
+		"desc": "The property is represented using XHTML",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$xhtml",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

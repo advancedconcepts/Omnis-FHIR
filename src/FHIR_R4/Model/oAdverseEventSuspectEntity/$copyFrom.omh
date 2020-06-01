@@ -1,0 +1,7 @@
+Do inherited
+Calculate instance as pValue.$instance()
+Do causality.$clear()
+Calculate list as pValue.$causality()
+Do causality.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

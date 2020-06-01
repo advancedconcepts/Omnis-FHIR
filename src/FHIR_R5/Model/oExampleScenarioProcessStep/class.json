@@ -1,0 +1,71 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "alternative",
+			"order": 3,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "alternative_",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oExampleScenarioProcessStepAlternative",
+			"sublen": 0,
+			"desc": "Indicates an alternative step that can be taken instead of the operations on the base step in exceptional/atypical circumstances."
+		},
+		{
+			"name": "operation",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oExampleScenarioProcessStepOperation",
+			"sublen": 0,
+			"desc": "Each interaction or action."
+		},
+		{
+			"name": "pause",
+			"order": 1,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "If there is a pause in the flow."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:44:48",
+		"desc": "Each step of the process.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:28",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

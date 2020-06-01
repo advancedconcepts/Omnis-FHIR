@@ -1,0 +1,4 @@
+If maxSingleDose.$validref()=kFalse
+	Calculate maxSingleDose as $clib.$classes.oQuantity.$newref()
+End If
+Quit method maxSingleDose

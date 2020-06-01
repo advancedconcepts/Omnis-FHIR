@@ -1,0 +1,61 @@
+[
+	{
+		"name": "$first",
+		"ident": 0,
+		"order": 1,
+		"desc": "Process this rule for all but the first.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$not_first",
+		"ident": 1,
+		"order": 2,
+		"desc": "Only process this rule for the last in the list.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$last",
+		"ident": 2,
+		"order": 3,
+		"desc": "Process this rule for all but the last.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$not_last",
+		"ident": 3,
+		"order": 4,
+		"desc": "Only process this rule is there is only item.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$only_one",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

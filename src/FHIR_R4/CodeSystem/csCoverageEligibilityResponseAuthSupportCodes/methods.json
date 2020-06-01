@@ -1,0 +1,97 @@
+[
+	{
+		"name": "$laborder",
+		"ident": 0,
+		"order": 1,
+		"desc": "A report on laboratory diagnostic test(s).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$labreport",
+		"ident": 1,
+		"order": 2,
+		"desc": "A request or authorization for diagnostic imaging.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$diagnosticimageorder",
+		"ident": 2,
+		"order": 3,
+		"desc": "A report on diagnostic image(s).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$diagnosticimagereport",
+		"ident": 3,
+		"order": 4,
+		"desc": "A report from a licensed professional regarding the siutation, condition or proposed treatment.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$professionalreport",
+		"ident": 4,
+		"order": 5,
+		"desc": "A formal accident report as would be filed with police or a simlar official body.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$accidentreport",
+		"ident": 5,
+		"order": 6,
+		"desc": "A physical model of the affected area.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$model",
+		"ident": 6,
+		"order": 7,
+		"desc": "A photograph of the affected area.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$picture",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

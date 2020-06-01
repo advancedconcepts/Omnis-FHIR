@@ -1,0 +1,10 @@
+Do inherited
+Do pElements.$add("preAdmissionIdentifier","preAdmissionIdentifier",0,"1",38,"Identifier")
+Do pElements.$add("origin","origin",0,"1",38,"Reference")
+Do pElements.$add("admitSource","admitSource",0,"1",38,"CodeableConcept")
+Do pElements.$add("reAdmission","reAdmission",0,"1",38,"CodeableConcept")
+Do pElements.$add("dietPreference","dietPreference",0,"-1",38,"CodeableConcept")
+Do pElements.$add("specialCourtesy","specialCourtesy",0,"-1",38,"CodeableConcept")
+Do pElements.$add("specialArrangement","specialArrangement",0,"-1",38,"CodeableConcept")
+Do pElements.$add("destination","destination",0,"1",38,"Reference")
+Do pElements.$add("dischargeDisposition","dischargeDisposition",0,"1",38,"CodeableConcept")

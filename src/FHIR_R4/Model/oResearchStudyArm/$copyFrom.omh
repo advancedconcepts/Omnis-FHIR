@@ -1,0 +1,4 @@
+Do inherited
+Calculate name as pValue.$name()
+Calculate type as pValue.$type()
+Calculate description as pValue.$description()

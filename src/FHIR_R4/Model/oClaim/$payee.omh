@@ -1,0 +1,4 @@
+If payee.$validref()=kFalse
+	Calculate payee as $clib.$classes.oClaimPayee.$newref()
+End If
+Quit method payee

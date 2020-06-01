@@ -1,0 +1,11 @@
+Do inherited
+Calculate description as pValue.$description()
+Do note.$clear()
+Calculate list as pValue.$note()
+Do note.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate variableRole as pValue.$variableRole()
+Calculate actualDefinition as pValue.$actualDefinition()
+Calculate intendedDefinition as pValue.$intendedDefinition()
+Calculate directnessMatch as pValue.$directnessMatch()

@@ -1,0 +1,5 @@
+Do inherited
+Do pElements.$add("connectivity","connectivity",0,"1",21,"string")
+Do pElements.$add("identifier","identifier",0,"1",38,"Identifier")
+Do pElements.$add("name","::name",0,"1",21,"string")
+Do pElements.$add("residueSite","residueSite",0,"1",21,"string")

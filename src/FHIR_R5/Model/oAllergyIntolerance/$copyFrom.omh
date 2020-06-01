@@ -1,0 +1,32 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate clinicalStatus as pValue.$clinicalStatus()
+Calculate verificationStatus as pValue.$verificationStatus()
+Calculate type as pValue.$type()
+Do category.$clear()
+Calculate list as pValue.$category()
+Do category.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate criticality as pValue.$criticality()
+Calculate code as pValue.$code()
+Calculate patient as pValue.$patient()
+Calculate encounter as pValue.$encounter()
+Calculate recordedDate as pValue.$recordedDate()
+Calculate recorder as pValue.$recorder()
+Calculate asserter as pValue.$asserter()
+Calculate lastOccurrence as pValue.$lastOccurrence()
+Do note.$clear()
+Calculate list as pValue.$note()
+Do note.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do reaction.$clear()
+Calculate list as pValue.$reaction()
+Do reaction.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

@@ -1,0 +1,12 @@
+Do inherited
+Do pElements.$add("sequence","sequence",0,"1",26,"integer")
+Do pElements.$add("text","text",0,"1",21,"string")
+Do pElements.$add("additionalInstruction","additionalInstruction",0,"-1",38,"CodeableConcept")
+Do pElements.$add("patientInstruction","patientInstruction",0,"1",21,"string")
+Do pElements.$add("timing","timing",0,"1",38,"Timing")
+Do pElements.$add("site","site",0,"1",38,"CodeableConcept")
+Do pElements.$add("route","route",0,"1",38,"CodeableConcept")
+Do pElements.$add("method","method",0,"1",38,"CodeableConcept")
+Do pElements.$add("maxDosePerPeriod","maxDosePerPeriod",0,"1",38,"Ratio")
+Do pElements.$add("maxDosePerAdministration","maxDosePerAdministration",0,"1",38,"Quantity")
+Do pElements.$add("maxDosePerLifetime","maxDosePerLifetime",0,"1",38,"Quantity")

@@ -1,0 +1,21 @@
+Do inherited
+Calculate description as pValue.$description()
+Do note.$clear()
+Calculate list as pValue.$note()
+Do note.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate numberOfIntervals as pValue.$numberOfIntervals()
+Calculate bottomOfFirstInterval as pValue.$bottomOfFirstInterval()
+Do interval.$clear()
+Calculate list as pValue.$interval()
+Do interval.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate interval.rankOrder as pValue.$interval.rankOrder()
+Do interval.intervalStatistic.$clear()
+Calculate list as pValue.$interval.intervalStatistic()
+Do interval.intervalStatistic.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate topOfInterval as pValue.$topOfInterval()

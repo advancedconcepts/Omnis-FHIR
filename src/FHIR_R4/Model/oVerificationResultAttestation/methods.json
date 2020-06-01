@@ -1,0 +1,314 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$who",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: The individual or organization attesting to information.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$who.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The individual or organization attesting to information."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$onBehalfOf",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: When the who is asserting on behalf of another (organization or individual).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$onBehalfOf.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "When the who is asserting on behalf of another (organization or individual)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$communicationMethod",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: The method by which attested information was submitted/retrieved (manual; API; Push).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$communicationMethod.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The method by which attested information was submitted/retrieved (manual; API; Push)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$date",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: The date the information was attested to.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$date.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kDate",
+				"subtype": "kDate2000",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The date the information was attested to."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sourceIdentityCertificate",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: A digital identity certificate associated with the attestation source.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sourceIdentityCertificate.$assign",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A digital identity certificate associated with the attestation source."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$proxyIdentityCertificate",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: A digital identity certificate associated with the proxy entity submitting attested information on behalf of the attestation source.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$proxyIdentityCertificate.$assign",
+		"ident": 15,
+		"order": 16,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A digital identity certificate associated with the proxy entity submitting attested information on behalf of the attestation source."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$proxySignature",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: Signed assertion by the proxy entity indicating that they have the right to submit attested information on behalf of the attestation source.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$proxySignature.$assign",
+		"ident": 17,
+		"order": 18,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oSignature",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Signed assertion by the proxy entity indicating that they have the right to submit attested information on behalf of the attestation source."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sourceSignature",
+		"ident": 18,
+		"order": 19,
+		"desc": "Returns: Signed assertion by the attestation source that they have attested to the information.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sourceSignature.$assign",
+		"ident": 19,
+		"order": 20,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oSignature",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Signed assertion by the attestation source that they have attested to the information."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

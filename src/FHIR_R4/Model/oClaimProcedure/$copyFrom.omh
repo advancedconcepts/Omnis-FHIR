@@ -1,0 +1,13 @@
+Do inherited
+Calculate sequence as pValue.$sequence()
+Do type.$clear()
+Calculate list as pValue.$type()
+Do type.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate date as pValue.$date()
+Do udi.$clear()
+Calculate list as pValue.$udi()
+Do udi.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

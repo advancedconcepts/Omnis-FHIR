@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$proportion",
+		"ident": 0,
+		"order": 1,
+		"desc": "The measure score is defined using a ratio",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ratio",
+		"ident": 1,
+		"order": 2,
+		"desc": "The score is defined by a calculation of some quantity",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$continuous-variable",
+		"ident": 2,
+		"order": 3,
+		"desc": "The measure is a cohort definition",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$cohort",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

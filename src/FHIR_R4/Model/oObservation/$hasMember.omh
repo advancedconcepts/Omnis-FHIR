@@ -1,0 +1,4 @@
+If hasMember.$validref()=kFalse
+	Calculate hasMember as $clib.$classes.oReference.$newref()
+End If
+Quit method hasMember

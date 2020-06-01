@@ -1,0 +1,126 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "code",
+			"order": 1,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "A code (or set of codes) that specify this medication, or a textual description if no code is available. Usage note: This could be a standard medication code such as a code from RxNorm, SNOMED CT, IDMP etc. It could also be a national or local formulary c"
+		},
+		{
+			"name": "form",
+			"order": 6,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Describes the form of the item.  Powder; tablets; capsule."
+		},
+		{
+			"name": "image",
+			"order": 10,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "image_",
+			"order": 11,
+			"type": "kObjectref",
+			"subtype": "oAttachment",
+			"sublen": 0,
+			"desc": "Photo(s) or graphic representation(s) of the medication."
+		},
+		{
+			"name": "ingredient",
+			"order": 7,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "ingredient_",
+			"order": 8,
+			"type": "kObjectref",
+			"subtype": "oMedicationIngredient",
+			"sublen": 0,
+			"desc": "Identifies a particular constituent of interest in the product."
+		},
+		{
+			"name": "isBrand",
+			"order": 3,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "Set to true if the item is attributable to a specific manufacturer."
+		},
+		{
+			"name": "isOverTheCounter",
+			"order": 4,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "Set to true if the medication can be obtained without an order from a prescriber."
+		},
+		{
+			"name": "manufacturer",
+			"order": 5,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Describes the details of the manufacturer of the medication product.  This is not intended to represent the distributor of a medication product."
+		},
+		{
+			"name": "package",
+			"order": 9,
+			"type": "kObjectref",
+			"subtype": "oMedicationPackage",
+			"sublen": 0,
+			"desc": "Information that only applies to packages (not products)."
+		},
+		{
+			"name": "status",
+			"order": 2,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A code to indicate if the medication is in active use."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:40:05",
+		"desc": "Base StructureDefinition for Medication Resource",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:26",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

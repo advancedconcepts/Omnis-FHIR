@@ -1,0 +1,490 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$linkId",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: An identifier that is unique within the Questionnaire allowing linkage to the equivalent item in a QuestionnaireResponse resource.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$linkId.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "An identifier that is unique within the Questionnaire allowing linkage to the equivalent item in a QuestionnaireResponse resource."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$definition",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: A reference to an [ElementDefinition](elementdefinition.html) that provides the details for the item. If a definition is provided, then the following element values can be inferred from the definition: \n\n* code (ElementDefinition.code)\n* type (ElementDefinition.type)\n* required (ElementDefinition.min)\n* repeats (ElementDefinition.max)\n* maxLength (ElementDefinition.maxLength)\n* options (ElementDefinition.binding)\n\nAny information provided in these elements on a Questionnaire Item overrides the information from the definition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$definition.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A reference to an [ElementDefinition](elementdefinition.html) that provides the details for the item. If a definition is provided, then the following element values can be inferred from the definition: \n\n* code (ElementDefinition.code)\n* type (ElementDefi"
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$code",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: A terminology code that corresponds to this group or question (e.g. a code from LOINC, which defines many questions and answers).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addcode",
+		"ident": 9,
+		"order": 10,
+		"desc": "A terminology code that corresponds to this group or question (e.g. a code from LOINC, which defines many questions and answers).",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCoding",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCoding",
+				"sublen": 0,
+				"desc": "A terminology code that corresponds to this group or question (e.g. a code from LOINC, which defines many questions and answers)."
+			}
+		]
+	},
+	{
+		"name": "$prefix",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: A short label for a particular group, question or set of display text within the questionnaire used for reference by the individual completing the questionnaire.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$prefix.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A short label for a particular group, question or set of display text within the questionnaire used for reference by the individual completing the questionnaire."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$text",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: The name of a section, the text of a question or text content for a display item.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$text.$assign",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The name of a section, the text of a question or text content for a display item."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: The type of questionnaire item this is - whether text for display, a grouping of other items or a particular type of data to be captured (string, integer, coded choice, etc.).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::type.$assign",
+		"ident": 15,
+		"order": 16,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "The type of questionnaire item this is - whether text for display, a grouping of other items or a particular type of data to be captured (string, integer, coded choice, etc.)."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$enableWhen",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: A constraint indicating that this item should only be enabled (displayed/allow answers to be captured) when the specified condition is true.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addenableWhen",
+		"ident": 17,
+		"order": 18,
+		"desc": "A constraint indicating that this item should only be enabled (displayed/allow answers to be captured) when the specified condition is true.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oQuestionnaireItemEnableWhen",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oQuestionnaireItemEnableWhen",
+				"sublen": 0,
+				"desc": "A constraint indicating that this item should only be enabled (displayed/allow answers to be captured) when the specified condition is true."
+			}
+		]
+	},
+	{
+		"name": "$required",
+		"ident": 18,
+		"order": 19,
+		"desc": "Returns: An indication, if true, that the item must be present in a \"completed\" QuestionnaireResponse.  If false, the item may be skipped when answering the questionnaire.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$required.$assign",
+		"ident": 19,
+		"order": 20,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "An indication, if true, that the item must be present in a \"completed\" QuestionnaireResponse.  If false, the item may be skipped when answering the questionnaire."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$repeats",
+		"ident": 20,
+		"order": 21,
+		"desc": "Returns: An indication, if true, that the item may occur multiple times in the response, collecting multiple answers answers for questions or multiple sets of answers for groups.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$repeats.$assign",
+		"ident": 21,
+		"order": 22,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "An indication, if true, that the item may occur multiple times in the response, collecting multiple answers answers for questions or multiple sets of answers for groups."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$readOnly",
+		"ident": 22,
+		"order": 23,
+		"desc": "Returns: An indication, when true, that the value cannot be changed by a human respondent to the Questionnaire.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$readOnly.$assign",
+		"ident": 23,
+		"order": 24,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "An indication, when true, that the value cannot be changed by a human respondent to the Questionnaire."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$maxLength",
+		"ident": 24,
+		"order": 25,
+		"desc": "Returns: The maximum number of characters that are permitted in the answer to be considered a \"valid\" QuestionnaireResponse.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$maxLength.$assign",
+		"ident": 25,
+		"order": 26,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "The maximum number of characters that are permitted in the answer to be considered a \"valid\" QuestionnaireResponse."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$options",
+		"ident": 26,
+		"order": 27,
+		"desc": "Returns: A reference to a value set containing a list of codes representing permitted answers for a \"choice\" or \"open-choice\" question.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$options.$assign",
+		"ident": 27,
+		"order": 28,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1,
+				"desc": "A reference to a value set containing a list of codes representing permitted answers for a \"choice\" or \"open-choice\" question."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$option",
+		"ident": 28,
+		"order": 29,
+		"desc": "Returns: One of the permitted answers for a \"choice\" or \"open-choice\" question.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addoption",
+		"ident": 29,
+		"order": 30,
+		"desc": "One of the permitted answers for a \"choice\" or \"open-choice\" question.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oQuestionnaireItemOption",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oQuestionnaireItemOption",
+				"sublen": 0,
+				"desc": "One of the permitted answers for a \"choice\" or \"open-choice\" question."
+			}
+		]
+	}
+]

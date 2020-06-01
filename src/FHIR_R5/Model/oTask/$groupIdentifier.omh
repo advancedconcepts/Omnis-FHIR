@@ -1,0 +1,4 @@
+If groupIdentifier.$validref()=kFalse
+	Calculate groupIdentifier as $clib.$classes.oIdentifier.$newref()
+End If
+Quit method groupIdentifier

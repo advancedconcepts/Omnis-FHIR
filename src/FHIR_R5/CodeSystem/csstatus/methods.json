@@ -1,0 +1,73 @@
+[
+	{
+		"name": "$attested",
+		"ident": 0,
+		"order": 1,
+		"desc": "***TODO***",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$validated",
+		"ident": 1,
+		"order": 2,
+		"desc": "***TODO***",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$in-process",
+		"ident": 2,
+		"order": 3,
+		"desc": "***TODO***",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$req-revalid",
+		"ident": 3,
+		"order": 4,
+		"desc": "***TODO***",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$val-fail",
+		"ident": 4,
+		"order": 5,
+		"desc": "***TODO***",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$reval-fail",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

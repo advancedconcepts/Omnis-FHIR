@@ -1,0 +1,8 @@
+Do inherited
+Do pElements.$add("instance","instance",1,"1",38,"Reference")
+Do pElements.$add("causality","causality",0,"1",21,"code")
+Do pElements.$add("causalityAssessment","causalityAssessment",0,"1",38,"CodeableConcept")
+Do pElements.$add("causalityProductRelatedness","causalityProductRelatedness",0,"1",21,"string")
+Do pElements.$add("causalityMethod","causalityMethod",0,"1",38,"CodeableConcept")
+Do pElements.$add("causalityAuthor","causalityAuthor",0,"1",38,"Reference")
+Do pElements.$add("causalityResult","causalityResult",0,"1",38,"CodeableConcept")

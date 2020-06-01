@@ -1,0 +1,9 @@
+Do inherited
+Calculate number as pValue.$number()
+Calculate type as pValue.$type()
+Calculate name as pValue.$name()
+Calculate initiator as pValue.$initiator()
+Calculate receiver as pValue.$receiver()
+Calculate description as pValue.$description()
+Calculate initiatorActive as pValue.$initiatorActive()
+Calculate receiverActive as pValue.$receiverActive()

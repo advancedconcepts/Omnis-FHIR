@@ -1,0 +1,11 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do serviceType.$define(serviceType_)
+Do specialty.$define(specialty_)
+Do reason.$define(reason_)
+Do indication.$define(indication_)
+Do supportingInformation.$define(supportingInformation_)
+Do slot.$define(slot_)
+Do incomingReferral.$define(incomingReferral_)
+Do participant.$define(participant_)
+Do requestedPeriod.$define(requestedPeriod_)

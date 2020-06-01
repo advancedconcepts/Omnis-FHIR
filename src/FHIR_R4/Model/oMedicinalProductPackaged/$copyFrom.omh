@@ -1,0 +1,34 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do subject.$clear()
+Calculate list as pValue.$subject()
+Do subject.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate description as pValue.$description()
+Calculate legalStatusOfSupply as pValue.$legalStatusOfSupply()
+Do marketingStatus.$clear()
+Calculate list as pValue.$marketingStatus()
+Do marketingStatus.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate marketingAuthorization as pValue.$marketingAuthorization()
+Do manufacturer.$clear()
+Calculate list as pValue.$manufacturer()
+Do manufacturer.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do batchIdentifier.$clear()
+Calculate list as pValue.$batchIdentifier()
+Do batchIdentifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do packageItem.$clear()
+Calculate list as pValue.$packageItem()
+Do packageItem.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

@@ -1,0 +1,4 @@
+If codeFilter.valueCodeableConcept.$validref()=kFalse
+	Calculate codeFilter.valueCodeableConcept as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method codeFilter.valueCodeableConcept

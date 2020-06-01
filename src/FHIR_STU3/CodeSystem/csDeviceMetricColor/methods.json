@@ -1,0 +1,97 @@
+[
+	{
+		"name": "$black",
+		"ident": 0,
+		"order": 1,
+		"desc": "Color for representation - red.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$red",
+		"ident": 1,
+		"order": 2,
+		"desc": "Color for representation - green.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$green",
+		"ident": 2,
+		"order": 3,
+		"desc": "Color for representation - yellow.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$yellow",
+		"ident": 3,
+		"order": 4,
+		"desc": "Color for representation - blue.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$blue",
+		"ident": 4,
+		"order": 5,
+		"desc": "Color for representation - magenta.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$magenta",
+		"ident": 5,
+		"order": 6,
+		"desc": "Color for representation - cyan.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$cyan",
+		"ident": 6,
+		"order": 7,
+		"desc": "Color for representation - white.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$white",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

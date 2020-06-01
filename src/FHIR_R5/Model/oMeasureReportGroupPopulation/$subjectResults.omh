@@ -1,0 +1,4 @@
+If subjectResults.$validref()=kFalse
+	Calculate subjectResults as $clib.$classes.oReference.$newref()
+End If
+Quit method subjectResults

@@ -1,0 +1,40 @@
+Do inherited
+Calculate identifier as pValue.$identifier()
+Calculate status as pValue.$status()
+Calculate type as pValue.$type()
+Do category.$clear()
+Calculate list as pValue.$category()
+Do category.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate subject as pValue.$subject()
+Calculate encounter as pValue.$encounter()
+Calculate date as pValue.$date()
+Do author.$clear()
+Calculate list as pValue.$author()
+Do author.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate title as pValue.$title()
+Calculate confidentiality as pValue.$confidentiality()
+Do attester.$clear()
+Calculate list as pValue.$attester()
+Do attester.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate custodian as pValue.$custodian()
+Do relatesTo.$clear()
+Calculate list as pValue.$relatesTo()
+Do relatesTo.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do event.$clear()
+Calculate list as pValue.$event()
+Do event.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do section.$clear()
+Calculate list as pValue.$section()
+Do section.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

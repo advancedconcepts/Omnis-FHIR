@@ -1,0 +1,9 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"-1",38,"Identifier")
+Do pElements.$add("status","status",1,"1",21,"code")
+Do pElements.$add("created","created",1,"1",23,"dateTime")
+Do pElements.$add("patient","patient",1,"1",38,"Reference")
+Do pElements.$add("encounter","encounter",0,"1",38,"Reference")
+Do pElements.$add("dateWritten","dateWritten",1,"1",23,"dateTime")
+Do pElements.$add("prescriber","prescriber",1,"1",38,"Reference")
+Do pElements.$add("lensSpecification","lensSpecification",1,"-1",38,"")

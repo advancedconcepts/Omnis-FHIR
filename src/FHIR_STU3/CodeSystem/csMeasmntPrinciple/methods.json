@@ -1,0 +1,133 @@
+[
+	{
+		"name": "$other",
+		"ident": 0,
+		"order": 1,
+		"desc": "Measurement is done using the chemical principle.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$chemical",
+		"ident": 1,
+		"order": 2,
+		"desc": "Measurement is done using the electrical principle.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$electrical",
+		"ident": 2,
+		"order": 3,
+		"desc": "Measurement is done using the impedance principle.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$impedance",
+		"ident": 3,
+		"order": 4,
+		"desc": "Measurement is done using the nuclear principle.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$nuclear",
+		"ident": 4,
+		"order": 5,
+		"desc": "Measurement is done using the optical principle.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$optical",
+		"ident": 5,
+		"order": 6,
+		"desc": "Measurement is done using the thermal principle.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$thermal",
+		"ident": 6,
+		"order": 7,
+		"desc": "Measurement is done using the biological principle.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$biological",
+		"ident": 7,
+		"order": 8,
+		"desc": "Measurement is done using the mechanical principle.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$mechanical",
+		"ident": 8,
+		"order": 9,
+		"desc": "Measurement is done using the acoustical principle.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$acoustical",
+		"ident": 9,
+		"order": 10,
+		"desc": "Measurement is done using the manual principle.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$manual",
+		"ident": 10,
+		"order": 11,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$display",
+		"ident": 0,
+		"order": 1,
+		"desc": "Print the note on the form.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$print",
+		"ident": 1,
+		"order": 2,
+		"desc": "Print the note for the operator.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$printoper",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

@@ -1,0 +1,175 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "accept",
+			"order": 5,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The content-type or mime-type to use for RESTful operation in the 'Accept' header."
+		},
+		{
+			"name": "contentType",
+			"order": 6,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The content-type or mime-type to use for RESTful operation in the 'Content-Type' header."
+		},
+		{
+			"name": "description",
+			"order": 4,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The description would be used by test engines for tracking and reporting purposes."
+		},
+		{
+			"name": "destination",
+			"order": 7,
+			"type": "kInteger",
+			"subtype": "k32bitint",
+			"sublen": 0,
+			"desc": "The server where the request message is destined for.  Must be one of the server numbers listed in TestScript.destination section."
+		},
+		{
+			"name": "encodeRequestUrl",
+			"order": 8,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "Whether or not to implicitly send the request url in encoded format. The default is true to match the standard RESTful client behavior. Set to false when communicating with a server that does not support encoded url paths."
+		},
+		{
+			"name": "label",
+			"order": 3,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The label would be used for tracking/logging purposes by test engines."
+		},
+		{
+			"name": "origin",
+			"order": 9,
+			"type": "kInteger",
+			"subtype": "k32bitint",
+			"sublen": 0,
+			"desc": "The server where the request message originates from.  Must be one of the server numbers listed in TestScript.origin section."
+		},
+		{
+			"name": "params",
+			"order": 10,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Path plus parameters after [type].  Used to set parts of the request URL explicitly."
+		},
+		{
+			"name": "requestHeader",
+			"order": 11,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "requestHeader_",
+			"order": 12,
+			"type": "kObjectref",
+			"subtype": "oTestScriptSetupActionOperationRequestHeader",
+			"sublen": 0,
+			"desc": "Header elements would be used to set HTTP headers."
+		},
+		{
+			"name": "requestId",
+			"order": 13,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The fixture id (maybe new) to map to the request."
+		},
+		{
+			"name": "resource",
+			"order": 2,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The type of the resource.  See http://hl7.org/fhir/STU3/resourcelist.html."
+		},
+		{
+			"name": "responseId",
+			"order": 14,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The fixture id (maybe new) to map to the response."
+		},
+		{
+			"name": "sourceId",
+			"order": 15,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The id of the fixture used as the body of a PUT or POST request."
+		},
+		{
+			"name": "targetId",
+			"order": 16,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Id of fixture used for extracting the [id],  [type], and [vid] for GET requests."
+		},
+		{
+			"name": "type",
+			"order": 1,
+			"type": "kObjectref",
+			"subtype": "oCoding",
+			"sublen": 0,
+			"desc": "Server interaction or operation type."
+		},
+		{
+			"name": "url",
+			"order": 17,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Complete request URL."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:40:12",
+		"desc": "The operation to perform.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:27",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

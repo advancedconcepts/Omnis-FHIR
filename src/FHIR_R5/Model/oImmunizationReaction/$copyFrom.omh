@@ -1,0 +1,4 @@
+Do inherited
+Calculate date as pValue.$date()
+Calculate detail as pValue.$detail()
+Calculate reported as pValue.$reported()

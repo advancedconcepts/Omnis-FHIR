@@ -1,0 +1,4 @@
+If product.$validref()=kFalse
+	Calculate product as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method product

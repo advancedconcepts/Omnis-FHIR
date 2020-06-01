@@ -1,0 +1,343 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "accident",
+			"order": 34,
+			"type": "kObjectref",
+			"subtype": "oClaimAccident",
+			"sublen": 0,
+			"desc": "An accident which resulted in the need for healthcare services."
+		},
+		{
+			"name": "billablePeriod",
+			"order": 9,
+			"type": "kObjectref",
+			"subtype": "oPeriod",
+			"sublen": 0,
+			"desc": "The billable period for which charges are being submitted."
+		},
+		{
+			"name": "careTeam",
+			"order": 24,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "careTeam_",
+			"order": 25,
+			"type": "kObjectref",
+			"subtype": "oClaimCareTeam",
+			"sublen": 0,
+			"desc": "The members of the team who provided the overall service as well as their role and whether responsible and qualifications."
+		},
+		{
+			"name": "created",
+			"order": 10,
+			"type": "kDate",
+			"subtype": "kDatetime",
+			"sublen": 0,
+			"desc": "The date when the enclosed suite of services were performed or completed."
+		},
+		{
+			"name": "diagnosis",
+			"order": 28,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "diagnosis_",
+			"order": 29,
+			"type": "kObjectref",
+			"subtype": "oClaimDiagnosis",
+			"sublen": 0,
+			"desc": "List of patient diagnosis for which care is sought."
+		},
+		{
+			"name": "employmentImpacted",
+			"order": 35,
+			"type": "kObjectref",
+			"subtype": "oPeriod",
+			"sublen": 0,
+			"desc": "The start and optional end dates of when the patient was precluded from working due to the treatable condition(s)."
+		},
+		{
+			"name": "enterer",
+			"order": 11,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Person who created the invoice/claim/pre-determination or pre-authorization."
+		},
+		{
+			"name": "facility",
+			"order": 23,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Facility where the services were provided."
+		},
+		{
+			"name": "fundsReserve",
+			"order": 16,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "In the case of a Pre-Determination/Pre-Authorization the provider may request that funds in the amount of the expected Benefit be reserved ('Patient' or 'Provider') to pay for the Benefits determined on the subsequent claim(s). 'None' explicitly indicates"
+		},
+		{
+			"name": "hospitalization",
+			"order": 36,
+			"type": "kObjectref",
+			"subtype": "oPeriod",
+			"sublen": 0,
+			"desc": "The start and optional end dates of when the patient was confined to a treatment center."
+		},
+		{
+			"name": "identifier",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "identifier_",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "The business identifier for the instance: claim number, pre-determination or pre-authorization number."
+		},
+		{
+			"name": "information",
+			"order": 26,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "information_",
+			"order": 27,
+			"type": "kObjectref",
+			"subtype": "oClaimInformation",
+			"sublen": 0,
+			"desc": "Additional information codes regarding exceptions, special considerations, the condition, situation, prior or concurrent issues. Often there are mutiple jurisdiction specific valuesets which are required."
+		},
+		{
+			"name": "insurance",
+			"order": 32,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "insurance_",
+			"order": 33,
+			"type": "kObjectref",
+			"subtype": "oClaimInsurance",
+			"sublen": 0,
+			"desc": "Financial instrument by which payment information for health care."
+		},
+		{
+			"name": "insurer",
+			"order": 12,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The Insurer who is target of the request."
+		},
+		{
+			"name": "item",
+			"order": 37,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "item_",
+			"order": 38,
+			"type": "kObjectref",
+			"subtype": "oClaimItem",
+			"sublen": 0,
+			"desc": "First tier of goods and services."
+		},
+		{
+			"name": "organization",
+			"order": 14,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The organization which is responsible for the bill, claim pre-determination, pre-authorization."
+		},
+		{
+			"name": "originalPrescription",
+			"order": 20,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Original prescription which has been superceded by this prescription to support the dispensing of pharmacy services, medications or products. For example, a physician may prescribe a medication which the pharmacy determines is contraindicated, or for whic"
+		},
+		{
+			"name": "patient",
+			"order": 8,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Patient Resource."
+		},
+		{
+			"name": "payee",
+			"order": 21,
+			"type": "kObjectref",
+			"subtype": "oClaimPayee",
+			"sublen": 0,
+			"desc": "The party to be reimbursed for the services."
+		},
+		{
+			"name": "prescription",
+			"order": 19,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Prescription to support the dispensing of Pharmacy or Vision products."
+		},
+		{
+			"name": "priority",
+			"order": 15,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "Immediate (STAT), best effort (NORMAL), deferred (DEFER)."
+		},
+		{
+			"name": "procedure",
+			"order": 30,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "procedure_",
+			"order": 31,
+			"type": "kObjectref",
+			"subtype": "oClaimProcedure",
+			"sublen": 0,
+			"desc": "Ordered list of patient procedures performed to support the adjudication."
+		},
+		{
+			"name": "provider",
+			"order": 13,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The provider which is responsible for the bill, claim pre-determination, pre-authorization."
+		},
+		{
+			"name": "referral",
+			"order": 22,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The referral resource which lists the date, practitioner, reason and other supporting information."
+		},
+		{
+			"name": "related",
+			"order": 17,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "related_",
+			"order": 18,
+			"type": "kObjectref",
+			"subtype": "oClaimRelated",
+			"sublen": 0,
+			"desc": "Other claims which are related to this claim such as prior claim versions or for related services."
+		},
+		{
+			"name": "status",
+			"order": 3,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The status of the resource instance."
+		},
+		{
+			"name": "subType",
+			"order": 5,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "subType_",
+			"order": 6,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "A finer grained suite of claim subtype codes which may convey Inpatient vs Outpatient and/or a specialty service. In the US the BillType."
+		},
+		{
+			"name": "total",
+			"order": 39,
+			"type": "kObjectref",
+			"subtype": "oMoney",
+			"sublen": 0,
+			"desc": "The total value of the claim."
+		},
+		{
+			"name": "type",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The category of claim, eg, oral, pharmacy, vision, insitutional, professional."
+		},
+		{
+			"name": "use",
+			"order": 7,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Complete (Bill or Claim), Proposed (Pre-Authorization), Exploratory (Pre-determination)."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:39:58",
+		"desc": "Base StructureDefinition for Claim Resource",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:26",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

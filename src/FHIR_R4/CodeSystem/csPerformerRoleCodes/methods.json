@@ -1,0 +1,61 @@
+[
+	{
+		"name": "$consenter",
+		"ident": 0,
+		"order": 1,
+		"desc": "An entity which accepts certain rights or authority from a grantor.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$grantee",
+		"ident": 1,
+		"order": 2,
+		"desc": "An entity which agrees to confer certain rights or authority to a grantee.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$grantor",
+		"ident": 2,
+		"order": 3,
+		"desc": "A party to whom some right or authority is granted by a delegator.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$delegatee",
+		"ident": 3,
+		"order": 4,
+		"desc": "A party that grants all or some portion its right or authority to another party.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$delegator",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

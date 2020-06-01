@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$pass",
+		"ident": 0,
+		"order": 1,
+		"desc": "One or more test operations failed one or more asserts.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$fail",
+		"ident": 1,
+		"order": 2,
+		"desc": "One or more test operations is pending execution completion.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$pending",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

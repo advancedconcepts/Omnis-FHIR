@@ -1,0 +1,4 @@
+If dataRequirement.$validref()=kFalse
+	Calculate dataRequirement as $clib.$classes.oDataRequirement.$newref()
+End If
+Quit method dataRequirement

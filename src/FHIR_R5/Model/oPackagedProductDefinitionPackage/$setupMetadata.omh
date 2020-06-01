@@ -1,0 +1,10 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"-1",38,"Identifier")
+Do pElements.$add("type","::type",0,"1",38,"CodeableConcept")
+Do pElements.$add("quantity","quantity",0,"1",38,"Quantity")
+Do pElements.$add("material","material",0,"-1",38,"CodeableConcept")
+Do pElements.$add("alternateMaterial","alternateMaterial",0,"-1",38,"CodeableConcept")
+Do pElements.$add("shelfLifeStorage","shelfLifeStorage",0,"-1",38,"ProductShelfLife")
+Do pElements.$add("manufacturer","manufacturer",0,"-1",38,"Reference")
+Do pElements.$add("characteristic","characteristic",0,"-1",38,"")
+Do pElements.$add("containedItem","containedItem",0,"-1",38,"")

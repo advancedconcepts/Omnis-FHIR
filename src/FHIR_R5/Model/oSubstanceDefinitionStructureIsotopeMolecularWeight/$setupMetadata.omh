@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("method","method",0,"1",38,"CodeableConcept")
+Do pElements.$add("type","::type",0,"1",38,"CodeableConcept")
+Do pElements.$add("amount","amount",0,"1",38,"Quantity")

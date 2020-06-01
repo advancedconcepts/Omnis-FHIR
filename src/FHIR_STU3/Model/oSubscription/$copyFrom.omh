@@ -1,0 +1,17 @@
+Do inherited
+Calculate status as pValue.$status()
+Do contact.$clear()
+Calculate list as pValue.$contact()
+Do contact.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate end as pValue.$end()
+Calculate reason as pValue.$reason()
+Calculate criteria as pValue.$criteria()
+Calculate error as pValue.$error()
+Calculate channel as pValue.$channel()
+Do tag.$clear()
+Calculate list as pValue.$tag()
+Do tag.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

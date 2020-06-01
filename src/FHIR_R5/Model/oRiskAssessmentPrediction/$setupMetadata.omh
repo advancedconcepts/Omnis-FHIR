@@ -1,0 +1,5 @@
+Do inherited
+Do pElements.$add("outcome","outcome",0,"1",38,"CodeableConcept")
+Do pElements.$add("qualitativeRisk","qualitativeRisk",0,"1",38,"CodeableConcept")
+Do pElements.$add("relativeRisk","relativeRisk",0,"1",25,"decimal")
+Do pElements.$add("rationale","rationale",0,"1",21,"string")

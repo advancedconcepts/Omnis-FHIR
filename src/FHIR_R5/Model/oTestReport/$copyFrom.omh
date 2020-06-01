@@ -1,0 +1,21 @@
+Do inherited
+Calculate identifier as pValue.$identifier()
+Calculate name as pValue.$name()
+Calculate status as pValue.$status()
+Calculate testScript as pValue.$testScript()
+Calculate result as pValue.$result()
+Calculate score as pValue.$score()
+Calculate tester as pValue.$tester()
+Calculate issued as pValue.$issued()
+Do participant.$clear()
+Calculate list as pValue.$participant()
+Do participant.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate setup as pValue.$setup()
+Do test.$clear()
+Calculate list as pValue.$test()
+Do test.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate teardown as pValue.$teardown()

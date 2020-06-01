@@ -1,0 +1,21 @@
+Do inherited
+Calculate event as pValue.$event()
+Do destination.$clear()
+Calculate list as pValue.$destination()
+Do destination.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate receiver as pValue.$receiver()
+Calculate sender as pValue.$sender()
+Calculate timestamp as pValue.$timestamp()
+Calculate enterer as pValue.$enterer()
+Calculate author as pValue.$author()
+Calculate source as pValue.$source()
+Calculate responsible as pValue.$responsible()
+Calculate reason as pValue.$reason()
+Calculate response as pValue.$response()
+Do focus.$clear()
+Calculate list as pValue.$focus()
+Do focus.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

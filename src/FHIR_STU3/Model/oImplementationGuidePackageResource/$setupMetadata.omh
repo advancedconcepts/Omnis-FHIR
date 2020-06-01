@@ -1,0 +1,6 @@
+Do inherited
+Do pElements.$add("example","example",1,"1",22,"boolean")
+Do pElements.$add("name","::name",0,"1",21,"string")
+Do pElements.$add("description","description",0,"1",21,"string")
+Do pElements.$add("acronym","acronym",0,"1",21,"string")
+Do pElements.$add("exampleFor","exampleFor",0,"1",38,"Reference")

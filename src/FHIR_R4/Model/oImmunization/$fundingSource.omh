@@ -1,0 +1,4 @@
+If fundingSource.$validref()=kFalse
+	Calculate fundingSource as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method fundingSource

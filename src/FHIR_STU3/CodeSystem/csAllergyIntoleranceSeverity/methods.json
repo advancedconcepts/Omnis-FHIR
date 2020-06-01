@@ -1,0 +1,37 @@
+[
+	{
+		"name": "$mild",
+		"ident": 0,
+		"order": 1,
+		"desc": "Causes moderate physiological effects.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$moderate",
+		"ident": 1,
+		"order": 2,
+		"desc": "Causes severe physiological effects.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$severe",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

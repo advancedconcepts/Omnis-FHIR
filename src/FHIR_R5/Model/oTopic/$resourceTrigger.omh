@@ -1,0 +1,4 @@
+If resourceTrigger.$validref()=kFalse
+	Calculate resourceTrigger as $clib.$classes.oTopicResourceTrigger.$newref()
+End If
+Quit method resourceTrigger

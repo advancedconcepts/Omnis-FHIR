@@ -1,0 +1,61 @@
+[
+	{
+		"name": "$UDI",
+		"ident": 0,
+		"order": 1,
+		"desc": "An identifier affixed to an item by the manufacturer when it is first made, where each item has a different identifier.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$SNO",
+		"ident": 1,
+		"order": 2,
+		"desc": "An identifier issued by a governmental organization to an individual for the purpose of the receipt of social services and benefits.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$SB",
+		"ident": 2,
+		"order": 3,
+		"desc": "The identifier associated with the person or service that requests or places an order.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$PLAC",
+		"ident": 3,
+		"order": 4,
+		"desc": "The Identifier associated with the person, or service, who produces the observations or fulfills the order requested by the requestor.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$FILL",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

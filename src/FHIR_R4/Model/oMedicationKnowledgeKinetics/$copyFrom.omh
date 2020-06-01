@@ -1,0 +1,12 @@
+Do inherited
+Do areaUnderCurve.$clear()
+Calculate list as pValue.$areaUnderCurve()
+Do areaUnderCurve.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do lethalDose50.$clear()
+Calculate list as pValue.$lethalDose50()
+Do lethalDose50.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate halfLifePeriod as pValue.$halfLifePeriod()

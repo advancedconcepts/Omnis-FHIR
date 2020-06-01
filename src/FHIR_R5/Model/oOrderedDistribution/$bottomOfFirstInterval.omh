@@ -1,0 +1,4 @@
+If bottomOfFirstInterval.$validref()=kFalse
+	Calculate bottomOfFirstInterval as $clib.$classes.oQuantity.$newref()
+End If
+Quit method bottomOfFirstInterval

@@ -1,0 +1,266 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$::name",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: A unique name for the group for the convenience of human readers.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$::name.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "A unique name for the group for the convenience of human readers."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$extends",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: Another group that this group adds rules to.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$extends.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Another group that this group adds rules to."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$typeMode",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: If this is the default rule set to apply for thie source type, or this combination of types.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$typeMode.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "If this is the default rule set to apply for thie source type, or this combination of types."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$documentation",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: Additional supporting documentation that explains the purpose of the group and the types of mappings within it.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$documentation.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Additional supporting documentation that explains the purpose of the group and the types of mappings within it."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$input",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: A name assigned to an instance of data. The instance must be provided when the mapping is invoked.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addinput",
+		"ident": 13,
+		"order": 14,
+		"desc": "A name assigned to an instance of data. The instance must be provided when the mapping is invoked.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oStructureMapGroupInput",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oStructureMapGroupInput",
+				"sublen": 0,
+				"desc": "A name assigned to an instance of data. The instance must be provided when the mapping is invoked."
+			}
+		]
+	},
+	{
+		"name": "$rule",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: Transform Rule from source to target.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addrule",
+		"ident": 15,
+		"order": 16,
+		"desc": "Transform Rule from source to target.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oStructureMapGroupRule",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oStructureMapGroupRule",
+				"sublen": 0,
+				"desc": "Transform Rule from source to target."
+			}
+		]
+	}
+]

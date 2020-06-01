@@ -1,0 +1,13 @@
+Do inherited
+Calculate sequenceType as pValue.$sequenceType()
+Calculate numberOfSubunits as pValue.$numberOfSubunits()
+Do disulfideLinkage.$clear()
+Calculate list as pValue.$disulfideLinkage()
+Do disulfideLinkage.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do subunit.$clear()
+Calculate list as pValue.$subunit()
+Do subunit.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

@@ -1,0 +1,11 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do udiCarrier.$define(udiCarrier_)
+Do statusReason.$define(statusReason_)
+Do deviceName.$define(deviceName_)
+Do specialization.$define(specialization_)
+Do version.$define(version_)
+Do property.$define(property_)
+Do contact.$define(contact_)
+Do note.$define(note_)
+Do safety.$define(safety_)

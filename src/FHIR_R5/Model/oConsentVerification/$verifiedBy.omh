@@ -1,0 +1,4 @@
+If verifiedBy.$validref()=kFalse
+	Calculate verifiedBy as $clib.$classes.oReference.$newref()
+End If
+Quit method verifiedBy

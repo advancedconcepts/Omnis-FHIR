@@ -1,0 +1,4 @@
+If concentration.$validref()=kFalse
+	Calculate concentration as $clib.$classes.oRatio.$newref()
+End If
+Quit method concentration

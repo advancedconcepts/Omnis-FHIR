@@ -1,0 +1,13 @@
+Do inherited
+Do pElements.$add("masterIdentifier","masterIdentifier",0,"1",38,"Identifier")
+Do pElements.$add("identifier","identifier",0,"-1",38,"Identifier")
+Do pElements.$add("status","status",1,"1",21,"code")
+Do pElements.$add("type","::type",0,"1",38,"CodeableConcept")
+Do pElements.$add("subject","subject",0,"1",38,"Reference")
+Do pElements.$add("created","created",0,"1",23,"dateTime")
+Do pElements.$add("author","author",0,"-1",38,"Reference")
+Do pElements.$add("recipient","recipient",0,"-1",38,"Reference")
+Do pElements.$add("source","source",0,"1",21,"uri")
+Do pElements.$add("description","description",0,"1",21,"string")
+Do pElements.$add("content","content",1,"-1",38,"")
+Do pElements.$add("related","related",0,"-1",38,"")

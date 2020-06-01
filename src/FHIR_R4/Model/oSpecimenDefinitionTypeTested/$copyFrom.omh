@@ -1,0 +1,17 @@
+Do inherited
+Calculate isDerived as pValue.$isDerived()
+Calculate type as pValue.$type()
+Calculate preference as pValue.$preference()
+Calculate container as pValue.$container()
+Calculate requirement as pValue.$requirement()
+Calculate retentionTime as pValue.$retentionTime()
+Do rejectionCriterion.$clear()
+Calculate list as pValue.$rejectionCriterion()
+Do rejectionCriterion.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do handling.$clear()
+Calculate list as pValue.$handling()
+Do handling.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

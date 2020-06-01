@@ -1,0 +1,4 @@
+If certificate.$validref()=kFalse
+	Calculate certificate as $clib.$classes.oCapabilityStatementRestSecurityCertificate.$newref()
+End If
+Quit method certificate

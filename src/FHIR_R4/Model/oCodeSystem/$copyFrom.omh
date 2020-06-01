@@ -1,0 +1,55 @@
+Do inherited
+Calculate url as pValue.$url()
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate version as pValue.$version()
+Calculate name as pValue.$name()
+Calculate title as pValue.$title()
+Calculate status as pValue.$status()
+Calculate experimental as pValue.$experimental()
+Calculate date as pValue.$date()
+Calculate publisher as pValue.$publisher()
+Do contact.$clear()
+Calculate list as pValue.$contact()
+Do contact.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate description as pValue.$description()
+Do useContext.$clear()
+Calculate list as pValue.$useContext()
+Do useContext.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do jurisdiction.$clear()
+Calculate list as pValue.$jurisdiction()
+Do jurisdiction.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate purpose as pValue.$purpose()
+Calculate copyright as pValue.$copyright()
+Calculate caseSensitive as pValue.$caseSensitive()
+Calculate valueSet as pValue.$valueSet()
+Calculate hierarchyMeaning as pValue.$hierarchyMeaning()
+Calculate compositional as pValue.$compositional()
+Calculate versionNeeded as pValue.$versionNeeded()
+Calculate content as pValue.$content()
+Calculate supplements as pValue.$supplements()
+Calculate count as pValue.$count()
+Do filter.$clear()
+Calculate list as pValue.$filter()
+Do filter.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do property.$clear()
+Calculate list as pValue.$property()
+Do property.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do concept.$clear()
+Calculate list as pValue.$concept()
+Do concept.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

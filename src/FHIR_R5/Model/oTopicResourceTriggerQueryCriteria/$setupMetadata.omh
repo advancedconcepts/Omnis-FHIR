@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("previous","previous",0,"1",21,"string")
+Do pElements.$add("current","current",0,"1",21,"string")
+Do pElements.$add("requireBoth","requireBoth",0,"1",22,"boolean")

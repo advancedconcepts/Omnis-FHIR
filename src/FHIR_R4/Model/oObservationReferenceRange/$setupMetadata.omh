@@ -1,0 +1,7 @@
+Do inherited
+Do pElements.$add("low","low",0,"1",38,"Quantity")
+Do pElements.$add("high","high",0,"1",38,"Quantity")
+Do pElements.$add("type","::type",0,"1",38,"CodeableConcept")
+Do pElements.$add("appliesTo","appliesTo",0,"-1",38,"CodeableConcept")
+Do pElements.$add("age","age",0,"1",38,"Range")
+Do pElements.$add("text","text",0,"1",21,"string")

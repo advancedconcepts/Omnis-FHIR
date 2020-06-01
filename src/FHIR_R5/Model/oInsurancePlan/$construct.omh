@@ -1,0 +1,10 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do type.$define(type_)
+Do alias.$define(alias_)
+Do coverageArea.$define(coverageArea_)
+Do contact.$define(contact_)
+Do endpoint.$define(endpoint_)
+Do network.$define(network_)
+Do coverage.$define(coverage_)
+Do plan.$define(plan_)

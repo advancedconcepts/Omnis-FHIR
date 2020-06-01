@@ -1,0 +1,8 @@
+Do inherited
+Calculate code as pValue.$code()
+Calculate display as pValue.$display()
+Do designation.$clear()
+Calculate list as pValue.$designation()
+Do designation.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

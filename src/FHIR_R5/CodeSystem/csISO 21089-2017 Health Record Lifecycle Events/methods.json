@@ -1,0 +1,325 @@
+[
+	{
+		"name": "$access",
+		"ident": 0,
+		"order": 1,
+		"desc": "Occurs when an agent causes the system to tag or otherwise indicate special access management and suspension of record entry deletion/destruction, if deemed relevant to a lawsuit or which are reasonably anticipated to be relevant or to fulfill organizational policy under the legal doctrine of “duty to preserve”.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$hold",
+		"ident": 1,
+		"order": 2,
+		"desc": "Occurs when an agent makes any change to record entry content currently residing in storage considered permanent (persistent).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$amend",
+		"ident": 2,
+		"order": 3,
+		"desc": "Occurs when an agent causes the system to create and move archive artifacts containing record entry content, typically to long-term offline storage.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$archive",
+		"ident": 3,
+		"order": 4,
+		"desc": "Occurs when an agent causes the system to capture the agent’s digital signature (or equivalent indication) during formal validation of record entry content.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$attest",
+		"ident": 4,
+		"order": 5,
+		"desc": "Occurs when an agent causes the system to decode record entry content from a cipher.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$decrypt",
+		"ident": 5,
+		"order": 6,
+		"desc": "Occurs when an agent causes the system to scrub record entry content to reduce the association between a set of identifying data and the data subject in a way that might or might not be reversible.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$deidentify",
+		"ident": 6,
+		"order": 7,
+		"desc": "Occurs when an agent causes the system to tag record entry(ies) as obsolete, erroneous or untrustworthy, to warn against its future use.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$deprecate",
+		"ident": 7,
+		"order": 8,
+		"desc": "Occurs when an agent causes the system to permanently erase record entry content from the system.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$destroy",
+		"ident": 8,
+		"order": 9,
+		"desc": "Occurs when an agent causes the system to release, transfer, provision access to, or otherwise divulge record entry content.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$disclose",
+		"ident": 9,
+		"order": 10,
+		"desc": "Occurs when an agent causes the system to encode record entry content in a cipher.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$encrypt",
+		"ident": 10,
+		"order": 11,
+		"desc": "Occurs when an agent causes the system to selectively pull out a subset of record entry content, based on explicit criteria.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$extract",
+		"ident": 11,
+		"order": 12,
+		"desc": "Occurs when an agent causes the system to connect related record entries.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$link",
+		"ident": 12,
+		"order": 13,
+		"desc": "Occurs when an agent causes the system to combine or join content from two or more record entries, resulting in a single logical record entry.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$merge",
+		"ident": 13,
+		"order": 14,
+		"desc": "Occurs when an agent causes the system to: a) initiate capture of potential record content, and b) incorporate that content into the storage considered a permanent part of the health record.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$originate",
+		"ident": 14,
+		"order": 15,
+		"desc": "Occurs when an agent causes the system to remove record entry content to reduce the association between a set of identifying data and the data subject in a way that may be reversible.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$pseudonymize",
+		"ident": 15,
+		"order": 16,
+		"desc": "Occurs when an agent causes the system to recreate or restore full status to record entries previously deleted or deprecated.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$reactivate",
+		"ident": 16,
+		"order": 17,
+		"desc": "Occurs when an agent causes the system to a) initiate capture of data content from elsewhere, and b) incorporate that content into the storage considered a permanent part of the health record.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$receive",
+		"ident": 17,
+		"order": 18,
+		"desc": "Occurs when an agent causes the system to restore information to data that allows identification of information source and/or information subject.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$reidentify",
+		"ident": 18,
+		"order": 19,
+		"desc": "Occurs when an agent causes the system to remove a tag or other cues for special access management had required to fulfill organizational policy under the legal doctrine of “duty to preserve”.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unhold",
+		"ident": 19,
+		"order": 20,
+		"desc": "Occurs when an agent causes the system to produce and deliver record entry content in a particular form and manner.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$report",
+		"ident": 20,
+		"order": 21,
+		"desc": "Occurs when an agent causes the system to recreate record entries and their content from a previous created archive artefact.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$restore",
+		"ident": 21,
+		"order": 22,
+		"desc": "Occurs when an agent causes the system to change the form, language or code system used to represent record entry content.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$transform",
+		"ident": 22,
+		"order": 23,
+		"desc": "Occurs when an agent causes the system to send record entry content from one (EHR/PHR/other) system to another.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$transmit",
+		"ident": 23,
+		"order": 24,
+		"desc": "Occurs when an agent causes the system to disconnect two or more record entries previously connected, rendering them separate (disconnected) again.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unlink",
+		"ident": 24,
+		"order": 25,
+		"desc": "Occurs when an agent causes the system to reverse a previous record entry merge operation, rendering them separate again.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$unmerge",
+		"ident": 25,
+		"order": 26,
+		"desc": "Occurs when an agent causes the system to confirm compliance of data or data objects with regulations, requirements, specifications, or other imposed conditions based on organizational policy.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$verify",
+		"ident": 26,
+		"order": 27,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

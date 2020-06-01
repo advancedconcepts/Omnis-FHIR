@@ -1,0 +1,4 @@
+If sort.$validref()=kFalse
+	Calculate sort as $clib.$classes.oElement.$newref()
+End If
+Quit method sort

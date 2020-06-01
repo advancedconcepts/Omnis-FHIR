@@ -1,0 +1,4 @@
+If participantType.$validref()=kFalse
+	Calculate participantType as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method participantType

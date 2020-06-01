@@ -1,0 +1,16 @@
+Do inherited
+Calculate identifier as pValue.$identifier()
+Calculate type as pValue.$type()
+Calculate timestamp as pValue.$timestamp()
+Calculate total as pValue.$total()
+Do link.$clear()
+Calculate list as pValue.$link()
+Do link.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do entry.$clear()
+Calculate list as pValue.$entry()
+Do entry.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate signature as pValue.$signature()

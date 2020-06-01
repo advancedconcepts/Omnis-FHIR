@@ -1,0 +1,17 @@
+Do inherited
+Calculate text as pValue.$text()
+Do contained.$clear()
+Calculate list as pValue.$contained()
+Do contained.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do extension.$clear()
+Calculate list as pValue.$extension()
+Do extension.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do modifierExtension.$clear()
+Calculate list as pValue.$modifierExtension()
+Do modifierExtension.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

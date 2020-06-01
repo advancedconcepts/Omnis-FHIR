@@ -1,0 +1,10 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do basedOn.$define(basedOn_)
+Do performer.$define(performer_)
+Do specimen.$define(specimen_)
+Do result.$define(result_)
+Do imagingStudy.$define(imagingStudy_)
+Do image.$define(image_)
+Do codedDiagnosis.$define(codedDiagnosis_)
+Do presentedForm.$define(presentedForm_)

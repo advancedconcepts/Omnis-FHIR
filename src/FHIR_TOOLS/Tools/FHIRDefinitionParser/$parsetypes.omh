@@ -1,0 +1,97 @@
+Calculate iFilesPath as pPath
+
+Do iURL2Types.$define(iURL,iType,iOmnisType)
+
+Working message FHIR Parser (Cancel button) {Parsing Types...}
+
+Do files.$define(filename)
+
+Do files.$add('profiles-types.json')
+Do files.$add('profiles-resources.json')
+Do files.$add('profiles-others.json')
+
+;  #Calculate iFHIRVersion as '4.1.0'
+;  #Calculate iContext as $libs.fhir.$classes.FHIRContext.$newref(iFHIRVersion)
+
+Do files.$add('valuesets.json')
+
+For files.$line from 1 to files.$linecount step 1
+	
+	Working message FHIR Parser (Cancel button) {Parsing Types...//[files.filename]}
+	
+	If file.$openfile(con(iFilesPath,pathsep(),files.filename))
+		Calculate iCurrentFile as files.filename
+		Do file.$readcharacter(kUniTypeUTF8,filecontent)
+		Do file.$closefile()
+	Else
+		OK message Error {Essential File [files.filename] missing in [iFilesPath] }
+		Quit method
+	End If
+	
+	Do json.$setjson('',filecontent)
+	
+	Do json.$getarray('entry') Returns iTypes
+	
+	If files.filename='profiles-types.json'
+		Calculate iFHIRVersion as iTypes.1.___1.resource.fhirVersion
+		
+		Calculate iContext as $libs.fhir.$classes.FHIRContext.$newref(iFHIRVersion)
+		If iContext.$validref()=kFalse
+			OK message Error {FHIR Library not loaded (fhir.lbs) }
+			Quit method
+		End If
+		
+		If iContext.$isvalid()=kFalse
+			OK message Error {Unsupported FHIRVersion or Library not present ([iFHIRVersion]) }
+			Quit method
+		Else
+			Set reference iFHIRVersionLib to iContext.$fhirlib()
+			If not(isnull(iFHIRVersionLib.$classes.FHIRInfo))
+				Do iFHIRVersionLib.$classes.$remove(iFHIRVersionLib.$classes.$findname('Info'))
+			End If
+			
+			Do iFHIRVersionLib.$classes.$add(kCode,'Info',0) Returns info
+			Calculate info.$external as kTrue
+			Do info.$methods.$add('$fhirVersion') Returns method
+			Do method.$methodlines.$add(con('Quit method "',iFHIRVersion,""))
+		End If
+	Else If files.filename='valuesets.json'
+	End If
+	
+	If iFHIRVersionLib
+	Else
+		OK message Error {Corresponding FHIR Library not open ([iFHIRVersion]) }
+		Quit method
+	End If
+	;  # add url and types, no omnis type yet
+	
+	Calculate iOmnisType as ''
+	Calculate iTypes.$line as 1
+	For i from 1 to iTypes.$colcount step 1
+		Calculate entry as iTypes.C[i]
+		Calculate resource as entry.resource
+		If (resource.resourceType='StructureDefinition')
+			Calculate iType as resource.id
+			Calculate iURL as resource.url
+			Do iURL2Types.$add()
+		End If
+	End For
+	
+	Calculate iTypes.$line as 1
+	For i from 1 to iTypes.$colcount step 1
+		Calculate entry as iTypes.C[i]
+		Calculate resource as entry.resource
+		If (resource.resourceType='StructureDefinition')
+			Do method parseOneType (resource)
+		End If
+		If resource.resourceType='CodeSystem'
+			Do method parseCodeSystem (resource)
+		End If
+		Redraw working message
+		If canceled
+			Break to end of loop
+		End If
+	End For
+End For
+
+Close working message

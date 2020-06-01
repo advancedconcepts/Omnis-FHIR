@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("type","::type",0,"1",38,"CodeableConcept")
+Do pElements.$add("representation","representation",0,"1",21,"string")
+Do pElements.$add("attachment","attachment",0,"1",38,"Attachment")

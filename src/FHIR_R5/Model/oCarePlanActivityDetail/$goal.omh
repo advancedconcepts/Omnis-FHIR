@@ -1,0 +1,4 @@
+If goal.$validref()=kFalse
+	Calculate goal as $clib.$classes.oReference.$newref()
+End If
+Quit method goal

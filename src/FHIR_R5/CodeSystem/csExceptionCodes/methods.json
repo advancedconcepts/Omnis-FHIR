@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$student",
+		"ident": 0,
+		"order": 1,
+		"desc": "Disabled",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$disabled",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

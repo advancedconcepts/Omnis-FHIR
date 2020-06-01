@@ -1,0 +1,16 @@
+Do inherited
+Calculate required as pValue.$required()
+Calculate validated as pValue.$validated()
+Calculate description as pValue.$description()
+Do origin.$clear()
+Calculate list as pValue.$origin()
+Do origin.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate destination as pValue.$destination()
+Do link.$clear()
+Calculate list as pValue.$link()
+Do link.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate capabilities as pValue.$capabilities()

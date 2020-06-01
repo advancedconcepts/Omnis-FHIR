@@ -1,0 +1,4 @@
+If alternative.$validref()=kFalse
+	Calculate alternative as $clib.$classes.oExampleScenarioProcessStepAlternative.$newref()
+End If
+Quit method alternative

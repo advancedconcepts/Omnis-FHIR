@@ -1,0 +1,4 @@
+Do inherited
+Calculate species as pValue.$species()
+Calculate breed as pValue.$breed()
+Calculate genderStatus as pValue.$genderStatus()

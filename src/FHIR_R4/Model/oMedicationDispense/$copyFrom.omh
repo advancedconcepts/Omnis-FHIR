@@ -1,0 +1,63 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do partOf.$clear()
+Calculate list as pValue.$partOf()
+Do partOf.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate status as pValue.$status()
+Calculate category as pValue.$category()
+Calculate subject as pValue.$subject()
+Calculate context as pValue.$context()
+Do supportingInformation.$clear()
+Calculate list as pValue.$supportingInformation()
+Do supportingInformation.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do performer.$clear()
+Calculate list as pValue.$performer()
+Do performer.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate location as pValue.$location()
+Do authorizingPrescription.$clear()
+Calculate list as pValue.$authorizingPrescription()
+Do authorizingPrescription.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate type as pValue.$type()
+Calculate quantity as pValue.$quantity()
+Calculate daysSupply as pValue.$daysSupply()
+Calculate whenPrepared as pValue.$whenPrepared()
+Calculate whenHandedOver as pValue.$whenHandedOver()
+Calculate destination as pValue.$destination()
+Do receiver.$clear()
+Calculate list as pValue.$receiver()
+Do receiver.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do note.$clear()
+Calculate list as pValue.$note()
+Do note.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do dosageInstruction.$clear()
+Calculate list as pValue.$dosageInstruction()
+Do dosageInstruction.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate substitution as pValue.$substitution()
+Do detectedIssue.$clear()
+Calculate list as pValue.$detectedIssue()
+Do detectedIssue.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do eventHistory.$clear()
+Calculate list as pValue.$eventHistory()
+Do eventHistory.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

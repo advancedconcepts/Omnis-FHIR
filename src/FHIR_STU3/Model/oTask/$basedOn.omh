@@ -1,0 +1,4 @@
+If basedOn.$validref()=kFalse
+	Calculate basedOn as $clib.$classes.oReference.$newref()
+End If
+Quit method basedOn

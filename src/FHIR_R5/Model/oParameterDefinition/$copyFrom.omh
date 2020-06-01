@@ -1,0 +1,8 @@
+Do inherited
+Calculate name as pValue.$name()
+Calculate use as pValue.$use()
+Calculate min as pValue.$min()
+Calculate max as pValue.$max()
+Calculate documentation as pValue.$documentation()
+Calculate type as pValue.$type()
+Calculate profile as pValue.$profile()

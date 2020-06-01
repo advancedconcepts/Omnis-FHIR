@@ -1,0 +1,295 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "contact",
+			"order": 10,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "contact_",
+			"order": 11,
+			"type": "kObjectref",
+			"subtype": "oContactDetail",
+			"sublen": 0,
+			"desc": "Contact details to assist a user in finding and communicating with the publisher."
+		},
+		{
+			"name": "copyright",
+			"order": 18,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A copyright statement relating to the test script and/or its contents. Copyright statements are generally legal restrictions on the use and publishing of the test script."
+		},
+		{
+			"name": "date",
+			"order": 8,
+			"type": "kDate",
+			"subtype": "kDatetime",
+			"sublen": 0,
+			"desc": "The date  (and optionally time) when the test script was published. The date must change when the business version changes and it must change if the status code changes. In addition, it should change when the substantive content of the test script changes"
+		},
+		{
+			"name": "description",
+			"order": 12,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A free text natural language description of the test script from a consumer's perspective."
+		},
+		{
+			"name": "destination",
+			"order": 21,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "destination_",
+			"order": 22,
+			"type": "kObjectref",
+			"subtype": "oTestScriptDestination",
+			"sublen": 0,
+			"desc": "An abstract server used in operations within this test script in the destination element."
+		},
+		{
+			"name": "experimental",
+			"order": 7,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "A Boolean value to indicate that this test script is authored for testing purposes (or education/evaluation/marketing) and is not intended to be used for genuine usage."
+		},
+		{
+			"name": "fixture",
+			"order": 24,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "fixture_",
+			"order": 25,
+			"type": "kObjectref",
+			"subtype": "oTestScriptFixture",
+			"sublen": 0,
+			"desc": "Fixture in the test script - by reference (uri). All fixtures are required for the test script to execute."
+		},
+		{
+			"name": "identifier",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "A formal identifier that is used to identify this test script when it is represented in other formats, or referenced in a specification, model, design or an instance."
+		},
+		{
+			"name": "jurisdiction",
+			"order": 15,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "jurisdiction_",
+			"order": 16,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "A legal or geographic region in which the test script is intended to be used."
+		},
+		{
+			"name": "metadata",
+			"order": 23,
+			"type": "kObjectref",
+			"subtype": "oTestScriptMetadata",
+			"sublen": 0,
+			"desc": "The required capability must exist and are assumed to function correctly on the FHIR server being tested."
+		},
+		{
+			"name": "name",
+			"order": 4,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A natural language name identifying the test script. This name should be usable as an identifier for the module by machine processing applications such as code generation."
+		},
+		{
+			"name": "origin",
+			"order": 19,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "origin_",
+			"order": 20,
+			"type": "kObjectref",
+			"subtype": "oTestScriptOrigin",
+			"sublen": 0,
+			"desc": "An abstract server used in operations within this test script in the origin element."
+		},
+		{
+			"name": "profile",
+			"order": 26,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "profile_",
+			"order": 27,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Reference to the profile to be used for validation."
+		},
+		{
+			"name": "publisher",
+			"order": 9,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The name of the organization or individual that published the test script."
+		},
+		{
+			"name": "purpose",
+			"order": 17,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Explanation of why this test script is needed and why it has been designed as it has."
+		},
+		{
+			"name": "setup",
+			"order": 30,
+			"type": "kObjectref",
+			"subtype": "oTestScriptSetup",
+			"sublen": 0,
+			"desc": "A series of required setup operations before tests are executed."
+		},
+		{
+			"name": "status",
+			"order": 6,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The status of this test script. Enables tracking the life-cycle of the content."
+		},
+		{
+			"name": "teardown",
+			"order": 33,
+			"type": "kObjectref",
+			"subtype": "oTestScriptTeardown",
+			"sublen": 0,
+			"desc": "A series of operations required to clean up after all the tests are executed (successfully or otherwise)."
+		},
+		{
+			"name": "test",
+			"order": 31,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "test_",
+			"order": 32,
+			"type": "kObjectref",
+			"subtype": "oTestScriptTest",
+			"sublen": 0,
+			"desc": "A test in this script."
+		},
+		{
+			"name": "title",
+			"order": 5,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "A short, descriptive, user-friendly title for the test script."
+		},
+		{
+			"name": "url",
+			"order": 1,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "An absolute URI that is used to identify this test script when it is referenced in a specification, model, design or an instance; also called its canonical identifier. This SHOULD be globally unique and SHOULD be a literal address at which at which an aut"
+		},
+		{
+			"name": "useContext",
+			"order": 13,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "useContext_",
+			"order": 14,
+			"type": "kObjectref",
+			"subtype": "oUsageContext",
+			"sublen": 0,
+			"desc": "The content was developed with a focus and intent of supporting the contexts that are listed. These contexts may be general categories (gender, age, ...) or may be references to specific programs (insurance plans, studies, ...) and may be used to assist w"
+		},
+		{
+			"name": "variable",
+			"order": 28,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "variable_",
+			"order": 29,
+			"type": "kObjectref",
+			"subtype": "oTestScriptVariable",
+			"sublen": 0,
+			"desc": "Variable is set based either on element value in response body or on header field value in the response headers."
+		},
+		{
+			"name": "version",
+			"order": 3,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "The identifier that is used to identify this version of the test script when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the test script author and is not expected to be globally unique. For exampl"
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:45:06",
+		"desc": "A structured set of tests against a FHIR server or client implementation to determine compliance against the FHIR specification.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:29",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

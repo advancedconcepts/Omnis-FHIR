@@ -1,0 +1,4 @@
+If additionalClassification.$validref()=kFalse
+	Calculate additionalClassification as $clib.$classes.oCodeableConcept.$newref()
+End If
+Quit method additionalClassification

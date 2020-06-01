@@ -1,0 +1,12 @@
+Do inherited
+Calculate type as pValue.$type()
+Do network.$clear()
+Calculate list as pValue.$network()
+Do network.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do benefit.$clear()
+Calculate list as pValue.$benefit()
+Do benefit.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

@@ -1,0 +1,162 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 3,
+	"superclass": "fhir.FHIRBaseElement",
+	"designtaskname": "",
+	"cvardefs": [
+		{
+			"name": "cElements",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "cElementsInited",
+			"order": 2,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0
+		}
+	],
+	"ivardefs": [
+		{
+			"name": "batchIdentifier",
+			"order": 13,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "batchIdentifier_",
+			"order": 14,
+			"type": "kObjectref",
+			"subtype": "oPackagedProductDefinitionBatchIdentifier",
+			"sublen": 0,
+			"desc": "Batch numbering."
+		},
+		{
+			"name": "copackagedIndicator",
+			"order": 9,
+			"type": "kBoolean",
+			"subtype": 0,
+			"sublen": 0,
+			"desc": "States whether a drug product is supplied with another item such as a diluent or adjuvant."
+		},
+		{
+			"name": "description",
+			"order": 5,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"desc": "Textual description."
+		},
+		{
+			"name": "identifier",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "identifier_",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oIdentifier",
+			"sublen": 0,
+			"desc": "Unique identifier."
+		},
+		{
+			"name": "legalStatusOfSupply",
+			"order": 6,
+			"type": "kObjectref",
+			"subtype": "oCodeableConcept",
+			"sublen": 0,
+			"desc": "The legal status of supply of the medicinal product as classified by the regulator."
+		},
+		{
+			"name": "manufacturer",
+			"order": 11,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "manufacturer_",
+			"order": 12,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Manufacturer of this Package Item."
+		},
+		{
+			"name": "marketingAuthorization",
+			"order": 10,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "Manufacturer of this Package Item."
+		},
+		{
+			"name": "marketingStatus",
+			"order": 7,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "marketingStatus_",
+			"order": 8,
+			"type": "kObjectref",
+			"subtype": "oMarketingStatus",
+			"sublen": 0,
+			"desc": "Marketing information."
+		},
+		{
+			"name": "package",
+			"order": 15,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "package_",
+			"order": 16,
+			"type": "kObjectref",
+			"subtype": "oPackagedProductDefinitionPackage",
+			"sublen": 0,
+			"desc": "A packaging item, as a contained for medicine, possibly with other packaging items within."
+		},
+		{
+			"name": "subject",
+			"order": 3,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "subject_",
+			"order": 4,
+			"type": "kObjectref",
+			"subtype": "oReference",
+			"sublen": 0,
+			"desc": "The product that this is a pack for."
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2020-06-01 17:44:57",
+		"desc": "A medicinal product in a container or package.",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2020-06-01 17:57:27",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

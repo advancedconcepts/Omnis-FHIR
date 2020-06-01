@@ -1,0 +1,4 @@
+Do inherited
+Calculate authority as pValue.$authority()
+Calculate status as pValue.$status()
+Calculate date as pValue.$date()

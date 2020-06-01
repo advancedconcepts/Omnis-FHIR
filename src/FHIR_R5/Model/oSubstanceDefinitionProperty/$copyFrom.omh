@@ -1,0 +1,10 @@
+Do inherited
+Calculate category as pValue.$category()
+Calculate code as pValue.$code()
+Calculate parameters as pValue.$parameters()
+Calculate referenceRange as pValue.$referenceRange()
+Do source.$clear()
+Calculate list as pValue.$source()
+Do source.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

@@ -1,0 +1,26 @@
+Do inherited
+Calculate requestId as pValue.$requestId()
+Calculate identifier as pValue.$identifier()
+Calculate module as pValue.$module()
+Calculate status as pValue.$status()
+Calculate subject as pValue.$subject()
+Calculate context as pValue.$context()
+Calculate occurrenceDateTime as pValue.$occurrenceDateTime()
+Calculate performer as pValue.$performer()
+Do note.$clear()
+Calculate list as pValue.$note()
+Do note.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do evaluationMessage.$clear()
+Calculate list as pValue.$evaluationMessage()
+Do evaluationMessage.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate outputParameters as pValue.$outputParameters()
+Calculate result as pValue.$result()
+Do dataRequirement.$clear()
+Calculate list as pValue.$dataRequirement()
+Do dataRequirement.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

@@ -1,0 +1,11 @@
+Do inherited
+Do pElements.$add("identifier","identifier",1,"1",38,"Identifier")
+Do pElements.$add("type","::type",1,"1",38,"CodeableConcept")
+Do pElements.$add("unit","unit",0,"1",38,"CodeableConcept")
+Do pElements.$add("source","source",0,"1",38,"Reference")
+Do pElements.$add("parent","parent",0,"1",38,"Reference")
+Do pElements.$add("operationalStatus","operationalStatus",0,"1",21,"code")
+Do pElements.$add("color","color",0,"1",21,"code")
+Do pElements.$add("category","category",1,"1",21,"code")
+Do pElements.$add("measurementPeriod","measurementPeriod",0,"1",38,"Timing")
+Do pElements.$add("calibration","calibration",0,"-1",38,"")

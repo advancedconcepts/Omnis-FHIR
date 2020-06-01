@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$FHIR-Server",
+		"ident": 0,
+		"order": 1,
+		"desc": "A FHIR server acting as a Structured Data Capture Form Manager.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$FHIR-SDC-FormManager",
+		"ident": 1,
+		"order": 2,
+		"desc": "A FHIR server acting as a Structured Data Capture Form Processor.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$FHIR-SDC-FormProcessor",
+		"ident": 2,
+		"order": 3,
+		"desc": "A FHIR server acting as a Structured Data Capture Form Receiver.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$FHIR-SDC-FormReceiver",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

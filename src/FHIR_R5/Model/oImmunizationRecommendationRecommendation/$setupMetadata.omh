@@ -1,0 +1,11 @@
+Do inherited
+Do pElements.$add("vaccineCode","vaccineCode",0,"-1",38,"CodeableConcept")
+Do pElements.$add("targetDisease","targetDisease",0,"-1",38,"CodeableConcept")
+Do pElements.$add("contraindicatedVaccineCode","contraindicatedVaccineCode",0,"-1",38,"CodeableConcept")
+Do pElements.$add("forecastStatus","forecastStatus",1,"1",38,"CodeableConcept")
+Do pElements.$add("forecastReason","forecastReason",0,"-1",38,"CodeableConcept")
+Do pElements.$add("dateCriterion","dateCriterion",0,"-1",38,"")
+Do pElements.$add("description","description",0,"1",21,"string")
+Do pElements.$add("series","series",0,"1",21,"string")
+Do pElements.$add("supportingImmunization","supportingImmunization",0,"-1",38,"Reference")
+Do pElements.$add("supportingPatientInformation","supportingPatientInformation",0,"-1",38,"Reference")

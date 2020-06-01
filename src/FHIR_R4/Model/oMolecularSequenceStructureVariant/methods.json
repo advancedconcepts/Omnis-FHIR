@@ -1,0 +1,221 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$variantType",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: Information about chromosome structure variation DNA change type.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$variantType.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Information about chromosome structure variation DNA change type."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$exact",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: Used to indicate if the outer and inner start-end values have the same meaning.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$exact.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1,
+				"desc": "Used to indicate if the outer and inner start-end values have the same meaning."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$length",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: Length of the variant chromosome.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$length.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Length of the variant chromosome."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$outer",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: Structural variant outer.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$outer.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMolecularSequenceStructureVariantOuter",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Structural variant outer."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$inner",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: Structural variant inner.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$inner.$assign",
+		"ident": 13,
+		"order": 14,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oMolecularSequenceStructureVariantInner",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Structural variant inner."
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

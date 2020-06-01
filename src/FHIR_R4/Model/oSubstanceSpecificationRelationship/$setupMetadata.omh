@@ -1,0 +1,6 @@
+Do inherited
+Do pElements.$add("relationship","relationship",0,"1",38,"CodeableConcept")
+Do pElements.$add("isDefining","isDefining",0,"1",22,"boolean")
+Do pElements.$add("amountRatioLowLimit","amountRatioLowLimit",0,"1",38,"Ratio")
+Do pElements.$add("amountType","amountType",0,"1",38,"CodeableConcept")
+Do pElements.$add("source","source",0,"-1",38,"Reference")

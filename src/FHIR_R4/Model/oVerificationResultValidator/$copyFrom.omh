@@ -1,0 +1,4 @@
+Do inherited
+Calculate organization as pValue.$organization()
+Calculate identityCertificate as pValue.$identityCertificate()
+Calculate attestationSignature as pValue.$attestationSignature()

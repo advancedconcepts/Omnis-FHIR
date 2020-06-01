@@ -1,0 +1,25 @@
+[
+	{
+		"name": "$in",
+		"ident": 0,
+		"order": 1,
+		"desc": "Services rendered by a provider who is not in the Network",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$out",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

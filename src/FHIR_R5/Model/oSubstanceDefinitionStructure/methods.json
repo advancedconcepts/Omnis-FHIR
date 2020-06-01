@@ -1,0 +1,342 @@
+[
+	{
+		"name": "$metadata",
+		"ident": 0,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setupMetadata",
+		"ident": 1,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pElements",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$construct",
+		"ident": 2,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$copyFrom",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "itemRef",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "list",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$stereochemistry",
+		"ident": 4,
+		"order": 5,
+		"desc": "Returns: Stereochemistry type.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$stereochemistry.$assign",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Stereochemistry type."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$opticalActivity",
+		"ident": 6,
+		"order": 7,
+		"desc": "Returns: Optical activity type.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$opticalActivity.$assign",
+		"ident": 7,
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCodeableConcept",
+				"sublen": 0,
+				"param": 1,
+				"desc": "Optical activity type."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$molecularFormula",
+		"ident": 8,
+		"order": 9,
+		"desc": "Returns: Molecular formula of this substance, typically using the Hill system.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$molecularFormula.$assign",
+		"ident": 9,
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Molecular formula of this substance, typically using the Hill system."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$molecularFormulaByMoiety",
+		"ident": 10,
+		"order": 11,
+		"desc": "Returns: Specified per moiety according to the Hill system, i.e. first C, then H, then alphabetical, each moiety separated by a dot.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$molecularFormulaByMoiety.$assign",
+		"ident": 11,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1,
+				"desc": "Specified per moiety according to the Hill system, i.e. first C, then H, then alphabetical, each moiety separated by a dot."
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$isotope",
+		"ident": 12,
+		"order": 13,
+		"desc": "Returns: Applicable for single substances that contain a radionuclide or a non-natural isotopic ratio.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addisotope",
+		"ident": 13,
+		"order": 14,
+		"desc": "Applicable for single substances that contain a radionuclide or a non-natural isotopic ratio.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oSubstanceDefinitionStructureIsotope",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oSubstanceDefinitionStructureIsotope",
+				"sublen": 0,
+				"desc": "Applicable for single substances that contain a radionuclide or a non-natural isotopic ratio."
+			}
+		]
+	},
+	{
+		"name": "$sourceCoding",
+		"ident": 14,
+		"order": 15,
+		"desc": "Returns: Describes the source of information.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addsourceCoding",
+		"ident": 15,
+		"order": 16,
+		"desc": "Describes the source of information.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oCoding",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oCoding",
+				"sublen": 0,
+				"desc": "Describes the source of information."
+			}
+		]
+	},
+	{
+		"name": "$sourceDocument",
+		"ident": 16,
+		"order": 17,
+		"desc": "Returns: Supporting literature about the source of information.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addsourceDocument",
+		"ident": 17,
+		"order": 18,
+		"desc": "Supporting literature about the source of information.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oReference",
+				"sublen": 0,
+				"desc": "Supporting literature about the source of information."
+			}
+		]
+	},
+	{
+		"name": "$representation",
+		"ident": 18,
+		"order": 19,
+		"desc": "Returns: Molecular structural representation.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$addrepresentation",
+		"ident": 19,
+		"order": 20,
+		"desc": "Molecular structural representation.",
+		"pvardefs": [
+			{
+				"name": "pValue",
+				"order": 1,
+				"type": "kObjectref",
+				"subtype": "oSubstanceDefinitionStructureRepresentation",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "objRef",
+				"order": 2,
+				"type": "kObjectref",
+				"subtype": "oSubstanceDefinitionStructureRepresentation",
+				"sublen": 0,
+				"desc": "Molecular structural representation."
+			}
+		]
+	}
+]

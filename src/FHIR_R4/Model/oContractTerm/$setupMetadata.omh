@@ -1,0 +1,11 @@
+Do inherited
+Do pElements.$add("identifier","identifier",0,"1",38,"Identifier")
+Do pElements.$add("issued","issued",0,"1",23,"dateTime")
+Do pElements.$add("applies","applies",0,"1",38,"Period")
+Do pElements.$add("type","::type",0,"1",38,"CodeableConcept")
+Do pElements.$add("subType","subType",0,"1",38,"CodeableConcept")
+Do pElements.$add("text","text",0,"1",21,"string")
+Do pElements.$add("securityLabel","securityLabel",0,"-1",38,"")
+Do pElements.$add("offer","offer",1,"1",38,"")
+Do pElements.$add("asset","asset",0,"-1",38,"")
+Do pElements.$add("action","action",0,"-1",38,"")

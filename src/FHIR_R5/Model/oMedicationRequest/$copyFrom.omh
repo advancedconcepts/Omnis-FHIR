@@ -1,0 +1,85 @@
+Do inherited
+Do identifier.$clear()
+Calculate list as pValue.$identifier()
+Do identifier.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate status as pValue.$status()
+Calculate statusReason as pValue.$statusReason()
+Calculate intent as pValue.$intent()
+Do category.$clear()
+Calculate list as pValue.$category()
+Do category.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate priority as pValue.$priority()
+Calculate doNotPerform as pValue.$doNotPerform()
+Calculate reported as pValue.$reported()
+Calculate informationSource as pValue.$informationSource()
+Calculate subject as pValue.$subject()
+Calculate encounter as pValue.$encounter()
+Do supportingInformation.$clear()
+Calculate list as pValue.$supportingInformation()
+Do supportingInformation.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate authoredOn as pValue.$authoredOn()
+Calculate requester as pValue.$requester()
+Calculate performer as pValue.$performer()
+Calculate performerType as pValue.$performerType()
+Calculate recorder as pValue.$recorder()
+Do reasonCode.$clear()
+Calculate list as pValue.$reasonCode()
+Do reasonCode.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do reasonReference.$clear()
+Calculate list as pValue.$reasonReference()
+Do reasonReference.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do instantiatesCanonical.$clear()
+Calculate list as pValue.$instantiatesCanonical()
+Do instantiatesCanonical.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do instantiatesUri.$clear()
+Calculate list as pValue.$instantiatesUri()
+Do instantiatesUri.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do basedOn.$clear()
+Calculate list as pValue.$basedOn()
+Do basedOn.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate groupIdentifier as pValue.$groupIdentifier()
+Calculate courseOfTherapyType as pValue.$courseOfTherapyType()
+Do insurance.$clear()
+Calculate list as pValue.$insurance()
+Do insurance.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do note.$clear()
+Calculate list as pValue.$note()
+Do note.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do dosageInstruction.$clear()
+Calculate list as pValue.$dosageInstruction()
+Do dosageInstruction.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate dispenseRequest as pValue.$dispenseRequest()
+Calculate substitution as pValue.$substitution()
+Calculate priorPrescription as pValue.$priorPrescription()
+Do detectedIssue.$clear()
+Calculate list as pValue.$detectedIssue()
+Do detectedIssue.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do eventHistory.$clear()
+Calculate list as pValue.$eventHistory()
+Do eventHistory.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

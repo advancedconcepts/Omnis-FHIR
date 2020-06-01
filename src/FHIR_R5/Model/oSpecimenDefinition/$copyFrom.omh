@@ -1,0 +1,57 @@
+Do inherited
+Calculate url as pValue.$url()
+Calculate identifier as pValue.$identifier()
+Calculate version as pValue.$version()
+Calculate title as pValue.$title()
+Do derivedFromCanonical.$clear()
+Calculate list as pValue.$derivedFromCanonical()
+Do derivedFromCanonical.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do derivedFromUri.$clear()
+Calculate list as pValue.$derivedFromUri()
+Do derivedFromUri.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate status as pValue.$status()
+Calculate experimental as pValue.$experimental()
+Calculate date as pValue.$date()
+Calculate publisher as pValue.$publisher()
+Do contact.$clear()
+Calculate list as pValue.$contact()
+Do contact.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate description as pValue.$description()
+Do useContext.$clear()
+Calculate list as pValue.$useContext()
+Do useContext.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do jurisdiction.$clear()
+Calculate list as pValue.$jurisdiction()
+Do jurisdiction.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate purpose as pValue.$purpose()
+Calculate copyright as pValue.$copyright()
+Calculate approvalDate as pValue.$approvalDate()
+Calculate lastReviewDate as pValue.$lastReviewDate()
+Calculate effectivePeriod as pValue.$effectivePeriod()
+Calculate typeCollected as pValue.$typeCollected()
+Do patientPreparation.$clear()
+Calculate list as pValue.$patientPreparation()
+Do patientPreparation.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Calculate timeAspect as pValue.$timeAspect()
+Do collection.$clear()
+Calculate list as pValue.$collection()
+Do collection.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do typeTested.$clear()
+Calculate list as pValue.$typeTested()
+Do typeTested.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

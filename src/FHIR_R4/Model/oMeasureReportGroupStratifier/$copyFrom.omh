@@ -1,0 +1,11 @@
+Do inherited
+Do code.$clear()
+Calculate list as pValue.$code()
+Do code.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For
+Do stratum.$clear()
+Calculate list as pValue.$stratum()
+Do stratum.$add() Returns itemRef
+Do itemRef.$copyFrom(list.C1)
+End For

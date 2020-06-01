@@ -1,0 +1,109 @@
+[
+	{
+		"name": "$ActivityDefinition",
+		"ident": 0,
+		"order": 1,
+		"desc": "A set of codes drawn from one or more code systems.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$CodeSystem",
+		"ident": 1,
+		"order": 2,
+		"desc": "A map from one set of concepts to one or more other concepts.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ConceptMap",
+		"ident": 2,
+		"order": 3,
+		"desc": "Represents a library of quality improvement components.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Library",
+		"ident": 3,
+		"order": 4,
+		"desc": "A quality measure definition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$Measure",
+		"ident": 4,
+		"order": 5,
+		"desc": "The definition of a plan for a series of actions, independent of any specific patient or context.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$PlanDefinition",
+		"ident": 5,
+		"order": 6,
+		"desc": "Structural Definition.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$StructureDefinition",
+		"ident": 6,
+		"order": 7,
+		"desc": "A Map of relationships between 2 structures that can be used to transform data.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$StructureMap",
+		"ident": 7,
+		"order": 8,
+		"desc": "A set of codes drawn from one or more code systems.",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ValueSet",
+		"ident": 8,
+		"order": 9,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

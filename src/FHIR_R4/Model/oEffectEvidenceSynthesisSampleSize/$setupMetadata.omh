@@ -1,0 +1,4 @@
+Do inherited
+Do pElements.$add("description","description",0,"1",21,"string")
+Do pElements.$add("numberOfStudies","numberOfStudies",0,"1",26,"integer")
+Do pElements.$add("numberOfParticipants","numberOfParticipants",0,"1",26,"integer")

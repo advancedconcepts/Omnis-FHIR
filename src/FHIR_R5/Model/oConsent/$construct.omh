@@ -1,0 +1,9 @@
+Do inherited
+Do identifier.$define(identifier_)
+Do category.$define(category_)
+Do performer.$define(performer_)
+Do organization.$define(organization_)
+Do sourceAttachment.$define(sourceAttachment_)
+Do sourceReference.$define(sourceReference_)
+Do policy.$define(policy_)
+Do verification.$define(verification_)

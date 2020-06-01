@@ -1,0 +1,8 @@
+Do inherited
+Do pElements.$add("target","target",0,"1",38,"Identifier")
+Do pElements.$add("type","::type",0,"1",38,"CodeableConcept")
+Do pElements.$add("interaction","interaction",0,"1",38,"CodeableConcept")
+Do pElements.$add("organism","organism",0,"1",38,"CodeableConcept")
+Do pElements.$add("organismType","organismType",0,"1",38,"CodeableConcept")
+Do pElements.$add("amountType","amountType",0,"1",38,"CodeableConcept")
+Do pElements.$add("source","source",0,"-1",38,"Reference")

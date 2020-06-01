@@ -1,0 +1,49 @@
+[
+	{
+		"name": "$manual",
+		"ident": 0,
+		"order": 1,
+		"desc": "The information is submitted/retrieved via a portal",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$portal",
+		"ident": 1,
+		"order": 2,
+		"desc": "The information is retrieved (i.e. pulled) from a source (e.g. over an API)",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$pull",
+		"ident": 2,
+		"order": 3,
+		"desc": "The information is sent (i.e. pushed) from a source (e.g. over an API, asynchronously, secure messaging)",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$push",
+		"ident": 3,
+		"order": 4,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]

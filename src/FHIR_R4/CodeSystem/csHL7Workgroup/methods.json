@@ -1,0 +1,289 @@
+[
+	{
+		"name": "$cbcc",
+		"ident": 0,
+		"order": 1,
+		"desc": "Clinical Decision Support (http://www.hl7.org/Special/committees/dss/index.cfm).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$cds",
+		"ident": 1,
+		"order": 2,
+		"desc": "Clinical Quality Information (http://www.hl7.org/Special/committees/cqi/index.cfm).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$cqi",
+		"ident": 2,
+		"order": 3,
+		"desc": "Clinical Genomics (http://www.hl7.org/Special/committees/clingenomics/index.cfm).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$cg",
+		"ident": 3,
+		"order": 4,
+		"desc": "Health Care Devices (http://www.hl7.org/Special/committees/healthcaredevices/index.cfm).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$dev",
+		"ident": 4,
+		"order": 5,
+		"desc": "Electronic Health Records (http://www.hl7.org/special/committees/ehr/index.cfm).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ehr",
+		"ident": 5,
+		"order": 6,
+		"desc": "FHIR Infrastructure (http://www.hl7.org/Special/committees/fiwg/index.cfm).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$fhir",
+		"ident": 6,
+		"order": 7,
+		"desc": "Financial Management (http://www.hl7.org/Special/committees/fm/index.cfm).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$fm",
+		"ident": 7,
+		"order": 8,
+		"desc": "Health Standards Integration (http://www.hl7.org/Special/committees/hsi/index.cfm).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$hsi",
+		"ident": 8,
+		"order": 9,
+		"desc": "Imaging Integration (http://www.hl7.org/Special/committees/imagemgt/index.cfm).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ii",
+		"ident": 9,
+		"order": 10,
+		"desc": "Infrastructure And Messaging (http://www.hl7.org/special/committees/inm/index.cfm).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$inm",
+		"ident": 10,
+		"order": 11,
+		"desc": "Implementable Technology Specifications (http://www.hl7.org/special/committees/xml/index.cfm).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$its",
+		"ident": 11,
+		"order": 12,
+		"desc": "Modeling and Methodology (http://www.hl7.org/Special/committees/mnm/index.cfm).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$mnm",
+		"ident": 12,
+		"order": 13,
+		"desc": "Orders and Observations (http://www.hl7.org/Special/committees/orders/index.cfm).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$oo",
+		"ident": 13,
+		"order": 14,
+		"desc": "Patient Administration (http://www.hl7.org/Special/committees/pafm/index.cfm).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$pa",
+		"ident": 14,
+		"order": 15,
+		"desc": "Patient Care (http://www.hl7.org/Special/committees/patientcare/index.cfm).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$pc",
+		"ident": 15,
+		"order": 16,
+		"desc": "Public Health and Emergency Response (http://www.hl7.org/Special/committees/pher/index.cfm).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$pher",
+		"ident": 16,
+		"order": 17,
+		"desc": "Pharmacy (http://www.hl7.org/Special/committees/medication/index.cfm).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$phx",
+		"ident": 17,
+		"order": 18,
+		"desc": "Biomedical Research and Regulation (http://www.hl7.org/Special/committees/rcrim/index.cfm).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$brr",
+		"ident": 18,
+		"order": 19,
+		"desc": "Structured Documents (http://www.hl7.org/Special/committees/structure/index.cfm).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sd",
+		"ident": 19,
+		"order": 20,
+		"desc": "Security (http://www.hl7.org/Special/committees/secure/index.cfm).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$sec",
+		"ident": 20,
+		"order": 21,
+		"desc": "US Realm Taskforce (http://www.hl7.org/Special/committees/usrealm/index.cfm).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$us",
+		"ident": 21,
+		"order": 22,
+		"desc": "Vocabulary (http://www.hl7.org/Special/committees/Vocab/index.cfm).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$vocab",
+		"ident": 22,
+		"order": 23,
+		"desc": "Application Implementation and Design (http://www.hl7.org/Special/committees/java/index.cfm).",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$aid",
+		"ident": 23,
+		"order": 24,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]
