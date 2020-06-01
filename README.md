@@ -72,51 +72,70 @@ The individual application needs to implement its own subclass to make things wo
 Sample Code
 
 ```
-		Do code method fhir_r4.csGenderIdentity/$female Returns pFHIRPatient.$gender
-	Else
-		Do code method fhir_r4.csGenderIdentity/$unknown Returns pFHIRPatient.$gender
-	End If
-	;  adress
-	Calculate address as pFHIRPatient.$addaddress()
-	Calculate address.$use as 'home'
-	If pNativePatient.PATIENT_CO<>''
-		Do address.$addline(pNativePatient.PATIENT_CO)
-	End If
-	Do address.$addline(pNativePatient.PATIENT_STREET)
-	Calculate address.$city as pNativePatient.PATIENT_CITY
-	Calculate address.$postalCode as pNativePatient.PATIENT_ZIP
-	Calculate address.$country as 'CH'
-	;  telecom
-	If pNativePatient.PATIENT_MOBILE<>''
-		Calculate telecom as pFHIRPatient.$addtelecom()
-		Calculate telecom.$use as 'mobile'
-		Calculate telecom.$system as 'phone'
-		Calculate telecom.$value as pNativePatient.PATIENT_MOBILE
-	End If
-	If pNativePatient.PATIENT_PHONE<>''
-		Calculate telecom as pFHIRPatient.$addtelecom()
-		Calculate telecom.$use as 'home'
-		Calculate telecom.$system as 'phone'
-		Calculate telecom.$value as pNativePatient.PATIENT_PHONE
-	End If
-	If pNativePatient.PATIENT_PHONE2<>''
-		Calculate telecom as pFHIRPatient.$addtelecom()
-		Calculate telecom.$use as 'home'
-		Calculate telecom.$system as 'phone'
-		Calculate telecom.$value as pNativePatient.PATIENT_PHONE2
-	End If
-	If pNativePatient.PATIENT_WORK<>''
-		Calculate telecom as pFHIRPatient.$addtelecom()
-		Calculate telecom.$use as 'work'
-		Calculate telecom.$system as 'phone'
-		Calculate telecom.$value as pNativePatient.PATIENT_WORK
-	End If
-	If pNativePatient.PATIENT_EMAIL<>''
-		Calculate telecom as pFHIRPatient.$addtelecom()
-		Calculate telecom.$use as 'mobile'
-		Calculate telecom.$system as 'email'
-		Calculate telecom.$value as pNativePatient.PATIENT_EMAIL
-	End If
+Calculate identifier as pFHIRPatient.$addidentifier()
+Calculate identifier.$use as 'usual'
+Calculate identifier.$system as con("http://www.medicalconcept.com/",tApp.$getserialid())
+Calculate identifier.$value as pNativePatient.PATIENT_SEQ
+Calculate codeableConcept as identifier.$::type()
+Calculate coding as codeableConcept.$addcoding()
+Calculate coding.$system as "http://terminology.hl7.org/CodeSystem/v2-0203"
+Calculate coding.$code as "MR"
+;  name
+Calculate name as pFHIRPatient.$addname()
+Calculate name.$use as 'official'
+Calculate name.$family as pNativePatient.$lastname()
+Do name.$addGiven(pNativePatient.$firstname())
+;  birth
+Calculate pFHIRPatient.$birthDate as pNativePatient.PATIENT_GEBURT
+;  TODO: add death date
+;  gender
+If pNativePatient.PATIENT_SEX="M"
+	Do code method fhir_r4.csGenderIdentity/$male Returns pFHIRPatient.$gender
+Else If pNativePatient.PATIENT_SEX="F"
+	Do code method fhir_r4.csGenderIdentity/$female Returns pFHIRPatient.$gender
+Else
+	Do code method fhir_r4.csGenderIdentity/$unknown Returns pFHIRPatient.$gender
+End If
+;  adress
+Calculate address as pFHIRPatient.$addaddress()
+Calculate address.$use as 'home'
+If pNativePatient.PATIENT_CO<>''
+	Do address.$addline(pNativePatient.PATIENT_CO)
+End If
+Do address.$addline(pNativePatient.PATIENT_STREET)
+Calculate address.$city as pNativePatient.PATIENT_CITY
+Calculate address.$postalCode as pNativePatient.PATIENT_ZIP
+Calculate address.$country as 'CH'
+;  telecom
+If pNativePatient.PATIENT_MOBILE<>''
+	Calculate telecom as pFHIRPatient.$addtelecom()
+	Calculate telecom.$use as 'mobile'
+	Calculate telecom.$system as 'phone'
+	Calculate telecom.$value as pNativePatient.PATIENT_MOBILE
+End If
+If pNativePatient.PATIENT_PHONE<>''
+	Calculate telecom as pFHIRPatient.$addtelecom()
+	Calculate telecom.$use as 'home'
+	Calculate telecom.$system as 'phone'
+	Calculate telecom.$value as pNativePatient.PATIENT_PHONE
+End If
+If pNativePatient.PATIENT_PHONE2<>''
+	Calculate telecom as pFHIRPatient.$addtelecom()
+	Calculate telecom.$use as 'home'
+	Calculate telecom.$system as 'phone'
+	Calculate telecom.$value as pNativePatient.PATIENT_PHONE2
+End If
+If pNativePatient.PATIENT_WORK<>''
+	Calculate telecom as pFHIRPatient.$addtelecom()
+	Calculate telecom.$use as 'work'
+	Calculate telecom.$system as 'phone'
+	Calculate telecom.$value as pNativePatient.PATIENT_WORK
+End If
+If pNativePatient.PATIENT_EMAIL<>''
+	Calculate telecom as pFHIRPatient.$addtelecom()
+	Calculate telecom.$use as 'mobile'
+	Calculate telecom.$system as 'email'
+	Calculate telecom.$value as pNativePatient.PATIENT_EMAIL
 End If
 ```
 
