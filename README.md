@@ -87,7 +87,6 @@ Calculate name.$family as pNativePatient.$lastname()
 Do name.$addGiven(pNativePatient.$firstname())
 ;  birth
 Calculate pFHIRPatient.$birthDate as pNativePatient.PATIENT_GEBURT
-;  TODO: add death date
 ;  gender
 If pNativePatient.PATIENT_SEX="M"
 	Do code method fhir_r4.csGenderIdentity/$male Returns pFHIRPatient.$gender
