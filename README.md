@@ -9,9 +9,9 @@ For the Client Libraries Omnis Studio 8.1.7 is required, for the Server Librarie
 The following versions of the specifications are supported in respectively named libraries
 |Spec version|Library file name|Library default name|Name for Context construction
 |---|---|---|---|
-|[STU3][stu3-spec]|`fhir_stu3.lbs`|`fhir_stu3`|`STU3'|
-|[R4][r4-spec]|`fhir_r4.lbs`|`fhir_r4`|`R4'|
-|[R5 Draft][r5-draftspec]|`fhir_r5.lbs`|`fhir_r5`|`R5'|
+|[STU3][stu3-spec]|`fhir_stu3.lbs`|`fhir_stu3`|`STU3`|
+|[R4][r4-spec]|`fhir_r4.lbs`|`fhir_r4`|`R4`|
+|[R5 Draft][r5-draftspec]|`fhir_r5.lbs`|`fhir_r5`|`R5`|
 
 They all need the base library `fhir.lbs` to be present.
 
