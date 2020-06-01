@@ -93,19 +93,19 @@ Sample Code
 		Calculate telecom.$system as 'phone'
 		Calculate telecom.$value as pNativePatient.PATIENT_MOBILE
 	End If
-	If pNativePatient.PATIENT_TEL<>''
+	If pNativePatient.PATIENT_PHONE<>''
 		Calculate telecom as pFHIRPatient.$addtelecom()
 		Calculate telecom.$use as 'home'
 		Calculate telecom.$system as 'phone'
 		Calculate telecom.$value as pNativePatient.PATIENT_PHONE
 	End If
-	If pNativePatient.PATIENT_TEL2<>''
+	If pNativePatient.PATIENT_PHONE2<>''
 		Calculate telecom as pFHIRPatient.$addtelecom()
 		Calculate telecom.$use as 'home'
 		Calculate telecom.$system as 'phone'
 		Calculate telecom.$value as pNativePatient.PATIENT_PHONE2
 	End If
-	If pNativePatient.PATIENT_TELG<>''
+	If pNativePatient.PATIENT_WORK<>''
 		Calculate telecom as pFHIRPatient.$addtelecom()
 		Calculate telecom.$use as 'work'
 		Calculate telecom.$system as 'phone'
