@@ -53,11 +53,11 @@ For the truly brave: you can also recreate the version specific libraries from t
 
 ## References
 
-[fhir-spec]: http://www.hl7.org/fhir
-[dstu2-spec]: http://hl7.org/fhir/DSTU2/index.html
-[stu3-spec]: http://www.hl7.org/fhir
-[r4-spec]: http://hl7.org/fhir/R4/index.html
-[r5-spec]: http://hl7.org/fhir/R5/index.html
-[fhirpath-spec]: http://hl7.org/fhirpath/
+[fhir-spec]: https://hl7.org/fhir/
+[dstu2-spec]: https://hl7.org/fhir/DSTU2/index.html
+[stu3-spec]: https://hl7.org/fhir/STU3/index.html
+[r4-spec]: https://hl7.org/fhir/R4/index.html
+[r5-spec]: https://hl7.org/fhir/R5/index.html
+[fhirpath-spec]: https://hl7.org/fhirpath/
 
-[omnis-studio]: http://www.omnis.net
+[omnis-studio]: https://www.omnis.net
